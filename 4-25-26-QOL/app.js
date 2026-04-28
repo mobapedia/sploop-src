@@ -1198,6 +1198,7 @@ function i(t) {
           n.$c();
         }
         function st() {
+          debugger;
           if (X() >= 100) {
             const n = s + "changename?nickname=" + L.value + "&mail=" + I.Yc + "&token=" + I.Zc;
             __MUTATEQQo.request(n, gt);
