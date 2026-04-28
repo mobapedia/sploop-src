@@ -8448,9 +8448,15 @@ function i(t) {
           br(10);
           br(11);
         }
-        if (n === Qt[_t] && !Ft[n] || n === Qt[Mt] && !Ft[n]) {
+        //EDIT
+        if (n === Qt[_t] && !Ft[n] && n !== Qt[Mt]) { // custom key if custom key is not KeyR
           br(4);
+        } else if (n === Qt[_t] && !Ft[n] || n === Qt[Mt] && !Ft[n]) { // KeyR and when custom key is KeyR
+          if (!t.ctrlKey && !t.metaKey) {
+            br(4);
+          }
         }
+        //END EDIT
         if (n === Qt[kt] && !Ft[n]) {
           br(5);
         }
