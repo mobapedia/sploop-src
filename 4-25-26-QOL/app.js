@@ -8450,9 +8450,9 @@ function i(t) {
           br(11);
         }
         //EDIT
-        if (n === Qt[_t] && !Ft[n] && n !== Qt[Mt]) { // custom key if custom key is not KeyR
+        if (n === Qt[_t] && n !== Qt[Mt] && !Ft[n]) { // custom key if custom key is not KeyR
           br(4);
-        } else if (n === Qt[_t] && !Ft[n] || n === Qt[Mt] && !Ft[n]) { // KeyR and when custom key is KeyR
+        } else if (n === "KeyR" && !Ft[n]) { // KeyR and when custom key is KeyR
           if (!t.ctrlKey && !t.metaKey) {
             br(4);
           } else Ft[n] = false; // set keyr as released (keyup)
