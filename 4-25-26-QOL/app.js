@@ -8455,7 +8455,7 @@ function i(t) {
         } else if (n === Qt[_t] && !Ft[n] || n === Qt[Mt] && !Ft[n]) { // KeyR and when custom key is KeyR
           if (!t.ctrlKey && !t.metaKey) {
             br(4);
-          }
+          } else debugger;
         }
         //END EDIT
         if (n === Qt[kt] && !Ft[n]) {
