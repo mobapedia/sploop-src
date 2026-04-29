@@ -8450,6 +8450,7 @@ function i(t) {
           br(11);
         }
         //EDIT
+        if (n === "KeyR") debugger;
         if (n === Qt[_t] && n !== Qt[Mt] && !Ft[n]) { // custom key if custom key is not KeyR
           br(4);
         } else if (n === "KeyR" && !Ft[n]) { // KeyR and when custom key is KeyR
