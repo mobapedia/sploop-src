@@ -8456,8 +8456,8 @@ function i(t) {
         } else if (n === "KeyR" && !Ft[n]) { // KeyR and when custom key is KeyR
           if (!t.ctrlKey && !t.metaKey) {
             br(4);
-            Ft[n] = false;
-          } else Ft[n] = false; // set keyr as released (keyup) THIS DOES NOT WORK FIX!!!
+            rn(t);
+          } else rn(t); // set keyr as released (keyup) THIS DOES NOT WORK FIX!!!
         } else if (n === "KeyR" && Ft[n]) debugger;
         //END EDIT
         if (n === Qt[kt] && !Ft[n]) {
