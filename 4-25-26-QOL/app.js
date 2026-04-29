@@ -8450,7 +8450,6 @@ function i(t) {
           br(11);
         }
         //EDIT
-        if (n === "KeyR") debugger;
         if (n === Qt[_t] && n !== Qt[Mt] && !Ft[n]) { // custom key if custom key is not KeyR
           br(4);
         } else if (n === "KeyR" && !Ft[n]) { // KeyR and when custom key is KeyR
@@ -8458,7 +8457,7 @@ function i(t) {
             br(4);
             rn(t);
           } else rn(t); // set keyr as released (keyup) THIS DOES NOT WORK FIX!!!
-        } else if (n === "KeyR" && Ft[n]) debugger;
+        }
         //END EDIT
         if (n === Qt[kt] && !Ft[n]) {
           br(5);
