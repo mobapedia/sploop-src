@@ -8408,6 +8408,7 @@ function i(t) {
     let nn = 0;
     let en = false;
     function on(t) {
+      let fakeKeyUp = false;
       const n = t.code;
       if ((ee || oe || re) && n === Qt[St] && !Ft[n]) {
         if (ee) {
@@ -8455,8 +8456,10 @@ function i(t) {
         } else if (n === "KeyR" && !Ft[n]) { // KeyR and when custom key is KeyR
           if (!t.ctrlKey && !t.metaKey) {
             br(4);
-            rn(t);
-          } else rn(t); // set keyr as released (keyup) THIS DOES NOT WORK FIX!!!
+          } else {
+            Ft[n] = false; // set keyr as released (keyup) THIS DOES NOT WORK FIX!!!
+            fakeKeyUp = true
+          }
         }
         //END EDIT
         if (n === Qt[kt] && !Ft[n]) {
@@ -8491,7 +8494,7 @@ function i(t) {
         if (n === Qt[wt] || n === Qt[Ct]) {
           Kt |= 2;
         }
-        Ft[n] = true;
+        !fakeKeyUp?Ft[n]=true:false;
       }
     }
     function rn(t) {
