@@ -1,5 +1,6 @@
 //ce24aad432e941d102c3.js
-//update
+//!! - bugs or potential bugs
+//EDIT n, END EDIT n - deviations from original source code
 function i(t) {
   function n(t) {
     if (typeof t == "string") {
@@ -8408,7 +8409,10 @@ function i(t) {
     let nn = 0;
     let en = false;
     function on(t) {
-      let fakeKeyUp = false;
+      //EDIT 1
+      //
+      let fakeKeyup = false;
+      //END EDIT 1
       const n = t.code;
       if ((ee || oe || re) && n === Qt[St] && !Ft[n]) {
         if (ee) {
@@ -8450,18 +8454,19 @@ function i(t) {
           br(10);
           br(11);
         }
-        //EDIT
+        //EDIT 2
+        //too complicated im lazy
         if (n === Qt[_t] && n !== Qt[Mt] && !Ft[n]) { // custom key if custom key is not KeyR
           br(4);
         } else if (n === "KeyR" && !Ft[n]) { // KeyR and when custom key is KeyR
           if (!t.ctrlKey && !t.metaKey) {
             br(4);
           } else {
-            Ft[n] = false; // set keyr as released (keyup) THIS DOES NOT WORK FIX!!!
-            fakeKeyUp = true
+            Ft[n] = false; // set KeyR as released (keyup)
+            fakeKeyup = true; // dont set KeyR as down at the end of the function (!!might have side effects)
           }
         }
-        //END EDIT
+        //END EDIT 2
         if (n === Qt[kt] && !Ft[n]) {
           br(5);
         }
@@ -8494,7 +8499,10 @@ function i(t) {
         if (n === Qt[wt] || n === Qt[Ct]) {
           Kt |= 2;
         }
-        !fakeKeyUp?Ft[n]=true:false;
+        //EDIT 3
+        //Ft[n] = true;
+        !fakeKeyup?Ft[n]=true:false;
+        //END EDIT 3
       }
     }
     function rn(t) {
