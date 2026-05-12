@@ -11291,5 +11291,6 @@ function i(t) {
     new Uint8Array(1000);
     //edit
     window.sendKey = br
+    window.equipItem = vr
   })();
 })();
