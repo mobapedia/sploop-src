@@ -11292,5 +11292,6 @@ function i(t) {
     //edit
     window.sendKey = br
     window.equipItem = vr
+    window.placeItem = gr
   })();
 })();
