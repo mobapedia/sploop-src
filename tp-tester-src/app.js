@@ -1,4 +1,5 @@
 //ce24aad432e941d102c3.js
+window.nomoreageupdates = false
 function i(t) {
   function n(t) {
     if (typeof t == "string") {
@@ -8746,6 +8747,10 @@ function i(t) {
         const e = Math.floor(b().Jf(this.Nd));
         this.xd.Od = Math.floor((b().Jf(this.Nd) - e) * 100) / 100;
         if (i !== e) {
+          if (e >= 10 && !window.nomoreageupdates) {
+            window.nomoreageupdates = true
+            window.onAge()
+          }
           this.Pd = b().If(this.Pd, "AGE " + e, 24, "#FFFFFF", "#222222");
         }
       },
