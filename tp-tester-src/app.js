@@ -11289,5 +11289,7 @@ function i(t) {
       oi(new Uint8Array([An().Yi.ge, t]));
     }
     new Uint8Array(1000);
+    //edit
+    window.sendKey = br
   })();
 })();
