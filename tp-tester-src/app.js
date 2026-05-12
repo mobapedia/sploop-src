@@ -11293,6 +11293,8 @@ function i(t) {
     window.sendKey = br
     window.equipItem = vr
     window.placeItem = gr
-    window.upgradeTo = wr
+    window.upgradeTo = function(t) {
+      oi(new Uint8Array([14, t]))
+    }
   })();
 })();
