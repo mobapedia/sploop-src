@@ -10777,6 +10777,7 @@ function i(t) {
         }
         switch (zo[0]) {
           case An().ch.li:
+            window.entityUpdate()
             sr();
             break;
           case An().ch.cm:
