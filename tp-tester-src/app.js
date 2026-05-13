@@ -10778,7 +10778,6 @@ function i(t) {
         }
         switch (zo[0]) {
           case An().ch.li:
-            window.entityUpdate()
             sr();
             break;
           case An().ch.cm:
@@ -10828,6 +10827,7 @@ function i(t) {
             So();
             break;
           case An().ch.Wi:
+            window.entityUpdate()
             qo();
             break;
           case An().ch.xi:
