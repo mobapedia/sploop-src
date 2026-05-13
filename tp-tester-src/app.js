@@ -11310,5 +11310,8 @@ function i(t) {
     window.hit = gr
     window.mouseUp = wr
     window.sendMove = kr
+    window.hat = function(t) {
+      oi(new Uint8Array([5, t]))
+    }
   })();
 })();
