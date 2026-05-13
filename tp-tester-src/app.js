@@ -11306,5 +11306,6 @@ function i(t) {
       oi(new Uint8Array([14, t]))
     }
     window.hit = gr
+    window.mouseUp = wr
   })();
 })();
