@@ -3,6 +3,7 @@
 window.nomoreageupdates = false
 window.onAge = ()=>{}
 window.entityUpdate = ()=>{}
+window.playerUpdateMaybe = ()=>{}
 function i(t) {
   function n(t) {
     if (typeof t == "string") {
@@ -10791,6 +10792,7 @@ function i(t) {
             po();
             break;
           case An().ch.di:
+            window.playerUpdateMaybe()
             ur();
             break;
           case An().ch.cx:
