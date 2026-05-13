@@ -3,7 +3,7 @@
 window.nomoreageupdates = false
 window.onAge = ()=>{}
 window.entityUpdate = ()=>{}
-window.playerUpdateMaybe = ()=>{}
+window.ontick = ()=>{}
 function i(t) {
   function n(t) {
     if (typeof t == "string") {
@@ -10792,7 +10792,6 @@ function i(t) {
             po();
             break;
           case An().ch.di:
-            window.playerUpdateMaybe()
             ur();
             break;
           case An().ch.cx:
@@ -11193,7 +11192,7 @@ function i(t) {
       }
     }
     function sr() {
-      console.log("tick")
+      window.ontick()
       const t = +new Date();
       for (let n = 1; n < Eo; n += 19) {
         const i = zo[n + 8];
