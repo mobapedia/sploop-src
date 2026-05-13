@@ -1,5 +1,6 @@
 //ce24aad432e941d102c3.js
 window.nomoreageupdates = false
+window.onAge = ()=>{}
 window.entityUpdate = ()=>{}
 function i(t) {
   function n(t) {
@@ -11303,5 +11304,6 @@ function i(t) {
     window.upgradeTo = function(t) {
       oi(new Uint8Array([14, t]))
     }
+    window.hit = gr
   })();
 })();
