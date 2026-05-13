@@ -1,5 +1,5 @@
 //ce24aad432e941d102c3.js
-//fuck jsdelivr1
+//fuck jsdelivr11
 window.nomoreageupdates = false
 window.onAge = ()=>{}
 window.entityUpdate = ()=>{}
