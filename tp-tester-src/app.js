@@ -11307,5 +11307,6 @@ function i(t) {
     }
     window.hit = gr
     window.mouseUp = wr
+    window.sendMove = kr
   })();
 })();
