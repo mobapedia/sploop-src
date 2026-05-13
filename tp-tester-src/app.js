@@ -1,5 +1,6 @@
 //ce24aad432e941d102c3.js
 window.nomoreageupdates = false
+window.entityUpdate = ()=>{}
 function i(t) {
   function n(t) {
     if (typeof t == "string") {
