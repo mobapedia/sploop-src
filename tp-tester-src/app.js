@@ -11210,6 +11210,8 @@ function i(t) {
 
          if (x !== previousCoords[0] && y !== previousCoords[1]) {
            window.coordsUpdate(x, y);
+           previousCoords[0] = x
+           previousCoords[1] = y
          }
        }
 
