@@ -11208,7 +11208,7 @@ function i(t) {
          const x = zo[n + 4] | zo[n + 5] << 8;
          const y = zo[n + 6] | zo[n + 7] << 8;
 
-         if (x !== previousCoords[0] && y !== previousCoords[1]) {
+         if (x !== previousCoords[0] || y !== previousCoords[1]) {
            window.coordsUpdate(x, y);
            previousCoords[0] = x
            previousCoords[1] = y
