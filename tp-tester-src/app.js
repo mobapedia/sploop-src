@@ -5840,7 +5840,9 @@ function i(t) {
         gl: function (t, n, i, e, o, c) {
           const a = n.ol;
           if (a.rl === r.sn) {
-            if (a.src === "https://sploop.io/img/skins/body0.png?v=1923912") window.coordsUpdate(i, e)
+            if (a.src === "https://sploop.io/img/skins/body0.png?v=1923912") {
+              window.coordsUpdate(i, e)
+            }
             t.drawImage(a, i, e, o || a.width, c || a.height);
           } else {
             n.ol = this.fl(n.src, n.ol);
