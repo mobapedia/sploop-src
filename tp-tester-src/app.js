@@ -11207,6 +11207,7 @@ function i(t) {
        if (e === Zi) {
          const x = zo[n + 4] | zo[n + 5] << 8;
          const y = zo[n + 6] | zo[n + 7] << 8;
+         console.log(x,y)
 
          if (x !== previousCoords[0] || y !== previousCoords[1]) {
            window.coordsUpdate(x, y);
