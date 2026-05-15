@@ -5840,9 +5840,9 @@ function i(t) {
         gl: function (t, n, i, e, o, c) {
           const a = n.ol;
           if (a.rl === r.sn) {
-            if (a.src === "https://sploop.io/img/skins/body0.png?v=1923912") {
+            /*if (a.src === "https://sploop.io/img/skins/body0.png?v=1923912") {
               window.coordsUpdate(i, e)
-            }
+            }*/
             t.drawImage(a, i, e, o || a.width, c || a.height);
           } else {
             n.ol = this.fl(n.src, n.ol);
@@ -11202,6 +11202,13 @@ function i(t) {
         const i = zo[n + 8];
         const e = zo[n + 2] | zo[n + 3] << 8;
         const o = zo[n + 10];
+
+       if (e === Zi) {
+         const x = zo[n + 4] | zo[n + 5] << 8;
+         const y = zo[n + 6] | zo[n + 7] << 8;
+         window.coordsUpdate(x, y);
+       }
+
         if (i & w().Cc) {
           C(e);
         } else {
