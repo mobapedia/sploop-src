@@ -5,6 +5,7 @@ window.onAge = ()=>{}
 window.entityUpdate = ()=>{}
 window.ontick = ()=>{}
 window.coordsUpdate = ()=>{}
+let previousCoords = []
 function i(t) {
   function n(t) {
     if (typeof t == "string") {
@@ -11206,7 +11207,10 @@ function i(t) {
        if (e === Zi) {
          const x = zo[n + 4] | zo[n + 5] << 8;
          const y = zo[n + 6] | zo[n + 7] << 8;
-         window.coordsUpdate(x, y);
+
+         if (x !== previousCoords[0] && y !== previousCoords[1]) {
+           window.coordsUpdate(x, y);
+         }
        }
 
         if (i & w().Cc) {
