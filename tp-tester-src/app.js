@@ -5,7 +5,8 @@ window.onAge = ()=>{}
 window.entityUpdate = ()=>{}
 window.ontick = ()=>{}
 window.coordsUpdate = ()=>{}
-window.noInterpolation = false
+window.noPosInterpolation = false
+window.noCamInterpolation = false
 let previousCoords = []
 function i(t) {
   function n(t) {
@@ -6080,8 +6081,8 @@ function i(t) {
     function y(t, n, i) {
       t.fh += n * 1000;
       const e = Math.min(1.71, t.fh / 171);
-      t.$u = window.noInterpolation?t.hh:(t.lh + (t.hh - t.lh) * e);
-      t.tf = window.noInterpolation?t.gh:(t.dh + (t.gh - t.dh) * e);
+      t.$u = window.noPosInterpolation?t.hh:(t.lh + (t.hh - t.lh) * e);
+      t.tf = window.noPosInterpolation?t.gh:(t.dh + (t.gh - t.dh) * e);
       if (t.Wa !== Zi && i <= t.wh && i >= t.ph) {
         let n = t.wh - t.ph;
         let e = (i - t.ph) / n;
@@ -9214,23 +9215,30 @@ function i(t) {
         this.Su = 0;
       };
       this.ja = function (t, n, i) {
-        i *= 1000;
-        let e = b().uf(this.$u, this.tf, t, n);
-        let o = b().ff(this.$u, this.tf, t, n);
-        let r = Math.min(e * 0.01 * i, e);
-        if (r > 0.01) {
-          this.$u += r * Math.cos(o);
-          this.tf += r * Math.sin(o);
-        } else {
+        if (window.noCamInterpolation) {
           this.$u = t;
           this.tf = n;
-        }
-        this.gu = t - this.$u | 0;
-        this.Su = n - this.tf | 0;
-        if (this.Lg !== -1 || window[this.xg] !== undefined || window[this.Sg] !== undefined || window[this.jg] !== undefined || window[this.Og] !== undefined) {
-          this.Dg++;
-          if (this.Dg >= 1000) {
-            this.$u = undefined;
+          this.gu = 0;
+          this.Su = 0;
+        } else {
+          i *= 1000;
+          let e = b().uf(this.$u, this.tf, t, n);
+          let o = b().ff(this.$u, this.tf, t, n);
+          let r = Math.min(e * 0.01 * i, e);
+          if (r > 0.01) {
+            this.$u += r * Math.cos(o);
+            this.tf += r * Math.sin(o);
+          } else {
+            this.$u = t;
+            this.tf = n;
+          }
+          this.gu = t - this.$u | 0;
+          this.Su = n - this.tf | 0;
+          if (this.Lg !== -1 || window[this.xg] !== undefined || window[this.Sg] !== undefined || window[this.jg] !== undefined || window[this.Og] !== undefined) {
+            this.Dg++;
+            if (this.Dg >= 1000) {
+              this.$u = undefined;
+            }
           }
         }
       };
