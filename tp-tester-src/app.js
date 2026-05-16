@@ -5,6 +5,7 @@ window.onAge = ()=>{}
 window.entityUpdate = ()=>{}
 window.ontick = ()=>{}
 window.coordsUpdate = ()=>{}
+window.noInterpolation = false
 let previousCoords = []
 function i(t) {
   function n(t) {
@@ -6079,8 +6080,8 @@ function i(t) {
     function y(t, n, i) {
       t.fh += n * 1000;
       const e = Math.min(1.71, t.fh / 171);
-      t.$u = t.lh + (t.hh - t.lh) * e;
-      t.tf = t.dh + (t.gh - t.dh) * e;
+      t.$u = window.noInterpolation?t.hh:(t.lh + (t.hh - t.lh) * e);
+      t.tf = window.noInterpolation?t.gh:(t.dh + (t.gh - t.dh) * e);
       if (t.Wa !== Zi && i <= t.wh && i >= t.ph) {
         let n = t.wh - t.ph;
         let e = (i - t.ph) / n;
