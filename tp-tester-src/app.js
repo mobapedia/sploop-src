@@ -9048,9 +9048,9 @@ function i(t) {
     function ui(t) {
       return t.map(t => String.fromCharCode(t)).join("");
     }
-    if (typeof EXTERNAL == "function") {
+    //if (typeof EXTERNAL == "function") {
       si = 8319363456098398;//W(EXTERNAL, GLOB);
-    }
+    //}
     const fi = new TextDecoder();
     const li = ui([119, 115, 115]);
     const hi = ui([119, 115]);
