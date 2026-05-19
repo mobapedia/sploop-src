@@ -6475,6 +6475,7 @@ function i(t) {
       var b = [function () {
         u(s(), function (t) {
           var n = T;
+          console.log(n)
           let i = function () {
             var i;
             var c;
@@ -6500,7 +6501,7 @@ function i(t) {
             s = i[3];
             T = [];
 //edit
-            /*T = new Proxy(T, {
+            T = new Proxy(T, {
               set(target, prop, value) {
                 if (prop !== 'length') {
                   if (typeof value.Oh === "string") {
@@ -6513,7 +6514,7 @@ function i(t) {
                 target[prop] = value;
                 return true;
               }
-            });*/
+            });
             
             f = 0;
             for (; f < a; f++) {
@@ -6730,22 +6731,6 @@ function i(t) {
       var v = new Float64Array(1);
       var m = new Uint8Array(v[o[5]]);
       var T = [];
-      //edit
-      debugger;
-      T = new Proxy(T, {
-              set(target, prop, value) {
-                if (prop !== 'length') {
-                  if (typeof value.Oh === "string") {
-                    if (value.Oh !== "info-panel-holder" && value.Oh !== "dist" && value.Oh !== "localStorage" && value.Oh !== "WebSocket" && value.Oh !== "webdriver" && value.Oh !== "Error" && value.Oh !== "stack" && value.Oh !== "includes" && value.Oh !== "userscript" && value.Oh !== "Function" && value.Oh !== "prototype" && value.Oh !== "toString") {
-                      console.log(`T[${prop}]`, value);
-                      debugger;
-                    }
-                  }
-                }
-                target[prop] = value;
-                return true;
-              }
-            });
       var _ = [];
       var M = [];
       var k = 0;
