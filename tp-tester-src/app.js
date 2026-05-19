@@ -6506,6 +6506,7 @@ function i(t) {
                   if (typeof value.Oh === "string") {
                     if (value.Oh !== "info-panel-holder" && value.Oh !== "dist" && value.Oh !== "localStorage" && value.Oh !== "WebSocket" && value.Oh !== "webdriver" && value.Oh !== "Error" && value.Oh !== "stack" && value.Oh !== "includes" && value.Oh !== "userscript" && value.Oh !== "Function" && value.Oh !== "prototype" && value.Oh !== "toString") {
                       console.log(`T[${prop}]`, value);
+                      debugger;
                     }
                   }
                 }
