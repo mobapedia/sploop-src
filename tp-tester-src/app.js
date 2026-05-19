@@ -6503,7 +6503,7 @@ function i(t) {
             T = new Proxy(T, {
               set(target, prop, value) {
                 if (prop !== 'length') {
-                  console.log(`Set ${prop} =`, value);
+                  if (typeof value.Oh === "string") console.log(`Set ${prop} =`, value);
                 }
                 target[prop] = value;
                 return true;
