@@ -6500,7 +6500,7 @@ function i(t) {
             s = i[3];
             T = [];
 //edit
-            T = new Proxy(T, {
+            n = new Proxy(n, {
               set(target, prop, value) {
                 if (prop !== 'length') {
                   if (typeof value.Oh === "string") {
