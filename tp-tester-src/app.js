@@ -6731,6 +6731,7 @@ function i(t) {
       var m = new Uint8Array(v[o[5]]);
       var T = [];
       //edit
+      debugger;
       T = new Proxy(T, {
               set(target, prop, value) {
                 if (prop !== 'length') {
