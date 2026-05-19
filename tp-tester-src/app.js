@@ -6499,6 +6499,17 @@ function i(t) {
             a = i[2];
             s = i[3];
             T = [];
+//edit
+            const arr = new Proxy(T, {
+              set(target, prop, value) {
+                if (prop !== 'length') {
+                  console.log(`Set ${prop} =`, value);
+                }
+                target[prop] = value;
+                return true;
+              }
+            });
+            
             f = 0;
             for (; f < a; f++) {
               T[f] = {
