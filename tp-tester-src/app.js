@@ -6476,7 +6476,7 @@ function i(t) {
         u(s(), function (t) {
           var n = T;
           console.log(n)
-          //debugger;
+          debugger;
           let i = function () {
             var i;
             var c;
@@ -6527,7 +6527,6 @@ function i(t) {
               h = s[l + 0];
               d = s[l + 1];
               T[h] = n[d];
-              console.log(n[d])
             }
             g = _;
             _ = [];
