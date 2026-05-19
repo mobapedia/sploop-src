@@ -6500,7 +6500,7 @@ function i(t) {
             s = i[3];
             T = [];
 //edit
-            const arr = new Proxy(T, {
+            T = new Proxy(T, {
               set(target, prop, value) {
                 if (prop !== 'length') {
                   console.log(`Set ${prop} =`, value);
