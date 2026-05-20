@@ -6420,29 +6420,30 @@ function i(t) {
     }
     let L = function n(i, e, o) {
       //edit
+      let depth = 0;
       function r(t) {
-    k = t;
-    A = true;
-    const isFn2 = (t === 2101);  // entered fn #2
-    if (isFn2) console.log('--- entering fn #2 ---');
-    return function () {
-        while (A) {
-            const pcBefore = k;
-            const op = s();
-            
-            if (isFn2) {
-                console.log(`pc=${pcBefore} op=${op}`,
-                            'M=', JSON.stringify(M.map(v => 
-                                typeof v === 'function' ? 'ƒ' : v)),
-                            'argstack=', [..._]);
-            }
-            
-            b[op]();
-        }
-        if (isFn2) console.log('--- exiting fn #2, return =', M[0], '---');
-        return M[0];
-    }();
-}
+          k = t;
+          A = true;
+          const myDepth = depth++;
+          const myStart = t;
+          console.log(' '.repeat(myDepth*2) + `>>> r(${t})  depth=${myDepth}`);
+          const result = function () {
+              while (A) {
+                  const pcBefore = k;
+                  const op = s();
+                  // log every op while we're inside the call from pc=769
+                  console.log(' '.repeat(myDepth*2) +
+                              `pc=${pcBefore} op=${op} k=${k} ` +
+                              `M[0..6]=${JSON.stringify(M.slice(0,7).map(v => 
+                                  typeof v === 'function' ? 'ƒ' : v))}`);
+                  b[op]();
+              }
+              return M[0];
+          }();
+          console.log(' '.repeat(myDepth*2) + `<<< r(${myStart}) = ${result}`);
+          depth--;
+          return result;
+      }
       function c() {
         //edit
         let target = i[k++] | i[k++] << 8 | i[k++] << 16 | i[k++] << 24;
