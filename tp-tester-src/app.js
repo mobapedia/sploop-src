@@ -6753,6 +6753,18 @@ function i(t) {
       }, function () {
         k = 0;
       }];
+//edit
+      const orig11 = b[11];
+b[11] = function() {
+    if (k === 770) {  // op byte was at 769, now k points to dst
+        const dst = i[k];
+        const fnReg = i[k+1];
+        const argCount = i[k+2]; // varint, but 1 fits in 1 byte
+        console.log('CALL at 769: dst=', dst, 'fn=M['+fnReg+']=', M[fnReg], 'args:', _);
+    }
+    return orig11.apply(this, arguments);
+};
+      
       var v = new Float64Array(1);
       var m = new Uint8Array(v[o[5]]);
       var T = [];
