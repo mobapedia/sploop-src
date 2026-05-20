@@ -6430,7 +6430,7 @@ b[11] = function() {
     const dst = i[k];
     const fnReg = i[k+1];
     if (k-1 === 769) {  // opcode byte was at 769
-        console.log('PC 769 CALL: function source =', M[fnReg].toString().slice(0, 200));
+        console.log('PC 769 CALL: function source: '); console.log(M[fnReg]);
         console.log('  args:', [..._]);
     }
     return orig11.apply(this, arguments);
