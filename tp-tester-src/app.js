@@ -6420,69 +6420,32 @@ function i(t) {
     }
     let L = function n(i, e, o) {
       //edit
-      let depth = 0;
-let traceActive = false;
-let traceLog = [];
-
-// Wrap every opcode handler ONCE, outside r
-b = b.map((handler, op) => function() {
-    if (traceActive) {
-        const pcBefore = k - 1; // s() already advanced past the opcode
-        const M_before = [...M];
-        handler();
-        // Find which register changed
-        let changedReg = -1;
-        let newValue;
-        for (let i = 0; i < M.length; i++) {
-            if (M[i] !== M_before[i]) {
-                changedReg = i;
-                newValue = M[i];
-                break;
+      function r(t) {
+        k = t;
+        A = true;
+        return function() {
+            while (A) {
+                const pcBefore = k;
+                const op = s();
+                const dstPeek = i[k]; // peek next byte (likely dest reg)
+                
+                if (dstPeek === 4) {
+                    console.log(`pc=${pcBefore} op=${op} writes to M[4]`);
+                }
+                
+                b[op]();
+                
+                if (dstPeek === 4) {
+                    console.log(`  M[4] is now:`, M[4]);
+                }
+                
+                if (pcBefore === 773) {
+                    debugger; // stop at the known write site
+                }
             }
-        }
-        traceLog.push({
-            pc: pcBefore,
-            op,
-            reg: changedReg,
-            value: typeof newValue === 'function' ? '<fn>' 
-                 : typeof newValue === 'object' && newValue !== null ? '<obj>'
-                 : newValue
-        });
-    } else {
-        handler();
+            return M[0];
+        }();
     }
-});
-
-function r(t) {
-    depth++;
-    const startedTraceHere = (depth === 2 && !traceActive);
-    
-    if (startedTraceHere) {
-        console.log('=== entered nested fn at bytecode offset:', t, '===');
-        traceActive = true;
-        traceLog = [];
-    }
-    
-    k = t;
-    A = true;
-    const result = function () {
-        while (A) {
-            var op = s();
-            b[op]();
-        }
-        return M[0];
-    }();
-    
-    if (startedTraceHere) {
-        traceActive = false;
-        console.log('=== nested fn returned:', result, '===');
-        console.log('full trace (' + traceLog.length + ' ops):');
-        console.table(traceLog);
-    }
-    
-    depth--;
-    return result;
-}
       function c() {
         //edit
         let target = i[k++] | i[k++] << 8 | i[k++] << 16 | i[k++] << 24;
