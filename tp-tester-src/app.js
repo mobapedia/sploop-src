@@ -6420,30 +6420,32 @@ function i(t) {
     }
     let L = function n(i, e, o) {
       //edit
-      let depth = 0;
       function r(t) {
-          k = t;
-          A = true;
-          const myDepth = depth++;
-          const myStart = t;
-          console.log(' '.repeat(myDepth*2) + `>>> r(${t})  depth=${myDepth}`);
-          const result = function () {
-              while (A) {
-                  const pcBefore = k;
-                  const op = s();
-                  // log every op while we're inside the call from pc=769
-                  console.log(' '.repeat(myDepth*2) +
-                              `pc=${pcBefore} op=${op} k=${k} ` +
-                              `M[0..6]=${JSON.stringify(M.slice(0,7).map(v => 
-                                  typeof v === 'function' ? 'ƒ' : v))}`);
-                  b[op]();
-              }
-              return M[0];
-          }();
-          console.log(' '.repeat(myDepth*2) + `<<< r(${myStart}) = ${result}`);
-          depth--;
-          return result;
-      }
+        k = t;
+        A = true;
+        return function() {
+            while (A) {
+                const pcBefore = k;
+                const op = s();
+                const dstPeek = i[k]; // peek next byte (likely dest reg)
+                
+                if (dstPeek === 4) {
+                    console.log(`pc=${pcBefore} op=${op} writes to M[4]`);
+                }
+                
+                b[op]();
+                
+                if (dstPeek === 4) {
+                    console.log(`  M[4] is now:`, M[4]);
+                }
+                
+                if (pcBefore === 773) {
+                    debugger; // stop at the known write site
+                }
+            }
+            return M[0];
+        }();
+    }
       function c() {
         //edit
         let target = i[k++] | i[k++] << 8 | i[k++] << 16 | i[k++] << 24;
