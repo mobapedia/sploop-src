@@ -6420,32 +6420,41 @@ function i(t) {
     }
     let L = function n(i, e, o) {
       //edit
-      function r(t) {
-        console.log(t)
+    let recording = false;
+    const traceBuf = [];
+    
+    function r(t) {
+        const wasRecording = recording;
+        if (t === 2101) {
+            recording = true;
+            traceBuf.length = 0;
+            traceBuf.push(`=== entering r(2101) ===`);
+            try {
+                traceBuf.push(`    args: ${JSON.stringify(Array.from(M[1] || []))}`);
+            } catch (e) {}
+        }
+        
         k = t;
         A = true;
-        return function() {
+        const result = (function () {
             while (A) {
-                const pcBefore = k;
-                const op = s();
-                const dstPeek = i[k]; // peek next byte (likely dest reg)
-                
-                if (dstPeek === 4) {
-                    console.log(`pc=${pcBefore} op=${op} writes to M[4]`);
-                }
-                
+                var op = s();
                 b[op]();
-                
-                if (dstPeek === 4) {
-                    console.log(`  M[4] is now:`, M[4]);
-                }
-                
-                if (pcBefore === 773) {
-                    debugger; // stop at the known write site
-                }
             }
             return M[0];
-        }();
+        })();
+        
+        if (t === 2101) {
+            try {
+                traceBuf.push(`=== r(2101) returned: ${JSON.stringify(result)} ===`);
+            } catch (e) {
+                traceBuf.push(`=== r(2101) returned: ${result} ===`);
+            }
+            console.log(traceBuf.join("\n"));
+            recording = wasRecording;
+        }
+        
+        return result;
     }
       function c() {
         //edit
@@ -6755,17 +6764,27 @@ function i(t) {
         k = 0;
       }];
 //edit
-      const orig11 = b[11];
-b[11] = function() {
-    if (k === 770) {  // op byte was at 769, now k points to dst
-        const dst = i[k];
-        const fnReg = i[k+1];
-        const argCount = i[k+2]; // varint, but 1 fits in 1 byte
-        console.log('CALL at 769: dst=', dst, 'fn=M['+fnReg+']=', M[fnReg], 'args:', _);
-        debugger;
+      // Wrap each opcode to log when recording
+const origB = b.slice();
+b = origB.map((h, op) => function() {
+    if (recording) {
+        const pc = k - 1;
+        const Mbefore = [...M];
+        const Tbefore = T.map(x => x?.Oh);
+        h();
+        const Mchanged = [];
+        for (let i = 0; i < Math.max(M.length, Mbefore.length); i++) {
+            if (M[i] !== Mbefore[i]) Mchanged.push(`M[${i}]=${JSON.stringify(M[i])?.slice(0,40)}`);
+        }
+        const Tchanged = [];
+        for (let i = 0; i < T.length; i++) {
+            if (T[i]?.Oh !== Tbefore[i]) Tchanged.push(`T[${i}].Oh=${JSON.stringify(T[i]?.Oh)?.slice(0,40)}`);
+        }
+        traceBuf.push(`  pc=${pc} op=${op} ${[...Mchanged, ...Tchanged].join(' ')}`);
+    } else {
+        h();
     }
-    return orig11.apply(this, arguments);
-};
+});
       
       var v = new Float64Array(1);
       var m = new Uint8Array(v[o[5]]);
