@@ -6425,6 +6425,17 @@ function i(t) {
         A = true;
         return function() {
             while (A) {
+const orig11 = b[11];
+b[11] = function() {
+    const dst = i[k];
+    const fnReg = i[k+1];
+    if (k-1 === 769) {  // opcode byte was at 769
+        console.log('PC 769 CALL: function source =', M[fnReg].toString().slice(0, 200));
+        console.log('  args:', [..._]);
+    }
+    return orig11.apply(this, arguments);
+};
+              
                 const pcBefore = k;
                 const op = s();
                 const dstPeek = i[k]; // peek next byte (likely dest reg)
