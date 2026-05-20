@@ -6427,7 +6427,7 @@ function i(t) {
             while (A) {
                 const pcBefore = k;
                 const op = s();
-                const dstPeek = i[k]; // peek next byte (likely dest reg)
+                const dstPeek = i[k]; // peek next byte
                 
                 if (dstPeek === 4) {
                     console.log(`pc=${pcBefore} op=${op} writes to M[4]`);
@@ -6438,7 +6438,18 @@ function i(t) {
                 if (dstPeek === 4) {
                     console.log(`  M[4] is now:`, M[4]);
                 }
-                
+
+if (pcBefore === 769) {
+    // op 11 layout: opcode(1) dstReg(1) fnReg(1) argcount(varint)
+    const fnReg = i[k+1];
+    console.log('op 11 at pc=769:');
+    console.log('  fnReg index =', fnReg);
+    console.log('  M[fnReg] =', M[fnReg]);
+    console.log('  function source:', M[fnReg]?.toString());
+    console.log('  argstack before call:', [..._]);
+    debugger;
+}
+              
                 if (pcBefore === 773) {
                     debugger; // stop at the known write site
                 }
