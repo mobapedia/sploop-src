@@ -6424,6 +6424,21 @@ function i(t) {
         A = true;
         return function () {
           while (A) {
+//edit
+            const orig1 = b[1];
+b[1] = function() {
+    // Peek the next 5 bytes WITHOUT consuming them
+    const slotIdx = i[k] | (i[k+1]<<8) | (i[k+2]<<16) | (i[k+3]<<24);
+    const srcReg  = i[k+4];
+    if (slotIdx === 13) {
+        console.log('WRITE to slot 13 at pc=', k-1,
+                    'from M[', srcReg, ']=', M[srcReg],
+                    'caller:', new Error().stack);
+        debugger;
+    }
+    return orig1.apply(this, arguments);
+};
+            
             var t = s();
             b[t]();
           }
