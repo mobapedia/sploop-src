@@ -6421,37 +6421,28 @@ function i(t) {
     let L = function n(i, e, o) {
       //edit
       function r(t) {
-          k = t;
-          A = true;
-          return function () {
-              while (A) {
-                  const pcBefore = k;
-                  const op = s();
-                  
-                  if (pcBefore === 769) {
-                      const dst = i[k];
-                      const fnReg = i[k + 1];
-                      console.log('op 11 about to call:');
-                      console.log('  dst =', dst, ' fnReg =', fnReg);
-                      console.log('  M[fnReg] =', M[fnReg]);
-                      console.log('  source:', M[fnReg] && M[fnReg].toString());
-                      console.log('  argstack:', [..._]);
-                      console.log('  M snapshot:', [...M]);
-                      debugger;
-                  }
-                  
-                  const dstPeek = i[k];
-                  
-                  b[op]();
-                  
-                  if (dstPeek === 4) {
-                      console.log(`pc=${pcBefore} op=${op} M[4] =`, M[4]);
-                      debugger;
-                  }
-              }
-              return M[0];
-          }();
-      }
+    k = t;
+    A = true;
+    const isFn2 = (t === 2101);  // entered fn #2
+    if (isFn2) console.log('--- entering fn #2 ---');
+    return function () {
+        while (A) {
+            const pcBefore = k;
+            const op = s();
+            
+            if (isFn2) {
+                console.log(`pc=${pcBefore} op=${op}`,
+                            'M=', JSON.stringify(M.map(v => 
+                                typeof v === 'function' ? 'ƒ' : v)),
+                            'argstack=', [..._]);
+            }
+            
+            b[op]();
+        }
+        if (isFn2) console.log('--- exiting fn #2, return =', M[0], '---');
+        return M[0];
+    }();
+}
       function c() {
         //edit
         let target = i[k++] | i[k++] << 8 | i[k++] << 16 | i[k++] << 24;
