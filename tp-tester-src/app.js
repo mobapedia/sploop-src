@@ -6419,32 +6419,33 @@ function i(t) {
       });
     }
     let L = function n(i, e, o) {
+      //edit
       function r(t) {
         k = t;
         A = true;
-        return function () {
-          while (A) {
-//edit
-            const orig1 = b[1];
-b[1] = function() {
-    // Peek the next 5 bytes WITHOUT consuming them
-    const slotIdx = i[k] | (i[k+1]<<8) | (i[k+2]<<16) | (i[k+3]<<24);
-    const srcReg  = i[k+4];
-    if (slotIdx === 13) {
-        console.log('WRITE to slot 13 at pc=', k-1,
-                    'from M[', srcReg, ']=', M[srcReg],
-                    'caller:', new Error().stack);
-        debugger;
-    }
-    return orig1.apply(this, arguments);
-};
-            
-            var t = s();
-            b[t]();
-          }
-          return M[0];
+        return function() {
+            while (A) {
+                const pcBefore = k;
+                const op = s();
+                const dstPeek = i[k]; // peek next byte (likely dest reg)
+                
+                if (dstPeek === 4) {
+                    console.log(`pc=${pcBefore} op=${op} writes to M[4]`);
+                }
+                
+                b[op]();
+                
+                if (dstPeek === 4) {
+                    console.log(`  M[4] is now:`, M[4]);
+                }
+                
+                if (pcBefore === 773) {
+                    debugger; // stop at the known write site
+                }
+            }
+            return M[0];
         }();
-      }
+    }
       function c() {
         //edit
         let target = i[k++] | i[k++] << 8 | i[k++] << 16 | i[k++] << 24;
