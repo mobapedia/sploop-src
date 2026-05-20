@@ -6421,42 +6421,36 @@ function i(t) {
     let L = function n(i, e, o) {
       //edit
       function r(t) {
-        k = t;
-        A = true;
-        return function() {
-            while (A) {
-                const pcBefore = k;
-                const op = s();
-                const dstPeek = i[k]; // peek next byte
-                
-                if (dstPeek === 4) {
-                    console.log(`pc=${pcBefore} op=${op} writes to M[4]`);
-                }
-                
-                b[op]();
-                
-                if (dstPeek === 4) {
-                    console.log(`  M[4] is now:`, M[4]);
-                }
-
-if (pcBefore === 769) {
-    // op 11 layout: opcode(1) dstReg(1) fnReg(1) argcount(varint)
-    const fnReg = i[k+1];
-    console.log('op 11 at pc=769:');
-    console.log('  fnReg index =', fnReg);
-    console.log('  M[fnReg] =', M[fnReg]);
-    console.log('  function source:', M[fnReg]?.toString());
-    console.log('  argstack before call:', [..._]);
-    debugger;
-}
-              
-                if (pcBefore === 773) {
-                    debugger; // stop at the known write site
-                }
-            }
-            return M[0];
-        }();
-    }
+          k = t;
+          A = true;
+          return function () {
+              while (A) {
+                  const pcBefore = k;
+                  const op = s();
+                  
+                  if (pcBefore === 769) {
+                      const dst = i[k];
+                      const fnReg = i[k + 1];
+                      console.log('op 11 about to call:');
+                      console.log('  dst =', dst, ' fnReg =', fnReg);
+                      console.log('  M[fnReg] =', M[fnReg]);
+                      console.log('  source:', M[fnReg] && M[fnReg].toString());
+                      console.log('  argstack:', [..._]);
+                      console.log('  M snapshot:', [...M]);
+                      debugger;
+                  }
+                  
+                  const dstPeek = i[k];
+                  
+                  b[op]();
+                  
+                  if (dstPeek === 4) {
+                      console.log(`pc=${pcBefore} op=${op} M[4] =`, M[4]);
+                  }
+              }
+              return M[0];
+          }();
+      }
       function c() {
         //edit
         let target = i[k++] | i[k++] << 8 | i[k++] << 16 | i[k++] << 24;
