@@ -6761,6 +6761,7 @@ b[11] = function() {
         const fnReg = i[k+1];
         const argCount = i[k+2]; // varint, but 1 fits in 1 byte
         console.log('CALL at 769: dst=', dst, 'fn=M['+fnReg+']=', M[fnReg], 'args:', _);
+        debugger;
     }
     return orig11.apply(this, arguments);
 };
