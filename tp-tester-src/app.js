@@ -6431,7 +6431,13 @@ function i(t) {
         }();
       }
       function c() {
-        return i[k++] | i[k++] << 8 | i[k++] << 16 | i[k++] << 24;
+        //edit
+        let target = i[k++] | i[k++] << 8 | i[k++] << 16 | i[k++] << 24;
+        if (target === 13) {
+          console.log(b[target])
+          debugger;
+        }
+        return target;
       }
       function a() {
         let t = i[k++];
@@ -6502,7 +6508,7 @@ function i(t) {
             s = i[3];
             T = [];
 //edit
-            T = new Proxy(T, {
+            /*T = new Proxy(T, {
               set(target, prop, value) {
                 if (prop !== 'length') {
                   if (typeof value.Oh === "string") {
@@ -6515,7 +6521,7 @@ function i(t) {
                 target[prop] = value;
                 return true;
               }
-            });
+            });*/
             
             f = 0;
             for (; f < a; f++) {
@@ -6543,8 +6549,8 @@ function i(t) {
             y = w;
             k = v;
             T = c;
-            console.log(c)
-            debugger;
+            //console.log(c)
+            //debugger;
             M = B;
             A = true;
             if (b) {
