@@ -6446,6 +6446,7 @@ function i(t) {
                   
                   if (dstPeek === 4) {
                       console.log(`pc=${pcBefore} op=${op} M[4] =`, M[4]);
+                      debugger;
                   }
               }
               return M[0];
