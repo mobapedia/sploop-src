@@ -6788,13 +6788,13 @@ const origB = b.slice();
 b = origB.map((h, op) => function() {
     if (recording) {
         //log when opcode 1 is called with big string
-        const slot = i[k] | (i[k+1]<<8) | (i[k+2]<<16) | (i[k+3]<<24);
-        const src = i[k+4];
-        if (typeof M[src] === 'string' && M[src].startsWith('eyJ')) {
-            console.log('TOKEN stored to T[' + slot + '] at pc=' + (k-1));
-            console.trace();
-            debugger;
-        }
+       const slot = i[k] | (i[k+1]<<8) | (i[k+2]<<16) | (i[k+3]<<24);
+      const src = i[k+4];
+      if (typeof M[src] === 'string' && M[src].startsWith('eyJ')) {
+          console.log('eyJ-token WRITTEN to T['+slot+'] from M['+src+'] at pc='+(k-1));
+          console.trace();
+        debugger;
+      }
 
       //standard log shit
         const pc = k - 1;
