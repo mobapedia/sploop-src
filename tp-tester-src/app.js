@@ -6434,15 +6434,6 @@ function i(t) {
             } catch (e) {}
         }
 
-        if (t === 3008) {
-            recording = true;
-            traceBuf.length = 0;
-            traceBuf.push(`=== entering r(3008) ===`);
-            try {
-                traceBuf.push(`    args: ${JSON.stringify(Array.from(M[1] || []))}`);
-            } catch (e) {}
-        }
-
         if (t === 3459) {
             recording = true;
             traceBuf.length = 0;
@@ -6496,16 +6487,6 @@ function i(t) {
             recording = wasRecording;
         }
 
-      if (t === 3008) {
-            try {
-                traceBuf.push(`=== r(3008) returned: ${JSON.stringify(result)} ===`);
-            } catch (e) {
-                traceBuf.push(`=== r(3008) returned: ${result} ===`);
-            }
-            console.log(traceBuf.join("\n"));
-            recording = wasRecording;
-        }
-
         if (t === 3459) {
             try {
                 traceBuf.push(`=== r(3459) returned: ${JSON.stringify(result)} ===`);
@@ -6516,9 +6497,6 @@ function i(t) {
             recording = wasRecording;
         }
 
-          if (typeof result === 'string' && result.length === 16 && /^[A-Za-z0-9]+$/.test(result)) {
-            console.log(`r(${t}) returned 16-char string: "${result}"`);
-        }
         return result;
     }
       function c() {
@@ -6599,7 +6577,7 @@ function i(t) {
             s = i[3];
             T = [];
 //edit
-            /*T = new Proxy(T, {
+            T = new Proxy(T, {
               set(target, prop, value) {
                 if (prop !== 'length') {
                   if (typeof value.Oh === "string") {
@@ -6612,7 +6590,7 @@ function i(t) {
                 target[prop] = value;
                 return true;
               }
-            });*/
+            });
             
             f = 0;
             for (; f < a; f++) {
