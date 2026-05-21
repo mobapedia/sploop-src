@@ -6576,7 +6576,6 @@ function i(t) {
             a = i[2];
             s = i[3];
             T = [];
-            console.log(T)
 //edit
             /*T = new Proxy(T, {
               set(target, prop, value) {
@@ -6604,6 +6603,8 @@ function i(t) {
               d = s[l + 1];
               T[h] = n[d];
             }
+            //edit
+            console.log(T)
             g = _;
             _ = [];
             w = y;
