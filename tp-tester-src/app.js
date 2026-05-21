@@ -6447,8 +6447,32 @@ function i(t) {
         A = true;
         const result = (function () {
             while (A) {
+                //trace 1000-1130
+                const pcBefore = k;
                 var op = s();
-                b[op]();
+    
+                // PC-window trace: log every op executed in [100, 1130]
+                if (pcBefore >= 1000 && pcBefore <= 1130) {
+                    const Mbefore = [...M];
+                    const Tbefore = T.map(x => x?.Oh);
+                    b[op]();
+                    const changes = [];
+                    for (let j = 0; j < M.length; j++) {
+                        if (M[j] !== Mbefore[j]) {
+                            let v; try { v = typeof M[j] === 'function' ? 'ƒ' : JSON.stringify(M[j])?.slice(0,60); } catch(e){ v = String(M[j])?.slice(0,60); }
+                            changes.push(`M[${j}]=${v}`);
+                        }
+                    }
+                    for (let j = 0; j < T.length; j++) {
+                        if (T[j]?.Oh !== Tbefore[j]) {
+                            let v; try { v = typeof T[j].Oh === 'function' ? 'ƒ' : JSON.stringify(T[j].Oh)?.slice(0,60); } catch(e){ v = String(T[j]?.Oh)?.slice(0,60); }
+                            changes.push(`T[${j}].Oh=${v}`);
+                        }
+                    }
+                    console.log(`pc=${pcBefore} op=${op}  ${changes.join('  ')}`);
+                } else {
+                    b[op]();
+                }
             }
             return M[0];
         })();
