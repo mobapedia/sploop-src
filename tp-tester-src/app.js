@@ -6474,6 +6474,9 @@ function i(t) {
                     b[op]();
                 }
             }
+            if (typeof M[0] === 'string' && M[0].length === 16 && /^[A-Za-z0-9]+$/.test(M[0])) {
+                console.log(`r(${t}) returned 16-char string: "${M[0]}"`);
+            }
             return M[0];
         })();
         
