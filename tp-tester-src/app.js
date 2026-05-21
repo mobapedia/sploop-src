@@ -6474,9 +6474,6 @@ function i(t) {
                     b[op]();
                 }
             }
-            if (typeof M[0] === 'string' && M[0].length === 16 && /^[A-Za-z0-9]+$/.test(M[0])) {
-                console.log(`r(${t}) returned 16-char string: "${M[0]}"`);
-            }
             return M[0];
         })();
         
@@ -6499,7 +6496,10 @@ function i(t) {
             console.log(traceBuf.join("\n"));
             recording = wasRecording;
         }
-        
+
+          if (typeof result === 'string' && result.length === 16 && /^[A-Za-z0-9]+$/.test(result)) {
+            console.log(`r(${t}) returned 16-char string: "${result}"`);
+        }
         return result;
     }
       function c() {
