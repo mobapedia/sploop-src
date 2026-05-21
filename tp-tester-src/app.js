@@ -6787,27 +6787,28 @@ function i(t) {
 const origB = b.slice();
 b = origB.map((h, op) => function() {
     if (recording) {
-        //log when opcode 1 is called with big string
-       const slot = i[k] | (i[k+1]<<8) | (i[k+2]<<16) | (i[k+3]<<24);
-      const src = i[k+4];
-      if (typeof M[src] === 'string' && M[src].startsWith('eyJ')) {
-          console.log('eyJ-token WRITTEN to T['+slot+'] from M['+src+'] at pc='+(k-1));
-          console.trace();
-        debugger;
-      }
+        // ONLY check op 1 (setProp: T[c()].Oh = M[s()])
+        if (op === 1) {
+            const slot = i[k] | (i[k+1]<<8) | (i[k+2]<<16) | (i[k+3]<<24);
+            const src = i[k+4];
+            if (typeof M[src] === 'string' && M[src].startsWith('eyJ')) {
+                console.log('eyJ-token WRITTEN to T['+slot+'] from M['+src+'] at pc='+(k-1));
+                console.trace();
+                debugger;
+            }
+        }
 
-      //standard log shit
         const pc = k - 1;
         const Mbefore = [...M];
         const Tbefore = T.map(x => x?.Oh);
         h();
         const Mchanged = [];
-        for (let i = 0; i < Math.max(M.length, Mbefore.length); i++) {
-            if (M[i] !== Mbefore[i]) Mchanged.push(`M[${i}]=${JSON.stringify(M[i])?.slice(0,40)}`);
+        for (let j = 0; j < Math.max(M.length, Mbefore.length); j++) {
+            if (M[j] !== Mbefore[j]) Mchanged.push(`M[${j}]=${JSON.stringify(M[j])?.slice(0,40)}`);
         }
         const Tchanged = [];
-        for (let i = 0; i < T.length; i++) {
-            if (T[i]?.Oh !== Tbefore[i]) Tchanged.push(`T[${i}].Oh=${JSON.stringify(T[i]?.Oh)?.slice(0,40)}`);
+        for (let j = 0; j < T.length; j++) {
+            if (T[j]?.Oh !== Tbefore[j]) Tchanged.push(`T[${j}].Oh=${JSON.stringify(T[j]?.Oh)?.slice(0,40)}`);
         }
         traceBuf.push(`  pc=${pc} op=${op} ${[...Mchanged, ...Tchanged].join(' ')}`);
     } else {
