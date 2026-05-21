@@ -6426,6 +6426,7 @@ function i(t) {
     function r(t) {
         const wasRecording = recording;
         if (t === 2101) {
+          console.log("2101 called!")
             recording = true;
             traceBuf.length = 0;
             traceBuf.push(`=== entering r(2101) ===`);
@@ -6483,7 +6484,7 @@ function i(t) {
             } catch (e) {
                 traceBuf.push(`=== r(2101) returned: ${result} ===`);
             }
-            console.log(traceBuf.join("\n"));
+            //console.log(traceBuf.join("\n"));
             recording = wasRecording;
         }
 
@@ -6493,7 +6494,7 @@ function i(t) {
             } catch (e) {
                 traceBuf.push(`=== r(3459) returned: ${result} ===`);
             }
-            console.log(traceBuf.join("\n"));
+            //console.log(traceBuf.join("\n"));
             recording = wasRecording;
         }
 
@@ -6604,7 +6605,7 @@ function i(t) {
               T[h] = n[d];
             }
             //edit
-            console.log(T)
+            //console.log(T)
             g = _;
             _ = [];
             w = y;
