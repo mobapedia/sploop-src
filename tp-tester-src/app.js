@@ -6434,6 +6434,15 @@ function i(t) {
             } catch (e) {}
         }
 
+        if (t === 3008) {
+            recording = true;
+            traceBuf.length = 0;
+            traceBuf.push(`=== entering r(3008) ===`);
+            try {
+                traceBuf.push(`    args: ${JSON.stringify(Array.from(M[1] || []))}`);
+            } catch (e) {}
+        }
+
         if (t === 3459) {
             recording = true;
             traceBuf.length = 0;
@@ -6482,6 +6491,16 @@ function i(t) {
                 traceBuf.push(`=== r(2101) returned: ${JSON.stringify(result)} ===`);
             } catch (e) {
                 traceBuf.push(`=== r(2101) returned: ${result} ===`);
+            }
+            console.log(traceBuf.join("\n"));
+            recording = wasRecording;
+        }
+
+      if (t === 3008) {
+            try {
+                traceBuf.push(`=== r(3008) returned: ${JSON.stringify(result)} ===`);
+            } catch (e) {
+                traceBuf.push(`=== r(3008) returned: ${result} ===`);
             }
             console.log(traceBuf.join("\n"));
             recording = wasRecording;
