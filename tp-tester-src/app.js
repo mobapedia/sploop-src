@@ -6793,6 +6793,7 @@ b = origB.map((h, op) => function() {
         if (typeof M[src] === 'string' && M[src].startsWith('eyJ')) {
             console.log('TOKEN stored to T[' + slot + '] at pc=' + (k-1));
             console.trace();
+            debugger;
         }
 
       //standard log shit
