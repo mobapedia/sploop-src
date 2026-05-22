@@ -6424,17 +6424,21 @@ function i(t) {
     const traceBuf = [];
     
     function r(t) {
-if (M[1] && typeof M[1][0] === 'string' && M[1][0].length === 16 && /^[A-Za-z0-9]{16}$/.test(M[1][0])) {
-    // a function was just called with a 16-char string arg — likely the signer
-    console.log('possible signer: r(' + t + '), arg=', M[1][0]);
-}
-      
         const wasRecording = recording;
         if (t === 2101) {
           //console.log("2101 called!")
             recording = true;
             traceBuf.length = 0;
             traceBuf.push(`=== entering r(2101) ===`);
+            try {
+                traceBuf.push(`    args: ${JSON.stringify(Array.from(M[1] || []))}`);
+            } catch (e) {}
+        }
+
+      if (t === 2277) {
+            recording = true;
+            traceBuf.length = 0;
+            traceBuf.push(`=== entering r(2277) ===`);
             try {
                 traceBuf.push(`    args: ${JSON.stringify(Array.from(M[1] || []))}`);
             } catch (e) {}
@@ -6488,6 +6492,16 @@ if (M[1] && typeof M[1][0] === 'string' && M[1][0].length === 16 && /^[A-Za-z0-9
                 traceBuf.push(`=== r(2101) returned: ${JSON.stringify(result)} ===`);
             } catch (e) {
                 traceBuf.push(`=== r(2101) returned: ${result} ===`);
+            }
+            console.log(traceBuf.join("\n"));
+            recording = wasRecording;
+        }
+
+      if (t === 2277) {
+            try {
+                traceBuf.push(`=== r(2277) returned: ${JSON.stringify(result)} ===`);
+            } catch (e) {
+                traceBuf.push(`=== r(2277) returned: ${result} ===`);
             }
             console.log(traceBuf.join("\n"));
             recording = wasRecording;
