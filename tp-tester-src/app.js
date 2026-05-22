@@ -6817,7 +6817,7 @@ b = origB.map((h, op) => function() {
       if (op === 1) {
           const slot = i[k] | (i[k+1]<<8) | (i[k+2]<<16) | (i[k+3]<<24);
           const src = i[k+4];
-          if (typeof M[src] === 'string' && M[src].startsWith('eyJ')) {
+          if (M[src] === "2A7i0fDI0a0IfcTY") {//typeof M[src] === 'string' && M[src].startsWith('eyJ')) {
               console.log('eyJ-token WRITTEN to T['+slot+'] from M['+src+'] at pc='+(k-1));
               console.trace();
               debugger;
