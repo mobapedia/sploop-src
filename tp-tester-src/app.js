@@ -6424,6 +6424,11 @@ function i(t) {
     const traceBuf = [];
     
     function r(t) {
+if (M[1] && typeof M[1][0] === 'string' && M[1][0].length === 16 && /^[A-Za-z0-9]{16}$/.test(M[1][0])) {
+    // a function was just called with a 16-char string arg — likely the signer
+    console.log('possible signer: r(' + t + '), arg=', M[1][0]);
+}
+      
         const wasRecording = recording;
         if (t === 2101) {
           //console.log("2101 called!")
