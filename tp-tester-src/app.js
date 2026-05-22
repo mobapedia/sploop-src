@@ -6605,7 +6605,7 @@ function i(t) {
               T[h] = n[d];
             }
             //edit
-            //console.log(T)
+            console.log(T)
             g = _;
             _ = [];
             w = y;
