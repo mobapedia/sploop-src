@@ -11368,7 +11368,7 @@ b = origB.map((h, op) => function() {
          const y = zo[n + 6] | zo[n + 7] << 8;
 
          if (x !== previousCoords[0] || y !== previousCoords[1]) {
-           //console.log(x,y)
+           console.log(x,y)
            window.coordsUpdate(x, y);
            previousCoords[0] = x
            previousCoords[1] = y
