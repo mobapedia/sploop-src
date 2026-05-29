@@ -3,7 +3,6 @@
 window.nomoreageupdates = false
 window.onAge = ()=>{}
 window.entityUpdate = ()=>{}
-window.ontick = ()=>{}
 window.coordsUpdate = ()=>{}
 window.noPosInterpolation = false
 window.noCamInterpolation = false
@@ -11356,7 +11355,6 @@ b = origB.map((h, op) => function() {
       }
     }
     function sr() {
-      window.ontick()
       const t = +new Date();
       for (let n = 1; n < Eo; n += 19) {
         const i = zo[n + 8];
