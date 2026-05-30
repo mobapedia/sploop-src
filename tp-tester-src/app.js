@@ -10994,7 +10994,6 @@ b = origB.map((h, op) => function() {
             break;
           case An().ch.Wi:
             window.entityUpdate()
-            console.log(1234)
             qo();
             break;
           case An().ch.xi:
