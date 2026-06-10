@@ -7,6 +7,72 @@ window.coordsUpdate = ()=>{}
 window.noPosInterpolation = false
 window.noCamInterpolation = false
 let previousCoords = []
+
+window.entityIdSchema = {
+  "_meta": {
+    "description": "Entity-type IDs carried by opcode 20 (An().ch.li == 20 -> sr()). The type is the first byte of each 19-byte record (zo[n]), passed as arg 0 of z() and assigned to entity.type in D().",
+    "type_enum_source_module": 1917,
+    "type_enum_access": "l() i.e. __MUTATE0oo = e(1917)",
+    "warning": "l() (module 1917, entity types) and G() (module 6597, sprite IDs) are DIFFERENT enums that reuse the same two-letter key names with different numeric values. All numeric ids below are from l() / module 1917.",
+    "evidence_legend": {
+      "label": "literal display string in the file (Cn[l().X] in ko(), or Ta: title in the placement table, module 9299)",
+      "sprite": "sprite filename, from et() drawing _[l().X] with a fixed G() sprite -> P[G().X]=H.ed('filename')",
+      "render": "inferred from the dedicated render function / D() switch case (no literal string)"
+    },
+    "confidence_legend": {
+      "definitive": "tied to a literal gameplay/display string",
+      "strong": "tied to a literal sprite filename",
+      "inferred": "behavioral inference from render path only"
+    }
+  },
+  "entities": [
+    { "id": 0,  "key": "at", "name": "Player",            "evidence": "render", "confidence": "inferred",   "note": "_[l().at] drawn by lt(): body/arm/skin/hat/accessory/back + nickname, clan tag, rank, healthbar. Own player = Ii/Zi. Own D() switch case." },
+    { "id": 1,  "key": "st", "name": "Rock (stone)",       "evidence": "sprite", "confidence": "strong",     "note": "et(): ft(_[l().st], G().st); P[G().st]=ed('rock')." },
+    { "id": 2,  "key": "ax", "name": "Hard Spike",          "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Hard Spike', qu:r.ax; sprite G().ax=ed('hard_spike')." },
+    { "id": 3,  "key": "ay", "name": "Tree",                "evidence": "sprite", "confidence": "strong",     "note": "et() picks variant by i.rh (module 3970): S->tree(G().ay), L->cherry_tree(G().lo), O->palm_tree(G().Fo)." },
+    { "id": 4,  "key": "nt", "name": "Gold (mine)",         "evidence": "sprite", "confidence": "strong",     "note": "et(): ft(_[l().nt], G().nt); P[G().nt]=ed('gold')." },
+    { "id": 5,  "key": "ut", "name": "Bush / Berry farm",   "evidence": "label",  "confidence": "definitive", "note": "Placeable Ta:'Berry farm' qu:r.ut; natural bush sprite G().ut=ed('bush')." },
+    { "id": 6,  "key": "I",  "name": "Trap",                "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Trap', qu:r.I; sprite G().I=ed('trap')." },
+    { "id": 7,  "key": "ft", "name": "Spike",               "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Spike', qu:r.ft; sprite G().ft=ed('spike')." },
+    { "id": 8,  "key": "lt", "name": "Wood Wall",           "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Wood Wall', qu:r.lt; sprite G().lt=ed('wall')." },
+    { "id": 9,  "key": "ht", "name": "Platform",            "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Platform', qu:r.ht; sprite G().ht=ed('platform')." },
+    { "id": 10, "key": "K",  "name": "Boost",               "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Boost', qu:r.K; sprite G().K=ed('boost')." },
+    { "id": 11, "key": "dt", "name": "Lootbox",             "evidence": "sprite", "confidence": "strong",     "note": "et(): ft(_[l().dt], G().dt); P[G().dt]=ed('lootbox')." },
+    { "id": 12, "key": "gt", "name": "Projectile (bullet/arrow)", "evidence": "render", "confidence": "strong", "note": "et() renders _[l().gt] via ut() using e._h (weapon source) as sprite; moved by A() (active/range). D() sets active=true, range=0. Generic bullet G().gt=ed('bullet')." },
+    { "id": 13, "key": "wt", "name": "Windmill",            "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Windmill', qu:r.wt; drawn with windmill_base/top." },
+    { "id": 14, "key": "bt", "name": "Cow",                 "evidence": "label",  "confidence": "definitive", "note": "Cn[l().bt]=Ff('Cow'); sprite G().bt=ed('cow')." },
+    { "id": 15, "key": "vt", "name": "Cosy Bed",            "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Cosy Bed', qu:r.vt; sprite G().vt=ed('bed')." },
+    { "id": 16, "key": "Tt", "name": "Powermill",           "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Powermill', qu:r.Tt; shares windmill sprites." },
+    { "id": 17, "key": "_t", "name": "Castle Spike",        "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Castle Spike', qu:r._t; sprite G()._t=ed('big_spike')." },
+    { "id": 18, "key": "Mt", "name": "Turret",              "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Turret', qu:r.Mt; drawn with turret_base/top; D() gives it a fire state (Eh)." },
+    { "id": 19, "key": "kt", "name": "Wood farm",           "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Wood farm', qu:r.kt; sprite G().kt=ed('wood_farm')." },
+    { "id": 20, "key": "At", "name": "Cherry wood farm",    "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Cherry wood farm', qu:r.At; sprite G().At=ed('wood_farm_cherry')." },
+    { "id": 21, "key": "yt", "name": "Stone farm",          "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Stone farm', qu:r.yt; sprite G().yt=ed('stone_farm')." },
+    { "id": 22, "key": "Bt", "name": "Castle Wall",         "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Castle Wall', qu:r.Bt; sprite G().Bt=ed('castle_wall')." },
+    { "id": 23, "key": "Ut", "name": "Shark",               "evidence": "label",  "confidence": "definitive", "note": "Cn[l().Ut]=Ff('Shark'); sprite G().Ut=ed('shark')." },
+    { "id": 24, "key": "zt", "name": "Wolf",                "evidence": "label",  "confidence": "definitive", "note": "Cn[l().zt]=Ff('Wolf'); sprite G().zt=ed('wolf')." },
+    { "id": 25, "key": "Et", "name": "Golden Cow",          "evidence": "label",  "confidence": "definitive", "note": "Cn[l().Et]=Ff('Golden Cow'); sprite G().Et=ed('gcow'); boss event module 3424/9657 Et." },
+    { "id": 26, "key": "Ct", "name": "Roof",                "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Roof', qu:r.Ct; sprite G().Ct=ed('roof')." },
+    { "id": 27, "key": "Dt", "name": "Dragon",              "evidence": "label",  "confidence": "definitive", "note": "Cn[l().Dt]=Ff('Dragon'); multi-part sprite array G().Dt (dragon_2_body/wings/head); boss event Dt." },
+    { "id": 28, "key": "St", "name": "Mammoth",             "evidence": "label",  "confidence": "definitive", "note": "Cn[l().St]=Ff('Mammoth'); multi-part sprite array G().St (mammoth_tail/body/head); boss event St." },
+    { "id": 29, "key": "Lt", "name": "Fireball",            "evidence": "sprite", "confidence": "strong",     "note": "et(): st(_[l().Lt], G().Lt); P[G().Lt]=ed('fireball') (dragon projectile)." },
+    { "id": 30, "key": "xt", "name": "Chest",               "evidence": "sprite", "confidence": "strong",     "note": "et(): ft(_[l().xt], G().xt); P[G().xt]=ed('chest') (boss chest)." },
+    { "id": 31, "key": "Ot", "name": "Cave Stone 0",        "evidence": "sprite", "confidence": "strong",     "note": "et(): ft(_[l().Ot], G().Ot); P[G().Ot]=ed('cave_stone0')." },
+    { "id": 32, "key": "jt", "name": "Cave Stone 1",        "evidence": "sprite", "confidence": "strong",     "note": "et(): ft(_[l().jt], G().jt); P[G().jt]=ed('cave_stone1')." },
+    { "id": 33, "key": "Nt", "name": "Cave Stone 2",        "evidence": "sprite", "confidence": "strong",     "note": "et(): ft(_[l().Nt], G().Nt); P[G().Nt]=ed('cave_stone2')." },
+    { "id": 34, "key": "Wt", "name": "Ice 0",               "evidence": "sprite", "confidence": "strong",     "note": "et(): ft(_[l().Wt], G().Wt); P[G().Wt]=ed('ice0')." },
+    { "id": 35, "key": "Qt", "name": "Ice 1",               "evidence": "sprite", "confidence": "strong",     "note": "et(): ft(_[l().Qt], G().Qt); P[G().Qt]=ed('ice1')." },
+    { "id": 36, "key": "Ht", "name": "Duck",                "evidence": "label",  "confidence": "definitive", "note": "Cn[l().Ht]=Ff('Duck'); sprite G().Ht=ed('duck')." },
+    { "id": 37, "key": "Rt", "name": "Teleporter",          "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Teleporter', qu:r.Rt; sprite G().Rt=ed('teleporter')." },
+    { "id": 38, "key": "Gt", "name": "Cactus",              "evidence": "sprite", "confidence": "strong",     "note": "et(): ft(_[l().Gt], G().Gt); P[G().Gt]=ed('cactus')." },
+    { "id": 39, "key": "Vt", "name": "Tornado",             "evidence": "sprite", "confidence": "strong",     "note": "et(): st(_[l().Vt], G().Vt); P[G().Vt]=ed('tornado'); spins via Sh." },
+    { "id": 40, "key": "qt", "name": "Ruby (mine)",         "evidence": "sprite", "confidence": "strong",     "note": "et(): ft(_[l().qt], G().qt); P[G().qt]=ed('ruby')." },
+    { "id": 41, "key": "$",  "name": "Heal Pad",            "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Heal Pad', qu:r.$; sprite G().$=ed('heal_pad')." },
+    { "id": 42, "key": "Pt", "name": "Ice Spike",           "evidence": "label",  "confidence": "definitive", "note": "Placement table Ta:'Ice Spike', qu:r.Pt; sprite G().Pt=ed('ice_spike')." },
+    { "id": 43, "key": "Yt", "name": "Crocodile",           "evidence": "label",  "confidence": "definitive", "note": "Cn[l().Yt]=Ff('Crocodile'); sprite G().Yt=ed('crocodile')." }
+  ]
+}
+
 function i(t) {
   function n(t) {
     if (typeof t == "string") {
@@ -11377,6 +11443,9 @@ b = origB.map((h, op) => function() {
           C(e);
         } else {
           z(zo[n], e, zo[n + 1], zo[n + 8], zo[n + 4] | zo[n + 5] << 8, zo[n + 6] | zo[n + 7] << 8, b().Pf(zo[n + 9]), o, zo[n + 11], zo[n + 12], zo[n + 13], zo[n + 14], zo[n + 15], zo[n + 16], zo[n + 17], zo[n + 18], t);
+          if (zo[n] === 24) {
+            console.log("WOLF!")
+          }
         }
       }
     }
