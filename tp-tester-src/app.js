@@ -8456,6 +8456,8 @@ b = origB.map((h, op) => function() {
       _i.strokeStyle = "#FF0000";
       _i.lineWidth = 1;
       _i.stroke();
+
+      window.ctx = _i
     }
     function ht() {
       try {
