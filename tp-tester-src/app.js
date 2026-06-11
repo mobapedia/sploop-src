@@ -8444,11 +8444,11 @@ b = origB.map((h, op) => function() {
       }
       n.restore();
 
-      _i.beginPath();
+      /*_i.beginPath();
       _i.arc(t.$u, t.tf, 25, 0, Math.PI * 2);
       _i.strokeStyle = "rgba(255,0,0,0.5)";
       _i.lineWidth = 1;
-      _i.stroke();
+      _i.stroke();*/
 
       _i.beginPath();
       _i.moveTo(window.xx||160, 185);
