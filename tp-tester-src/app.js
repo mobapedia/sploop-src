@@ -8445,7 +8445,7 @@ b = origB.map((h, op) => function() {
       n.restore();
 
       _i.beginPath();
-      _i.arc(t.$u, t.tf, window.radius||25, 0, Math.PI * 2);
+      _i.arc(t.$u, t.tf, 25, 0, Math.PI * 2);
       _i.strokeStyle = "rgba(255,0,0,0.5)";
       _i.lineWidth = 1;
       _i.stroke();
@@ -8454,6 +8454,12 @@ b = origB.map((h, op) => function() {
       _i.moveTo(window.xx||160, 185);
       _i.lineTo(window.xx||160, 9815);
       _i.strokeStyle = "#FF0000";
+      _i.lineWidth = 1;
+      _i.stroke();
+
+      _i.beginPath();
+      _i.arc(window.customX||t.$u, window.customY||t.tf, window.customRadius||25, 0, Math.PI * 2);
+      _i.strokeStyle = "rgba(255,0,0,0.5)";
       _i.lineWidth = 1;
       _i.stroke();
 
