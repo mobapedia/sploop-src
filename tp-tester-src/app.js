@@ -8444,11 +8444,11 @@ b = origB.map((h, op) => function() {
       }
       n.restore();
 
-      /*_i.beginPath();
+      _i.beginPath();
       _i.arc(t.$u, t.tf, 25, 0, Math.PI * 2);
       _i.strokeStyle = "rgba(255,0,0,0.5)";
       _i.lineWidth = 1;
-      _i.stroke();*/
+      _i.stroke();
 
       _i.beginPath();
       _i.moveTo(window.xx||160, 185);
@@ -8456,23 +8456,16 @@ b = origB.map((h, op) => function() {
       _i.strokeStyle = "#FF0000";
       _i.lineWidth = 1;
       _i.stroke();
-
-
-      _i.beginPath();
-     _i.arc(5000, 5000, 50, 0, Math.PI * 2);
-     _i.strokeStyle = "red";
-     _i.lineWidth = 4;
-     _i.stroke();
-     _i.restore();
       
       window.customX=0
       window.customY=0
       window.customRadius=25
       _i.beginPath();
-      _i.arc(window.customX, window.customY, window.customRadius, 0, Math.PI * 2);
-      _i.strokeStyle = "rgba(255,0,0,0.5)";
-      _i.lineWidth = 1;
+      _i.arc(window.customX||5000, window.customY||5000, window.customRadius||50, 0, Math.PI * 2);
+      _i.strokeStyle = "red";
+      _i.lineWidth = 4;
       _i.stroke();
+      _i.restore();
 
       window.ctx = _i
     }
