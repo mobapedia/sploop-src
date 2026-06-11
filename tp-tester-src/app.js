@@ -8451,8 +8451,8 @@ b = origB.map((h, op) => function() {
       _i.stroke();
 
       _i.beginPath();
-      _i.moveTo(185, 185);
-      _i.lineTo(185, 9815);
+      _i.moveTo(window.xx||185, 185);
+      _i.lineTo(window.xx||185, 9815);
       _i.strokeStyle = "#FF0000";
       _i.lineWidth = 1;
       _i.stroke();
