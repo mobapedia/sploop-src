@@ -10509,13 +10509,11 @@ b = origB.map((h, op) => function() {
       } else {
         qn().es();
       }
-      window.customX=5000
-      window.customY=5000
-      window.customRadius=25
+      
       _i.save();
       _i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);   // re-enter world space
       _i.beginPath();
-      _i.arc(window.customX, window.customY, window.customRadius, 0, Math.PI * 2);
+      _i.arc(window.customX||5000, window.customY||5000, window.customRadius||25, 0, Math.PI * 2);
       _i.strokeStyle = "red";
       _i.lineWidth = 4;
       _i.stroke();
