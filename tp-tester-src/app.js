@@ -1,4 +1,4 @@
-//ce24aad432e941d102c3.js
+  //ce24aad432e941d102c3.js
 //fuck jsdelivr11111FYHASILFASDOUIF
 window.nomoreageupdates = false
 window.onAge = ()=>{}
@@ -8447,6 +8447,13 @@ b = origB.map((h, op) => function() {
       _i.beginPath();
       _i.arc(t.$u, t.tf, window.radius||10, 0, Math.PI * 2);
       _i.strokeStyle = "rgba(255,0,0,0.5)";
+      _i.lineWidth = 1;
+      _i.stroke();
+
+      _i.beginPath();
+      _i.moveTo(185, 185);
+      _i.lineTo(185, 9815);
+      _i.strokeStyle = "#FF0000";
       _i.lineWidth = 1;
       _i.stroke();
     }
