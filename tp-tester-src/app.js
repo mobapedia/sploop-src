@@ -8445,14 +8445,14 @@ b = origB.map((h, op) => function() {
       n.restore();
 
       _i.beginPath();
-      _i.arc(t.$u, t.tf, window.radius||10, 0, Math.PI * 2);
+      _i.arc(t.$u, t.tf, window.radius||25, 0, Math.PI * 2);
       _i.strokeStyle = "rgba(255,0,0,0.5)";
       _i.lineWidth = 1;
       _i.stroke();
 
       _i.beginPath();
-      _i.moveTo(window.xx||185, 185);
-      _i.lineTo(window.xx||185, 9815);
+      _i.moveTo(window.xx||160, 185);
+      _i.lineTo(window.xx||160, 9815);
       _i.strokeStyle = "#FF0000";
       _i.lineWidth = 1;
       _i.stroke();
@@ -11456,10 +11456,10 @@ b = origB.map((h, op) => function() {
           C(e);
         } else {
           z(zo[n], e, zo[n + 1], zo[n + 8], zo[n + 4] | zo[n + 5] << 8, zo[n + 6] | zo[n + 7] << 8, b().Pf(zo[n + 9]), o, zo[n + 11], zo[n + 12], zo[n + 13], zo[n + 14], zo[n + 15], zo[n + 16], zo[n + 17], zo[n + 18], t);
-          if (zo[n] === 24) {
+          if (zo[n] === 19) {
             const x = zo[n + 4] | zo[n + 5] << 8;
             const y = zo[n + 6] | zo[n + 7] << 8;
-            console.log("WOLF at: "+x+", "+y)
+            console.log("TREE FARM at: "+x+", "+y)
           }
         }
       }
