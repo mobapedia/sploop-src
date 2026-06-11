@@ -8457,6 +8457,14 @@ b = origB.map((h, op) => function() {
       _i.lineWidth = 1;
       _i.stroke();
 
+
+      _i.beginPath();
+     _i.arc(5000, 5000, 50, 0, Math.PI * 2);
+     _i.strokeStyle = "red";
+     _i.lineWidth = 4;
+     _i.stroke();
+     _i.restore();
+      
       window.customX=0
       window.customY=0
       window.customRadius=25
