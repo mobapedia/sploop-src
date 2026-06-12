@@ -13621,7 +13621,7 @@ b = origB.map((h, op) => function() {
         }
       }
       for (let i=0; i < Object.keys(entityUids).length; i++) {
-        toRender.push([x, y, radiusMap[entityUids[Object.keys(entityUids)[i]])
+        toRender.push([x, y, radiusMap[entityUids[Object.keys(entityUids)[i]]]])
       }
     }
     function ur() {
