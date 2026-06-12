@@ -12611,38 +12611,50 @@ b = origB.map((h, op) => function() {
       } else {
         qn().es();
       }
-
+      
+      _i.save();
+      _i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);   // re-enter world space
       _i.beginPath();
       _i.moveTo(160, 160);
       _i.lineTo(160, 9840);
       _i.strokeStyle = "#FF0000";
       _i.lineWidth = 1;
       _i.stroke();
-
+      _i.restore();
+      
+      _i.save();
+      _i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);   // re-enter world space
       _i.beginPath();
       _i.moveTo(160, 160);
       _i.lineTo(9840, 160);
       _i.strokeStyle = "#FF0000";
       _i.lineWidth = 1;
       _i.stroke();
+      _i.restore();
 
+      _i.save();
+      _i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);   // re-enter world space
       _i.beginPath();
       _i.moveTo(9840, 9840);
       _i.lineTo(160, 9840);
       _i.strokeStyle = "#FF0000";
       _i.lineWidth = 1;
       _i.stroke();
+     _i.restore();
 
+      _i.save();
+      _i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);   // re-enter world space
       _i.beginPath();
       _i.moveTo(9840, 9840);
       _i.lineTo(9840, 160);
       _i.strokeStyle = "#FF0000";
       _i.lineWidth = 1;
       _i.stroke();
+      _i.restore();
 
       for (let i=0; i < toRender.length; i++) {
         _i.save();
-        _i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);   // re-enter world space
+        _i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);
         _i.beginPath();
         _i.arc(toRender[i][0], toRender[i][1], toRender[i][2], 0, Math.PI * 2);
         _i.strokeStyle = "red";
@@ -13602,7 +13614,7 @@ b = origB.map((h, op) => function() {
           z(zo[n], e, zo[n + 1], zo[n + 8], zo[n + 4] | zo[n + 5] << 8, zo[n + 6] | zo[n + 7] << 8, b().Pf(zo[n + 9]), o, zo[n + 11], zo[n + 12], zo[n + 13], zo[n + 14], zo[n + 15], zo[n + 16], zo[n + 17], zo[n + 18], t);
           const x = zo[n + 4] | zo[n + 5] << 8;
           const y = zo[n + 6] | zo[n + 7] << 8;
-          toRender.push([x, y, idToCRMap[zo[n]]])
+          toRender.push([x, y, radiusMap[zo[n]]])
         }
       }
     }
