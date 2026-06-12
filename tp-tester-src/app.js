@@ -13615,7 +13615,7 @@ b = origB.map((h, op) => function() {
           z(zo[n], e, zo[n + 1], zo[n + 8], zo[n + 4] | zo[n + 5] << 8, zo[n + 6] | zo[n + 7] << 8, b().Pf(zo[n + 9]), o, zo[n + 11], zo[n + 12], zo[n + 13], zo[n + 14], zo[n + 15], zo[n + 16], zo[n + 17], zo[n + 18], t);
           const x = zo[n + 4] | zo[n + 5] << 8;
           const y = zo[n + 6] | zo[n + 7] << 8;
-          toRender.push[x, y, radiusMap[zo[n]]]
+          toRender.push([x, y, radiusMap[zo[n]]])
         }
       }
     }
