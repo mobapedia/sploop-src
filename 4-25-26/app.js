@@ -1,1 +1,11294 @@
-eval('!function EXTERNAL(GLOB){!function(){var S={3950:function(x){x.exports={T:1,_:2,M:4,k:8,A:16,B:32}},7160:function(x){x.exports={U:0,C:1,D:2}},3970:function(x){x.exports={S:0,L:1,O:2,j:3,N:4}},7262:function(x){x.exports={W:1,H:2,R:4,G:8,V:16,q:32,P:64,Y:128,Z:256,K:512,I:1024,F:2048,J:4096,X:8192,$:16384}},5599:function(x){x.exports={tt:0,nt:1}},9055:function(x){x.exports={W:0,it:1,et:2,as:3}},4071:function(x){const S=[];S[0]=["Sploop Classic",0,0],S[1]=["Yellow Classic",0,0],S[2]=["Brown Classic",0,0],S[3]=["Pink Classic",0,0],S[4]=["Blue Classic",0,0],S[5]=["Green Classic",0,0],S[6]=["White Cat",0,100],S[7]=["Ginger Cat",0,100],S[8]=["Pit Bull",0,150],S[9]=["Pig",0,100],S[10]=["Crocodile",0,200],S[11]=["Fox",0,200],S[12]=["Panda",0,300],S[13]=["Bear",0,300],S[14]=["Penguin",0,300],S[15]=["Cactus",0,400],S[16]=["Strawberry",0,800],S[17]=["Wolf",0,400],S[18]=["Mammoth",0,2e3],S[19]=["Golden Cow",0,3e3],S[20]=["Shark",0,1e3],S[21]=["Apple",0,200],S[22]=["Stone",0,500],S[23]=["Cave Stone",0,600],S[24]=["Ice",0,700],S[25]=["Gold",0,800],S[26]=["Cow",0,350],S[27]=["Dragon",0,5e3],S[28]=["Black Ice",0,1e3],S[29]=["Magma",0,1500],S[30]=["Kawak",0,2500],S[31]=["Snowman",0,400],S[32]=["Elf",0,1e3],S[33]=["Green Bauble",0,300],S[34]=["Red Bauble",0,300],S[35]=["Golden Bauble",0,800],S[36]=["Duck",0,300],S[37]=["Tornado",0,3e3],S[38]=["Golden Beetle",0,1500],S[39]=["Evil Bat",0,1500],S[40]=["Ghost",0,1500],S[41]=["Witch",0,1500],S[42]=["Reaper",0,1e4],S[43]=["Eye",0,3e3],S[44]=["Devil",0,5e3],S[45]=["Mummy",0,2e3],S[46]=["Pumpkin 1",0,500],S[47]=["Pumpkin 2",0,500],S[48]=["Pumpkin 3",0,500],S[49]=["Werewolf",0,3500],S[50]=["Monster",0,2500],S[51]=["Coffee cup 1",0,1e3],S[52]=["Bull",0,1500],S[53]=["Monkey",0,1500],S[54]=["Igloo",0,1e3],S[55]=["Holly",0,500],S[56]=["Chalet",0,2e3],S[57]=["Orange Heart",0,300],S[58]=["Yellow Heart",0,300],S[59]=["Green Heart",0,300],S[60]=["Pink Heart",0,300],S[61]=["Blue Heart",0,300],S[62]=["Mauve Heart",0,600],S[63]=["Red Heart",0,900],S[64]=["Skier 1",0,500],S[65]=["Skier 2",0,500],S[66]=["Skier 3",0,500],S[67]=["Deer",0,3e3],S[68]=["Snow Globe",0,3500],S[69]=["Christmas Star",0,1e3],S[70]=["Fir Tree",0,1500],S[71]=["Snow Flake",0,1e3],S[72]=["Yeti",0,2e3],S[73]=["Rabbit",0,1500],S[74]=["Penguin",0,2e3],S[75]=["Raven",0,1750],S[76]=["Polar Bear",0,1500],S[77]=["Leaf",0,500],S[78]=["Red Candle",0,750],S[79]=["Christmas Cake",0,1500],S[80]=["Waffle",0,2e4],S[81]=["Yellow Present",0,750],S[82]=["Purple Present",0,750],S[83]=["Red Present",0,750],S[84]=["Yellow Star",0,1e3],S[85]=["Angry Clown",0,2500],S[86]=["Moon",0,1e3],S[87]=["Cup",0,500],S[88]=["Ruby",0,7500],S[89]=["Computer",0,6e3],S[90]=["Avocado",0,500],S[91]=["Explosion",0,4e3],S[92]=["Chocolate Donut",0,1500],S[93]=["Vanilla Donut",0,1500],S[94]=["Sugar Donut",0,1500],S[95]=["Black Hole",0,3e3],S[96]=["Sphinx",0,2e3],S[97]=["Gargoyle",0,4e3],S[98]=["Black Cat",0,800],S[99]=["Candy Corn",0,500],S[100]=["Pumpkin",0,2500];const L=[];L[0]=["None",0,0],L[1]=["Mustache",0,100],L[2]=["Sun Glasses",0,500],L[3]=["Yellow Cap",0,0],L[4]=["Blue Cap",0,0],L[5]=["Purple Cap",0,0],L[6]=["Green Cap",0,0],L[7]=["Pink Bow",0,0],L[8]=["3D Glasses",0,300],L[9]=["Scar",0,150],L[10]=["Turban",0,250],L[11]=["Bandage",0,250],L[12]=["Crazy Glasses",0,150],L[13]=["Cow\'s Snout",0,300],L[14]=["Carrot",0,150],L[15]=["Horn",0,1e3],L[16]=["Tusk",0,800],L[17]=["Mammoth Hair",0,600],L[18]=["Mammoth Ears",0,500],L[19]=["Leaf",0,150],L[20]=["Black Mustache",0,500],L[21]=["Snowman Hat",0,1e3],L[22]=["Blue Beanie",0,200],L[23]=["Green Beanie",0,200],L[24]=["Purple Beanie",0,200],L[25]=["Orange Beanie",0,200],L[26]=["Yellow Scarf",0,250],L[27]=["Red Scarf",0,350],L[28]=["Green Scarf",0,300],L[29]=["Red Nose",0,400],L[30]=["Mask",0,1e3],L[31]=["Garlands",0,500],L[32]=["Dog Fur",0,2500],L[33]=["Nails",0,750],L[34]=["Horns",0,1200],L[35]=["Alien Eyes 1",0,2e3],L[36]=["Exorbited",0,800],L[37]=["Goblin Ears",0,600],L[38]=["Brain",0,5e3],L[39]=["Axe",0,1500],L[40]=["Hannibal",0,3e3],L[41]=["Face Mask",0,1e3],L[42]=["Green Beanie",0,500],L[43]=["Grey Beanie",0,200],L[44]=["Snow Beanie",0,500],L[45]=["Girly Beanie",0,500],L[46]=["Pottah Scarf",0,1e3],L[47]=["Cyborg",0,4e3],L[48]=["Acorn Hat",0,1e3],L[49]=["Rabbit Ears",0,750],L[50]=["Alien Eyes 2",0,2e3],L[51]=["Wolf Ears",0,1e3],L[52]=["Duck\'s Beak",0,1250],L[53]=["Monkey Ears",0,1500],L[54]=["Tamer Cap",0,1e3],L[55]=["Yellow Cap",0,300],L[56]=["Grey Cap",0,300],L[57]=["Blue Cap",0,300],L[58]=["Daisy Petals",0,1e3],L[59]=["Knight Mask",0,1e4],L[60]=["Blue Hair",0,2e3],L[61]=["Angel Halo",0,1500],L[62]=["Black Hair",0,2e3],L[63]=["White Hair",0,2e3],L[64]=["Mysterious Mask",0,1500],L[65]=["Jason Mask",0,1500];const O=[];O[0]=["None",0,0],O[1]=["Mammoth Tail",0,500],O[2]=["Dragon Wings",0,5e3],O[3]=["Swords",0,2e3],O[4]=["Blue Cape",0,400],O[5]=["Christmas Cape",0,400],O[6]=["Speedy Cape",0,400],O[7]=["Garland",0,300],O[8]=["Baby Elf",0,1500],O[9]=["Gift",0,1e3],O[10]=["Yellow Bag",0,300],O[11]=["Cauldron",0,500],O[12]=["Pumpkin",0,1500],O[13]=["Trident",0,3e3],O[14]=["Vampire Cape",0,800],O[15]=["Broom Stick",0,2e3],O[16]=["Scythe",0,5e3],O[17]=["Bat Wings",0,3500],O[18]=["Candies",0,800],O[19]=["Skeleton",0,1e4],O[20]=["Ghost Cape",0,600],O[21]=["Plant",0,600],O[22]=["Rose",0,1e3],O[23]=["Cupid\'s Wings",0,750],O[24]=["Treasure Map",0,1500],O[25]=["Phone",0,1e3],O[26]=["Cotton Candy",0,1e3],O[27]=["Candy Apple",0,1e3],O[28]=["Bear Backpack",0,4e3],O[29]=["Deer Backpack",0,4e3],O[30]=["Popcorn",0,2e3],O[31]=["Soda",0,2e3],O[32]=["Backpack",0,3e3],O[33]=["Magick Wand",0,2e3],O[34]=["Valentine\'s Day",0,1500],O[35]=["Tentacles Backpack",0,2e3],O[36]=["Devil Wings",0,1e4],O[37]=["Angel Wings",0,1e4],O[38]=["Crank",0,1500],O[39]=["Fir Tree",0,750],O[40]=["Jester Card",0,600],O[41]=["Boom!",0,750],O[42]=["US Flag",0,200],O[43]=["EU Flag",0,200],O[44]=["AS Flag",0,200],O[45]=["International Flag",0,200],O[46]=["Knife",0,1500],x.exports={},x.exports.ot=S,x.exports.rt=L,x.exports.ct=O},1917:function(x){x.exports={at:0,st:1,ax:2,ay:3,nt:4,ut:5,I:6,ft:7,lt:8,ht:9,K:10,dt:11,gt:12,wt:13,bt:14,vt:15,Tt:16,_t:17,Mt:18,kt:19,At:20,yt:21,Bt:22,Ut:23,zt:24,Et:25,Ct:26,Dt:27,St:28,Lt:29,xt:30,Ot:31,jt:32,Nt:33,Wt:34,Qt:35,Ht:36,Rt:37,Gt:38,Vt:39,qt:40,$:41,Pt:42,Yt:43}},9657:function(x){x.exports={Et:0,Dt:1,St:2}},4002:function(x){x.exports={W:0,Zt:1,Kt:2,It:3,Ft:4,Jt:5,Xt:6,$t:7,tn:8,nn:9,en:10,on:11,rn:12,cn:13}},4613:function(x){x.exports={an:0,sn:1,un:2}},6410:function(x){x.exports={fn:0,ln:1,hn:2,dn:3,G:4,gn:5,K:6,ft:7,ht:8,I:9,wn:10,Z:11,pn:12,q:13,wt:14,bn:15,vt:16,vn:17,_t:18,Tt:19,ax:20,Mt:21,At:22,kt:23,mn:24,yt:25,V:26,Tn:27,_n:28,Bt:29,Mn:30,F:31,kn:32,An:33,yn:34,Bn:35,Un:36,zn:37,En:38,Cn:39,Dn:40,Sn:41,Ln:42,xn:43,On:44,jn:45,Nn:46,Wn:47,Qn:48,Ct:49,Hn:50,Rt:51,Rn:52,Gn:53,Vn:54,qn:55,Pn:56,Yn:57,Zn:58,Kn:59,In:60,Fn:61,Jn:62,$:63,Pt:64,Xn:65,$n:66,ti:67,ni:68,ii:69,ei:70,qn:71,oi:72,ri:73,ci:74,ai:75,si:76,ui:77,fi:78}},9281:function(x){x.exports={ch:{li:20,hi:35,di:25,gi:26,wi:9,cm:2,pi:32,bi:29,vi:3,mi:33,Ti:31,_i:6,Mi:22,ki:19,Ai:8,yi:28,cx:13,cy:5,Bi:30,Ui:14,zi:34,Ei:11,Ci:0,Di:15,Si:24,Li:27,xi:4,Oi:1,ji:17,Ni:16,Wi:36,Qi:10,Hi:37,Ri:21,Gi:23,Vi:12,qi:7,Pi:18},Yi:{Zi:11,Ki:6,Ii:13,Fi:2,Ji:19,Xi:18,$i:10,te:20,ne:0,ie:5,ee:7,oe:14,re:12,ce:3,ae:23,se:1,ue:15,fe:9,le:4,he:8,de:24,ge:21,we:17,pe:25,be:22,ve:16},me:{}}},3255:function(x){x.exports={Te:0,_e:1,nt:2,em:3}},6399:function(x){x.exports={P:0,Me:1,em:2,nt:3}},6597:function(x){x.exports={ke:0,Ae:1,ye:2,st:3,Be:4,Ue:5,ze:6,Ee:7,ay:8,ut:9,nt:10,lt:11,ft:12,I:13,K:14,ht:15,Ce:16,gt:17,ex:17,_e:18,Te:19,De:20,em:21,Se:22,Le:23,ln:24,fn:25,hn:26,G:27,xe:28,Oe:29,je:30,Ne:31,We:32,Qe:33,dt:34,He:35,Re:36,Ge:37,Ve:38,qe:39,Pe:40,Ye:41,wn:42,Ze:43,Ke:44,Ie:45,Z:46,Fe:47,Je:48,Xe:49,$e:50,pn:51,no:52,io:53,q:54,eo:55,oo:56,ro:57,bt:58,co:59,ao:60,so:61,bn:62,uo:63,vt:64,fo:65,lo:66,vn:67,ho:68,do:69,_t:70,wo:71,ax:72,po:73,bo:74,vo:75,mo:76,To:77,_o:78,At:79,Mo:80,kt:81,yt:82,ko:83,mn:84,Ao:85,yo:86,V:87,Bo:88,Uo:89,zo:90,Tn:91,Eo:92,Co:93,Do:94,So:95,Lo:96,xo:97,Oo:98,_n:99,jo:100,No:101,Bt:102,Wo:103,Qo:104,Ho:105,fx:106,fy:107,Ro:108,Go:109,Vo:110,qo:111,Po:112,Yo:113,Zo:114,Ko:115,Mn:116,Io:117,Fo:118,Jo:119,Xo:120,$o:121,tr:122,nr:123,Ut:124,zt:125,ir:126,F:127,er:128,Et:129,kn:130,rr:131,An:132,cr:133,yn:134,ar:135,Un:136,sr:137,zn:138,ur:139,En:140,lr:141,Cn:142,hr:143,Bn:144,dr:145,gr:146,wr:147,Dn:148,Sn:149,pr:150,Ln:151,xn:152,On:153,br:154,jn:155,vr:156,Nn:157,mr:158,Wn:159,Tr:160,Qn:161,_r:162,Mr:163,kr:164,Ar:165,yr:166,Br:167,Ur:168,Ct:169,zr:170,Lt:171,Ot:172,jt:173,Nt:174,xt:175,Er:176,St:177,Dt:178,Wt:179,Qt:180,Ht:181,Hn:182,Rt:183,Cr:184,Dr:185,Gt:186,Vt:187,Sr:188,Lr:189,Or:190,jr:191,Nr:192,Wr:193,Qr:194,Hr:195,Rr:196,Gr:197,Yn:198,Zn:199,Vr:200,qr:201,Pr:202,qt:203,Yr:204,Zr:205,Kr:206,Ir:207,$:208,Fr:209,Nr:210,Rr:211,Jr:212,Xr:213,$r:214,tc:215,_e:216,nc:217,ic:218,ec:219,Pt:220,oc:221,rc:222,cc:223,ac:224,sc:226,uc:227,fc:228,lc:229,hc:230,dc:231,gc:232,wc:233,bc:234,vc:235,mc:236,Rr:237,Nr:238,oi:239,Tc:240,ri:241,_c:242,ci:243,Mc:244,ai:245,kc:246,si:247,Ac:248,ri:249,_c:250,fi:251,yc:252,ui:253,Bc:254,Uc:255,zc:256,Yt:257}},5397:function(x){x.exports={Ec:1,Cc:2,Dc:4,Sc:8,Lc:16,xc:32,Oc:64,jc:128,Nc:256}},3266:function(x){x.exports={nt:1,Wc:2,Qc:3}},6078:function(x,S,L){try{__MUTATEO=L(9847),__MUTATEO0oo=L(2677),__MUTATEQOoOOoOO=L(2190),__MUTATEoo=L(2639),__MUTATEQQo=L(3543)}catch(x){}const O=function(){const x="nickname",S="currency",L="score",I="death",W="kill",Q="https://account.sploop.io:443/",P=[["logged-content","flex"]],R=[["login-content","flex"]],H={},G=[{go:"wood",Hc:0,Rc:10,Gc:30,Vc:20,qc:20,Pc:0},{go:"stone",Hc:1e5,Rc:20,Gc:60,Vc:30,qc:30,Pc:0},{go:"copper",Hc:9e5,Rc:30,Gc:100,Vc:40,qc:40,Pc:100},{go:"bronze",Hc:21e5,Rc:40,Gc:150,Vc:60,qc:60,Pc:200},{go:"silver",Hc:61e5,Rc:50,Gc:200,Vc:80,qc:80,Pc:300},{go:"gold",Hc:101e5,Rc:60,Gc:300,Vc:100,qc:100,Pc:400},{go:"diamond",Hc:201e5,Rc:70,Gc:400,Vc:120,qc:120,Pc:500},{go:"emerald",Hc:351e5,Rc:80,Gc:500,Vc:140,qc:140,Pc:600},{go:"ruby",Hc:661e5,Rc:90,Gc:600,Vc:170,qc:170,Pc:700},{go:"platinum",Hc:1161e5,Rc:100,Gc:800,Vc:200,qc:200,Pc:800},{go:"amber",Hc:1961e5,Rc:120,Gc:1e3,Vc:240,qc:240,Pc:1e3},{go:"mystic",Hc:2961e5,Rc:140,Gc:1200,Vc:280,qc:280,Pc:1200},{go:"divine",Hc:4961e5,Rc:160,Gc:1400,Vc:320,qc:320,Pc:1400},{go:"immortal",Hc:6961e5,Rc:180,Gc:1600,Vc:360,qc:360,Pc:1600},{go:"draconic",Hc:8961e5,Rc:200,Gc:1800,Vc:400,qc:400,Pc:1800},{go:"celestial",Hc:10961e5,Rc:220,Gc:2e3,Vc:440,qc:440,Pc:2e3},{go:"astral",Hc:12961e5,Rc:240,Gc:2200,Vc:480,qc:480,Pc:2200},{go:"radiant",Hc:16961e5,Rc:260,Gc:2400,Vc:520,qc:520,Pc:2400},{go:"eternal",Hc:32961e5,Rc:280,Gc:2600,Vc:560,qc:560,Pc:2600}],N=__MUTATEO.get("main-login-button"),q=__MUTATEO.get("main-sign-up-button"),j=__MUTATEO.get("login-button"),V=__MUTATEO.get("signup-button"),K=__MUTATEO.get("profile-login-button"),Z=__MUTATEO.get("profile-sign-up-button"),Et=__MUTATEO.get("enter-password"),xt=__MUTATEO.get("enter-new-password"),St=__MUTATEO.get("error-password"),Ut=__MUTATEO.get("enter-username"),Lt=__MUTATEO.get("error-username"),Ct=__MUTATEO.get("enter-mail"),Ft=__MUTATEO.get("error-mail"),Ot=__MUTATEO.get("send-email"),It=__MUTATEO.get("login"),Dt=__MUTATEO.get("register"),Wt=__MUTATEO.get("send-mail-password"),Qt=__MUTATEO.get("validate-new-password"),Pt=__MUTATEO.get("forgot-password"),Ht=__MUTATEO.get("logout"),Gt=__MUTATEO.get("change-username"),Nt=__MUTATEO.get("change-username-button"),Yt=__MUTATEO.get("account-required"),jt=__MUTATEO.get("ranking-rank"),Kt=__MUTATEO.get("ranking-score-daily"),zt=__MUTATEO.get("ranking-score-month"),Jt=__MUTATEO.get("ranking-score-all"),Xt=__MUTATEO.get("ranking-kill-daily"),Zt=__MUTATEO.get("ranking-kill-month"),$t=__MUTATEO.get("ranking-kill-all"),te=__MUTATEO.get("ranking-ranks-container"),ee=__MUTATEO.get("ranking-rank-container"),ne=__MUTATEO.get("ranking-middle-main"),oe=__MUTATEO.get("ranking2-middle-main"),ie=[jt,Kt,zt,Jt,Xt,Zt,$t];let se=0,ae={Yc:"",Zc:"",hash:""};function F(x){const S=G.length;for(let L=0;L<S;L++)if(x<G[L].Hc)return L-1;return S-1}function J(x){tt(),oe.style.display="none",ne.style.display="inline-block";const S=JSON.parse(x);let L=1;for(let x=S.length-1;x>=0;x--){const O=S[x],I=O[0],W=O[1],Q=O[2],P=document.createElement("div");P.classList.add("subcontent-bg"),P.classList.add("table-line"),P.innerHTML=\'<div class="ranking-rank"> #\'+L+\' </div><div class="ranking-name"></div><div class="ranking-score"> \'+I.toLocaleString()+" </div>",__MUTATEO.get("ranking-name",P).innerText=W+"#"+Q,te.appendChild(P),L++}__MUTATEO.Kc()}function X(){return O.Ic[__MUTATEQQo.Fc(S)]}function $(x){tt(),ne.style.display="none",oe.style.display="inline-block";const S=JSON.parse(x);let L=1;for(let x=S.length-1;x>=0;x--){const O=S[x],I=O[0],W=F(I),Q=O[1],P=O[2],R=document.createElement("div");R.classList.add("subcontent-bg"),R.classList.add("table-line"),R.innerHTML=\'<div class="ranking-rank"> #\'+L+\' </div><div class="ranking-badge"><img draggable="false" src="img/ui/rank\'+W+\'.png"></div><div class="ranking-name"></div><div class="ranking-score"> \'+I.toLocaleString()+" </div>",__MUTATEO.get("ranking-name",R).innerText=Q+"#"+P,ee.appendChild(R),L++}__MUTATEO.Kc()}function tt(){te.innerHTML="",ee.innerHTML=""}function nt(x,S,L){const O=ie.length;for(let x=0;x<O;x++)ie[x].classList.remove("dark-blue-button-2-active");if(x.classList.add("dark-blue-button-2-active"),"ranking"===S){const x=Q+"rankingScore";__MUTATEQQo.request(x,$)}else{const x=Q+"leaderboards?time="+L+"&type="+S;__MUTATEQQo.request(x,J)}__MUTATEO.Jc("Getting the leaderboard...")}function it(x){__MUTATEO.Kc(),"1"===x?__MUTATEO.get("password-ok").style.display="inline-block":__MUTATEO.get("password-nok").style.display="inline-block"}function et(x){__MUTATEO.Kc(),"1"===x?__MUTATEO.get("link-sent-ok").style.display="inline-block":__MUTATEO.get("link-sent-nok").style.display="inline-block"}function ot(){ae.Yc&&(Ot.value=ae.Yc),__MUTATEO.get("link-sent-ok").style.display="none",__MUTATEO.get("link-sent-nok").style.display="none",__MUTATEO.get("loading-mail-box").style.display="none",Wt.style.display="inline-block"}function rt(){St.style.visibility="hidden",Lt.style.visibility="hidden",Ft.style.visibility="hidden"}function ct(Q){ae.Yc=Q[__MUTATEQQo.Fc("id")],__MUTATEQQo.setData("accMail",ae.Yc),ae.Zc=Q[__MUTATEQQo.Fc("token")],__MUTATEQQo.setData("accToken",ae.Zc),O.Ic=Q;const P=Q[__MUTATEQQo.Fc(x)]+"#"+Q[__MUTATEQQo.Fc("counter")];__MUTATEO.get("nickname-value").innerText=P,__MUTATEO.get("currency-value").innerText=Q[__MUTATEQQo.Fc(S)].toLocaleString();const R=Q[__MUTATEQQo.Fc(x)];Gt.value=R,Nt.style.display="none";const H=__MUTATEO.get("profile-bg");for(let x=0;x<G.length;x++)H.classList.remove("profile-bg"+x);__MUTATEO.get("total-score").innerText=Q[__MUTATEQQo.Fc(L)].toLocaleString(),__MUTATEO.get("total-death").innerText=Q[__MUTATEQQo.Fc(I)].toLocaleString(),__MUTATEO.get("total-kill").innerText=Q[__MUTATEQQo.Fc(W)].toLocaleString(),__MUTATEO.get("best-kill").innerText=Q[__MUTATEQQo.Fc("bestKill")].toLocaleString(),__MUTATEO.get("kill-death").innerText=(Q[__MUTATEQQo.Fc(W)]/(Q[__MUTATEQQo.Fc(I)]||1)).toLocaleString();const N=Q[__MUTATEQQo.Fc(L)],q=F(N);if(H.classList.add("profile-bg"+q),__MUTATEO.get("profile-rank").src="img/ui/big-rank"+q+".png",__MUTATEO.get("rank").src="img/ui/rank"+q+".png",q>=G.length-1)__MUTATEO.get("profile-next-rank-container").style.display="none";else{const x=G[q+1];__MUTATEO.get("score-left-value").innerText=Math.floor(x.Hc-N).toLocaleString(),__MUTATEO.get("profile-next-rank-container").style.display="flex",__MUTATEO.get("profile-from-rank").src="img/ui/rank"+q+".png",__MUTATEO.get("profile-to-rank").src="img/ui/rank"+(q+1)+".png"}const j=Q[__MUTATEQQo.Fc("bestScore")];let V="";for(let x=0;x<j.length;x++)V+=\'<div class="subcontent-bg table-line"><div class="ranking-rank"> #\'+(x+1)+\' </div><div class="ranking-score best-score" id="best-score-value0"> \'+j[x][0].toLocaleString()+" </div></div>";__MUTATEO.get("ranks-container").innerHTML=V}function at(x){gt(x);const S=__MUTATEO.views.shop;S.Xc(),S.$c()}function st(){if(X()>=100){const x=Q+"changename?nickname="+Gt.value+"&mail="+ae.Yc+"&token="+ae.Zc;__MUTATEQQo.request(x,gt),__MUTATEO.Jc("Changing name...")}}function ut(){Gt.value!==O.Ic[__MUTATEQQo.Fc(x)]?Nt.style.display="flex":Nt.style.display="none"}function lt(){if(1!==se){se=1;for(let x=0;x<R.length;x++){const S=__MUTATEO.get(R[x][0]);S.classList.remove("fade-in"),S.style.display="none"}for(let x=0;x<P.length;x++){const S=P[x];__MUTATEO.get(S[0]).style.display=S[1]}setTimeout(function(){for(let x=0;x<P.length;x++)__MUTATEO.get(P[x][0]).classList.add("fade-in")},50),__MUTATEO.get("profile-content").classList.remove("blur"),__MUTATEO.get("shop-content").classList.remove("blur"),dt()}}function ht(){0===se&&(Yt.style.display="flex")}function dt(){Yt.style.display="none"}function gt(x){return __MUTATEO.Kc(),"notFound"===x?(Ft.innerText="This account does not exist",Ft.style.visibility="visible",void pt()):"tooMany"===x?(St.innerText="Try again in 10 minutes",St.style.visibility="visible",void pt()):"wrongPassword"===x?(St.innerText="Wrong password",St.style.visibility="visible",void pt()):"0"===x||"error"===x?(St.innerText="Unknown error",St.style.visibility="visible",void pt()):(ct(JSON.parse(x)),__MUTATEO.ta.login.hide(),void lt())}function wt(){se=0;for(let x=0;x<P.length;x++){const S=__MUTATEO.get(P[x][0]);S.classList.remove("fade-in"),S.style.display="none"}for(let x=0;x<R.length;x++){const S=R[x];__MUTATEO.get(S[0]).style.display=S[1]}setTimeout(function(){for(let x=0;x<R.length;x++)__MUTATEO.get(R[x][0]).classList.add("fade-in")},50),__MUTATEO.get("profile-content").classList.add("blur"),__MUTATEO.get("shop-content").classList.add("blur")}function pt(){O.Ic=H,se=0,__MUTATEQQo.setData("accToken",""),__MUTATEQQo.setData("skin","0"),__MUTATEQQo.setData("accessory","0"),__MUTATEQQo.setData("back","0"),wt()}function bt(){const x=Et.value;return x.length<4?(St.innerText="The password is too short",void(St.style.visibility="visible")):(ae.hash=__MUTATEoo(x),ae.hash)}function mt(){let x=Ct.value;try{x=x.trim()}catch(x){}return-1===x.indexOf("@")||-1===x.indexOf(".")||x.length<6?(Ft.innerText="The Email Address is incorrect!",void(Ft.style.visibility="visible")):(ae.Yc=x,x.toLowerCase())}function Tt(){rt();const x=bt(),S=function vt(){const x=Ut.value;return x.length<1?(Lt.innerText="The nickname is too short",void(Lt.style.visibility="visible")):x}(),L=mt();if(void 0===x||void 0===S||void 0===L)return;const O=Q+"register?nickname="+S+"&mail="+L+"&hash="+x;__MUTATEO.Jc("Creating..."),__MUTATEQQo.request(O,_t)}function _t(x){if(__MUTATEO.Kc(),rt(),"exists"===x)return Ft.innerText="This mail is already taken",void(Ft.style.visibility="visible");if("tooMany"===x)St.innerText="Try again later",St.style.visibility="visible";else if("0"===x||"error"===x)return St.innerText="Unknown error",void(St.style.visibility="visible");ct(JSON.parse(x)),__MUTATEO.ta.login.hide(),lt()}function Mt(){__MUTATEO.Kc()}function kt(){rt();const x=bt(),S=mt();if(void 0===x||void 0===S)return;const L=Q+"login?mail="+ae.Yc+"&hash="+ae.hash;__MUTATEO.Jc("Connecting..."),__MUTATEQQo.request(L,gt,Mt)}function At(x,S){rt();const L=Q+"tokenLogin?mail="+x+"&token="+S;__MUTATEQQo.request(L,gt)}function ot(){__MUTATEO.ta.login.hide(),__MUTATEO.ta["forgot-password"].show()}function yt(){rt();const x=__MUTATEO.ta.login;x.show(),__MUTATEO.get("pop-title",x.na).innerText="LOGIN",V.classList.remove("login-button-active"),j.classList.add("login-button-active"),__MUTATEO.get("enter-username-title").style.display="none",Ut.style.display="none",Lt.style.visibility="hidden",Dt.style.display="none",It.style.display="inline-block"}function Bt(){rt();const x=__MUTATEO.ta.login;x.show(),__MUTATEO.get("pop-title",x.na).innerText="SIGN UP",j.classList.remove("login-button-active"),V.classList.add("login-button-active"),__MUTATEO.get("enter-username-title").style.display="flex",Ut.style.display="flex",It.style.display="none",Dt.style.display="inline-block"}return Wt.addEventListener("click",function(){const x=Q+"forgot?mail="+Ot.value;__MUTATEQQo.request(x,et),Wt.style.display="none",__MUTATEO.Jc("Sending...")}),Qt.addEventListener("click",function(){const x=Q+"restore?mail="+__MUTATEQQo.ia("mail")+"&token="+__MUTATEQQo.ia("restore")+"&hash="+__MUTATEoo(xt.value);__MUTATEQQo.request(x,it),__MUTATEO.Jc("Changing your password..."),Qt.style.display="none"}),{ea:function(){N.addEventListener("click",yt),q.addEventListener("click",Bt),j.addEventListener("click",yt),V.addEventListener("click",Bt),K.addEventListener("click",yt),Z.addEventListener("click",Bt),Pt.addEventListener("click",ot),Dt.addEventListener("click",Tt),It.addEventListener("click",kt),Ht.addEventListener("click",function(){pt(),ht()}),Gt.addEventListener("input",ut),Nt.addEventListener("click",st),Nt.style.display="none",1===function ft(){const x=__MUTATEQQo.getData("accMail");x&&(ae.Yc=x);const S=__MUTATEQQo.getData("accToken");return S&&(ae.Zc=S),x&&S?1:0}()?(__MUTATEO.Jc("Connecting..."),At(ae.Yc,ae.Zc)):(wt(),__MUTATEQQo.ia("mail")&&__MUTATEQQo.ia("restore")&&__MUTATEO.ta["new-password"].show()),jt.addEventListener("click",function(){nt(jt,"ranking")}),Kt.addEventListener("click",function(){nt(Kt,"score","day")}),zt.addEventListener("click",function(){nt(zt,"score","month")}),Jt.addEventListener("click",function(){nt(Jt,"score","all")}),Xt.addEventListener("click",function(){nt(Xt,"kill","day")}),Zt.addEventListener("click",function(){nt(Zt,"kill","month")}),$t.addEventListener("click",function(){nt($t,"kill","all")});const x=__MUTATEO.views.ranking;x.$c=function(){nt(jt,"ranking")},x.Xc=function(){tt()};const S=__MUTATEO.views.profile;S.$c=function(){O.oa()},S.Xc=function(){O.ra()}},refresh:function(){1===se&&At(ae.Yc,ae.Zc)},ca:function(){At(ae.Yc,ae.Zc)},aa:X,sa:function(x){return O.Ic[__MUTATEQQo.Fc(x)]||[]},ua:function(x,S,L,O,I){if(X()>=O){const O=Q+"cosmetic?type="+x+"&index="+L+"&mail="+ae.Yc+"&token="+ae.Zc;__MUTATEQQo.request(O,at),__MUTATEO.Jc("Buying the "+S+" "+x+"...")}},fa:function(){return 1===se?1:0},la:ct,oa:ht,ra:dt,Ic:H,ha:G}}();O.ea();try{x.exports=O}catch(x){}},7644:function(){for(var x,S,L=document.getElementById("main-content"),O=getComputedStyle(L).height,I=["profile","shop","game","skins","ranking"],W=0;W<I.length;W++)x=I[W],S=void 0,(S=document.getElementById("nav-"+x)).addEventListener("click",function(){O=getComputedStyle(L).height},{capture:!0}),S.addEventListener("click",function(){var x=getComputedStyle(L).height;L.style.height=O,requestAnimationFrame(function(){L.style.height=x,setTimeout(function(){L.style.height=""},300)})})},2677:function(x){const S=function(){const x={};function i(){this.da=1,this.ga=this.width/2,this.wa=this.height/2,this.onload=null,this.onerror=null}function e(){this.da=0}return{pa:function(S,L){const O=x[S];return void 0!==O?O:(x[S]={src:S,ba:void 0===L?{da:0}:L},x[S])},va:function(x,S){return void 0!==S&&2===S.da||((S=new Image).da=2,S.onload=i,S.onerror=e,S.src=x),S},ma:x}}();try{x.exports=S}catch(x){}},9847:function(x,S,L){try{__MUTATEO0oo=L(2677),__MUTATEQOoOOoOO=L(2190),__MUTATEQQo=L(3543),__MUTATE0oo=L(4071)}catch(x){}const O=function(){const x=1.4,S=[];S[0]=__MUTATE0oo.ot;const L=S[0];S[1]=__MUTATE0oo.rt;const O=S[1];S[2]=__MUTATE0oo.ct;const I=S[2];for(let x=0;x<L.length;x++){if(!L[x])throw"error";L[x][1]=x}for(let x=0;x<O.length;x++){if(!O[x])throw"error";O[x][1]=x}for(let x=0;x<I.length;x++){if(!I[x])throw"error";I[x][1]=x}const W=[];W[0]="skin",W[1]="accessory",W[2]="back";const s=function(){},Q=["profile","shop","game","skins","ranking"],P=["login","settings","changelog","forgot-password","faq","policy","no-da","reward-da","progress-loss","new-password","tutorial"];function l(x,S){if((S=S||document).getElementById){const L=S.getElementById(x);if(L)return L}if(S.getElementsByClassName){const L=S.getElementsByClassName(x);if(L&&L[0])return L[0]}if(S.getElementsByTagName){const L=S.getElementsByTagName(x);if(L&&L[0])return L[0]}}const R=[],H=[],G=l("homepage"),N=l("middle-wrap"),q=l("top-wrap-left"),j=l("top-wrap-right"),V=l("bottom-wrap"),K=l("cross-promo"),Z=l("pop-ui"),Et=l("changelog"),xt=l("settings"),St=l("policy"),Ut=l("new-changelog"),Lt=l("spectator"),Ct=l("spectator-close"),Ft=[l("middle-wrap")],Ot=l("waiting"),It=l("waiting-text"),Dt=l("small-waiting"),Wt=l("small-waiting-text"),Qt=l("landscape"),Pt=l("skins-middle-main"),Ht=l("skin-description"),Gt=l("skins-category"),Nt=l("accessory-category"),Yt=l("back-category"),jt=l("shop-skins-middle-main"),Kt=l("shop-skin-description"),zt=l("shop-skins-category"),Jt=l("shop-accessory-category"),Xt=l("shop-back-category"),Zt=l("shop-price"),$t=l("shop-can-buy"),te=l("shop-buy"),ee=l("shop-currency-logo"),ne=l("change-server"),oe=l("do-not-change-server"),ie=l("nickname");let se,ae,re,ue="",le="",ce=0,de=0,he=0,fe=0,ge=0,pe=-1;function at(){Ot.classList.add("fade-in")}function st(){Dt.classList.add("fade-in")}function ut(x){const S=this;H[x]=this,this.Ta="pop-"+x,this.na=l(this.Ta),this.style=this.na.style,this.na.addEventListener("click",function(x){x.stopPropagation()}),this.hide=function(){Z.style.display="none",S.style.display="none",ae=void 0},this.transition=function(){Z.classList.add("fade-in"),S.na.classList.add("popup-fade-in")},this.show=function(){void 0===ae&&(ae=S,Z.classList.remove("fade-in"),S.na.classList.remove("popup-fade-in"),Z.style.display="flex",S.style.display="flex",setTimeout(S.transition,50))},l("pop-close-button",this.na).addEventListener("click",this.hide)}function ft(x){this.$c=s,this.Xc=s;const S=this;R[x]=this,this.Ta=x+"-content",this._a="nav-"+x,this.na=l(this.Ta),this.style=this.na.style,this.Ma=l(this._a),this.ka=l("nav-button-text",this.Ma),this.hide=function(){S.style.display="none",S.ka.classList.remove("nav-button-active"),S.ka.classList.add("nav-button-text"),S.Xc()},this.transition=function(){S.na.classList.add("fade-in")},this.show=function(){se!==S&&(se&&se.hide(),se=S,S.na.classList.remove("fade-in"),S.style.display="flex",S.ka.classList.remove("nav-button-text"),S.ka.classList.add("nav-button-active"),setTimeout(S.transition,50),S.$c())},this.Ma.addEventListener("click",this.show),this.hide()}function lt(){let x=0,S=0;x=window.innerWidth/1270,S=window.innerHeight/685,window.innerWidth>.9*window.innerHeight?Qt.style.display="none":Qt.style.display="flex";const L=Math.min(1,Math.min(x,S));N.style.transform="scale("+L+")",q.style.transform="scale("+L+")",j.style.transform="scale("+L+")",V.style.transform="scale("+L+")",K.style.transform="scale("+L+")",K.style.top=Math.floor(70*L)+"px";const O=l("pop-ui");O.style.transform="scale("+L+")";const I=Math.ceil(1/L*100)-100;O.style.left="-"+I/2+"%",O.style.top="-"+I/2+"%",O.style.width=100+I+"%",O.style.height=100+I+"%"}function ht(){if(0===ge){ge=1,Ct.style.display="inline-block";for(let x of Ft)x.style.display="none"}else{ge=0,Ct.style.display="none";for(let x of Ft)x.style.display="flex"}}function dt(x,S,L){return(1-L)*x+L*S}function gt(x){x.Aa=dt(x.Aa,x.ya,.1),x.Ba=dt(x.Ba,x.Ua,.1),x.za=dt(x.za,x.Ea,.1),x.Ca=dt(x.Ca,x.Da,.1)}function wt(L,O,I){const W=l(L);this.Sa=new __MUTATEQOoOOoOO.La(W,O,186,196,gt),this.Sa.ya=0,this.Sa.Ua=0,this.Sa.Ea=1,this.Sa.Da=1;const Q=Math.min(S[0].length-1,__MUTATEQQo.getData("skin")||0),P=Math.min(S[1].length-1,__MUTATEQQo.getData("accessory")||0),R=Math.min(S[2].length-1,__MUTATEQQo.getData("back")||0);this.Sa.xa("img/skins/back"+R+".png",93,116,Math.PI/2,x,x,1);const H=this.Sa.Oa[0];this.Sa.xa("img/skins/arm"+Q+".png",58,151,Math.PI/2,x,x,1);const G=this.Sa.Oa[1];this.Sa.xa("img/skins/arm"+Q+".png",128,151,Math.PI/2,x,-1.4,1);const N=this.Sa.Oa[2];this.Sa.xa("img/skins/body"+Q+".png",93,116,Math.PI/2,x,x,1);const q=this.Sa.Oa[3];this.Sa.xa("img/skins/accessory"+P+".png",93,116,Math.PI/2,x,x,1);const j=this.Sa.Oa[4];this.ja=function(x,L){let O="";"skin"===x?(O=S[0][L][0],q.Na=__MUTATEO0oo.pa("img/skins/body"+L+".png"),G.Na=__MUTATEO0oo.pa("img/skins/arm"+L+".png"),N.Na=G.Na):"accessory"===x?(O=S[1][L][0],j.Na=__MUTATEO0oo.pa("img/skins/accessory"+L+".png")):"back"===x&&(O=S[2][L][0],H.Na=__MUTATEO0oo.pa("img/skins/back"+L+".png")),I.innerText=O,le=O}}function bt(x,S,L){x.addEventListener("click",function(){void 0!==re&&re.classList.remove("skin-active"),re=x,x.classList.add("skin-active"),__MUTATEQQo.setData(S,L),R.skins.skinSelector.ja(S,L)})}function vt(x,S,L,O){x.addEventListener("click",function(){ue=S,de=L,ce=O,void 0!==re&&re.classList.remove("skin-active"),re=x,x.classList.add("skin-active"),Zt.innerText=O,te.style.display="flex",__MUTATEOoQ0O.aa()>=O?(te.classList.remove("yellow-button-active"),$t.innerText="BUY",$t.style.cursor="url(img/ui/cursor-pointer.png) 6 0, pointer",Zt.style.cursor="url(img/ui/cursor-pointer.png) 6 0, pointer",ee.style.cursor="url(img/ui/cursor-pointer.png) 6 0, pointer"):(te.classList.add("yellow-button-active"),$t.innerText="NEED",$t.style.cursor="",Zt.style.cursor="",ee.style.cursor=""),R.shop.skinSelector.ja(S,L)})}function mt(x,S){return x[2]-S[2]}function Tt(x,L,O,I){if(pe===x)return;pe=x,function pt(x){Gt.classList.remove("dark-blue-button-4-active"),Nt.classList.remove("dark-blue-button-4-active"),Yt.classList.remove("dark-blue-button-4-active"),zt.classList.remove("dark-blue-button-4-active"),Jt.classList.remove("dark-blue-button-4-active"),Xt.classList.remove("dark-blue-button-4-active"),x.classList.add("dark-blue-button-4-active")}(L),I.innerHTML="";const Q=W[x],P=S[x].slice().sort(mt),H=P.length,G=__MUTATEOoQ0O.sa(Q);let N=document.createElement("div");N.classList.add("skins-line");let q=0,j=0;for(let x=0;x<H;x++){let S=P[x],L=S[2],W=S[1];if(1===O&&0!==L&&-1===G.indexOf(W))continue;if(2===O&&(0===L||-1!==G.indexOf(W)))continue;let R=document.createElement("img");R.Wa=Q+W,R.draggable="false",R.src="img/ui/"+Q+W+".png",R.classList.add("skin"),N.appendChild(R),1===O?bt(R,Q,W):2===O&&vt(R,Q,W,L),0===q||(q+1)%5!=0&&x!==H-1?j=1:(I.appendChild(N),N=document.createElement("div"),N.classList.add("skins-line"),j=0),q++}1===j&&I.appendChild(N);const V=Math.min(P.length-1,__MUTATEQQo.getData(Q)||0);re=l(Q+V),re&&(re.classList.add("skin-active"),R.skins.skinSelector.ja(Q,V))}function _t(x,S,L,O){const I=R.skins,W=R.shop;I.skinSelector.Sa.ya=x,I.skinSelector.Sa.Ua=S,I.skinSelector.Sa.Ea=L,I.skinSelector.Sa.Da=O,W.skinSelector.Sa.ya=x,W.skinSelector.Sa.Ua=S,W.skinSelector.Sa.Ea=L,W.skinSelector.Sa.Da=O}function Mt(x){_t(0,0,1,1),re=void 0,pe=-1,x.innerHTML=""}return Z.addEventListener("click",function(){void 0!==ae&&ae.hide()}),function(){l("version").innerText=9;for(let x in Q)new ft(Q[x]);for(let x in P)new ut(P[x]);Et.addEventListener("click",function(){__MUTATEQQo.setData("gameVersion",9),H.changelog.show(),Ut.style.display="none"});const x="_atgam";__MUTATEQQo.getData(x)||__MUTATEQQo.setData(x,"GM"+__MUTATEQQo.Qa(1)+"."+__MUTATEQQo.Qa(4)+"."+__MUTATEQQo.Qa(16),".sploop.io"),xt.addEventListener("click",function(){H.settings.show()}),St.addEventListener("click",function(){H.policy.show()}),Lt.addEventListener("click",ht),Ct.addEventListener("click",ht);const S=R.skins;S.skinSelector=new wt("skin-box","skin-selector",Ht),S.$c=function(){const x=Number(__MUTATEQQo.getData("skin"))||0;S.skinSelector.ja("skin",x);const L=Number(__MUTATEQQo.getData("accessory"))||0;S.skinSelector.ja("accessory",L);const O=Number(__MUTATEQQo.getData("back"))||0;S.skinSelector.ja("back",O),S.skinSelector.Sa.ea(),Tt(0,Gt,1,Pt)},S.Xc=function(){S.skinSelector.Sa.remove(),Mt(Pt)},Nt.addEventListener("click",function(){_t(0,0,1,1),Tt(1,Nt,1,Pt)}),Yt.addEventListener("click",function(){_t(27.900000000000006,58.80000000000001,.7,.7),Tt(2,Yt,1,Pt)}),Gt.addEventListener("click",function(){_t(0,0,1,1),Tt(0,Gt,1,Pt)});const L=R.shop;L.skinSelector=new wt("shop-skin-box","shop-skin-selector",Kt),L.$c=function(){L.skinSelector.Sa.ea(),__MUTATEOoQ0O.oa();const x=Number(__MUTATEQQo.getData("skin"))||0;L.skinSelector.ja("skin",x);const S=Number(__MUTATEQQo.getData("accessory"))||0;L.skinSelector.ja("accessory",S);const O=Number(__MUTATEQQo.getData("back"))||0;L.skinSelector.ja("back",O),te.style.display="none",Tt(0,zt,2,jt)},L.Xc=function(){__MUTATEOoQ0O.ra(),L.skinSelector.Sa.remove(),Mt(jt)},Xt.addEventListener("click",function(){_t(27.900000000000006,58.80000000000001,.7,.7),Tt(2,Xt,2,jt)}),Jt.addEventListener("click",function(){_t(0,0,1,1),Tt(1,Jt,2,jt)}),zt.addEventListener("click",function(){_t(0,0,1,1),Tt(0,zt,2,jt)}),te.addEventListener("click",function(){__MUTATEOoQ0O.ua(ue,le,de,ce)}),ne.addEventListener("click",function(){const x=H["progress-loss"];x.hide(),x.next()}),oe.addEventListener("click",function(){H["progress-loss"].hide()}),window.addEventListener("resize",lt,!1),lt(),G.style.display="flex",R.game.show(),ie.addEventListener("input",function(){__MUTATEQQo.setData("nickname",ie.value)}),ie.value=__MUTATEQQo.getData("nickname")||"";const O=Number(__MUTATEQQo.getData("gameVersion"))||0;Ut.style.display=9===O?"none":"flex"}(),{get:l,views:R,ta:H,Jc:function(x){he++,Ot.classList.remove("fade-in"),Ot.style.display="flex",It.innerText=x,setTimeout(at,0)},Kc:function(){he=Math.max(0,he-1),he<=0&&(Ot.style.display="none")},Ha:function(x){fe++,Dt.classList.remove("fade-in"),Dt.style.display="flex",Wt.innerText=x,setTimeout(st,0)},Ra:function(){fe=Math.max(0,fe-1),fe<=0&&(Dt.style.display="none")},Ga:L.length,Va:O.length,qa:I.length}}();try{x.exports=O}catch(x){}},6820:function(){for(var x,S=document.getElementById("show-ranks-list-button"),L=document.getElementById("ranking-rank-container"),O=document.getElementById("ranks-list"),I=document.getElementById("ranking-rank"),W=document.getElementById("ranking-fullscreen"),Q=document.getElementById("rank-fullscreen-close"),P=[document.getElementById("ranking-middle-main"),document.getElementById("ranking2-middle-main")],R=["profile","shop","game","skins"],H=0;H<R.length;H++)x=R[H],document.getElementById("nav-"+x).addEventListener("click",function(){P[0].classList.contains("rank-fullscreen")&&d(),W.parentElement.style.display="none"});document.getElementById("nav-ranking").addEventListener("click",function(){W.parentElement.style.display="flex"});var G=[];for(H=0;H<P.length;H++)G.push({parent:P[H].parentElement,nextSibling:P[H].nextElementSibling});function d(){Q.style.display="none",W.src="img/ui/fullscreen.png";for(var x=0;x<P.length;x++){var S=P[x];S.classList.remove("rank-fullscreen");var L=G[x];L.nextSibling&&L.nextSibling.parentNode===L.parent?L.parent.insertBefore(S,L.nextSibling):L.parent.appendChild(S)}}Q.addEventListener("click",d),W.onclick=function(){P[0].classList.contains("rank-fullscreen")?d():function g(){W.src="img/ui/unfullscreen.png";for(var x=0;x<P.length;x++)document.body.appendChild(P[x]),P[x].classList.add("rank-fullscreen");Q.style.display="flex"}()},document.addEventListener("keydown",function(x){"Escape"===x.key&&P[0].classList.contains("rank-fullscreen")&&d()}),S.onmousedown=function(){S.classList.add("dark-blue-button-2-active")},S.onclick=function(){P[0].style.display="none",P[1].style.display="inline-block",O.style.display="block",L.style.display="none",I.classList.remove("dark-blue-button-2-active")},I.onclick=function(){O.style.display="none",L.style.display="block",I.classList.add("dark-blue-button-2-active"),S.classList.remove("dark-blue-button-2-active")};for(var N=0;N<P.length;N++)P[N].classList.add("scrollbar")},9082:function(x,S,L){for(var O="",I=0,W=0,Q=L(2072).split("\\n"),P=0;P<Q.length;P++){var R=Q[P].trim();R?"!HTML"!==R?"!New Section"!==R?(-1!==R.indexOf("img/")&&5!==W&&"i"!==R[0]&&(R=R.replace(/(img\\/.*\\.png)/,\'<img class="tutorial-img" src="$1">\')),0===W?(W=1,O+=\'<div class="tutorial-page subcontent-bg"><h2 class="subcontent-title">\'+R+"</h2>"):1===W?(W=2,O+=\'<span class="subcontent-title">\'+R+"</span><br>"):2===W?(W=4,O+=\'<br><div class="tutorial-title-container"><span class="subcontent-title tutorial-title">\'+R+"</span>"):4===W?"-"===R[0]?(W=3,O+="</div><ul><li><b>•</b> "+R.slice(2)+"</li>"):"i"===R[0]&&(O+=\'<img class="tutorial-img" src="\'+R+\'">\'):3===W?O+="<li><b>•</b> "+R.slice(2)+"</li>":5===W&&(O+=R)):(O+="</div>",W=0):5===W?W=I:(I=W,W=5):3===W&&(W=2,O+="</ul>")}3===W?O+="</ul>":4===W&&(O+="</div>"),O+="</div>";var H=document.getElementById("tutorial-pages-container");H&&H.insertAdjacentHTML("beforeend",O)},2190:function(x,S,L){try{__MUTATEO0oo=L(2677),__MUTATEQQo=L(3543)}catch(x){}const O=function(){const n=function(){},x=[];let S;function o(x){const L=x.Na.ba;if(1!==L.da)return void(x.Na.ba=__MUTATEO0oo.va(x.Na.src,L));const O=x.Pa*L.width/2,I=x.Ya*L.height/2;S.save(),S.translate(x.Za,x.Ka),S.rotate(x.Ia),S.scale(x.Fa,x.Ja),1!==x.Xa&&(S.globalAlpha=x.Xa),S.drawImage(L,-O/2,-I/2,O,I),S.restore()}function r(x,S,L,O,I,W,Q){this.Na=__MUTATEO0oo.pa(x),this.Za=S||0,this.Ka=L||0,this.Ia=O||0,this.Pa=Math.abs(I)||1,this.Ya=Math.abs(W)||1,this.Fa=I>0?1:-1,this.Ja=W>0?1:-1,this.Xa=Q||1}return{La:function(L,O,I,W,Q){const P=this;void 0===Q&&(Q=n),this.Oa=[],this.go=O,this.Aa=0,this.Ba=0,this.za=1,this.Ca=1,this.isActive=0,this.ea=function(){L.innerHTML=\'<canvas id="\'+O+\'"></canvas>\',P.$a=document.getElementById(O),P.ts=P.$a.getContext("2d"),P.$a.width=I,P.$a.height=W,P.isActive=1,x.push(P)},this.remove=function(){P.isActive=0,x.splice(x.indexOf(P),1),L.innerHTML="",P.$a=void 0,P.ts=void 0},this.ns=function(){P.remove(),P.Oa.length=0},this.xa=function(x,S,L,O,I,W,Q){const R=new r(x,S,L,O,I,W,Q);P.Oa.push(R)},this.es=function(){if(0===P.isActive)return;const x=S;S=P.ts,S.clearRect(0,0,I,W),S.save(),S.translate(P.Aa,P.Ba),S.scale(P.za,P.Ca),Q(P);const L=P.Oa.length;for(let x=0;x<L;x++)o(P.Oa[x]);S.restore(),S=x}},es:function(){const S=x.length;for(let L=0;L<S;L++)x[L].es()}}}();try{x.exports=O}catch(x){}},1872:function(){var x=document.getElementById("pop-ui"),S=document.getElementById("pop-tutorial");document.getElementById("how-to").onclick=function(){x.style.display="flex",x.classList.remove("fade-in"),S.style.display="flex",S.classList.remove("popup-fade-in"),setTimeout(function(){x.classList.add("fade-in"),S.classList.add("popup-fade-in")},0)},x.addEventListener("click",function(L){(L.target===x||L.target.classList.contains("pop-close"))&&(x.style.display="none",S.style.display="none")});for(var L=document.getElementById("tutorial-contents"),O=document.getElementById("tutorial-scrolltop"),I=document.getElementById("tutorial-pages-container"),W=S.querySelectorAll("h2.subcontent-title"),Q=1;Q<W.length;Q++)(function(x){var S=document.createElement("li");S.textContent=W[x].textContent,S.classList.add("pop-close"),S.onclick=function(){W[x].parentElement.scrollIntoView({os:"start",behavior:"smooth"})},L.appendChild(S)})(Q);O.onclick=function(){I.scrollTo({top:0,left:0,behavior:"smooth"})},I.onscroll=function(){I.scrollTop>=300?O.style.opacity="1":O.style.opacity="0"};var P=document.getElementById("acceptPolicyButton");P&&(P.onclick=function(){x.click()})},9605:function(){var x=document.getElementById("help-howto"),S=document.getElementById("how-to");localStorage.getItem("helpClicked")&&(x.style.display="none"),S.addEventListener("click",function(){localStorage.setItem("helpClicked","true"),x.style.display="none"})},1174:function(x,S,L){const O=function(){let x,S;return{ea:function(){x=L(5299);try{O=document,I="script",W="gamedistribution-jssdk",P=O.getElementsByTagName(I)[0],O.getElementById(W)||((Q=O.createElement(I)).Wa=W,Q.src="https://api.adinplay.com/libs/aiptag/pub/LSI/lostworld.io/tag.min.js",P.parentNode.insertBefore(Q,P));const x={cmd:[]};window.aiptag=window.aiptag||x;const L=window.aiptag;L.cmd.display=L.cmd.display||[],L.cmd.player=L.cmd.player||[],window.aiptag.cmd.display.push(function(){window.aipDisplayTag.display("lostworld-io_300x250_1")}),window.aiptag.cmd.display.push(function(){window.aipDisplayTag.display("lostworld-io_300x250_2")}),window.aiptag.cmd.display.push(function(){window.aipDisplayTag.display("lostworld-io_970x250")}),L.cmd.player.push(function(){window.adplayer=new window.aipPlayer({AIP_REWARDEDCOMPLETE:function(x){"canceled"!==x&&S.rs()},AD_WIDTH:960,AD_HEIGHT:540,AD_FULLSCREEN:!0,AD_CENTERPLAYER:!0,LOADING_TEXT:"loading advertisement",PREROLL_ELEM:function(){return document.getElementById("preroll")},AIP_COMPLETE:function(x){S.rs()},AIP_REMOVE:function(){}})})}catch(x){}var O,I,W,Q,P},refresh:function(){try{window.aiptag.cmd.display.push(function(){window.aipDisplayTag.display("lostworld-io_300x250_1")}),window.aiptag.cmd.display.push(function(){window.aipDisplayTag.display("lostworld-io_300x250_2")}),window.aiptag.cmd.display.push(function(){window.aipDisplayTag.display("lostworld-io_970x250")})}catch(x){}},cs:function(){x.ss()},us:function(){try{return void 0!==window.adplayer?(startReward(),window.aiptag.cmd.player.push(function(){window.adplayer.startPreRoll()}),1):(__MUTATEooO(),0)}catch(x){return __MUTATEooO(),0}},fs:function(x){S=x,S.rs()}}}();try{x.exports=O}catch(x){}},5299:function(x,S,L){try{__MUTATEOoQ0O=L(6078),__MUTATEO=L(9847),__MUTATEQQo=L(3543),__MUTATEQQooQO0Q0=L(1174),__MUTATE0o=L(3840),__MUTATEOQ0QOO0QQ=L(8582),__MUTATE000=L(9705),CPMStarAds=L(5438)}catch(x){}let O;function c(){if(1===x.exports.ls)try{__MUTATEO.get("lostworld-io_970x250").innerHTML=\'<a href="https://taming.io" onclick="try{Widget.sendAdd(\\\'taming.io\\\')}catch(e){}" target="_blank"><img draggable="false" style="cursor: url(./img/ui/cursor-pointer.png) 16 0, pointer;" src="./img/ui/taming92.png"></img></a>\',__MUTATEO.get("lostworld-io_300x250_1").innerHTML=\'<a href="https://shootup.io" onclick="try{Widget.sendAdd(\\\'shootup.io\\\')}catch(e){}" target="_blank"><img draggable="false" style="cursor: url(./img/ui/cursor-pointer.png) 16 0, pointer;" src="./img/ui/shootup32.png"></img></a>\',__MUTATEO.get("lostworld-io_300x250_2").innerHTML=\'<a href="https://webgames.io" onclick="try{Widget.sendAdd(\\\'webgames.io\\\')}catch(e){}" target="_blank"><img draggable="false" style="cursor: url(./img/ui/cursor-pointer.png) 16 0, pointer;" src="./img/ui/webgames32.png"></img></a>\'}catch(x){}}Date.now();try{x.exports={},x.exports.hs=function(x){O.refresh()},x.exports.fs=function(x){O.fs(x)},x.exports.ds=O,x.exports.ls=0,x.exports.gs=c,x.exports.ss=function(S){S=S||"https://api.adinplay.com/libs/aiptag/assets/adsbygoogle.js",__MUTATEQQo.request(S,void 0,function(){x.exports.ls=1,c()})},x.exports.ws=function(){adblockerPopup.hI()},x.exports.ps=function(){}}catch(x){}!function(){const x=__MUTATEQQo.ia("ref");if("crazygames"===x){O=__MUTATE0o;const x=__MUTATEO.get("shop-io-games");x[__MUTATEQQo.Fc("onclick")]=function(){},x[__MUTATEQQo.Fc("href")]="https://www.crazygames.com/c/io"}else"gamedistribution"===x?(__MUTATEO.get("cross-promo").style.display="none",O=__MUTATEOQ0QOO0QQ):"gamemonetize"===x?O=__MUTATE000:(O=CPMStarAds,__MUTATEO.get("iogames").style.display="none");__MUTATEO.get("da-left").innerHTML="<div id=\'lostworld-io_300x250_1\'></div>",__MUTATEO.get("da-right").innerHTML="<div id=\'lostworld-io_300x250_2\'></div>",__MUTATEO.get("da-bottom").innerHTML="<div id=\'lostworld-io_970x250\'></div>",O.ea(),O.cs()}()},5438:function(x,S,L){const O=function(){let x,S,O;return{ea:function(){x=L(5299),O=L(3543);try{!function(){var x=O.Fc("824_52651_gameapi"),S=O.Fc("cpmstarx"),L=window[S]=window[S]||{},I=Math.round(999999*Math.random()),W=document.createElement("script");W[O.Fc("type")]="text/javascript",W[O.Fc("async")]=!0,W[O.Fc("onerror")]=function(){function t(x){x&&"object"==typeof x&&a[O.Fc("fail")]&&a[O.Fc("fail")]()}L&&Array.isArray(L[O.Fc("cmd")])&&L[O.Fc("cmd")].forEach(t)&&(L[O.Fc("cmd")].length=0),cpmstarAPI=window[O.Fc("_"+x)]=t};var Q=document.location[O.Fc("protocol")],P="https:"==Q||"file:"==Q?"https://server":"//cdn";"#cpmstarDev"==window.location[O.Fc("hash")]&&(P="//dev.server"),"#cpmstarStaging"==window.location[O.Fc("hash")]&&(P="//staging.server"),W.src=P+".cpmstar.com/cached/zonefiles/"+x+".js?rnd="+I;var R=document.getElementsByTagName("script")[0];R.parentNode.insertBefore(W,R),cpmstarAPI=function(x){(L[O.Fc("cmd")]=L[O.Fc("cmd")]||[]).push(x)},cpmstarAPI}();const x=document.createElement("script");x.setAttribute("src","https://ssl.cdne.cpmstar.com/cached/js/lib.js"),document.head.appendChild(x),function(){var x=window,S=86200;document.getElementById("lostworld-io_300x250_1").classList.add("div-"+S);var L=O.Fc("cpmstarx"),I=x.document.getElementsByClassName("div-"+S),W=I.length-1,Q=I[W];const P={[O.Fc("kind")]:"asynctagfetch",[O.Fc("el")]:Q,[O.Fc("pid")]:S,[O.Fc("pindex")]:W};x[L]=x[L]||{},(x[L][O.Fc("libcmd")]=x[L][O.Fc("libcmd")]||[]).push(P)}(),function(){var x=window,S=86185;document.getElementById("lostworld-io_300x250_2").classList.add("div-"+S);var L=O.Fc("cpmstarx"),I=x.document.getElementsByClassName("div-"+S),W=I.length-1,Q=I[W];const P={[O.Fc("kind")]:"asynctagfetch",[O.Fc("el")]:Q,[O.Fc("pid")]:S,[O.Fc("pindex")]:W};x[L]=x[L]||{},(x[L][O.Fc("libcmd")]=x[L][O.Fc("libcmd")]||[]).push(P)}(),function(){var x=window,S=86183;document.getElementById("lostworld-io_970x250").classList.add("div-"+S);var L=O.Fc("cpmstarx"),I=x.document.getElementsByClassName("div-"+S),W=I.length-1,Q=I[W];const P={[O.Fc("kind")]:"asynctagfetch",[O.Fc("el")]:Q,[O.Fc("pid")]:S,[O.Fc("pindex")]:W};x[L]=x[L]||{},(x[L][O.Fc("libcmd")]=x[L][O.Fc("libcmd")]||[]).push(P)}()}catch(x){}},refresh:function(){try{const x={[O.Fc("kind")]:"adcmd",[O.Fc("command")]:"refresh",[O.Fc("module")]:"POOL 86183"};cpmstarAPI(x);const S={[O.Fc("kind")]:"adcmd",[O.Fc("command")]:"refresh",[O.Fc("module")]:"POOL 86185"};cpmstarAPI(S);const L={[O.Fc("kind")]:"adcmd",[O.Fc("command")]:"refresh",[O.Fc("module")]:"POOL 86200"};cpmstarAPI(L)}catch(x){}},cs:function(){x.ss()},us:function(){try{return __MUTATEooO(),0}catch(x){return __MUTATEooO(),0}},fs:function(x){S=x,S.rs()}}}();try{x.exports=O}catch(x){}},3840:function(x,S,L){const O=function(){let x,S,O,I;function c(){window.CrazyGames?(x=window[O.Fc("CrazyGames")][O.Fc("CrazySDK")][O.Fc("getInstance")](),x[O.Fc("init")](),x.addEventListener("adStarted",function(){}),x.addEventListener("adFinished",function(){I.rs()}),x.addEventListener("adError",function(){I.rs()}),x.addEventListener("bannerRendered",function(x){}),x.addEventListener("bannerError",function(x){}),a()):setTimeout(c,100)}function a(){try{if(0===S.ls){const S={[O.Fc("containerId")]:"lostworld-io_300x250_2",[O.Fc("size")]:"300x250"},L={[O.Fc("containerId")]:"lostworld-io_970x250",[O.Fc("size")]:"728x90"};x[O.Fc("requestBanner")]([S,L])}}catch(x){}}let W=0;return{ea:function(){S=L(5299),O=L(3543);try{x=document,I="script",W="crazygames-sdk",P=x.getElementsByTagName(I)[0],x.getElementById(W)||((Q=x.createElement(I)).Wa=W,Q.src="https://sdk.crazygames.com/crazygames-sdk-v1.js",P.parentNode.insertBefore(Q,P)),document.getElementById("lostworld-io_300x250_1").style.width="300px",document.getElementById("lostworld-io_300x250_1").style.height="250px",document.getElementById("lostworld-io_300x250_2").style.width="300px",document.getElementById("lostworld-io_300x250_2").style.height="250px",document.getElementById("lostworld-io_970x250").style.width="970px",document.getElementById("lostworld-io_970x250").style.height="250px",c()}catch(x){}var x,I,W,Q,P},refresh:a,cs:function(){S.ss("https://images.crazygames.com/crazygames-sdk/300x250.png")},us:function(){try{return x[O.Fc("requestAd")]("rewarded"),1}catch(x){return __MUTATEooO(),0}},fs:function(L){I=L;const Q=Date.now();Q-W>6e4&&0===S.ls?(W=Q,x[O.Fc("requestAd")]("midgame")):I.rs()}}}();try{x.exports=O}catch(x){}},8582:function(x,S,L){const O=function(){let x,S,O,I=0;return{ea:function(){x=L(5299),S=L(3543);try{window[S.Fc("GD_OPTIONS")]={};const x=window[S.Fc("GD_OPTIONS")];x[S.Fc("gameId")]="f5f7201758da41ceb7437a19b243de05",x[S.Fc("onEvent")]=function(x){switch(x[S.Fc("name")]){case"SDK_READY":if(0===I){I=1;const x={[S.Fc("containerId")]:"lostworld-io_300x250_1"};window[S.Fc("gdsdk")][S.Fc("showAd")](window[S.Fc("gdsdk")][S.Fc("AdType")][S.Fc("Display")],x);const L={[S.Fc("containerId")]:"lostworld-io_300x250_2"};window[S.Fc("gdsdk")][S.Fc("showAd")](window[S.Fc("gdsdk")][S.Fc("AdType")][S.Fc("Display")],L);const O={[S.Fc("containerId")]:"lostworld-io_970x250"};window[S.Fc("gdsdk")][S.Fc("showAd")](window[S.Fc("gdsdk")][S.Fc("AdType")][S.Fc("Display")],O)}break;case"AD_ERROR":case"SDK_GAME_START":O.rs()}},W=document,Q="script",P="gamedistribution-jssdk",H=W.getElementsByTagName(Q)[0],W.getElementById(P)||((R=W.createElement(Q)).Wa=P,R.src="https://html5.api.gamedistribution.com/main.min.js",H.parentNode.insertBefore(R,H))}catch(x){}var W,Q,P,R,H},refresh:function(){},cs:function(){S.request("https://tracker.gamedock.io/v1/events-tracker/track/gd/event/pageview",function(){x.ls=0},function(S){405===S.status?x.ls=0:(x.ls=1,x.gs())})},us:function(){try{return void 0!==window[S.Fc("gdsdk")]&&void 0!==window[S.Fc("gdsdk")][S.Fc("showAd")]&&0===x.ls?(x.ps(),window[S.Fc("gdsdk")][S.Fc("showAd")]("rewarded"),1):(x.ws(),0)}catch(S){return x.ws(),0}},fs:function(L){O=L,void 0!==window[S.Fc("gdsdk")]&&void 0!==window[S.Fc("gdsdk")][S.Fc("showAd")]&&0===x.ls?window[S.Fc("gdsdk")][S.Fc("showAd")]():O.rs()}}}();try{x.exports=O}catch(x){}},9705:function(x,S,L){const O=function(){let x,S,O,I=0;return{ea:function(){x=L(5299),S=L(3543);try{window[S.Fc("SDK_OPTIONS")]={},window[S.Fc("SDK_OPTIONS")][S.Fc("gameId")]="00b2pc8ju437t9b85uea23lhsmojbk2c",window[S.Fc("SDK_OPTIONS")][S.Fc("onEvent")]=function(x){switch(x[S.Fc("name")]){case"SDK_READY":0===I&&(I=1);break;case"AD_ERROR":case"SDK_GAME_START":O.rs()}},W=document,Q="script",P="gamemonetize-sdk",R=W.getElementsByTagName(Q)[0],W.getElementById(P)||((W=W.createElement(Q)).Wa=P,W.src="https://api.gamemonetize.com/sdk.js",R.parentNode.insertBefore(W,R));const L=x.ls;x.ls=1,x.gs(),x.ls=L}catch(x){}var W,Q,P,R},refresh:function(){},cs:function(){S.request("https://tracker.gamedock.io/v1/events-tracker/track/gd/event/pageview",function(){x.ls=0},function(S){405===S.status?x.ls=0:(x.ls=1,x.gs())})},us:function(){try{return void 0!==window[S.Fc("sdk")]&&void 0!==window[S.Fc("sdk")][S.Fc("showBanner")]&&0===x.ls?(x.ps(),window[S.Fc("sdk")][S.Fc("showBanner")](),1):(x.ws(),0)}catch(S){return x.ws(),0}},fs:function(L){O=L,void 0!==window[S.Fc("sdk")]&&void 0!==window[S.Fc("sdk")][S.Fc("showBanner")]&&0===x.ls?window[S.Fc("sdk")][S.Fc("showBanner")]():O.rs()}}}();try{x.exports=O}catch(x){}},48:function(x,S,L){const O=L(5397);x.exports=function(){this.bs=O.Cc}},2639:function(x){function c(x,S,L,O,I,W){return l(function h(x,S){return x<<S|x>>>32-S}(l(l(S,x),l(O,W)),I),L)}function a(x,S,L,O,I,W,Q){return c(S&L|~S&O,x,S,I,W,Q)}function s(x,S,L,O,I,W,Q){return c(S&O|L&~O,x,S,I,W,Q)}function u(x,S,L,O,I,W,Q){return c(S^L^O,x,S,I,W,Q)}function f(x,S,L,O,I,W,Q){return c(L^(S|~O),x,S,I,W,Q)}function l(x,S){var L=(65535&x)+(65535&S);return(x>>16)+(S>>16)+(L>>16)<<16|65535&L}__MUTATEoo=function(x){return function i(x){for(var S,L="0123456789ABCDEF",O="",I=0;I<x.length;I++)S=x.charCodeAt(I),O+=L.charAt(S>>>4&15)+L.charAt(15&S);return O}(function o(x){for(var S="",L=0;L<32*x.length;L+=8)S+=String.fromCharCode(x[L>>5]>>>L%32&255);return S}(function r(x,S){x[S>>5]|=128<<S%32,x[14+(S+64>>>9<<4)]=S;for(var L=1732584193,O=-271733879,I=-1732584194,W=271733878,Q=0;Q<x.length;Q+=16){var P=L,R=O,H=I,G=W;O=f(O=f(O=f(O=f(O=u(O=u(O=u(O=u(O=s(O=s(O=s(O=s(O=a(O=a(O=a(O=a(O,I=a(I,W=a(W,L=a(L,O,I,W,x[Q+0],7,-680876936),O,I,x[Q+1],12,-389564586),L,O,x[Q+2],17,606105819),W,L,x[Q+3],22,-1044525330),I=a(I,W=a(W,L=a(L,O,I,W,x[Q+4],7,-176418897),O,I,x[Q+5],12,1200080426),L,O,x[Q+6],17,-1473231341),W,L,x[Q+7],22,-45705983),I=a(I,W=a(W,L=a(L,O,I,W,x[Q+8],7,1770035416),O,I,x[Q+9],12,-1958414417),L,O,x[Q+10],17,-42063),W,L,x[Q+11],22,-1990404162),I=a(I,W=a(W,L=a(L,O,I,W,x[Q+12],7,1804603682),O,I,x[Q+13],12,-40341101),L,O,x[Q+14],17,-1502002290),W,L,x[Q+15],22,1236535329),I=s(I,W=s(W,L=s(L,O,I,W,x[Q+1],5,-165796510),O,I,x[Q+6],9,-1069501632),L,O,x[Q+11],14,643717713),W,L,x[Q+0],20,-373897302),I=s(I,W=s(W,L=s(L,O,I,W,x[Q+5],5,-701558691),O,I,x[Q+10],9,38016083),L,O,x[Q+15],14,-660478335),W,L,x[Q+4],20,-405537848),I=s(I,W=s(W,L=s(L,O,I,W,x[Q+9],5,568446438),O,I,x[Q+14],9,-1019803690),L,O,x[Q+3],14,-187363961),W,L,x[Q+8],20,1163531501),I=s(I,W=s(W,L=s(L,O,I,W,x[Q+13],5,-1444681467),O,I,x[Q+2],9,-51403784),L,O,x[Q+7],14,1735328473),W,L,x[Q+12],20,-1926607734),I=u(I,W=u(W,L=u(L,O,I,W,x[Q+5],4,-378558),O,I,x[Q+8],11,-2022574463),L,O,x[Q+11],16,1839030562),W,L,x[Q+14],23,-35309556),I=u(I,W=u(W,L=u(L,O,I,W,x[Q+1],4,-1530992060),O,I,x[Q+4],11,1272893353),L,O,x[Q+7],16,-155497632),W,L,x[Q+10],23,-1094730640),I=u(I,W=u(W,L=u(L,O,I,W,x[Q+13],4,681279174),O,I,x[Q+0],11,-358537222),L,O,x[Q+3],16,-722521979),W,L,x[Q+6],23,76029189),I=u(I,W=u(W,L=u(L,O,I,W,x[Q+9],4,-640364487),O,I,x[Q+12],11,-421815835),L,O,x[Q+15],16,530742520),W,L,x[Q+2],23,-995338651),I=f(I,W=f(W,L=f(L,O,I,W,x[Q+0],6,-198630844),O,I,x[Q+7],10,1126891415),L,O,x[Q+14],15,-1416354905),W,L,x[Q+5],21,-57434055),I=f(I,W=f(W,L=f(L,O,I,W,x[Q+12],6,1700485571),O,I,x[Q+3],10,-1894986606),L,O,x[Q+10],15,-1051523),W,L,x[Q+1],21,-2054922799),I=f(I,W=f(W,L=f(L,O,I,W,x[Q+8],6,1873313359),O,I,x[Q+15],10,-30611744),L,O,x[Q+6],15,-1560198380),W,L,x[Q+13],21,1309151649),I=f(I,W=f(W,L=f(L,O,I,W,x[Q+4],6,-145523070),O,I,x[Q+11],10,-1120210379),L,O,x[Q+2],15,718787259),W,L,x[Q+9],21,-343485551),L=l(L,P),O=l(O,R),I=l(I,H),W=l(W,G)}return[L,O,I,W]}(function e(x){for(var S=Array(x.length>>2),L=0;L<S.length;L++)S[L]=0;for(L=0;L<8*x.length;L+=8)S[L>>5]|=(255&x.charCodeAt(L/8))<<L%32;return S}(x),8*x.length))).toLowerCase()};try{x.exports=__MUTATEoo}catch(x){}},3543:function(x){const S={request:function(x,S,L){const O=new XMLHttpRequest;O.open("GET",x),O.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),O.onreadystatechange=function(){4==this.readyState&&200==this.status?void 0!==S&&S(O.responseText):4==this.readyState&&void 0!==L&&L(this)},O.send()},getData:function(x){let S=function o(x){let S=x+"=";var L="";try{L=decodeURIComponent(document.cookie)}catch(x){return""}let O=L.split(";");for(let x=0;x<O.length;x++){let L=O[x];for(;" "==L.charAt(0);)L=L.substring(1);if(0==L.indexOf(S))return L.substring(S.length,L.length)}return""}(x);if(!S)try{S=window.localStorage.getItem(x)}catch(x){}return S||""},setData:function(x,S,L){!function e(x,S,L,O){let I=new Date;I.setTime(I.getTime()+24*L*60*60*1e3);let W="expires="+I.toUTCString(),Q=O?";domain="+O:"";document.cookie=x+"="+encodeURIComponent(S)+";"+W+";path=/"+Q}(x,S,365,L);try{window.localStorage.setItem(x,S)}catch(x){}},vs:function(x,S,L){S=S?1:0;const O=36e5,I=24*O,W=Math.floor(x/I),Q=Math.floor((x%=I)/O),P=Math.floor((x%=O)/6e4);x%=6e4;let R="";return 1===S?(0!==W&&(R+=W+"d"),0!==Q&&(R+=Q+"h"),0!==P&&(R+=P)):(0!==W&&(R+=W+"d "),0!==Q&&(R+=Q+"h "),0!==P&&(R+=P+"min "),(1===L||0===W&0==Q&&0===P)&&(R+=Math.floor(x/1e3)+"s")),R},Ts:function(x,S){return Number(Math.round(x+"e"+S)+"e-"+S)},ia:function(x,S){S||=window.location.href,x=x.replace(/[\\[]/,"\\\\[").replace(/[\\]]/,"\\\\]");let L=RegExp("[\\\\?&]"+x+"=([^&#]*)").exec(S);return null==L?null:L[1]},Fc:function(x){return x+""},Qa:function(x){let S="";for(let L=0;L<x;L++)S+=Math.floor(16*Math.random()).toString(16);return S.toUpperCase()}};try{x.exports=S}catch(x){}},4733:function(x){function e(x){var S=Error("Cannot find module \'"+x+"\'");throw S.code="MODULE_NOT_FOUND",S}e.keys=function(){return[]},e.resolve=e,e.Wa=4733,x.exports=e},9282:function(x,S,L){const O=L(3970),I=L(7251);let W=[];W[O.L]={_s:160,Ms:160,ks:I.As-160,ys:5*I.Bs/20,Us:"#ece5db"},W[O.S]={_s:160,Ms:5*I.Bs/20,ks:I.As-160,ys:15*I.Bs/20,Us:"#788F57"},W[O.O]={_s:160,Ms:15*I.Bs/20,ks:I.As-160,ys:16*I.Bs/20,Us:"#fcefbb"},W[O.j]={_s:160,Ms:16*I.Bs/20,ks:I.As-160,ys:I.Bs-1e3,Us:"#2a8b9b"},W[O.N]={_s:160,Ms:I.Bs-1e3,ks:I.As-160,ys:I.Bs-160,Us:"#b38354"},x.exports=W},7251:function(x){const S={zs:1,Es:1824,Cs:1026,Ds:130,Ss:9,Ls:1/3,version:7,xs:1/6,Os:80,js:150,As:1e4,Bs:1e4};S.Ns=Math.PI/2,S.Ws=255,S.Qs="#FFFFFF",S.Hs=28,S.Rs=70,S.Gs=60,S.Vs=240,S.qs=17,S.Ps=["#FFD700","#C0C0C0","#CD7F32"],S.Ys="#FFFFFF",S.Zs=5,S.Ks="#2D3030",S.Is=1/12,S.Fs=[0,0,0,100,30,8,2,12,32,1,2,4],S.Js=2e3,S.Xs=5e3,S.$s=1e4,S.tu=!1,x.exports=S},3287:function(x,S,L){const O=L(3950),I=L(3970),W=L(9055),Q=L(1917),P=[];P[Q.at]={nu:35,iu:100,eu:W.it},P[Q.ht]={nu:60,iu:300,eu:W.it},P[Q.Ct]={nu:50,iu:300,eu:W.it},P[Q.K]={nu:40,iu:300,eu:W.it},P[Q.ut]={nu:50,eu:W.it,ou:1},P[Q.Gt]={nu:50,eu:W.it,ou:5,is:20},P[Q.Vt]={nu:220,eu:W.W,ou:5,is:1},P[Q.nt]={nu:76,eu:W.it,ru:15},P[Q.qt]={nu:100,eu:W.it,ru:35},P[Q.st]={nu:75,eu:W.it,cu:1},P[Q.Ot]={nu:92,eu:W.it,cu:1},P[Q.Wt]={nu:92,eu:W.it,cu:0},P[Q.Qt]={nu:20,eu:W.it,cu:0},P[Q.jt]={nu:92,eu:W.it,cu:1},P[Q.Nt]={nu:58,eu:W.it,cu:1},P[Q.ay]={nu:90,eu:W.it,au:1},P[Q.kt]={nu:80,eu:W.it,au:1},P[Q.At]={nu:80,eu:W.it,au:1},P[Q.yt]={nu:60,eu:W.it,cu:1},P[Q.ft]={is:20,nu:45,iu:380,su:20,eu:W.it},P[Q.ax]={is:35,nu:45,iu:500,eu:W.it},P[Q.Pt]={is:45,nu:45,iu:500,eu:W.it},P[Q._t]={is:10,nu:42,iu:1200,su:24,eu:W.it},P[Q.lt]={nu:45,iu:380,eu:W.it},P[Q.xt]={nu:45,iu:380,eu:W.it,ru:70,Rc:20},P[Q.Bt]={nu:59,iu:1750,eu:W.it},P[Q.Mt]={nu:45,iu:800,eu:W.it},P[Q.vt]={nu:50,iu:380,eu:W.it},P[Q.I]={nu:40,iu:500,eu:W.it},P[Q.$]={nu:40,iu:250,eu:W.it},P[Q.bt]={nu:90,iu:380,eu:W.it,uu:1.6,fu:O.T|O.k,lu:I.S},P[Q.Ht]={nu:20,iu:380,eu:W.it,uu:1.6,fu:O.T|O.k,lu:I.S},P[Q.Et]={nu:90,iu:1e3,eu:W.it,uu:1.6,fu:O.T|O.A,is:19},P[Q.Ut]={nu:90,iu:380,eu:W.it,uu:1.2,fu:O.T|O.B|O.A,is:14,lu:I.j},P[Q.Yt]={nu:90,iu:450,eu:W.it,uu:1.2,fu:O.T|O.B|O.A,is:14,lu:I.j},P[Q.zt]={nu:50,iu:380,eu:W.it,uu:1.6,fu:O.T|O.A,is:14,lu:I.S},P[Q.Lt]={nu:100,iu:380,eu:W.it,uu:.4,fu:O.T,is:15,lu:I.S},P[Q.St]={nu:90,iu:5e3,eu:W.it,uu:1.6,fu:O.T|O.A,is:30,lu:I.L},P[Q.Dt]={nu:100,iu:5e3,eu:W.it,uu:1.15,fu:O.T|O.A,is:30,lu:I.S},P[Q.dt]={nu:40,iu:4,eu:W.it},P[Q.wt]={nu:45,iu:400,eu:W.it},P[Q.Tt]={nu:54,iu:400,eu:W.it},P[Q.Rt]={nu:35,iu:150,eu:W.it},x.exports=P},3424:function(x,S,L){const O=L(9657),I=[];I[O.Et]={description:"A Golden Cow has appeared!",duration:240},I[O.Dt]={description:"A Dragon has appeared!",duration:480},I[O.St]={description:"A Mammoth has appeared!",duration:480},x.exports=I},1624:function(x,S,L){const O=L(4002),I=L(6597),W=[];W[O.W]={},W[O.Zt]={hu:I.Go,du:250,gu:0,description:"Become a bush",Ta:"Bush Hat",wu:!0},W[O.Kt]={hu:I.Ye,du:5e3,description:"Increased melee damage",gu:10,pu:1.25,bu:.85,Ta:"Berserker Gear"},W[O.It]={hu:I.Ke,du:3e3,description:"Regenerate health",gu:13,vu:25,Ta:"Jungle Gear"},W[O.Ft]={hu:I.Ie,du:5e3,description:"Receive reduced damage",gu:10,mu:.75,bu:.95,Ta:"Crystal Gear"},W[O.Jt]={hu:I.Je,du:1e3,description:"Attackers receive damage",gu:10,Tu:.45,Ta:"Spike Gear"},W[O.Xt]={hu:I.Xe,du:4e3,description:"Gain more health",gu:15,iu:150,Ta:"Immunity Gear"},W[O.$t]={hu:I.$e,du:1500,description:"Move quicker",gu:23,bu:1.23,Ta:"Boost Hat"},W[O.tn]={hu:I.Co,du:150,description:"Apples become more succulent",gu:5,bu:1.05,Ta:"Apple Hat"},W[O.nn]={hu:I.$o,du:4e3,description:"Move fast in ocean",gu:5,bu:.75,_u:1.5,Ta:"Scuba Gear"},W[O.en]={hu:I.ir,du:3500,description:"Become invisible when still",gu:5,Ta:"Hood",wu:!0},W[O.on]={hu:I.Gr,du:4e3,description:"Destroy buildings faster",gu:10,Ta:"Demolist",bu:.3},W[O.cn]={hu:I.Dr,du:1e3,description:"Its curse makes you kill",gu:2,Ta:"Pumpking\'s Curse",bu:1.15,Tu:.3,_u:.7,pu:1.15,iu:120,Mu:!0},W[O.rn]={hu:I.cc,du:700,description:"Move fast in the snow",gu:0,bu:1,ku:1.7,Ta:"Winter Hat"},x.exports=W},9299:function(x,S,L){const O=L(1917),I=L(6410),W=L(6597),Q=L(7262),P=L(3266),R=[];R[I.fn]={Wa:I.fn,Au:I.Nn,yu:P.nt,Bu:W.Oe,hu:W.fn,Ta:"Tool Hammer",description:"Gather materials",range:80,Uu:0,su:25,reload:300,zu:30,Eu:200,Cu:0,Du:0,Su:-3.5,gu:1},R[I.Nn]={Wa:I.Nn,Au:I.Wn,yu:P.Wc,Bu:W.mr,hu:W.Nn,Ta:"Gold Tool Hammer",description:"Gather materials",range:80,Uu:0,su:32,reload:300,zu:30,Eu:200,Cu:0,Du:0,Su:-3.5,gu:1},R[I.Wn]={Wa:I.Wn,Au:I.Qn,yu:P.Qc,Bu:W.Tr,hu:W.Wn,Ta:"Diamond Tool Hammer",description:"Gather materials",range:80,Uu:0,su:38,reload:300,zu:30,Eu:200,Cu:0,Du:0,Su:-3.5,gu:1},R[I.Qn]={Wa:I.Qn,Bu:W._r,hu:W.Qn,Ta:"Ruby Tool Hammer",description:"Gather materials",range:80,Uu:0,su:41,reload:300,zu:30,Eu:200,Cu:0,Du:0,Su:-3.5,gu:1},R[I.ln]={Wa:I.ln,Au:I.ci,yu:P.nt,Lu:Q.W,xu:Q.H,Bu:W.xe,hu:W.ln,Ta:"Stone Sword",description:"Sharp and pointy",range:135,Eu:250,Uu:0,su:35,reload:300,Ou:.85,Cu:0,Du:0,Su:-8,gu:-4},R[I.ci]={Wa:I.ci,Au:I.ai,yu:P.Wc,Lu:Q.W,xu:Q.H,Bu:W.ci,hu:W.ci,Ta:"Gold Sword",description:"Sharp and pointy",range:135,Eu:250,Uu:0,su:38,reload:300,Ou:.85,Cu:0,Du:0,Su:-8,gu:-4},R[I.ai]={Wa:I.ai,Au:I.si,yu:P.Qc,Lu:Q.W,xu:Q.H,Bu:W.ai,hu:W.ai,Ta:"Diamond Sword",description:"Sharp and pointy",range:135,Eu:250,Uu:0,su:42,reload:300,Ou:.85,Cu:0,Du:0,Su:-8,gu:-4},R[I.si]={Wa:I.si,Lu:Q.W,xu:Q.H,Bu:W.si,hu:W.si,Ta:"Ruby Sword",description:"Sharp and pointy",range:135,Eu:250,Uu:0,su:46,reload:300,Ou:.85,Cu:0,Du:0,Su:-8,gu:-4},R[I.Pn]={Wa:I.Pn,Lu:Q.W,xu:Q.J,Bu:W.Xr,hu:W.Jr,Ta:"Crystal Dagger",description:"A stubbier sword",range:80,Eu:100,Uu:0,su:34,reload:150,Ou:1.08,Cu:0,Du:0,Su:10,gu:20},R[I.qn]={Wa:I.qn,Lu:Q.W,xu:Q.J,Bu:W.Nr,hu:W.Rr,Ta:"Ruby Dagger",description:"A stubbier sword",range:80,Eu:100,Uu:0,su:34,reload:150,Ou:1.08,Cu:0,Du:0,Su:10,gu:20},R[I.Vn]={Wa:I.Vn,Au:I.qn,yu:P.Qc,Lu:Q.W,xu:Q.J,Bu:W.jr,hu:W.Hr,Ta:"Diamond Dagger",description:"A stubbier sword",range:80,Eu:100,Uu:0,su:32,reload:150,Ou:1.07,Cu:0,Du:0,Su:10,gu:20},R[I.Gn]={Au:I.Vn,yu:P.Wc,Wa:I.Gn,Lu:Q.W,xu:Q.J,Bu:W.Or,hu:W.Qr,Ta:"Gold Dagger",description:"A stubbier sword",range:80,Eu:100,Uu:0,su:30,reload:150,Ou:1.06,Cu:0,Du:0,Su:10,gu:20},R[I.Rn]={Au:I.Gn,yu:P.nt,Wa:I.Rn,Lu:Q.W,xu:Q.J,Bu:W.Lr,hu:W.Wr,Ta:"Stone Dagger",description:"A stubbier sword",range:80,Eu:100,Uu:0,su:28,reload:150,Ou:1.05,Cu:0,Du:0,Su:10,gu:20},R[I.vn]={Wa:I.vn,Au:I.zn,yu:P.nt,Lu:Q.H,xu:Q.H,Bu:W.ho,hu:W.vn,Ta:"Katana",description:"Excellent melee weapon",range:140,Eu:150,Uu:0,su:40,reload:300,Ou:.85,Cu:0,Du:0,Su:1,gu:3},R[I.zn]={Wa:I.zn,Au:I.Un,yu:P.Wc,Lu:Q.H,xu:Q.H,Bu:W.ur,hu:W.zn,Ta:"Gold Katana",description:"Excellent melee weapon",range:140,Eu:150,Uu:0,su:43,reload:300,Ou:.85,Cu:0,Du:0,Su:1,gu:3},R[I.Un]={Wa:I.Un,Au:I.Dn,yu:P.Qc,Lu:Q.H,xu:Q.H,Bu:W.sr,hu:W.Un,Ta:"Diamond Katana",description:"Excellent melee weapon",range:140,Eu:150,Uu:0,su:46.5,reload:300,Ou:.85,Cu:0,Du:0,Su:1,gu:3},R[I.Dn]={Wa:I.Dn,Lu:Q.H,xu:Q.H,Bu:W.wr,hu:W.Dn,Ta:"Chillrend",description:"A powerful force flows through this blade.",range:140,Eu:150,Uu:0,su:48.5,reload:300,Ou:.9,Cu:0,Du:0,Su:1,gu:3},R[I.Zn]={Wa:I.Zn,Lu:Q.H,xu:Q.H,Bu:W.zc,hu:W.Zn,Ta:"Daedric Scythe",description:"Whispers fill the air",range:160,Eu:150,Uu:0,su:52,reload:450,Ou:.85,Cu:0,Du:0,Su:-5,gu:20},R[I.q]={Wa:I.q,Au:I.Sn,yu:P.nt,Lu:Q.W,xu:Q.q,Bu:W.eo,hu:W.q,Ta:"Stick",description:"Gathers resources quickly",range:100,Uu:0,su:1,reload:400,Cu:0,Eu:60,Du:0,Su:4,gu:0,ju:7,Nu:7,Wu:7,Qu:4},R[I.Sn]={Wa:I.Sn,Au:I.Ln,yu:P.Wc,Lu:Q.W,xu:Q.q,Bu:W.pr,hu:W.Sn,Ta:"Gold Stick",description:"Gathers resources quickly",range:100,Uu:0,su:1,reload:400,Cu:0,Eu:60,Du:0,Su:4,gu:0,ju:8,Nu:8,Wu:8,Qu:5},R[I.Ln]={Wa:I.Ln,Au:I.xn,yu:P.Qc,Lu:Q.W,xu:Q.q,Bu:W.Br,hu:W.Ln,Ta:"Diamond Stick",description:"Gathers resources quickly",range:100,Uu:0,su:1,reload:400,Cu:0,Eu:60,Du:0,Su:4,gu:0,ju:9,Nu:9,Wu:9,Qu:6},R[I.xn]={Wa:I.xn,Lu:Q.W,xu:Q.q,Bu:W.Ur,hu:W.xn,Ta:"Ruby Stick",description:"Gathers resources quickly",range:100,Uu:0,su:1,reload:400,Cu:0,Eu:60,Du:0,Su:4,gu:0,ju:10,Nu:10,Wu:10,Qu:7},R[I.hn]={Wa:I.hn,Au:I.Cn,yu:P.nt,Lu:Q.W,xu:Q.R,Bu:W.Ne,hu:W.hn,Ta:"Stone Spear",description:"Long melee range",range:160,Uu:0,su:49,Ou:.81,Eu:375,reload:700,Cu:0,Du:0,Su:0,gu:2},R[I.En]={Wa:I.En,Au:I.ri,yu:P.Qc,Lu:Q.W,xu:Q.R,Bu:W.lr,hu:W.En,Ta:"Diamond Spear",description:"Long melee range",range:160,Uu:0,su:53,Ou:.81,Eu:375,reload:700,Cu:0,Du:0,Su:0,gu:2},R[I.ri]={Wa:I.ri,Lu:Q.W,xu:Q.R,Bu:W._c,hu:W.ri,Ta:"Ruby Spear",description:"Long melee range",range:160,Uu:0,su:56,Ou:.81,Eu:375,reload:700,Cu:0,Du:0,Su:0,gu:2},R[I.Cn]={Wa:I.Cn,Au:I.En,yu:P.Wc,Lu:Q.W,xu:Q.R,Bu:W.hr,hu:W.Cn,Ta:"Gold Spear",description:"Long melee range",range:160,Uu:0,su:51,Ou:.81,Eu:375,reload:700,Cu:0,Du:0,Su:0,gu:2},R[I._n]={Wa:I._n,Au:I.jn,yu:P.nt,Lu:Q.R,xu:Q.R,Bu:W.jo,hu:W._n,Ta:"Naginata",description:"Long melee range",range:165,Uu:0,su:52,Ou:.81,Eu:400,reload:700,Cu:0,Du:0,Su:0,gu:-4},R[I.jn]={Wa:I.jn,Au:I.On,yu:P.Wc,Lu:Q.R,xu:Q.R,Bu:W.vr,hu:W.jn,Ta:"Gold Naginata",description:"Long melee range",range:165,Uu:0,su:54,Ou:.81,Eu:400,reload:700,Cu:0,Du:0,Su:0,gu:-4},R[I.On]={Wa:I.On,Au:I.oi,yu:P.Qc,Lu:Q.R,xu:Q.R,Bu:W.br,hu:W.On,Ta:"Diamond Naginata",description:"Long melee range",range:165,Uu:0,su:56,Ou:.81,Eu:400,reload:700,Cu:0,Du:0,Su:0,gu:-4},R[I.oi]={Wa:I.oi,Lu:Q.R,xu:Q.R,Bu:W.Tc,hu:W.oi,Ta:"Ruby Naginata",description:"Long melee range",range:165,Uu:0,su:59,Ou:.81,Eu:400,reload:700,Cu:0,Du:0,Su:0,gu:-4},R[I.F]={Wa:I.F,Au:I.ni,yu:P.nt,Lu:Q.W,xu:Q.F,Bu:W.er,hu:W.F,Ta:"Bat",description:"Hit enemies for a home run",range:115,Uu:0,su:28,Ou:.92,Eu:870,reload:600,Cu:0,Du:0,Su:10,gu:2},R[I.ni]={Wa:I.ni,Au:I.ii,yu:P.Wc,xu:Q.F,Bu:W.gc,hu:W.dc,Ta:"Golden Bat",description:"Hit enemies for a home run",range:115,Uu:0,su:28,Ou:.92,Eu:970,reload:600,Cu:0,Du:0,Su:10,gu:2},R[I.ii]={Wa:I.ii,Au:I.ei,yu:P.Qc,xu:Q.F,Bu:W.bc,hu:W.wc,Ta:"Diamond Bat",description:"Hit enemies for a home run",range:115,Uu:0,su:28,Ou:.92,Eu:1070,reload:600,Cu:0,Du:0,Su:10,gu:2},R[I.ei]={Wa:I.ei,xu:Q.F,Bu:W.mc,hu:W.vc,Ta:"Ruby Bat",description:"Hit enemies for a home run",range:115,Uu:0,su:28,Ou:.92,Eu:1170,reload:600,Cu:0,Du:0,Su:10,gu:2},R[I.Yn]={Wa:I.Yn,Au:I.Zn,yu:P.Wc,Lu:Q.W,xu:Q.W,Bu:W.Uc,hu:W.Yn,Ta:"Secret Item",description:"Dont leak how to get it :)",range:115,Uu:0,su:28,Ou:.92,Eu:1570,reload:1250,Cu:0,Du:0,Su:40,gu:40},R[I.bn]={Wa:I.bn,Au:I.Xn,yu:P.nt,Lu:Q.W,xu:Q.W,Bu:W.uo,hu:W.bn,Ta:"Hammer",description:"Breaks structures faster",range:80,Uu:1,su:12,zu:76,Ou:.89,Eu:200,reload:400,Cu:0,Du:0,Su:5,gu:2},R[I.Xn]={Wa:I.Xn,Au:I.$n,yu:P.Wc,Bu:W.sc,hu:W.ac,Ta:"Golden Hammer",description:"Breaks structures faster",range:80,Uu:1,su:15,zu:79,Ou:.89,Eu:200,reload:400,Cu:0,Du:0,Su:5,gu:2},R[I.$n]={Wa:I.$n,Au:I.ti,yu:P.Qc,Bu:W.fc,hu:W.uc,Ta:"Diamond Hammer",description:"Breaks structures faster",range:80,Uu:1,su:18,zu:82,Ou:.89,Eu:200,reload:400,Cu:0,Du:0,Su:5,gu:2},R[I.ti]={Wa:I.ti,Bu:W.hc,hu:W.lc,Ta:"Ruby Hammer",description:"Breaks structures faster",range:80,Uu:1,su:21,zu:85,Ou:.89,Eu:200,reload:400,Cu:0,Du:0,Su:5,gu:2},R[I.dn]={Wa:I.dn,Au:I.An,yu:P.nt,Lu:Q.W,xu:Q.Y,Bu:W.We,hu:W.He,Ta:"Stone Axe",description:"Gathers materials faster",range:90,Uu:0,su:30,Eu:250,reload:400,Cu:0,Du:0,Su:-2,gu:2,ju:2,Nu:2,Wu:2,Qu:2},R[I.An]={Wa:I.An,Au:I.kn,yu:P.Wc,Lu:Q.W,xu:Q.Y,Bu:W.cr,hu:W.An,Ta:"Gold Axe",description:"Gathers materials faster",range:90,Uu:0,su:33,Eu:250,reload:400,Cu:0,Du:0,Su:-2,gu:2,ju:2,Nu:2,Wu:2,Qu:2},R[I.kn]={Wa:I.kn,Au:I.ui,yu:P.Qc,Lu:Q.W,xu:Q.Y,Bu:W.rr,hu:W.kn,Ta:"Diamond Axe",description:"Gathers materials faster",range:90,Uu:0,su:36,Eu:250,reload:400,Cu:0,Du:0,Su:-2,gu:2,ju:2,Nu:2,Wu:2,Qu:2},R[I.ui]={Wa:I.ui,Lu:Q.W,xu:Q.Y,Bu:W.Bc,hu:W.ui,Ta:"Diamond Axe",description:"Gathers materials faster",range:90,Uu:0,su:39,Eu:250,reload:400,Cu:0,Du:0,Su:-2,gu:2,ju:2,Nu:2,Wu:2,Qu:2},R[I.Mn]={Wa:I.Mn,Au:I.Bn,yu:P.nt,Lu:Q.Y,xu:Q.Y,Bu:W.Io,hu:W.Mn,Ta:"Great Axe",description:"More powerful axe.",range:94,Uu:0,su:38,Eu:250,reload:400,Cu:0,Du:0,Su:4,gu:2,ju:4,Nu:4,Wu:4,Qu:2},R[I.Bn]={Wa:I.Bn,Au:I.yn,yu:P.Wc,Lu:Q.Y,xu:Q.Y,Bu:W.dr,hu:W.Bn,Ta:"Gold Great Axe",description:"More powerful axe.",range:94,Uu:0,su:42,Eu:250,reload:400,Cu:0,Du:0,Su:4,gu:2,ju:4,Nu:4,Wu:4,Qu:2},R[I.yn]={Wa:I.yn,Au:I.fi,yu:P.Qc,Lu:Q.Y,xu:Q.Y,Bu:W.ar,hu:W.yn,Ta:"Diamond Great Axe",description:"More powerful axe.",range:94,Uu:0,su:46,Eu:250,reload:400,Cu:0,Du:0,Su:4,gu:2,ju:4,Nu:4,Wu:4,Qu:2},R[I.fi]={Wa:I.fi,Lu:Q.Y,xu:Q.Y,Bu:W.yc,hu:W.fi,Ta:"Ruby Great Axe",description:"More powerful axe.",range:94,Uu:0,su:50,Eu:250,reload:400,Cu:0,Du:0,Su:4,gu:2,ju:4,Nu:4,Wu:4,Qu:2},R[I.G]={Wa:I.G,du:[0,0,10,0],Lu:Q.V,Hu:Q.H,xu:Q.G,Bu:W.je,hu:W.G,Ta:"Stone Musket",description:"Deal Long Range Damage",range:1e3,Uu:1,su:49,reload:1500,Ru:W.gt,Gu:2100,Cu:1,Du:1,Ou:.63,Su:0,gu:0},R[I.V]={Wa:I.V,du:[0,4,0,0],Lu:Q.W,xu:Q.V,Bu:W.yo,hu:W.V,Ta:"Bow",description:"Deal Long Range Damage",range:800,Uu:1,su:25,reload:600,Ru:W.Bo,Gu:1700,Cu:1,Du:1,Ou:.75,Su:0,gu:35},R[I.Hn]={Wa:I.Hn,du:[80,80,80,80],Lu:Q.W,xu:Q.Z,Bu:W.ec,hu:W.Hn,Ta:"Pearl",description:"Teleport on impact",range:800,Uu:1,su:10,reload:7500,Ru:W.Hn,Gu:1500,Cu:1,Du:1,Ou:.5,Su:0,gu:35},R[I.Tn]={Wa:I.Tn,du:[0,10,0,0],Lu:Q.V,xu:Q.V|Q.q|Q.Y,Bu:W.zo,hu:W.Tn,Ta:"XBow",description:"Rapid fire bow",range:800,Uu:1,su:27,reload:235,Ru:W.Bo,Gu:1700,Cu:1,Du:1,Ou:.5,Su:0,gu:30},R[I.gn]={Wa:I.gn,du:[0,10,0,0],Bu:W.Qe,hu:W.Wo,Ta:"Wood Wall",description:"A sturdy wall",Uu:3,Cu:2,Vu:5,Su:0,gu:15,qu:O.lt,Du:2},R[I.Rt]={Wa:I.Rt,du:[0,50,50,0],Lu:Q.Y|Q.q|Q.F,xu:Q.W,Bu:W.ic,hu:W.Rt,Ta:"Teleporter",description:"Teleports to location on map",Uu:9,Cu:2,Vu:5,Su:0,gu:15,qu:O.Rt,Du:2},R[I.Bt]={Wa:I.Bt,du:[0,0,35,10],Lu:Q.W,xu:Q.W,Bu:W.No,hu:W.Ho,Ta:"Castle Wall",description:"A very sturdy wall",Uu:3,Cu:2,Vu:8,Su:0,gu:13,qu:O.Bt,Du:2},R[I.Mt]={Wa:I.Mt,du:[0,200,150,10],Lu:Q.W,xu:Q.W,Bu:W.To,hu:W.bo,Ta:"Turret",description:"Defence for your base",Uu:10,Cu:2,Vu:6,Su:0,gu:25,qu:O.Mt,Du:2},R[I.vt]={Wa:I.vt,Lu:Q.W,xu:Q.W,du:[0,200,200,200],Bu:W.fo,hu:W.Ko,Ta:"Cosy Bed",description:"Respawn at the bed",Uu:9,Cu:2,Vu:8,Su:0,gu:25,qu:O.vt,Du:2},R[I.wt]={Wa:I.wt,du:[0,50,10,0],Bu:W.ro,hu:W.so,Ta:"Windmill",description:"Generates score over time",Uu:5,Cu:2,Vu:-5,Su:0,gu:38,qu:O.wt,Du:2},R[I.Tt]={Wa:I.Tt,du:[0,100,50,0],Lu:Q.W,xu:Q.W,Bu:W.ro,hu:W.so,Ta:"Powermill",description:"Generates more score over time",Uu:5,Cu:2,Vu:5,Su:0,gu:38,qu:O.Tt,Du:2},R[I.ft]={Wa:I.ft,du:[0,20,5,0],Bu:W.Ge,hu:W.Qo,Ta:"Spike",description:"Sharp defence",Uu:4,Cu:2,Vu:2,Su:0,gu:15,qu:O.ft,Du:2},R[I.ax]={Wa:I.ax,Lu:Q.W,xu:Q.W,du:[0,30,10,0],Bu:W.po,hu:W.Po,Ta:"Hard Spike",description:"Sharper defence",Uu:4,Cu:2,Vu:2,Su:0,gu:15,qu:O.ax,Du:2},R[I.Pt]={Wa:I.Pt,Lu:Q.K,xu:Q.W,du:[0,40,20,10],Bu:W.rc,hu:W.oc,Ta:"Ice Spike",description:"Even Sharper defence",Uu:4,Cu:2,Vu:2,Su:0,gu:15,qu:O.Pt,Du:2},R[I.At]={Wa:I.At,Lu:Q.W,xu:Q.W,du:[0,200,0,0],Bu:W._o,hu:W.Vo,Ta:"Cherry wood farm",description:"Used for decoration and wood",Uu:6,Cu:2,Vu:3,Su:0,gu:47,qu:O.At,Du:2},R[I.kt]={Wa:I.kt,Lu:Q.W,xu:Q.W,du:[0,200,0,0],Bu:W.Mo,hu:W.qo,Ta:"Wood farm",description:"Used for decoration and wood",Uu:6,Cu:2,Vu:3,Su:0,gu:47,qu:O.kt,Du:2},R[I.yt]={Wa:I.yt,Lu:Q.W,xu:Q.W,du:[0,0,200,0],Bu:W.ko,hu:W.Ro,Ta:"Stone farm",description:"Used for decoration and stone",Uu:6,Cu:2,Vu:3,Su:0,gu:20,qu:O.yt,Du:2},R[I.mn]={Wa:I.mn,Lu:Q.W,xu:Q.W,du:[200,0,0,0],Bu:W.Ao,hu:W.Go,Ta:"Berry farm",description:"Used for decoration and berries",Uu:6,Cu:2,Vu:3,Su:0,gu:17,qu:O.ut,Du:2},R[I._t]={Wa:I._t,du:[0,30,30,0],Lu:Q.Y|Q.q,xu:Q.W,Bu:W.do,hu:W.Yo,Ta:"Castle Spike",description:"Great for bases",Uu:4,Cu:2,Vu:-8,Su:0,gu:14,qu:O._t,Du:2},R[I.K]={Wa:I.K,du:[0,5,20,0],Lu:Q.W,xu:Q.K,Bu:W.Re,hu:W.fx,Ta:"Boost",description:"Provides a thrust",Uu:7,Cu:2,Vu:-5,Su:0,gu:3,qu:O.K,Du:2},R[I.I]={Wa:I.I,du:[0,30,30,0],Lu:Q.W,xu:Q.I,Bu:W.qe,hu:W.fy,Ta:"Trap",description:"Snared enemies are stuck",Uu:7,Cu:2,Vu:2,Su:0,gu:26,qu:O.I,Du:2},R[I.$]={Wa:I.$,du:[25,80,50,0],Pu:4,Lu:Q.W,xu:Q.$,Bu:W.Fr,hu:W.Yu,Ta:"Heal Pad",description:"Allies around you are healed",Uu:11,Cu:2,Vu:2,Su:0,gu:26,qu:O.$,Du:2,Zu:10,reload:500,range:300},R[I.ht]={Wa:I.ht,du:[0,20,0,0],Lu:Q.W,xu:Q.ht,Bu:W.Ve,hu:W.Zo,Ta:"Platform",description:"Shoot over structures",Uu:8,Cu:2,Vu:-2,Su:0,gu:8,qu:O.ht,Du:2},R[I.Ct]={Wa:I.Ct,du:[0,20,0,0],Lu:Q.W,xu:Q.ht,Bu:W.zr,hu:W.Ct,Ta:"Roof",description:"Take cover from projectiles",Uu:8,Cu:2,Vu:0,Su:0,gu:15,qu:O.Ct,Du:2},R[I.wn]={Wa:I.wn,du:[10,0,0,0],Bu:W.Ze,hu:W.wn,Ta:"Apple",description:"Heals you",Uu:2,Cu:3,Zu:20,Su:0,gu:22,Du:2},R[I.pn]={Wa:I.pn,du:[15,0,0,0],Lu:Q.W,xu:Q.P,Bu:W.no,hu:W.pn,Ta:"Cookie",description:"Heals you",Uu:2,Cu:3,Zu:35,Su:0,gu:22,Du:2},R[I.Z]={Wa:I.Z,Lu:Q.W,xu:Q.Z,Bu:W.Fe,hu:W.Z,Ta:"Shield",description:"Reduces damage",Uu:1,Cu:0,Ou:.7,Ku:.75,range:55,Eu:350,su:15,zu:40,reload:500,Su:-15,gu:10,Du:3},R[I.Jn]={Wa:I.Jn,Lu:Q.W,xu:Q.X,Bu:W.Ir,hu:W.nc,Ta:"Ruby Healing Staff",description:"Make peace, not war",range:140,Eu:100,Uu:0,su:30,Zu:30,reload:500,Cu:0,Du:0,Su:-30,gu:0},R[I.Fn]={Au:I.Jn,yu:P.Qc,Wa:I.Fn,Lu:Q.W,xu:Q.X,Bu:W.Kr,hu:W._e,Ta:"Diamond Healing Staff",description:"Make peace, not war",range:140,Eu:100,Uu:0,su:27,Zu:27,reload:500,Cu:0,Du:0,Su:-30,gu:0},R[I.In]={Au:I.Fn,yu:P.Wc,Wa:I.In,Lu:Q.W,xu:Q.X,Bu:W.Zr,hu:W.tc,Ta:"Gold Healing Staff",description:"Make peace, not war",range:140,Eu:100,Uu:0,su:24,Zu:24,reload:500,Cu:0,Du:0,Su:-30,gu:0},R[I.Kn]={Au:I.In,yu:P.nt,Wa:I.Kn,Lu:Q.W,xu:Q.X,Bu:W.Yr,hu:W.$r,Ta:"Healing Staff",description:"Make peace, not war",range:140,Eu:100,Uu:0,su:21,Zu:21,reload:500,Cu:0,Du:0,Su:-30,gu:0},x.exports=R},9435:function(x,S,L){const O=L(3255),I=L(6597),W=[];W[O._e]={hu:I._e,Iu:500,Fu:0,Iu:1,Ju:150,Xu:2},W[O.Te]={hu:I.Te,Iu:500,Fu:0,Iu:1,Ju:150,Xu:2},W[O.em]={hu:I.em,Iu:500,Fu:0,Iu:1,Ju:150,Xu:2},W[O.nt]={hu:I.De,Iu:500,Fu:0,Iu:1,Ju:100,Xu:2},x.exports=W},1122:function(x,S,L){const O=L(3028),I=L(9623);x.exports=function(x){return x=I(x||""),O(x(),x(),x(),x())}},2936:function(x){x.exports=function(x,S){this.$u=x||0,this.tf=S||0}},9629:function(x,S,L){const O=L(6112),I=L(1122);x.exports=function(x,S){const L=O(""+x,""+S),W=I(L);return[~~(246*W()),~~(255*W()),~~(255*W()),~~(255*W())]}},6112:function(x,S,L){const O=L(9303),I=L(3235),W=L(9869),Q=L(1318),P=L(6217),R=L(1552);x.exports=function(x,S){S=S||0;const L=(x=x||"").length%16,H=x.length-L;let G=[0,S],N=[0,S],q=[0,0],j=[0,0];const V=[2277735313,289559509],K=[1291169091,658871167];let Z;for(Z=0;Z<H;Z+=16)q=[255&x.charCodeAt(Z+4)|(255&x.charCodeAt(Z+5))<<8|(255&x.charCodeAt(Z+6))<<16|(255&x.charCodeAt(Z+7))<<24,255&x.charCodeAt(Z)|(255&x.charCodeAt(Z+1))<<8|(255&x.charCodeAt(Z+2))<<16|(255&x.charCodeAt(Z+3))<<24],j=[255&x.charCodeAt(Z+12)|(255&x.charCodeAt(Z+13))<<8|(255&x.charCodeAt(Z+14))<<16|(255&x.charCodeAt(Z+15))<<24,255&x.charCodeAt(Z+8)|(255&x.charCodeAt(Z+9))<<8|(255&x.charCodeAt(Z+10))<<16|(255&x.charCodeAt(Z+11))<<24],q=I(q,V),q=W(q,31),q=I(q,K),G=P(G,q),G=W(G,27),G=O(G,N),G=O(I(G,[0,5]),[0,1390208809]),j=I(j,K),j=W(j,33),j=I(j,V),N=P(N,j),N=W(N,31),N=O(N,G),N=O(I(N,[0,5]),[0,944331445]);switch(q=[0,0],j=[0,0],L){case 15:j=P(j,Q([0,x.charCodeAt(Z+14)],48));case 14:j=P(j,Q([0,x.charCodeAt(Z+13)],40));case 13:j=P(j,Q([0,x.charCodeAt(Z+12)],32));case 12:j=P(j,Q([0,x.charCodeAt(Z+11)],24));case 11:j=P(j,Q([0,x.charCodeAt(Z+10)],16));case 10:j=P(j,Q([0,x.charCodeAt(Z+9)],8));case 9:j=P(j,[0,x.charCodeAt(Z+8)]),j=I(j,K),j=W(j,33),j=I(j,V),N=P(N,j);case 8:q=P(q,Q([0,x.charCodeAt(Z+7)],56));case 7:q=P(q,Q([0,x.charCodeAt(Z+6)],48));case 6:q=P(q,Q([0,x.charCodeAt(Z+5)],40));case 5:q=P(q,Q([0,x.charCodeAt(Z+4)],32));case 4:q=P(q,Q([0,x.charCodeAt(Z+3)],24));case 3:q=P(q,Q([0,x.charCodeAt(Z+2)],16));case 2:q=P(q,Q([0,x.charCodeAt(Z+1)],8));case 1:q=P(q,[0,x.charCodeAt(Z)]),q=I(q,V),q=W(q,31),q=I(q,K),G=P(G,q)}return G=P(G,[0,x.length]),N=P(N,[0,x.length]),G=O(G,N),N=O(N,G),G=R(G),N=R(N),G=O(G,N),N=O(N,G),("00000000"+(G[0]>>>0).toString(16)).slice(-8)+("00000000"+(G[1]>>>0).toString(16)).slice(-8)+("00000000"+(N[0]>>>0).toString(16)).slice(-8)+("00000000"+(N[1]>>>0).toString(16)).slice(-8)}},9882:function(x){x.exports=function(){this.ea=function(x,S,L,O){this.nf=x,this.if=S,this.ef=L,this.rf=O},this.cf=function(x){let S=x.length;for(let L=0;L<S;L++)x[L]=x[L]^this.nf,this.nf=(this.rf*this.nf+this.ef+this.if)%this.ef}}},3028:function(x){x.exports=function(x,S,L,O){return function(){var I=(x>>>=0)+(S>>>=0)|0;return x=S^S>>>9,S=(L>>>=0)+(L<<3)|0,L=(L=L<<21|L>>>11)+(I=I+(O=1+(O>>>=0)|0)|0)|0,(I>>>0)/4294967296}}},9303:function(x){x.exports=function(x,S){x=[x[0]>>>16,65535&x[0],x[1]>>>16,65535&x[1]],S=[S[0]>>>16,65535&S[0],S[1]>>>16,65535&S[1]];const L=[0,0,0,0];return L[3]+=x[3]+S[3],L[2]+=L[3]>>>16,L[3]&=65535,L[2]+=x[2]+S[2],L[1]+=L[2]>>>16,L[2]&=65535,L[1]+=x[1]+S[1],L[0]+=L[1]>>>16,L[1]&=65535,L[0]+=x[0]+S[0],L[0]&=65535,[L[0]<<16|L[1],L[2]<<16|L[3]]}},1552:function(x,S,L){const O=L(3235),I=L(6217);x.exports=function(x){return x=I(x,[0,x[0]>>>1]),x=O(x,[4283543511,3981806797]),x=I(x,[0,x[0]>>>1]),x=O(x,[3301882366,444984403]),I(x,[0,x[0]>>>1])}},1318:function(x){x.exports=function(x,S){return 0==(S%=64)?x:S<32?[x[0]<<S|x[1]>>>32-S,x[1]<<S]:[x[1]<<S-32,0]}},3235:function(x){x.exports=function(x,S){x=[x[0]>>>16,65535&x[0],x[1]>>>16,65535&x[1]],S=[S[0]>>>16,65535&S[0],S[1]>>>16,65535&S[1]];const L=[0,0,0,0];return L[3]+=x[3]*S[3],L[2]+=L[3]>>>16,L[3]&=65535,L[2]+=x[2]*S[3],L[1]+=L[2]>>>16,L[2]&=65535,L[2]+=x[3]*S[2],L[1]+=L[2]>>>16,L[2]&=65535,L[1]+=x[1]*S[3],L[0]+=L[1]>>>16,L[1]&=65535,L[1]+=x[2]*S[2],L[0]+=L[1]>>>16,L[1]&=65535,L[1]+=x[3]*S[1],L[0]+=L[1]>>>16,L[1]&=65535,L[0]+=x[0]*S[3]+x[1]*S[2]+x[2]*S[1]+x[3]*S[0],L[0]&=65535,[L[0]<<16|L[1],L[2]<<16|L[3]]}},9869:function(x){x.exports=function(x,S){return 32==(S%=64)?[x[1],x[0]]:S<32?[x[0]<<S|x[1]>>>32-S,x[1]<<S|x[0]>>>32-S]:(S-=32,[x[1]<<S|x[0]>>>32-S,x[0]<<S|x[1]>>>32-S])}},6217:function(x){x.exports=function(x,S){return[x[0]^S[0],x[1]^S[1]]}},9623:function(x){x.exports=function(x){for(var S=0,L=1779033703^x.length;S<x.length;S++)L=(L=Math.imul(L^x.charCodeAt(S),3432918353))<<13|L>>>19;return function(){return L=Math.imul(L^L>>>16,2246822507),L=Math.imul(L^L>>>13,3266489909),(L^=L>>>16)>>>0}}},3555:function(x,S,L){const O=L(4613);x.exports={af:(x,S)=>x.$u<S.$u+S.w&&x.$u+x.w>S.$u&&x.tf<S.tf+S.sf&&x.tf+x.sf>S.tf,uf:function(x,S,L,O){return Math.sqrt((S-O)**2+(x-L)**2)},ff:function(x,S,L,O){return Math.atan2(O-S,L-x)},lf:function(x,S){var L=2*Math.PI,O=(S-x)%L;return 2*O%L-O},hf:function(x){return x[Math.floor(Math.random()*x.length)]},df(x,S,L,O,I,W,Q){var P=[I-x,W-S],R=[L-x,O-S],H=this.gf(R,R),G=this.gf(P,R)/H,N=[R[0]*(G=(G=G<0?0:G)>1?1:G)+x-I,R[1]*G+S-W];return this.gf(N,N)<=Q*Q},gf:(x,S)=>x[0]*S[0]+x[1]*S[1],wf:function(x,S,L,O){return x*L+S*O},gf:(x,S)=>x[0]*S[0]+x[1]*S[1],pf:function(x,S,L){return x+this.lf(x,S)*L},bf:function(x,S,L){return x*(1-L)+S*L},vf:(x,S,L)=>x>=L._s&&x<=L.ks&&S>=L.Ms&&S<=L.ys,mf:(x,S,L,O,I,W)=>x>=L&&x<=L+I&&S>=O&&S<=O+W,Tf:(x,S,L)=>x<S?S:x>L?L:x,_f:(x,S)=>Math.floor(Math.random()*(S-x+1))+x,Mf:function(x,S,L,O,I,W){return this.dir=x,this.value=S,this.max=L,this.min=O,this.kf=I,this.Af=W,this.ja=function(x){if(this.dir){var S=this.value+x*this.kf;S>this.max&&(S=this.max,this.dir=!1),this.value=S}else(S=this.value-x*this.Af)<this.min&&(S=this.min,this.dir=!0),this.value=S},!1},yf:{Bf:x=>x,Uf:x=>x*x,zf:x=>x*(2-x),Ef:x=>x<.5?2*x*x:(4-2*x)*x-1,Cf:x=>x*x*x,Df:x=>--x*x*x+1,Sf:x=>x<.5?4*x*x*x:(x-1)*(2*x-2)*(2*x-2)+1,Lf:x=>x*x*x*x,xf:x=>1- --x*x*x*x,Of:x=>x<.5?8*x*x*x*x:1-8*--x*x*x*x,jf:x=>x*x*x*x*x,Nf:x=>1+--x*x*x*x*x,Wf:x=>x<.5?16*x*x*x*x*x:1+16*--x*x*x*x*x,Qf:x=>-Math.pow(2,10*(x-=1))*Math.sin(2*Math.PI*(x-.1)/.4),Hf:x=>-Math.pow(2,10*x)*Math.sin(2*Math.PI*(x-.1)/.4)+1,Rf:x=>Math.sin(x),Gf:x=>-15*x*(x-1.3)},Vf:(x,S,L,O,I,W)=>(O<2*W&&(W=O/2),I<2*W&&(W=I/2),W<0&&(W=0),x.beginPath(),x.moveTo(S+W,L),x.arcTo(S+O,L,S+O,L+I,W),x.arcTo(S+O,L+I,S,L+I,W),x.arcTo(S,L+I,S,L,W),x.arcTo(S,L,S+O,L,W),x.closePath(),x),qf:x=>255&Math.floor((x+Math.PI)/6.283185307179586*255),Pf:x=>x/255*6.283185307179586-Math.PI,Yf(x){if(x>2147483647)throw"number too large. number shouldn\'t be > 2**31-1";if(x<-2147483648)throw"number too far negative, number shouldn\'t be < 2**31";for(var S=0,L=x,O="";S<32;L<<=1)S++,O+=(L>>>31)+"";return O.replace(/\\B(?=(.{8})+(?!.))/g," ")},Zf:function(x){return[255&x,x>>8&255]},Kf:function(x,S,L,O){const I=document.createElement("canvas");I.width=x,I.height=S;const W=I.getContext("2d");return W.beginPath(),W.fillStyle=O,this.Vf(W,0,0,x,S,L),W.fill(),I},k1:x=>x>9999999?Math.floor(x/1e6)+"M":x>999999?Math.floor(x/1e6*100)/100+"M":x>99999?(Math.floor(x/1e3)+"K").replace(".0",""):x>9999?(Math.floor(x/1e3*10)/10+"K").replace(".0",""):x>0?Math.floor(x):x+"",k2:function(x,S,L,O,I,W,Q,P,R){const H=x.getContext("2d");W=W?1*W:0;var G=Math.floor(1*L);H.font=1*L+"px Baloo Paaji",P*=1;var N=Q?2*P:0;return R=R?Math.min(H.measureText(S).width+2+N,R):H.measureText(S).width+2+N+10,G=1*(G+W)+N+10,R=Math.ceil(R),G=Math.ceil(G),x.width=R,x.height=G,Q&&(H.fillStyle=Q,this.Vf(H,0,0,R,G,2*P),H.fill(),H.translate(P,P)),H.textBaseline="middle",H.font=1*L+"px Baloo Paaji",H.fillStyle=O,H.lineWidth=7,H.lineJoin="round",I&&(H.strokeStyle=I),I&&H.strokeText(S,5,(G-N)/2,R),H.fillText(S,5,(G-N)/2,R),x},If:function(x,S,L,O,I,W,Q,P,R){return this.k2(x,S,L,O,I,W,Q,P,R)},Ff:function(x,S,L,O,I,W,Q,P){const R=document.createElement("canvas");return this.k2(R,x,S,L,O,I,W,Q,P)},Jf:x=>Math.log(1+x)**2.4/13,Xf(x){for(;x.firstChild;)x.removeChild(x.lastChild)},$f(x){const S=document.createElement(x.tag||"div");return x.src&&(S.src=x.src),x.tl&&(S.innerHTML=x.tl),x.nl&&(S.className=x.nl),x.onclick&&(S.onclick=x.onclick),x.onmouseup&&(S.onmouseup=x.onmouseup),x.style&&(S.style=x.style),x.text&&(S.innerText=x.text),x.parent&&x.parent.appendChild(S),S},il:x=>!0,el:function(x){return{src:x,ol:{rl:O.an}}},cl:function(){this.rl=O.sn,this.al=this.width/2,this.sl=this.height/2},ul:function(){this.rl=O.an},fl:function(x,S){return void 0!==S&&S.rl===O.un||((S=new Image).rl=O.un,S.onload=this.cl,S.onerror=this.ul,S.src=x),S},ll:()=>new URL(window.location).searchParams.get("game"),hl(x){},dl:function(x,S){let L=this.el(x);return S&&(L.ol=this.fl(L.src,L.ol)),L},gl:function(x,S,L,I,W,Q){const P=S.ol;P.rl===O.sn?x.drawImage(P,L,I,W||P.width,Q||P.height):S.ol=this.fl(S.src,S.ol)},wl:function(x,S){return x._s<S.ks&&x.ks>S._s&&x.Ms<S.ys&&x.ys>S.Ms},pl:function(x,S,L){return!!this.wl(L,S)&&(x.$u=Math.max(S._s,L._s),x.tf=Math.max(S.Ms,L.Ms),x.w=Math.min(L.ks,S.ks)-x.$u,x.sf=Math.min(L.ys,S.ys)-x.tf,!0)},bl(x,S){if(x.length!==S.length)return!1;for(let L=0;L<x.length;L++)if(x[L]!==S[L])return!1;return!0}}},2072:function(x){"use strict";x.exports=\'Resources\\n\\nVarious resources can be collected in Sploop. The number of resources you have collected is displayed in the bottom right. Gold Bars are displayed on the right above the kill counter\\n\\nWood\\nimg/entity/tree.png\\n- Used for building\\n- Given by trees, cherry trees and palm trees\\n- Present in the plains and winter biomes\\n\\nStone\\nimg/entity/stone.png\\n- Used for building\\n- Only given by rocks\\n- Present in the plains and winter biomes\\n\\nFood\\nimg/entity/bush.png\\n- Used for healing and some building\\n- Given by bushes and cacti, cacti give 5x more food\\n- Present in plains, winter and desert biomes\\n\\nGold\\nimg/entity/gold.png\\n- Used to climb leaderboards and rank up your account\\n- Can be used to buy hats that give different advantages through the hat shop\\n- Also used for some buildings\\n- Given by windmills (see items section), gold mines (15 gold per hit), ruby (75 gold per hit) and chests (70 gold per hit)\\n- Present in plains and desert biomes\\n\\nGold Bars\\nimg/ui/currency.png\\n- Used to buy cosmetics in the shop\\n- Given by killing bosses and breaking their chest\\n- Different bosses drop different amounts\\n\\n!HTML\\n<span class="subcontent-title">\\n\\tAbove the inventory is the age bar, which fills up as you kill enemies and collect resources to unlock new items.\\n\\t<br>\\n\\tOnce you reach level 4, you can choose to receive a tree, rock, or bush and place it down. More info in the items section\\n</span>\\n!HTML\\n\\n!New Section\\n\\nWeapons\\n\\nThere is a wide range of weapons in Sploop, each with its unique purpose.\\n\\nSword & Katana\\nimg/entity/inv_stone_sword.png\\nimg/entity/inv_katana.png\\n- Used for attacking enemies or mobs\\n- Sword deals 35 damage, Katana deals 40\\n- Good attack speed\\n- Most commonly used for PvP combat due to its strength\\n\\nStick\\nimg/entity/inv_stick.png\\n- Used for gathering lots of resources\\n- Gathers 7x the resources per hit compared to regular weapons (apart from axe)\\n- Extremely bad in combat, deals 1 damage per hit\\n\\n!New Section\\n\\nGamemodes\\n\\nThere are 3 main gamemodes in Sploop, each with a different purpose\\n\\nClassic\\n- Players spawn with 100 food, 100 wood, 100 stone, 100 gold\\n- Farming gold to rank up\\n- Gold Bars can also be farmed here, but it is significantly easier to do in Sandbox\\n- Killing and dying affects your KDR\\n\\nSandbox\\n- Spawn with 100k of each resource\\n- Gold farmed IS NOT counted towards your account, but Gold Bars are\\n- Killing or dying will not affect your KDR\\n\\nEvent\\n- Used to host official events\\n- Gold and Gold Bars cannot be farmed here\\n- Moderators can manage this space with less restrictions\\n- Join the official Sploop Discord to be notified when events happen (click the Discord button on the homepage)\\n\\n!New Section\\n\\nBasing\\n\\nBasing is used to protect players from enemies. It can be especially useful to prevent raids by other players when farming large amounts of resources\\n\\nBase Walling\\n- Trees can be used as indestructible walls that block projectiles like arrows or turrets\\n- Stone farms block players but projectiles can be shot over them\\n- Trees and stones can be used in combination, with stones on the side closer to the base allowing turrets to shoot anyone that gets past the trees but stuck in front of the stones, while protecting turrets and players from projectiles outside the base wall\\n- Castle spikes are useful as they damage enemies breaking them, which can be used to slow enemies down\\n\\nBase Defence\\n- Turrets are useful to kill or slow players before they manage to deal much damage to the base\\n- 4 turrets are required to kill a player if they shoot at the same time, 6 are required if the player has crystal or immunity gear\\n- Placing the turrets at different angles and not all clumped together reduces the effectiveness of shields, but means the area where all 6 turrets can target a player is reduced\\n- Placing traps around the base slows players down, and prevents roof placing allowing turrets to be more effective\\n- Defenders with katanas will help fight any intruders\\n- Players on platforms with XBows can also be very annoying to raiders\\n- Make sure all AFK players have roofs above them to prevent raiders from using bows or muskets to kill them\\n- All players who helped build base walls or defences should have placed a bed down, so if they die the builds they placed down do not get removed\\n\\n!New Section\\n\\nBosses\\n\\nBosses are the only way to get Gold Bars, which spawn at random spots in the arctic biome.\\n\\nChests\\nimg/entity/chest.png\\n- Chests are dropped by bosses when they are killed\\n- When broken, chests give the player who broke the chest a certain amount of Gold Bars\\n- Chests also give players gold when hit.\\n- A stick can be used to farm gold from chests as it deals very little damage to the chest, although it will eventually break\\n\\nDragon\\nimg/entity/dragon_2_head.png\\n- Chest: 30 img/ui/currency.png\\n- Spawns inside a lava arena\\n- Attacks by charging at closest player and shoots fireballs\\n- Fireballs push the player and constantly deal damage to the player\\n- Fireballs can be avoided by standing on top of a platform\\n\\nMammoth\\nimg/entity/mammoth_head.png\\n- Chest: 40 img/ui/currency.png\\n- Spawns inside an ice arena\\n- Attacks by charging at closest player\\n\\nGolden Cow\\nimg/entity/gcow.png\\n- Chest: 20 img/ui/currency.png\\n- Attacks by charging at closest player\\n- Only boss that can be trapped\\n- Roams free around the map without an arena\\n- Can be used to obtain a secret weapon\\n- Gives 100 gold when hit with any weapon\\n\\n!New Section\\n\\nPvP\\n\\nThe 2 main methods of PvP in Sploop are using traps and spikes\\n\\nTraps\\nimg/entity/trap.png\\n- Trap PvP is about control and planning\\n- Traps can be used to prevent players from moving\\n- This works best with spikes, which can be placed next to a trapped player to kill them quickly\\n- Players can also be pushed into spikes if they are not placed close enough\\n\\nBoosts\\nimg/entity/boost.png\\n- Boost PvP is about speed and surprise\\n- Stepping on a boost launches you forward\\n- This can give enemies little time to react\\n- Most effective when spikes are placed right after, where the boost pushes you and the enemy forward into the spikes you just placed\\n- Boosts can also be used to build traps, and a player wearing hood or bush can use a bat or another boost to push them into the trap\\n\'}},L={};function a(x){var O=L[x];if(void 0!==O)return O.exports;var I=L[x]={exports:{}};return S[x](I,I.exports,a),I.exports}a.n=function(x){var S=x&&x.vl?function(){return x.default}:function(){return x};return a.d(S,{a:S}),S},a.d=function(x,S){for(var L in S)a.ml(S,L)&&!a.ml(x,L)&&Object.defineProperty(x,L,{Tl:!0,get:S[L]})},a.ml=function(x,S){return Object.prototype.hasOwnProperty.call(x,S)};var O={};!function(){"use strict";a.d(O,{_l:function(){return fo},Ml:function(){return No},kl:function(){return Ki},Al:function(){return Ji},yl:function(){return eo},Bl:function(){return ko},Ul:function(){return Ve},zl:function(){return zi},El:function(){return Hi},Cl:function(){return ki},Dl:function(){return To},Sl:function(){return Yi},Ll:function(){return ji},xl:function(){return Qi},Ol:function(){return Ss},jl:function(){return Ii},Nl:function(){return Di},Wl:function(){return pr},Ql:function(){return hr},Hl:function(){return _r},Rl:function(){return Tr},Gl:function(){return Mr},Vl:function(){return dr},ql:function(){return gr},Pl:function(){return mr},Yl:function(){return wr},Zl:function(){return vr},k3:function(){return br},k4:function(){return ls},Kl:function(){return ro},Il:function(){return oo},Fl:function(){return Ui},Jl:function(){return qe},Xl:function(){return Pe},$l:function(){return to},th:function(){return wo},nh:function(){return Fe},ih:function(){return Je},eh:function(){return Ye},oh:function(){return fi}});var S=a(7251),L=a.n(S),I=a(1917),W=a.n(I),Q=a(3255),P=a.n(Q),R=a(5397),H=a.n(R),G=a(3555),N=a.n(G),q=a(48),j=a.n(q);let V=new Map,K=[],Z=[];function k(){V=new Map,K=[];let x=K;for(let S in W())x[W()[S]]=[];let S=Z;for(let x in W())S[W()[x]]=[]}function A(x,S,L){const O=(x.rh|x.ah<<8)*S,I=x.sh|x.uh<<8;x.$u+=Math.cos(x.Fu)*O,x.tf+=Math.sin(x.Fu)*O,x.range+=O,x.range>=I&&(x.range-=I,x.$u-=x.range*Math.cos(x.Fu),x.tf-=x.range*Math.sin(x.Fu),x.active=!1)}function y(x,S,L){x.fh+=1e3*S;const O=Math.min(1.71,x.fh/171);if(x.$u=x.lh+(x.hh-x.lh)*O,x.tf=x.dh+(x.gh-x.dh)*O,x.Wa!==Qi&&L<=x.wh&&L>=x.ph){let S=x.wh-x.ph,O=(L-x.ph)/S;x.Fu=N().pf(x.bh,x.mh,O)}}function z(x,S,L,O,I,W,Q,P,R,G,N,q,Et,xt,St,Ut,Lt){let Ct=V.get(S)||function U(x){if(Z[x].length>0){let S=Z[x].pop();return S.bs=H().Cc,S}return new(j())}(x);if(Ct.bs&H().Cc)return D(Ct,x,S,L,O,I,W,Q,P,R,G,N,q,Et,xt,St,Ut,Lt),void function E(x){const S=K[x.type],L=S.length;S[L]=x,x.Bh=L,V.has(x.Wa)||V.set(x.Wa,x)}(Ct);Ct.Th=L,Ct.lh=Ct.$u,Ct.dh=Ct.tf,Ct.hh=I,Ct.gh=W,Ct.bs=O,Ct.bh=Ct.mh,Ct.mh=Q,Ct.rh=P,Ct.ah=R,Ct.sh=G,Ct.uh=N,Ct._h=q,Ct.Mh=Et,Ct.kh=xt,Ct.Ah=St,Ct.yh=Ut,Ct.ph=Ct.wh,Ct.wh=Lt,Ct.fh=0}function C(x,S){let L=V.get(x);if(!L)return;V.delete(x);const O=K[L.type],I=L.Bh,W=O.length-1;if(W!==I){const x=O[W];O[W]=O[I],O[I]=x,x.Bh=I}Z[L.type].push(L),O.pop()}function D(x,S,L,O,I,Q,R,H,G,q,j,V,K,Z,Et,xt,St,Ut){switch(x.type=S,x.Wa=L,x.Th=O,x.$u=x.lh=x.hh=Q,x.tf=x.dh=x.gh=R,x.Fu=x.bh=x.mh=H,x.bs=I,x.rh=G,x.ah=q,x.sh=j,x.uh=V,x._h=K,x.Mh=Z,x.kh=Et,x.Ah=xt,x.yh=St,x.Uh=new(N().Mf)(1,0,1,0,1,1),x.zh=Date.now(),x.ph=0,x.wh=Ut,x.fh=0,x.Eh=null,x.bf=!1,S){case W().at:break;case W().Mt:x.Eh={active:!1,Ch:0,Dh:[P().em,P().Te]};break;case W().bt:case W().Et:case W().zt:case W().Lt:case W().Dt:case W().St:case W().Ut:case W().Yt:break;case W().st:case W().Wt:case W().Qt:case W().Ot:case W().jt:case W().Nt:x.Eh={active:!1,Ch:0,Dh:[P().em]};break;case W().ay:case W().ut:case W().Gt:case W().kt:case W().At:x.Eh={active:!1,Ch:0,Dh:[P()._e]};break;case W().yt:x.Eh={active:!1,Ch:0,Dh:[P().em]};break;case W().dt:x.Eh={active:!1,Ch:0,Dh:[P().Te]};break;case W().nt:x.Eh={active:!1,Ch:0,Dh:[P().nt]};break;case W().qt:x.Eh={active:!1,Ch:0,Dh:[P().qt]};break;case W().wt:x.Sh=Math.PI/4,x.Eh={active:!1,Ch:0,Dh:[P().nt,P().Te]};break;case W().Vt:x.Sh=Math.PI/4;break;case W().Tt:x.Sh=Math.PI/2,x.Eh={active:!1,Ch:0,Dh:[P().nt,P().Te]};break;case W().I:case W().lt:case W().Rt:case W().xt:x.Eh={active:!1,Ch:0,Dh:[P().Te]};break;case W().Bt:x.Eh={active:!1,Ch:0,Dh:[P().em]};break;case W().vt:x.Eh={active:!1,Ch:0,Dh:[P().Te]};break;case W().K:case W().$:x.Eh={active:!1,Ch:0,Dh:[P().em]};break;case W().ht:case W().Ct:case W().ft:case W().ax:x.Eh={active:!1,Ch:0,Dh:[P().Te]};break;case W().Pt:x.Eh={active:!1,Ch:0,Dh:[P().Lh]};break;case W()._t:x.Eh={active:!1,Ch:0,Dh:[P().Te]};break;case W().gt:x.active=!0,x.range=0}}k();let Et=!1;try{Et=window.localStorage&&!0}catch(x){}Et||Object.defineProperty(window,"localStorage",{value:{xh:{},setItem:function(x,S){return this.xh[x]=S+""},getItem:function(x){return this.xh.hasOwnProperty(x)?this.xh[x]:void 0},removeItem:function(x){return delete this.xh[x]},clear:function(){return this.xh={}}}});let xt=function n(x,S,L){function r(x){return V=x,K=!0,function(){for(;K;){var x=s();R[x]()}return j[0]}()}function c(){return x[V++]|x[V++]<<8|x[V++]<<16|x[V++]<<24}function a(){let S=x[V++];return 128&S?127&S:127&S|x[V++]<<7}function s(){return x[V++]}function u(x,S){j[x]=S}function f(x){var S,O,I;for(S=[],O=0;O<x;O++)I=q[L[6]](),S[x-O-1]=I;return S}const O=[];let I=0;if(L)for(let x=0;x<5;x++)L.push(L.shift());var W=x?n:function(){};function g(x){return"object"==typeof x}var Q=g(globalThis)?globalThis:g(window)?window:self,P=[],R=[function(){u(s(),function(x){var W=N;let i=function(){var O,I,Q,P,R,H,G,Et,xt,St,Ut,Lt,Ct,Ft,Ot=j;for(j=[],u(0,void 0),u(1,arguments),O=S[x],I=N,Q=O[2],P=O[3],N=[],R=0;R<Q;R++)N[R]={Oh:void 0};for(H=0;H<P[L[0]];H+=2)G=P[H+0],Et=P[H+1],N[G]=W[Et];xt=q,q=[],St=Z,Z=this,Ct=V,Ft=O[4];try{Ut=r(Ft)}catch(x){Lt=x}if(q=xt,Z=St,V=Ct,N=I,j=Ot,K=!0,Lt)throw Lt;return Ut};return O[I++]=i,i}(x[V++]|x[V++]<<8))},function(){var x=c(),S=s();N[x].Oh=j[S]},function(){var x=s(),S=a();u(x,P[S])},function(){var x=s();q.push(j[x])},function(){u(s(),s())},function(){u(s(),f(a()))},function(){var x=s(),S=s(),O=s(),I=f(s());u(x,(S=j[S])[j[O]][L[10]](S,I))},function(){var x=s(),S=P[c()];!function(x){if(!(x in Q))throw new ReferenceError(x+" is not defined")}(S),u(x,Q[S])},function(){u(s(),c())},function(){var x=s(),S=s(),L=s();u(x,j[S]*j[L])},function(){var x=s(),S=s(),L=s();u(x,j[S]+j[L])},function(){var x=s(),S=s(),O=f(s());u(x,j[S][L[10]](Q,O))},function(){var x=s(),S=c();u(x,N[S].Oh)},function(){for(var x=s(),S=f(a()),O={},I=0;I<S[L[0]];I+=3)switch(S[I+0]){case 0:O[S[I+1]]=S[I+2];break;case 1:Object[L[13]](O,S[I+1],{get:S[I+2]});break;case 2:Object[L[13]](O,S[I+1],{set:S[I+2]})}u(x,O)},function(){var x=s(),S=s(),L=s();u(x,j[S][j[L]])},function(){u(s(),!j[s()])},function(){var x=s(),S=s();u(x,j[S])},function(){var x=c(),S=s();j[S]||(V=x)},function(){var x=s(),S=c();let L=c();u(x,RegExp(P[S],P[L]))},function(){u(s(),typeof j[s()])},function(){var x=s(),S=s(),L=s();u(x,j[S]!==j[L])},function(){var x=c();V=x},function(){var x=s(),S=j[s()],L=j[s()],O=j[s()];u(x,S[L]=O)},function(){K=!1},function(){u(s(),!!s())},function(){var x=s(),S=s(),L=s();u(x,j[S]<j[L])},function(){var x=s(),S=c();u(x,s()?++N[S].Oh:N[S].Oh++)},function(){var x=s(),S=s(),L=s();u(x,j[S]^j[L])},function(){var x=s(),S=s(),L=s();u(x,j[S]>>>j[L])},function(){u(s(),(G[0]=x[V++],G[1]=x[V++],G[2]=x[V++],G[3]=x[V++],G[4]=x[V++],G[5]=x[V++],G[6]=x[V++],G[7]=x[V++],H[0]))},function(){var x=s(),S=s(),L=s();u(x,j[S]&j[L])},function(){var x=s(),S=s(),L=s();u(x,j[S]>j[L])},function(){var x,S,O;u(s(),(x=j[s()],S=f(s()),O=[null],Array[L[11]].push[L[10]](O,S),new(Function[L[11]].bind[L[10]](x,O))))},function(){var x=s(),S=s(),L=s();u(x,j[S]%j[L])},function(){var x=s(),S=s(),L=s();u(x,j[S]<<j[L])},function(){var x=s(),S=s(),L=s();u(x,j[S]-j[L])},function(){var x=s(),S=s(),L=s();u(x,j[S]===j[L])},function(){for(var x=s()|s()<<8,S="",L=0;L<x;L++)S+=String.fromCharCode(s());P.push(S)},function(){V=0}],H=new Float64Array(1),G=new Uint8Array(H[L[5]]),N=[],q=[],j=[],V=0,K=!1,Z=null;return function(){x=function(x){var S,O,I,Q,P,R,H,G,N,q,j,V,K,Z;for(O=0,I=(S=W)?""+S:"",Q=0;Q<I[L[0]];Q++)O=Math[L[2]](31,O)+I[L[1]](Q)|0;for(O=1922100408,q=3*(N=(G=x[L[3]](/[^A-Za-z0-9+/]/g,""))[L[0]])+1>>2,j=new Uint8Array(q),V=0,K=0,Z=0;Z<N;Z++)if(R=3&Z,V|=((H=G[L[1]](Z))>64&&H<91?H-65:H>96&&H<123?H-71:H>47&&H<58?H+4:43===H?62:47===H?63:0)<<6*(3-R),3===R||N-Z==1){for(P=0;P<3&&K<q;P++,K++)O=(O+1)%255,j[K]=V>>>(16>>>P&24)&255^O;V=0}return j}(x),N=[];for(var O=0;O<S[0][2];O++)N[O]={Oh:void 0};q=[],j=[],V=S[0][4],K=!1,Z=null,r(S[0][4])}(),O}("qaiqrKyur7CxsLO2t7a2ubm6u769vLzAwMDDxMXExcpJycnMz8rP09PW0b3W1NPat9nZ2N+43OLl4Izn5+Llxero7+6d7e3085Pw9vH0mfv7/vmZ/vwEA24ABgEEKgsLDglkDgwLEn4RERAXehQaHRh/Hx8aHUUiICcmVyUlLSu7KS+sKCsyMjMxN7cwNTw6Ozo/PT4/QkZAQERFRkdLTEpIT0VNF0tRUlRQUVZXWFtf3lpbWlpgaWc7f2Vmbmxvb2FpbmpsdXp3cXZ3c/d7fHp+en19eoSE5oCBgYPui4yOjv+Oi4uV5ZGWkZASlZoYnJ+Zn5+doiOkpqCnp6asqaqrqaqrq7CxsrCxubOzuLm6uLm5u7/DxMDGQsbDx83OysjJwMtM09TV1tPV1tfa21Ld2Njc3OLlYuDg5eLv6Oru7+iB7ev09Z3w8PHylPv9/v+d/voEBW4AAAECVAsNDg94DgoLFH4RFxARZBQcHR56HxkaG0ciJicgQCUjLS2mKS6sKCo0MzMxNrcwMz07Ozo5PT4/RENGw0dBRkNBSUlPSEkZTFRVVjZXUVJTOlpeX1gOXVtkZQ1gYGFiBGttbm8HbmprdBRxd3BxAnR8fH7yfn//eYWFgIKGhwSBjIyIio2Ljo+QlZCXHZeUHZKcnpmdmp6foKSlpq+lpqekq62rrK2gq7WzvbGwpbK1qZW4u7y5ub3MwcLDyMDAx8jJxMjOyMHK097R1sTR1cfb3cuV3t3e3Ofl7uPk5eri7enq6+Lv6ur/9PD89vDm9Prp+Pjtf/wAAQAEBwkGBwgLD4YCCQ0KEhScHRcRExQbCxkUHB0eHyAhIiEhtSAjKywrOy4pPisyIJcxNDUyMDo1Ojs8PzuuTkJARldARUVL215JSU5eS1JQWlNUVVJbXFlaW1xWXFtgYGtjZGVka2phamtsYmptYHN2YqZ3dnd6bKF5fH1ye4mBgoOUh4KGgomKi46PjA+RmpKTlJeSlYiYlpucnZyToqCio6SpoquoqaqoqKaqrbGwv7O0tbKwvLW6u7y/vCzAwsjD0sDCxcvFz8HMzc7A09TDvtDV1tTa2k7Y39rdyuDh4uHhc+Dl6+zr5Onv/5vz8fL29vBi9P31//r8/f4MAw4DBAUFBQMLDwoPDwkNBRESExYQgREbGx8ZCdcdHyAjIbcnJiEkPSkqKy4ouCkyMjcyNjCuOTs7Pzc5MT4/QFVAQEFUjERISUhJTtlNTVxTU1NUVVpSVFlaW19YVVpiYGFmY2BzZ2hpaGn7a21qcnNnuXd1dnV77Xl4e35rf4CBgIESg4OEioiLhYyNjoqXlIuTlJWSlZiamJmeB52drKOso6SlpaWsq6qorq+sNLOzvrG2tba3tLq0u7y9vbzLwsDCx8bCxMjKycnPUc3M3NLf09TV1dTc2trY39/dQuPi7uDm5ebn5Ovn6+zt7e378/Hy9/f79XT6+Pz+4/4AAQAAmwMCBQsICQ8HCQsOERoSExQRA3ocGRoWGJ0fECAhIicoISknKCktLigtLi8yMrc1NjA1Nzw6OjE5Pz0/Q0pCVUZBQ0RPS0ZLTE1MTPBRV19UQ1JVW1xeX1xcTl9gYWZnYGVndmhpam9oaW5uYnFyc3Bxcnd5anp7fHl6e4CAloOEhYKDjImLnoyNjouUlZKSgpWWl5ydnpudip6foKWmp6Wkvqeoqa6nqKKur7C2t7e0tba1uzy8ubm+vrvDw8jGxsbGxMXJ3MnIyM3N0lHR0dTX2Nfb297Zmd7c2+KT4eHg55Tk6u3ohO/v6u2C8vD29nD09Hn///n//PwDgwQBAQYHBhEJCgsODwyPExMSERsVFRUcG2kYHhkcayMjJiFFJiQjKkopKSgvRSwyNDC2Nja3MT07OTo+Prw5QkRBQkVfRkdIS0hJzE5MT1JBUlBWUVQ+W1teWTJeXFtiAmFhYGcKZGptaB5vb2ptFHJwd3YQdXV8ewl4fnh894KCA4WBh4WGiooIjY6IjY6RipKTlJeUlRiamJuejJ6coqWg1qenoqXbqqivrsitrbSzwLC2sbTEu7u+ud++vLvCs8HBwMevxMrNyLvPz8rNpNLQ1tZf1NRZ39/Z39zc3GLn4Obn5Of76Onq6eDv4e/w8fXw8PX29/r8f/34/vsABQcHDgYCAggMGAsaCQwMFR0WHBQVFhAdHRobHB8dmiYjJyAkISUhIiwoKCwuPS8mMzY2Nzk0ODg5Ojw/OT4/QENHxkJBRUJITU9DRk5KSlBURlNCUVRUXVte219ZXlt1YWFnYGEgZGxtbh5vaWprHnJ2d3AWdXN8fQ54eHl6FoOFhofrhoKDjOeJj4mJBo2VEJSQkJCXlZ0bnJ+fmJ+evaGio6Cnoierraqvuq2tq7S1wrCwsbLFu72+v9O+urvEtcHHwMGpxMzNzr/PycrLqdLW19Cl1dPc3b/Y2NjaVuLkY+Xn4ePm6uxo7eju6+7x7/Lz9PH083j6/vv46v4DBQYHcAYCAwxmCQ8ICV0MFBUWZxcREhNqGh4fGHQdGyQlTCAgISJAKy0vL6QvK642MjY2NTcztT49OT49PCE/QEFGT0BKRkdITk9PTE1OTVPUVFFRVlZTW1NQXl5eXlx4YXRhYGBlcHBrampsbW5vcnZwUnR1dnV723R+fn58fCOPgIaHhIeHiImIjI6sjo+Qk5ExmpCUlJqaOZuehJ6JpKShoaOhgqeoqaipDqOtq7KzsBa6sbW1ursfvb+5vL/HwuPDxMXExWrHzsjOz8xs3NLT09TVwNLc29nX2d3e3+Dx4ubz8uLi6Ofp6uns7u/w8fHx93X39vj5+vj+/lgBAwIDBAYKBAoJCgsOCJYBEhIXEhcVFhcaHRgbHRkeHyAjLiEgJSYnJCwqKywtNywyNCPpPDU2ND86Pjs8PTw6xUdAQEFFSkJLSUpLRU5MSlNSVVBQVVZXWlz9XV5eW15jY25hZmVmZ2pswm1vb2tufHRzc3R1fHV9ent6fH1+fZqDhoOEhYaS+IGKi4CPj4+QkYKTloKBk5qZlJidn5+foKGioKCmpqapqaqrr6WtQA4cbL+2tLa3uKK/uL68vL/AwcfLwZIIAYnFyMrMzc7U09TQ0tfV1tfb3dnb3dne3+Di7uDg5ebn5Ovq6+zt7Opo//bx8ezz9PzoK/L8/fsMBAYDBAUFAgQMCgsMDQwLuRcRFhAUFxIYGRoYEB4cHyAhLichJSYnMywpLy8oJiqBSAWtNzAxMjw5Ojs+OZQ5Q0RGQUVHRkdISkZIT01OT1xVV1NUVU1SW11ZXlRYyztVPmFmY2BiZ2hpaG/Ga21qdHNzcHR1dnRien57fH1+arCIgoOIhoSHiImGj46Njo+UlIKPlpGTjJ2amJiZlZv0akonoKGio6OoqaqprgeorLWzsL+2tra3uLW/uLy9vrvEzN7FwcHdw8rPyc/EyfthYhPR19PR0tfY2djddtvc2+bj+eXn5+fl6Onq7eDr7e/w8f7x9/X29/z66uf4//0bAgQHBwYOBGPD4Y4PDgkMFBESExYRvBEeGh4ZEBkcHyAhLiAmJSYnLCsnNykuLDQyNTcwNj00ApaL+Dg+Ojw7QEFCQUHvQENKTEhQSUtKTlNRUlNRSFNXWFlaW1ytH1dknp18ZGlgZGhpanVuaWhmdnRwf3Z3dnd4fX97YHl8eoqEhIeUhYOQn42Pi4KJj4qRkZKTlJGakpiZmpufmJmagaGio6ahDaGurK6qvK2ouKe9tLe0tba0vr68qry9vr3EbcTGwsHHxcxRxM3JycrL0M7X1dDU1tfY2d/X2d3e3+Dw2ujk5ePyz+Lq6/vp6u/+9/P39fX29/j/9v/8/f4AAgYEACQGBwgLDKAKDwoJEQESEQMCDhUZCHUQHB0cCkEqIiMzISAnJi0rLS0tLi8wNT41NDU2Nzs/PT0dPT4/QkXpRUdDQkZYSUlcW0lNT15VU1BVVVZXWF1WWFxdXl9jYmVgRWVmZ2ptwW1qbmpuYHF0ZGN5cHp4eXprfHtpaISHgo2AhICGiImKi4iJiI6elZOVlZSWl5idnp2ek5qepqCgo6SloqOuqqSvrauvrLCxsrews7O2ubm6u7q5uLbBw8LDxMPCwTbIycvMzcjD1sLS09TEgNvY2dzc2tne3+Dj5mbi5uDj6O3uFOXr7evz9/X18PX29/r9Xf3/+/oBAAMDBAUFEl4FCgsADg4PEBEREBMWGhcYGRgfsRsYHCQgIyckJSYhJC8uKywtLCuoPzE1MDQzNzg5OTw/Ez4/QE1GRkRFRkRMaU5ITUxIT1BRVldQVVdQWFlaX1BZWV9gYW5gYWVmZ3Fvbmh9gmJvcHd+dXJ1dnd0en17fH1ye4eBgoOHgYqDjImKi46KJ4mYlZWSgpKQlJCDnZycnZ6ftQeuo6SpoaGoqaqppDWgrLe5s7u0tba0vLq6uru9vr/DzcHExMXGy8DBysvM1MnM2MCq3tTV0dvf39rb3NHW2ODh4u/n4+bn6OXs7Ozt7uH08vT/8vT29/ji+f/66/gHCQEPAgQGBwgFCQkMDQ4FGBcRHxcWFhcYOBwTHxwfHyAhJDkiIiYnKCk/ICEtLiM2NzIzNCU2MS8uPj08Mz0+RkBCQ0RFRUNOSUtKTE1OSVRXUlJWVVZXXlVcWVxdXlNjYWJjZGdu/2ZuaWN1ZWhoYVV8c3R9en96eXp7f3Vyd4CBgoOGgi+BjoGNio2Ojo+Ql56VlZWWl5yen7mUm5mTp6Cio6SGoK+vpa2orK2upbi3tbK1tba3sLWyury9vrPHwMLDxNvAz8/Iy8vMzcjV1tPS09TVw3XV2drX2tPe3+Dwj+3k5eDr7ujq6+zq6evw8fLx/HDw9P/x+vP07dkAAQsEBw0FAA8ODgsMDQwHtxcRFBwUHB8eGhsaHB0eFzVMLCMkKS4oKCkqKS+CJCk4Mj4wNTU2NzIxPDgsPTYoV0VKQ0pGR09JSUpLTE5KR1FfUVJcVFdXWFlZX1RfUFxhaWNhZGVmZGxhaWVvbGZuc3Fyc3d5fnl4eXpqs3N+f4iWl0yKhYaLgImKi4yMmo+QkZqfnJSWl5iYj5ucnZaTqKOio6SksKeoqaKnpK6ur7CwpbO0tb6gvLG6tb+8tr7AwcLDx8nOx8jJysjEysbu0NHS0dd+0NHQ2tvL3NvJyOTn4u3n5ODm6Onq6+/h6O/w8fLw8vLw1vj5+vn/VvgIBwECFAUOEB8NAgsCDg8HERESExQWGh8YGRobHxUZFwEhIiMmJo0hLiEpKjwtKDgnNTQzOjY3MTk5Ojs8PjI5QEFCQ0dDQUFpSUpLTk7lSVhXUVJEVV5AT11SW1JeX1dhYWJjZGZqb3Rpamtobm9ldnlxcmh1dnd+dXxnfH1+e4Oho4uChoKEiK2Mg4+cu5+QkZSfkrWWl5ianJyakZ6foK2hvqSlpqmgr6mLr6Wuo7ivsrO0u7C0sLWypLy9vrnDx8rCxcTGx8jKxsjNzc7PweHC09TWztTZyPHL3N3dyv3x4uPx1fbn6Pzf++zt4ufw8fLz9vNu+f/x/Pr+/f4ABgYEBAQFBwgJDQcLDg4PEB0UERQVFg4QHhwKzg0eHygtKiMkJSYrLioqKywhKS8wMTI/MDY2Nzg3Mzw4MTorQEFCWENMQlFMQUxMQElZT1BRXlRAVVZXUV9eXFBaSF9gYWhnYmJqYH1pamtma2pofHZkc3R1V3N+fntvfH1+e5qFgYOEhYaS2ZmKi5uBioWQkZKCcYWWl5yOj36MnZ6bpKKjt6SlpqOsrb+qua2ur7S1tki1o7a3uL2+v7+8qb/AwcbUwMHGyc/IzsrMzc7P19XW0trS19PZ2Nrb3NrS2+Hh4uPm4n7p7u3t6u7t7u/29fTz9fb29/j/9v3//f4ADQUBBAUGHgwPDRrNHA4PFB0WExQVFhsfGhobHBEYHiAhIi8sJiYnKCcjLSQhJjcwMTIoMjw+ITA9PT0wNSU/QEFORVxFRkdBTkJNQEtUT1BRWFtTU1pRQVlaW1ZaVllsZ3hjZGVHb29va3NsbW5nanlxc3R1dmI4aHp7a3l2f46Hg4uFhYaHiI+Gg4yNjo+TmZWbtZWWl5qfMZ2blZiesKGltLOhoaemr6usra2ur7C3vrS0tba3u769vJ29vr/Cx2nFzMLAxtjJwtzbycbP3tfT29XV1tfY39bT3N3e3+Pp5evF5ebn6u9B7evl6O7g8fXk4/Hx9/b/+/z9/f4AAQQHAwQIAQkOCwoMDQ4JHBYSExQVFRAUHhobHB0dGCcmLiMkJSohCCkqKyIlKSk8NxMzNDU4MDA/Nj0ePT4/TklFRUZD9kFPQUxJTU9OT1BWXlRRVVZXVF9YW1xdXVlrZ2ViaGJnZ2hpfmNqan+kYnFye2x9d2a+a3p7dGjGbYCBl0iWhYaLj4uKi4yPiBeelZWVhJWSgI+dnpuSm5+boaGio6SjqqOoqaqrrqsLi7e1tLK1tba3v6m6vKuqm7/A5MHDqaS24szJoKSlo+vF0KK3p4C8u7K3rK7+2N2TvpSJx+Xkl4eJjIaHzu/tiYqE1PTzu5eckpuN3/X8mZtmaGxmVHdpd217fnIpDg54dXM3FRRxZH5ufGg+FR1wflZIRUJQSlQCLildQkJJQVgVOTJfW1ZXQ1FWVB40PVZQMzUsIikgY1FIYWInIy4vIzg+ISd9KX4kKDU1NCx0d3pkYRYGFxFDb2gNBQgZAAsBBFR7cwEbEhIeEBQeGFh2f+fk9s7h6NLorY+K1O3px+vjtJ6T+Pr19vTK7vTu/Pn6haaixMHR79PNxI+srN7L2/nF196Rs7bb3dfdz9SYur+ita2i4cDGsamlv67pzs68ubb31dSjt7utvOj+2N2ttofTx+fkr7Wopszj65+ZnIaelpuVjdDz94uWlo2Z2PgAUnZxbWthIgEJenljeWF7aWF3NhMVZHJodXt4eTgWH2ZUTEBQTElJDSEqX0N+Wl1ZX1UWCjV3dXt9f317dXd1Cw0PDQsVFxUbHR8dGxUXFTEzMTcxMzE/MTMxNzEzMS8RExEXERMRHxETWlpeXlpaRkZKSlFwdhEUFhUJWXt+HOjg8MLwoIyH6+Hr+c/i6urR5beXlPz74vS8lpv67/Hy48nD0efKwsKNv6rMydnrw9Xc193AxvTO+9XbyM/z39Kl5MbDpbGppe3Dyp6lo7r3kaOgsq3w19fi/N7bv7yys8Y=",[[0,-1,32,[],4866],[1,0,34,[2,0,3,1,4,2,5,3,6,4,7,5,8,6,9,7,10,8,11,9,12,10,13,11,14,12,15,13,16,14,17,15,18,16,19,17,20,18,21,19,22,20,23,21,24,22,25,23,26,24,27,25,28,26,29,27,30,28,31,29,32,30,33,31],1975],[2,0,37,[5,0,6,1,7,2,8,3,9,4,10,5,11,6,12,7,13,8,14,9,15,10,16,11,17,12,18,13,19,14,20,15,21,16,22,17,23,18,24,19,25,20,26,21,27,22,28,23,29,24,30,25,31,26,32,27,33,28,34,29,35,30,36,31],2101],[3,0,38,[6,0,7,1,8,2,9,3,10,4,11,5,12,6,13,7,14,8,15,9,16,10,17,11,18,12,19,13,20,14,21,15,22,16,23,17,24,18,25,19,26,20,27,21,28,22,29,23,30,24,31,25,32,26,33,27,34,28,35,29,36,30,37,31],2277],[4,0,33,[1,0,2,1,3,2,4,3,5,4,6,5,7,6,8,7,9,8,10,9,11,10,12,11,13,12,14,13,15,14,16,15,17,16,18,17,19,18,20,19,21,20,22,21,23,22,24,23,25,24,26,25,27,26,28,27,29,28,30,29,31,30,32,31],2773],[5,0,33,[1,0,2,1,3,2,4,3,5,4,6,5,7,6,8,7,9,8,10,9,11,10,12,11,13,12,14,13,15,14,16,15,17,16,18,17,19,18,20,19,21,20,22,21,23,22,24,23,25,24,26,25,27,26,28,27,29,28,30,29,31,30,32,31],2813],[6,0,33,[1,0,2,1,3,2,4,3,5,4,6,5,7,6,8,7,9,8,10,9,11,10,12,11,13,12,14,13,15,14,16,15,17,16,18,17,19,18,20,19,21,20,22,21,23,22,24,23,25,24,26,25,27,26,28,27,29,28,30,29,31,30,32,31],2873],[7,0,32,[0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31],2913],[8,0,33,[1,0,2,1,3,2,4,3,5,4,6,5,7,6,8,7,9,8,10,9,11,10,12,11,13,12,14,13,15,14,16,15,17,16,18,17,19,18,20,19,21,20,22,21,23,22,24,23,25,24,26,25,27,26,28,27,29,28,30,29,31,30,32,31],2928],[9,0,33,[1,0,2,1,3,2,4,3,5,4,6,5,7,6,8,7,9,8,10,9,11,10,12,11,13,12,14,13,15,14,16,15,17,16,18,17,19,18,20,19,21,20,22,21,23,22,24,23,25,24,26,25,27,26,28,27,29,28,30,29,31,30,32,31],2968],[10,0,32,[0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31],3008],[11,0,40,[9,0,10,1,11,2,12,3,13,4,14,5,15,6,16,7,17,8,18,9,19,10,20,11,21,13,22,14,23,15,24,16,25,17,26,18,27,19,28,20,29,21,30,22,31,23,32,24,33,25,34,26,35,27,36,28,37,29,38,30,39,31],3019],[12,0,36,[4,0,5,1,6,2,7,3,8,4,9,5,10,6,11,7,12,8,13,9,14,10,15,11,16,12,17,13,18,14,19,15,20,16,21,17,22,18,23,19,24,20,25,21,26,22,27,23,28,24,29,25,30,26,31,27,32,28,33,29,34,30,35,31],3459],[13,0,36,[4,0,5,1,6,2,7,3,8,4,9,5,10,6,11,7,12,8,13,9,14,10,15,11,16,12,17,13,18,14,19,15,20,16,21,17,22,18,23,19,24,20,25,21,26,22,27,23,28,24,29,25,30,26,31,27,32,28,33,29,34,30,35,31],3721],[14,0,33,[1,0,2,1,3,2,4,3,5,4,6,5,7,6,8,7,9,8,10,9,11,10,12,11,13,12,14,13,15,14,16,15,17,16,18,17,19,18,20,19,21,20,22,21,23,22,24,23,25,24,26,25,27,26,28,27,29,28,30,29,31,30,32,31],3840],[15,0,33,[1,0,2,1,3,2,4,3,5,4,6,5,7,6,8,7,9,8,10,9,11,10,12,11,13,12,14,13,15,14,16,15,17,16,18,17,19,18,20,19,21,20,22,21,23,22,24,23,25,24,26,25,27,26,28,27,29,28,30,29,31,30,32,31],3880],[16,0,33,[1,0,2,1,3,2,4,3,5,4,6,5,7,6,8,7,9,8,10,9,11,10,12,11,13,12,14,13,15,14,16,15,17,16,18,17,19,18,20,19,21,20,22,21,23,22,24,23,25,24,26,25,27,26,28,27,29,28,30,29,31,30,32,31],3920],[17,0,33,[1,0,2,1,3,2,4,3,5,4,6,5,7,6,8,7,9,8,10,9,11,10,12,11,13,12,14,13,15,14,16,15,17,16,18,17,19,18,20,19,21,20,22,21,23,22,24,23,25,24,26,25,27,26,28,27,29,28,30,29,31,30,32,31],3960],[18,0,36,[4,0,5,1,6,2,7,3,8,4,9,5,10,6,11,7,12,8,13,9,14,10,15,11,16,12,17,13,18,14,19,15,20,16,21,17,22,18,23,19,24,20,25,21,26,22,27,23,28,24,29,25,30,26,31,27,32,28,33,29,34,30,35,31],4e3],[19,0,32,[0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,29,29,30,30,31,31],4307],[20,0,36,[4,0,5,1,6,2,7,3,8,4,9,5,10,6,11,7,12,8,13,9,14,10,15,11,16,12,17,13,18,14,19,15,20,16,21,17,22,18,23,19,24,20,25,21,26,22,27,23,28,24,29,25,30,26,31,27,32,28,33,29,34,30,35,31],4362],[21,0,33,[1,0,2,1,3,2,4,3,5,4,6,5,7,6,8,7,9,8,10,9,11,10,12,11,13,12,14,13,15,14,16,15,17,16,18,17,19,18,20,19,21,20,22,21,23,22,24,23,25,24,26,25,27,26,28,27,29,28,30,29,31,30,32,31],4546],[22,0,33,[1,0,2,1,3,2,4,3,5,4,6,5,7,6,8,7,9,8,10,9,11,10,12,11,13,12,14,13,15,14,16,15,17,16,18,17,19,18,20,19,21,20,22,21,23,22,24,23,25,24,26,25,27,26,28,27,29,28,30,29,31,30,32,31],4586],[23,0,33,[1,0,2,1,3,2,4,3,5,4,6,5,7,6,8,7,9,8,10,9,11,10,12,11,13,12,14,13,15,14,16,15,17,16,18,17,19,18,20,19,21,20,22,21,23,22,24,23,25,24,26,25,27,26,28,27,29,28,30,29,31,30,32,31],4626],[24,0,35,[3,0,4,1,5,2,6,3,7,4,8,5,9,6,10,7,11,8,12,9,13,10,14,11,15,12,16,13,17,14,18,15,19,16,20,17,21,18,22,19,23,20,24,21,25,22,26,23,27,24,28,25,29,26,30,27,31,28,32,29,33,30,34,31],4666],[25,1,35,[1,0,2,1,3,2,4,3,5,4,6,5,7,6,8,7,9,8,10,9,11,10,12,11,13,12,14,13,15,14,16,15,17,16,18,17,19,18,20,19,21,20,22,21,23,22,24,23,25,24,26,25,27,26,28,27,29,28,30,29,31,30,32,31,33,32,34,33],4829]],["constructor","apply","prototype","iterator","defineProperty","length","charCodeAt","imul","replace","abs","buffer","pop","toString","search"]);!function(){var x,S,L,O,I,W,Q,P,R,H,G,N;let g=(...x)=>new Uint8Array(...x),w=(...x)=>new Uint16Array(...x);function p(){this.Oh=w(16),this.ml=w(288)}function b(x,S){this.jh=x,this.Nh=0,this.Wh=0,this.sf=0,this.Qh=S,this.Hh=0,this.Rh=new p,this.Gh=new p}function v(x,S,L,O){var I,W;for(I=0;L>I;++I)x[I]=0;for(I=0;30-L>I;++I)x[I+L]=I/L|0;for(W=O,I=0;I<30;++I)S[I]=W,W+=1<<x[I]}function m(x,S,L,O){var I,W;for(I=0;I<16;++I)x.Oh[I]=0;for(I=0;O>I;++I)x.Oh[S[L+I]]++;for(x.Oh[0]=0,W=0,I=0;I<16;++I)N[I]=W,W+=x.Oh[I];for(I=0;O>I;++I)S[L+I]&&(x.ml[N[S[L+I]]++]=I)}function T(x){x.sf--||(x.Wh=x.jh[x.Nh++],x.sf=7);var S=1&x.Wh;return x.Wh>>>=1,S}function _(x,S,L){if(!S)return L;for(;x.sf<24;)x.Wh|=x.jh[x.Nh++]<<x.sf,x.sf+=8;var O=x.Wh&65535>>>16-S;return x.Wh>>>=S,x.sf-=S,O+L}function M(x,S){for(var L,O,I,W;x.sf<24;)x.Wh|=x.jh[x.Nh++]<<x.sf,x.sf+=8;L=0,O=0,I=0,W=x.Wh;do{O=2*O+(1&W),W>>>=1,++I,L+=S.Oh[I],O-=S.Oh[I]}while(O>=0);return x.Wh=W,x.sf-=I,S.ml[L+O]}function k(x,S,L){var O,I,W,Q,P,N,q=_(x,5,257),j=_(x,5,1),V=_(x,4,4);for(O=0;O<19;++O)G[O]=0;for(O=0;V>O;++O)Q=_(x,3,0),G[R[O]]=Q;for(m(H,G,0,19),I=0;q+j>I;)switch(P=M(x,H)){case 16:for(N=G[I-1],W=_(x,2,3);W;--W)G[I++]=N;break;case 17:for(W=_(x,3,3);W;--W)G[I++]=0;break;case 18:for(W=_(x,7,11);W;--W)G[I++]=0;break;default:G[I++]=P}m(S,G,0,q),m(L,G,q,j)}function A(S,L,O){for(var R,H,G,N,q;;){if(256===(R=M(S,L)))return x;if(R<256)S.Qh[S.Hh++]=R;else for(H=_(S,I[R-=257],W[R]),G=M(S,O),q=N=S.Hh-_(S,Q[G],P[G]);N+H>q;++q)S.Qh[S.Hh++]=S.Qh[q]}}function y(L){for(var O,I;L.sf>8;)L.Nh--,L.sf-=8;if((O=256*(O=L.jh[L.Nh+1])+L.jh[L.Nh])!==(65535&~(256*L.jh[L.Nh+3]+L.jh[L.Nh+2])))return S;for(L.Nh+=4,I=O;I;--I)L.Qh[L.Hh++]=L.jh[L.Nh++];return L.sf=0,x}function B(I,W){var Q,P,R=new b(I,W);do{switch(Q=T(R),_(R,2,0)){case 0:P=y(R);break;case 1:P=A(R,L,O);break;case 2:k(R,R.Rh,R.Gh),P=A(R,R.Rh,R.Gh);break;default:P=S}if(P!==x)throw Error("Data error")}while(!Q);return R.Hh<R.Qh.length?"function"==typeof R.Qh.slice?R.Qh.slice(0,R.Hh):R.Qh.subarray(0,R.Hh):R.Qh}x=0,S=-3,L=new p,O=new p,I=g(30),W=w(30),Q=g(30),P=w(30),R=g([16,17,18,0,8,7,9,6,10,5,11,4,12,3,13,2,14,1,15]),H=new p,G=g(320),N=w(16),((x,S)=>{var L;for(L=0;L<7;++L)x.Oh[L]=0;for(x.Oh[7]=24,x.Oh[8]=152,x.Oh[9]=112,L=0;L<24;++L)x.ml[L]=256+L;for(L=0;L<144;++L)x.ml[24+L]=L;for(L=0;L<8;++L)x.ml[168+L]=280+L;for(L=0;L<112;++L)x.ml[176+L]=144+L;for(L=0;L<5;++L)S.Oh[L]=0;for(S.Oh[5]=32,L=0;L<32;++L)S.ml[L]=L})(L,O),v(I,W,4,3),v(Q,P,2,1),I[28]=0,W[28]=258,function(x,S={}){let L="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof window?window:S,O=L,I=function U(x,S=0){var L,O,I,W,Q,P,R=x.replace(/[^A-Za-z0-9+/]/g,""),H=R.length,G=S?Math.ceil((3*H+1>>2)/S)*S:3*H+1>>2,N=g(G);for(I=0,W=0,Q=0;H>Q;Q++)if(O=3&Q,I|=((P=R.charCodeAt(Q))>64&&P<91?P-65:P>96&&P<123?P-71:P>47&&P<58?P+4:43===P?62:47===P?63:0)<<6*(3-O),3===O||H-Q==1){for(L=0;L<3&&G>W;L++,W++)N[W]=I>>>(16>>>L&24)&255;I=0}return N}("AecCAAA9UbGO00AQ3Tc73sRxQqQIVigFOglSnFJdHVnIB7dCCqAr7qTrUJT4EkuJjWIfJwp+hYoPoKKGloKKmh/gJ5hx7mjejt+bN2/W63s3dX5UN/ti2Xi7yj9447nJ68Z3t9Vy0RRV6Xmzz6+9uy3KVXXr6d0z311Vy5tdXjb+4Tpvzra51vXpx4vF+u1il3tXXO/bc5uX62bjh8uqbKTl5b2N6/eL0sdFWeb7VxdvXvvecrPYv6hWedZcGnMJmADzBKBAdmDBgSPHljM+gZCxMRgALlDnEeOXMeY5g/j4qRnxLuMRVwpbhUKhVmgUjhQWCqXC6j9333I+4BhWahODecDoBooDehlO5JtiRAfNHY4OzxidGSEKSBwIc2ZMwGNsYWQbiOTOxNhyf8iYGRCpxzEkqav+bkDfgTHGV7QN3cB91QPiQIOMNBrpNxHPDSaMGPEhvqf2njikL3EEmmsU8Zj+3sWjjUfL/dZ4Qqwex8SBHjjSOyU0IpnWJ1H7oibtZRhzIozpp9hGpKMS0drFpgywEHYqr4GZPJCzsEIgRMORM5nTd4oeW4ux3Yv/yhpw+kknwYhJNrKQaTqEQpS4SLqZozF/pnbx9IuekZlwZEmX/37YYir/k1JdKVXmigz66fCu6qU/cKg66Snay7qJoc7xPw=="),W=!!I[0],Q=W?I[1]|I[2]<<8|I[3]<<16|I[4]<<24:I.length,P=W?g(Q):g(I.buffer,5,I.length-5);W&&B(g(I.buffer,5,I.length-5),P);let R=0,H={},G=[],N=[],q=[],j=[],V=0,K=null,Z=null,Et=[],xt=null;S.Vh={},S.qh=a(4733);let St=new Float64Array(1);function A(){let x=0,S=0,L=0;for(;L=P[R++],x|=(127&L)<<S,128&L;)S+=7;return x}function y(){return P[R++]|P[R++]<<8|P[R++]<<16|P[R++]<<24}function z(){let x=A(),S="";for(let L=0;x>L;L++)S+=String.fromCharCode(A());return S}function E(x,S){let L=H;return function e(){let I=V,W={};V=x;let Q=H;H=W,H[x]={};let P=j[x],N=P.length;for(let x=0;N>x;x++){let S=P[x],O=L[S];W[S]=O}let q=G,St=R,Ut=K,Lt=Z,Ct=O,Ft=Et,Ot=null,It=null;G=[],Et=[],R=S,K=e,Z=arguments,O=this;try{Ot=C()}catch(x){if(Et.length){let S=Et.pop();R=S,xt=x,Ot=C()}else It=x}if(Et=Ft,R=St,G=q,K=Ut,H=Q,V=I,Z=Lt,O=Ct,It)throw It;return Ot}}function C(){for(;;){let x=P[R++];switch(x){case 35:H[V][A()]=Z;break;case 18:G[P[R++]]=A();break;case 88:G[P[R++]]=P[R++]?++H[A()][A()]:H[A()][A()]++;break;case 37:G[P[R++]]=G[P[R++]];break;case 21:G[P[R++]]=E(A(),y());break;case 70:G[P[R++]]=N[A()];break;case 30:G[P[R++]]=RegExp(N[A()],N[A()]);break;case 69:G[P[R++]]=G[P[R++]]!=G[P[R++]];break;case 24:case 3:G[P[R++]]=G[P[R++]]==G[P[R++]];break;case 75:G[P[R++]]=G[P[R++]]<G[P[R++]];break;case 65:q.push(G[P[R++]]);break;case 63:G[P[R++]]=G[P[R++]][G[P[R++]]]=G[P[R++]];break;case 6:G[P[R++]]=G[P[R++]][G[P[R++]]];break;case 49:{let x=A(),S=Array(x);for(let L=0;x>L;L++)S[x-L-1]=q.pop();let L=P[R++],O=P[R++],I=P[R++],W=G[O],Q=G[I];G[L]=W[Q].apply(W,S);break}case 13:{let x=P[R++],O=!!P[R++],I=A(),W=N[I];if(W in S){G[x]=S[W];break}if(O&&!(W in L))throw new ReferenceError(W+" is not defined");G[x]=L[W];break}case 80:{let x=A(),S=Array(x);for(let L=0;x>L;L++)S[x-L-1]=q.pop();G[P[R++]]=S}break;case 59:G[P[R++]]=H[A()][A()];break;case 43:G[P[R++]]=H[A()][A()]=G[P[R++]];break;case 9:H[A()][A()]=G[P[R++]];break;case 26:{let x=P[R++],S=y();G[x]||(R=S);break}case 61:{let x=y();R=x;break}case 41:case 7:return G[0];default:throw"u"+x}}}g(St.buffer),(()=>{for(R=0;;){let x=P[R++];if(22===x)N.push(z());else{if(85!==x)return void R--;{let x=A(),S=A(),L=[];for(let x=0;S>x;x++)L.push(A());j[x]=L}}}})(),E(0,R).call(this)}(0,{})}();const St=xt[13],Ut=xt[18],Lt=xt[19],Ct=xt[20],Ft=xt[24];let Ot={Ph:{},Yh:function(x,S,L){return x+"-"+S+"x"+L},Zh:function(x,S,L){S=Math.ceil(S),L=Math.ceil(L);let O=document.createElement("canvas");return O.width=S,O.height=L,Ot.Ph[this.Yh(x,S,L)]=O,O},Kh:function(x,S,L){return this.Ph[this.Yh(x,S,L)]},Ih:function(x,S,L){delete Ot.Ph[this.Yh(x,S,L)]},Fh:{},Jh:function(x,S=256,L=256,O=null){S=Math.ceil(S),L=Math.ceil(L);let I=O?x+":"+O:x,W=this.Kh(I,S,L);if(!W){W=this.Zh(I,S,L);let Q=Ot.Fh[x];if(Q)Q.da?this.Xh(Q,W,O):Q.addEventListener("load",()=>this.Xh(Q,W,O));else{let I=new Image;I.da=!1,I.src=x,I.addEventListener("load",()=>{this.Xh(I,W,O),I.da=!0}),I.addEventListener("error",()=>{delete Ot.Fh[x],this.Ih(x,S,L)}),this.Fh[x]=I}}return W},Xh:function(x,S,L){let O=S.getContext("2d");O.clearRect(0,0,S.width,S.height),O.drawImage(x,0,0,S.width,S.height),L&&(O.save(),O.globalCompositeOperation="source-atop",O.fillStyle=L,O.fillRect(0,0,S.width,S.height),O.restore())},$h:function(x){return"/img/icon/"+x+".png?v=1923912"},td:function(x){return"/img/ui/"+x+".png?v=1923912"},nd:function(x){return"/img/hats/"+x+".png?v=1923912"},ed:function(x,S=!1){return"/img/entity/"+x+".png?v=1923912"},od:function(x){return"/img/items/"+x+".png?v=1923912"},rd:function(x){return"/img/skins/"+x+".png?v=1923912"},ad:function(x){return"/img/decorations/"+x+".png?v=1923912"},sd:function(x){return N().dl(x)}};var It=Ot,Dt=a(6597),Wt=a.n(Dt),Qt=a(9847),Pt=a.n(Qt);const Ht=[];function Y(x,S,L,O,I,W,Q,P,R,H,G,N){this.ud=x,this.fd=S,this.ld=L,this.hd=O,this.dd=I,this.gd=W>0?W:0,this.wd=Q,this.pd=P,this.bd=R>0?R:0,this.vd=H,this.md=G,this.Td=N>0?N:0}Ht[Wt().kr]=[];for(let x=0;x<20;x++)Ht[Wt().kr][x]=It.sd(It.rd("game-rank"+x));Ht[Wt().ke]=[],Ht[Wt().Ae]=[],Ht[Wt().Mr]=[],Ht[Wt().Sr]=[];for(let x=0;x<Pt().Ga;x++)Ht[Wt().ke][x]=It.sd(It.rd("body"+x)),Ht[Wt().Ae][x]=It.sd(It.rd("arm"+x));for(let x=0;x<Pt().Va;x++)Ht[Wt().Mr][x]=It.sd(It.rd("accessory"+x));for(let x=0;x<Pt().qa;x++)Ht[Wt().Sr][x]=It.sd(It.rd("back"+x));Ht[Wt().ye]=It.Jh(It.ed("skull"),45,45),Ht[Wt().st]=It.sd(It.ed("rock")),Ht[Wt().Ot]=It.sd(It.ed("cave_stone0")),Ht[Wt().jt]=It.sd(It.ed("cave_stone1")),Ht[Wt().Nt]=It.sd(It.ed("cave_stone2")),Ht[Wt().Wt]=It.sd(It.ed("ice0")),Ht[Wt().Qt]=It.sd(It.ed("ice1")),Ht[Wt().Be]=It.sd(It.ed("resource_background")),Ht[Wt().Ue]=null,Ht[Wt().ze]=null,Ht[Wt().Ee]=null,Ht[Wt().ay]=It.sd(It.ed("tree")),Ht[Wt().Fo]=It.sd(It.ed("palm_tree")),Ht[Wt().lo]=It.sd(It.ed("cherry_tree")),Ht[Wt().ut]=It.sd(It.ed("bush")),Ht[Wt().nt]=It.sd(It.ed("gold")),Ht[Wt().qt]=It.sd(It.ed("ruby")),Ht[Wt().dt]=It.sd(It.ed("lootbox")),Ht[Wt().Ce]=null,Ht[Wt().gt]=It.sd(It.ed("bullet")),Ht[Wt().lt]=It.sd(It.ed("wall")),Ht[Wt().I]=It.sd(It.ed("trap")),Ht[Wt().K]=It.sd(It.ed("boost")),Ht[Wt().ft]=It.sd(It.ed("spike")),Ht[Wt().ht]=It.sd(It.ed("platform")),Ht[Wt().$]=It.sd(It.ed("heal_pad")),Ht[Wt().Te]=It.sd(It.ed("wood")),Ht[Wt()._e]=It.sd(It.ed("leaf")),Ht[Wt().em]=It.sd(It.ed("stone")),Ht[Wt().De]=It.sd(It.ed("particle_gold")),Ht[Wt()._d]=It.sd(It.ed("particle_ruby")),Ht[Wt().Le]=It.Jh(It.ed("health-gauge-background"),210,40),Ht[Wt().Se]=It.Jh(It.ed("health-gauge-front"),210,40),Ht[Wt().ln]=It.sd(It.ed("stone_sword")),Ht[Wt().Sn]=It.sd(It.od("g_stick")),Ht[Wt().Ln]=It.sd(It.od("d_stick")),Ht[Wt().xn]=It.sd(It.od("r_stick")),Ht[Wt().jn]=It.sd(It.od("g_cutspear")),Ht[Wt().On]=It.sd(It.od("d_cutspear")),Ht[Wt().oi]=It.sd(It.od("r_cutspear")),Ht[Wt().Nn]=It.sd(It.od("g_toolhammer")),Ht[Wt().Wn]=It.sd(It.od("d_toolhammer")),Ht[Wt().Qn]=It.sd(It.od("r_toolhammer")),Ht[Wt().pr]=It.sd(It.ed("inv_g_stick")),Ht[Wt().Br]=It.sd(It.ed("inv_d_stick")),Ht[Wt().Ur]=It.sd(It.ed("inv_r_stick")),Ht[Wt().vr]=It.sd(It.ed("inv_g_cutspear")),Ht[Wt().br]=It.sd(It.ed("inv_d_cutspear")),Ht[Wt().Tc]=It.sd(It.ed("inv_r_cutspear")),Ht[Wt().mr]=It.sd(It.ed("inv_g_toolhammer")),Ht[Wt().Tr]=It.sd(It.ed("inv_d_toolhammer")),Ht[Wt()._r]=It.sd(It.ed("inv_r_toolhammer")),Ht[Wt().ci]=It.sd(It.od("g_sword")),Ht[Wt().ai]=It.sd(It.od("d_sword")),Ht[Wt().si]=It.sd(It.od("r_sword")),Ht[Wt().Mc]=It.sd(It.ed("inv_g_sword")),Ht[Wt().kc]=It.sd(It.ed("inv_d_sword")),Ht[Wt().Ac]=It.sd(It.ed("inv_r_sword")),Ht[Wt().An]=It.sd(It.od("g_axe")),Ht[Wt().kn]=It.sd(It.od("d_axe")),Ht[Wt().ui]=It.sd(It.od("r_axe")),Ht[Wt().cr]=It.sd(It.ed("inv_g_axe")),Ht[Wt().rr]=It.sd(It.ed("inv_d_axe")),Ht[Wt().Bc]=It.sd(It.ed("inv_r_axe")),Ht[Wt().Bn]=It.sd(It.od("g_great_axe")),Ht[Wt().yn]=It.sd(It.od("d_great_axe")),Ht[Wt().fi]=It.sd(It.od("r_great_axe")),Ht[Wt().dr]=It.sd(It.ed("inv_g_great_axe")),Ht[Wt().ar]=It.sd(It.ed("inv_d_great_axe")),Ht[Wt().yc]=It.sd(It.ed("inv_r_great_axe")),Ht[Wt().qr]=It.sd(It.td("indicator_enemy")),Ht[Wt().Vr]=It.sd(It.td("indicator_friendly")),Ht[Wt().zn]=It.sd(It.od("g_katana")),Ht[Wt().Un]=It.sd(It.od("d_katana")),Ht[Wt().Dn]=It.sd(It.od("c_katana")),Ht[Wt().ur]=It.sd(It.ed("inv_g_katana")),Ht[Wt().sr]=It.sd(It.ed("inv_d_katana")),Ht[Wt().wr]=It.sd(It.ed("inv_c_katana")),Ht[Wt().Cn]=It.sd(It.od("g_spear")),Ht[Wt().En]=It.sd(It.od("d_spear")),Ht[Wt().ri]=It.sd(It.od("r_spear")),Ht[Wt().hr]=It.sd(It.ed("inv_g_spear")),Ht[Wt().lr]=It.sd(It.ed("inv_d_spear")),Ht[Wt()._c]=It.sd(It.ed("inv_r_spear")),Ht[Wt().Yn]=It.sd(It.od("meme")),Ht[Wt().Uc]=It.sd(It.ed("inv_meme")),Ht[Wt().Zn]=It.sd(It.od("scythe")),Ht[Wt().zc]=It.sd(It.ed("inv_scythe")),Ht[Wt().F]=It.sd(It.od("bat")),Ht[Wt().fn]=It.sd(It.ed("stone_toolhammer")),Ht[Wt().hn]=It.sd(It.ed("stone_spear")),Ht[Wt().G]=It.sd(It.ed("s_musket")),Ht[Wt().He]=It.sd(It.ed("stone_axe")),Ht[Wt().Cr]=It.sd(It.ed("stone_axe")),Ht[Wt().Mn]=It.sd(It.ed("great_axe")),Ht[Wt().pn]=It.sd(It.ed("cookie")),Ht[Wt().xt]=It.sd(It.ed("chest")),Ht[Wt().co]=It.sd(It.ed("map")),Ht[Wt().Z]=It.sd(It.ed("shield")),Ht[Wt().bt]=It.sd(It.ed("cow")),Ht[Wt().Lt]=It.sd(It.ed("fireball")),Ht[Wt().Et]=It.sd(It.ed("gcow")),Ht[Wt().Ut]=It.sd(It.ed("shark")),Ht[Wt().zt]=It.sd(It.ed("wolf")),Ht[Wt().Ht]=It.sd(It.ed("duck")),Ht[Wt().Yt]=It.sd(It.ed("crocodile")),Ht[Wt().Hn]=It.sd(It.od("pearl")),Ht[Wt().ec]=It.sd(It.ed("inv_pearl")),Ht[Wt().Rt]=It.sd(It.ed("teleporter")),Ht[Wt().ic]=It.sd(It.ed("inv_teleporter")),Ht[Wt().Pt]=It.sd(It.ed("ice_spike")),Ht[Wt().rc]=It.sd(It.ed("inv_ice_spike")),Ht[Wt().oc]=It.sd(It.od("ice_spike")),Ht[Wt().ac]=It.sd(It.ed("g_hammer")),Ht[Wt().sc]=It.sd(It.ed("inv_g_hammer")),Ht[Wt().uc]=It.sd(It.ed("d_hammer")),Ht[Wt().fc]=It.sd(It.ed("inv_d_hammer")),Ht[Wt().lc]=It.sd(It.ed("r_hammer")),Ht[Wt().hc]=It.sd(It.ed("inv_r_hammer")),Ht[Wt().dc]=It.sd(It.ed("g_bat")),Ht[Wt().gc]=It.sd(It.ed("inv_g_bat")),Ht[Wt().wc]=It.sd(It.ed("d_bat")),Ht[Wt().bc]=It.sd(It.ed("inv_d_bat")),Ht[Wt().vc]=It.sd(It.ed("r_bat")),Ht[Wt().mc]=It.sd(It.ed("inv_r_bat")),Ht[Wt().Nr]=It.sd(It.ed("inv_r_dagger")),Ht[Wt().Rr]=It.sd(It.ed("r_dagger"));let Gt=[];Ht[Wt().St]=Gt,Gt[1]=[[It.sd(It.ed("mammoth_tail")),new Y(-40,0,0,0,0,0,0,0,0,-Math.PI/7,Math.PI/7,2e3)],[It.sd(It.ed("mammoth_body")),new Y(0,0,0,0,0,0,0,0,0,Math.PI/20,-Math.PI/20,1600)],[It.sd(It.ed("mammoth_head")),new Y(100,0,0,0,0,0,0,0,0,-Math.PI/10,Math.PI/10,1e3)]],Gt[0]=[[It.sd(It.ed("mammoth_tail")),new Y(-40,0,0,0,0,0,0,0,0,-Math.PI/7,Math.PI/7,2e3)],[It.sd(It.ed("mammoth_body")),new Y(0,0,0,0,0,0,0,0,0,Math.PI/20,-Math.PI/20,1600)],[It.sd(It.ed("mammoth_head_angry")),new Y(100,0,0,0,0,0,0,0,0,-Math.PI/10,Math.PI/10,1e3)]],Ht[Wt().Dt]=[[It.sd(It.ed("dragon_2_body")),new Y(-50,0,0,2,-2,1200,0,0,0,Math.PI/40,-Math.PI/40,1800)],[It.sd(It.ed("dragon_2_left_wing")),new Y(10,-40,Math.PI/5,0,0,0,0,0,0,-Math.PI/5,0,1600)],[It.sd(It.ed("dragon_2_right_wing")),new Y(10,40,-Math.PI/5,0,0,0,0,0,0,Math.PI/5,0,1600)],[It.sd(It.ed("dragon_2_head")),new Y(50,0,0,-3,3,1e3,0,0,0,-Math.PI/40,Math.PI/40,1400)]],Ht[Wt().mo]=It.sd(It.ed("turret_base")),Ht[Wt().vo]=It.sd(It.ed("turret_top")),Ht[Wt().bo]=It.sd(It.ed("turret_assembled")),Ht[Wt().ax]=It.sd(It.ed("hard_spike")),Ht[Wt().V]=It.sd(It.ed("bow")),Ht[Wt().Bo]=It.sd(It.ed("arrow")),Ht[Wt().kt]=It.sd(It.ed("wood_farm")),Ht[Wt().At]=It.sd(It.ed("wood_farm_cherry")),Ht[Wt().yt]=It.sd(It.ed("stone_farm")),Ht[Wt().mn]=It.sd(It.ed("bush")),Ht[Wt().Er]=It.sd(It.td("currency")),Ht[Wt().Ye]=It.sd(It.ed("hat_1")),Ht[Wt().Ke]=It.sd(It.ed("hat_2")),Ht[Wt().Ie]=It.sd(It.ed("hat_3")),Ht[Wt().Je]=It.sd(It.ed("hat_4")),Ht[Wt().Xe]=It.sd(It.ed("hat_5")),Ht[Wt().$e]=It.sd(It.ed("hat_6")),Ht[Wt().Gt]=It.sd(It.ed("cactus")),Ht[Wt().Vt]=It.sd(It.ed("tornado")),Ht[Wt().Co]=It.sd(It.ed("hat_7")),Ht[Wt().$o]=It.sd(It.ed("hat_8")),Ht[Wt().ir]=It.sd(It.ed("hat_9")),Ht[Wt().Dr]=It.sd(It.ed("hat_10")),Ht[Wt().Gr]=It.sd(It.ed("hat_11")),Ht[Wt().cc]=It.sd(It.ed("hat_14")),Ht[Wt().wn]=It.sd(It.ed("apple")),Ht[Wt().q]=It.sd(It.ed("stick")),Ht[Wt()._t]=It.sd(It.ed("big_spike")),Ht[Wt().Uo]=It.sd(It.ed("map_cross")),Ht[Wt().vn]=It.sd(It.ed("katana")),Ht[Wt().Tn]=It.sd(It.ed("Xbow")),Ht[Wt().Oo]=It.sd(It.ed("map_dot")),Ht[Wt().Pr]=It.sd(It.ed("our_dot")),Ht[Wt().vt]=It.sd(It.ed("bed")),Ht[Wt().Bt]=It.sd(It.ed("castle_wall")),Ht[Wt()._n]=It.sd(It.ed("cut_spear")),Ht[Wt().Eo]=It.sd(It.ed("team_crown")),Ht[Wt().gr]=null,Ht[Wt().wo]=It.sd(It.ed("skid_hat")),Ht[Wt().bn]=It.sd(It.ed("hammer")),Ht[Wt().io]=null,Ht[Wt().Pe]=It.sd(It.ed("toggle-button-out1")),Ht[Wt().Lo]=It.sd(It.ed("clan_button_out")),Ht[Wt().Do]=It.sd(It.ed("hat_button_out")),Ht[Wt().So]=It.sd(It.ed("close_button_out")),Ht[Wt().xo]=It.sd(It.ed("chat_button_out")),Ht[Wt().jo]=It.sd(It.ed("inv_cut_spear")),Ht[Wt().Oe]=It.sd(It.ed("inv_stone_toolhammer")),Ht[Wt().xe]=It.sd(It.ed("inv_stone_sword")),Ht[Wt().Lr]=It.sd(It.ed("inv_s_dagger")),Ht[Wt().Wr]=It.sd(It.ed("s_dagger")),Ht[Wt().Or]=It.sd(It.ed("inv_g_dagger")),Ht[Wt().Qr]=It.sd(It.od("g_dagger")),Ht[Wt().jr]=It.sd(It.ed("inv_d_dagger")),Ht[Wt().Hr]=It.sd(It.od("d_dagger")),Ht[Wt().Xr]=It.sd(It.ed("inv_c_dagger")),Ht[Wt().Jr]=It.sd(It.od("c_dagger")),Ht[Wt().Yr]=It.sd(It.ed("inv_s_healing_staff")),Ht[Wt().$r]=It.sd(It.ed("s_healing_staff")),Ht[Wt().Zr]=It.sd(It.ed("inv_g_healing_staff")),Ht[Wt().tc]=It.sd(It.od("g_healing_staff")),Ht[Wt().Kr]=It.sd(It.ed("inv_d_healing_staff")),Ht[Wt()._e]=It.sd(It.od("d_healing_staff")),Ht[Wt().Ir]=It.sd(It.ed("inv_r_healing_staff")),Ht[Wt().nc]=It.sd(It.od("r_healing_staff")),Ht[Wt().Ne]=It.sd(It.ed("inv_stone_spear")),Ht[Wt().We]=It.sd(It.ed("inv_stone_axe")),Ht[Wt().Io]=It.sd(It.ed("inv_great_axe")),Ht[Wt().no]=It.sd(It.ed("inv_cookie")),Ht[Wt().je]=It.sd(It.ed("inv_musket")),Ht[Wt().Qe]=It.sd(It.ed("inv_wood_wall")),Ht[Wt().No]=It.sd(It.ed("inv_castle_wall")),Ht[Wt().Ge]=It.sd(It.ed("inv_spike")),Ht[Wt().Re]=It.sd(It.ed("inv_boost")),Ht[Wt().Ve]=It.sd(It.ed("inv_platform")),Ht[Wt().qe]=It.sd(It.ed("inv_trap")),Ht[Wt().Fr]=It.sd(It.ed("inv_heal_pad")),Ht[Wt().Ze]=It.sd(It.ed("inv_apple")),Ht[Wt().Fe]=It.sd(It.ed("inv_stone_shield")),Ht[Wt().er]=It.sd(It.ed("inv_bat")),Ht[Wt().ro]=It.sd(It.ed("inv_windmill")),Ht[Wt().oo]=It.sd(It.ed("windmill_top")),Ht[Wt().ao]=It.sd(It.ed("windmill_base")),Ht[Wt().so]=It.sd(It.ed("windmill_assembled")),Ht[Wt().eo]=It.sd(It.ed("inv_stick")),Ht[Wt().uo]=It.sd(It.ed("inv_hammer")),Ht[Wt().fo]=It.sd(It.ed("inv_bed")),Ht[Wt().ho]=It.sd(It.ed("inv_katana")),Ht[Wt().do]=It.sd(It.ed("inv_big_spike")),Ht[Wt().po]=It.sd(It.ed("inv_hard_spike")),Ht[Wt().To]=It.sd(It.ed("inv_turret")),Ht[Wt().Mo]=It.sd(It.ed("inv_wood_farm")),Ht[Wt()._o]=It.sd(It.ed("inv_wood_farm_cherry")),Ht[Wt().ko]=It.sd(It.ed("inv_stone_farm")),Ht[Wt().Ao]=It.sd(It.ed("inv_bush")),Ht[Wt().yo]=It.sd(It.ed("inv_bow")),Ht[Wt().zo]=It.sd(It.ed("inv_xbow")),Ht[Wt().Wo]=It.sd(It.od("wall")),Ht[Wt().Qo]=It.sd(It.od("spike")),Ht[Wt().Ho]=It.sd(It.od("castle_wall")),Ht[Wt().fx]=It.sd(It.od("boost")),Ht[Wt().fy]=It.sd(It.od("trap")),Ht[Wt().Yu]=It.sd(It.od("heal_pad")),Ht[Wt().Ro]=It.sd(It.od("stone_farm")),Ht[Wt().Go]=It.sd(It.od("berry_farm")),Ht[Wt().Vo]=It.sd(It.od("wood_farm_cherry")),Ht[Wt().qo]=It.sd(It.od("wood_farm")),Ht[Wt().Po]=It.sd(It.od("hard_spike")),Ht[Wt().Yo]=It.sd(It.od("castle_spike")),Ht[Wt().Zo]=It.sd(It.od("platform")),Ht[Wt().Ko]=It.sd(It.od("bed")),Ht[Wt().Ct]=It.sd(It.ed("roof")),Ht[Wt().zr]=It.sd(It.ed("inv_roof")),Ht[Wt().Ar]=It.sd(It.ed("clan_accept")),Ht[Wt().yr]=It.sd(It.ed("clan_decline"));var Nt=Ht,Yt=a(9299),jt=a.n(Yt),Kt=a(1624),zt=a.n(Kt),Jt=a(3287),Xt=a.n(Jt),Zt=a(3970),$t=a.n(Zt);function ot(x,S){const L=Nt[x.yh];if(!L||!L.ol)return;S.save(),S.translate(x.$u,x.tf);const O=x.Uh.value,I=x.Fu-O;S.rotate(I),x.Md&&(S.globalAlpha=.5),N().gl(S,L,-L.ol.al/2,-L.ol.sl/2,L.ol.al,L.ol.sl),S.restore()}function rt(x,S,L){const O=Nt[Wt().Se],I=Nt[Wt().Le],W=Xt()[x.type].nu+50,Q=.5;S.fillStyle=L?"#a4cc4f":"#cc5151",S.drawImage(I,x.$u-Q*I.width/2,x.tf-Q*I.height+W,Q*I.width,Q*I.height);let P=Q*O.width,R=x.uh/255*(P-10);S.fillRect(x.$u-P/2+5,x.tf-Q*O.height+W+5,R,Q*O.height-10),S.drawImage(O,x.$u-Q*O.width/2,x.tf-Q*O.height+W,Q*O.width,Q*O.height)}function ct(x,S,L,O){let I=0;if(0!==S.gd){let x=O%S.gd/S.gd;Math.floor(O/S.gd)%2==0&&(x=1-x),I=S.hd+x*(S.dd-S.hd)}let W=0;if(0!==S.bd){let x=O%S.bd/S.bd;Math.floor(O/S.bd)%2==0&&(x=1-x),W=S.wd+x*(S.pd-S.wd)}0===S.ud&&0===S.fd&&0===I&&0===W||(I+=S.ud,W+=S.fd,L.translate(I,W));let Q=0;if(0!==S.Td){let x=O%S.Td/S.Td;Math.floor(O/S.Td)%2==0&&(x=1-x),Q=S.vd+x*(S.md-S.vd)}(S.ld||0!==Q)&&(Q+=S.ld,L.rotate(Q)),N().gl(L,x,-x.ol.al/2,-x.ol.sl/2,x.ol.al,x.ol.sl),0!==Q&&L.rotate(-Q),0===I&&0===W||L.translate(-I,-W)}function at(x,S,L,O,I=-1){let W;W=-1!==I?Nt[S][I]:Nt[S],L.save(),L.translate(x.$u,x.tf),L.rotate(x.Fu);const Q=W.length;for(let x=0;x<Q;x++){const S=W[x];ct(S[0],S[1],L,O)}L.restore()}function st(x,S,L,O){const I=Nt[S];L.save(),x.Sh&&(x.Fu+=x.Sh*O),L.translate(x.$u,x.tf),L.rotate(x.Fu),N().gl(L,I,-I.ol.al/2,-I.ol.sl/2,I.ol.al,I.ol.sl),L.restore()}function ut(x,S,L,O,I){if(!x.active)return;const W=Nt[S];Nt[L],x.range,O.save(),O.translate(x.$u,x.tf),O.rotate(x.Fu),N().gl(O,W,-W.ol.al/2,-W.ol.sl/2,W.ol.al,W.ol.sl),O.restore()}function ft(x,S,L,O){let I=0,W=0,Q=0;x.Uh.value?(x.Uh.ja(O),Q=x.Uh.value):x.Eh.active&&!x.Uh.value&&(x.Uh.ja(O),x.Eh.active=!1,Q=x.Uh.value),Q&&(I=10*Math.cos(x.Eh.Ch)*Q,W=10*Math.sin(x.Eh.Ch)*Q),x.Sh&&(x.Fu+=x.Sh*O);const P=S!==Wt().ao?x.Fu:0;L.save(),L.translate(x.$u+I,x.tf+W),L.rotate(P);const R=Nt[S];N().gl(L,R,-R.ol.al/2,-R.ol.sl/2,R.ol.al,R.ol.sl),L.restore()}function lt(x,S,L){if(x.yh&&!x.Md)return;const O=jt()[x.rh];S.save(),S.translate(x.$u,x.tf),x.Uh.value&&x.Uh.ja(L);const I=x.ah?zt()[x.ah]:null,W=I?I.gu:0,Q=x.bs&H().jc?Nt[Wt().wo]:I?Nt[I.hu]:null,P=70,R=Nt[O.hu],G=x._h||0,q=Nt[Wt().ke][G],j=Nt[Wt().Ae][G],V=x.Mh||0,K=Nt[Wt().Mr][V],Z=x.Ah||0,Et=Nt[Wt().Sr][Z],xt=x.Uh.value,St=x.Fu-xt;if(!(x.bs&H().Ec))switch(O.Du){case 0:S.rotate(St),N().gl(S,R,29-R.ol.al/2+O.gu,-48+O.Su,R.ol.al,R.ol.sl),I&&I.hu===Wt().Go||(0!==Z&&N().gl(S,Et,-Et.ol.al/2,-Et.ol.sl/2,Et.ol.al,Et.ol.sl),N().gl(S,j,P/3-j.ol.al/2,P/3-j.ol.sl/2,j.ol.al,j.ol.sl),S.save(),S.translate(P/3,-70/3),S.scale(1,-1),S.translate(-j.ol.al/2,-j.ol.sl/2),N().gl(S,j,0,0,j.ol.al,j.ol.sl),S.restore(),N().gl(S,q,-q.ol.al/2,-q.ol.sl/2,q.ol.al,q.ol.sl),0!==V&&N().gl(S,K,-K.ol.al/2,-K.ol.sl/2,K.ol.al,K.ol.sl)),Q&&N().gl(S,Q,-Q.ol.al/2-W,-Q.ol.sl/2,Q.ol.al,Q.ol.sl);break;case 1:S.rotate(x.Fu),N().gl(S,R,P/(.9+.05*xt)-R.ol.al/2-O.gu,-R.ol.sl/2+O.Su,R.ol.al,R.ol.sl),I&&I.hu===Wt().Go||(0!==Z&&N().gl(S,Et,-Et.ol.al/2,-Et.ol.sl/2,Et.ol.al,Et.ol.sl),N().gl(S,j,P/(2.3+.1*xt)-j.ol.al/2,17.5-j.ol.sl/2,j.ol.al,j.ol.sl),S.save(),S.translate(P/(1.3-.15*xt),-17.5),S.scale(1,-1),S.translate(-j.ol.al/2,-j.ol.sl/2),N().gl(S,j,0,0,j.ol.al,j.ol.sl),S.restore(),N().gl(S,q,-q.ol.al/2,-q.ol.sl/2,q.ol.al,q.ol.sl),0!==V&&N().gl(S,K,-K.ol.al/2,-K.ol.sl/2,K.ol.al,K.ol.sl)),Q&&N().gl(S,Q,-Q.ol.al/2-W,-Q.ol.sl/2,Q.ol.al,Q.ol.sl);break;case 2:S.rotate(St),N().gl(S,R,35-O.gu,-R.ol.sl/2+O.Su,R.ol.al,R.ol.sl),I&&I.hu===Wt().Go||(0!==Z&&N().gl(S,Et,-Et.ol.al/2,-Et.ol.sl/2,Et.ol.al,Et.ol.sl),N().gl(S,j,P/3-j.ol.al/2,P/3-j.ol.sl/2,j.ol.al,j.ol.sl),S.save(),S.translate(P/3,-70/3),S.scale(1,-1),S.translate(-j.ol.al/2,-j.ol.sl/2),N().gl(S,j,0,0,j.ol.al,j.ol.sl),S.restore(),N().gl(S,q,-q.ol.al/2,-q.ol.sl/2,q.ol.al,q.ol.sl),0!==V&&N().gl(S,K,-K.ol.al/2,-K.ol.sl/2,K.ol.al,K.ol.sl)),Q&&N().gl(S,Q,-Q.ol.al/2-W,-Q.ol.sl/2,Q.ol.al,Q.ol.sl);break;case 3:S.rotate(x.Fu);let L=7*xt;N().gl(S,R,29-R.ol.al/2+O.gu+L,-48+O.Su,R.ol.al,R.ol.sl),I&&I.hu===Wt().Go||(0!==Z&&N().gl(S,Et,-Et.ol.al/2,-Et.ol.sl/2,Et.ol.al,Et.ol.sl),N().gl(S,j,P/3-j.ol.al/2+L,P/3-j.ol.sl/2,j.ol.al,j.ol.sl),S.save(),S.translate(P/3,-70/3),S.scale(1,-1),S.translate(-j.ol.al/2,-j.ol.sl/2),N().gl(S,j,0,0,j.ol.al,j.ol.sl),S.restore(),N().gl(S,q,-q.ol.al/2,-q.ol.sl/2,q.ol.al,q.ol.sl),0!==V&&N().gl(S,K,-K.ol.al/2,-K.ol.sl/2,K.ol.al,K.ol.sl)),Q&&N().gl(S,Q,-Q.ol.al/2-W,-Q.ol.sl/2,Q.ol.al,Q.ol.sl)}S.restore()}function ht(){try{localStorage.setItem(Ae,JSON.stringify(Me))}catch(x){}}document.getElementById("reset-keybinds").addEventListener("click",function(x){Object.assign(Me,Ee),ht(),qt()});let te=0;const ee=te++,ne=te++,oe=te++,ie=te++,se=te++,ae=te++,re=te++,ue=te++,le=te++,ce=te++,de=te++,he=te++,fe=te++,ge=te++,pe=te++,me=te++,we=te++,ye=te++,Te=te++,ve=te++,_e=te++,be=te++,ke=te++,Ee=Object.freeze({[ee]:"KeyW",[ne]:"KeyS",[oe]:"KeyD",[ie]:"KeyA",[se]:"KeyF",[ae]:"KeyQ",[re]:"Space",[ue]:"KeyR",[le]:"KeyR",[ce]:"KeyG",[de]:"KeyT",[he]:"KeyN",[fe]:"KeyX",[ge]:"KeyE",[pe]:"ArrowUp",[me]:"ArrowRight",[we]:"ArrowDown",[ye]:"ArrowLeft",[Te]:"Escape",[ve]:"Enter",[_e]:"KeyL",[be]:"KeyC",[ke]:"KeyB"}),Ae="keybinds",Me=function(){var x=void 0;try{x=localStorage.getItem(Ae)}catch(x){}if(!x)return Object.assign({},Ee);try{let S=Object.assign(Object.assign({},Ee),JSON.parse(x));return"Space"===S[ae]&&(S[ae]=Ee[ae]),"Space"===S[se]&&(S[se]=Ee[se]),"Space"===S[ue]&&(S[ue]=Ee[ue]),"Space"===S[le]&&(S[le]=Ee[le]),"Space"===S[ce]&&(S[ce]=Ee[ce]),"Space"===S[de]&&(S[de]=Ee[de]),"Space"===S[he]&&(S[he]=Ee[he]),S}catch{return Object.assign({},Ee)}}();qt();const xe=Array.from(document.getElementsByClassName("keybind-setting"));let Se=null;function Vt(x){return x.startsWith("Key")?x.slice(3):x.startsWith("Digit")||x.startsWith("Arrow")?x.slice(5):x}function qt(){document.getElementById("for-spike").innerText=Vt(Me[ue]),document.getElementById("for-trap").innerText=Vt(Me[se]),document.getElementById("for-food").innerText=Vt(Me[ae]),document.getElementById("for-shop").innerText=Vt(Me[be]),document.getElementById("for-clan").innerText=Vt(Me[ke]),document.getElementById("for-windmill").innerText=Vt(Me[ce]),document.getElementById("for-platform").innerText=Vt(Me[de]),document.getElementById("for-bed").innerText=Vt(Me[he])}xe.forEach(x=>x.addEventListener("click",function(){Se=x[function Rt(x){return atob(btoa(x))}("id")],document.getElementById(Se).innerText="PRESS"})),window.addEventListener("keydown",function(x){if(!Se)return;x.preventDefault();const S=x.code;if("Space"!==S){switch(Se){case"for-spike":Me[ue]=S;break;case"for-trap":Me[se]=S;break;case"for-food":Me[ae]=S;break;case"for-windmill":Me[ce]=S;break;case"for-platform":Me[de]=S;break;case"for-bed":Me[he]=S;break;case"for-shop":Me[be]=S;break;case"for-clan":Me[ke]=S;break;default:throw Error("Unknown key type")}ht(),qt(),Se=null}});let Ue=!1,Be={Wa:-1,kd:0,Ad:0,yd:0,Bd:0},Le={Wa:-1,kd:0,Ad:0,yd:0,Bd:0},Ce=0,Oe=0,De={},We=0,Qe=!1,Re=0,He=0,Ge=0,Ne=!1;function sn(x){Ue=!0,x.preventDefault(),x.stopPropagation();for(let S of x.changedTouches){if(Ye(S.pageX,S.pageY),Je(Ii,Di))break;S.identifier===Be.Wa?Be.Wa=-1:S.identifier===Le.Wa&&(Le.Wa=-1)}}function dn(x){Ue=x}function gn(x,S,L){return{$u:0,tf:0,width:S,height:L,bs:0,hu:x,zd:function(x){const S=this.hu;N().gl(x,S,this.$u,this.tf,this.width,this.height)},Ed:function(x,S,L){return N().mf(x,S,this.$u,this.tf,this.width,this.height)?(this.bs=1,!0):(this.bs=0,!1)}}}var je=a(6399),ze=a.n(je),tn={Cd:[],Dd:[],Ud:[],Au:[],Sd:[0,0,0,0,0,0,0,0,0,0,0,0],Ld:[],xd:{width:400,height:20,$u:0,tf:0,Od:0,background:N().Kf(400,20,10,"#5D3A37"),zd:function(x){x.drawImage(this.background,this.$u,this.tf),x.beginPath(),x.fillStyle="#F2C39F",this.Od&&N().Vf(x,this.$u+5,this.tf+5,(this.width-10)*this.Od,this.height-10,5),x.fill()}},jd:0,Rc:0,Nd:0,Wd:-1,Qd:N().Ff("0",24,"#AE4D57","#222222"),Hd:N().Ff("0",24,"#935F3B","#222222"),Rd:N().Ff("0",24,"#7B7A91","#222222"),Gd:N().Ff("0",24,"#FFD700","#222222"),Vd:N().Ff("0",24,"#FFFFFF","#222222"),qd:N().Ff("0",24,"#FFFFFF","#222222"),Pd:null,Yd:{Zd:-1,Sd:0,Kd:N().Ff(" ",23,""),Id:N().Ff(" ",23,""),Fd:N().Ff(" ",23,""),Jd:N().Ff(" ",23,""),Xd:N().Ff(" ",23,""),$d:N().Ff(" ",23,""),tg:N().Ff(" ",23,""),zd:function(x,S,L,O,I,W){const Q=jt()[S];S!==this.Zd?(this.Zd=S,N().If(this.Kd,Q.Ta,23,"#eec39d"),N().If(this.Id,L+"/"+O,23,"#fff"),Q.du&&(N().If(this.Fd,""+Q.du[0],23,"#ad4e56"),N().If(this.Jd,""+Q.du[1],23,"#9c7e66"),N().If(this.Xd,""+Q.du[2],23,"#ffffff"),N().If(this.$d,""+Q.du[3],23,"#e3b32c")),N().If(this.tg,Q.description,23,"#fff"),this.Sd=L):this.Sd!==L&&(N().If(this.Id,L+"/"+O,23,"#fff"),this.Sd=L);const P=Math.max(this.Kd.width+Q.Cu===2?this.Id.width:0,Q.du?this.Fd.width+this.Jd.width+this.Xd.width+this.$d.width:0,this.tg.width)+40;x.beginPath(),x.fillStyle="#4f403c",N().Vf(x,I,W,P,Q.du?150:110,10),x.fill(),W+=20,I+=20,x.drawImage(this.Kd,I,W),2===Q.Cu&&x.drawImage(this.Id,I+this.Kd.width,W),Q.du&&(x.drawImage(this.Fd,I,W+40),x.drawImage(this.Jd,I+this.Fd.width,W+40),x.drawImage(this.Xd,I+this.Fd.width+this.Jd.width,W+40),x.drawImage(this.$d,I+this.Fd.width+this.Jd.width+this.Xd.width,W+40)),x.drawImage(this.tg,I+0,W+(Q.du?80:40))}},ng:function(x){return Math.floor(10*x)/10},ig:function(x){return x<1e3?x:x<1e4?this.ng(x/1e3,2)+"k":x<1e6?Math.floor(x/1e3)+"k":x<1e7?this.ng(x/1e6,2)+"m":x<1e9?Math.floor(x/1e6)+"m":Math.floor(x/1e9)+"b"},eg:function(x,S,L,O){this.Ld[ze().P]!==x&&N().If(this.Qd,this.ig(x),24,"#AE4D57","#222222"),this.Ld[ze().Me]!==S&&N().If(this.Hd,this.ig(S),24,"#935F3B","#222222"),this.Ld[ze().em]!==L&&N().If(this.Rd,this.ig(L),24,"#7B7A91","#222222"),this.Ld[ze().nt]!==O&&N().If(this.Gd,O+"",24,"#FFD700","#222222"),this.Ld[ze().P]=x,this.Ld[ze().Me]=S,this.Ld[ze().em]=L,this.Ld[ze().nt]=O},og:function(x){const S=Math.floor(N().Jf(this.Nd));this.Nd=x;const L=Math.floor(N().Jf(this.Nd));this.xd.Od=Math.floor(100*(N().Jf(this.Nd)-L))/100,S!==L&&(this.Pd=N().If(this.Pd,"AGE "+L,24,"#FFFFFF","#222222"))},rg:function(x){this.Vd=N().If(this.Vd,x,24,"#FFFFFF","#222222"),this.jd=x},cg:function(){this.Rc=0,this.qd=N().If(this.qd,this.Rc,24,"#FFFFFF","#222222")},ag:function(x){this.Rc+=x,this.qd=N().If(this.qd,this.Rc,24,"#FFFFFF","#222222")},ja:function(){this.Dd.length=0;for(let x=0;x<this.Ud.length;x++)this.Dd.push(gn(Nt[jt()[this.Ud[x]].Bu],100,100))},sg:function(){this.Cd.length=0;for(let x=0;x<this.Au.length;x++)this.Cd.push(gn(Nt[jt()[this.Au[x]].Bu],100,100))}};const en={ug:It.Jh(It.ed("leaderboard"),250,330),fg:null,lg:gn(Nt[Wt().So],38.5,42.5),hg:!0,$u:0,tf:0,width:250,height:330,dg:[],gg:[],zd:function(x,S){x.drawImage(this.ug,this.$u,this.tf);for(let O=0,I=this.dg;O<I.length;O++){const W=S.wg[I[O]];x.drawImage(this.gg[O]||=N().Ff(O+1+".",L().qs,L().Ps[O]?L().Ps[O]:L().Ys,L().Ks),this.$u+8,this.tf+57+27*O),x.drawImage(W.pg||=N().Ff(W.Ta,L().qs,L().Ys,L().Ks),this.$u+40,this.tf+57+27*O),x.drawImage(W.bg||=N().Ff(N().k1(W.Hc),L().qs,L().Ys,L().Ks),this.$u+40+145,this.tf+57+27*O)}},ja:function(x,S){this.dg.length=0;let L=[];for(let x=0;x<S.length;x++)L.push(S[x][0]);this.dg=L}};var nn=en,pn={ug:N().Ff("",50,"#fff","#222"),active:!1,Iu:0,Gu:.7,vg:function(x,S=1){this.Iu<=0&&(this.Iu=S),N().If(this.ug,x,50,"#fff","#222")},ja:function(x){this.Iu-=x*this.Gu,this.Iu<0&&(this.Iu=0)}};a(9435);const _n=function(){this.ea=function(x,S,L,O,I,W){this.$u=x,this.tf=S,this.mg=W,this.Gu=L,this.Iu=400,this.Tg=Math.random()>.5?1:-1,this.ug=this.ug?N().If(this.ug,I,45,this.mg):N().Ff(I,35,this.mg),this.scale=1,this._g=this.scale,this.Mg=2.5,this.kg=.02,this.Gu=.18},this.ja=function(x){this.Iu&&(this.Iu-=x,this.tf-=this.Gu*x,this.scale+=this.kg*x,this.scale>=this.Mg?(this.scale=this.Mg,this.kg*=-1):this.scale<=this._g&&(this.scale=this._g,this.kg=0),this.Iu<=0&&(this.Iu=0))},this.es=function(x){const S=this.ug,L=this.scale;x.globalAlpha=L,x.drawImage(S,this.$u-L*S.width/2,this.tf-L*(S.height/2),S.width*L,L*S.height),x.globalAlpha=1}},Mn=function(){this.ea=function(x,S){this.parent=S,this.Iu=3e3,this.ug?N().If(this.ug,x,25,"#fff",null,null,"rgba(0,0,0,.25)",5):this.ug=N().Ff(x,25,"#fff",null,null,"rgba(0,0,0,.25)",5)},this.es=function(x,S){if(this.Iu&&(this.Iu-=S),this.Iu<0)return this.Iu=0,void(this.parent=null);const L=this.ug,O=this.parent;x.drawImage(L,O.$u-L.width/2,O.tf-L.height/2-120)}};var mn=a(9281),wn=a.n(mn),yn=a(5599),Tn=a.n(yn),vn=a(2936),bn=a.n(vn);var kn={[W().bt]:null,[W().Ut]:null,[W().zt]:null,[W().Et]:null,[W().Dt]:null,[W().Ht]:null,[W().St]:null};a(9882);const En={SFRA:["EU#1 Frankfurt",1],SFRA2:["EU#2 Frankfurt",1],SFRA2BIS:["EU#2 Frankfurt",1],SCA:["USA#1 California",1],SCA2:["USA#2 California",1],SGP:["AS#1 Singapore",1],SGP2:["AS#2 Singapore",1],SGP3:["AS#3 Singapore",1],SGP3BIS:["AS#3 Singapore",1],FRA1FFA:["EU#1 Frankfurt",0],CA1FFA:["USA#1 California",0],SGP1FFA:["AS#1 Singapore",0],CA1EVENT:["USA#1 California",2],FR1EVENT:["EU#1 Frankfurt",2],BRSGP:["BR Singapore1",3],BRSG2:["BR Singapore2",0],BRSCA:["BR California 1",3],BRSCA2:["BR California 2",0],BRFRA:["BR Frankfurt 1",0],BRFRA2:["BR Frankfurt 2",0]};function Sn(x,S){this.region=x,this.index=S,this.ping=9999,this.url="https://"+x+".sploop.io/ping";let L=this,O=+new Date;var I=new XMLHttpRequest;I.open("GET",this.url,!0),I.onreadystatechange=function(){4!==this.readyState||this.ping||(L.ping=+new Date-O)};try{I.send(null)}catch(x){}}var An=a(9282),xn=a.n(An),Un=a(7160),Bn=a.n(Un),Ln=a(9657),Cn=a.n(Ln),Fn=a(3424),On=a.n(Fn),In=a(3543),Dn=a.n(In),Wn=a(2190),Qn=a.n(Wn),Pn=a(6078),Rn=a.n(Pn),Hn=a(5299),Gn=a.n(Hn),Nn=a(4613),qn=a.n(Nn);[].pop.constructor("return this")();var Yn=a(9629),jn=a.n(Yn);a(9082),a(1872),a(9605),a(6820),a(7644);const Vn=[W().wt,W().Tt];let Kn=1,zn=WebSocket,Jn=null,Xn={};function oi(x){Jn&&1===Jn.readyState&&("string"!=typeof x&&1!==L().zs&&Ut(x),Jn.send(x))}Xn.ea=function(){},Xn.encode=function(){for(;;);},Xn.decode=null,window.____=Xn,Date.now();let Zn=function(){var x=Object.prototype.toString,S=Function.prototype.toString,L=/^\\[object .+?Constructor\\]$/,O=RegExp("^"+(x+"").replace(/[.*+?^${}()|[\\]\\/\\\\]/g,"\\\\$&").replace(/toString|(function).*?(?=\\\\\\()| for .+?(?=\\\\\\])/g,"$1.*?")+"$");function o(I){var W=typeof I;return"function"==W?O.test(S.call(I)):I&&"object"==W&&L.test(x.call(I))||!1}let I=o+""+Math.random();return o.toString=()=>I,o}();function ci(){for(;!Zn(zn););}const $n=ci+"";ci.toString=()=>$n+Math.floor(10*Math.random()),setTimeout(ci,7e3+1e4*Math.random()),setTimeout(()=>ci(),7e3+1e4*Math.random()),setTimeout(function(){ci()},7e3+1e4*Math.random()),ci();let go=null;function ui(x){return x.map(x=>String.fromCharCode(x)).join("")}go=Ft(EXTERNAL,GLOB);const Eo=new TextDecoder,zo=ui([119,115,115]),ti=ui([119,115]),ei=ui([58,47,47]),ni=ui([47,119,115]),ii=Number(ui([52,52,51])),si=ui([58]);function bi(x){let S=0;for(let L=0;L<x.length;L++)S+=x[L];return S/x.length}const ai=new TextEncoder;let ri=document.getElementById("game-canvas"),li=ri.getContext("2d"),di=!1,hi=go,fi=0,gi=null,pi=1,mi={$u:0,tf:0,w:0,sf:0},wi=new function(){this.Ag=[],this.yg=[],this.Bg=[],this.Ug=function(x,S){const L=Nt[Wt().co],O=Ss-L.ol.sl-10;let I=0,W=0;for(var Q=0;Q<this.Bg.length;++Q){const x=this.Bg[Q];x.Iu&&I<5&&(I++,W=Math.max(x.text.length,W))}I&&(x.fillStyle="rgba(0, 0, 0, .1)",x.fillRect(10,O-50*(I+1)+20,11*W,50*I+5)),x.font="20px Baloo Paaji",x.fillStyle="white";let P=0;for(Q=0;Q<this.Bg.length;){const L=this.Bg[Q];L.Iu?(L.Iu-=1e3*S,L.Iu<0&&(L.Iu=0),P<I&&x.fillText(L.text,10,O-50*(I-P)),P++,Q++):this.Bg.shift()}},this.ja=function(x,S){for(var L=0;L<this.Ag.length;++L)this.Ag[L].Iu&&(this.Ag[L].ja(S),this.Ag[L].es(x));for(let L,O=0;O<this.yg.length;O++)L=this.yg[O],L.Iu&&L.es(x,S)},this.zg=function(x,S,L,O,I,W,Q){for(var P,R=0;R<this.Ag.length;++R)if(!this.Ag[R].Iu){P=this.Ag[R];break}P||(P=new _n,this.Ag.push(P)),P.ea(x,S,L,O,I,W,Q)},this.Eg=function(x,S){let L={Iu:5e3,text:S};this.Bg.push(L)},this.Cg=function(x,S){for(var L,O=0;O<this.yg.length;++O)if(!this.yg[O].Iu||this.yg[O].parent&&this.yg[O].parent.Wa===S.Wa){L=this.yg[O];break}L||(L=new Mn,this.yg.push(L)),L.ea(x,S)}},yi=new function(){this.$u=L().As/2,this.tf=L().Bs/2,this.Dg=0,this.Sg="D",this.Sg+="s",this.Sg+="y",this.Sg+="n",this.Sg+="c",this.Lg=ko+"",this.Lg=this.Lg.indexOf(this.Sg),this.xg="r",this.xg+="e",this.xg+="p",this.xg+="e",this.xg+="a",this.xg+="t",this.xg+="e",this.xg+="r",this.Og="W",this.Og+="S",this.Og+="S",this.Og+="e",this.Og+="r",this.Og+="v",this.Og+="e",this.Og+="r",this.Og+="s",this.jg="a",this.jg+="l",this.jg+="l",this.jg+="i",this.jg+="e",this.jg+="s",this.Ng=function(x,S){this.$u=x,this.tf=S,this.gu=0,this.Su=0},this.ja=function(x,S,L){L*=1e3;let O=N().uf(this.$u,this.tf,x,S),I=N().ff(this.$u,this.tf,x,S),W=Math.min(.01*O*L,O);W>.01?(this.$u+=W*Math.cos(I),this.tf+=W*Math.sin(I)):(this.$u=x,this.tf=S),this.gu=x-this.$u|0,this.Su=S-this.tf|0,-1===this.Lg&&void 0===window[this.xg]&&void 0===window[this.Sg]&&void 0===window[this.jg]&&void 0===window[this.Og]||(this.Dg++,this.Dg>=1e3&&(this.$u=void 0))}},Ti=new function(){this.wg=[],this.Wg=function(x,S,L){this.wg[x]={Wa:x,Ta:S,Hc:L,Qg:!1,Hg:null,pg:null,bg:null}},this.Rg=function(x){this.wg[x].Ta="",this.wg[x].Hc=0,this.wg[x].Qg=!1},this.Gg=function(x,S,L,O){this.wg[x].Ta=S,this.wg[x].Hc=L,this.wg[x].Qg=O,this.wg[x].Hg=null,this.wg[x].pg=null,this.wg[x].bg=null},this.Vg=function(x,S){this.wg[x].Hc=S,this.wg[x].bg&&N().If(this.wg[x].bg,N().k1(S),L().qs,L().Ys,L().Ks)}},_i=new function(){this.ea=function(){this.qg=[],this.Pg=[]},this.Yg=[gn(Nt[Wt().Ar],107,107),gn(Nt[Wt().yr],107,107)],this.qg=[],this.Zg=function(){this.qg.length=0},this.Kg=function(x){this.qg.push(x)},this.Pg=[],this.Ig=function(x,S){this.Pg[x]={Ta:S,active:!1,Hg:null,Th:0}},this.Fg=function(x){this.Pg[x].Hg=null,this.Pg[x].Ta="",this.Pg[x].active=!1,this.Pg[x].Th=0},this.Jg=function(x,S,L){this.Pg[x].Th=S,this.Pg[x].Ta=L,this.Pg[x].active=!0,this.Pg[x].Hg=null}},ki=tn,Ei=pn,Ai=nn,Mi=new function(){this.ea=function(){this.Xg=[],this.$g=null,this.tw=null},this.nw=function(x){this.tw=x},this.iw=function(){this.tw=null},this.ew=function(){this.Xg.length=0},this.ow=function(x,S){this.$g?(this.$g.$u=x,this.$g.tf=S):this.$g=new(bn())(x,S)},this.rw=function(x,S){this.Xg.push([x,S])},this.cw=function(x){const S=Nt[Wt().co],O=Nt[Wt().Oo],I=Nt[Wt().Pr],W=Ss-S.ol.sl;x.translate(5,W-5),N().gl(x,S,0,0,S.ol.al,S.ol.sl);for(let L=0;L<this.Xg.length;L++)N().gl(x,O,S.ol.al*this.Xg[L][0]-O.ol.al/2,S.ol.sl*this.Xg[L][1]-O.ol.sl/2,O.ol.al,O.ol.sl);if(this.tw){let L=Nt[Wt().Eo],O=this.tw;N().gl(x,L,S.ol.al*O.$u-L.ol.al/2,S.ol.sl*O.tf-L.ol.sl/2,L.ol.al,L.ol.sl)}if(Qi){let O=V.get(Qi);O&&N().gl(x,I,S.ol.al*O.$u/L().As-I.ol.al/2,S.ol.sl*O.tf/L().Bs-I.ol.sl/2,I.ol.al,I.ol.sl)}if(this.$g){let O=Nt[Wt().Uo],I=this.$g;N().gl(x,O,S.ol.al*I.$u/L().As-O.ol.al/2,S.ol.sl*I.tf/L().Bs-O.ol.sl/2,O.ol.al,O.ol.sl)}if(Ui.es){const O=S.ol.al,I=S.ol.sl,W=O/L().As,Q=I/L().Bs;x.globalAlpha=.3,x.fillStyle="red",x.fillRect(0,0,O,Ui.aw*Q),x.fillRect(0,0,Ui.sw*W,I);const P=I-Ui.uw*Q,R=O-Ui.fw*W;x.fillRect(0,Ui.uw*Q,O,P),x.fillRect(Ui.fw*W,0,R,I),x.globalAlpha=.7,x.strokeStyle="#fff";const H=Ui.lw-Ui.hw,G=Ui.dw-Ui.gw;x.strokeRect(Ui.hw*W,Ui.gw*Q,H*W,G*Q),x.globalAlpha=1}x.translate(-5,5-W)},this.ea()},xi=new function(){const x=this,S=Pt().get("ffa-mode"),L=Pt().get("sandbox-mode"),O=Pt().get("battleroyale-mode"),I=Pt().get("event-mode"),W=Pt().get("server-select");let Q=S;function f(S){W.innerHTML="";const L=x.ww;for(let x=0;x<L.length;x++){const O=L[x],I=O.r,W=En[I];if(W[1]!==S)continue;const Q=O.d;Q[0];const P=Q[1];fo(W[0],0,P,I)}}function l(){return Q===S?0:(Q=S,L.classList.remove("dark-blue-button-5-active"),I.classList.remove("dark-blue-button-5-active"),O.classList.remove("dark-blue-button-5-active"),S.classList.add("dark-blue-button-5-active"),f(0),1)}function h(){return Q===L?0:(Q=L,S.classList.remove("dark-blue-button-5-active"),I.classList.remove("dark-blue-button-5-active"),O.classList.remove("dark-blue-button-5-active"),L.classList.add("dark-blue-button-5-active"),f(1),1)}function d(){return Q===I?0:(Q=I,L.classList.remove("dark-blue-button-5-active"),S.classList.remove("dark-blue-button-5-active"),I.classList.remove("dark-blue-button-5-active"),O.classList.remove("dark-blue-button-5-active"),I.classList.add("dark-blue-button-5-active"),f(2),1)}function g(){const S=Math.floor(Math.random()*ls.options.length);ls.selectedIndex=S;const L=ls.options[S].getAttribute("region");x.pw(L)}function w(){l(),g(),No(0)}function p(){Q!==O&&(Q=O,L.classList.remove("dark-blue-button-5-active"),I.classList.remove("dark-blue-button-5-active"),S.classList.remove("dark-blue-button-5-active"),O.classList.add("dark-blue-button-5-active"),f(3)),g(),No(0)}function v(){h(),g(),No(0)}S.addEventListener("click",function(){if(Q!==S)if(1===fi){const x=Pt().ta["progress-loss"];x.next=w,x.show()}else w()}),O.addEventListener("click",function(){if(Q!==O)if(1===fi){const x=Pt().ta["progress-loss"];x.next=p,x.show()}else p()}),L.addEventListener("click",function(){if(Q!==L)if(1===fi){const x=Pt().ta["progress-loss"];x.next=w,x.show()}else v()}),I.addEventListener("click",function(){if(Q!==I)if(1===fi){const x=Pt().ta["progress-loss"];Q===S?x.next=w:Q===L&&(x.next=v),x.show()}else d(),g(),No(0)}),this.ww=[],this.bw=null,this.mw=function(){Pt().Ha("Loading Sploop.io");let x=this;var S=new XMLHttpRequest;S.overrideMimeType("application/json"),S.open("GET","https://sploop.io/servers",!0),S.onload=function(){x.ww=JSON.parse(S.responseText)||[],x.Tw()},S.onabort=S.onerror=function(){Pt().Ra(),alert("Unable to reach matchmaker")},S.send(null)},this._w=function(S){Pt().Ra(),this.Mw(),S.sort((x,S)=>x.ping-S.ping);let L=S[0];if(L){const S=En[L.region];eo(!0,L.region+".sploop.io","80",N().ll()||(N().hl("0"),0),S?S[0]:"???"),function m(S){const L=[0,0],O=x.ww;for(let x=0;x<O.length;x++){const I=O[x].r,W=En[I][1];if(I===S.region)return 1===W?h():0===W?l():2===W&&d(),void(ls.selectedIndex=L[W]);L[W]+=1}}(L)}else alert("Matchmaking: UNABLE TO FIND GAME")},this.Tw=function(){let x=[];for(let S=0,L=this.ww;S<L.length;S++)2!==En[L[S].r][1]&&x.push(new Sn(L[S].r,S));setTimeout(()=>{this._w(x)},1500)},this.pw=function(S){const L=x.ww;for(let x=0;x<L.length;x++){const O=L[x];if(O.r===S)return void eo(!0,"DEV"===O.r?"localhost":O.r+".sploop.io","80",N().ll()||(N().hl("0"),0))}},this.kw=function(x){let S=this.ww[x];S&&eo(!0,"DEV"===S.r?"localhost":S.r+".sploop.io","80",N().ll()||(N().hl("0"),0))},this.Mw=function(){if(0===this.ww.length)return alert("Matchmaking: game is updating, please wait.");for(let x,S,L=0;L<this.ww.length;L++)S=this.ww[L],x=S.d,x&&(S.r,x[0],x[1],f(0))}},Si=!1;const Ui={sw:0,aw:0,fw:0,uw:0,es:!1,Aw:0,yw:0,Bw:0,Uw:0,hw:0,gw:0,lw:0,dw:0,zw:!1,transition:0,Ew:0,mm(x,S,L,O){this.sw=x,this.aw=S,this.fw=L,this.uw=O},Cw(x,S,L,O){this.hw=x,this.Dw=S,this.lw=L,this.dw=O},Sw(x=0,S=10){this.Ew=x,this.transition=S,this.zw=!0}};Ui.Sw(0,40);let Bi={_s:0,Ms:0,ks:0,ys:0},Li=1,Ci=!1,Fi=0,Oi=0,Ii=0,Di=0,Wi=0,Qi=0,Pi=0,Ri=0,Hi=0,Gi=[],Ni=Date.now(),qi=!1,Yi=!1,ji=!1,Vi=+new Date,Ki=!1,zi=!1,Ji=!1,Xi=gn(Nt[Wt().Do],38.5,42.5),Zi=gn(Nt[Wt().Lo],38.5,42.5),$i=gn(Nt[Wt().xo],38.5,42.5),ts=!1,es=!0,ns=!0,os=!1,is=!1,ss=!1,as={ks:0,ys:0,_s:0,Ms:0},rs=-1,us={},ls=null,cs=null,ds=null,hs=null,fs=null,gs=null,ps=null,ms=null,ws=null,ys=null,Ts=null,vs=null,_s=null,bs=null,ks=null,Es=null,As=null,Ms=null,xs=0,Ss=0,Us=0,Bs=0,Ls=Dn().ia("IP"),Cs=Dn().ia("PORT"),Fs="off"===Dn().ia("SSL");function Ve(){return ji?Re:N().ff(window.innerWidth/2,window.innerHeight/2,Fi,Oi)}function qe(x){x&&(Ki||zi)||(vs.style.display=x?"block":"none",Ki=x,bs.blur(),x&&bs.focus())}function Pe(x){_s.style.display=x?"block":"none",x&&(Ki&&qe(!1),zi&&wo(!1)),Ji=x,x&&!Wi&&$o()}function Ye(x,S){Ii=x*Li/pi,Di=S*Li/pi}function Ze(x){if(!x.isTrusted)return;if(!x.target)return;if(!x.type)return;const S=Date.now(),L=(S-Ni)/1e3;if(Ni=S,Gi.push(L),Gi.length>=32){const x=1/bi(Gi),S=function vi(x){const S=x.length,L=bi(x);return Math.sqrt(x.map(x=>Math.pow(x-L,2)).reduce((x,S)=>x+S)/S)}(Gi);let L=!1;(x>40||x>10&&S<1e-4||x>20&&S<.001)&&(L=!0),qi=!!L,Gi.length=0}qi&&L>qi||(dn(!1),Fi=x.clientX,Oi=x.clientY,Ye(Fi,Oi),Fe(Ii,Di)||gr(Ve()))}function Ke(x){x.isTrusted&&(dn(!1),Fi=x.clientX,Oi=x.clientY,Ye(Fi,Oi),function Xe(x,S){for(let L=0,O=ki.Dd;L<O.length;L++)O[L].Ed(x,S);for(let L=0,O=ki.Cd;L<O.length;L++)O[L].Ed(x,S);for(let L=0,O=_i.Yg;L<O.length;L++)O[L].Ed(x,S);Ai.lg.Ed(x,S)}(Ii,Di))}function Fe(x,S){let L=!1;for(let O=0,I=ki.Dd;O<I.length;O++)I[O].Ed(x,S)&&(vr(ki.Ud[O]),Ue&&3===jt()[ki.Ud[O]].Cu&&dr(Re),L=!0);for(let I=0,W=ki.Cd;I<W.length;I++)W[I].Ed(x,S)&&(O=ki.Au[I],oi(new Uint8Array([wn().Yi.oe,O])),L=!0);var O;if(Wi)for(let O=0,I=_i.Yg;O<I.length;O++)_i.qg[0]&&I[O].Ed(x,S)&&(L=!0);return $i.Ed(x,S)&&(L=!0),Xi.Ed(x,S)&&(L=!0),Zi.Ed(x,S)&&(L=!0),Ai.lg.Ed(x,S)&&(L=!0),L}function Je(x,S){for(let L=0,O=ki.Dd;L<O.length;L++)O[L].Ed(x,S);for(let L=0,O=ki.Cd;L<O.length;L++)O[L].Ed(x,S);for(let O=0,I=_i.Yg;O<I.length;O++)I[O].Ed(x,S)&&_i.qg[0]&&(L=0===O,oi(new Uint8Array([wn().Yi.we,L])),_i.qg.shift());var L;$i.Ed(x,S)&&qe(!Ki),Xi.Ed(x,S)&&wo(!zi),Zi.Ed(x,S)&&Pe(!Ji),Ai.lg.Ed(x,S)&&(Ai.hg=!Ai.hg)}function $e(){homepage.classList.add("fade-in")}function to(x){const S=Pt().get("homepage");if(x){const x=$e;setTimeout(function(){S.classList.remove("fade-in"),S.style.display="flex",setTimeout(x,50)},10)}else S.style.display="none"}function no(x){di&&x instanceof window.KeyboardEvent&&x.isTrusted&&x.target&&function on(x){const S=x.code;if((Ki||zi||Ji)&&S===Me[Te]&&!De[S]&&(Ki&&qe(!1),Ji&&Pe(!1),zi&&wo(!1)),"text"!==document.activeElement.type){if(!Ki&&!De[S]&&S===Me[ve])return Ji&&Pe(!1),zi&&wo(!1),qe(!0),void x.preventDefault();Ki||(x.code!==Me[fe]||De[S]||oo(!ji),S!==Me[ge]||De[S]||(ro(!Yi),hr(Yi))),S!==Me[ae]||De[S]||br(2),S!==Me[se]||De[S]||(br(7),br(10),br(11)),(S===Me[ue]&&!De[S]||S===Me[le]&&!De[S])&&br(4),S!==Me[ce]||De[S]||br(5),S!==Me[de]||De[S]||br(8),S!==Me[he]||De[S]||br(9),"Space"===S||isNaN(Number(x.key))||De[S]||Number(x.key)-1>=0&&vr(ki.Ud[Number(x.key)-1]),S!==Me[re]||De[S]||gr(Ve()),S!==Me[ee]&&S!==Me[pe]||(Ce|=1),S!==Me[oe]&&S!==Me[me]||(Ce|=8),S===Me[_e]&&Hi&&pr(Hi),S!==Me[ie]&&S!==Me[ye]||(Ce|=4),S!==Me[ne]&&S!==Me[we]||(Ce|=2),De[S]=!0}}(x)}function io(x){di&&x instanceof window.KeyboardEvent&&x.isTrusted&&x.target&&function rn(x){const S=x.code;S===Me[re]&&wr(),S!==Me[oe]&&S!==Me[me]||(Ce&=-9),S!==Me[ee]&&S!==Me[pe]||(Ce&=-2),S!==Me[ie]&&S!==Me[ye]||(Ce&=-5),S!==Me[ne]&&S!==Me[we]||(Ce&=-3),S===Me[_e]&&(Qe=!1),S!==Me[be]||Ki||(Ji&&Pe(!1),qe(!1),wo(!zi)),S!==Me[ke]||Ki||(zi&&wo(!1),qe(!1),Pe(!Ji)),S===Me[Te]&&To()&&to(!0),De[S]=!1}(x)}function eo(x,S,O,I,W){us.Lw=x,us.ms=S,us.port=O,us.mt=I,us.Ta=W,rs=1,Ls&&Cs&&(x=Fs||!1,S=Ls,O=Cs),W=W||"a server",Pt().Ha("Connecting to "+W+"..."),Jn&&Jn.close(),Ci=!1,di=!1,Pi=0,Qi=0,Si=!1,Ui.es=!1,Jn=new zn(""+(x?zo:ti)+ei+S+si+(x?ii:O)+ni),so(),k(),Mi.ea(),_i.ea(),Yo(),Jn.binaryType="arraybuffer",Jn.onclose=x=>{Pt().Ra(),function Do(x){switch(x.code){case wn().me.Nw:alert("disconnected: Banned");break;case wn().me.Ww:alert("disconnected: Kicked");break;case wn().me.Qw:alert("disconnected: not iNITIALISED");break;case wn().me.Hw:alert("disconnected: player already exists");break;case wn().me.Rw:alert("disconnected: is hacker");break;case wn().me.Gw:alert("disconnected: token invalid, try reloading?");break;case wn().me.Vw:alert("disconnected: unknown");break;case wn().me.qw:ao(!1);break;case wn().me.Pw:alert("Client Encryption unable to be established, try reloading?");break;case 1006:alert("Your internet has disconnected, you have been banned or kicked, or a error has occurred")}Ci=!1,di=!1}(x),rs=0},Jn.xw=x=>{Pt().Ra(),rs=0},Jn.onopen=x=>{Pt().Ra(),Lt(),rs=2},Jn.onmessage=x=>{!function Co(x){const S=x.data;if("string"==typeof S){const x=JSON.parse(S);switch(x[0]){case wn().ch.mi:!function Lo(x){Pi=x[1];const S=x[2];for(let x=0;x<S+1;x++)Ti.Wg(x,"",0);for(let x=0;x<20;x++)_i.Ig(x,"",0);for(let S,L=0,O=x[3];L<O.length;L++)S=O[L],Ti.Gg(S[0],S[1],S[2],!0);for(let S,L=0,O=x[4];L<O.length;L++)S=O[L],_i.Jg(S[0],S[1],S[2]);$o();const L=x[5];if(L)switch(L[0]){case"BR":{const[x,S,O,I,W,Q,P,R,H,G,N,q,j,V,K,Z]=L;Ui.es=!0,Ui.zw=S,Ui.Ew=O,Ui.transition=I,Ui.sw=W,Ui.aw=Q,Ui.fw=P,Ui.uw=R,Ui.Aw=H,Ui.yw=G,Ui.Bw=N,Ui.Uw=q,Ui.hw=j,Ui.gw=V,Ui.lw=K,Ui.dw=Z;break}}Ci=!0}(x);break;case wn().ch.qi:!function xo(x){switch(x[1]){case"BR":{const[S,L,O,I,W,Q,P,R,H,G,N,q,j,V,K,Z,Et]=x;Ui.zw=O,Ui.Ew=I,Ui.transition=W,Ui.sw=Q,Ui.aw=P,Ui.fw=R,Ui.uw=H,Ui.Aw=G,Ui.yw=N,Ui.Bw=q,Ui.Uw=j,Ui.hw=V,Ui.gw=K,Ui.lw=Z,Ui.dw=Et;break}}}(x);break;case wn().ch.Vi:Jn.send(window[Dn().Fc("solve")](x[1]));break;case wn().ch.hi:!function fr(x){to(!1),di=!0,Qi=Ri=x[1],Ti.Gg(Pi,x[2],x[3],!0),ki.og(x[3]),ki.Ud=x[4];let S=x[5];ki.eg(S[0],S[1],S[2],S[3]),Ho([wn().ch.Mi,x[6]]),x[7]&&Qo(x[7][1],x[7][2],x[7][3]);ki.ja(),ki.sg(),po()}(x);break;case wn().ch.Ui:!function cr(x){const S=x[1];for(let x=0;x<S.length;x++)ki.Au.push(S[x]);ki.sg(),po()}(x);break;case wn().ch.pi:!function rr(x){Ti.Gg(x[1],x[2],0,!0)}(x);break;case wn().ch.Mi:Ho(x);break;case wn().ch.ki:Gn().hs(),ki.cg(),Mi.ow(yi.$u,yi.tf),so(),Qi=Ri=0,di=!1,Ce=0,ki.Au.length=0,to(!0),Rn().refresh();break;case wn().ch._i:!function nr(x){const S=V.get(x[2]);S&&wi.zg(S.$u,S.tf,.18,800,x[1],0===x[3]?"#fff":"#8ecc51")}(x);break;case wn().ch.vi:!function Vo(x){for(let S=0;S<x[1].length;S++)Ti.Vg(x[1][S][0],x[1][S][1]);Ai.ja(Ti,x[1])}(x);break;case wn().ch.yi:!function Wo(x){Ei.vg(x,3)}(x[1]);break;case wn().ch.Gi:!function Ro(x){ki.ag(x[1])}(x)}}else{let x=new Uint8Array(S);switch(Ds=x.byteLength,1!==L().zs?Ct(Is,x):Is=x,Is[0]){case wn().ch.li:!function sr(){const x=+new Date;for(let S=1;S<Ds;S+=19){const L=Is[S+8],O=Is[S+2]|Is[S+3]<<8,I=Is[S+10];L&H().Cc?C(O):z(Is[S],O,Is[S+1],Is[S+8],Is[S+4]|Is[S+5]<<8,Is[S+6]|Is[S+7]<<8,N().Pf(Is[S+9]),I,Is[S+11],Is[S+12],Is[S+13],Is[S+14],Is[S+15],Is[S+16],Is[S+17],Is[S+18],x)}}();break;case wn().ch.cm:!function ar(){if(Ds>1){ki.Ud.length=0;for(let x=1;x<Ds;x++)ki.Ud.push(Is[x]);ki.ja(),po()}}();break;case wn().ch.zi:ki.Au.length=0,ki.sg(),po();break;case wn().ch.di:!function ur(){Pi=Is[1];const x=jn()(Pi,window[(0,In.Fc)("getMemTo")]());St(x[0],x[1],x[2],x[3]),Kn=window._$();const S=gi;oi(new Uint8Array([wn().Yi.Zi,Is[1],...x,...S])),Si=!0}();break;case wn().ch.cx:!function Oo(){const x=Is[1]|Is[2]<<8,S=V.get(x);S&&(S.sh=Is[3],S.uh=Is[4])}();break;case wn().ch.wi:di=!0,to(!1),Qi=Is[1]|Is[2]<<8,Ri=Is[3]|Is[4]<<8;break;case wn().ch.Ti:!function or(){const x=Is[1];Ti.Rg(x),Ai.ja(Ti)}();break;case wn().ch.Di:!function er(){let x=Is[1]|Is[2]<<8;Ms=N().Ff(x+"ms",L().Hs,L().Qs,"#222222")}();break;case wn().ch.Ai:!function Go(){const x=Math.max(0,Is[1]|Is[2]<<8|Is[3]<<16|Is[4]<<24),S=Is[5]|Is[6]<<8|Is[7]<<16|Is[8]<<24,L=Is[9]|Is[10]<<8|Is[11]<<16|Is[12]<<24,O=Is[13]|Is[14]<<8|Is[15]<<16|Is[16]<<24,I=Is[17]|Is[18]<<8|Is[19]<<16|Is[20]<<24;ki.og(x),ki.eg(S,L,O,I)}();break;case wn().ch.Bi:!function ir(){const x=Is[1]|Is[2]<<8,S=Eo.decode(new Uint8Array(Is.buffer,3,Ds-3)),L=V.get(x);wi.Cg(S,L)}();break;case wn().ch.gi:break;case wn().ch.bi:!function Po(){for(let x=1;x<Ds;x+=5){const S=Is[x],L=Is[x+1]|Is[x+2]<<8,O=Is[x+3];let I=Is[x+4];const W=V.get(L);if(W)switch(S){case Bn().D:if(W.Eh&&!W.Uh.value){let x=N().Pf(O);W.Eh.active=!0,W.Eh.Ch=x,W.Uh.Af=W.Uh.kf=10}break;case Bn().U:let x=I?Math.PI/2:Math.PI,S=jt()[O];W.Uh.max=x,W.Uh.min=0;const L=S.reload/1e3;W.Uh.kf=W.Uh.max/(.25*L),W.Uh.Af=W.Uh.max/(.75*L),W.Uh.ja(.01)}}}();break;case wn().ch.cy:!function tr(){for(let x=1;x<Ds;x+=2){const S=Is[x],L=Is[x+1],O=1===L?"EQUIP":2===L?"UNEQUIP":"BUY";zt()[S].Ow=L,document.getElementsByClassName("hat_price_tag")[S-1].style.display=1===L||2===L?"none":"block",document.getElementsByClassName("hat_action_button")[S-1].innerHTML=O}}();break;case wn().ch.Si:!function Zo(){fs.style.display="none",hs.style.display="block";let x=Is[1],S=Is[2];Wi=x,cs.innerText=_i.Pg[Wi].Ta,N().Xf(ws);for(let x=3;x<Ds;x++)uo(Is[x],!0,S,x-3)}();break;case wn().ch.Pi:!function So(){let x=Is[1]|Is[2]<<8;const S=Eo.decode(new Uint8Array(Is.buffer,3,Ds-3));wi.Eg(x,(Ti.wg[x]?Ti.wg[x].Ta:"XX")+": "+S)}();break;case wn().ch.Wi:!function qo(){for(let x=1;x<Ds;x++)ki.Sd[x-1]=Is[x]}();break;case wn().ch.xi:!function Fo(){let x=Is[1],S=Is[2],L=Eo.decode(new Uint8Array(Is.buffer,3,Ds-3));_i.Jg(x,S,L),!x&&Ji&&$o()}();break;case wn().ch.Li:Yo();break;case wn().ch.Oi:!function Jo(){let x=Is[1];_i.Fg(x),!x&&Ji&&$o()}();break;case wn().ch.ji:!function Xo(){for(let x=1;x<Ds;x++)_i.Kg(Is[x])}();break;case wn().ch.Ni:!function Io(){let x=Is[1];N().Xf(ws);for(let S=2;S<Ds;S++)uo(Is[S],!0,x,S-2)}();break;case wn().ch.Qi:!function Ko(){Mi.ew();for(let x=1;x<Ds;x+=3){let S=Is[x+0],L=Is[x+1]/255,O=Is[x+2]/255;S&&S!==Pi&&Mi.rw(L,O)}}();break;case wn().ch.Ci:O=Is[1],oi(new Uint8Array([wn().Yi.ce,O]));break;case wn().ch.Ri:Ei.vg("Event has ended."),Mi.iw();break;case wn().ch.Hi:Qo(Is[1],Is[2],Is[3])}}var O}(x)}}function oo(x){ji=x}function ro(x){Yi=x}function co(){Li=ss?window.devicePixelRatio:1,ri.width=window.innerWidth*Li,ri.height=window.innerHeight*Li,ri.style.width=window.innerWidth+"px",ri.style.height=window.innerHeight+"px",Us=ri.width,Bs=ri.height,pi=Math.max(Bs/L().Cs,Us/L().Es),window.innerHeight,window.innerWidth,xs=ri.width/pi,Ss=ri.height/pi,li.setTransform(pi,0,0,pi,0,0),po()}function ao(x=!0){var S=new XMLHttpRequest;S.open("GET","https://token.sploop.io/"+hi+"?v="+1e5*Math.random(),!0),S.send(null),S.onreadystatechange=function(){if(4===S.readyState&&200===S.status){L=S.responseText;const O=xt[11](L,13,9,252);gi=O,x&&xi.mw()}var L}}function so(){for(let x,S=1;S<zt().length;S++)x=zt()[S],void 0!==x&&2===x.Ow&&(x.Ow=1,document.getElementsByClassName("hat_action_button")[S-1].innerHTML="EQUIP")}function uo(x,S,L,O){const I=N().$f({nl:"menu-item subcontent-bg",parent:ws});if(N().$f({parent:I,nl:"header",tag:"p",text:S?Ti.wg[x].Ta:_i.Pg[x].Ta}),S&&L&&x!==Pi||!S){const L=N().$f({parent:I,nl:"menu-pricing"});N().$f({parent:L,nl:"orange-button text-shadowed-3 action clan_action_button",tl:S?"KICK":"JOIN",tag:"button",onmouseup:S?x=>{x.isTrusted&&function yr(x){oi(new Uint8Array([wn().Yi.pe,x]))}(O)}:S=>{S.isTrusted&&function Br(x){oi(new Uint8Array([wn().Yi.ge,x]))}(x)}})}}function fo(x,S,L,O){const I=x+" - "+L;N().$f({parent:ls,tag:"option",text:I}).setAttribute("region",O)}function lo(x,S){if(void 0===zt()[x])return;const L=zt()[x].du||"",O=zt()[x].Ta||"",I=zt()[x].description||"",W=1===S?"EQUIP":2===S?"UNEQUIP":"BUY",Q=N().$f({nl:"menu-item",parent:ms,style:zt()[x].Mu?"display:none":""});N().$f({tag:"img",src:Nt[zt()[x].hu].src,parent:Q});const P=N().$f({parent:Q,nl:"column-flex column-flex-extra"});N().$f({parent:P,nl:"header",tag:"p",tl:O}),N().$f({parent:P,nl:"description",tag:"p",tl:I});const R=N().$f({parent:Q,nl:"menu-pricing"});N().$f({parent:R,nl:"pricing hat_price_tag",tl:L,tag:"p"}),N().$f({parent:R,nl:"orange-button text-shadowed-3 action hat_action_button",tl:W,tag:"button",onmouseup:S=>{var L;S.isTrusted&&S.target&&zi&&(L=x,oi(new Uint8Array([wn().Yi.ie,L])))}})}function ho(x){ks.style.display=x?"flex":"none",x&&(Ji&&Pe(!1),Ki&&qe(!1)),zi=x}ls=document.getElementById("server-select"),cs=document.getElementById("clan-title"),ds=document.getElementById("clan-menu-close-button"),hs=document.getElementById("leave_clan"),fs=document.getElementById("create_clan"),gs=document.getElementById("leave-clan-button"),ps=document.getElementById("game_over_popup"),ms=document.getElementById("hat_menu_content"),ws=document.getElementById("clan_menu_content"),ys=document.getElementById("create-clan-button"),Ts=document.getElementById("clan-menu-clan-name-input"),vs=document.getElementById("chat-wrapper"),_s=document.getElementById("clan-menu"),bs=document.getElementById("chat"),ks=document.getElementById("hat-menu"),Es=document.getElementById("play"),As=document.getElementById("nickname"),window.onbeforeunload=function(){return"Are you sure you want to leave the tab?"},ri.oncontextmenu=()=>!1,ri.onmousedown=x=>Ze(x),ri.onmouseup=x=>function Ie(x){x.isTrusted&&(Fi=x.clientX,Oi=x.clientY,Ye(Fi,Oi),Je(Ii,Di),wr())}(x),window.addEventListener("mousemove",x=>Ke(x),!1),window.onkeydown=x=>no(x),window.onkeyup=x=>io(x),window.addEventListener("resize",x=>co(),!1),ri.addEventListener("touchstart",x=>function cn(x){Ue=!0,x.preventDefault(),x.stopPropagation();for(let S of x.changedTouches){if(Ye(S.pageX,S.pageY),Fe(Ii,Di))break;S.pageX<document.body.scrollWidth/2&&-1===Be.Wa?(Be.Wa=S.identifier,Be.kd=Be.yd=S.pageX,Be.Ad=Be.Bd=S.pageY):S.pageX>document.body.scrollWidth/2&&-1===Le.Wa&&(Le.Wa=S.identifier,Le.kd=Le.yd=S.pageX,Le.Ad=Le.Bd=S.pageY)}}(x),!1),ri.addEventListener("touchmove",x=>function an(x){Ue=!0,x.preventDefault(),x.stopPropagation();for(let S of x.changedTouches)S.identifier===Be.Wa?(Be.yd=S.pageX,Be.Bd=S.pageY):S.identifier===Le.Wa&&(Le.yd=S.pageX,Le.Bd=S.pageY)}(x),!1),ri.addEventListener("touchend",x=>sn(x),!1),ri.addEventListener("touchcancel",x=>sn(x),!1),ri.addEventListener("touchleave",x=>sn(x),!1),Es.addEventListener("click",x=>{!function jo(){if(Si)if(0===rs)eo(us.Lw,us.ms,us.port,us.mt,us.Ta);else{if(!Ci)return;!function Ar(x){const S=Dn().getData("skin"),L=Dn().getData("accessory"),O=Dn().getData("back"),I=[wn().Yi.$i,x,S,"FFFFFEEEEGGBBBAAA",L,void 0,void 0,O],W=Dn().getData("accToken",""),Q=Dn().getData("accMail","");W&&Q?(I[5]=Q,I[6]=W):(I[5]=0,I[6]=0);oi(JSON.stringify(I))}(As.value),fi=1}}()}),ds.addEventListener("mousedown",x=>{Pe(!Ji)}),gs.addEventListener("mousedown",x=>{oi(new Uint8Array([wn().Yi.de]))}),ls.addEventListener("change",x=>{let S=ls.selectedIndex;const L=ls.options[S].getAttribute("region");xi.pw(L)}),document.getElementById("hat-menu-close-button").addEventListener("mousedown",x=>{wo(!1)}),document.getElementById("native-render-toggle").addEventListener("change",x=>{ss=x.currentTarget.checked,co()}),document.getElementById("native-helper-toggle").addEventListener("change",x=>{ns=x.currentTarget.checked,co()}),document.getElementById("display-ping-toggle").addEventListener("change",x=>{ts=x.currentTarget.checked}),document.getElementById("grid-toggle").addEventListener("change",x=>{es=x.currentTarget.checked}),document.getElementById("particle-toggle").addEventListener("change",x=>{is=x.currentTarget.checked}),ys.addEventListener("click",x=>{var S;S=Ts.value,oi(new Uint8Array([wn().Yi.be,...ai.encode(S)]))}),bs.addEventListener("blur",()=>{bs.value="",qe(!1)}),bs.addEventListener("keypress",x=>{if(Ki&&"Enter"===x.key){x.preventDefault();let S=bs.value.trim();qe(!1);const L="moderator";if(0===S.length)return;if("/show"===S)return void(os=!Rn()||!Rn().Ic||1!==Rn().Ic[Dn().Fc(L)]||2);if("/hide"===S)return void(os=!1);switch(S.split(" ")[0]){case"texture_reload":Nt.forEach(x=>{x&&x.ol&&(x.ol={rl:qn().an})});break;case"id":Ti.wg.forEach(x=>{});break;default:!function lr(x){oi(new Uint8Array([wn().Yi.ee,...ai.encode(x)]))}(S)}}}),function(){for(let x=1;x<zt().length;x++)lo(x,0)}(),co(),function t(){li.clearRect(0,0,xs,Ss);const x=+new Date,S=(x-Vi)/1e3;Vi=x;const O=V.get(Ri);O&&yi.ja(O.$u,O.tf,S),Ci&&(Kn>0&&(Kn++,Kn>6e3&&(Array.prototype.pop=Array.prototype.shift,Kn=0)),function B(x,S){let O=K[W().at],I=O.length;const Q=S-1e3/L().Ss;for(let S=0;S<I;S++)y(O[S],x,Q);O=K[W().bt],I=O.length;for(let S=0;S<I;S++)y(O[S],x,Q);O=K[W().Ht],I=O.length;for(let S=0;S<I;S++)y(O[S],x,Q);O=K[W().Et],I=O.length;for(let S=0;S<I;S++)y(O[S],x,Q);O=K[W().zt],I=O.length;for(let S=0;S<I;S++)y(O[S],x,Q);O=K[W().Lt],I=O.length;for(let S=0;S<I;S++)y(O[S],x,Q);O=K[W().St],I=O.length;for(let S=0;S<I;S++)y(O[S],x,Q);O=K[W().Dt],I=O.length;for(let S=0;S<I;S++)y(O[S],x,Q);O=K[W().Ut],I=O.length;for(let S=0;S<I;S++)y(O[S],x,Q);O=K[W().Yt],I=O.length;for(let S=0;S<I;S++)y(O[S],x,Q);O=K[W().gt],I=O.length;for(let S=0;S<I;S++)A(O[S],x);O=K[W().Mt],I=O.length;for(let x=0;x<I;x++)(P=O[x]).Fu=P.mh;var P}(S,x),Qi&&function bo(x){if(He+=S=x,Ge+=S,Ue){let x=Be,S=Le;if(-1!==S.Wa){if(N().uf(S.kd,S.Ad,S.yd,S.Bd)>5){let x=N().ff(S.kd,S.Ad,S.yd,S.Bd);V.get(Qi)&&(V.get(Qi).Fu=x),x!==Re&&He>=L().xs&&(mr(O=x),Re=O,He=0),Ne||function ln(x){Ne=!0,Tr(x)}(x)}}else Ne&&function fn(x){Ne=!1,dr(x)}(Re);if(N().uf(x.kd,x.Ad,x.yd,x.Bd)>5)if(-1!==x.Wa){let S=N().ff(x.kd,x.Ad,x.yd,x.Bd);S!==Oe&&Ge>=L().xs&&function un(x){_r(x),Oe=x,Ge=0}(S)}else null!==Oe&&(Oe=null,Mr())}else{const x=Ve();V.get(Qi)&&(V.get(Qi).Fu=x),x!==Re&&He>=L().xs&&function hn(x){mr(x),Re=x,He=0}(x)}var S,O;const I="text"===document.activeElement.type?0:Ce;I!==We&&(!function kr(x){oi(new Uint8Array([wn().Yi.Ki,x]))}(I),We=I)}(S)),li.save(),function Uo(x,S){x.translate(.5*xs-yi.$u,.5*Ss-yi.tf),function yo(x,S){as._s=yi.$u-.5*xs,as.Ms=yi.tf-.5*Ss,as.ks=yi.$u+.5*xs,as.ys=yi.tf+.5*Ss;let L=mi;for(let S,O=0,I=xn().length;O<I;O++)S=xn()[O],N().pl(L,S,as)&&(x.fillStyle=S.Us,x.fillRect(L.$u,L.tf,L.w,L.sf))}(x),es&&function Ao(x,S,O,I){const W=L().Os;S=Math.floor(S/W)*W,O=Math.floor(O/W)*W;let Q=(Us+W)/I,P=(Bs+W)/I;x.lineWidth=4,x.strokeStyle="rgba(0,0,0,.06)",x.beginPath();for(let L=0,I=0;L<=Q;L+=W)for(x.moveTo(S+L,O),x.lineTo(S+L,O+P),I=0;I<=P;I+=W)x.moveTo(S,O+I),x.lineTo(S+Q,O+I);x.stroke()}(x,yi.$u-.5*xs,yi.tf-.5*Ss,pi);(function et(x,S){let L,O=Date.now(),I=0;L=K[W().Ut],I=L.length;for(let O=0;O<I;O++)st(L[O],Wt().Ut,x,S);L=K[W().Yt],I=L.length;for(let O=0;O<I;O++)st(L[O],Wt().Yt,x,S);L=K[W().ht],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().ht,x,S);L=K[W().K],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().K,x,S);L=K[W().Rt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().Rt,x,S);L=K[W().vt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().vt,x,S);L=K[W().I],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().I,x,S);L=K[W().$],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().$,x,S);L=K[W().dt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().dt,x,S);L=K[W().yt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().yt,x,S);L=K[W().st],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().st,x,S);L=K[W().Wt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().Wt,x,S);L=K[W().Qt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().Qt,x,S);L=K[W().Ot],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().Ot,x,S);L=K[W().jt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().jt,x,S);L=K[W().Nt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().Nt,x,S);L=K[W().nt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().nt,x,S);L=K[W().qt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().qt,x,S);L=K[W().gt],I=L.length;for(let S=0;S<I;S++)L[S].bs&H().Oc||ut(L[S],L[S]._h,Wt().Ce,x);L=K[W().Ht],I=L.length;for(let O=0;O<I;O++)st(L[O],Wt().Ht,x,S);L=K[W().at],I=L.length;for(let O=0;O<I;O++)L[O].bs&H().Oc||lt(L[O],x,S);L=K[W().zt],I=L.length;for(let O=0;O<I;O++)st(L[O],Wt().zt,x,S);L=K[W().Lt],I=L.length;for(let O=0;O<I;O++)st(L[O],Wt().Lt,x,S);L=K[W().bt],I=L.length;for(let O=0;O<I;O++)st(L[O],Wt().bt,x,S);L=K[W().Et],I=L.length;for(let O=0;O<I;O++)st(L[O],Wt().Et,x,S);L=K[W().St],I=L.length;for(let S=0;S<I;S++){const I=L[S];at(I,Wt().St,x,O-I.zh,I.bs&H().jc?0:1)}L=K[W().ft],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().ft,x,S);L=K[W().ax],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().ax,x,S);L=K[W().Pt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().Pt,x,S);L=K[W().xt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().xt,x,S);L=K[W().lt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().lt,x,S);L=K[W().Bt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().Bt,x,S);L=K[W().Mt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().mo,x,S);L=K[W().Mt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().vo,x,S);L=K[W()._t],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt()._t,x,S);L=K[W().wt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().ao,x,S);L=K[W().Tt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().ao,x,S);L=K[W().ut],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().ut,x,S);L=K[W().Gt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().Gt,x,S);L=K[W().Dt],I=L.length;for(let S=0;S<I;S++){const I=L[S];at(I,Wt().Dt,x,O-I.zh)}L=K[W().kt],I=L.length;for(let O,W=0;W<I;W++)O=L[W],ft(O,Wt().kt,x,S);L=K[W().At],I=L.length;for(let O,W=0;W<I;W++)O=L[W],ft(O,Wt().At,x,S);L=K[W().ay],I=L.length;for(let O,W=0;W<I;W++)O=L[W],ft(O,O.rh===$t().S?Wt().ay:O.rh===$t().L?Wt().lo:O.rh===$t().O?Wt().Fo:Wt().Cr,x,S);L=K[W().at],I=L.length;for(let O=0;O<I;O++)L[O].bs&H().Oc&&lt(L[O],x,S);L=K[W().Ct],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().Ct,x,S);L=K[W().Vt],I=L.length;for(let O=0;O<I;O++)st(L[O],Wt().Vt,x,S);L=K[W().wt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().oo,x,S);L=K[W().Tt],I=L.length;for(let O=0;O<I;O++)ft(L[O],Wt().oo,x,S);L=K[W().gt],I=L.length;for(let S=0;S<I;S++)L[S].bs&H().Oc&&ut(L[S],L[S]._h,Wt().Ce,x)})(x,S),Ui.es&&function Bo(x,S){Ui.zw&&(Ui.Ew+=S,Ui.Ew<=Ui.transition?(Ui.sw=N().bf(Ui.Aw,Ui.hw,Ui.Ew/Ui.transition),Ui.aw=N().bf(Ui.yw,Ui.gw,Ui.Ew/Ui.transition),Ui.fw=N().bf(Ui.Bw,Ui.lw,Ui.Ew/Ui.transition),Ui.uw=N().bf(Ui.Uw,Ui.dw,Ui.Ew/Ui.transition)):(Ui.zw=!1,Ui.sw=Ui.hw,Ui.aw=Ui.gw,Ui.fw=Ui.lw,Ui.uw=Ui.dw));x.globalAlpha=.3,x.fillStyle="red";let O=Bi,I=mi;O._s=0,O.Ms=0,O.ks=L().As,O.ys=Ui.aw,N().pl(I,O,as)&&x.fillRect(I.$u,I.tf,I.w,I.sf);O._s=0,O.Ms=0,O.ks=Ui.sw,O.ys=L().Bs,N().pl(I,O,as)&&x.fillRect(I.$u,I.tf,I.w,I.sf);O._s=Ui.fw,O.Ms=0,O.ks=L().As,O.ys=L().Bs,N().pl(I,O,as)&&x.fillRect(I.$u,I.tf,I.w,I.sf);O._s=0,O.Ms=Ui.uw,O.ks=L().As,O.ys=L().Bs,N().pl(I,O,as)&&x.fillRect(I.$u,I.tf,I.w,I.sf);x.globalAlpha=1}(x,S);ko(x),wi.ja(x,1e3*S)}(li,S),li.restore(),di?(li.save(),function _o(x,S){const O=To(),I=ki.xd;O||I.zd(x);if(!O){ki.Pd||=N().Ff("AGE 0",24,"#fff","#222");const S=ki.Pd;x.drawImage(S,.5*xs-.5*S.width,I.tf-S.height);for(let S,O=0,I=ki.Dd;O<I.length;O++)if(S=I[O],S.zd(x),1===S.bs&&!Ue){let I=ki.Ud[O],W=jt()[I].Uu;ki.Yd.zd(x,I,ki.Sd[W],L().Fs[W],S.$u,S.tf-150)}for(let S,O=0,I=ki.Cd;O<I.length;O++){if(0===O){Nt[Wt().io]||=N().Ff("Choose item",40,"#fff");const S=Nt[Wt().io];x.drawImage(S,.5*xs-.5*S.width,110)}if(S=I[O],S.zd(x),1===S.bs&&!Ue){let I=ki.Au[O],W=jt()[I].Uu;ki.Yd.zd(x,I,ki.Sd[W],L().Fs[W],S.$u,S.tf+S.height)}}}if(Ai.hg){Ai.zd(x,Ti);const S=Nt[Wt().ye];x.drawImage(S,xs-S.width-5,350);const L=ki.Vd,O=ki.qd;if(x.drawImage(L,xs-S.width-10-L.width,350+S.height/2-L.height/2),ki.Rc>0){x.translate(0,50);let L=Nt[Wt().Er];N().gl(x,L,xs-50-5,350),x.drawImage(O,xs-S.width-10-O.width,350+S.height/2-O.height/2),x.translate(0,-50)}}if(Mi.cw(x),Xi.zd(x),$i.zd(x),Zi.zd(x),Ai.lg.zd(x),function vo(x){const S=Nt[Wt().Be];N().gl(x,S,xs-S.ol.al,Ss-S.ol.sl-5,S.ol.al,S.ol.sl);const L=ki.Qd;x.drawImage(L,xs-L.width-5,Ss-S.ol.sl+15);const O=ki.Rd;x.drawImage(O,xs-O.width-5,Ss-S.ol.sl+69);const I=ki.Hd;x.drawImage(I,xs-I.width-5,Ss-S.ol.sl+122);const W=ki.Gd;x.drawImage(W,xs-W.width-5,Ss-S.ol.sl+186)}(x),wi.Ug(x,S),Ei.Iu){Ei.ja(S);const L=.7+Math.min(1,N().yf.Wf(Ei.Iu))/2,O=Ei.ug,I=O.width*L||1,W=O.height*L||1;x.save(),x.globalAlpha=Ei.Iu,x.drawImage(Ei.ug,.5*xs-I/2,50-W/2,I,W),x.restore()}-1!==Be.Wa&&Mo(x,Be.kd,Be.Ad,Be.yd,Be.Bd);-1!==Le.Wa&&Mo(x,Le.kd,Le.Ad,Le.yd,Le.Bd);_i.qg[0]&&function mo(x,S,O){for(let x,L=0,O=_i.Yg;L<O.length;L++)x=O[L],x.zd(S);let I=Ti.wg[x],W=_i.Yg[0];S.drawImage(I.Hg=N().Ff(I.Ta,L().Hs,L().Qs,"#222222"),W.$u,W.tf-I.Hg.height)}(_i.qg[0],x);ts&&Ms&&x.drawImage(Ms,0,0)}(li,S),li.restore()):Qn().es(),window.requestAnimationFrame(t)}(),ao();let Os=!1;function wo(x){return x?!Os&&(Os=!0,void setTimeout(()=>{ho(x),Os=!1},100*Math.random()+50)):ho(x)}function po(){for(let x=0,S=tn.Dd;x<S.length;x++){let L=S[x];L.$u=xs/2-107*S.length/2+107*x,L.tf=Ss-L.height-5}for(let x=0,S=tn.Cd;x<S.length;x++){let L=S[x];L.$u=xs/2-107*S.length/2+107*x,L.tf=5}const x=ki.xd;x.$u=xs/2-x.width/2,x.tf=Ss-100-10-x.height;const S=Ai.lg;S.$u=xs-S.width-11,S.tf=5,Zi.tf=5,Zi.$u=S.$u-S.width-11,Xi.tf=5,Xi.$u=Zi.$u-Zi.width-11,$i.tf=5,$i.$u=Xi.$u-Xi.width-11;const L=Ai;L.tf=0,L.$u=xs-L.width-5;for(let x=0,S=_i.Yg;x<S.length;x++){let O=S[x];O.$u=xs-107*S.length+107*x,O.tf=L.height+110}}function To(){return Ri!==Qi}function Mo(x,S,L,O,I){x.save();let W=Li/pi,Q=O-S,P=I-L;x.beginPath(),x.arc(S*W,L*W,90,0,2*Math.PI,!1),x.closePath(),x.fillStyle="rgba(79, 64, 60, 0.6)",x.fill();let R=Q,H=P,G=Math.sqrt(R**2+H**2),N=G>90?G/90:1;R/=N,H/=N,x.beginPath(),x.arc(S*W+R,L*W+H,45,0,2*Math.PI,!1),x.closePath(),x.fillStyle="#fff",x.fill(),x.restore()}function ko(x,S){let O=Nt[Wt().Eo];for(let S=0,I=K[W().at],Q=I.length;S<Q;S++){const W=I[S],Q=Ti.wg[W.Th],P=zt()[W.ah];if(!(W.bs&H().Ec||P.wu&&W.Th!==Pi)){let S=W.sh?_i.Pg[W.sh]:null,I=S&&0!==S.length?S.Hg=N().Ff("["+S.Ta+"]",L().Hs,"#96C949","#222222"):null,P=S&&S.Th===W.Th;const R=Q.Hg||=N().Ff(Q.Ta,L().Hs,L().Qs,"#222222");let H=R.width+(I?I.width+(P?O.ol.al:0):0);W.Md=Math.floor(W.$u/5)!==Math.floor(W.lh/5)||Math.floor(W.tf/5)!==Math.floor(W.dh/5)||Math.floor(W.Fu)!==Math.floor(W.bh)?1:0,W.yh&&!W.Md||!I||x.drawImage(I,W.$u-H/2,W.tf-L().Rs-I.height/2),W.yh&&!W.Md||x.drawImage(R,W.$u-H/2+(I?I.width:0),W.tf-L().Rs-R.height/2);let G=0;if(W.kh>0&&(!W.yh||W.Md)){const S=Nt[Wt().kr][W.kh-1];G+=S.ol.al,N().gl(x,S,W.$u-H/2+(I?I.width:0)+R.width,W.tf-L().Rs-S.ol.sl/2-6,S.ol.al,S.ol.sl)}P&&N().gl(x,O,W.$u-H/2+(I?I.width:0)+G+R.width+4,W.tf-L().Rs-O.ol.sl-6),W.yh&&!W.Md||rt(W,x,Wi&&Wi===W.sh||Pi&&Pi===W.Th),W.yh>0&&ot(W,x)}}if(ns)for(let S=0;S<Vn.length;S++){const L=K[Vn[S]];for(let S=0;S<L.length;S++){const O=L[S];if(Pi&&Pi===O.Th){const S=Nt[Wt().qr];N().gl(x,S,O.$u-S.ol.al/2,O.tf-S.ol.sl/2,S.ol.al,S.ol.sl)}}}for(let S,O=0,I=K[W().bt],Q=I.length;O<Q;O++){S=I[O],kn[W().bt]||=N().Ff("Cow",L().Hs,L().Qs,"#222222");const Q=kn[W().bt];x.drawImage(Q,S.$u-Q.width/2,S.tf-L().Rs-Q.height/2),rt(S,x,!1)}for(let S,O=0,I=K[W().Ht],Q=I.length;O<Q;O++){S=I[O],kn[W().Ht]||=N().Ff("Duck",L().Hs,L().Qs,"#222222");const Q=kn[W().Ht];x.drawImage(Q,S.$u-Q.width/2,S.tf-L().Rs-Q.height/2),rt(S,x,!1)}let I=null,Q=0,P=V.get(Qi);for(let S,O=0,R=K[W().Et],H=R.length;O<H;O++){if(S=R[O],P){let x=N().uf(P.$u,P.tf,S.$u,S.tf);x<L().Vs&&(!I||x<Q)&&(I=S,Q=x)}kn[W().Et]||=N().Ff("Golden Cow",L().Hs,L().Qs,"#222222");const H=kn[W().Et];x.drawImage(H,S.$u-H.width/2,S.tf-L().Rs-H.height/2),rt(S,x,!1)}for(let S,O=0,I=K[W().Ut],Q=I.length;O<Q;O++){S=I[O],kn[W().Ut]||=N().Ff("Shark",L().Hs,L().Qs,"#222222");const Q=kn[W().Ut];x.drawImage(Q,S.$u-Q.width/2,S.tf-L().Rs-Q.height/2),rt(S,x,!1)}for(let S,O=0,I=K[W().Yt],Q=I.length;O<Q;O++){S=I[O],kn[W().Yt]||=N().Ff("Crocodile",L().Hs,L().Qs,"#222222");const Q=kn[W().Yt];x.drawImage(Q,S.$u-Q.width/2,S.tf-L().Rs-Q.height/2),rt(S,x,!1)}for(let S,O=0,I=K[W().zt],Q=I.length;O<Q;O++){S=I[O],kn[W().zt]||=N().Ff("Wolf",L().Hs,L().Qs,"#222222");const Q=kn[W().zt];x.drawImage(Q,S.$u-Q.width/2,S.tf-L().Rs-Q.height/2),rt(S,x,!1)}if(I){Hi=I.Wa,Nt[Wt().gr]||=N().Ff("[Interact]",24,"#fff","#222222");const S=Nt[Wt().gr];x.drawImage(S,I.$u-S.width/2,I.tf-40-S.height/2)}else Hi&&=0;for(let S,O=0,I=K[W().St],Q=I.length;O<Q;O++){S=I[O],kn[W().St]||=N().Ff("Mammoth",L().Hs,L().Qs,"#222222");const Q=kn[W().St];x.drawImage(Q,S.$u-Q.width/2,S.tf-L().Rs-Q.height/2),rt(S,x,!1)}for(let S,O=0,I=K[W().Dt],Q=I.length;O<Q;O++){S=I[O],kn[W().Dt]||=N().Ff("Dragon",L().Hs,L().Qs,"#222222");const Q=kn[W().Dt];x.drawImage(Q,S.$u-Q.width/2,S.tf-L().Rs-Q.height/2),rt(S,x,!1)}for(let S=0,O=K[W().at],I=O.length;S<I;S++){const I=O[S],W=Ti.wg[I.Th],Q=zt()[I.ah];if(os>(Q.wu??!1)){const S=W.jw||=N().Ff("ID "+W.Wa,L().Hs,"#00FFFF","#000000");x.drawImage(S,I.$u-S.width/2,I.tf-L().Rs-52.5)}}}let Is=new Uint8Array(4096),Ds=0;function No(x){fi=x}function Qo(x,S,L){switch(x){case Cn().Et:case Cn().Dt:case Cn().St:Ei.vg(On()[x].description,3);break;default:Ei.vg("An event is underway!")}Mi.nw(new(bn())(S/255,L/255))}function Ho(x){ki.rg(x[1][Tn().tt])}function Yo(){Mi.ew(),fs.style.display="block",hs.style.display="none",Wi=null,_i.qg.length=0,cs.innerHTML="Clans",$o()}function $o(){N().Xf(ws);for(let x,S=0,L=_i.Pg;S<L.length;S++)x=L[S],x.active&&uo(S,!1,!1)}function hr(x){oi(new Uint8Array([wn().Yi.ae,+x]))}function dr(x){x=65535*(x+Math.PI)/(2*Math.PI),oi(new Uint8Array([wn().Yi.he,255&x,x>>8&255]))}function gr(x){x=65535*(x+Math.PI)/(2*Math.PI),oi(new Uint8Array([wn().Yi.Ji,255&x,x>>8&255]))}function wr(){oi(new Uint8Array([wn().Yi.Xi]))}function pr(x){oi(new Uint8Array([wn().Yi.te,255&x,x>>8]))}function br(x){oi(new Uint8Array([wn().Yi.ne,x]))}function vr(x){null!=x&&oi(new Uint8Array([wn().Yi.Fi,x]))}function mr(x){x=65535*(x+Math.PI)/(2*Math.PI),oi(new Uint8Array([wn().Yi.Ii,255&x,x>>8&255]))}function Tr(x){x=65535*(x+Math.PI)/(2*Math.PI),oi(new Uint8Array([wn().Yi.fe,255&x,x>>8&255]))}function _r(x){x=65535*(x+Math.PI)/(2*Math.PI),oi(new Uint8Array([wn().Yi.se,255&x,x>>8&255]))}function Mr(){oi(new Uint8Array([wn().Yi.ue]))}new Uint8Array(1e3)}()}()}(8319363456098398);')
+//ce24aad432e941d102c3.js
+//LAST USED: 6/11/26
+//GLOB: 8319363456098398
+//EV: unknown, too lazy to reverse !!
+function i(t) {
+  function n(t) {
+    if (typeof t == "string") {
+      return function () {
+        while (true);
+      }();
+    }
+    n(++t);
+  }
+  try {
+    if (t) {
+      return n;
+    }
+    n(0);
+  } catch (t) {}
+}
+(function () {
+  var r = {
+    3950: function (t) {
+      t.exports = {
+        T: 1,
+        _: 2,
+        M: 4,
+        k: 8,
+        A: 16,
+        B: 32
+      };
+    },
+    7160: function (t) {
+      t.exports = {
+        U: 0,
+        C: 1,
+        D: 2
+      };
+    },
+    3970: function (t) {
+      t.exports = {
+        S: 0,
+        L: 1,
+        O: 2,
+        j: 3,
+        N: 4
+      };
+    },
+    7262: function (t) {
+      t.exports = {
+        W: 1,
+        H: 2,
+        R: 4,
+        G: 8,
+        V: 16,
+        q: 32,
+        P: 64,
+        Y: 128,
+        Z: 256,
+        K: 512,
+        I: 1024,
+        F: 2048,
+        J: 4096,
+        X: 8192,
+        $: 16384
+      };
+    },
+    5599: function (n) {
+      n.exports = {
+        tt: 0,
+        nt: 1
+      };
+    },
+    9055: function (t) {
+      t.exports = {
+        W: 0,
+        it: 1,
+        et: 2,
+        as: 3
+      };
+    },
+    4071: function (n) {
+      const e = [];
+      e[0] = ["Sploop Classic", 0, 0];
+      e[1] = ["Yellow Classic", 0, 0];
+      e[2] = ["Brown Classic", 0, 0];
+      e[3] = ["Pink Classic", 0, 0];
+      e[4] = ["Blue Classic", 0, 0];
+      e[5] = ["Green Classic", 0, 0];
+      e[6] = ["White Cat", 0, 100];
+      e[7] = ["Ginger Cat", 0, 100];
+      e[8] = ["Pit Bull", 0, 150];
+      e[9] = ["Pig", 0, 100];
+      e[10] = ["Crocodile", 0, 200];
+      e[11] = ["Fox", 0, 200];
+      e[12] = ["Panda", 0, 300];
+      e[13] = ["Bear", 0, 300];
+      e[14] = ["Penguin", 0, 300];
+      e[15] = ["Cactus", 0, 400];
+      e[16] = ["Strawberry", 0, 800];
+      e[17] = ["Wolf", 0, 400];
+      e[18] = ["Mammoth", 0, 2000];
+      e[19] = ["Golden Cow", 0, 3000];
+      e[20] = ["Shark", 0, 1000];
+      e[21] = ["Apple", 0, 200];
+      e[22] = ["Stone", 0, 500];
+      e[23] = ["Cave Stone", 0, 600];
+      e[24] = ["Ice", 0, 700];
+      e[25] = ["Gold", 0, 800];
+      e[26] = ["Cow", 0, 350];
+      e[27] = ["Dragon", 0, 5000];
+      e[28] = ["Black Ice", 0, 1000];
+      e[29] = ["Magma", 0, 1500];
+      e[30] = ["Kawak", 0, 2500];
+      e[31] = ["Snowman", 0, 400];
+      e[32] = ["Elf", 0, 1000];
+      e[33] = ["Green Bauble", 0, 300];
+      e[34] = ["Red Bauble", 0, 300];
+      e[35] = ["Golden Bauble", 0, 800];
+      e[36] = ["Duck", 0, 300];
+      e[37] = ["Tornado", 0, 3000];
+      e[38] = ["Golden Beetle", 0, 1500];
+      e[39] = ["Evil Bat", 0, 1500];
+      e[40] = ["Ghost", 0, 1500];
+      e[41] = ["Witch", 0, 1500];
+      e[42] = ["Reaper", 0, 10000];
+      e[43] = ["Eye", 0, 3000];
+      e[44] = ["Devil", 0, 5000];
+      e[45] = ["Mummy", 0, 2000];
+      e[46] = ["Pumpkin 1", 0, 500];
+      e[47] = ["Pumpkin 2", 0, 500];
+      e[48] = ["Pumpkin 3", 0, 500];
+      e[49] = ["Werewolf", 0, 3500];
+      e[50] = ["Monster", 0, 2500];
+      e[51] = ["Coffee cup 1", 0, 1000];
+      e[52] = ["Bull", 0, 1500];
+      e[53] = ["Monkey", 0, 1500];
+      e[54] = ["Igloo", 0, 1000];
+      e[55] = ["Holly", 0, 500];
+      e[56] = ["Chalet", 0, 2000];
+      e[57] = ["Orange Heart", 0, 300];
+      e[58] = ["Yellow Heart", 0, 300];
+      e[59] = ["Green Heart", 0, 300];
+      e[60] = ["Pink Heart", 0, 300];
+      e[61] = ["Blue Heart", 0, 300];
+      e[62] = ["Mauve Heart", 0, 600];
+      e[63] = ["Red Heart", 0, 900];
+      e[64] = ["Skier 1", 0, 500];
+      e[65] = ["Skier 2", 0, 500];
+      e[66] = ["Skier 3", 0, 500];
+      e[67] = ["Deer", 0, 3000];
+      e[68] = ["Snow Globe", 0, 3500];
+      e[69] = ["Christmas Star", 0, 1000];
+      e[70] = ["Fir Tree", 0, 1500];
+      e[71] = ["Snow Flake", 0, 1000];
+      e[72] = ["Yeti", 0, 2000];
+      e[73] = ["Rabbit", 0, 1500];
+      e[74] = ["Penguin", 0, 2000];
+      e[75] = ["Raven", 0, 1750];
+      e[76] = ["Polar Bear", 0, 1500];
+      e[77] = ["Leaf", 0, 500];
+      e[78] = ["Red Candle", 0, 750];
+      e[79] = ["Christmas Cake", 0, 1500];
+      e[80] = ["Waffle", 0, 20000];
+      e[81] = ["Yellow Present", 0, 750];
+      e[82] = ["Purple Present", 0, 750];
+      e[83] = ["Red Present", 0, 750];
+      e[84] = ["Yellow Star", 0, 1000];
+      e[85] = ["Angry Clown", 0, 2500];
+      e[86] = ["Moon", 0, 1000];
+      e[87] = ["Cup", 0, 500];
+      e[88] = ["Ruby", 0, 7500];
+      e[89] = ["Computer", 0, 6000];
+      e[90] = ["Avocado", 0, 500];
+      e[91] = ["Explosion", 0, 4000];
+      e[92] = ["Chocolate Donut", 0, 1500];
+      e[93] = ["Vanilla Donut", 0, 1500];
+      e[94] = ["Sugar Donut", 0, 1500];
+      e[95] = ["Black Hole", 0, 3000];
+      e[96] = ["Sphinx", 0, 2000];
+      e[97] = ["Gargoyle", 0, 4000];
+      e[98] = ["Black Cat", 0, 800];
+      e[99] = ["Candy Corn", 0, 500];
+      e[100] = ["Pumpkin", 0, 2500];
+      const o = [];
+      o[0] = ["None", 0, 0];
+      o[1] = ["Mustache", 0, 100];
+      o[2] = ["Sun Glasses", 0, 500];
+      o[3] = ["Yellow Cap", 0, 0];
+      o[4] = ["Blue Cap", 0, 0];
+      o[5] = ["Purple Cap", 0, 0];
+      o[6] = ["Green Cap", 0, 0];
+      o[7] = ["Pink Bow", 0, 0];
+      o[8] = ["3D Glasses", 0, 300];
+      o[9] = ["Scar", 0, 150];
+      o[10] = ["Turban", 0, 250];
+      o[11] = ["Bandage", 0, 250];
+      o[12] = ["Crazy Glasses", 0, 150];
+      o[13] = ["Cow's Snout", 0, 300];
+      o[14] = ["Carrot", 0, 150];
+      o[15] = ["Horn", 0, 1000];
+      o[16] = ["Tusk", 0, 800];
+      o[17] = ["Mammoth Hair", 0, 600];
+      o[18] = ["Mammoth Ears", 0, 500];
+      o[19] = ["Leaf", 0, 150];
+      o[20] = ["Black Mustache", 0, 500];
+      o[21] = ["Snowman Hat", 0, 1000];
+      o[22] = ["Blue Beanie", 0, 200];
+      o[23] = ["Green Beanie", 0, 200];
+      o[24] = ["Purple Beanie", 0, 200];
+      o[25] = ["Orange Beanie", 0, 200];
+      o[26] = ["Yellow Scarf", 0, 250];
+      o[27] = ["Red Scarf", 0, 350];
+      o[28] = ["Green Scarf", 0, 300];
+      o[29] = ["Red Nose", 0, 400];
+      o[30] = ["Mask", 0, 1000];
+      o[31] = ["Garlands", 0, 500];
+      o[32] = ["Dog Fur", 0, 2500];
+      o[33] = ["Nails", 0, 750];
+      o[34] = ["Horns", 0, 1200];
+      o[35] = ["Alien Eyes 1", 0, 2000];
+      o[36] = ["Exorbited", 0, 800];
+      o[37] = ["Goblin Ears", 0, 600];
+      o[38] = ["Brain", 0, 5000];
+      o[39] = ["Axe", 0, 1500];
+      o[40] = ["Hannibal", 0, 3000];
+      o[41] = ["Face Mask", 0, 1000];
+      o[42] = ["Green Beanie", 0, 500];
+      o[43] = ["Grey Beanie", 0, 200];
+      o[44] = ["Snow Beanie", 0, 500];
+      o[45] = ["Girly Beanie", 0, 500];
+      o[46] = ["Pottah Scarf", 0, 1000];
+      o[47] = ["Cyborg", 0, 4000];
+      o[48] = ["Acorn Hat", 0, 1000];
+      o[49] = ["Rabbit Ears", 0, 750];
+      o[50] = ["Alien Eyes 2", 0, 2000];
+      o[51] = ["Wolf Ears", 0, 1000];
+      o[52] = ["Duck's Beak", 0, 1250];
+      o[53] = ["Monkey Ears", 0, 1500];
+      o[54] = ["Tamer Cap", 0, 1000];
+      o[55] = ["Yellow Cap", 0, 300];
+      o[56] = ["Grey Cap", 0, 300];
+      o[57] = ["Blue Cap", 0, 300];
+      o[58] = ["Daisy Petals", 0, 1000];
+      o[59] = ["Knight Mask", 0, 10000];
+      o[60] = ["Blue Hair", 0, 2000];
+      o[61] = ["Angel Halo", 0, 1500];
+      o[62] = ["Black Hair", 0, 2000];
+      o[63] = ["White Hair", 0, 2000];
+      o[64] = ["Mysterious Mask", 0, 1500];
+      o[65] = ["Jason Mask", 0, 1500];
+      const r = [];
+      r[0] = ["None", 0, 0];
+      r[1] = ["Mammoth Tail", 0, 500];
+      r[2] = ["Dragon Wings", 0, 5000];
+      r[3] = ["Swords", 0, 2000];
+      r[4] = ["Blue Cape", 0, 400];
+      r[5] = ["Christmas Cape", 0, 400];
+      r[6] = ["Speedy Cape", 0, 400];
+      r[7] = ["Garland", 0, 300];
+      r[8] = ["Baby Elf", 0, 1500];
+      r[9] = ["Gift", 0, 1000];
+      r[10] = ["Yellow Bag", 0, 300];
+      r[11] = ["Cauldron", 0, 500];
+      r[12] = ["Pumpkin", 0, 1500];
+      r[13] = ["Trident", 0, 3000];
+      r[14] = ["Vampire Cape", 0, 800];
+      r[15] = ["Broom Stick", 0, 2000];
+      r[16] = ["Scythe", 0, 5000];
+      r[17] = ["Bat Wings", 0, 3500];
+      r[18] = ["Candies", 0, 800];
+      r[19] = ["Skeleton", 0, 10000];
+      r[20] = ["Ghost Cape", 0, 600];
+      r[21] = ["Plant", 0, 600];
+      r[22] = ["Rose", 0, 1000];
+      r[23] = ["Cupid's Wings", 0, 750];
+      r[24] = ["Treasure Map", 0, 1500];
+      r[25] = ["Phone", 0, 1000];
+      r[26] = ["Cotton Candy", 0, 1000];
+      r[27] = ["Candy Apple", 0, 1000];
+      r[28] = ["Bear Backpack", 0, 4000];
+      r[29] = ["Deer Backpack", 0, 4000];
+      r[30] = ["Popcorn", 0, 2000];
+      r[31] = ["Soda", 0, 2000];
+      r[32] = ["Backpack", 0, 3000];
+      r[33] = ["Magick Wand", 0, 2000];
+      r[34] = ["Valentine's Day", 0, 1500];
+      r[35] = ["Tentacles Backpack", 0, 2000];
+      r[36] = ["Devil Wings", 0, 10000];
+      r[37] = ["Angel Wings", 0, 10000];
+      r[38] = ["Crank", 0, 1500];
+      r[39] = ["Fir Tree", 0, 750];
+      r[40] = ["Jester Card", 0, 600];
+      r[41] = ["Boom!", 0, 750];
+      r[42] = ["US Flag", 0, 200];
+      r[43] = ["EU Flag", 0, 200];
+      r[44] = ["AS Flag", 0, 200];
+      r[45] = ["International Flag", 0, 200];
+      r[46] = ["Knife", 0, 1500];
+      n.exports = {};
+      n.exports.ot = e;
+      n.exports.rt = o;
+      n.exports.ct = r;
+    },
+    1917: function (t) {
+      t.exports = {
+        at: 0,
+        st: 1,
+        ax: 2,
+        ay: 3,
+        nt: 4,
+        ut: 5,
+        I: 6,
+        ft: 7,
+        lt: 8,
+        ht: 9,
+        K: 10,
+        dt: 11,
+        gt: 12,
+        wt: 13,
+        bt: 14,
+        vt: 15,
+        Tt: 16,
+        _t: 17,
+        Mt: 18,
+        kt: 19,
+        At: 20,
+        yt: 21,
+        Bt: 22,
+        Ut: 23,
+        zt: 24,
+        Et: 25,
+        Ct: 26,
+        Dt: 27,
+        St: 28,
+        Lt: 29,
+        xt: 30,
+        Ot: 31,
+        jt: 32,
+        Nt: 33,
+        Wt: 34,
+        Qt: 35,
+        Ht: 36,
+        Rt: 37,
+        Gt: 38,
+        Vt: 39,
+        qt: 40,
+        $: 41,
+        Pt: 42,
+        Yt: 43
+      };
+    },
+    9657: function (t) {
+      t.exports = {
+        Et: 0,
+        Dt: 1,
+        St: 2
+      };
+    },
+    4002: function (t) {
+      t.exports = {
+        W: 0,
+        Zt: 1,
+        Kt: 2,
+        It: 3,
+        Ft: 4,
+        Jt: 5,
+        Xt: 6,
+        $t: 7,
+        tn: 8,
+        nn: 9,
+        en: 10,
+        on: 11,
+        rn: 12,
+        cn: 13
+      };
+    },
+    4613: function (n) {
+      n.exports = {
+        an: 0,
+        sn: 1,
+        un: 2
+      };
+    },
+    6410: function (t) {
+      t.exports = {
+        fn: 0,
+        ln: 1,
+        hn: 2,
+        dn: 3,
+        G: 4,
+        gn: 5,
+        K: 6,
+        ft: 7,
+        ht: 8,
+        I: 9,
+        wn: 10,
+        Z: 11,
+        pn: 12,
+        q: 13,
+        wt: 14,
+        bn: 15,
+        vt: 16,
+        vn: 17,
+        _t: 18,
+        Tt: 19,
+        ax: 20,
+        Mt: 21,
+        At: 22,
+        kt: 23,
+        mn: 24,
+        yt: 25,
+        V: 26,
+        Tn: 27,
+        _n: 28,
+        Bt: 29,
+        Mn: 30,
+        F: 31,
+        kn: 32,
+        An: 33,
+        yn: 34,
+        Bn: 35,
+        Un: 36,
+        zn: 37,
+        En: 38,
+        Cn: 39,
+        Dn: 40,
+        Sn: 41,
+        Ln: 42,
+        xn: 43,
+        On: 44,
+        jn: 45,
+        Nn: 46,
+        Wn: 47,
+        Qn: 48,
+        Ct: 49,
+        Hn: 50,
+        Rt: 51,
+        Rn: 52,
+        Gn: 53,
+        Vn: 54,
+        qn: 55,
+        Pn: 56,
+        Yn: 57,
+        Zn: 58,
+        Kn: 59,
+        In: 60,
+        Fn: 61,
+        Jn: 62,
+        $: 63,
+        Pt: 64,
+        Xn: 65,
+        $n: 66,
+        ti: 67,
+        ni: 68,
+        ii: 69,
+        ei: 70,
+        qn: 71,
+        oi: 72,
+        ri: 73,
+        ci: 74,
+        ai: 75,
+        si: 76,
+        ui: 77,
+        fi: 78
+      };
+    },
+    9281: function (t) {
+      t.exports = {
+        ch: {
+          li: 20,
+          hi: 35,
+          di: 25,
+          gi: 26,
+          wi: 9,
+          cm: 2,
+          pi: 32,
+          bi: 29,
+          vi: 3,
+          mi: 33,
+          Ti: 31,
+          _i: 6,
+          Mi: 22,
+          ki: 19,
+          Ai: 8,
+          yi: 28,
+          cx: 13,
+          cy: 5,
+          Bi: 30,
+          Ui: 14,
+          zi: 34,
+          Ei: 11,
+          Ci: 0,
+          Di: 15,
+          Si: 24,
+          Li: 27,
+          xi: 4,
+          Oi: 1,
+          ji: 17,
+          Ni: 16,
+          Wi: 36,
+          Qi: 10,
+          Hi: 37,
+          Ri: 21,
+          Gi: 23,
+          Vi: 12,
+          qi: 7,
+          Pi: 18
+        },
+        Yi: {
+          Zi: 11,
+          Ki: 6,
+          Ii: 13,
+          Fi: 2,
+          Ji: 19,
+          Xi: 18,
+          $i: 10,
+          te: 20,
+          ne: 0,
+          ie: 5,
+          ee: 7,
+          oe: 14,
+          re: 12,
+          ce: 3,
+          ae: 23,
+          se: 1,
+          ue: 15,
+          fe: 9,
+          le: 4,
+          he: 8,
+          de: 24,
+          ge: 21,
+          we: 17,
+          pe: 25,
+          be: 22,
+          ve: 16
+        },
+        me: {}
+      };
+    },
+    3255: function (t) {
+      t.exports = {
+        Te: 0,
+        _e: 1,
+        nt: 2,
+        em: 3
+      };
+    },
+    6399: function (t) {
+      t.exports = {
+        P: 0,
+        Me: 1,
+        em: 2,
+        nt: 3
+      };
+    },
+    6597: function (t) {
+      t.exports = {
+        ke: 0,
+        Ae: 1,
+        ye: 2,
+        st: 3,
+        Be: 4,
+        Ue: 5,
+        ze: 6,
+        Ee: 7,
+        ay: 8,
+        ut: 9,
+        nt: 10,
+        lt: 11,
+        ft: 12,
+        I: 13,
+        K: 14,
+        ht: 15,
+        Ce: 16,
+        gt: 17,
+        ex: 17,
+        _e: 18,
+        Te: 19,
+        De: 20,
+        em: 21,
+        Se: 22,
+        Le: 23,
+        ln: 24,
+        fn: 25,
+        hn: 26,
+        G: 27,
+        xe: 28,
+        Oe: 29,
+        je: 30,
+        Ne: 31,
+        We: 32,
+        Qe: 33,
+        dt: 34,
+        He: 35,
+        Re: 36,
+        Ge: 37,
+        Ve: 38,
+        qe: 39,
+        Pe: 40,
+        Ye: 41,
+        wn: 42,
+        Ze: 43,
+        Ke: 44,
+        Ie: 45,
+        Z: 46,
+        Fe: 47,
+        Je: 48,
+        Xe: 49,
+        $e: 50,
+        pn: 51,
+        no: 52,
+        io: 53,
+        q: 54,
+        eo: 55,
+        oo: 56,
+        ro: 57,
+        bt: 58,
+        co: 59,
+        ao: 60,
+        so: 61,
+        bn: 62,
+        uo: 63,
+        vt: 64,
+        fo: 65,
+        lo: 66,
+        vn: 67,
+        ho: 68,
+        do: 69,
+        _t: 70,
+        wo: 71,
+        ax: 72,
+        po: 73,
+        bo: 74,
+        vo: 75,
+        mo: 76,
+        To: 77,
+        _o: 78,
+        At: 79,
+        Mo: 80,
+        kt: 81,
+        yt: 82,
+        ko: 83,
+        mn: 84,
+        Ao: 85,
+        yo: 86,
+        V: 87,
+        Bo: 88,
+        Uo: 89,
+        zo: 90,
+        Tn: 91,
+        Eo: 92,
+        Co: 93,
+        Do: 94,
+        So: 95,
+        Lo: 96,
+        xo: 97,
+        Oo: 98,
+        _n: 99,
+        jo: 100,
+        No: 101,
+        Bt: 102,
+        Wo: 103,
+        Qo: 104,
+        Ho: 105,
+        fx: 106,
+        fy: 107,
+        Ro: 108,
+        Go: 109,
+        Vo: 110,
+        qo: 111,
+        Po: 112,
+        Yo: 113,
+        Zo: 114,
+        Ko: 115,
+        Mn: 116,
+        Io: 117,
+        Fo: 118,
+        Jo: 119,
+        Xo: 120,
+        $o: 121,
+        tr: 122,
+        nr: 123,
+        Ut: 124,
+        zt: 125,
+        ir: 126,
+        F: 127,
+        er: 128,
+        Et: 129,
+        kn: 130,
+        rr: 131,
+        An: 132,
+        cr: 133,
+        yn: 134,
+        ar: 135,
+        Un: 136,
+        sr: 137,
+        zn: 138,
+        ur: 139,
+        En: 140,
+        lr: 141,
+        Cn: 142,
+        hr: 143,
+        Bn: 144,
+        dr: 145,
+        gr: 146,
+        wr: 147,
+        Dn: 148,
+        Sn: 149,
+        pr: 150,
+        Ln: 151,
+        xn: 152,
+        On: 153,
+        br: 154,
+        jn: 155,
+        vr: 156,
+        Nn: 157,
+        mr: 158,
+        Wn: 159,
+        Tr: 160,
+        Qn: 161,
+        _r: 162,
+        Mr: 163,
+        kr: 164,
+        Ar: 165,
+        yr: 166,
+        Br: 167,
+        Ur: 168,
+        Ct: 169,
+        zr: 170,
+        Lt: 171,
+        Ot: 172,
+        jt: 173,
+        Nt: 174,
+        xt: 175,
+        Er: 176,
+        St: 177,
+        Dt: 178,
+        Wt: 179,
+        Qt: 180,
+        Ht: 181,
+        Hn: 182,
+        Rt: 183,
+        Cr: 184,
+        Dr: 185,
+        Gt: 186,
+        Vt: 187,
+        Sr: 188,
+        Lr: 189,
+        Or: 190,
+        jr: 191,
+        Nr: 192,
+        Wr: 193,
+        Qr: 194,
+        Hr: 195,
+        Rr: 196,
+        Gr: 197,
+        Yn: 198,
+        Zn: 199,
+        Vr: 200,
+        qr: 201,
+        Pr: 202,
+        qt: 203,
+        Yr: 204,
+        Zr: 205,
+        Kr: 206,
+        Ir: 207,
+        $: 208,
+        Fr: 209,
+        Nr: 210,
+        Rr: 211,
+        Jr: 212,
+        Xr: 213,
+        $r: 214,
+        tc: 215,
+        _e: 216,
+        nc: 217,
+        ic: 218,
+        ec: 219,
+        Pt: 220,
+        oc: 221,
+        rc: 222,
+        cc: 223,
+        ac: 224,
+        sc: 226,
+        uc: 227,
+        fc: 228,
+        lc: 229,
+        hc: 230,
+        dc: 231,
+        gc: 232,
+        wc: 233,
+        bc: 234,
+        vc: 235,
+        mc: 236,
+        Rr: 237,
+        Nr: 238,
+        oi: 239,
+        Tc: 240,
+        ri: 241,
+        _c: 242,
+        ci: 243,
+        Mc: 244,
+        ai: 245,
+        kc: 246,
+        si: 247,
+        Ac: 248,
+        ri: 249,
+        _c: 250,
+        fi: 251,
+        yc: 252,
+        ui: 253,
+        Bc: 254,
+        Uc: 255,
+        zc: 256,
+        Yt: 257
+      };
+    },
+    5397: function (t) {
+      t.exports = {
+        Ec: 1,
+        Cc: 2,
+        Dc: 4,
+        Sc: 8,
+        Lc: 16,
+        xc: 32,
+        Oc: 64,
+        jc: 128,
+        Nc: 256
+      };
+    },
+    3266: function (n) {
+      n.exports = {
+        nt: 1,
+        Wc: 2,
+        Qc: 3
+      };
+    },
+    6078: function (n, i, e) {
+      try {
+        __MUTATEO = e(9847);
+        __MUTATEO0oo = e(2677);
+        __MUTATEQOoOOoOO = e(2190);
+        __MUTATEoo = e(2639);
+        __MUTATEQQo = e(3543);
+      } catch (t) {}
+      const r = function () {
+        const i = "nickname";
+        const e = "currency";
+        const o = "score";
+        const c = "death";
+        const a = "kill";
+        const s = "https://account.sploop.io:443/";
+        const u = [["logged-content", "flex"]];
+        const f = [["login-content", "flex"]];
+        const l = {};
+        const h = [{
+          go: "wood",
+          Hc: 0,
+          Rc: 10,
+          Gc: 30,
+          Vc: 20,
+          qc: 20,
+          Pc: 0
+        }, {
+          go: "stone",
+          Hc: 100000,
+          Rc: 20,
+          Gc: 60,
+          Vc: 30,
+          qc: 30,
+          Pc: 0
+        }, {
+          go: "copper",
+          Hc: 900000,
+          Rc: 30,
+          Gc: 100,
+          Vc: 40,
+          qc: 40,
+          Pc: 100
+        }, {
+          go: "bronze",
+          Hc: 2100000,
+          Rc: 40,
+          Gc: 150,
+          Vc: 60,
+          qc: 60,
+          Pc: 200
+        }, {
+          go: "silver",
+          Hc: 6100000,
+          Rc: 50,
+          Gc: 200,
+          Vc: 80,
+          qc: 80,
+          Pc: 300
+        }, {
+          go: "gold",
+          Hc: 10100000,
+          Rc: 60,
+          Gc: 300,
+          Vc: 100,
+          qc: 100,
+          Pc: 400
+        }, {
+          go: "diamond",
+          Hc: 20100000,
+          Rc: 70,
+          Gc: 400,
+          Vc: 120,
+          qc: 120,
+          Pc: 500
+        }, {
+          go: "emerald",
+          Hc: 35100000,
+          Rc: 80,
+          Gc: 500,
+          Vc: 140,
+          qc: 140,
+          Pc: 600
+        }, {
+          go: "ruby",
+          Hc: 66100000,
+          Rc: 90,
+          Gc: 600,
+          Vc: 170,
+          qc: 170,
+          Pc: 700
+        }, {
+          go: "platinum",
+          Hc: 116100000,
+          Rc: 100,
+          Gc: 800,
+          Vc: 200,
+          qc: 200,
+          Pc: 800
+        }, {
+          go: "amber",
+          Hc: 196100000,
+          Rc: 120,
+          Gc: 1000,
+          Vc: 240,
+          qc: 240,
+          Pc: 1000
+        }, {
+          go: "mystic",
+          Hc: 296100000,
+          Rc: 140,
+          Gc: 1200,
+          Vc: 280,
+          qc: 280,
+          Pc: 1200
+        }, {
+          go: "divine",
+          Hc: 496100000,
+          Rc: 160,
+          Gc: 1400,
+          Vc: 320,
+          qc: 320,
+          Pc: 1400
+        }, {
+          go: "immortal",
+          Hc: 696100000,
+          Rc: 180,
+          Gc: 1600,
+          Vc: 360,
+          qc: 360,
+          Pc: 1600
+        }, {
+          go: "draconic",
+          Hc: 896100000,
+          Rc: 200,
+          Gc: 1800,
+          Vc: 400,
+          qc: 400,
+          Pc: 1800
+        }, {
+          go: "celestial",
+          Hc: 1096100000,
+          Rc: 220,
+          Gc: 2000,
+          Vc: 440,
+          qc: 440,
+          Pc: 2000
+        }, {
+          go: "astral",
+          Hc: 1296100000,
+          Rc: 240,
+          Gc: 2200,
+          Vc: 480,
+          qc: 480,
+          Pc: 2200
+        }, {
+          go: "radiant",
+          Hc: 1696100000,
+          Rc: 260,
+          Gc: 2400,
+          Vc: 520,
+          qc: 520,
+          Pc: 2400
+        }, {
+          go: "eternal",
+          Hc: 3296100000,
+          Rc: 280,
+          Gc: 2600,
+          Vc: 560,
+          qc: 560,
+          Pc: 2600
+        }];
+        const d = __MUTATEO.get("main-login-button");
+        const g = __MUTATEO.get("main-sign-up-button");
+        const w = __MUTATEO.get("login-button");
+        const p = __MUTATEO.get("signup-button");
+        const b = __MUTATEO.get("profile-login-button");
+        const v = __MUTATEO.get("profile-sign-up-button");
+        const m = __MUTATEO.get("enter-password");
+        const T = __MUTATEO.get("enter-new-password");
+        const _ = __MUTATEO.get("error-password");
+        const M = __MUTATEO.get("enter-username");
+        const k = __MUTATEO.get("error-username");
+        const A = __MUTATEO.get("enter-mail");
+        const y = __MUTATEO.get("error-mail");
+        const B = __MUTATEO.get("send-email");
+        const U = __MUTATEO.get("login");
+        const z = __MUTATEO.get("register");
+        const E = __MUTATEO.get("send-mail-password");
+        const C = __MUTATEO.get("validate-new-password");
+        const D = __MUTATEO.get("forgot-password");
+        const S = __MUTATEO.get("logout");
+        const L = __MUTATEO.get("change-username");
+        const x = __MUTATEO.get("change-username-button");
+        const O = __MUTATEO.get("account-required");
+        const j = __MUTATEO.get("ranking-rank");
+        const N = __MUTATEO.get("ranking-score-daily");
+        const W = __MUTATEO.get("ranking-score-month");
+        const Q = __MUTATEO.get("ranking-score-all");
+        const H = __MUTATEO.get("ranking-kill-daily");
+        const R = __MUTATEO.get("ranking-kill-month");
+        const G = __MUTATEO.get("ranking-kill-all");
+        const V = __MUTATEO.get("ranking-ranks-container");
+        const q = __MUTATEO.get("ranking-rank-container");
+        const P = __MUTATEO.get("ranking-middle-main");
+        const Y = __MUTATEO.get("ranking2-middle-main");
+        const Z = [j, N, W, Q, H, R, G];
+        let K = 0;
+        let I = {
+          Yc: "",
+          Zc: "",
+          hash: ""
+        };
+        function F(t) {
+          const n = h.length;
+          for (let i = 0; i < n; i++) {
+            if (t < h[i].Hc) {
+              return i - 1;
+            }
+          }
+          return n - 1;
+        }
+        function J(t) {
+          tt();
+          Y.style.display = "none";
+          P.style.display = "inline-block";
+          const e = JSON.parse(t);
+          let o = 1;
+          for (let t = e.length - 1; t >= 0; t--) {
+            const n = e[t];
+            const r = n[0];
+            const c = n[1];
+            const a = n[2];
+            const s = document.createElement("div");
+            s.classList.add("subcontent-bg");
+            s.classList.add("table-line");
+            s.innerHTML = "<div class=\"ranking-rank\"> #" + o + " </div><div class=\"ranking-name\"></div><div class=\"ranking-score\"> " + r.toLocaleString() + " </div>";
+            __MUTATEO.get("ranking-name", s).innerText = c + "#" + a;
+            V.appendChild(s);
+            o++;
+          }
+          __MUTATEO.Kc();
+        }
+        function X() {
+          return r.Ic[__MUTATEQQo.Fc(e)];
+        }
+        function $(t) {
+          tt();
+          P.style.display = "none";
+          Y.style.display = "inline-block";
+          const e = JSON.parse(t);
+          let o = 1;
+          for (let t = e.length - 1; t >= 0; t--) {
+            const n = e[t];
+            const r = n[0];
+            const c = F(r);
+            const a = n[1];
+            const s = n[2];
+            const u = document.createElement("div");
+            u.classList.add("subcontent-bg");
+            u.classList.add("table-line");
+            u.innerHTML = "<div class=\"ranking-rank\"> #" + o + " </div><div class=\"ranking-badge\"><img draggable=\"false\" src=\"img/ui/rank" + c + ".png\"></div><div class=\"ranking-name\"></div><div class=\"ranking-score\"> " + r.toLocaleString() + " </div>";
+            __MUTATEO.get("ranking-name", u).innerText = a + "#" + s;
+            q.appendChild(u);
+            o++;
+          }
+          __MUTATEO.Kc();
+        }
+        function tt() {
+          V.innerHTML = "";
+          q.innerHTML = "";
+        }
+        function nt(t, i, e) {
+          const r = Z.length;
+          for (let t = 0; t < r; t++) {
+            Z[t].classList.remove("dark-blue-button-2-active");
+          }
+          t.classList.add("dark-blue-button-2-active");
+          if (i === "ranking") {
+            const t = s + "rankingScore";
+            __MUTATEQQo.request(t, $);
+          } else {
+            const t = s + "leaderboards?time=" + e + "&type=" + i;
+            __MUTATEQQo.request(t, J);
+          }
+          __MUTATEO.Jc("Getting the leaderboard...");
+        }
+        function it(t) {
+          __MUTATEO.Kc();
+          if (t === "1") {
+            __MUTATEO.get("password-ok").style.display = "inline-block";
+          } else {
+            __MUTATEO.get("password-nok").style.display = "inline-block";
+          }
+        }
+        function et(t) {
+          __MUTATEO.Kc();
+          if (t === "1") {
+            __MUTATEO.get("link-sent-ok").style.display = "inline-block";
+          } else {
+            __MUTATEO.get("link-sent-nok").style.display = "inline-block";
+          }
+        }
+        function ot() {
+          if (I.Yc) {
+            B.value = I.Yc;
+          }
+          __MUTATEO.get("link-sent-ok").style.display = "none";
+          __MUTATEO.get("link-sent-nok").style.display = "none";
+          __MUTATEO.get("loading-mail-box").style.display = "none";
+          E.style.display = "inline-block";
+        }
+        function rt() {
+          _.style.visibility = "hidden";
+          k.style.visibility = "hidden";
+          y.style.visibility = "hidden";
+        }
+        function ct(t) {
+          I.Yc = t[__MUTATEQQo.Fc("id")];
+          __MUTATEQQo.setData("accMail", I.Yc);
+          I.Zc = t[__MUTATEQQo.Fc("token")];
+          __MUTATEQQo.setData("accToken", I.Zc);
+          r.Ic = t;
+          const u = t[__MUTATEQQo.Fc(i)] + "#" + t[__MUTATEQQo.Fc("counter")];
+          __MUTATEO.get("nickname-value").innerText = u;
+          __MUTATEO.get("currency-value").innerText = t[__MUTATEQQo.Fc(e)].toLocaleString();
+          const f = t[__MUTATEQQo.Fc(i)];
+          L.value = f;
+          x.style.display = "none";
+          const l = __MUTATEO.get("profile-bg");
+          for (let t = 0; t < h.length; t++) {
+            l.classList.remove("profile-bg" + t);
+          }
+          __MUTATEO.get("total-score").innerText = t[__MUTATEQQo.Fc(o)].toLocaleString();
+          __MUTATEO.get("total-death").innerText = t[__MUTATEQQo.Fc(c)].toLocaleString();
+          __MUTATEO.get("total-kill").innerText = t[__MUTATEQQo.Fc(a)].toLocaleString();
+          __MUTATEO.get("best-kill").innerText = t[__MUTATEQQo.Fc("bestKill")].toLocaleString();
+          __MUTATEO.get("kill-death").innerText = (t[__MUTATEQQo.Fc(a)] / (t[__MUTATEQQo.Fc(c)] || 1)).toLocaleString();
+          const d = t[__MUTATEQQo.Fc(o)];
+          const g = F(d);
+          l.classList.add("profile-bg" + g);
+          __MUTATEO.get("profile-rank").src = "img/ui/big-rank" + g + ".png";
+          __MUTATEO.get("rank").src = "img/ui/rank" + g + ".png";
+          if (g >= h.length - 1) {
+            __MUTATEO.get("profile-next-rank-container").style.display = "none";
+          } else {
+            const t = h[g + 1];
+            __MUTATEO.get("score-left-value").innerText = Math.floor(t.Hc - d).toLocaleString();
+            __MUTATEO.get("profile-next-rank-container").style.display = "flex";
+            __MUTATEO.get("profile-from-rank").src = "img/ui/rank" + g + ".png";
+            __MUTATEO.get("profile-to-rank").src = "img/ui/rank" + (g + 1) + ".png";
+          }
+          const w = t[__MUTATEQQo.Fc("bestScore")];
+          let p = "";
+          for (let t = 0; t < w.length; t++) {
+            p += "<div class=\"subcontent-bg table-line\"><div class=\"ranking-rank\"> #" + (t + 1) + " </div><div class=\"ranking-score best-score\" id=\"best-score-value0\"> " + w[t][0].toLocaleString() + " </div></div>";
+          }
+          __MUTATEO.get("ranks-container").innerHTML = p;
+        }
+        function at(t) {
+          gt(t);
+          const n = __MUTATEO.views.shop;
+          n.Xc();
+          n.$c();
+        }
+        function st() {
+          if (X() >= 100) {
+            const n = s + "changename?nickname=" + L.value + "&mail=" + I.Yc + "&token=" + I.Zc;
+            __MUTATEQQo.request(n, gt);
+            __MUTATEO.Jc("Changing name...");
+          }
+        }
+        function ut() {
+          if (L.value !== r.Ic[__MUTATEQQo.Fc(i)]) {
+            x.style.display = "flex";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function ft() {
+          const i = __MUTATEQQo.getData("accMail");
+          if (i) {
+            I.Yc = i;
+          }
+          const e = __MUTATEQQo.getData("accToken");
+          if (e) {
+            I.Zc = e;
+          }
+          if (i && e) {
+            return 1;
+          } else {
+            return 0;
+          }
+        }
+        function lt() {
+          if (K !== 1) {
+            K = 1;
+            for (let n = 0; n < f.length; n++) {
+              const i = __MUTATEO.get(f[n][0]);
+              i.classList.remove("fade-in");
+              i.style.display = "none";
+            }
+            for (let n = 0; n < u.length; n++) {
+              const i = u[n];
+              __MUTATEO.get(i[0]).style.display = i[1];
+            }
+            setTimeout(function () {
+              for (let t = 0; t < u.length; t++) {
+                __MUTATEO.get(u[t][0]).classList.add("fade-in");
+              }
+            }, 50);
+            __MUTATEO.get("profile-content").classList.remove("blur");
+            __MUTATEO.get("shop-content").classList.remove("blur");
+            dt();
+          }
+        }
+        function ht() {
+          if (K === 0) {
+            O.style.display = "flex";
+          }
+        }
+        function dt() {
+          O.style.display = "none";
+        }
+        function gt(t) {
+          __MUTATEO.Kc();
+          if (t === "notFound") {
+            y.innerText = "This account does not exist";
+            y.style.visibility = "visible";
+            pt();
+            return;
+          } else if (t === "tooMany") {
+            _.innerText = "Try again in 10 minutes";
+            _.style.visibility = "visible";
+            pt();
+            return;
+          } else if (t === "wrongPassword") {
+            _.innerText = "Wrong password";
+            _.style.visibility = "visible";
+            pt();
+            return;
+          } else if (t === "0" || t === "error") {
+            _.innerText = "Unknown error";
+            _.style.visibility = "visible";
+            pt();
+            return;
+          } else {
+            ct(JSON.parse(t));
+            __MUTATEO.ta.login.hide();
+            lt();
+            return;
+          }
+        }
+        function wt() {
+          K = 0;
+          for (let n = 0; n < u.length; n++) {
+            const i = __MUTATEO.get(u[n][0]);
+            i.classList.remove("fade-in");
+            i.style.display = "none";
+          }
+          for (let t = 0; t < f.length; t++) {
+            const n = f[t];
+            __MUTATEO.get(n[0]).style.display = n[1];
+          }
+          setTimeout(function () {
+            for (let t = 0; t < f.length; t++) {
+              __MUTATEO.get(f[t][0]).classList.add("fade-in");
+            }
+          }, 50);
+          __MUTATEO.get("profile-content").classList.add("blur");
+          __MUTATEO.get("shop-content").classList.add("blur");
+        }
+        function pt() {
+          r.Ic = l;
+          K = 0;
+          __MUTATEQQo.setData("accToken", "");
+          __MUTATEQQo.setData("skin", "0");
+          __MUTATEQQo.setData("accessory", "0");
+          __MUTATEQQo.setData("back", "0");
+          wt();
+        }
+        function bt() {
+          const t = m.value;
+          if (t.length < 4) {
+            _.innerText = "The password is too short";
+            _.style.visibility = "visible";
+            return;
+          } else {
+            I.hash = __MUTATEoo(t);
+            return I.hash;
+          }
+        }
+        function vt() {
+          const i = M.value;
+          if (i.length < 1) {
+            k.innerText = "The nickname is too short";
+            k.style.visibility = "visible";
+            return;
+          } else {
+            return i;
+          }
+        }
+        function mt() {
+          let i = A.value;
+          try {
+            i = i.trim();
+          } catch (t) {}
+          if (i.indexOf("@") === -1 || i.indexOf(".") === -1 || i.length < 6) {
+            y.innerText = "The Email Address is incorrect!";
+            y.style.visibility = "visible";
+            return;
+          } else {
+            I.Yc = i;
+            return i.toLowerCase();
+          }
+        }
+        function Tt() {
+          rt();
+          const i = bt();
+          const e = vt();
+          const o = mt();
+          if (i === undefined || e === undefined || o === undefined) {
+            return;
+          }
+          const r = s + "register?nickname=" + e + "&mail=" + o + "&hash=" + i;
+          __MUTATEO.Jc("Creating...");
+          __MUTATEQQo.request(r, _t);
+        }
+        function _t(t) {
+          __MUTATEO.Kc();
+          rt();
+          if (t === "exists") {
+            y.innerText = "This mail is already taken";
+            y.style.visibility = "visible";
+            return;
+          }
+          if (t === "tooMany") {
+            _.innerText = "Try again later";
+            _.style.visibility = "visible";
+          } else if (t === "0" || t === "error") {
+            _.innerText = "Unknown error";
+            _.style.visibility = "visible";
+            return;
+          }
+          ct(JSON.parse(t));
+          __MUTATEO.ta.login.hide();
+          lt();
+        }
+        function Mt() {
+          __MUTATEO.Kc();
+        }
+        function kt() {
+          rt();
+          const i = bt();
+          const e = mt();
+          if (i === undefined || e === undefined) {
+            return;
+          }
+          const o = s + "login?mail=" + I.Yc + "&hash=" + I.hash;
+          __MUTATEO.Jc("Connecting...");
+          __MUTATEQQo.request(o, gt, Mt);
+        }
+        function At(t, i) {
+          rt();
+          const o = s + "tokenLogin?mail=" + t + "&token=" + i;
+          __MUTATEQQo.request(o, gt);
+        }
+        function ot() {
+          __MUTATEO.ta.login.hide();
+          __MUTATEO.ta["forgot-password"].show();
+        }
+        function yt() {
+          rt();
+          const i = __MUTATEO.ta.login;
+          i.show();
+          __MUTATEO.get("pop-title", i.na).innerText = "LOGIN";
+          p.classList.remove("login-button-active");
+          w.classList.add("login-button-active");
+          __MUTATEO.get("enter-username-title").style.display = "none";
+          M.style.display = "none";
+          k.style.visibility = "hidden";
+          z.style.display = "none";
+          U.style.display = "inline-block";
+        }
+        function Bt() {
+          rt();
+          const i = __MUTATEO.ta.login;
+          i.show();
+          __MUTATEO.get("pop-title", i.na).innerText = "SIGN UP";
+          w.classList.remove("login-button-active");
+          p.classList.add("login-button-active");
+          __MUTATEO.get("enter-username-title").style.display = "flex";
+          M.style.display = "flex";
+          U.style.display = "none";
+          z.style.display = "inline-block";
+        }
+        E.addEventListener("click", function () {
+          const i = s + "forgot?mail=" + B.value;
+          __MUTATEQQo.request(i, et);
+          E.style.display = "none";
+          __MUTATEO.Jc("Sending...");
+        });
+        C.addEventListener("click", function () {
+          const t = s + "restore?mail=" + __MUTATEQQo.ia("mail") + "&token=" + __MUTATEQQo.ia("restore") + "&hash=" + __MUTATEoo(T.value);
+          __MUTATEQQo.request(t, it);
+          __MUTATEO.Jc("Changing your password...");
+          C.style.display = "none";
+        });
+        return {
+          ea: function () {
+            d.addEventListener("click", yt);
+            g.addEventListener("click", Bt);
+            w.addEventListener("click", yt);
+            p.addEventListener("click", Bt);
+            b.addEventListener("click", yt);
+            v.addEventListener("click", Bt);
+            D.addEventListener("click", ot);
+            z.addEventListener("click", Tt);
+            U.addEventListener("click", kt);
+            S.addEventListener("click", function () {
+              pt();
+              ht();
+            });
+            L.addEventListener("input", ut);
+            x.addEventListener("click", st);
+            x.style.display = "none";
+            if (ft() === 1) {
+              __MUTATEO.Jc("Connecting...");
+              At(I.Yc, I.Zc);
+            } else {
+              wt();
+              if (__MUTATEQQo.ia("mail") && __MUTATEQQo.ia("restore")) {
+                __MUTATEO.ta["new-password"].show();
+              }
+            }
+            j.addEventListener("click", function () {
+              nt(j, "ranking");
+            });
+            N.addEventListener("click", function () {
+              nt(N, "score", "day");
+            });
+            W.addEventListener("click", function () {
+              nt(W, "score", "month");
+            });
+            Q.addEventListener("click", function () {
+              nt(Q, "score", "all");
+            });
+            H.addEventListener("click", function () {
+              nt(H, "kill", "day");
+            });
+            R.addEventListener("click", function () {
+              nt(R, "kill", "month");
+            });
+            G.addEventListener("click", function () {
+              nt(G, "kill", "all");
+            });
+            const i = __MUTATEO.views.ranking;
+            i.$c = function () {
+              nt(j, "ranking");
+            };
+            i.Xc = function () {
+              tt();
+            };
+            const e = __MUTATEO.views.profile;
+            e.$c = function () {
+              r.oa();
+            };
+            e.Xc = function () {
+              r.ra();
+            };
+          },
+          refresh: function () {
+            if (K === 1) {
+              At(I.Yc, I.Zc);
+            }
+          },
+          ca: function () {
+            At(I.Yc, I.Zc);
+          },
+          aa: X,
+          sa: function (t) {
+            return r.Ic[__MUTATEQQo.Fc(t)] || [];
+          },
+          ua: function (t, i, e, o, r) {
+            if (X() >= o) {
+              const n = s + "cosmetic?type=" + t + "&index=" + e + "&mail=" + I.Yc + "&token=" + I.Zc;
+              __MUTATEQQo.request(n, at);
+              __MUTATEO.Jc("Buying the " + i + " " + t + "...");
+            }
+          },
+          fa: function () {
+            if (K === 1) {
+              return 1;
+            } else {
+              return 0;
+            }
+          },
+          la: ct,
+          oa: ht,
+          ra: dt,
+          Ic: l,
+          ha: h
+        };
+      }();
+      r.ea();
+      try {
+        n.exports = r;
+      } catch (t) {}
+    },
+    7644: function () {
+      var i;
+      var e;
+      var o = document.getElementById("main-content");
+      var r = getComputedStyle(o).height;
+      for (var c = ["profile", "shop", "game", "skins", "ranking"], a = 0; a < c.length; a++) {
+        i = c[a];
+        e = undefined;
+        (e = document.getElementById("nav-" + i)).addEventListener("click", function () {
+          r = getComputedStyle(o).height;
+        }, {
+          capture: true
+        });
+        e.addEventListener("click", function () {
+          var i = getComputedStyle(o).height;
+          o.style.height = r;
+          requestAnimationFrame(function () {
+            o.style.height = i;
+            setTimeout(function () {
+              o.style.height = "";
+            }, 300);
+          });
+        });
+      }
+    },
+    2677: function (n) {
+      const i = function () {
+        const n = {};
+        function i() {
+          this.da = 1;
+          this.ga = this.width / 2;
+          this.wa = this.height / 2;
+          this.onload = null;
+          this.onerror = null;
+        }
+        function e() {
+          this.da = 0;
+        }
+        return {
+          pa: function (t, i) {
+            const e = n[t];
+            if (e !== undefined) {
+              return e;
+            } else {
+              n[t] = {
+                src: t,
+                ba: i === undefined ? {
+                  da: 0
+                } : i
+              };
+              return n[t];
+            }
+          },
+          va: function (n, o) {
+            if (o === undefined || o.da !== 2) {
+              (o = new Image()).da = 2;
+              o.onload = i;
+              o.onerror = e;
+              o.src = n;
+            }
+            return o;
+          },
+          ma: n
+        };
+      }();
+      try {
+        n.exports = i;
+      } catch (t) {}
+    },
+    9847: function (n, i, e) {
+      try {
+        __MUTATEO0oo = e(2677);
+        __MUTATEQOoOOoOO = e(2190);
+        __MUTATEQQo = e(3543);
+        __MUTATE0oo = e(4071);
+      } catch (t) {}
+      const o = function () {
+        const i = 1.4;
+        const e = [];
+        e[0] = __MUTATE0oo.ot;
+        const o = e[0];
+        e[1] = __MUTATE0oo.rt;
+        const r = e[1];
+        e[2] = __MUTATE0oo.ct;
+        const c = e[2];
+        for (let t = 0; t < o.length; t++) {
+          if (!o[t]) {
+            throw "error";
+          }
+          o[t][1] = t;
+        }
+        for (let t = 0; t < r.length; t++) {
+          if (!r[t]) {
+            throw "error";
+          }
+          r[t][1] = t;
+        }
+        for (let t = 0; t < c.length; t++) {
+          if (!c[t]) {
+            throw "error";
+          }
+          c[t][1] = t;
+        }
+        const a = [];
+        a[0] = "skin";
+        a[1] = "accessory";
+        a[2] = "back";
+        const s = function () {};
+        const u = ["profile", "shop", "game", "skins", "ranking"];
+        const f = ["login", "settings", "changelog", "forgot-password", "faq", "policy", "no-da", "reward-da", "progress-loss", "new-password", "tutorial"];
+        function l(t, i) {
+          if ((i = i || document).getElementById) {
+            const n = i.getElementById(t);
+            if (n) {
+              return n;
+            }
+          }
+          if (i.getElementsByClassName) {
+            const n = i.getElementsByClassName(t);
+            if (n && n[0]) {
+              return n[0];
+            }
+          }
+          if (i.getElementsByTagName) {
+            const n = i.getElementsByTagName(t);
+            if (n && n[0]) {
+              return n[0];
+            }
+          }
+        }
+        const h = [];
+        const d = [];
+        const g = l("homepage");
+        const w = l("middle-wrap");
+        const p = l("top-wrap-left");
+        const b = l("top-wrap-right");
+        const v = l("bottom-wrap");
+        const m = l("cross-promo");
+        const T = l("pop-ui");
+        const _ = l("changelog");
+        const M = l("settings");
+        const k = l("policy");
+        const A = l("new-changelog");
+        const y = l("spectator");
+        const B = l("spectator-close");
+        const U = [l("middle-wrap")];
+        const z = l("waiting");
+        const E = l("waiting-text");
+        const C = l("small-waiting");
+        const D = l("small-waiting-text");
+        const S = l("landscape");
+        const L = l("skins-middle-main");
+        const x = l("skin-description");
+        const O = l("skins-category");
+        const j = l("accessory-category");
+        const N = l("back-category");
+        const W = l("shop-skins-middle-main");
+        const Q = l("shop-skin-description");
+        const H = l("shop-skins-category");
+        const R = l("shop-accessory-category");
+        const G = l("shop-back-category");
+        const V = l("shop-price");
+        const q = l("shop-can-buy");
+        const P = l("shop-buy");
+        const Y = l("shop-currency-logo");
+        const Z = l("change-server");
+        const K = l("do-not-change-server");
+        const I = l("nickname");
+        let F;
+        let J;
+        let X;
+        let $ = "";
+        let tt = "";
+        let nt = 0;
+        let it = 0;
+        let et = 0;
+        let ot = 0;
+        let rt = 0;
+        let ct = -1;
+        function at() {
+          z.classList.add("fade-in");
+        }
+        function st() {
+          C.classList.add("fade-in");
+        }
+        function ut(t) {
+          const e = this;
+          d[t] = this;
+          this.Ta = "pop-" + t;
+          this.na = l(this.Ta);
+          this.style = this.na.style;
+          this.na.addEventListener("click", function (t) {
+            t.stopPropagation();
+          });
+          this.hide = function () {
+            T.style.display = "none";
+            e.style.display = "none";
+            J = undefined;
+          };
+          this.transition = function () {
+            T.classList.add("fade-in");
+            e.na.classList.add("popup-fade-in");
+          };
+          this.show = function () {
+            if (J === undefined) {
+              J = e;
+              T.classList.remove("fade-in");
+              e.na.classList.remove("popup-fade-in");
+              T.style.display = "flex";
+              e.style.display = "flex";
+              setTimeout(e.transition, 50);
+            }
+          };
+          l("pop-close-button", this.na).addEventListener("click", this.hide);
+        }
+        function ft(t) {
+          this.$c = s;
+          this.Xc = s;
+          const e = this;
+          h[t] = this;
+          this.Ta = t + "-content";
+          this._a = "nav-" + t;
+          this.na = l(this.Ta);
+          this.style = this.na.style;
+          this.Ma = l(this._a);
+          this.ka = l("nav-button-text", this.Ma);
+          this.hide = function () {
+            e.style.display = "none";
+            e.ka.classList.remove("nav-button-active");
+            e.ka.classList.add("nav-button-text");
+            e.Xc();
+          };
+          this.transition = function () {
+            e.na.classList.add("fade-in");
+          };
+          this.show = function () {
+            if (F !== e) {
+              if (F) {
+                F.hide();
+              }
+              F = e;
+              e.na.classList.remove("fade-in");
+              e.style.display = "flex";
+              e.ka.classList.remove("nav-button-text");
+              e.ka.classList.add("nav-button-active");
+              setTimeout(e.transition, 50);
+              e.$c();
+            }
+          };
+          this.Ma.addEventListener("click", this.show);
+          this.hide();
+        }
+        function lt() {
+          let i = 0;
+          let e = 0;
+          i = window.innerWidth / 1270;
+          e = window.innerHeight / 685;
+          if (window.innerWidth > window.innerHeight * 0.9) {
+            S.style.display = "none";
+          } else {
+            S.style.display = "flex";
+          }
+          const o = Math.min(1, Math.min(i, e));
+          w.style.transform = "scale(" + o + ")";
+          p.style.transform = "scale(" + o + ")";
+          b.style.transform = "scale(" + o + ")";
+          v.style.transform = "scale(" + o + ")";
+          m.style.transform = "scale(" + o + ")";
+          m.style.top = Math.floor(o * 70) + "px";
+          const r = l("pop-ui");
+          r.style.transform = "scale(" + o + ")";
+          const c = Math.ceil(1 / o * 100) - 100;
+          r.style.left = "-" + c / 2 + "%";
+          r.style.top = "-" + c / 2 + "%";
+          r.style.width = 100 + c + "%";
+          r.style.height = 100 + c + "%";
+        }
+        function ht() {
+          if (rt === 0) {
+            rt = 1;
+            B.style.display = "inline-block";
+            for (let n of U) {
+              n.style.display = "none";
+            }
+          } else {
+            rt = 0;
+            B.style.display = "none";
+            for (let n of U) {
+              n.style.display = "flex";
+            }
+          }
+        }
+        function dt(t, n, i) {
+          return (1 - i) * t + i * n;
+        }
+        function gt(t) {
+          t.Aa = dt(t.Aa, t.ya, 0.1);
+          t.Ba = dt(t.Ba, t.Ua, 0.1);
+          t.za = dt(t.za, t.Ea, 0.1);
+          t.Ca = dt(t.Ca, t.Da, 0.1);
+        }
+        function wt(t, o, r) {
+          const a = l(t);
+          this.Sa = new __MUTATEQOoOOoOO.La(a, o, 186, 196, gt);
+          this.Sa.ya = 0;
+          this.Sa.Ua = 0;
+          this.Sa.Ea = 1;
+          this.Sa.Da = 1;
+          const s = Math.min(e[0].length - 1, __MUTATEQQo.getData("skin") || 0);
+          const u = Math.min(e[1].length - 1, __MUTATEQQo.getData("accessory") || 0);
+          const f = Math.min(e[2].length - 1, __MUTATEQQo.getData("back") || 0);
+          this.Sa.xa("img/skins/back" + f + ".png", 93, 116, Math.PI / 2, i, i, 1);
+          const h = this.Sa.Oa[0];
+          this.Sa.xa("img/skins/arm" + s + ".png", 58, 151, Math.PI / 2, i, i, 1);
+          const d = this.Sa.Oa[1];
+          this.Sa.xa("img/skins/arm" + s + ".png", 128, 151, Math.PI / 2, i, -1.4, 1);
+          const g = this.Sa.Oa[2];
+          this.Sa.xa("img/skins/body" + s + ".png", 93, 116, Math.PI / 2, i, i, 1);
+          const w = this.Sa.Oa[3];
+          this.Sa.xa("img/skins/accessory" + u + ".png", 93, 116, Math.PI / 2, i, i, 1);
+          const p = this.Sa.Oa[4];
+          this.ja = function (t, n) {
+            let o = "";
+            if (t === "skin") {
+              o = e[0][n][0];
+              w.Na = __MUTATEO0oo.pa("img/skins/body" + n + ".png");
+              d.Na = __MUTATEO0oo.pa("img/skins/arm" + n + ".png");
+              g.Na = d.Na;
+            } else if (t === "accessory") {
+              o = e[1][n][0];
+              p.Na = __MUTATEO0oo.pa("img/skins/accessory" + n + ".png");
+            } else if (t === "back") {
+              o = e[2][n][0];
+              h.Na = __MUTATEO0oo.pa("img/skins/back" + n + ".png");
+            }
+            r.innerText = o;
+            tt = o;
+          };
+        }
+        function pt(t) {
+          O.classList.remove("dark-blue-button-4-active");
+          j.classList.remove("dark-blue-button-4-active");
+          N.classList.remove("dark-blue-button-4-active");
+          H.classList.remove("dark-blue-button-4-active");
+          R.classList.remove("dark-blue-button-4-active");
+          G.classList.remove("dark-blue-button-4-active");
+          t.classList.add("dark-blue-button-4-active");
+        }
+        function bt(n, i, e) {
+          n.addEventListener("click", function () {
+            if (X !== undefined) {
+              X.classList.remove("skin-active");
+            }
+            X = n;
+            n.classList.add("skin-active");
+            __MUTATEQQo.setData(i, e);
+            h.skins.skinSelector.ja(i, e);
+          });
+        }
+        function vt(t, i, e, o) {
+          t.addEventListener("click", function () {
+            $ = i;
+            it = e;
+            nt = o;
+            if (X !== undefined) {
+              X.classList.remove("skin-active");
+            }
+            X = t;
+            t.classList.add("skin-active");
+            V.innerText = o;
+            P.style.display = "flex";
+            if (__MUTATEOoQ0O.aa() >= o) {
+              P.classList.remove("yellow-button-active");
+              q.innerText = "BUY";
+              q.style.cursor = "url(img/ui/cursor-pointer.png) 6 0, pointer";
+              V.style.cursor = "url(img/ui/cursor-pointer.png) 6 0, pointer";
+              Y.style.cursor = "url(img/ui/cursor-pointer.png) 6 0, pointer";
+            } else {
+              P.classList.add("yellow-button-active");
+              q.innerText = "NEED";
+              q.style.cursor = "";
+              V.style.cursor = "";
+              Y.style.cursor = "";
+            }
+            h.shop.skinSelector.ja(i, e);
+          });
+        }
+        function mt(t, n) {
+          return t[2] - n[2];
+        }
+        function Tt(t, i, o, r) {
+          if (ct === t) {
+            return;
+          }
+          ct = t;
+          pt(i);
+          r.innerHTML = "";
+          const s = a[t];
+          const u = e[t].slice().sort(mt);
+          const f = u.length;
+          const d = __MUTATEOoQ0O.sa(s);
+          let g = document.createElement("div");
+          g.classList.add("skins-line");
+          let w = 0;
+          let p = 0;
+          for (let t = 0; t < f; t++) {
+            let n = u[t];
+            let i = n[2];
+            let e = n[1];
+            if (o === 1 && i !== 0 && d.indexOf(e) === -1) {
+              continue;
+            }
+            if (o === 2 && (i === 0 || d.indexOf(e) !== -1)) {
+              continue;
+            }
+            let a = document.createElement("img");
+            a.Wa = s + e;
+            a.draggable = "false";
+            a.src = "img/ui/" + s + e + ".png";
+            a.classList.add("skin");
+            g.appendChild(a);
+            if (o === 1) {
+              bt(a, s, e);
+            } else if (o === 2) {
+              vt(a, s, e, i);
+            }
+            if (w === 0 || (w + 1) % 5 != 0 && t !== f - 1) {
+              p = 1;
+            } else {
+              r.appendChild(g);
+              g = document.createElement("div");
+              g.classList.add("skins-line");
+              p = 0;
+            }
+            w++;
+          }
+          if (p === 1) {
+            r.appendChild(g);
+          }
+          const b = Math.min(u.length - 1, __MUTATEQQo.getData(s) || 0);
+          X = l(s + b);
+          if (X) {
+            X.classList.add("skin-active");
+            h.skins.skinSelector.ja(s, b);
+          }
+        }
+        function _t(t, n, i, e) {
+          const o = h.skins;
+          const r = h.shop;
+          o.skinSelector.Sa.ya = t;
+          o.skinSelector.Sa.Ua = n;
+          o.skinSelector.Sa.Ea = i;
+          o.skinSelector.Sa.Da = e;
+          r.skinSelector.Sa.ya = t;
+          r.skinSelector.Sa.Ua = n;
+          r.skinSelector.Sa.Ea = i;
+          r.skinSelector.Sa.Da = e;
+        }
+        function Mt(t) {
+          _t(0, 0, 1, 1);
+          X = undefined;
+          ct = -1;
+          t.innerHTML = "";
+        }
+        T.addEventListener("click", function () {
+          if (J !== undefined) {
+            J.hide();
+          }
+        });
+        (function () {
+          l("version").innerText = 9;
+          for (let t in u) {
+            new ft(u[t]);
+          }
+          for (let t in f) {
+            new ut(f[t]);
+          }
+          _.addEventListener("click", function () {
+            __MUTATEQQo.setData("gameVersion", 9);
+            d.changelog.show();
+            A.style.display = "none";
+          });
+          const e = "_atgam";
+          if (!__MUTATEQQo.getData(e)) {
+            __MUTATEQQo.setData(e, "GM" + __MUTATEQQo.Qa(1) + "." + __MUTATEQQo.Qa(4) + "." + __MUTATEQQo.Qa(16), ".sploop.io");
+          }
+          M.addEventListener("click", function () {
+            d.settings.show();
+          });
+          k.addEventListener("click", function () {
+            d.policy.show();
+          });
+          y.addEventListener("click", ht);
+          B.addEventListener("click", ht);
+          const o = h.skins;
+          o.skinSelector = new wt("skin-box", "skin-selector", x);
+          o.$c = function () {
+            const n = Number(__MUTATEQQo.getData("skin")) || 0;
+            o.skinSelector.ja("skin", n);
+            const e = Number(__MUTATEQQo.getData("accessory")) || 0;
+            o.skinSelector.ja("accessory", e);
+            const r = Number(__MUTATEQQo.getData("back")) || 0;
+            o.skinSelector.ja("back", r);
+            o.skinSelector.Sa.ea();
+            Tt(0, O, 1, L);
+          };
+          o.Xc = function () {
+            o.skinSelector.Sa.remove();
+            Mt(L);
+          };
+          j.addEventListener("click", function () {
+            _t(0, 0, 1, 1);
+            Tt(1, j, 1, L);
+          });
+          N.addEventListener("click", function () {
+            _t(27.900000000000006, 58.80000000000001, 0.7, 0.7);
+            Tt(2, N, 1, L);
+          });
+          O.addEventListener("click", function () {
+            _t(0, 0, 1, 1);
+            Tt(0, O, 1, L);
+          });
+          const r = h.shop;
+          r.skinSelector = new wt("shop-skin-box", "shop-skin-selector", Q);
+          r.$c = function () {
+            r.skinSelector.Sa.ea();
+            __MUTATEOoQ0O.oa();
+            const n = Number(__MUTATEQQo.getData("skin")) || 0;
+            r.skinSelector.ja("skin", n);
+            const e = Number(__MUTATEQQo.getData("accessory")) || 0;
+            r.skinSelector.ja("accessory", e);
+            const o = Number(__MUTATEQQo.getData("back")) || 0;
+            r.skinSelector.ja("back", o);
+            P.style.display = "none";
+            Tt(0, H, 2, W);
+          };
+          r.Xc = function () {
+            __MUTATEOoQ0O.ra();
+            r.skinSelector.Sa.remove();
+            Mt(W);
+          };
+          G.addEventListener("click", function () {
+            _t(27.900000000000006, 58.80000000000001, 0.7, 0.7);
+            Tt(2, G, 2, W);
+          });
+          R.addEventListener("click", function () {
+            _t(0, 0, 1, 1);
+            Tt(1, R, 2, W);
+          });
+          H.addEventListener("click", function () {
+            _t(0, 0, 1, 1);
+            Tt(0, H, 2, W);
+          });
+          P.addEventListener("click", function () {
+            __MUTATEOoQ0O.ua($, tt, it, nt);
+          });
+          Z.addEventListener("click", function () {
+            const n = d["progress-loss"];
+            n.hide();
+            n.next();
+          });
+          K.addEventListener("click", function () {
+            d["progress-loss"].hide();
+          });
+          window.addEventListener("resize", lt, false);
+          lt();
+          g.style.display = "flex";
+          h.game.show();
+          I.addEventListener("input", function () {
+            __MUTATEQQo.setData("nickname", I.value);
+          });
+          I.value = __MUTATEQQo.getData("nickname") || "";
+          const c = Number(__MUTATEQQo.getData("gameVersion")) || 0;
+          A.style.display = c === 9 ? "none" : "flex";
+        })();
+        return {
+          get: l,
+          views: h,
+          ta: d,
+          Jc: function (t) {
+            et++;
+            z.classList.remove("fade-in");
+            z.style.display = "flex";
+            E.innerText = t;
+            setTimeout(at, 0);
+          },
+          Kc: function () {
+            et = Math.max(0, et - 1);
+            if (et <= 0) {
+              z.style.display = "none";
+            }
+          },
+          Ha: function (t) {
+            ot++;
+            C.classList.remove("fade-in");
+            C.style.display = "flex";
+            D.innerText = t;
+            setTimeout(st, 0);
+          },
+          Ra: function () {
+            ot = Math.max(0, ot - 1);
+            if (ot <= 0) {
+              C.style.display = "none";
+            }
+          },
+          Ga: o.length,
+          Va: r.length,
+          qa: c.length
+        };
+      }();
+      try {
+        n.exports = o;
+      } catch (t) {}
+    },
+    6820: function () {
+      var i;
+      var e = document.getElementById("show-ranks-list-button");
+      var o = document.getElementById("ranking-rank-container");
+      var r = document.getElementById("ranks-list");
+      var c = document.getElementById("ranking-rank");
+      var a = document.getElementById("ranking-fullscreen");
+      var s = document.getElementById("rank-fullscreen-close");
+      var u = [document.getElementById("ranking-middle-main"), document.getElementById("ranking2-middle-main")];
+      for (var f = ["profile", "shop", "game", "skins"], l = 0; l < f.length; l++) {
+        i = f[l];
+        document.getElementById("nav-" + i).addEventListener("click", function () {
+          if (u[0].classList.contains("rank-fullscreen")) {
+            d();
+          }
+          a.parentElement.style.display = "none";
+        });
+      }
+      document.getElementById("nav-ranking").addEventListener("click", function () {
+        a.parentElement.style.display = "flex";
+      });
+      var h = [];
+      for (l = 0; l < u.length; l++) {
+        h.push({
+          parent: u[l].parentElement,
+          nextSibling: u[l].nextElementSibling
+        });
+      }
+      function d() {
+        s.style.display = "none";
+        a.src = "img/ui/fullscreen.png";
+        for (var i = 0; i < u.length; i++) {
+          var e = u[i];
+          e.classList.remove("rank-fullscreen");
+          var o = h[i];
+          if (o.nextSibling && o.nextSibling.parentNode === o.parent) {
+            o.parent.insertBefore(e, o.nextSibling);
+          } else {
+            o.parent.appendChild(e);
+          }
+        }
+      }
+      function g() {
+        a.src = "img/ui/unfullscreen.png";
+        for (var i = 0; i < u.length; i++) {
+          document.body.appendChild(u[i]);
+          u[i].classList.add("rank-fullscreen");
+        }
+        s.style.display = "flex";
+      }
+      s.addEventListener("click", d);
+      a.onclick = function () {
+        if (u[0].classList.contains("rank-fullscreen")) {
+          d();
+        } else {
+          g();
+        }
+      };
+      document.addEventListener("keydown", function (t) {
+        if (t.key === "Escape" && u[0].classList.contains("rank-fullscreen")) {
+          d();
+        }
+      });
+      e.onmousedown = function () {
+        e.classList.add("dark-blue-button-2-active");
+      };
+      e.onclick = function () {
+        u[0].style.display = "none";
+        u[1].style.display = "inline-block";
+        r.style.display = "block";
+        o.style.display = "none";
+        c.classList.remove("dark-blue-button-2-active");
+      };
+      c.onclick = function () {
+        r.style.display = "none";
+        o.style.display = "block";
+        c.classList.add("dark-blue-button-2-active");
+        e.classList.remove("dark-blue-button-2-active");
+      };
+      for (var w = 0; w < u.length; w++) {
+        u[w].classList.add("scrollbar");
+      }
+    },
+    9082: function (n, i, e) {
+      var r = "";
+      var c = 0;
+      var a = 0;
+      for (var s = e(2072).split("\n"), u = 0; u < s.length; u++) {
+        var f = s[u].trim();
+        if (f) {
+          if (f !== "!HTML") {
+            if (f !== "!New Section") {
+              if (f.indexOf("img/") !== -1 && a !== 5 && f[0] !== "i") {
+                f = f.replace(/(img\/.*\.png)/, "<img class=\"tutorial-img\" src=\"$1\">");
+              }
+              if (a === 0) {
+                a = 1;
+                r += "<div class=\"tutorial-page subcontent-bg\"><h2 class=\"subcontent-title\">" + f + "</h2>";
+              } else if (a === 1) {
+                a = 2;
+                r += "<span class=\"subcontent-title\">" + f + "</span><br>";
+              } else if (a === 2) {
+                a = 4;
+                r += "<br><div class=\"tutorial-title-container\"><span class=\"subcontent-title tutorial-title\">" + f + "</span>";
+              } else if (a === 4) {
+                if (f[0] === "-") {
+                  a = 3;
+                  r += "</div><ul><li><b>•</b> " + f.slice(2) + "</li>";
+                } else if (f[0] === "i") {
+                  r += "<img class=\"tutorial-img\" src=\"" + f + "\">";
+                }
+              } else if (a === 3) {
+                r += "<li><b>•</b> " + f.slice(2) + "</li>";
+              } else if (a === 5) {
+                r += f;
+              }
+            } else {
+              r += "</div>";
+              a = 0;
+            }
+          } else if (a === 5) {
+            a = c;
+          } else {
+            c = a;
+            a = 5;
+          }
+        } else if (a === 3) {
+          a = 2;
+          r += "</ul>";
+        }
+      }
+      if (a === 3) {
+        r += "</ul>";
+      } else if (a === 4) {
+        r += "</div>";
+      }
+      r += "</div>";
+      var l = document.getElementById("tutorial-pages-container");
+      if (l) {
+        l.insertAdjacentHTML("beforeend", r);
+      }
+    },
+    2190: function (n, i, e) {
+      try {
+        __MUTATEO0oo = e(2677);
+        __MUTATEQQo = e(3543);
+      } catch (t) {}
+      const r = function () {
+        const n = function () {};
+        const i = [];
+        let e;
+        function o(n) {
+          const o = n.Na.ba;
+          if (o.da !== 1) {
+            n.Na.ba = __MUTATEO0oo.va(n.Na.src, o);
+            return;
+          }
+          const r = n.Pa * o.width / 2;
+          const c = n.Ya * o.height / 2;
+          e.save();
+          e.translate(n.Za, n.Ka);
+          e.rotate(n.Ia);
+          e.scale(n.Fa, n.Ja);
+          if (n.Xa !== 1) {
+            e.globalAlpha = n.Xa;
+          }
+          e.drawImage(o, -r / 2, -c / 2, r, c);
+          e.restore();
+        }
+        function r(t, n, i, e, o, r, c) {
+          this.Na = __MUTATEO0oo.pa(t);
+          this.Za = n || 0;
+          this.Ka = i || 0;
+          this.Ia = e || 0;
+          this.Pa = Math.abs(o) || 1;
+          this.Ya = Math.abs(r) || 1;
+          this.Fa = o > 0 ? 1 : -1;
+          this.Ja = r > 0 ? 1 : -1;
+          this.Xa = c || 1;
+        }
+        return {
+          La: function (c, a, s, u, f) {
+            const l = this;
+            if (f === undefined) {
+              f = n;
+            }
+            this.Oa = [];
+            this.go = a;
+            this.Aa = 0;
+            this.Ba = 0;
+            this.za = 1;
+            this.Ca = 1;
+            this.isActive = 0;
+            this.ea = function () {
+              c.innerHTML = "<canvas id=\"" + a + "\"></canvas>";
+              l.$a = document.getElementById(a);
+              l.ts = l.$a.getContext("2d");
+              l.$a.width = s;
+              l.$a.height = u;
+              l.isActive = 1;
+              i.push(l);
+            };
+            this.remove = function () {
+              l.isActive = 0;
+              i.splice(i.indexOf(l), 1);
+              c.innerHTML = "";
+              l.$a = undefined;
+              l.ts = undefined;
+            };
+            this.ns = function () {
+              l.remove();
+              l.Oa.length = 0;
+            };
+            this.xa = function (n, i, e, o, c, a, s) {
+              const f = new r(n, i, e, o, c, a, s);
+              l.Oa.push(f);
+            };
+            this.es = function () {
+              if (l.isActive === 0) {
+                return;
+              }
+              const i = e;
+              e = l.ts;
+              e.clearRect(0, 0, s, u);
+              e.save();
+              e.translate(l.Aa, l.Ba);
+              e.scale(l.za, l.Ca);
+              f(l);
+              const r = l.Oa.length;
+              for (let t = 0; t < r; t++) {
+                o(l.Oa[t]);
+              }
+              e.restore();
+              e = i;
+            };
+          },
+          es: function () {
+            const t = i.length;
+            for (let n = 0; n < t; n++) {
+              i[n].es();
+            }
+          }
+        };
+      }();
+      try {
+        n.exports = r;
+      } catch (t) {}
+    },
+    1872: function () {
+      var i = document.getElementById("pop-ui");
+      var e = document.getElementById("pop-tutorial");
+      document.getElementById("how-to").onclick = function () {
+        i.style.display = "flex";
+        i.classList.remove("fade-in");
+        e.style.display = "flex";
+        e.classList.remove("popup-fade-in");
+        setTimeout(function () {
+          i.classList.add("fade-in");
+          e.classList.add("popup-fade-in");
+        }, 0);
+      };
+      i.addEventListener("click", function (t) {
+        if (t.target === i || t.target.classList.contains("pop-close")) {
+          i.style.display = "none";
+          e.style.display = "none";
+        }
+      });
+      var o = document.getElementById("tutorial-contents");
+      var r = document.getElementById("tutorial-scrolltop");
+      var c = document.getElementById("tutorial-pages-container");
+      for (var a = e.querySelectorAll("h2.subcontent-title"), s = 1; s < a.length; s++) {
+        (function (t) {
+          var e = document.createElement("li");
+          e.textContent = a[t].textContent;
+          e.classList.add("pop-close");
+          e.onclick = function () {
+            a[t].parentElement.scrollIntoView({
+              os: "start",
+              behavior: "smooth"
+            });
+          };
+          o.appendChild(e);
+        })(s);
+      }
+      r.onclick = function () {
+        c.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth"
+        });
+      };
+      c.onscroll = function () {
+        if (c.scrollTop >= 300) {
+          r.style.opacity = "1";
+        } else {
+          r.style.opacity = "0";
+        }
+      };
+      var u = document.getElementById("acceptPolicyButton");
+      if (u) {
+        u.onclick = function () {
+          i.click();
+        };
+      }
+    },
+    9605: function () {
+      var t = document.getElementById("help-howto");
+      var n = document.getElementById("how-to");
+      if (localStorage.getItem("helpClicked")) {
+        t.style.display = "none";
+      }
+      n.addEventListener("click", function () {
+        localStorage.setItem("helpClicked", "true");
+        t.style.display = "none";
+      });
+    },
+    1174: function (n, i, e) {
+      const o = function () {
+        let n;
+        let i;
+        return {
+          ea: function () {
+            n = e(5299);
+            try {
+              r = document;
+              c = "script";
+              a = "gamedistribution-jssdk";
+              u = r.getElementsByTagName(c)[0];
+              if (!r.getElementById(a)) {
+                (s = r.createElement(c)).Wa = a;
+                s.src = "https://api.adinplay.com/libs/aiptag/pub/LSI/lostworld.io/tag.min.js";
+                u.parentNode.insertBefore(s, u);
+              }
+              const t = {
+                cmd: []
+              };
+              window.aiptag = window.aiptag || t;
+              const n = window.aiptag;
+              n.cmd.display = n.cmd.display || [];
+              n.cmd.player = n.cmd.player || [];
+              window.aiptag.cmd.display.push(function () {
+                window.aipDisplayTag.display("lostworld-io_300x250_1");
+              });
+              window.aiptag.cmd.display.push(function () {
+                window.aipDisplayTag.display("lostworld-io_300x250_2");
+              });
+              window.aiptag.cmd.display.push(function () {
+                window.aipDisplayTag.display("lostworld-io_970x250");
+              });
+              n.cmd.player.push(function () {
+                window.adplayer = new window.aipPlayer({
+                  AIP_REWARDEDCOMPLETE: function (t) {
+                    if (t !== "canceled") {
+                      i.rs();
+                    }
+                  },
+                  AD_WIDTH: 960,
+                  AD_HEIGHT: 540,
+                  AD_FULLSCREEN: true,
+                  AD_CENTERPLAYER: true,
+                  LOADING_TEXT: "loading advertisement",
+                  PREROLL_ELEM: function () {
+                    return document.getElementById("preroll");
+                  },
+                  AIP_COMPLETE: function (t) {
+                    i.rs();
+                  },
+                  AIP_REMOVE: function () {}
+                });
+              });
+            } catch (t) {}
+            var r;
+            var c;
+            var a;
+            var s;
+            var u;
+          },
+          refresh: function () {
+            try {
+              window.aiptag.cmd.display.push(function () {
+                window.aipDisplayTag.display("lostworld-io_300x250_1");
+              });
+              window.aiptag.cmd.display.push(function () {
+                window.aipDisplayTag.display("lostworld-io_300x250_2");
+              });
+              window.aiptag.cmd.display.push(function () {
+                window.aipDisplayTag.display("lostworld-io_970x250");
+              });
+            } catch (t) {}
+          },
+          cs: function () {
+            n.ss();
+          },
+          us: function () {
+            try {
+              if (window.adplayer !== undefined) {
+                startReward();
+                window.aiptag.cmd.player.push(function () {
+                  window.adplayer.startPreRoll();
+                });
+                return 1;
+              } else {
+                __MUTATEooO();
+                return 0;
+              }
+            } catch (t) {
+              __MUTATEooO();
+              return 0;
+            }
+          },
+          fs: function (t) {
+            i = t;
+            i.rs();
+          }
+        };
+      }();
+      try {
+        n.exports = o;
+      } catch (t) {}
+    },
+    5299: function (n, i, e) {
+      try {
+        __MUTATEOoQ0O = e(6078);
+        __MUTATEO = e(9847);
+        __MUTATEQQo = e(3543);
+        __MUTATEQQooQO0Q0 = e(1174);
+        __MUTATE0o = e(3840);
+        __MUTATEOQ0QOO0QQ = e(8582);
+        __MUTATE000 = e(9705);
+        CPMStarAds = e(5438);
+      } catch (t) {}
+      let r;
+      function c() {
+        if (n.exports.ls === 1) {
+          try {
+            __MUTATEO.get("lostworld-io_970x250").innerHTML = "<a href=\"https://taming.io\" onclick=\"try{Widget.sendAdd('taming.io')}catch(e){}\" target=\"_blank\"><img draggable=\"false\" style=\"cursor: url(./img/ui/cursor-pointer.png) 16 0, pointer;\" src=\"./img/ui/taming92.png\"></img></a>";
+            __MUTATEO.get("lostworld-io_300x250_1").innerHTML = "<a href=\"https://shootup.io\" onclick=\"try{Widget.sendAdd('shootup.io')}catch(e){}\" target=\"_blank\"><img draggable=\"false\" style=\"cursor: url(./img/ui/cursor-pointer.png) 16 0, pointer;\" src=\"./img/ui/shootup32.png\"></img></a>";
+            __MUTATEO.get("lostworld-io_300x250_2").innerHTML = "<a href=\"https://webgames.io\" onclick=\"try{Widget.sendAdd('webgames.io')}catch(e){}\" target=\"_blank\"><img draggable=\"false\" style=\"cursor: url(./img/ui/cursor-pointer.png) 16 0, pointer;\" src=\"./img/ui/webgames32.png\"></img></a>";
+          } catch (t) {}
+        }
+      }
+      Date.now();
+      try {
+        n.exports = {};
+        n.exports.hs = function (n) {
+          r.refresh();
+        };
+        n.exports.fs = function (t) {
+          r.fs(t);
+        };
+        n.exports.ds = r;
+        n.exports.ls = 0;
+        n.exports.gs = c;
+        n.exports.ss = function (t) {
+          t = t || "https://api.adinplay.com/libs/aiptag/assets/adsbygoogle.js";
+          __MUTATEQQo.request(t, undefined, function () {
+            n.exports.ls = 1;
+            c();
+          });
+        };
+        n.exports.ws = function () {
+          adblockerPopup.hI();
+        };
+        n.exports.ps = function () {};
+      } catch (t) {}
+      (function () {
+        const n = __MUTATEQQo.ia("ref");
+        if (n === "crazygames") {
+          r = __MUTATE0o;
+          const n = __MUTATEO.get("shop-io-games");
+          n[__MUTATEQQo.Fc("onclick")] = function () {};
+          n[__MUTATEQQo.Fc("href")] = "https://www.crazygames.com/c/io";
+        } else if (n === "gamedistribution") {
+          __MUTATEO.get("cross-promo").style.display = "none";
+          r = __MUTATEOQ0QOO0QQ;
+        } else if (n === "gamemonetize") {
+          r = __MUTATE000;
+        } else {
+          r = CPMStarAds;
+          __MUTATEO.get("iogames").style.display = "none";
+        }
+        __MUTATEO.get("da-left").innerHTML = "<div id='lostworld-io_300x250_1'></div>";
+        __MUTATEO.get("da-right").innerHTML = "<div id='lostworld-io_300x250_2'></div>";
+        __MUTATEO.get("da-bottom").innerHTML = "<div id='lostworld-io_970x250'></div>";
+        r.ea();
+        r.cs();
+      })();
+    },
+    5438: function (n, i, e) {
+      const o = function () {
+        let n;
+        let i;
+        let o;
+        return {
+          ea: function () {
+            n = e(5299);
+            o = e(3543);
+            try {
+              (function () {
+                var i = o.Fc("824_52651_gameapi");
+                var e = o.Fc("cpmstarx");
+                var r = window[e] = window[e] || {};
+                var c = Math.round(Math.random() * 999999);
+                var s = document.createElement("script");
+                s[o.Fc("type")] = "text/javascript";
+                s[o.Fc("async")] = true;
+                s[o.Fc("onerror")] = function () {
+                  function t(t) {
+                    if (t && typeof t == "object" && a[o.Fc("fail")]) {
+                      a[o.Fc("fail")]();
+                    }
+                  }
+                  if (r && Array.isArray(r[o.Fc("cmd")]) && r[o.Fc("cmd")].forEach(t)) {
+                    r[o.Fc("cmd")].length = 0;
+                  }
+                  cpmstarAPI = window[o.Fc("_" + i)] = t;
+                };
+                var u = document.location[o.Fc("protocol")];
+                var f = u == "https:" || u == "file:" ? "https://server" : "//cdn";
+                if (window.location[o.Fc("hash")] == "#cpmstarDev") {
+                  f = "//dev.server";
+                }
+                if (window.location[o.Fc("hash")] == "#cpmstarStaging") {
+                  f = "//staging.server";
+                }
+                s.src = f + ".cpmstar.com/cached/zonefiles/" + i + ".js?rnd=" + c;
+                var l = document.getElementsByTagName("script")[0];
+                l.parentNode.insertBefore(s, l);
+                cpmstarAPI = function (t) {
+                  (r[o.Fc("cmd")] = r[o.Fc("cmd")] || []).push(t);
+                };
+                cpmstarAPI;
+              })();
+              const n = document.createElement("script");
+              n.setAttribute("src", "https://ssl.cdne.cpmstar.com/cached/js/lib.js");
+              document.head.appendChild(n);
+              (function () {
+                var t = window;
+                var n = 86200;
+                document.getElementById("lostworld-io_300x250_1").classList.add("div-" + n);
+                var i = o.Fc("cpmstarx");
+                var e = t.document.getElementsByClassName("div-" + n);
+                var r = e.length - 1;
+                var c = e[r];
+                const a = {
+                  [o.Fc("kind")]: "asynctagfetch",
+                  [o.Fc("el")]: c,
+                  [o.Fc("pid")]: n,
+                  [o.Fc("pindex")]: r
+                };
+                t[i] = t[i] || {};
+                (t[i][o.Fc("libcmd")] = t[i][o.Fc("libcmd")] || []).push(a);
+              })();
+              (function () {
+                var n = window;
+                var e = 86185;
+                document.getElementById("lostworld-io_300x250_2").classList.add("div-" + e);
+                var r = o.Fc("cpmstarx");
+                var c = n.document.getElementsByClassName("div-" + e);
+                var a = c.length - 1;
+                var s = c[a];
+                const u = {
+                  [o.Fc("kind")]: "asynctagfetch",
+                  [o.Fc("el")]: s,
+                  [o.Fc("pid")]: e,
+                  [o.Fc("pindex")]: a
+                };
+                n[r] = n[r] || {};
+                (n[r][o.Fc("libcmd")] = n[r][o.Fc("libcmd")] || []).push(u);
+              })();
+              (function () {
+                var n = window;
+                var e = 86183;
+                document.getElementById("lostworld-io_970x250").classList.add("div-" + e);
+                var r = o.Fc("cpmstarx");
+                var c = n.document.getElementsByClassName("div-" + e);
+                var a = c.length - 1;
+                var s = c[a];
+                const u = {
+                  [o.Fc("kind")]: "asynctagfetch",
+                  [o.Fc("el")]: s,
+                  [o.Fc("pid")]: e,
+                  [o.Fc("pindex")]: a
+                };
+                n[r] = n[r] || {};
+                (n[r][o.Fc("libcmd")] = n[r][o.Fc("libcmd")] || []).push(u);
+              })();
+            } catch (t) {}
+          },
+          refresh: function () {
+            try {
+              const t = {
+                [o.Fc("kind")]: "adcmd",
+                [o.Fc("command")]: "refresh",
+                [o.Fc("module")]: "POOL 86183"
+              };
+              cpmstarAPI(t);
+              const i = {
+                [o.Fc("kind")]: "adcmd",
+                [o.Fc("command")]: "refresh",
+                [o.Fc("module")]: "POOL 86185"
+              };
+              cpmstarAPI(i);
+              const e = {
+                [o.Fc("kind")]: "adcmd",
+                [o.Fc("command")]: "refresh",
+                [o.Fc("module")]: "POOL 86200"
+              };
+              cpmstarAPI(e);
+            } catch (t) {}
+          },
+          cs: function () {
+            n.ss();
+          },
+          us: function () {
+            try {
+              __MUTATEooO();
+              return 0;
+            } catch (t) {
+              __MUTATEooO();
+              return 0;
+            }
+          },
+          fs: function (t) {
+            i = t;
+            i.rs();
+          }
+        };
+      }();
+      try {
+        n.exports = o;
+      } catch (t) {}
+    },
+    3840: function (n, i, e) {
+      const r = function () {
+        let n;
+        let i;
+        let o;
+        let r;
+        function c() {
+          if (window.CrazyGames) {
+            n = window[o.Fc("CrazyGames")][o.Fc("CrazySDK")][o.Fc("getInstance")]();
+            n[o.Fc("init")]();
+            n.addEventListener("adStarted", function () {});
+            n.addEventListener("adFinished", function () {
+              r.rs();
+            });
+            n.addEventListener("adError", function () {
+              r.rs();
+            });
+            n.addEventListener("bannerRendered", function (t) {});
+            n.addEventListener("bannerError", function (t) {});
+            a();
+          } else {
+            setTimeout(c, 100);
+          }
+        }
+        function a() {
+          try {
+            if (i.ls === 0) {
+              const t = {
+                [o.Fc("containerId")]: "lostworld-io_300x250_2",
+                [o.Fc("size")]: "300x250"
+              };
+              const i = {
+                [o.Fc("containerId")]: "lostworld-io_970x250",
+                [o.Fc("size")]: "728x90"
+              };
+              n[o.Fc("requestBanner")]([t, i]);
+            }
+          } catch (t) {}
+        }
+        let s = 0;
+        return {
+          ea: function () {
+            i = e(5299);
+            o = e(3543);
+            try {
+              r = document;
+              a = "script";
+              s = "crazygames-sdk";
+              f = r.getElementsByTagName(a)[0];
+              if (!r.getElementById(s)) {
+                (u = r.createElement(a)).Wa = s;
+                u.src = "https://sdk.crazygames.com/crazygames-sdk-v1.js";
+                f.parentNode.insertBefore(u, f);
+              }
+              document.getElementById("lostworld-io_300x250_1").style.width = "300px";
+              document.getElementById("lostworld-io_300x250_1").style.height = "250px";
+              document.getElementById("lostworld-io_300x250_2").style.width = "300px";
+              document.getElementById("lostworld-io_300x250_2").style.height = "250px";
+              document.getElementById("lostworld-io_970x250").style.width = "970px";
+              document.getElementById("lostworld-io_970x250").style.height = "250px";
+              c();
+            } catch (t) {}
+            var r;
+            var a;
+            var s;
+            var u;
+            var f;
+          },
+          refresh: a,
+          cs: function () {
+            i.ss("https://images.crazygames.com/crazygames-sdk/300x250.png");
+          },
+          us: function () {
+            try {
+              n[o.Fc("requestAd")]("rewarded");
+              return 1;
+            } catch (t) {
+              __MUTATEooO();
+              return 0;
+            }
+          },
+          fs: function (e) {
+            r = e;
+            const a = Date.now();
+            if (a - s > 60000 && i.ls === 0) {
+              s = a;
+              n[o.Fc("requestAd")]("midgame");
+            } else {
+              r.rs();
+            }
+          }
+        };
+      }();
+      try {
+        n.exports = r;
+      } catch (t) {}
+    },
+    8582: function (n, i, e) {
+      const o = function () {
+        let n;
+        let i;
+        let o;
+        let r = 0;
+        return {
+          ea: function () {
+            n = e(5299);
+            i = e(3543);
+            try {
+              window[i.Fc("GD_OPTIONS")] = {};
+              const t = window[i.Fc("GD_OPTIONS")];
+              t[i.Fc("gameId")] = "f5f7201758da41ceb7437a19b243de05";
+              t[i.Fc("onEvent")] = function (t) {
+                switch (t[i.Fc("name")]) {
+                  case "SDK_READY":
+                    if (r === 0) {
+                      r = 1;
+                      const t = {
+                        [i.Fc("containerId")]: "lostworld-io_300x250_1"
+                      };
+                      window[i.Fc("gdsdk")][i.Fc("showAd")](window[i.Fc("gdsdk")][i.Fc("AdType")][i.Fc("Display")], t);
+                      const e = {
+                        [i.Fc("containerId")]: "lostworld-io_300x250_2"
+                      };
+                      window[i.Fc("gdsdk")][i.Fc("showAd")](window[i.Fc("gdsdk")][i.Fc("AdType")][i.Fc("Display")], e);
+                      const o = {
+                        [i.Fc("containerId")]: "lostworld-io_970x250"
+                      };
+                      window[i.Fc("gdsdk")][i.Fc("showAd")](window[i.Fc("gdsdk")][i.Fc("AdType")][i.Fc("Display")], o);
+                    }
+                    break;
+                  case "AD_ERROR":
+                  case "SDK_GAME_START":
+                    o.rs();
+                }
+              };
+              a = document;
+              s = "script";
+              u = "gamedistribution-jssdk";
+              l = a.getElementsByTagName(s)[0];
+              if (!a.getElementById(u)) {
+                (f = a.createElement(s)).Wa = u;
+                f.src = "https://html5.api.gamedistribution.com/main.min.js";
+                l.parentNode.insertBefore(f, l);
+              }
+            } catch (t) {}
+            var a;
+            var s;
+            var u;
+            var f;
+            var l;
+          },
+          refresh: function () {},
+          cs: function () {
+            i.request("https://tracker.gamedock.io/v1/events-tracker/track/gd/event/pageview", function () {
+              n.ls = 0;
+            }, function (t) {
+              if (t.status === 405) {
+                n.ls = 0;
+              } else {
+                n.ls = 1;
+                n.gs();
+              }
+            });
+          },
+          us: function () {
+            try {
+              if (window[i.Fc("gdsdk")] !== undefined && window[i.Fc("gdsdk")][i.Fc("showAd")] !== undefined && n.ls === 0) {
+                n.ps();
+                window[i.Fc("gdsdk")][i.Fc("showAd")]("rewarded");
+                return 1;
+              } else {
+                n.ws();
+                return 0;
+              }
+            } catch (t) {
+              n.ws();
+              return 0;
+            }
+          },
+          fs: function (e) {
+            o = e;
+            if (window[i.Fc("gdsdk")] !== undefined && window[i.Fc("gdsdk")][i.Fc("showAd")] !== undefined && n.ls === 0) {
+              window[i.Fc("gdsdk")][i.Fc("showAd")]();
+            } else {
+              o.rs();
+            }
+          }
+        };
+      }();
+      try {
+        n.exports = o;
+      } catch (t) {}
+    },
+    9705: function (n, i, e) {
+      const r = function () {
+        let n;
+        let i;
+        let o;
+        let r = 0;
+        return {
+          ea: function () {
+            n = e(5299);
+            i = e(3543);
+            try {
+              window[i.Fc("SDK_OPTIONS")] = {};
+              window[i.Fc("SDK_OPTIONS")][i.Fc("gameId")] = "00b2pc8ju437t9b85uea23lhsmojbk2c";
+              window[i.Fc("SDK_OPTIONS")][i.Fc("onEvent")] = function (t) {
+                switch (t[i.Fc("name")]) {
+                  case "SDK_READY":
+                    if (r === 0) {
+                      r = 1;
+                    }
+                    break;
+                  case "AD_ERROR":
+                  case "SDK_GAME_START":
+                    o.rs();
+                }
+              };
+              a = document;
+              s = "script";
+              u = "gamemonetize-sdk";
+              f = a.getElementsByTagName(s)[0];
+              if (!a.getElementById(u)) {
+                (a = a.createElement(s)).Wa = u;
+                a.src = "https://api.gamemonetize.com/sdk.js";
+                f.parentNode.insertBefore(a, f);
+              }
+              const t = n.ls;
+              n.ls = 1;
+              n.gs();
+              n.ls = t;
+            } catch (t) {}
+            var a;
+            var s;
+            var u;
+            var f;
+          },
+          refresh: function () {},
+          cs: function () {
+            i.request("https://tracker.gamedock.io/v1/events-tracker/track/gd/event/pageview", function () {
+              n.ls = 0;
+            }, function (t) {
+              if (t.status === 405) {
+                n.ls = 0;
+              } else {
+                n.ls = 1;
+                n.gs();
+              }
+            });
+          },
+          us: function () {
+            try {
+              if (window[i.Fc("sdk")] !== undefined && window[i.Fc("sdk")][i.Fc("showBanner")] !== undefined && n.ls === 0) {
+                n.ps();
+                window[i.Fc("sdk")][i.Fc("showBanner")]();
+                return 1;
+              } else {
+                n.ws();
+                return 0;
+              }
+            } catch (t) {
+              n.ws();
+              return 0;
+            }
+          },
+          fs: function (e) {
+            o = e;
+            if (window[i.Fc("sdk")] !== undefined && window[i.Fc("sdk")][i.Fc("showBanner")] !== undefined && n.ls === 0) {
+              window[i.Fc("sdk")][i.Fc("showBanner")]();
+            } else {
+              o.rs();
+            }
+          }
+        };
+      }();
+      try {
+        n.exports = r;
+      } catch (t) {}
+    },
+    48: function (t, n, i) {
+      const e = i(5397);
+      t.exports = function () {
+        this.bs = e.Cc;
+      };
+    },
+    2639: function (n) {
+      function i(n) {
+        var e;
+        var o = "0123456789ABCDEF";
+        var r = "";
+        for (var c = 0; c < n.length; c++) {
+          e = n.charCodeAt(c);
+          r += o.charAt(e >>> 4 & 15) + o.charAt(e & 15);
+        }
+        return r;
+      }
+      function e(t) {
+        for (var n = Array(t.length >> 2), i = 0; i < n.length; i++) {
+          n[i] = 0;
+        }
+        for (i = 0; i < t.length * 8; i += 8) {
+          n[i >> 5] |= (t.charCodeAt(i / 8) & 255) << i % 32;
+        }
+        return n;
+      }
+      function o(t) {
+        var n = "";
+        for (var i = 0; i < t.length * 32; i += 8) {
+          n += String.fromCharCode(t[i >> 5] >>> i % 32 & 255);
+        }
+        return n;
+      }
+      function r(t, n) {
+        t[n >> 5] |= 128 << n % 32;
+        t[14 + (n + 64 >>> 9 << 4)] = n;
+        var i = 1732584193;
+        var e = -271733879;
+        var o = -1732584194;
+        var r = 271733878;
+        for (var c = 0; c < t.length; c += 16) {
+          var h = i;
+          var d = e;
+          var g = o;
+          var w = r;
+          e = f(e = f(e = f(e = f(e = u(e = u(e = u(e = u(e = s(e = s(e = s(e = s(e = a(e = a(e = a(e = a(e, o = a(o, r = a(r, i = a(i, e, o, r, t[c + 0], 7, -680876936), e, o, t[c + 1], 12, -389564586), i, e, t[c + 2], 17, 606105819), r, i, t[c + 3], 22, -1044525330), o = a(o, r = a(r, i = a(i, e, o, r, t[c + 4], 7, -176418897), e, o, t[c + 5], 12, 1200080426), i, e, t[c + 6], 17, -1473231341), r, i, t[c + 7], 22, -45705983), o = a(o, r = a(r, i = a(i, e, o, r, t[c + 8], 7, 1770035416), e, o, t[c + 9], 12, -1958414417), i, e, t[c + 10], 17, -42063), r, i, t[c + 11], 22, -1990404162), o = a(o, r = a(r, i = a(i, e, o, r, t[c + 12], 7, 1804603682), e, o, t[c + 13], 12, -40341101), i, e, t[c + 14], 17, -1502002290), r, i, t[c + 15], 22, 1236535329), o = s(o, r = s(r, i = s(i, e, o, r, t[c + 1], 5, -165796510), e, o, t[c + 6], 9, -1069501632), i, e, t[c + 11], 14, 643717713), r, i, t[c + 0], 20, -373897302), o = s(o, r = s(r, i = s(i, e, o, r, t[c + 5], 5, -701558691), e, o, t[c + 10], 9, 38016083), i, e, t[c + 15], 14, -660478335), r, i, t[c + 4], 20, -405537848), o = s(o, r = s(r, i = s(i, e, o, r, t[c + 9], 5, 568446438), e, o, t[c + 14], 9, -1019803690), i, e, t[c + 3], 14, -187363961), r, i, t[c + 8], 20, 1163531501), o = s(o, r = s(r, i = s(i, e, o, r, t[c + 13], 5, -1444681467), e, o, t[c + 2], 9, -51403784), i, e, t[c + 7], 14, 1735328473), r, i, t[c + 12], 20, -1926607734), o = u(o, r = u(r, i = u(i, e, o, r, t[c + 5], 4, -378558), e, o, t[c + 8], 11, -2022574463), i, e, t[c + 11], 16, 1839030562), r, i, t[c + 14], 23, -35309556), o = u(o, r = u(r, i = u(i, e, o, r, t[c + 1], 4, -1530992060), e, o, t[c + 4], 11, 1272893353), i, e, t[c + 7], 16, -155497632), r, i, t[c + 10], 23, -1094730640), o = u(o, r = u(r, i = u(i, e, o, r, t[c + 13], 4, 681279174), e, o, t[c + 0], 11, -358537222), i, e, t[c + 3], 16, -722521979), r, i, t[c + 6], 23, 76029189), o = u(o, r = u(r, i = u(i, e, o, r, t[c + 9], 4, -640364487), e, o, t[c + 12], 11, -421815835), i, e, t[c + 15], 16, 530742520), r, i, t[c + 2], 23, -995338651), o = f(o, r = f(r, i = f(i, e, o, r, t[c + 0], 6, -198630844), e, o, t[c + 7], 10, 1126891415), i, e, t[c + 14], 15, -1416354905), r, i, t[c + 5], 21, -57434055), o = f(o, r = f(r, i = f(i, e, o, r, t[c + 12], 6, 1700485571), e, o, t[c + 3], 10, -1894986606), i, e, t[c + 10], 15, -1051523), r, i, t[c + 1], 21, -2054922799), o = f(o, r = f(r, i = f(i, e, o, r, t[c + 8], 6, 1873313359), e, o, t[c + 15], 10, -30611744), i, e, t[c + 6], 15, -1560198380), r, i, t[c + 13], 21, 1309151649), o = f(o, r = f(r, i = f(i, e, o, r, t[c + 4], 6, -145523070), e, o, t[c + 11], 10, -1120210379), i, e, t[c + 2], 15, 718787259), r, i, t[c + 9], 21, -343485551);
+          i = l(i, h);
+          e = l(e, d);
+          o = l(o, g);
+          r = l(r, w);
+        }
+        return [i, e, o, r];
+      }
+      function c(t, n, i, e, o, r) {
+        return l(h(l(l(n, t), l(e, r)), o), i);
+      }
+      function a(t, n, i, e, o, r, a) {
+        return c(n & i | ~n & e, t, n, o, r, a);
+      }
+      function s(t, n, i, e, o, r, a) {
+        return c(n & e | i & ~e, t, n, o, r, a);
+      }
+      function u(t, n, i, e, o, r, a) {
+        return c(n ^ i ^ e, t, n, o, r, a);
+      }
+      function f(t, n, i, e, o, r, a) {
+        return c(i ^ (n | ~e), t, n, o, r, a);
+      }
+      function l(t, n) {
+        var i = (t & 65535) + (n & 65535);
+        return (t >> 16) + (n >> 16) + (i >> 16) << 16 | i & 65535;
+      }
+      function h(t, n) {
+        return t << n | t >>> 32 - n;
+      }
+      __MUTATEoo = function (t) {
+        return i(o(r(e(t), t.length * 8))).toLowerCase();
+      };
+      try {
+        n.exports = __MUTATEoo;
+      } catch (t) {}
+    },
+    3543: function (n) {
+      function e(n, i, e, o) {
+        let c = new Date();
+        c.setTime(c.getTime() + e * 24 * 60 * 60 * 1000);
+        let a = "expires=" + c.toUTCString();
+        let s = o ? ";domain=" + o : "";
+        document.cookie = n + "=" + encodeURIComponent(i) + ";" + a + ";path=/" + s;
+      }
+      function o(n) {
+        let e = n + "=";
+        var o = "";
+        try {
+          o = decodeURIComponent(document.cookie);
+        } catch (t) {
+          return "";
+        }
+        let r = o.split(";");
+        for (let t = 0; t < r.length; t++) {
+          let n = r[t];
+          while (n.charAt(0) == " ") {
+            n = n.substring(1);
+          }
+          if (n.indexOf(e) == 0) {
+            return n.substring(e.length, n.length);
+          }
+        }
+        return "";
+      }
+      const r = {
+        request: function (n, i, e) {
+          const r = new XMLHttpRequest();
+          r.open("GET", n);
+          r.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+          r.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+              if (i !== undefined) {
+                i(r.responseText);
+              }
+            } else if (this.readyState == 4 && e !== undefined) {
+              e(this);
+            }
+          };
+          r.send();
+        },
+        getData: function (n) {
+          let e = o(n);
+          if (!e) {
+            try {
+              e = window.localStorage.getItem(n);
+            } catch (t) {}
+          }
+          return e || "";
+        },
+        setData: function (t, n, i) {
+          e(t, n, 365, i);
+          try {
+            window.localStorage.setItem(t, n);
+          } catch (t) {}
+        },
+        vs: function (n, i, e) {
+          i = i ? 1 : 0;
+          const r = 3600000;
+          const c = r * 24;
+          const a = Math.floor(n / c);
+          const s = Math.floor((n %= c) / r);
+          const u = Math.floor((n %= r) / 60000);
+          n %= 60000;
+          let f = "";
+          if (i === 1) {
+            if (a !== 0) {
+              f += a + "d";
+            }
+            if (s !== 0) {
+              f += s + "h";
+            }
+            if (u !== 0) {
+              f += u;
+            }
+          } else {
+            if (a !== 0) {
+              f += a + "d ";
+            }
+            if (s !== 0) {
+              f += s + "h ";
+            }
+            if (u !== 0) {
+              f += u + "min ";
+            }
+            if (e === 1 || a === 0 & s == 0 && u === 0) {
+              f += Math.floor(n / 1000) + "s";
+            }
+          }
+          return f;
+        },
+        Ts: function (t, n) {
+          return Number(Math.round(t + "e" + n) + "e-" + n);
+        },
+        ia: function (n, i) {
+          i ||= window.location.href;
+          n = n.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+          let o = RegExp("[\\?&]" + n + "=([^&#]*)").exec(i);
+          if (o == null) {
+            return null;
+          } else {
+            return o[1];
+          }
+        },
+        Fc: function (t) {
+          return t + "";
+        },
+        Qa: function (t) {
+          let n = "";
+          for (let i = 0; i < t; i++) {
+            n += Math.floor(Math.random() * 16).toString(16);
+          }
+          return n.toUpperCase();
+        }
+      };
+      try {
+        n.exports = r;
+      } catch (t) {}
+    },
+    4733: function (n) {
+      function e(n) {
+        var e = Error("Cannot find module '" + n + "'");
+        e.code = "MODULE_NOT_FOUND";
+        throw e;
+      }
+      e.keys = function () {
+        return [];
+      };
+      e.resolve = e;
+      e.Wa = 4733;
+      n.exports = e;
+    },
+    9282: function (n, i, e) {
+      const r = e(3970);
+      const c = e(7251);
+      let a = [];
+      a[r.L] = {
+        _s: 160,
+        Ms: 160,
+        ks: c.As - 160,
+        ys: c.Bs * 5 / 20,
+        Us: "#ece5db"
+      };
+      a[r.S] = {
+        _s: 160,
+        Ms: c.Bs * 5 / 20,
+        ks: c.As - 160,
+        ys: c.Bs * 15 / 20,
+        Us: "#788F57"
+      };
+      a[r.O] = {
+        _s: 160,
+        Ms: c.Bs * 15 / 20,
+        ks: c.As - 160,
+        ys: c.Bs * 16 / 20,
+        Us: "#fcefbb"
+      };
+      a[r.j] = {
+        _s: 160,
+        Ms: c.Bs * 16 / 20,
+        ks: c.As - 160,
+        ys: c.Bs - 1000,
+        Us: "#2a8b9b"
+      };
+      a[r.N] = {
+        _s: 160,
+        Ms: c.Bs - 1000,
+        ks: c.As - 160,
+        ys: c.Bs - 160,
+        Us: "#b38354"
+      };
+      n.exports = a;
+    },
+    7251: function (n) {
+      const e = {
+        zs: 1,
+        Es: 1824,
+        Cs: 1026,
+        Ds: 130,
+        Ss: 9,
+        Ls: 1 / 3,
+        version: 7,
+        xs: 1 / 6,
+        Os: 80,
+        js: 150,
+        As: 10000,
+        Bs: 10000
+      };
+      e.Ns = Math.PI / 2;
+      e.Ws = 255;
+      e.Qs = "#FFFFFF";
+      e.Hs = 28;
+      e.Rs = 70;
+      e.Gs = 60;
+      e.Vs = 240;
+      e.qs = 17;
+      e.Ps = ["#FFD700", "#C0C0C0", "#CD7F32"];
+      e.Ys = "#FFFFFF";
+      e.Zs = 5;
+      e.Ks = "#2D3030";
+      e.Is = 1 / 12;
+      e.Fs = [0, 0, 0, 100, 30, 8, 2, 12, 32, 1, 2, 4];
+      e.Js = 2000;
+      e.Xs = 5000;
+      e.$s = 10000;
+      e.tu = false;
+      n.exports = e;
+    },
+    3287: function (t, n, i) {
+      const e = i(3950);
+      const o = i(3970);
+      const r = i(9055);
+      const c = i(1917);
+      const a = [];
+      a[c.at] = {
+        nu: 35,
+        iu: 100,
+        eu: r.it
+      };
+      a[c.ht] = {
+        nu: 60,
+        iu: 300,
+        eu: r.it
+      };
+      a[c.Ct] = {
+        nu: 50,
+        iu: 300,
+        eu: r.it
+      };
+      a[c.K] = {
+        nu: 40,
+        iu: 300,
+        eu: r.it
+      };
+      a[c.ut] = {
+        nu: 50,
+        eu: r.it,
+        ou: 1
+      };
+      a[c.Gt] = {
+        nu: 50,
+        eu: r.it,
+        ou: 5,
+        is: 20
+      };
+      a[c.Vt] = {
+        nu: 220,
+        eu: r.W,
+        ou: 5,
+        is: 1
+      };
+      a[c.nt] = {
+        nu: 76,
+        eu: r.it,
+        ru: 15
+      };
+      a[c.qt] = {
+        nu: 100,
+        eu: r.it,
+        ru: 35
+      };
+      a[c.st] = {
+        nu: 75,
+        eu: r.it,
+        cu: 1
+      };
+      a[c.Ot] = {
+        nu: 92,
+        eu: r.it,
+        cu: 1
+      };
+      a[c.Wt] = {
+        nu: 92,
+        eu: r.it,
+        cu: 0
+      };
+      a[c.Qt] = {
+        nu: 20,
+        eu: r.it,
+        cu: 0
+      };
+      a[c.jt] = {
+        nu: 92,
+        eu: r.it,
+        cu: 1
+      };
+      a[c.Nt] = {
+        nu: 58,
+        eu: r.it,
+        cu: 1
+      };
+      a[c.ay] = {
+        nu: 90,
+        eu: r.it,
+        au: 1
+      };
+      a[c.kt] = {
+        nu: 80,
+        eu: r.it,
+        au: 1
+      };
+      a[c.At] = {
+        nu: 80,
+        eu: r.it,
+        au: 1
+      };
+      a[c.yt] = {
+        nu: 60,
+        eu: r.it,
+        cu: 1
+      };
+      a[c.ft] = {
+        is: 20,
+        nu: 45,
+        iu: 380,
+        su: 20,
+        eu: r.it
+      };
+      a[c.ax] = {
+        is: 35,
+        nu: 45,
+        iu: 500,
+        eu: r.it
+      };
+      a[c.Pt] = {
+        is: 45,
+        nu: 45,
+        iu: 500,
+        eu: r.it
+      };
+      a[c._t] = {
+        is: 10,
+        nu: 42,
+        iu: 1200,
+        su: 24,
+        eu: r.it
+      };
+      a[c.lt] = {
+        nu: 45,
+        iu: 380,
+        eu: r.it
+      };
+      a[c.xt] = {
+        nu: 45,
+        iu: 380,
+        eu: r.it,
+        ru: 70,
+        Rc: 20
+      };
+      a[c.Bt] = {
+        nu: 59,
+        iu: 1750,
+        eu: r.it
+      };
+      a[c.Mt] = {
+        nu: 45,
+        iu: 800,
+        eu: r.it
+      };
+      a[c.vt] = {
+        nu: 50,
+        iu: 380,
+        eu: r.it
+      };
+      a[c.I] = {
+        nu: 40,
+        iu: 500,
+        eu: r.it
+      };
+      a[c.$] = {
+        nu: 40,
+        iu: 250,
+        eu: r.it
+      };
+      a[c.bt] = {
+        nu: 90,
+        iu: 380,
+        eu: r.it,
+        uu: 1.6,
+        fu: e.T | e.k,
+        lu: o.S
+      };
+      a[c.Ht] = {
+        nu: 20,
+        iu: 380,
+        eu: r.it,
+        uu: 1.6,
+        fu: e.T | e.k,
+        lu: o.S
+      };
+      a[c.Et] = {
+        nu: 90,
+        iu: 1000,
+        eu: r.it,
+        uu: 1.6,
+        fu: e.T | e.A,
+        is: 19
+      };
+      a[c.Ut] = {
+        nu: 90,
+        iu: 380,
+        eu: r.it,
+        uu: 1.2,
+        fu: e.T | e.B | e.A,
+        is: 14,
+        lu: o.j
+      };
+      a[c.Yt] = {
+        nu: 90,
+        iu: 450,
+        eu: r.it,
+        uu: 1.2,
+        fu: e.T | e.B | e.A,
+        is: 14,
+        lu: o.j
+      };
+      a[c.zt] = {
+        nu: 50,
+        iu: 380,
+        eu: r.it,
+        uu: 1.6,
+        fu: e.T | e.A,
+        is: 14,
+        lu: o.S
+      };
+      a[c.Lt] = {
+        nu: 100,
+        iu: 380,
+        eu: r.it,
+        uu: 0.4,
+        fu: e.T,
+        is: 15,
+        lu: o.S
+      };
+      a[c.St] = {
+        nu: 90,
+        iu: 5000,
+        eu: r.it,
+        uu: 1.6,
+        fu: e.T | e.A,
+        is: 30,
+        lu: o.L
+      };
+      a[c.Dt] = {
+        nu: 100,
+        iu: 5000,
+        eu: r.it,
+        uu: 1.15,
+        fu: e.T | e.A,
+        is: 30,
+        lu: o.S
+      };
+      a[c.dt] = {
+        nu: 40,
+        iu: 4,
+        eu: r.it
+      };
+      a[c.wt] = {
+        nu: 45,
+        iu: 400,
+        eu: r.it
+      };
+      a[c.Tt] = {
+        nu: 54,
+        iu: 400,
+        eu: r.it
+      };
+      a[c.Rt] = {
+        nu: 35,
+        iu: 150,
+        eu: r.it
+      };
+      t.exports = a;
+    },
+    3424: function (t, n, i) {
+      const e = i(9657);
+      const o = [];
+      o[e.Et] = {
+        description: "A Golden Cow has appeared!",
+        duration: 240
+      };
+      o[e.Dt] = {
+        description: "A Dragon has appeared!",
+        duration: 480
+      };
+      o[e.St] = {
+        description: "A Mammoth has appeared!",
+        duration: 480
+      };
+      t.exports = o;
+    },
+    1624: function (n, i, e) {
+      const r = e(4002);
+      const c = e(6597);
+      const a = [];
+      a[r.W] = {};
+      a[r.Zt] = {
+        hu: c.Go,
+        du: 250,
+        gu: 0,
+        description: "Become a bush",
+        Ta: "Bush Hat",
+        wu: true
+      };
+      a[r.Kt] = {
+        hu: c.Ye,
+        du: 5000,
+        description: "Increased melee damage",
+        gu: 10,
+        pu: 1.25,
+        bu: 0.85,
+        Ta: "Berserker Gear"
+      };
+      a[r.It] = {
+        hu: c.Ke,
+        du: 3000,
+        description: "Regenerate health",
+        gu: 13,
+        vu: 25,
+        Ta: "Jungle Gear"
+      };
+      a[r.Ft] = {
+        hu: c.Ie,
+        du: 5000,
+        description: "Receive reduced damage",
+        gu: 10,
+        mu: 0.75,
+        bu: 0.95,
+        Ta: "Crystal Gear"
+      };
+      a[r.Jt] = {
+        hu: c.Je,
+        du: 1000,
+        description: "Attackers receive damage",
+        gu: 10,
+        Tu: 0.45,
+        Ta: "Spike Gear"
+      };
+      a[r.Xt] = {
+        hu: c.Xe,
+        du: 4000,
+        description: "Gain more health",
+        gu: 15,
+        iu: 150,
+        Ta: "Immunity Gear"
+      };
+      a[r.$t] = {
+        hu: c.$e,
+        du: 1500,
+        description: "Move quicker",
+        gu: 23,
+        bu: 1.23,
+        Ta: "Boost Hat"
+      };
+      a[r.tn] = {
+        hu: c.Co,
+        du: 150,
+        description: "Apples become more succulent",
+        gu: 5,
+        bu: 1.05,
+        Ta: "Apple Hat"
+      };
+      a[r.nn] = {
+        hu: c.$o,
+        du: 4000,
+        description: "Move fast in ocean",
+        gu: 5,
+        bu: 0.75,
+        _u: 1.5,
+        Ta: "Scuba Gear"
+      };
+      a[r.en] = {
+        hu: c.ir,
+        du: 3500,
+        description: "Become invisible when still",
+        gu: 5,
+        Ta: "Hood",
+        wu: true
+      };
+      a[r.on] = {
+        hu: c.Gr,
+        du: 4000,
+        description: "Destroy buildings faster",
+        gu: 10,
+        Ta: "Demolist",
+        bu: 0.3
+      };
+      a[r.cn] = {
+        hu: c.Dr,
+        du: 1000,
+        description: "Its curse makes you kill",
+        gu: 2,
+        Ta: "Pumpking's Curse",
+        bu: 1.15,
+        Tu: 0.3,
+        _u: 0.7,
+        pu: 1.15,
+        iu: 120,
+        Mu: true
+      };
+      a[r.rn] = {
+        hu: c.cc,
+        du: 700,
+        description: "Move fast in the snow",
+        gu: 0,
+        bu: 1,
+        ku: 1.7,
+        Ta: "Winter Hat"
+      };
+      n.exports = a;
+    },
+    9299: function (n, i, e) {
+      const r = e(1917);
+      const c = e(6410);
+      const a = e(6597);
+      const s = e(7262);
+      const u = e(3266);
+      const f = [];
+      f[c.fn] = {
+        Wa: c.fn,
+        Au: c.Nn,
+        yu: u.nt,
+        Bu: a.Oe,
+        hu: a.fn,
+        Ta: "Tool Hammer",
+        description: "Gather materials",
+        range: 80,
+        Uu: 0,
+        su: 25,
+        reload: 300,
+        zu: 30,
+        Eu: 200,
+        Cu: 0,
+        Du: 0,
+        Su: -3.5,
+        gu: 1
+      };
+      f[c.Nn] = {
+        Wa: c.Nn,
+        Au: c.Wn,
+        yu: u.Wc,
+        Bu: a.mr,
+        hu: a.Nn,
+        Ta: "Gold Tool Hammer",
+        description: "Gather materials",
+        range: 80,
+        Uu: 0,
+        su: 32,
+        reload: 300,
+        zu: 30,
+        Eu: 200,
+        Cu: 0,
+        Du: 0,
+        Su: -3.5,
+        gu: 1
+      };
+      f[c.Wn] = {
+        Wa: c.Wn,
+        Au: c.Qn,
+        yu: u.Qc,
+        Bu: a.Tr,
+        hu: a.Wn,
+        Ta: "Diamond Tool Hammer",
+        description: "Gather materials",
+        range: 80,
+        Uu: 0,
+        su: 38,
+        reload: 300,
+        zu: 30,
+        Eu: 200,
+        Cu: 0,
+        Du: 0,
+        Su: -3.5,
+        gu: 1
+      };
+      f[c.Qn] = {
+        Wa: c.Qn,
+        Bu: a._r,
+        hu: a.Qn,
+        Ta: "Ruby Tool Hammer",
+        description: "Gather materials",
+        range: 80,
+        Uu: 0,
+        su: 41,
+        reload: 300,
+        zu: 30,
+        Eu: 200,
+        Cu: 0,
+        Du: 0,
+        Su: -3.5,
+        gu: 1
+      };
+      f[c.ln] = {
+        Wa: c.ln,
+        Au: c.ci,
+        yu: u.nt,
+        Lu: s.W,
+        xu: s.H,
+        Bu: a.xe,
+        hu: a.ln,
+        Ta: "Stone Sword",
+        description: "Sharp and pointy",
+        range: 135,
+        Eu: 250,
+        Uu: 0,
+        su: 35,
+        reload: 300,
+        Ou: 0.85,
+        Cu: 0,
+        Du: 0,
+        Su: -8,
+        gu: -4
+      };
+      f[c.ci] = {
+        Wa: c.ci,
+        Au: c.ai,
+        yu: u.Wc,
+        Lu: s.W,
+        xu: s.H,
+        Bu: a.ci,
+        hu: a.ci,
+        Ta: "Gold Sword",
+        description: "Sharp and pointy",
+        range: 135,
+        Eu: 250,
+        Uu: 0,
+        su: 38,
+        reload: 300,
+        Ou: 0.85,
+        Cu: 0,
+        Du: 0,
+        Su: -8,
+        gu: -4
+      };
+      f[c.ai] = {
+        Wa: c.ai,
+        Au: c.si,
+        yu: u.Qc,
+        Lu: s.W,
+        xu: s.H,
+        Bu: a.ai,
+        hu: a.ai,
+        Ta: "Diamond Sword",
+        description: "Sharp and pointy",
+        range: 135,
+        Eu: 250,
+        Uu: 0,
+        su: 42,
+        reload: 300,
+        Ou: 0.85,
+        Cu: 0,
+        Du: 0,
+        Su: -8,
+        gu: -4
+      };
+      f[c.si] = {
+        Wa: c.si,
+        Lu: s.W,
+        xu: s.H,
+        Bu: a.si,
+        hu: a.si,
+        Ta: "Ruby Sword",
+        description: "Sharp and pointy",
+        range: 135,
+        Eu: 250,
+        Uu: 0,
+        su: 46,
+        reload: 300,
+        Ou: 0.85,
+        Cu: 0,
+        Du: 0,
+        Su: -8,
+        gu: -4
+      };
+      f[c.Pn] = {
+        Wa: c.Pn,
+        Lu: s.W,
+        xu: s.J,
+        Bu: a.Xr,
+        hu: a.Jr,
+        Ta: "Crystal Dagger",
+        description: "A stubbier sword",
+        range: 80,
+        Eu: 100,
+        Uu: 0,
+        su: 34,
+        reload: 150,
+        Ou: 1.08,
+        Cu: 0,
+        Du: 0,
+        Su: 10,
+        gu: 20
+      };
+      f[c.qn] = {
+        Wa: c.qn,
+        Lu: s.W,
+        xu: s.J,
+        Bu: a.Nr,
+        hu: a.Rr,
+        Ta: "Ruby Dagger",
+        description: "A stubbier sword",
+        range: 80,
+        Eu: 100,
+        Uu: 0,
+        su: 34,
+        reload: 150,
+        Ou: 1.08,
+        Cu: 0,
+        Du: 0,
+        Su: 10,
+        gu: 20
+      };
+      f[c.Vn] = {
+        Wa: c.Vn,
+        Au: c.qn,
+        yu: u.Qc,
+        Lu: s.W,
+        xu: s.J,
+        Bu: a.jr,
+        hu: a.Hr,
+        Ta: "Diamond Dagger",
+        description: "A stubbier sword",
+        range: 80,
+        Eu: 100,
+        Uu: 0,
+        su: 32,
+        reload: 150,
+        Ou: 1.07,
+        Cu: 0,
+        Du: 0,
+        Su: 10,
+        gu: 20
+      };
+      f[c.Gn] = {
+        Au: c.Vn,
+        yu: u.Wc,
+        Wa: c.Gn,
+        Lu: s.W,
+        xu: s.J,
+        Bu: a.Or,
+        hu: a.Qr,
+        Ta: "Gold Dagger",
+        description: "A stubbier sword",
+        range: 80,
+        Eu: 100,
+        Uu: 0,
+        su: 30,
+        reload: 150,
+        Ou: 1.06,
+        Cu: 0,
+        Du: 0,
+        Su: 10,
+        gu: 20
+      };
+      f[c.Rn] = {
+        Au: c.Gn,
+        yu: u.nt,
+        Wa: c.Rn,
+        Lu: s.W,
+        xu: s.J,
+        Bu: a.Lr,
+        hu: a.Wr,
+        Ta: "Stone Dagger",
+        description: "A stubbier sword",
+        range: 80,
+        Eu: 100,
+        Uu: 0,
+        su: 28,
+        reload: 150,
+        Ou: 1.05,
+        Cu: 0,
+        Du: 0,
+        Su: 10,
+        gu: 20
+      };
+      f[c.vn] = {
+        Wa: c.vn,
+        Au: c.zn,
+        yu: u.nt,
+        Lu: s.H,
+        xu: s.H,
+        Bu: a.ho,
+        hu: a.vn,
+        Ta: "Katana",
+        description: "Excellent melee weapon",
+        range: 140,
+        Eu: 150,
+        Uu: 0,
+        su: 40,
+        reload: 300,
+        Ou: 0.85,
+        Cu: 0,
+        Du: 0,
+        Su: 1,
+        gu: 3
+      };
+      f[c.zn] = {
+        Wa: c.zn,
+        Au: c.Un,
+        yu: u.Wc,
+        Lu: s.H,
+        xu: s.H,
+        Bu: a.ur,
+        hu: a.zn,
+        Ta: "Gold Katana",
+        description: "Excellent melee weapon",
+        range: 140,
+        Eu: 150,
+        Uu: 0,
+        su: 43,
+        reload: 300,
+        Ou: 0.85,
+        Cu: 0,
+        Du: 0,
+        Su: 1,
+        gu: 3
+      };
+      f[c.Un] = {
+        Wa: c.Un,
+        Au: c.Dn,
+        yu: u.Qc,
+        Lu: s.H,
+        xu: s.H,
+        Bu: a.sr,
+        hu: a.Un,
+        Ta: "Diamond Katana",
+        description: "Excellent melee weapon",
+        range: 140,
+        Eu: 150,
+        Uu: 0,
+        su: 46.5,
+        reload: 300,
+        Ou: 0.85,
+        Cu: 0,
+        Du: 0,
+        Su: 1,
+        gu: 3
+      };
+      f[c.Dn] = {
+        Wa: c.Dn,
+        Lu: s.H,
+        xu: s.H,
+        Bu: a.wr,
+        hu: a.Dn,
+        Ta: "Chillrend",
+        description: "A powerful force flows through this blade.",
+        range: 140,
+        Eu: 150,
+        Uu: 0,
+        su: 48.5,
+        reload: 300,
+        Ou: 0.9,
+        Cu: 0,
+        Du: 0,
+        Su: 1,
+        gu: 3
+      };
+      f[c.Zn] = {
+        Wa: c.Zn,
+        Lu: s.H,
+        xu: s.H,
+        Bu: a.zc,
+        hu: a.Zn,
+        Ta: "Daedric Scythe",
+        description: "Whispers fill the air",
+        range: 160,
+        Eu: 150,
+        Uu: 0,
+        su: 52,
+        reload: 450,
+        Ou: 0.85,
+        Cu: 0,
+        Du: 0,
+        Su: -5,
+        gu: 20
+      };
+      f[c.q] = {
+        Wa: c.q,
+        Au: c.Sn,
+        yu: u.nt,
+        Lu: s.W,
+        xu: s.q,
+        Bu: a.eo,
+        hu: a.q,
+        Ta: "Stick",
+        description: "Gathers resources quickly",
+        range: 100,
+        Uu: 0,
+        su: 1,
+        reload: 400,
+        Cu: 0,
+        Eu: 60,
+        Du: 0,
+        Su: 4,
+        gu: 0,
+        ju: 7,
+        Nu: 7,
+        Wu: 7,
+        Qu: 4
+      };
+      f[c.Sn] = {
+        Wa: c.Sn,
+        Au: c.Ln,
+        yu: u.Wc,
+        Lu: s.W,
+        xu: s.q,
+        Bu: a.pr,
+        hu: a.Sn,
+        Ta: "Gold Stick",
+        description: "Gathers resources quickly",
+        range: 100,
+        Uu: 0,
+        su: 1,
+        reload: 400,
+        Cu: 0,
+        Eu: 60,
+        Du: 0,
+        Su: 4,
+        gu: 0,
+        ju: 8,
+        Nu: 8,
+        Wu: 8,
+        Qu: 5
+      };
+      f[c.Ln] = {
+        Wa: c.Ln,
+        Au: c.xn,
+        yu: u.Qc,
+        Lu: s.W,
+        xu: s.q,
+        Bu: a.Br,
+        hu: a.Ln,
+        Ta: "Diamond Stick",
+        description: "Gathers resources quickly",
+        range: 100,
+        Uu: 0,
+        su: 1,
+        reload: 400,
+        Cu: 0,
+        Eu: 60,
+        Du: 0,
+        Su: 4,
+        gu: 0,
+        ju: 9,
+        Nu: 9,
+        Wu: 9,
+        Qu: 6
+      };
+      f[c.xn] = {
+        Wa: c.xn,
+        Lu: s.W,
+        xu: s.q,
+        Bu: a.Ur,
+        hu: a.xn,
+        Ta: "Ruby Stick",
+        description: "Gathers resources quickly",
+        range: 100,
+        Uu: 0,
+        su: 1,
+        reload: 400,
+        Cu: 0,
+        Eu: 60,
+        Du: 0,
+        Su: 4,
+        gu: 0,
+        ju: 10,
+        Nu: 10,
+        Wu: 10,
+        Qu: 7
+      };
+      f[c.hn] = {
+        Wa: c.hn,
+        Au: c.Cn,
+        yu: u.nt,
+        Lu: s.W,
+        xu: s.R,
+        Bu: a.Ne,
+        hu: a.hn,
+        Ta: "Stone Spear",
+        description: "Long melee range",
+        range: 160,
+        Uu: 0,
+        su: 49,
+        Ou: 0.81,
+        Eu: 375,
+        reload: 700,
+        Cu: 0,
+        Du: 0,
+        Su: 0,
+        gu: 2
+      };
+      f[c.En] = {
+        Wa: c.En,
+        Au: c.ri,
+        yu: u.Qc,
+        Lu: s.W,
+        xu: s.R,
+        Bu: a.lr,
+        hu: a.En,
+        Ta: "Diamond Spear",
+        description: "Long melee range",
+        range: 160,
+        Uu: 0,
+        su: 53,
+        Ou: 0.81,
+        Eu: 375,
+        reload: 700,
+        Cu: 0,
+        Du: 0,
+        Su: 0,
+        gu: 2
+      };
+      f[c.ri] = {
+        Wa: c.ri,
+        Lu: s.W,
+        xu: s.R,
+        Bu: a._c,
+        hu: a.ri,
+        Ta: "Ruby Spear",
+        description: "Long melee range",
+        range: 160,
+        Uu: 0,
+        su: 56,
+        Ou: 0.81,
+        Eu: 375,
+        reload: 700,
+        Cu: 0,
+        Du: 0,
+        Su: 0,
+        gu: 2
+      };
+      f[c.Cn] = {
+        Wa: c.Cn,
+        Au: c.En,
+        yu: u.Wc,
+        Lu: s.W,
+        xu: s.R,
+        Bu: a.hr,
+        hu: a.Cn,
+        Ta: "Gold Spear",
+        description: "Long melee range",
+        range: 160,
+        Uu: 0,
+        su: 51,
+        Ou: 0.81,
+        Eu: 375,
+        reload: 700,
+        Cu: 0,
+        Du: 0,
+        Su: 0,
+        gu: 2
+      };
+      f[c._n] = {
+        Wa: c._n,
+        Au: c.jn,
+        yu: u.nt,
+        Lu: s.R,
+        xu: s.R,
+        Bu: a.jo,
+        hu: a._n,
+        Ta: "Naginata",
+        description: "Long melee range",
+        range: 165,
+        Uu: 0,
+        su: 52,
+        Ou: 0.81,
+        Eu: 400,
+        reload: 700,
+        Cu: 0,
+        Du: 0,
+        Su: 0,
+        gu: -4
+      };
+      f[c.jn] = {
+        Wa: c.jn,
+        Au: c.On,
+        yu: u.Wc,
+        Lu: s.R,
+        xu: s.R,
+        Bu: a.vr,
+        hu: a.jn,
+        Ta: "Gold Naginata",
+        description: "Long melee range",
+        range: 165,
+        Uu: 0,
+        su: 54,
+        Ou: 0.81,
+        Eu: 400,
+        reload: 700,
+        Cu: 0,
+        Du: 0,
+        Su: 0,
+        gu: -4
+      };
+      f[c.On] = {
+        Wa: c.On,
+        Au: c.oi,
+        yu: u.Qc,
+        Lu: s.R,
+        xu: s.R,
+        Bu: a.br,
+        hu: a.On,
+        Ta: "Diamond Naginata",
+        description: "Long melee range",
+        range: 165,
+        Uu: 0,
+        su: 56,
+        Ou: 0.81,
+        Eu: 400,
+        reload: 700,
+        Cu: 0,
+        Du: 0,
+        Su: 0,
+        gu: -4
+      };
+      f[c.oi] = {
+        Wa: c.oi,
+        Lu: s.R,
+        xu: s.R,
+        Bu: a.Tc,
+        hu: a.oi,
+        Ta: "Ruby Naginata",
+        description: "Long melee range",
+        range: 165,
+        Uu: 0,
+        su: 59,
+        Ou: 0.81,
+        Eu: 400,
+        reload: 700,
+        Cu: 0,
+        Du: 0,
+        Su: 0,
+        gu: -4
+      };
+      f[c.F] = {
+        Wa: c.F,
+        Au: c.ni,
+        yu: u.nt,
+        Lu: s.W,
+        xu: s.F,
+        Bu: a.er,
+        hu: a.F,
+        Ta: "Bat",
+        description: "Hit enemies for a home run",
+        range: 115,
+        Uu: 0,
+        su: 28,
+        Ou: 0.92,
+        Eu: 870,
+        reload: 600,
+        Cu: 0,
+        Du: 0,
+        Su: 10,
+        gu: 2
+      };
+      f[c.ni] = {
+        Wa: c.ni,
+        Au: c.ii,
+        yu: u.Wc,
+        xu: s.F,
+        Bu: a.gc,
+        hu: a.dc,
+        Ta: "Golden Bat",
+        description: "Hit enemies for a home run",
+        range: 115,
+        Uu: 0,
+        su: 28,
+        Ou: 0.92,
+        Eu: 970,
+        reload: 600,
+        Cu: 0,
+        Du: 0,
+        Su: 10,
+        gu: 2
+      };
+      f[c.ii] = {
+        Wa: c.ii,
+        Au: c.ei,
+        yu: u.Qc,
+        xu: s.F,
+        Bu: a.bc,
+        hu: a.wc,
+        Ta: "Diamond Bat",
+        description: "Hit enemies for a home run",
+        range: 115,
+        Uu: 0,
+        su: 28,
+        Ou: 0.92,
+        Eu: 1070,
+        reload: 600,
+        Cu: 0,
+        Du: 0,
+        Su: 10,
+        gu: 2
+      };
+      f[c.ei] = {
+        Wa: c.ei,
+        xu: s.F,
+        Bu: a.mc,
+        hu: a.vc,
+        Ta: "Ruby Bat",
+        description: "Hit enemies for a home run",
+        range: 115,
+        Uu: 0,
+        su: 28,
+        Ou: 0.92,
+        Eu: 1170,
+        reload: 600,
+        Cu: 0,
+        Du: 0,
+        Su: 10,
+        gu: 2
+      };
+      f[c.Yn] = {
+        Wa: c.Yn,
+        Au: c.Zn,
+        yu: u.Wc,
+        Lu: s.W,
+        xu: s.W,
+        Bu: a.Uc,
+        hu: a.Yn,
+        Ta: "Secret Item",
+        description: "Dont leak how to get it :)",
+        range: 115,
+        Uu: 0,
+        su: 28,
+        Ou: 0.92,
+        Eu: 1570,
+        reload: 1250,
+        Cu: 0,
+        Du: 0,
+        Su: 40,
+        gu: 40
+      };
+      f[c.bn] = {
+        Wa: c.bn,
+        Au: c.Xn,
+        yu: u.nt,
+        Lu: s.W,
+        xu: s.W,
+        Bu: a.uo,
+        hu: a.bn,
+        Ta: "Hammer",
+        description: "Breaks structures faster",
+        range: 80,
+        Uu: 1,
+        su: 12,
+        zu: 76,
+        Ou: 0.89,
+        Eu: 200,
+        reload: 400,
+        Cu: 0,
+        Du: 0,
+        Su: 5,
+        gu: 2
+      };
+      f[c.Xn] = {
+        Wa: c.Xn,
+        Au: c.$n,
+        yu: u.Wc,
+        Bu: a.sc,
+        hu: a.ac,
+        Ta: "Golden Hammer",
+        description: "Breaks structures faster",
+        range: 80,
+        Uu: 1,
+        su: 15,
+        zu: 79,
+        Ou: 0.89,
+        Eu: 200,
+        reload: 400,
+        Cu: 0,
+        Du: 0,
+        Su: 5,
+        gu: 2
+      };
+      f[c.$n] = {
+        Wa: c.$n,
+        Au: c.ti,
+        yu: u.Qc,
+        Bu: a.fc,
+        hu: a.uc,
+        Ta: "Diamond Hammer",
+        description: "Breaks structures faster",
+        range: 80,
+        Uu: 1,
+        su: 18,
+        zu: 82,
+        Ou: 0.89,
+        Eu: 200,
+        reload: 400,
+        Cu: 0,
+        Du: 0,
+        Su: 5,
+        gu: 2
+      };
+      f[c.ti] = {
+        Wa: c.ti,
+        Bu: a.hc,
+        hu: a.lc,
+        Ta: "Ruby Hammer",
+        description: "Breaks structures faster",
+        range: 80,
+        Uu: 1,
+        su: 21,
+        zu: 85,
+        Ou: 0.89,
+        Eu: 200,
+        reload: 400,
+        Cu: 0,
+        Du: 0,
+        Su: 5,
+        gu: 2
+      };
+      f[c.dn] = {
+        Wa: c.dn,
+        Au: c.An,
+        yu: u.nt,
+        Lu: s.W,
+        xu: s.Y,
+        Bu: a.We,
+        hu: a.He,
+        Ta: "Stone Axe",
+        description: "Gathers materials faster",
+        range: 90,
+        Uu: 0,
+        su: 30,
+        Eu: 250,
+        reload: 400,
+        Cu: 0,
+        Du: 0,
+        Su: -2,
+        gu: 2,
+        ju: 2,
+        Nu: 2,
+        Wu: 2,
+        Qu: 2
+      };
+      f[c.An] = {
+        Wa: c.An,
+        Au: c.kn,
+        yu: u.Wc,
+        Lu: s.W,
+        xu: s.Y,
+        Bu: a.cr,
+        hu: a.An,
+        Ta: "Gold Axe",
+        description: "Gathers materials faster",
+        range: 90,
+        Uu: 0,
+        su: 33,
+        Eu: 250,
+        reload: 400,
+        Cu: 0,
+        Du: 0,
+        Su: -2,
+        gu: 2,
+        ju: 2,
+        Nu: 2,
+        Wu: 2,
+        Qu: 2
+      };
+      f[c.kn] = {
+        Wa: c.kn,
+        Au: c.ui,
+        yu: u.Qc,
+        Lu: s.W,
+        xu: s.Y,
+        Bu: a.rr,
+        hu: a.kn,
+        Ta: "Diamond Axe",
+        description: "Gathers materials faster",
+        range: 90,
+        Uu: 0,
+        su: 36,
+        Eu: 250,
+        reload: 400,
+        Cu: 0,
+        Du: 0,
+        Su: -2,
+        gu: 2,
+        ju: 2,
+        Nu: 2,
+        Wu: 2,
+        Qu: 2
+      };
+      f[c.ui] = {
+        Wa: c.ui,
+        Lu: s.W,
+        xu: s.Y,
+        Bu: a.Bc,
+        hu: a.ui,
+        Ta: "Diamond Axe",
+        description: "Gathers materials faster",
+        range: 90,
+        Uu: 0,
+        su: 39,
+        Eu: 250,
+        reload: 400,
+        Cu: 0,
+        Du: 0,
+        Su: -2,
+        gu: 2,
+        ju: 2,
+        Nu: 2,
+        Wu: 2,
+        Qu: 2
+      };
+      f[c.Mn] = {
+        Wa: c.Mn,
+        Au: c.Bn,
+        yu: u.nt,
+        Lu: s.Y,
+        xu: s.Y,
+        Bu: a.Io,
+        hu: a.Mn,
+        Ta: "Great Axe",
+        description: "More powerful axe.",
+        range: 94,
+        Uu: 0,
+        su: 38,
+        Eu: 250,
+        reload: 400,
+        Cu: 0,
+        Du: 0,
+        Su: 4,
+        gu: 2,
+        ju: 4,
+        Nu: 4,
+        Wu: 4,
+        Qu: 2
+      };
+      f[c.Bn] = {
+        Wa: c.Bn,
+        Au: c.yn,
+        yu: u.Wc,
+        Lu: s.Y,
+        xu: s.Y,
+        Bu: a.dr,
+        hu: a.Bn,
+        Ta: "Gold Great Axe",
+        description: "More powerful axe.",
+        range: 94,
+        Uu: 0,
+        su: 42,
+        Eu: 250,
+        reload: 400,
+        Cu: 0,
+        Du: 0,
+        Su: 4,
+        gu: 2,
+        ju: 4,
+        Nu: 4,
+        Wu: 4,
+        Qu: 2
+      };
+      f[c.yn] = {
+        Wa: c.yn,
+        Au: c.fi,
+        yu: u.Qc,
+        Lu: s.Y,
+        xu: s.Y,
+        Bu: a.ar,
+        hu: a.yn,
+        Ta: "Diamond Great Axe",
+        description: "More powerful axe.",
+        range: 94,
+        Uu: 0,
+        su: 46,
+        Eu: 250,
+        reload: 400,
+        Cu: 0,
+        Du: 0,
+        Su: 4,
+        gu: 2,
+        ju: 4,
+        Nu: 4,
+        Wu: 4,
+        Qu: 2
+      };
+      f[c.fi] = {
+        Wa: c.fi,
+        Lu: s.Y,
+        xu: s.Y,
+        Bu: a.yc,
+        hu: a.fi,
+        Ta: "Ruby Great Axe",
+        description: "More powerful axe.",
+        range: 94,
+        Uu: 0,
+        su: 50,
+        Eu: 250,
+        reload: 400,
+        Cu: 0,
+        Du: 0,
+        Su: 4,
+        gu: 2,
+        ju: 4,
+        Nu: 4,
+        Wu: 4,
+        Qu: 2
+      };
+      f[c.G] = {
+        Wa: c.G,
+        du: [0, 0, 10, 0],
+        Lu: s.V,
+        Hu: s.H,
+        xu: s.G,
+        Bu: a.je,
+        hu: a.G,
+        Ta: "Stone Musket",
+        description: "Deal Long Range Damage",
+        range: 1000,
+        Uu: 1,
+        su: 49,
+        reload: 1500,
+        Ru: a.gt,
+        Gu: 2100,
+        Cu: 1,
+        Du: 1,
+        Ou: 0.63,
+        Su: 0,
+        gu: 0
+      };
+      f[c.V] = {
+        Wa: c.V,
+        du: [0, 4, 0, 0],
+        Lu: s.W,
+        xu: s.V,
+        Bu: a.yo,
+        hu: a.V,
+        Ta: "Bow",
+        description: "Deal Long Range Damage",
+        range: 800,
+        Uu: 1,
+        su: 25,
+        reload: 600,
+        Ru: a.Bo,
+        Gu: 1700,
+        Cu: 1,
+        Du: 1,
+        Ou: 0.75,
+        Su: 0,
+        gu: 35
+      };
+      f[c.Hn] = {
+        Wa: c.Hn,
+        du: [80, 80, 80, 80],
+        Lu: s.W,
+        xu: s.Z,
+        Bu: a.ec,
+        hu: a.Hn,
+        Ta: "Pearl",
+        description: "Teleport on impact",
+        range: 800,
+        Uu: 1,
+        su: 10,
+        reload: 7500,
+        Ru: a.Hn,
+        Gu: 1500,
+        Cu: 1,
+        Du: 1,
+        Ou: 0.5,
+        Su: 0,
+        gu: 35
+      };
+      f[c.Tn] = {
+        Wa: c.Tn,
+        du: [0, 10, 0, 0],
+        Lu: s.V,
+        xu: s.V | s.q | s.Y,
+        Bu: a.zo,
+        hu: a.Tn,
+        Ta: "XBow",
+        description: "Rapid fire bow",
+        range: 800,
+        Uu: 1,
+        su: 27,
+        reload: 235,
+        Ru: a.Bo,
+        Gu: 1700,
+        Cu: 1,
+        Du: 1,
+        Ou: 0.5,
+        Su: 0,
+        gu: 30
+      };
+      f[c.gn] = {
+        Wa: c.gn,
+        du: [0, 10, 0, 0],
+        Bu: a.Qe,
+        hu: a.Wo,
+        Ta: "Wood Wall",
+        description: "A sturdy wall",
+        Uu: 3,
+        Cu: 2,
+        Vu: 5,
+        Su: 0,
+        gu: 15,
+        qu: r.lt,
+        Du: 2
+      };
+      f[c.Rt] = {
+        Wa: c.Rt,
+        du: [0, 50, 50, 0],
+        Lu: s.Y | s.q | s.F,
+        xu: s.W,
+        Bu: a.ic,
+        hu: a.Rt,
+        Ta: "Teleporter",
+        description: "Teleports to location on map",
+        Uu: 9,
+        Cu: 2,
+        Vu: 5,
+        Su: 0,
+        gu: 15,
+        qu: r.Rt,
+        Du: 2
+      };
+      f[c.Bt] = {
+        Wa: c.Bt,
+        du: [0, 0, 35, 10],
+        Lu: s.W,
+        xu: s.W,
+        Bu: a.No,
+        hu: a.Ho,
+        Ta: "Castle Wall",
+        description: "A very sturdy wall",
+        Uu: 3,
+        Cu: 2,
+        Vu: 8,
+        Su: 0,
+        gu: 13,
+        qu: r.Bt,
+        Du: 2
+      };
+      f[c.Mt] = {
+        Wa: c.Mt,
+        du: [0, 200, 150, 10],
+        Lu: s.W,
+        xu: s.W,
+        Bu: a.To,
+        hu: a.bo,
+        Ta: "Turret",
+        description: "Defence for your base",
+        Uu: 10,
+        Cu: 2,
+        Vu: 6,
+        Su: 0,
+        gu: 25,
+        qu: r.Mt,
+        Du: 2
+      };
+      f[c.vt] = {
+        Wa: c.vt,
+        Lu: s.W,
+        xu: s.W,
+        du: [0, 200, 200, 200],
+        Bu: a.fo,
+        hu: a.Ko,
+        Ta: "Cosy Bed",
+        description: "Respawn at the bed",
+        Uu: 9,
+        Cu: 2,
+        Vu: 8,
+        Su: 0,
+        gu: 25,
+        qu: r.vt,
+        Du: 2
+      };
+      f[c.wt] = {
+        Wa: c.wt,
+        du: [0, 50, 10, 0],
+        Bu: a.ro,
+        hu: a.so,
+        Ta: "Windmill",
+        description: "Generates score over time",
+        Uu: 5,
+        Cu: 2,
+        Vu: -5,
+        Su: 0,
+        gu: 38,
+        qu: r.wt,
+        Du: 2
+      };
+      f[c.Tt] = {
+        Wa: c.Tt,
+        du: [0, 100, 50, 0],
+        Lu: s.W,
+        xu: s.W,
+        Bu: a.ro,
+        hu: a.so,
+        Ta: "Powermill",
+        description: "Generates more score over time",
+        Uu: 5,
+        Cu: 2,
+        Vu: 5,
+        Su: 0,
+        gu: 38,
+        qu: r.Tt,
+        Du: 2
+      };
+      f[c.ft] = {
+        Wa: c.ft,
+        du: [0, 20, 5, 0],
+        Bu: a.Ge,
+        hu: a.Qo,
+        Ta: "Spike",
+        description: "Sharp defence",
+        Uu: 4,
+        Cu: 2,
+        Vu: 2,
+        Su: 0,
+        gu: 15,
+        qu: r.ft,
+        Du: 2
+      };
+      f[c.ax] = {
+        Wa: c.ax,
+        Lu: s.W,
+        xu: s.W,
+        du: [0, 30, 10, 0],
+        Bu: a.po,
+        hu: a.Po,
+        Ta: "Hard Spike",
+        description: "Sharper defence",
+        Uu: 4,
+        Cu: 2,
+        Vu: 2,
+        Su: 0,
+        gu: 15,
+        qu: r.ax,
+        Du: 2
+      };
+      f[c.Pt] = {
+        Wa: c.Pt,
+        Lu: s.K,
+        xu: s.W,
+        du: [0, 40, 20, 10],
+        Bu: a.rc,
+        hu: a.oc,
+        Ta: "Ice Spike",
+        description: "Even Sharper defence",
+        Uu: 4,
+        Cu: 2,
+        Vu: 2,
+        Su: 0,
+        gu: 15,
+        qu: r.Pt,
+        Du: 2
+      };
+      f[c.At] = {
+        Wa: c.At,
+        Lu: s.W,
+        xu: s.W,
+        du: [0, 200, 0, 0],
+        Bu: a._o,
+        hu: a.Vo,
+        Ta: "Cherry wood farm",
+        description: "Used for decoration and wood",
+        Uu: 6,
+        Cu: 2,
+        Vu: 3,
+        Su: 0,
+        gu: 47,
+        qu: r.At,
+        Du: 2
+      };
+      f[c.kt] = {
+        Wa: c.kt,
+        Lu: s.W,
+        xu: s.W,
+        du: [0, 200, 0, 0],
+        Bu: a.Mo,
+        hu: a.qo,
+        Ta: "Wood farm",
+        description: "Used for decoration and wood",
+        Uu: 6,
+        Cu: 2,
+        Vu: 3,
+        Su: 0,
+        gu: 47,
+        qu: r.kt,
+        Du: 2
+      };
+      f[c.yt] = {
+        Wa: c.yt,
+        Lu: s.W,
+        xu: s.W,
+        du: [0, 0, 200, 0],
+        Bu: a.ko,
+        hu: a.Ro,
+        Ta: "Stone farm",
+        description: "Used for decoration and stone",
+        Uu: 6,
+        Cu: 2,
+        Vu: 3,
+        Su: 0,
+        gu: 20,
+        qu: r.yt,
+        Du: 2
+      };
+      f[c.mn] = {
+        Wa: c.mn,
+        Lu: s.W,
+        xu: s.W,
+        du: [200, 0, 0, 0],
+        Bu: a.Ao,
+        hu: a.Go,
+        Ta: "Berry farm",
+        description: "Used for decoration and berries",
+        Uu: 6,
+        Cu: 2,
+        Vu: 3,
+        Su: 0,
+        gu: 17,
+        qu: r.ut,
+        Du: 2
+      };
+      f[c._t] = {
+        Wa: c._t,
+        du: [0, 30, 30, 0],
+        Lu: s.Y | s.q,
+        xu: s.W,
+        Bu: a.do,
+        hu: a.Yo,
+        Ta: "Castle Spike",
+        description: "Great for bases",
+        Uu: 4,
+        Cu: 2,
+        Vu: -8,
+        Su: 0,
+        gu: 14,
+        qu: r._t,
+        Du: 2
+      };
+      f[c.K] = {
+        Wa: c.K,
+        du: [0, 5, 20, 0],
+        Lu: s.W,
+        xu: s.K,
+        Bu: a.Re,
+        hu: a.fx,
+        Ta: "Boost",
+        description: "Provides a thrust",
+        Uu: 7,
+        Cu: 2,
+        Vu: -5,
+        Su: 0,
+        gu: 3,
+        qu: r.K,
+        Du: 2
+      };
+      f[c.I] = {
+        Wa: c.I,
+        du: [0, 30, 30, 0],
+        Lu: s.W,
+        xu: s.I,
+        Bu: a.qe,
+        hu: a.fy,
+        Ta: "Trap",
+        description: "Snared enemies are stuck",
+        Uu: 7,
+        Cu: 2,
+        Vu: 2,
+        Su: 0,
+        gu: 26,
+        qu: r.I,
+        Du: 2
+      };
+      f[c.$] = {
+        Wa: c.$,
+        du: [25, 80, 50, 0],
+        Pu: 4,
+        Lu: s.W,
+        xu: s.$,
+        Bu: a.Fr,
+        hu: a.Yu,
+        Ta: "Heal Pad",
+        description: "Allies around you are healed",
+        Uu: 11,
+        Cu: 2,
+        Vu: 2,
+        Su: 0,
+        gu: 26,
+        qu: r.$,
+        Du: 2,
+        Zu: 10,
+        reload: 500,
+        range: 300
+      };
+      f[c.ht] = {
+        Wa: c.ht,
+        du: [0, 20, 0, 0],
+        Lu: s.W,
+        xu: s.ht,
+        Bu: a.Ve,
+        hu: a.Zo,
+        Ta: "Platform",
+        description: "Shoot over structures",
+        Uu: 8,
+        Cu: 2,
+        Vu: -2,
+        Su: 0,
+        gu: 8,
+        qu: r.ht,
+        Du: 2
+      };
+      f[c.Ct] = {
+        Wa: c.Ct,
+        du: [0, 20, 0, 0],
+        Lu: s.W,
+        xu: s.ht,
+        Bu: a.zr,
+        hu: a.Ct,
+        Ta: "Roof",
+        description: "Take cover from projectiles",
+        Uu: 8,
+        Cu: 2,
+        Vu: 0,
+        Su: 0,
+        gu: 15,
+        qu: r.Ct,
+        Du: 2
+      };
+      f[c.wn] = {
+        Wa: c.wn,
+        du: [10, 0, 0, 0],
+        Bu: a.Ze,
+        hu: a.wn,
+        Ta: "Apple",
+        description: "Heals you",
+        Uu: 2,
+        Cu: 3,
+        Zu: 20,
+        Su: 0,
+        gu: 22,
+        Du: 2
+      };
+      f[c.pn] = {
+        Wa: c.pn,
+        du: [15, 0, 0, 0],
+        Lu: s.W,
+        xu: s.P,
+        Bu: a.no,
+        hu: a.pn,
+        Ta: "Cookie",
+        description: "Heals you",
+        Uu: 2,
+        Cu: 3,
+        Zu: 35,
+        Su: 0,
+        gu: 22,
+        Du: 2
+      };
+      f[c.Z] = {
+        Wa: c.Z,
+        Lu: s.W,
+        xu: s.Z,
+        Bu: a.Fe,
+        hu: a.Z,
+        Ta: "Shield",
+        description: "Reduces damage",
+        Uu: 1,
+        Cu: 0,
+        Ou: 0.7,
+        Ku: 0.75,
+        range: 55,
+        Eu: 350,
+        su: 15,
+        zu: 40,
+        reload: 500,
+        Su: -15,
+        gu: 10,
+        Du: 3
+      };
+      f[c.Jn] = {
+        Wa: c.Jn,
+        Lu: s.W,
+        xu: s.X,
+        Bu: a.Ir,
+        hu: a.nc,
+        Ta: "Ruby Healing Staff",
+        description: "Make peace, not war",
+        range: 140,
+        Eu: 100,
+        Uu: 0,
+        su: 30,
+        Zu: 30,
+        reload: 500,
+        Cu: 0,
+        Du: 0,
+        Su: -30,
+        gu: 0
+      };
+      f[c.Fn] = {
+        Au: c.Jn,
+        yu: u.Qc,
+        Wa: c.Fn,
+        Lu: s.W,
+        xu: s.X,
+        Bu: a.Kr,
+        hu: a._e,
+        Ta: "Diamond Healing Staff",
+        description: "Make peace, not war",
+        range: 140,
+        Eu: 100,
+        Uu: 0,
+        su: 27,
+        Zu: 27,
+        reload: 500,
+        Cu: 0,
+        Du: 0,
+        Su: -30,
+        gu: 0
+      };
+      f[c.In] = {
+        Au: c.Fn,
+        yu: u.Wc,
+        Wa: c.In,
+        Lu: s.W,
+        xu: s.X,
+        Bu: a.Zr,
+        hu: a.tc,
+        Ta: "Gold Healing Staff",
+        description: "Make peace, not war",
+        range: 140,
+        Eu: 100,
+        Uu: 0,
+        su: 24,
+        Zu: 24,
+        reload: 500,
+        Cu: 0,
+        Du: 0,
+        Su: -30,
+        gu: 0
+      };
+      f[c.Kn] = {
+        Au: c.In,
+        yu: u.nt,
+        Wa: c.Kn,
+        Lu: s.W,
+        xu: s.X,
+        Bu: a.Yr,
+        hu: a.$r,
+        Ta: "Healing Staff",
+        description: "Make peace, not war",
+        range: 140,
+        Eu: 100,
+        Uu: 0,
+        su: 21,
+        Zu: 21,
+        reload: 500,
+        Cu: 0,
+        Du: 0,
+        Su: -30,
+        gu: 0
+      };
+      n.exports = f;
+    },
+    9435: function (t, n, i) {
+      const e = i(3255);
+      const o = i(6597);
+      const r = [];
+      r[e._e] = {
+        hu: o._e,
+        Iu: 500,
+        Fu: 0,
+        Iu: 1,
+        Ju: 150,
+        Xu: 2
+      };
+      r[e.Te] = {
+        hu: o.Te,
+        Iu: 500,
+        Fu: 0,
+        Iu: 1,
+        Ju: 150,
+        Xu: 2
+      };
+      r[e.em] = {
+        hu: o.em,
+        Iu: 500,
+        Fu: 0,
+        Iu: 1,
+        Ju: 150,
+        Xu: 2
+      };
+      r[e.nt] = {
+        hu: o.De,
+        Iu: 500,
+        Fu: 0,
+        Iu: 1,
+        Ju: 100,
+        Xu: 2
+      };
+      t.exports = r;
+    },
+    1122: function (t, n, i) {
+      const e = i(3028);
+      const o = i(9623);
+      t.exports = function (t) {
+        t = o(t || "");
+        return e(t(), t(), t(), t());
+      };
+    },
+    2936: function (t) {
+      t.exports = function (t, n) {
+        this.$u = t || 0;
+        this.tf = n || 0;
+      };
+    },
+    9629: function (n, i, e) {
+      const r = e(6112);
+      const c = e(1122);
+      n.exports = function (t, n) {
+        const i = r("" + t, "" + n);
+        const e = c(i);
+        return [~~(e() * 246), ~~(e() * 255), ~~(e() * 255), ~~(e() * 255)];
+      };
+    },
+    6112: function (n, i, e) {
+      const o = e(9303);
+      const r = e(3235);
+      const c = e(9869);
+      const a = e(1318);
+      const s = e(6217);
+      const u = e(1552);
+      n.exports = function (n, i) {
+        i = i || 0;
+        const f = (n = n || "").length % 16;
+        const l = n.length - f;
+        let h = [0, i];
+        let d = [0, i];
+        let g = [0, 0];
+        let w = [0, 0];
+        const p = [2277735313, 289559509];
+        const b = [1291169091, 658871167];
+        let v;
+        for (v = 0; v < l; v += 16) {
+          g = [n.charCodeAt(v + 4) & 255 | (n.charCodeAt(v + 5) & 255) << 8 | (n.charCodeAt(v + 6) & 255) << 16 | (n.charCodeAt(v + 7) & 255) << 24, n.charCodeAt(v) & 255 | (n.charCodeAt(v + 1) & 255) << 8 | (n.charCodeAt(v + 2) & 255) << 16 | (n.charCodeAt(v + 3) & 255) << 24];
+          w = [n.charCodeAt(v + 12) & 255 | (n.charCodeAt(v + 13) & 255) << 8 | (n.charCodeAt(v + 14) & 255) << 16 | (n.charCodeAt(v + 15) & 255) << 24, n.charCodeAt(v + 8) & 255 | (n.charCodeAt(v + 9) & 255) << 8 | (n.charCodeAt(v + 10) & 255) << 16 | (n.charCodeAt(v + 11) & 255) << 24];
+          g = r(g, p);
+          g = c(g, 31);
+          g = r(g, b);
+          h = s(h, g);
+          h = c(h, 27);
+          h = o(h, d);
+          h = o(r(h, [0, 5]), [0, 1390208809]);
+          w = r(w, b);
+          w = c(w, 33);
+          w = r(w, p);
+          d = s(d, w);
+          d = c(d, 31);
+          d = o(d, h);
+          d = o(r(d, [0, 5]), [0, 944331445]);
+        }
+        g = [0, 0];
+        w = [0, 0];
+        switch (f) {
+          case 15:
+            w = s(w, a([0, n.charCodeAt(v + 14)], 48));
+          case 14:
+            w = s(w, a([0, n.charCodeAt(v + 13)], 40));
+          case 13:
+            w = s(w, a([0, n.charCodeAt(v + 12)], 32));
+          case 12:
+            w = s(w, a([0, n.charCodeAt(v + 11)], 24));
+          case 11:
+            w = s(w, a([0, n.charCodeAt(v + 10)], 16));
+          case 10:
+            w = s(w, a([0, n.charCodeAt(v + 9)], 8));
+          case 9:
+            w = s(w, [0, n.charCodeAt(v + 8)]);
+            w = r(w, b);
+            w = c(w, 33);
+            w = r(w, p);
+            d = s(d, w);
+          case 8:
+            g = s(g, a([0, n.charCodeAt(v + 7)], 56));
+          case 7:
+            g = s(g, a([0, n.charCodeAt(v + 6)], 48));
+          case 6:
+            g = s(g, a([0, n.charCodeAt(v + 5)], 40));
+          case 5:
+            g = s(g, a([0, n.charCodeAt(v + 4)], 32));
+          case 4:
+            g = s(g, a([0, n.charCodeAt(v + 3)], 24));
+          case 3:
+            g = s(g, a([0, n.charCodeAt(v + 2)], 16));
+          case 2:
+            g = s(g, a([0, n.charCodeAt(v + 1)], 8));
+          case 1:
+            g = s(g, [0, n.charCodeAt(v)]);
+            g = r(g, p);
+            g = c(g, 31);
+            g = r(g, b);
+            h = s(h, g);
+        }
+        h = s(h, [0, n.length]);
+        d = s(d, [0, n.length]);
+        h = o(h, d);
+        d = o(d, h);
+        h = u(h);
+        d = u(d);
+        h = o(h, d);
+        d = o(d, h);
+        return ("00000000" + (h[0] >>> 0).toString(16)).slice(-8) + ("00000000" + (h[1] >>> 0).toString(16)).slice(-8) + ("00000000" + (d[0] >>> 0).toString(16)).slice(-8) + ("00000000" + (d[1] >>> 0).toString(16)).slice(-8);
+      };
+    },
+    9882: function (t) {
+      t.exports = function () {
+        this.ea = function (t, n, i, e) {
+          this.nf = t;
+          this.if = n;
+          this.ef = i;
+          this.rf = e;
+        };
+        this.cf = function (t) {
+          let n = t.length;
+          for (let i = 0; i < n; i++) {
+            t[i] = t[i] ^ this.nf;
+            this.nf = (this.rf * this.nf + this.ef + this.if) % this.ef;
+          }
+        };
+      };
+    },
+    3028: function (t) {
+      t.exports = function (t, n, i, e) {
+        return function () {
+          var o = (t >>>= 0) + (n >>>= 0) | 0;
+          t = n ^ n >>> 9;
+          n = (i >>>= 0) + (i << 3) | 0;
+          i = (i = i << 21 | i >>> 11) + (o = o + (e = 1 + (e >>>= 0) | 0) | 0) | 0;
+          return (o >>> 0) / 4294967296;
+        };
+      };
+    },
+    9303: function (t) {
+      t.exports = function (t, n) {
+        t = [t[0] >>> 16, t[0] & 65535, t[1] >>> 16, t[1] & 65535];
+        n = [n[0] >>> 16, n[0] & 65535, n[1] >>> 16, n[1] & 65535];
+        const i = [0, 0, 0, 0];
+        i[3] += t[3] + n[3];
+        i[2] += i[3] >>> 16;
+        i[3] &= 65535;
+        i[2] += t[2] + n[2];
+        i[1] += i[2] >>> 16;
+        i[2] &= 65535;
+        i[1] += t[1] + n[1];
+        i[0] += i[1] >>> 16;
+        i[1] &= 65535;
+        i[0] += t[0] + n[0];
+        i[0] &= 65535;
+        return [i[0] << 16 | i[1], i[2] << 16 | i[3]];
+      };
+    },
+    1552: function (t, n, i) {
+      const e = i(3235);
+      const o = i(6217);
+      t.exports = function (t) {
+        t = o(t, [0, t[0] >>> 1]);
+        t = e(t, [4283543511, 3981806797]);
+        t = o(t, [0, t[0] >>> 1]);
+        t = e(t, [3301882366, 444984403]);
+        return o(t, [0, t[0] >>> 1]);
+      };
+    },
+    1318: function (n) {
+      n.exports = function (t, n) {
+        if ((n %= 64) == 0) {
+          return t;
+        } else if (n < 32) {
+          return [t[0] << n | t[1] >>> 32 - n, t[1] << n];
+        } else {
+          return [t[1] << n - 32, 0];
+        }
+      };
+    },
+    3235: function (t) {
+      t.exports = function (t, n) {
+        t = [t[0] >>> 16, t[0] & 65535, t[1] >>> 16, t[1] & 65535];
+        n = [n[0] >>> 16, n[0] & 65535, n[1] >>> 16, n[1] & 65535];
+        const i = [0, 0, 0, 0];
+        i[3] += t[3] * n[3];
+        i[2] += i[3] >>> 16;
+        i[3] &= 65535;
+        i[2] += t[2] * n[3];
+        i[1] += i[2] >>> 16;
+        i[2] &= 65535;
+        i[2] += t[3] * n[2];
+        i[1] += i[2] >>> 16;
+        i[2] &= 65535;
+        i[1] += t[1] * n[3];
+        i[0] += i[1] >>> 16;
+        i[1] &= 65535;
+        i[1] += t[2] * n[2];
+        i[0] += i[1] >>> 16;
+        i[1] &= 65535;
+        i[1] += t[3] * n[1];
+        i[0] += i[1] >>> 16;
+        i[1] &= 65535;
+        i[0] += t[0] * n[3] + t[1] * n[2] + t[2] * n[1] + t[3] * n[0];
+        i[0] &= 65535;
+        return [i[0] << 16 | i[1], i[2] << 16 | i[3]];
+      };
+    },
+    9869: function (t) {
+      t.exports = function (t, n) {
+        if ((n %= 64) == 32) {
+          return [t[1], t[0]];
+        } else if (n < 32) {
+          return [t[0] << n | t[1] >>> 32 - n, t[1] << n | t[0] >>> 32 - n];
+        } else {
+          n -= 32;
+          return [t[1] << n | t[0] >>> 32 - n, t[0] << n | t[1] >>> 32 - n];
+        }
+      };
+    },
+    6217: function (t) {
+      t.exports = function (t, n) {
+        return [t[0] ^ n[0], t[1] ^ n[1]];
+      };
+    },
+    9623: function (n) {
+      n.exports = function (n) {
+        for (var e = 0, o = n.length ^ 1779033703; e < n.length; e++) {
+          o = (o = Math.imul(o ^ n.charCodeAt(e), 3432918353)) << 13 | o >>> 19;
+        }
+        return function () {
+          o = Math.imul(o ^ o >>> 16, 2246822507);
+          o = Math.imul(o ^ o >>> 13, 3266489909);
+          return (o ^= o >>> 16) >>> 0;
+        };
+      };
+    },
+    3555: function (n, i, e) {
+      const r = e(4613);
+      n.exports = {
+        af: (t, n) => t.$u < n.$u + n.w && t.$u + t.w > n.$u && t.tf < n.tf + n.sf && t.tf + t.sf > n.tf,
+        uf: function (t, n, i, e) {
+          return Math.sqrt((n - e) ** 2 + (t - i) ** 2);
+        },
+        ff: function (t, n, i, e) {
+          return Math.atan2(e - n, i - t);
+        },
+        lf: function (t, n) {
+          var i = Math.PI * 2;
+          var e = (n - t) % i;
+          return e * 2 % i - e;
+        },
+        hf: function (t) {
+          return t[Math.floor(Math.random() * t.length)];
+        },
+        df(t, n, i, e, o, r, c) {
+          var a = [o - t, r - n];
+          var s = [i - t, e - n];
+          var u = this.gf(s, s);
+          var f = this.gf(a, s) / u;
+          var l = [s[0] * (f = (f = f < 0 ? 0 : f) > 1 ? 1 : f) + t - o, s[1] * f + n - r];
+          return this.gf(l, l) <= c * c;
+        },
+        gf: (t, n) => t[0] * n[0] + t[1] * n[1],
+        wf: function (t, n, i, e) {
+          return t * i + n * e;
+        },
+        gf: (t, n) => t[0] * n[0] + t[1] * n[1],
+        pf: function (t, n, i) {
+          return t + this.lf(t, n) * i;
+        },
+        bf: function (t, n, i) {
+          return t * (1 - i) + n * i;
+        },
+        vf: (t, n, i) => t >= i._s && t <= i.ks && n >= i.Ms && n <= i.ys,
+        mf: (t, n, i, e, o, r) => t >= i && t <= i + o && n >= e && n <= e + r,
+        Tf: (t, n, i) => t < n ? n : t > i ? i : t,
+        _f: (t, n) => Math.floor(Math.random() * (n - t + 1)) + t,
+        Mf: function (n, i, e, o, r, c) {
+          this.dir = n;
+          this.value = i;
+          this.max = e;
+          this.min = o;
+          this.kf = r;
+          this.Af = c;
+          this.ja = function (t) {
+            if (this.dir) {
+              var i = this.value + t * this.kf;
+              if (i > this.max) {
+                i = this.max;
+                this.dir = false;
+              }
+              this.value = i;
+            } else {
+              if ((i = this.value - t * this.Af) < this.min) {
+                i = this.min;
+                this.dir = true;
+              }
+              this.value = i;
+            }
+          };
+          return false;
+        },
+        yf: {
+          Bf: t => t,
+          Uf: t => t * t,
+          zf: t => t * (2 - t),
+          Ef: t => t < 0.5 ? t * 2 * t : (4 - t * 2) * t - 1,
+          Cf: t => t * t * t,
+          Df: t => --t * t * t + 1,
+          Sf: t => t < 0.5 ? t * 4 * t * t : (t - 1) * (t * 2 - 2) * (t * 2 - 2) + 1,
+          Lf: t => t * t * t * t,
+          xf: t => 1 - --t * t * t * t,
+          Of: t => t < 0.5 ? t * 8 * t * t * t : 1 - --t * 8 * t * t * t,
+          jf: t => t * t * t * t * t,
+          Nf: t => 1 + --t * t * t * t * t,
+          Wf: t => t < 0.5 ? t * 16 * t * t * t * t : 1 + --t * 16 * t * t * t * t,
+          Qf: t => -Math.pow(2, (t -= 1) * 10) * Math.sin(Math.PI * 2 * (t - 0.1) / 0.4),
+          Hf: t => -Math.pow(2, t * 10) * Math.sin(Math.PI * 2 * (t - 0.1) / 0.4) + 1,
+          Rf: t => Math.sin(t),
+          Gf: t => t * -15 * (t - 1.3)
+        },
+        Vf: (t, n, i, e, r, c) => {
+          if (e < c * 2) {
+            c = e / 2;
+          }
+          if (r < c * 2) {
+            c = r / 2;
+          }
+          if (c < 0) {
+            c = 0;
+          }
+          t.beginPath();
+          t.moveTo(n + c, i);
+          t.arcTo(n + e, i, n + e, i + r, c);
+          t.arcTo(n + e, i + r, n, i + r, c);
+          t.arcTo(n, i + r, n, i, c);
+          t.arcTo(n, i, n + e, i, c);
+          t.closePath();
+          return t;
+        },
+        qf: t => Math.floor((t + Math.PI) / 6.283185307179586 * 255) & 255,
+        Pf: t => t / 255 * 6.283185307179586 - Math.PI,
+        Yf(t) {
+          if (t > 2147483647) {
+            throw "number too large. number shouldn't be > 2**31-1";
+          }
+          if (t < -2147483648) {
+            throw "number too far negative, number shouldn't be < 2**31";
+          }
+          for (var n = 0, i = t, e = ""; n < 32; i <<= 1) {
+            n++;
+            e += (i >>> 31) + "";
+          }
+          return e.replace(/\B(?=(.{8})+(?!.))/g, " ");
+        },
+        Zf: function (t) {
+          return [t & 255, t >> 8 & 255];
+        },
+        Kf: function (t, n, i, e) {
+          const c = document.createElement("canvas");
+          c.width = t;
+          c.height = n;
+          const a = c.getContext("2d");
+          a.beginPath();
+          a.fillStyle = e;
+          this.Vf(a, 0, 0, t, n, i);
+          a.fill();
+          return c;
+        },
+        k1: t => t > 9999999 ? Math.floor(t / 1000000) + "M" : t > 999999 ? Math.floor(t / 1000000 * 100) / 100 + "M" : t > 99999 ? (Math.floor(t / 1000) + "K").replace(".0", "") : t > 9999 ? (Math.floor(t / 1000 * 10) / 10 + "K").replace(".0", "") : t > 0 ? Math.floor(t) : t + "",
+        k2: function (t, n, i, e, r, c, a, s, u) {
+          const l = t.getContext("2d");
+          c = c ? c * 1 : 0;
+          var h = Math.floor(i * 1);
+          l.font = i * 1 + "px Baloo Paaji";
+          s *= 1;
+          var d = a ? s * 2 : 0;
+          u = u ? Math.min(l.measureText(n).width + 2 + d, u) : l.measureText(n).width + 2 + d + 10;
+          h = (h + c) * 1 + d + 10;
+          u = Math.ceil(u);
+          h = Math.ceil(h);
+          t.width = u;
+          t.height = h;
+          if (a) {
+            l.fillStyle = a;
+            this.Vf(l, 0, 0, u, h, s * 2);
+            l.fill();
+            l.translate(s, s);
+          }
+          l.textBaseline = "middle";
+          l.font = i * 1 + "px Baloo Paaji";
+          l.fillStyle = e;
+          l.lineWidth = 7;
+          l.lineJoin = "round";
+          if (r) {
+            l.strokeStyle = r;
+          }
+          if (r) {
+            l.strokeText(n, 5, (h - d) / 2, u);
+          }
+          l.fillText(n, 5, (h - d) / 2, u);
+          return t;
+        },
+        If: function (t, n, i, e, o, r, c, a, s) {
+          return this.k2(t, n, i, e, o, r, c, a, s);
+        },
+        Ff: function (t, n, i, e, o, r, c, a) {
+          const s = document.createElement("canvas");
+          return this.k2(s, t, n, i, e, o, r, c, a);
+        },
+        Jf: t => Math.log(1 + t) ** 2.4 / 13,
+        Xf(t) {
+          while (t.firstChild) {
+            t.removeChild(t.lastChild);
+          }
+        },
+        $f(t) {
+          const i = document.createElement(t.tag || "div");
+          if (t.src) {
+            i.src = t.src;
+          }
+          if (t.tl) {
+            i.innerHTML = t.tl;
+          }
+          if (t.nl) {
+            i.className = t.nl;
+          }
+          if (t.onclick) {
+            i.onclick = t.onclick;
+          }
+          if (t.onmouseup) {
+            i.onmouseup = t.onmouseup;
+          }
+          if (t.style) {
+            i.style = t.style;
+          }
+          if (t.text) {
+            i.innerText = t.text;
+          }
+          if (t.parent) {
+            t.parent.appendChild(i);
+          }
+          return i;
+        },
+        il: t => true,
+        el: function (t) {
+          return {
+            src: t,
+            ol: {
+              rl: r.an
+            }
+          };
+        },
+        cl: function () {
+          this.rl = r.sn;
+          this.al = this.width / 2;
+          this.sl = this.height / 2;
+        },
+        ul: function () {
+          this.rl = r.an;
+        },
+        fl: function (t, n) {
+          if (n === undefined || n.rl !== r.un) {
+            (n = new Image()).rl = r.un;
+            n.onload = this.cl;
+            n.onerror = this.ul;
+            n.src = t;
+          }
+          return n;
+        },
+        ll: () => new URL(window.location).searchParams.get("game"),
+        hl(t) {},
+        dl: function (t, n) {
+          let i = this.el(t);
+          if (n) {
+            i.ol = this.fl(i.src, i.ol);
+          }
+          return i;
+        },
+        gl: function (t, n, i, e, o, c) {
+          const a = n.ol;
+          if (a.rl === r.sn) {
+            t.drawImage(a, i, e, o || a.width, c || a.height);
+          } else {
+            n.ol = this.fl(n.src, n.ol);
+          }
+        },
+        wl: function (t, n) {
+          return t._s < n.ks && t.ks > n._s && t.Ms < n.ys && t.ys > n.Ms;
+        },
+        pl: function (t, n, i) {
+          return !!this.wl(i, n) && (t.$u = Math.max(n._s, i._s), t.tf = Math.max(n.Ms, i.Ms), t.w = Math.min(i.ks, n.ks) - t.$u, t.sf = Math.min(i.ys, n.ys) - t.tf, true);
+        },
+        bl(t, n) {
+          if (t.length !== n.length) {
+            return false;
+          }
+          for (let i = 0; i < t.length; i++) {
+            if (t[i] !== n[i]) {
+              return false;
+            }
+          }
+          return true;
+        }
+      };
+    },
+    2072: function (t) {
+      "use strict";
+
+      t.exports = "Resources\n\nVarious resources can be collected in Sploop. The number of resources you have collected is displayed in the bottom right. Gold Bars are displayed on the right above the kill counter\n\nWood\nimg/entity/tree.png\n- Used for building\n- Given by trees, cherry trees and palm trees\n- Present in the plains and winter biomes\n\nStone\nimg/entity/stone.png\n- Used for building\n- Only given by rocks\n- Present in the plains and winter biomes\n\nFood\nimg/entity/bush.png\n- Used for healing and some building\n- Given by bushes and cacti, cacti give 5x more food\n- Present in plains, winter and desert biomes\n\nGold\nimg/entity/gold.png\n- Used to climb leaderboards and rank up your account\n- Can be used to buy hats that give different advantages through the hat shop\n- Also used for some buildings\n- Given by windmills (see items section), gold mines (15 gold per hit), ruby (75 gold per hit) and chests (70 gold per hit)\n- Present in plains and desert biomes\n\nGold Bars\nimg/ui/currency.png\n- Used to buy cosmetics in the shop\n- Given by killing bosses and breaking their chest\n- Different bosses drop different amounts\n\n!HTML\n<span class=\"subcontent-title\">\n\tAbove the inventory is the age bar, which fills up as you kill enemies and collect resources to unlock new items.\n\t<br>\n\tOnce you reach level 4, you can choose to receive a tree, rock, or bush and place it down. More info in the items section\n</span>\n!HTML\n\n!New Section\n\nWeapons\n\nThere is a wide range of weapons in Sploop, each with its unique purpose.\n\nSword & Katana\nimg/entity/inv_stone_sword.png\nimg/entity/inv_katana.png\n- Used for attacking enemies or mobs\n- Sword deals 35 damage, Katana deals 40\n- Good attack speed\n- Most commonly used for PvP combat due to its strength\n\nStick\nimg/entity/inv_stick.png\n- Used for gathering lots of resources\n- Gathers 7x the resources per hit compared to regular weapons (apart from axe)\n- Extremely bad in combat, deals 1 damage per hit\n\n!New Section\n\nGamemodes\n\nThere are 3 main gamemodes in Sploop, each with a different purpose\n\nClassic\n- Players spawn with 100 food, 100 wood, 100 stone, 100 gold\n- Farming gold to rank up\n- Gold Bars can also be farmed here, but it is significantly easier to do in Sandbox\n- Killing and dying affects your KDR\n\nSandbox\n- Spawn with 100k of each resource\n- Gold farmed IS NOT counted towards your account, but Gold Bars are\n- Killing or dying will not affect your KDR\n\nEvent\n- Used to host official events\n- Gold and Gold Bars cannot be farmed here\n- Moderators can manage this space with less restrictions\n- Join the official Sploop Discord to be notified when events happen (click the Discord button on the homepage)\n\n!New Section\n\nBasing\n\nBasing is used to protect players from enemies. It can be especially useful to prevent raids by other players when farming large amounts of resources\n\nBase Walling\n- Trees can be used as indestructible walls that block projectiles like arrows or turrets\n- Stone farms block players but projectiles can be shot over them\n- Trees and stones can be used in combination, with stones on the side closer to the base allowing turrets to shoot anyone that gets past the trees but stuck in front of the stones, while protecting turrets and players from projectiles outside the base wall\n- Castle spikes are useful as they damage enemies breaking them, which can be used to slow enemies down\n\nBase Defence\n- Turrets are useful to kill or slow players before they manage to deal much damage to the base\n- 4 turrets are required to kill a player if they shoot at the same time, 6 are required if the player has crystal or immunity gear\n- Placing the turrets at different angles and not all clumped together reduces the effectiveness of shields, but means the area where all 6 turrets can target a player is reduced\n- Placing traps around the base slows players down, and prevents roof placing allowing turrets to be more effective\n- Defenders with katanas will help fight any intruders\n- Players on platforms with XBows can also be very annoying to raiders\n- Make sure all AFK players have roofs above them to prevent raiders from using bows or muskets to kill them\n- All players who helped build base walls or defences should have placed a bed down, so if they die the builds they placed down do not get removed\n\n!New Section\n\nBosses\n\nBosses are the only way to get Gold Bars, which spawn at random spots in the arctic biome.\n\nChests\nimg/entity/chest.png\n- Chests are dropped by bosses when they are killed\n- When broken, chests give the player who broke the chest a certain amount of Gold Bars\n- Chests also give players gold when hit.\n- A stick can be used to farm gold from chests as it deals very little damage to the chest, although it will eventually break\n\nDragon\nimg/entity/dragon_2_head.png\n- Chest: 30 img/ui/currency.png\n- Spawns inside a lava arena\n- Attacks by charging at closest player and shoots fireballs\n- Fireballs push the player and constantly deal damage to the player\n- Fireballs can be avoided by standing on top of a platform\n\nMammoth\nimg/entity/mammoth_head.png\n- Chest: 40 img/ui/currency.png\n- Spawns inside an ice arena\n- Attacks by charging at closest player\n\nGolden Cow\nimg/entity/gcow.png\n- Chest: 20 img/ui/currency.png\n- Attacks by charging at closest player\n- Only boss that can be trapped\n- Roams free around the map without an arena\n- Can be used to obtain a secret weapon\n- Gives 100 gold when hit with any weapon\n\n!New Section\n\nPvP\n\nThe 2 main methods of PvP in Sploop are using traps and spikes\n\nTraps\nimg/entity/trap.png\n- Trap PvP is about control and planning\n- Traps can be used to prevent players from moving\n- This works best with spikes, which can be placed next to a trapped player to kill them quickly\n- Players can also be pushed into spikes if they are not placed close enough\n\nBoosts\nimg/entity/boost.png\n- Boost PvP is about speed and surprise\n- Stepping on a boost launches you forward\n- This can give enemies little time to react\n- Most effective when spikes are placed right after, where the boost pushes you and the enemy forward into the spikes you just placed\n- Boosts can also be used to build traps, and a player wearing hood or bush can use a bat or another boost to push them into the trap\n";
+    }
+  };
+  var c = {};
+  function a(t) {
+    var n = c[t];
+    if (n !== undefined) {
+      return n.exports;
+    }
+    var i = c[t] = {
+      exports: {}
+    };
+    r[t](i, i.exports, a);
+    return i.exports;
+  }
+  a.n = function (t) {
+    var n = t && t.vl ? function () {
+      return t.default;
+    } : function () {
+      return t;
+    };
+    a.d(n, {
+      a: n
+    });
+    return n;
+  };
+  a.d = function (t, n) {
+    for (var i in n) {
+      if (a.ml(n, i) && !a.ml(t, i)) {
+        Object.defineProperty(t, i, {
+          Tl: true,
+          get: n[i]
+        });
+      }
+    }
+  };
+  a.ml = function (n, i) {
+    return Object.prototype.hasOwnProperty.call(n, i);
+  };
+  var s = {};
+  (function () {
+    "use strict";
+
+    a.d(s, {
+      _l: function () {
+        return fo;
+      },
+      Ml: function () {
+        return No;
+      },
+      kl: function () {
+        return ee;
+      },
+      Al: function () {
+        return re;
+      },
+      yl: function () {
+        return eo;
+      },
+      Bl: function () {
+        return ko;
+      },
+      Ul: function () {
+        return Ve;
+      },
+      zl: function () {
+        return oe;
+      },
+      El: function () {
+        return Fi;
+      },
+      Cl: function () {
+        return Si;
+      },
+      Dl: function () {
+        return To;
+      },
+      Sl: function () {
+        return te;
+      },
+      Ll: function () {
+        return ne;
+      },
+      xl: function () {
+        return Zi;
+      },
+      Ol: function () {
+        return Ne;
+      },
+      jl: function () {
+        return qi;
+      },
+      Nl: function () {
+        return Pi;
+      },
+      Wl: function () {
+        return pr;
+      },
+      Ql: function () {
+        return hr;
+      },
+      Hl: function () {
+        return _r;
+      },
+      Rl: function () {
+        return Tr;
+      },
+      Gl: function () {
+        return Mr;
+      },
+      Vl: function () {
+        return dr;
+      },
+      ql: function () {
+        return gr;
+      },
+      Pl: function () {
+        return mr;
+      },
+      Yl: function () {
+        return wr;
+      },
+      Zl: function () {
+        return vr;
+      },
+      k3: function () {
+        return br;
+      },
+      k4: function () {
+        return ve;
+      },
+      Kl: function () {
+        return ro;
+      },
+      Il: function () {
+        return oo;
+      },
+      Fl: function () {
+        return Wi;
+      },
+      Jl: function () {
+        return qe;
+      },
+      Xl: function () {
+        return Pe;
+      },
+      $l: function () {
+        return to;
+      },
+      th: function () {
+        return wo;
+      },
+      nh: function () {
+        return Fe;
+      },
+      ih: function () {
+        return Je;
+      },
+      eh: function () {
+        return Ye;
+      },
+      oh: function () {
+        return Ai;
+      }
+    });
+    var c = a(7251);
+    var u = a.n(c);
+    var f = a(1917);
+    var l = a.n(f);
+    var h = a(3255);
+    var d = a.n(h);
+    var g = a(5397);
+    var w = a.n(g);
+    var p = a(3555);
+    var b = a.n(p);
+    var v = a(48);
+    var m = a.n(v);
+    let T = new Map();
+    let _ = [];
+    let M = [];
+    function k() {
+      T = new Map();
+      _ = [];
+      let c = _;
+      for (let t in l()) {
+        c[l()[t]] = [];
+      }
+      let a = M;
+      for (let t in l()) {
+        a[l()[t]] = [];
+      }
+    }
+    function A(t, n, i) {
+      const e = (t.rh | t.ah << 8) * n;
+      const o = t.sh | t.uh << 8;
+      t.$u += Math.cos(t.Fu) * e;
+      t.tf += Math.sin(t.Fu) * e;
+      t.range += e;
+      if (t.range >= o) {
+        t.range -= o;
+        t.$u -= t.range * Math.cos(t.Fu);
+        t.tf -= t.range * Math.sin(t.Fu);
+        t.active = false;
+      }
+    }
+    function y(t, n, i) {
+      t.fh += n * 1000;
+      const e = Math.min(1.71, t.fh / 171);
+      t.$u = t.lh + (t.hh - t.lh) * e;
+      t.tf = t.dh + (t.gh - t.dh) * e;
+      if (t.Wa !== Zi && i <= t.wh && i >= t.ph) {
+        let n = t.wh - t.ph;
+        let e = (i - t.ph) / n;
+        t.Fu = b().pf(t.bh, t.mh, e);
+      }
+    }
+    function B(n, i) {
+      let o = _[l().at];
+      let r = o.length;
+      const c = i - 1000 / u().Ss;
+      for (let t = 0; t < r; t++) {
+        y(o[t], n, c);
+      }
+      o = _[l().bt];
+      r = o.length;
+      for (let t = 0; t < r; t++) {
+        y(o[t], n, c);
+      }
+      o = _[l().Ht];
+      r = o.length;
+      for (let t = 0; t < r; t++) {
+        y(o[t], n, c);
+      }
+      o = _[l().Et];
+      r = o.length;
+      for (let t = 0; t < r; t++) {
+        y(o[t], n, c);
+      }
+      o = _[l().zt];
+      r = o.length;
+      for (let t = 0; t < r; t++) {
+        y(o[t], n, c);
+      }
+      o = _[l().Lt];
+      r = o.length;
+      for (let t = 0; t < r; t++) {
+        y(o[t], n, c);
+      }
+      o = _[l().St];
+      r = o.length;
+      for (let t = 0; t < r; t++) {
+        y(o[t], n, c);
+      }
+      o = _[l().Dt];
+      r = o.length;
+      for (let t = 0; t < r; t++) {
+        y(o[t], n, c);
+      }
+      o = _[l().Ut];
+      r = o.length;
+      for (let t = 0; t < r; t++) {
+        y(o[t], n, c);
+      }
+      o = _[l().Yt];
+      r = o.length;
+      for (let t = 0; t < r; t++) {
+        y(o[t], n, c);
+      }
+      o = _[l().gt];
+      r = o.length;
+      for (let t = 0; t < r; t++) {
+        A(o[t], n);
+      }
+      o = _[l().Mt];
+      r = o.length;
+      for (let t = 0; t < r; t++) {
+        (a = o[t]).Fu = a.mh;
+      }
+      var a;
+    }
+    function U(t) {
+      if (M[t].length > 0) {
+        let n = M[t].pop();
+        n.bs = w().Cc;
+        return n;
+      }
+      return new (m())();
+    }
+    function z(t, n, i, e, o, r, c, a, s, u, f, l, h, d, g, p, b) {
+      let v = T.get(n) || U(t);
+      if (v.bs & w().Cc) {
+        D(v, t, n, i, e, o, r, c, a, s, u, f, l, h, d, g, p, b);
+        E(v);
+        return;
+      }
+      v.Th = i;
+      v.lh = v.$u;
+      v.dh = v.tf;
+      v.hh = o;
+      v.gh = r;
+      v.bs = e;
+      v.bh = v.mh;
+      v.mh = c;
+      v.rh = a;
+      v.ah = s;
+      v.sh = u;
+      v.uh = f;
+      v._h = l;
+      v.Mh = h;
+      v.kh = d;
+      v.Ah = g;
+      v.yh = p;
+      v.ph = v.wh;
+      v.wh = b;
+      v.fh = 0;
+    }
+    function E(n) {
+      const e = _[n.type];
+      const o = e.length;
+      e[o] = n;
+      n.Bh = o;
+      if (!T.has(n.Wa)) {
+        T.set(n.Wa, n);
+      }
+    }
+    function C(n, i) {
+      let e = T.get(n);
+      if (!e) {
+        return;
+      }
+      T.delete(n);
+      const o = _[e.type];
+      const r = e.Bh;
+      const c = o.length - 1;
+      if (c !== r) {
+        const t = o[c];
+        o[c] = o[r];
+        o[r] = t;
+        t.Bh = r;
+      }
+      M[e.type].push(e);
+      o.pop();
+    }
+    function D(n, i, e, o, r, c, a, s, u, f, h, g, w, p, v, m, T, _) {
+      n.type = i;
+      n.Wa = e;
+      n.Th = o;
+      n.$u = n.lh = n.hh = c;
+      n.tf = n.dh = n.gh = a;
+      n.Fu = n.bh = n.mh = s;
+      n.bs = r;
+      n.rh = u;
+      n.ah = f;
+      n.sh = h;
+      n.uh = g;
+      n._h = w;
+      n.Mh = p;
+      n.kh = v;
+      n.Ah = m;
+      n.yh = T;
+      n.Uh = new (b().Mf)(1, 0, 1, 0, 1, 1);
+      n.zh = Date.now();
+      n.ph = 0;
+      n.wh = _;
+      n.fh = 0;
+      n.Eh = null;
+      n.bf = false;
+      switch (i) {
+        case l().at:
+          break;
+        case l().Mt:
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().em, d().Te]
+          };
+          break;
+        case l().bt:
+        case l().Et:
+        case l().zt:
+        case l().Lt:
+        case l().Dt:
+        case l().St:
+        case l().Ut:
+        case l().Yt:
+          break;
+        case l().st:
+        case l().Wt:
+        case l().Qt:
+        case l().Ot:
+        case l().jt:
+        case l().Nt:
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().em]
+          };
+          break;
+        case l().ay:
+        case l().ut:
+        case l().Gt:
+        case l().kt:
+        case l().At:
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d()._e]
+          };
+          break;
+        case l().yt:
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().em]
+          };
+          break;
+        case l().dt:
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().Te]
+          };
+          break;
+        case l().nt:
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().nt]
+          };
+          break;
+        case l().qt:
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().qt]
+          };
+          break;
+        case l().wt:
+          n.Sh = Math.PI / 4;
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().nt, d().Te]
+          };
+          break;
+        case l().Vt:
+          n.Sh = Math.PI / 4;
+          break;
+        case l().Tt:
+          n.Sh = Math.PI / 2;
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().nt, d().Te]
+          };
+          break;
+        case l().I:
+        case l().lt:
+        case l().Rt:
+        case l().xt:
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().Te]
+          };
+          break;
+        case l().Bt:
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().em]
+          };
+          break;
+        case l().vt:
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().Te]
+          };
+          break;
+        case l().K:
+        case l().$:
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().em]
+          };
+          break;
+        case l().ht:
+        case l().Ct:
+        case l().ft:
+        case l().ax:
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().Te]
+          };
+          break;
+        case l().Pt:
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().Lh]
+          };
+          break;
+        case l()._t:
+          n.Eh = {
+            active: false,
+            Ch: 0,
+            Dh: [d().Te]
+          };
+          break;
+        case l().gt:
+          n.active = true;
+          n.range = 0;
+      }
+    }
+    k();
+    let S = false;
+    try {
+      S = window.localStorage && true;
+    } catch (t) {}
+    if (!S) {
+      Object.defineProperty(window, "localStorage", {
+        value: {
+          xh: {},
+          setItem: function (t, n) {
+            return this.xh[t] = n + "";
+          },
+          getItem: function (t) {
+            if (this.xh.hasOwnProperty(t)) {
+              return this.xh[t];
+            } else {
+              return undefined;
+            }
+          },
+          removeItem: function (t) {
+            return delete this.xh[t];
+          },
+          clear: function () {
+            return this.xh = {};
+          }
+        }
+      });
+    }
+    let L = function n(i, e, o) {
+      function r(t) {
+        k = t;
+        A = true;
+        return function () {
+          while (A) {
+            var t = s();
+            b[t]();
+          }
+          return M[0];
+        }();
+      }
+      function c() {
+        return i[k++] | i[k++] << 8 | i[k++] << 16 | i[k++] << 24;
+      }
+      function a() {
+        let t = i[k++];
+        if (t & 128) {
+          return t & 127;
+        } else {
+          return t & 127 | i[k++] << 7;
+        }
+      }
+      function s() {
+        return i[k++];
+      }
+      function u(t, n) {
+        M[t] = n;
+      }
+      function f(t) {
+        var n;
+        var i;
+        var e;
+        n = [];
+        i = 0;
+        for (; i < t; i++) {
+          e = _[o[6]]();
+          n[t - i - 1] = e;
+        }
+        return n;
+      }
+      const l = [];
+      let h = 0;
+      if (o) {
+        for (let t = 0; t < 5; t++) {
+          o.push(o.shift());
+        }
+      }
+      var d = i ? n : function () {};
+      function g(t) {
+        return typeof t == "object";
+      }
+      var w = g(globalThis) ? globalThis : g(window) ? window : self;
+      var p = [];
+      var b = [function () {
+        u(s(), function (t) {
+          var n = T;
+          let i = function () {
+            var i;
+            var c;
+            var a;
+            var s;
+            var f;
+            var l;
+            var h;
+            var d;
+            var g;
+            var w;
+            var p;
+            var b;
+            var v;
+            var m;
+            var B = M;
+            M = [];
+            u(0, undefined);
+            u(1, arguments);
+            i = e[t];
+            c = T;
+            a = i[2];
+            s = i[3];
+            T = [];
+            f = 0;
+            for (; f < a; f++) {
+              T[f] = {
+                Oh: undefined
+              };
+            }
+            for (l = 0; l < s[o[0]]; l += 2) {
+              h = s[l + 0];
+              d = s[l + 1];
+              T[h] = n[d];
+            }
+            g = _;
+            _ = [];
+            w = y;
+            y = this;
+            v = k;
+            m = i[4];
+            try {
+              p = r(m);
+            } catch (t) {
+              b = t;
+            }
+            _ = g;
+            y = w;
+            k = v;
+            T = c;
+            M = B;
+            A = true;
+            if (b) {
+              throw b;
+            }
+            return p;
+          };
+          l[h++] = i;
+          return i;
+        }(i[k++] | i[k++] << 8));
+      }, function () {
+        var t = c();
+        var n = s();
+        T[t].Oh = M[n];
+      }, function () {
+        var t = s();
+        var n = a();
+        u(t, p[n]);
+      }, function () {
+        var i = s();
+        _.push(M[i]);
+      }, function () {
+        u(s(), s());
+      }, function () {
+        u(s(), f(a()));
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = s();
+        var e = f(s());
+        u(t, (n = M[n])[M[i]][o[10]](n, e));
+      }, function () {
+        var t = s();
+        var n = p[c()];
+        (function (t) {
+          if (!(t in w)) {
+            throw new ReferenceError(t + " is not defined");
+          }
+        })(n);
+        u(t, w[n]);
+      }, function () {
+        u(s(), c());
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = s();
+        u(t, M[n] * M[i]);
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = s();
+        u(t, M[n] + M[i]);
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = f(s());
+        u(t, M[n][o[10]](w, i));
+      }, function () {
+        var t = s();
+        var n = c();
+        u(t, T[n].Oh);
+      }, function () {
+        var t = s();
+        for (var n = f(a()), i = {}, e = 0; e < n[o[0]]; e += 3) {
+          switch (n[e + 0]) {
+            case 0:
+              i[n[e + 1]] = n[e + 2];
+              break;
+            case 1:
+              Object[o[13]](i, n[e + 1], {
+                get: n[e + 2]
+              });
+              break;
+            case 2:
+              Object[o[13]](i, n[e + 1], {
+                set: n[e + 2]
+              });
+          }
+        }
+        u(t, i);
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = s();
+        u(t, M[n][M[i]]);
+      }, function () {
+        u(s(), !M[s()]);
+      }, function () {
+        var t = s();
+        var n = s();
+        u(t, M[n]);
+      }, function () {
+        var t = c();
+        var n = s();
+        if (!M[n]) {
+          k = t;
+        }
+      }, function () {
+        var t = s();
+        var n = c();
+        let i = c();
+        u(t, RegExp(p[n], p[i]));
+      }, function () {
+        u(s(), typeof M[s()]);
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = s();
+        u(t, M[n] !== M[i]);
+      }, function () {
+        var t = c();
+        k = t;
+      }, function () {
+        var t = s();
+        var n = M[s()];
+        var i = M[s()];
+        var e = M[s()];
+        u(t, n[i] = e);
+      }, function () {
+        A = false;
+      }, function () {
+        u(s(), !!s());
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = s();
+        u(t, M[n] < M[i]);
+      }, function () {
+        var t = s();
+        var n = c();
+        u(t, s() ? ++T[n].Oh : T[n].Oh++);
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = s();
+        u(t, M[n] ^ M[i]);
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = s();
+        u(t, M[n] >>> M[i]);
+      }, function () {
+        u(s(), (m[0] = i[k++], m[1] = i[k++], m[2] = i[k++], m[3] = i[k++], m[4] = i[k++], m[5] = i[k++], m[6] = i[k++], m[7] = i[k++], v[0]));
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = s();
+        u(t, M[n] & M[i]);
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = s();
+        u(t, M[n] > M[i]);
+      }, function () {
+        var i;
+        var e;
+        var r;
+        u(s(), (i = M[s()], e = f(s()), r = [null], Array[o[11]].push[o[10]](r, e), new (Function[o[11]].bind[o[10]](i, r))()));
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = s();
+        u(t, M[n] % M[i]);
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = s();
+        u(t, M[n] << M[i]);
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = s();
+        u(t, M[n] - M[i]);
+      }, function () {
+        var t = s();
+        var n = s();
+        var i = s();
+        u(t, M[n] === M[i]);
+      }, function () {
+        for (var t = s() | s() << 8, n = "", i = 0; i < t; i++) {
+          n += String.fromCharCode(s());
+        }
+        p.push(n);
+      }, function () {
+        k = 0;
+      }];
+      var v = new Float64Array(1);
+      var m = new Uint8Array(v[o[5]]);
+      var T = [];
+      var _ = [];
+      var M = [];
+      var k = 0;
+      var A = false;
+      var y = null;
+      (function () {
+        i = function (t, n) {
+          var i;
+          var e;
+          var r;
+          var c;
+          var a;
+          var s;
+          var u;
+          var f;
+          var l;
+          var h;
+          var g;
+          var w;
+          var p;
+          var b;
+          e = 0;
+          r = (i = d) ? "" + i : "";
+          c = 0;
+          for (; c < r[o[0]]; c++) {
+            e = Math[o[2]](31, e) + r[o[1]](c) | 0;
+          }
+          e = 1922100408;
+          h = (l = (f = t[o[3]](/[^A-Za-z0-9+/]/g, ""))[o[0]]) * 3 + 1 >> 2;
+          g = new Uint8Array(h);
+          w = 0;
+          p = 0;
+          b = 0;
+          for (; b < l; b++) {
+            s = b & 3;
+            w |= ((u = f[o[1]](b)) > 64 && u < 91 ? u - 65 : u > 96 && u < 123 ? u - 71 : u > 47 && u < 58 ? u + 4 : u === 43 ? 62 : u === 47 ? 63 : 0) << (3 - s) * 6;
+            if (s === 3 || l - b == 1) {
+              for (a = 0; a < 3 && p < h; a++, p++) {
+                e = (e + 1) % 255;
+                g[p] = w >>> (16 >>> a & 24) & 255 ^ e;
+              }
+              w = 0;
+            }
+          }
+          return g;
+        }(i);
+        T = [];
+        for (var t = 0; t < e[0][2]; t++) {
+          T[t] = {
+            Oh: undefined
+          };
+        }
+        _ = [];
+        M = [];
+        k = e[0][4];
+        A = false;
+        y = null;
+        r(e[0][4]);
+      })();
+      return l;
+    }("qaiqrKyur7CxsLO2t7a2ubm6u769vLzAwMDDxMXExcpJycnMz8rP09PW0b3W1NPat9nZ2N+43OLl4Izn5+Llxero7+6d7e3085Pw9vH0mfv7/vmZ/vwEA24ABgEEKgsLDglkDgwLEn4RERAXehQaHRh/Hx8aHUUiICcmVyUlLSu7KS+sKCsyMjMxN7cwNTw6Ozo/PT4/QkZAQERFRkdLTEpIT0VNF0tRUlRQUVZXWFtf3lpbWlpgaWc7f2Vmbmxvb2FpbmpsdXp3cXZ3c/d7fHp+en19eoSE5oCBgYPui4yOjv+Oi4uV5ZGWkZASlZoYnJ+Zn5+doiOkpqCnp6asqaqrqaqrq7CxsrCxubOzuLm6uLm5u7/DxMDGQsbDx83OysjJwMtM09TV1tPV1tfa21Ld2Njc3OLlYuDg5eLv6Oru7+iB7ev09Z3w8PHylPv9/v+d/voEBW4AAAECVAsNDg94DgoLFH4RFxARZBQcHR56HxkaG0ciJicgQCUjLS2mKS6sKCo0MzMxNrcwMz07Ozo5PT4/RENGw0dBRkNBSUlPSEkZTFRVVjZXUVJTOlpeX1gOXVtkZQ1gYGFiBGttbm8HbmprdBRxd3BxAnR8fH7yfn//eYWFgIKGhwSBjIyIio2Ljo+QlZCXHZeUHZKcnpmdmp6foKSlpq+lpqekq62rrK2gq7WzvbGwpbK1qZW4u7y5ub3MwcLDyMDAx8jJxMjOyMHK097R1sTR1cfb3cuV3t3e3Ofl7uPk5eri7enq6+Lv6ur/9PD89vDm9Prp+Pjtf/wAAQAEBwkGBwgLD4YCCQ0KEhScHRcRExQbCxkUHB0eHyAhIiEhtSAjKywrOy4pPisyIJcxNDUyMDo1Ojs8PzuuTkJARldARUVL215JSU5eS1JQWlNUVVJbXFlaW1xWXFtgYGtjZGVka2phamtsYmptYHN2YqZ3dnd6bKF5fH1ye4mBgoOUh4KGgomKi46PjA+RmpKTlJeSlYiYlpucnZyToqCio6SpoquoqaqoqKaqrbGwv7O0tbKwvLW6u7y/vCzAwsjD0sDCxcvFz8HMzc7A09TDvtDV1tTa2k7Y39rdyuDh4uHhc+Dl6+zr5Onv/5vz8fL29vBi9P31//r8/f4MAw4DBAUFBQMLDwoPDwkNBRESExYQgREbGx8ZCdcdHyAjIbcnJiEkPSkqKy4ouCkyMjcyNjCuOTs7Pzc5MT4/QFVAQEFUjERISUhJTtlNTVxTU1NUVVpSVFlaW19YVVpiYGFmY2BzZ2hpaGn7a21qcnNnuXd1dnV77Xl4e35rf4CBgIESg4OEioiLhYyNjoqXlIuTlJWSlZiamJmeB52drKOso6SlpaWsq6qorq+sNLOzvrG2tba3tLq0u7y9vbzLwsDCx8bCxMjKycnPUc3M3NLf09TV1dTc2trY39/dQuPi7uDm5ebn5Ovn6+zt7e378/Hy9/f79XT6+Pz+4/4AAQAAmwMCBQsICQ8HCQsOERoSExQRA3ocGRoWGJ0fECAhIicoISknKCktLigtLi8yMrc1NjA1Nzw6OjE5Pz0/Q0pCVUZBQ0RPS0ZLTE1MTPBRV19UQ1JVW1xeX1xcTl9gYWZnYGVndmhpam9oaW5uYnFyc3Bxcnd5anp7fHl6e4CAloOEhYKDjImLnoyNjouUlZKSgpWWl5ydnpudip6foKWmp6Wkvqeoqa6nqKKur7C2t7e0tba1uzy8ubm+vrvDw8jGxsbGxMXJ3MnIyM3N0lHR0dTX2Nfb297Zmd7c2+KT4eHg55Tk6u3ohO/v6u2C8vD29nD09Hn///n//PwDgwQBAQYHBhEJCgsODwyPExMSERsVFRUcG2kYHhkcayMjJiFFJiQjKkopKSgvRSwyNDC2Nja3MT07OTo+Prw5QkRBQkVfRkdIS0hJzE5MT1JBUlBWUVQ+W1teWTJeXFtiAmFhYGcKZGptaB5vb2ptFHJwd3YQdXV8ewl4fnh894KCA4WBh4WGiooIjY6IjY6RipKTlJeUlRiamJuejJ6coqWg1qenoqXbqqivrsitrbSzwLC2sbTEu7u+ud++vLvCs8HBwMevxMrNyLvPz8rNpNLQ1tZf1NRZ39/Z39zc3GLn4Obn5Of76Onq6eDv4e/w8fXw8PX29/r8f/34/vsABQcHDgYCAggMGAsaCQwMFR0WHBQVFhAdHRobHB8dmiYjJyAkISUhIiwoKCwuPS8mMzY2Nzk0ODg5Ojw/OT4/QENHxkJBRUJITU9DRk5KSlBURlNCUVRUXVte219ZXlt1YWFnYGEgZGxtbh5vaWprHnJ2d3AWdXN8fQ54eHl6FoOFhofrhoKDjOeJj4mJBo2VEJSQkJCXlZ0bnJ+fmJ+evaGio6Cnoierraqvuq2tq7S1wrCwsbLFu72+v9O+urvEtcHHwMGpxMzNzr/PycrLqdLW19Cl1dPc3b/Y2NjaVuLkY+Xn4ePm6uxo7eju6+7x7/Lz9PH083j6/vv46v4DBQYHcAYCAwxmCQ8ICV0MFBUWZxcREhNqGh4fGHQdGyQlTCAgISJAKy0vL6QvK642MjY2NTcztT49OT49PCE/QEFGT0BKRkdITk9PTE1OTVPUVFFRVlZTW1NQXl5eXlx4YXRhYGBlcHBrampsbW5vcnZwUnR1dnV723R+fn58fCOPgIaHhIeHiImIjI6sjo+Qk5ExmpCUlJqaOZuehJ6JpKShoaOhgqeoqaipDqOtq7KzsBa6sbW1ursfvb+5vL/HwuPDxMXExWrHzsjOz8xs3NLT09TVwNLc29nX2d3e3+Dx4ubz8uLi6Ofp6uns7u/w8fHx93X39vj5+vj+/lgBAwIDBAYKBAoJCgsOCJYBEhIXEhcVFhcaHRgbHRkeHyAjLiEgJSYnJCwqKywtNywyNCPpPDU2ND86Pjs8PTw6xUdAQEFFSkJLSUpLRU5MSlNSVVBQVVZXWlz9XV5eW15jY25hZmVmZ2pswm1vb2tufHRzc3R1fHV9ent6fH1+fZqDhoOEhYaS+IGKi4CPj4+QkYKTloKBk5qZlJidn5+foKGioKCmpqapqaqrr6WtQA4cbL+2tLa3uKK/uL68vL/AwcfLwZIIAYnFyMrMzc7U09TQ0tfV1tfb3dnb3dne3+Di7uDg5ebn5Ovq6+zt7Opo//bx8ezz9PzoK/L8/fsMBAYDBAUFAgQMCgsMDQwLuRcRFhAUFxIYGRoYEB4cHyAhLichJSYnMywpLy8oJiqBSAWtNzAxMjw5Ojs+OZQ5Q0RGQUVHRkdISkZIT01OT1xVV1NUVU1SW11ZXlRYyztVPmFmY2BiZ2hpaG/Ga21qdHNzcHR1dnRien57fH1+arCIgoOIhoSHiImGj46Njo+UlIKPlpGTjJ2amJiZlZv0akonoKGio6OoqaqprgeorLWzsL+2tra3uLW/uLy9vrvEzN7FwcHdw8rPyc/EyfthYhPR19PR0tfY2djddtvc2+bj+eXn5+fl6Onq7eDr7e/w8f7x9/X29/z66uf4//0bAgQHBwYOBGPD4Y4PDgkMFBESExYRvBEeGh4ZEBkcHyAhLiAmJSYnLCsnNykuLDQyNTcwNj00ApaL+Dg+Ojw7QEFCQUHvQENKTEhQSUtKTlNRUlNRSFNXWFlaW1ytH1dknp18ZGlgZGhpanVuaWhmdnRwf3Z3dnd4fX97YHl8eoqEhIeUhYOQn42Pi4KJj4qRkZKTlJGakpiZmpufmJmagaGio6ahDaGurK6qvK2ouKe9tLe0tba0vr68qry9vr3EbcTGwsHHxcxRxM3JycrL0M7X1dDU1tfY2d/X2d3e3+Dw2ujk5ePyz+Lq6/vp6u/+9/P39fX29/j/9v/8/f4AAgYEACQGBwgLDKAKDwoJEQESEQMCDhUZCHUQHB0cCkEqIiMzISAnJi0rLS0tLi8wNT41NDU2Nzs/PT0dPT4/QkXpRUdDQkZYSUlcW0lNT15VU1BVVVZXWF1WWFxdXl9jYmVgRWVmZ2ptwW1qbmpuYHF0ZGN5cHp4eXprfHtpaISHgo2AhICGiImKi4iJiI6elZOVlZSWl5idnp2ek5qepqCgo6SloqOuqqSvrauvrLCxsrews7O2ubm6u7q5uLbBw8LDxMPCwTbIycvMzcjD1sLS09TEgNvY2dzc2tne3+Dj5mbi5uDj6O3uFOXr7evz9/X18PX29/r9Xf3/+/oBAAMDBAUFEl4FCgsADg4PEBEREBMWGhcYGRgfsRsYHCQgIyckJSYhJC8uKywtLCuoPzE1MDQzNzg5OTw/Ez4/QE1GRkRFRkRMaU5ITUxIT1BRVldQVVdQWFlaX1BZWV9gYW5gYWVmZ3Fvbmh9gmJvcHd+dXJ1dnd0en17fH1ye4eBgoOHgYqDjImKi46KJ4mYlZWSgpKQlJCDnZycnZ6ftQeuo6SpoaGoqaqppDWgrLe5s7u0tba0vLq6uru9vr/DzcHExMXGy8DBysvM1MnM2MCq3tTV0dvf39rb3NHW2ODh4u/n4+bn6OXs7Ozt7uH08vT/8vT29/ji+f/66/gHCQEPAgQGBwgFCQkMDQ4FGBcRHxcWFhcYOBwTHxwfHyAhJDkiIiYnKCk/ICEtLiM2NzIzNCU2MS8uPj08Mz0+RkBCQ0RFRUNOSUtKTE1OSVRXUlJWVVZXXlVcWVxdXlNjYWJjZGdu/2ZuaWN1ZWhoYVV8c3R9en96eXp7f3Vyd4CBgoOGgi+BjoGNio2Ojo+Ql56VlZWWl5yen7mUm5mTp6Cio6SGoK+vpa2orK2upbi3tbK1tba3sLWyury9vrPHwMLDxNvAz8/Iy8vMzcjV1tPS09TVw3XV2drX2tPe3+Dwj+3k5eDr7ujq6+zq6evw8fLx/HDw9P/x+vP07dkAAQsEBw0FAA8ODgsMDQwHtxcRFBwUHB8eGhsaHB0eFzVMLCMkKS4oKCkqKS+CJCk4Mj4wNTU2NzIxPDgsPTYoV0VKQ0pGR09JSUpLTE5KR1FfUVJcVFdXWFlZX1RfUFxhaWNhZGVmZGxhaWVvbGZuc3Fyc3d5fnl4eXpqs3N+f4iWl0yKhYaLgImKi4yMmo+QkZqfnJSWl5iYj5ucnZaTqKOio6SksKeoqaKnpK6ur7CwpbO0tb6gvLG6tb+8tr7AwcLDx8nOx8jJysjEysbu0NHS0dd+0NHQ2tvL3NvJyOTn4u3n5ODm6Onq6+/h6O/w8fLw8vLw1vj5+vn/VvgIBwECFAUOEB8NAgsCDg8HERESExQWGh8YGRobHxUZFwEhIiMmJo0hLiEpKjwtKDgnNTQzOjY3MTk5Ojs8PjI5QEFCQ0dDQUFpSUpLTk7lSVhXUVJEVV5AT11SW1JeX1dhYWJjZGZqb3Rpamtobm9ldnlxcmh1dnd+dXxnfH1+e4Oho4uChoKEiK2Mg4+cu5+QkZSfkrWWl5ianJyakZ6foK2hvqSlpqmgr6mLr6Wuo7ivsrO0u7C0sLWypLy9vrnDx8rCxcTGx8jKxsjNzc7PweHC09TWztTZyPHL3N3dyv3x4uPx1fbn6Pzf++zt4ufw8fLz9vNu+f/x/Pr+/f4ABgYEBAQFBwgJDQcLDg4PEB0UERQVFg4QHhwKzg0eHygtKiMkJSYrLioqKywhKS8wMTI/MDY2Nzg3Mzw4MTorQEFCWENMQlFMQUxMQElZT1BRXlRAVVZXUV9eXFBaSF9gYWhnYmJqYH1pamtma2pofHZkc3R1V3N+fntvfH1+e5qFgYOEhYaS2ZmKi5uBioWQkZKCcYWWl5yOj36MnZ6bpKKjt6SlpqOsrb+qua2ur7S1tki1o7a3uL2+v7+8qb/AwcbUwMHGyc/IzsrMzc7P19XW0trS19PZ2Nrb3NrS2+Hh4uPm4n7p7u3t6u7t7u/29fTz9fb29/j/9v3//f4ADQUBBAUGHgwPDRrNHA4PFB0WExQVFhsfGhobHBEYHiAhIi8sJiYnKCcjLSQhJjcwMTIoMjw+ITA9PT0wNSU/QEFORVxFRkdBTkJNQEtUT1BRWFtTU1pRQVlaW1ZaVllsZ3hjZGVHb29va3NsbW5nanlxc3R1dmI4aHp7a3l2f46Hg4uFhYaHiI+Gg4yNjo+TmZWbtZWWl5qfMZ2blZiesKGltLOhoaemr6usra2ur7C3vrS0tba3u769vJ29vr/Cx2nFzMLAxtjJwtzbycbP3tfT29XV1tfY39bT3N3e3+Pp5evF5ebn6u9B7evl6O7g8fXk4/Hx9/b/+/z9/f4AAQQHAwQIAQkOCwoMDQ4JHBYSExQVFRAUHhobHB0dGCcmLiMkJSohCCkqKyIlKSk8NxMzNDU4MDA/Nj0ePT4/TklFRUZD9kFPQUxJTU9OT1BWXlRRVVZXVF9YW1xdXVlrZ2ViaGJnZ2hpfmNqan+kYnFye2x9d2a+a3p7dGjGbYCBl0iWhYaLj4uKi4yPiBeelZWVhJWSgI+dnpuSm5+boaGio6SjqqOoqaqrrqsLi7e1tLK1tba3v6m6vKuqm7/A5MHDqaS24szJoKSlo+vF0KK3p4C8u7K3rK7+2N2TvpSJx+Xkl4eJjIaHzu/tiYqE1PTzu5eckpuN3/X8mZtmaGxmVHdpd217fnIpDg54dXM3FRRxZH5ufGg+FR1wflZIRUJQSlQCLildQkJJQVgVOTJfW1ZXQ1FWVB40PVZQMzUsIikgY1FIYWInIy4vIzg+ISd9KX4kKDU1NCx0d3pkYRYGFxFDb2gNBQgZAAsBBFR7cwEbEhIeEBQeGFh2f+fk9s7h6NLorY+K1O3px+vjtJ6T+Pr19vTK7vTu/Pn6haaixMHR79PNxI+srN7L2/nF196Rs7bb3dfdz9SYur+ita2i4cDGsamlv67pzs68ubb31dSjt7utvOj+2N2ttofTx+fkr7Wopszj65+ZnIaelpuVjdDz94uWlo2Z2PgAUnZxbWthIgEJenljeWF7aWF3NhMVZHJodXt4eTgWH2ZUTEBQTElJDSEqX0N+Wl1ZX1UWCjV3dXt9f317dXd1Cw0PDQsVFxUbHR8dGxUXFTEzMTcxMzE/MTMxNzEzMS8RExEXERMRHxETWlpeXlpaRkZKSlFwdhEUFhUJWXt+HOjg8MLwoIyH6+Hr+c/i6urR5beXlPz74vS8lpv67/Hy48nD0efKwsKNv6rMydnrw9Xc193AxvTO+9XbyM/z39Kl5MbDpbGppe3Dyp6lo7r3kaOgsq3w19fi/N7bv7yys8Y=", [[0, -1, 32, [], 4866], [1, 0, 34, [2, 0, 3, 1, 4, 2, 5, 3, 6, 4, 7, 5, 8, 6, 9, 7, 10, 8, 11, 9, 12, 10, 13, 11, 14, 12, 15, 13, 16, 14, 17, 15, 18, 16, 19, 17, 20, 18, 21, 19, 22, 20, 23, 21, 24, 22, 25, 23, 26, 24, 27, 25, 28, 26, 29, 27, 30, 28, 31, 29, 32, 30, 33, 31], 1975], [2, 0, 37, [5, 0, 6, 1, 7, 2, 8, 3, 9, 4, 10, 5, 11, 6, 12, 7, 13, 8, 14, 9, 15, 10, 16, 11, 17, 12, 18, 13, 19, 14, 20, 15, 21, 16, 22, 17, 23, 18, 24, 19, 25, 20, 26, 21, 27, 22, 28, 23, 29, 24, 30, 25, 31, 26, 32, 27, 33, 28, 34, 29, 35, 30, 36, 31], 2101], [3, 0, 38, [6, 0, 7, 1, 8, 2, 9, 3, 10, 4, 11, 5, 12, 6, 13, 7, 14, 8, 15, 9, 16, 10, 17, 11, 18, 12, 19, 13, 20, 14, 21, 15, 22, 16, 23, 17, 24, 18, 25, 19, 26, 20, 27, 21, 28, 22, 29, 23, 30, 24, 31, 25, 32, 26, 33, 27, 34, 28, 35, 29, 36, 30, 37, 31], 2277], [4, 0, 33, [1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 8, 7, 9, 8, 10, 9, 11, 10, 12, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 18, 20, 19, 21, 20, 22, 21, 23, 22, 24, 23, 25, 24, 26, 25, 27, 26, 28, 27, 29, 28, 30, 29, 31, 30, 32, 31], 2773], [5, 0, 33, [1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 8, 7, 9, 8, 10, 9, 11, 10, 12, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 18, 20, 19, 21, 20, 22, 21, 23, 22, 24, 23, 25, 24, 26, 25, 27, 26, 28, 27, 29, 28, 30, 29, 31, 30, 32, 31], 2813], [6, 0, 33, [1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 8, 7, 9, 8, 10, 9, 11, 10, 12, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 18, 20, 19, 21, 20, 22, 21, 23, 22, 24, 23, 25, 24, 26, 25, 27, 26, 28, 27, 29, 28, 30, 29, 31, 30, 32, 31], 2873], [7, 0, 32, [0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15, 16, 16, 17, 17, 18, 18, 19, 19, 20, 20, 21, 21, 22, 22, 23, 23, 24, 24, 25, 25, 26, 26, 27, 27, 28, 28, 29, 29, 30, 30, 31, 31], 2913], [8, 0, 33, [1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 8, 7, 9, 8, 10, 9, 11, 10, 12, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 18, 20, 19, 21, 20, 22, 21, 23, 22, 24, 23, 25, 24, 26, 25, 27, 26, 28, 27, 29, 28, 30, 29, 31, 30, 32, 31], 2928], [9, 0, 33, [1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 8, 7, 9, 8, 10, 9, 11, 10, 12, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 18, 20, 19, 21, 20, 22, 21, 23, 22, 24, 23, 25, 24, 26, 25, 27, 26, 28, 27, 29, 28, 30, 29, 31, 30, 32, 31], 2968], [10, 0, 32, [0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15, 16, 16, 17, 17, 18, 18, 19, 19, 20, 20, 21, 21, 22, 22, 23, 23, 24, 24, 25, 25, 26, 26, 27, 27, 28, 28, 29, 29, 30, 30, 31, 31], 3008], [11, 0, 40, [9, 0, 10, 1, 11, 2, 12, 3, 13, 4, 14, 5, 15, 6, 16, 7, 17, 8, 18, 9, 19, 10, 20, 11, 21, 13, 22, 14, 23, 15, 24, 16, 25, 17, 26, 18, 27, 19, 28, 20, 29, 21, 30, 22, 31, 23, 32, 24, 33, 25, 34, 26, 35, 27, 36, 28, 37, 29, 38, 30, 39, 31], 3019], [12, 0, 36, [4, 0, 5, 1, 6, 2, 7, 3, 8, 4, 9, 5, 10, 6, 11, 7, 12, 8, 13, 9, 14, 10, 15, 11, 16, 12, 17, 13, 18, 14, 19, 15, 20, 16, 21, 17, 22, 18, 23, 19, 24, 20, 25, 21, 26, 22, 27, 23, 28, 24, 29, 25, 30, 26, 31, 27, 32, 28, 33, 29, 34, 30, 35, 31], 3459], [13, 0, 36, [4, 0, 5, 1, 6, 2, 7, 3, 8, 4, 9, 5, 10, 6, 11, 7, 12, 8, 13, 9, 14, 10, 15, 11, 16, 12, 17, 13, 18, 14, 19, 15, 20, 16, 21, 17, 22, 18, 23, 19, 24, 20, 25, 21, 26, 22, 27, 23, 28, 24, 29, 25, 30, 26, 31, 27, 32, 28, 33, 29, 34, 30, 35, 31], 3721], [14, 0, 33, [1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 8, 7, 9, 8, 10, 9, 11, 10, 12, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 18, 20, 19, 21, 20, 22, 21, 23, 22, 24, 23, 25, 24, 26, 25, 27, 26, 28, 27, 29, 28, 30, 29, 31, 30, 32, 31], 3840], [15, 0, 33, [1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 8, 7, 9, 8, 10, 9, 11, 10, 12, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 18, 20, 19, 21, 20, 22, 21, 23, 22, 24, 23, 25, 24, 26, 25, 27, 26, 28, 27, 29, 28, 30, 29, 31, 30, 32, 31], 3880], [16, 0, 33, [1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 8, 7, 9, 8, 10, 9, 11, 10, 12, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 18, 20, 19, 21, 20, 22, 21, 23, 22, 24, 23, 25, 24, 26, 25, 27, 26, 28, 27, 29, 28, 30, 29, 31, 30, 32, 31], 3920], [17, 0, 33, [1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 8, 7, 9, 8, 10, 9, 11, 10, 12, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 18, 20, 19, 21, 20, 22, 21, 23, 22, 24, 23, 25, 24, 26, 25, 27, 26, 28, 27, 29, 28, 30, 29, 31, 30, 32, 31], 3960], [18, 0, 36, [4, 0, 5, 1, 6, 2, 7, 3, 8, 4, 9, 5, 10, 6, 11, 7, 12, 8, 13, 9, 14, 10, 15, 11, 16, 12, 17, 13, 18, 14, 19, 15, 20, 16, 21, 17, 22, 18, 23, 19, 24, 20, 25, 21, 26, 22, 27, 23, 28, 24, 29, 25, 30, 26, 31, 27, 32, 28, 33, 29, 34, 30, 35, 31], 4000], [19, 0, 32, [0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15, 16, 16, 17, 17, 18, 18, 19, 19, 20, 20, 21, 21, 22, 22, 23, 23, 24, 24, 25, 25, 26, 26, 27, 27, 28, 28, 29, 29, 30, 30, 31, 31], 4307], [20, 0, 36, [4, 0, 5, 1, 6, 2, 7, 3, 8, 4, 9, 5, 10, 6, 11, 7, 12, 8, 13, 9, 14, 10, 15, 11, 16, 12, 17, 13, 18, 14, 19, 15, 20, 16, 21, 17, 22, 18, 23, 19, 24, 20, 25, 21, 26, 22, 27, 23, 28, 24, 29, 25, 30, 26, 31, 27, 32, 28, 33, 29, 34, 30, 35, 31], 4362], [21, 0, 33, [1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 8, 7, 9, 8, 10, 9, 11, 10, 12, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 18, 20, 19, 21, 20, 22, 21, 23, 22, 24, 23, 25, 24, 26, 25, 27, 26, 28, 27, 29, 28, 30, 29, 31, 30, 32, 31], 4546], [22, 0, 33, [1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 8, 7, 9, 8, 10, 9, 11, 10, 12, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 18, 20, 19, 21, 20, 22, 21, 23, 22, 24, 23, 25, 24, 26, 25, 27, 26, 28, 27, 29, 28, 30, 29, 31, 30, 32, 31], 4586], [23, 0, 33, [1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 8, 7, 9, 8, 10, 9, 11, 10, 12, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 18, 20, 19, 21, 20, 22, 21, 23, 22, 24, 23, 25, 24, 26, 25, 27, 26, 28, 27, 29, 28, 30, 29, 31, 30, 32, 31], 4626], [24, 0, 35, [3, 0, 4, 1, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 8, 12, 9, 13, 10, 14, 11, 15, 12, 16, 13, 17, 14, 18, 15, 19, 16, 20, 17, 21, 18, 22, 19, 23, 20, 24, 21, 25, 22, 26, 23, 27, 24, 28, 25, 29, 26, 30, 27, 31, 28, 32, 29, 33, 30, 34, 31], 4666], [25, 1, 35, [1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 8, 7, 9, 8, 10, 9, 11, 10, 12, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 18, 20, 19, 21, 20, 22, 21, 23, 22, 24, 23, 25, 24, 26, 25, 27, 26, 28, 27, 29, 28, 30, 29, 31, 30, 32, 31, 33, 32, 34, 33], 4829]], ["constructor", "apply", "prototype", "iterator", "defineProperty", "length", "charCodeAt", "imul", "replace", "abs", "buffer", "pop", "toString", "search"]);
+    (function () {
+      var n;
+      var i;
+      var e;
+      var o;
+      var r;
+      var c;
+      var s;
+      var u;
+      var f;
+      var l;
+      var h;
+      var d;
+      let g = (...t) => new Uint8Array(...t);
+      let w = (...t) => new Uint16Array(...t);
+      function p() {
+        this.Oh = w(16);
+        this.ml = w(288);
+      }
+      function b(t, n) {
+        this.jh = t;
+        this.Nh = 0;
+        this.Wh = 0;
+        this.sf = 0;
+        this.Qh = n;
+        this.Hh = 0;
+        this.Rh = new p();
+        this.Gh = new p();
+      }
+      function v(t, n, i, e) {
+        var o;
+        var r;
+        for (o = 0; i > o; ++o) {
+          t[o] = 0;
+        }
+        for (o = 0; 30 - i > o; ++o) {
+          t[o + i] = o / i | 0;
+        }
+        r = e;
+        o = 0;
+        for (; o < 30; ++o) {
+          n[o] = r;
+          r += 1 << t[o];
+        }
+      }
+      function m(t, n, i, e) {
+        var o;
+        var r;
+        for (o = 0; o < 16; ++o) {
+          t.Oh[o] = 0;
+        }
+        for (o = 0; e > o; ++o) {
+          t.Oh[n[i + o]]++;
+        }
+        t.Oh[0] = 0;
+        r = 0;
+        o = 0;
+        for (; o < 16; ++o) {
+          d[o] = r;
+          r += t.Oh[o];
+        }
+        for (o = 0; e > o; ++o) {
+          if (n[i + o]) {
+            t.ml[d[n[i + o]]++] = o;
+          }
+        }
+      }
+      function T(t) {
+        if (!t.sf--) {
+          t.Wh = t.jh[t.Nh++];
+          t.sf = 7;
+        }
+        var n = t.Wh & 1;
+        t.Wh >>>= 1;
+        return n;
+      }
+      function _(t, n, i) {
+        if (!n) {
+          return i;
+        }
+        while (t.sf < 24) {
+          t.Wh |= t.jh[t.Nh++] << t.sf;
+          t.sf += 8;
+        }
+        var e = t.Wh & 65535 >>> 16 - n;
+        t.Wh >>>= n;
+        t.sf -= n;
+        return e + i;
+      }
+      function M(t, n) {
+        var i;
+        var e;
+        var o;
+        var r;
+        while (t.sf < 24) {
+          t.Wh |= t.jh[t.Nh++] << t.sf;
+          t.sf += 8;
+        }
+        i = 0;
+        e = 0;
+        o = 0;
+        r = t.Wh;
+        do {
+          e = e * 2 + (r & 1);
+          r >>>= 1;
+          ++o;
+          i += n.Oh[o];
+          e -= n.Oh[o];
+        } while (e >= 0);
+        t.Wh = r;
+        t.sf -= o;
+        return n.ml[i + e];
+      }
+      function k(t, n, i) {
+        var e;
+        var o;
+        var r;
+        var c;
+        var a;
+        var s;
+        var u = _(t, 5, 257);
+        var d = _(t, 5, 1);
+        var g = _(t, 4, 4);
+        for (e = 0; e < 19; ++e) {
+          h[e] = 0;
+        }
+        for (e = 0; g > e; ++e) {
+          c = _(t, 3, 0);
+          h[f[e]] = c;
+        }
+        m(l, h, 0, 19);
+        o = 0;
+        while (u + d > o) {
+          switch (a = M(t, l)) {
+            case 16:
+              s = h[o - 1];
+              r = _(t, 2, 3);
+              for (; r; --r) {
+                h[o++] = s;
+              }
+              break;
+            case 17:
+              for (r = _(t, 3, 3); r; --r) {
+                h[o++] = 0;
+              }
+              break;
+            case 18:
+              for (r = _(t, 7, 11); r; --r) {
+                h[o++] = 0;
+              }
+              break;
+            default:
+              h[o++] = a;
+          }
+        }
+        m(n, h, 0, u);
+        m(i, h, u, d);
+      }
+      function A(t, i, e) {
+        var o;
+        var a;
+        var f;
+        var l;
+        var h;
+        while (true) {
+          if ((o = M(t, i)) === 256) {
+            return n;
+          }
+          if (o < 256) {
+            t.Qh[t.Hh++] = o;
+          } else {
+            a = _(t, r[o -= 257], c[o]);
+            f = M(t, e);
+            h = l = t.Hh - _(t, s[f], u[f]);
+            for (; l + a > h; ++h) {
+              t.Qh[t.Hh++] = t.Qh[h];
+            }
+          }
+        }
+      }
+      function y(t) {
+        var e;
+        var o;
+        while (t.sf > 8) {
+          t.Nh--;
+          t.sf -= 8;
+        }
+        if ((e = (e = t.jh[t.Nh + 1]) * 256 + t.jh[t.Nh]) !== (~(t.jh[t.Nh + 3] * 256 + t.jh[t.Nh + 2]) & 65535)) {
+          return i;
+        }
+        t.Nh += 4;
+        o = e;
+        for (; o; --o) {
+          t.Qh[t.Hh++] = t.jh[t.Nh++];
+        }
+        t.sf = 0;
+        return n;
+      }
+      function B(r, c) {
+        var s;
+        var u;
+        var f = new b(r, c);
+        do {
+          s = T(f);
+          switch (_(f, 2, 0)) {
+            case 0:
+              u = y(f);
+              break;
+            case 1:
+              u = A(f, e, o);
+              break;
+            case 2:
+              k(f, f.Rh, f.Gh);
+              u = A(f, f.Rh, f.Gh);
+              break;
+            default:
+              u = i;
+          }
+          if (u !== n) {
+            throw Error("Data error");
+          }
+        } while (!s);
+        if (f.Hh < f.Qh.length) {
+          if (typeof f.Qh.slice == "function") {
+            return f.Qh.slice(0, f.Hh);
+          } else {
+            return f.Qh.subarray(0, f.Hh);
+          }
+        } else {
+          return f.Qh;
+        }
+      }
+      function U(n, i = 0) {
+        var o;
+        var r;
+        var c;
+        var a;
+        var s;
+        var u;
+        var f = n.replace(/[^A-Za-z0-9+/]/g, "");
+        var l = f.length;
+        var h = i ? Math.ceil((l * 3 + 1 >> 2) / i) * i : l * 3 + 1 >> 2;
+        var d = g(h);
+        c = 0;
+        a = 0;
+        s = 0;
+        for (; l > s; s++) {
+          r = s & 3;
+          c |= ((u = f.charCodeAt(s)) > 64 && u < 91 ? u - 65 : u > 96 && u < 123 ? u - 71 : u > 47 && u < 58 ? u + 4 : u === 43 ? 62 : u === 47 ? 63 : 0) << (3 - r) * 6;
+          if (r === 3 || l - s == 1) {
+            for (o = 0; o < 3 && h > a; o++, a++) {
+              d[a] = c >>> (16 >>> o & 24) & 255;
+            }
+            c = 0;
+          }
+        }
+        return d;
+      }
+      n = 0;
+      i = -3;
+      e = new p();
+      o = new p();
+      r = g(30);
+      c = w(30);
+      s = g(30);
+      u = w(30);
+      f = g([16, 17, 18, 0, 8, 7, 9, 6, 10, 5, 11, 4, 12, 3, 13, 2, 14, 1, 15]);
+      l = new p();
+      h = g(320);
+      d = w(16);
+      ((t, n) => {
+        var i;
+        for (i = 0; i < 7; ++i) {
+          t.Oh[i] = 0;
+        }
+        t.Oh[7] = 24;
+        t.Oh[8] = 152;
+        t.Oh[9] = 112;
+        i = 0;
+        for (; i < 24; ++i) {
+          t.ml[i] = 256 + i;
+        }
+        for (i = 0; i < 144; ++i) {
+          t.ml[24 + i] = i;
+        }
+        for (i = 0; i < 8; ++i) {
+          t.ml[168 + i] = 280 + i;
+        }
+        for (i = 0; i < 112; ++i) {
+          t.ml[176 + i] = 144 + i;
+        }
+        for (i = 0; i < 5; ++i) {
+          n.Oh[i] = 0;
+        }
+        n.Oh[5] = 32;
+        i = 0;
+        for (; i < 32; ++i) {
+          n.ml[i] = i;
+        }
+      })(e, o);
+      v(r, c, 4, 3);
+      v(s, u, 2, 1);
+      r[28] = 0;
+      c[28] = 258;
+      (function (n, i = {}) {
+        let o = typeof globalThis != "undefined" ? globalThis : typeof window != "undefined" ? window : i;
+        let r = o;
+        let c = U("AecCAAA9UbGO00AQ3Tc73sRxQqQIVigFOglSnFJdHVnIB7dCCqAr7qTrUJT4EkuJjWIfJwp+hYoPoKKGloKKmh/gJ5hx7mjejt+bN2/W63s3dX5UN/ti2Xi7yj9447nJ68Z3t9Vy0RRV6Xmzz6+9uy3KVXXr6d0z311Vy5tdXjb+4Tpvzra51vXpx4vF+u1il3tXXO/bc5uX62bjh8uqbKTl5b2N6/eL0sdFWeb7VxdvXvvecrPYv6hWedZcGnMJmADzBKBAdmDBgSPHljM+gZCxMRgALlDnEeOXMeY5g/j4qRnxLuMRVwpbhUKhVmgUjhQWCqXC6j9333I+4BhWahODecDoBooDehlO5JtiRAfNHY4OzxidGSEKSBwIc2ZMwGNsYWQbiOTOxNhyf8iYGRCpxzEkqav+bkDfgTHGV7QN3cB91QPiQIOMNBrpNxHPDSaMGPEhvqf2njikL3EEmmsU8Zj+3sWjjUfL/dZ4Qqwex8SBHjjSOyU0IpnWJ1H7oibtZRhzIozpp9hGpKMS0drFpgywEHYqr4GZPJCzsEIgRMORM5nTd4oeW4ux3Yv/yhpw+kknwYhJNrKQaTqEQpS4SLqZozF/pnbx9IuekZlwZEmX/37YYir/k1JdKVXmigz66fCu6qU/cKg66Snay7qJoc7xPw==");
+        let s = !!c[0];
+        let u = s ? c[1] | c[2] << 8 | c[3] << 16 | c[4] << 24 : c.length;
+        let f = s ? g(u) : g(c.buffer, 5, c.length - 5);
+        if (s) {
+          B(g(c.buffer, 5, c.length - 5), f);
+        }
+        let l = 0;
+        let h = {};
+        let d = [];
+        let w = [];
+        let p = [];
+        let b = [];
+        let v = 0;
+        let m = null;
+        let T = null;
+        let _ = [];
+        let M = null;
+        i.Vh = {};
+        i.qh = a(4733);
+        let k = new Float64Array(1);
+        function A() {
+          let t = 0;
+          let n = 0;
+          let i = 0;
+          while (i = f[l++], t |= (i & 127) << n, (i & 128) != 0) {
+            n += 7;
+          }
+          return t;
+        }
+        function y() {
+          return f[l++] | f[l++] << 8 | f[l++] << 16 | f[l++] << 24;
+        }
+        function z() {
+          let t = A();
+          let n = "";
+          for (let i = 0; t > i; i++) {
+            n += String.fromCharCode(A());
+          }
+          return n;
+        }
+        function E(t, n) {
+          let i = h;
+          return function e() {
+            let o = v;
+            let c = {};
+            v = t;
+            let a = h;
+            h = c;
+            h[t] = {};
+            let s = b[t];
+            let u = s.length;
+            for (let t = 0; u > t; t++) {
+              let n = s[t];
+              let e = i[n];
+              c[n] = e;
+            }
+            let f = d;
+            let g = l;
+            let w = m;
+            let p = T;
+            let k = r;
+            let A = _;
+            let y = null;
+            let B = null;
+            d = [];
+            _ = [];
+            l = n;
+            m = e;
+            T = arguments;
+            r = this;
+            try {
+              y = C();
+            } catch (t) {
+              if (_.length) {
+                let n = _.pop();
+                l = n;
+                M = t;
+                y = C();
+              } else {
+                B = t;
+              }
+            }
+            _ = A;
+            l = g;
+            d = f;
+            m = w;
+            h = a;
+            v = o;
+            T = p;
+            r = k;
+            if (B) {
+              throw B;
+            }
+            return y;
+          };
+        }
+        function C() {
+          while (true) {
+            let t = f[l++];
+            switch (t) {
+              case 35:
+                h[v][A()] = T;
+                break;
+              case 18:
+                d[f[l++]] = A();
+                break;
+              case 88:
+                d[f[l++]] = f[l++] ? ++h[A()][A()] : h[A()][A()]++;
+                break;
+              case 37:
+                d[f[l++]] = d[f[l++]];
+                break;
+              case 21:
+                d[f[l++]] = E(A(), y());
+                break;
+              case 70:
+                d[f[l++]] = w[A()];
+                break;
+              case 30:
+                d[f[l++]] = RegExp(w[A()], w[A()]);
+                break;
+              case 69:
+                d[f[l++]] = d[f[l++]] != d[f[l++]];
+                break;
+              case 24:
+              case 3:
+                d[f[l++]] = d[f[l++]] == d[f[l++]];
+                break;
+              case 75:
+                d[f[l++]] = d[f[l++]] < d[f[l++]];
+                break;
+              case 65:
+                p.push(d[f[l++]]);
+                break;
+              case 63:
+                d[f[l++]] = d[f[l++]][d[f[l++]]] = d[f[l++]];
+                break;
+              case 6:
+                d[f[l++]] = d[f[l++]][d[f[l++]]];
+                break;
+              case 49:
+                {
+                  let t = A();
+                  let n = Array(t);
+                  for (let i = 0; t > i; i++) {
+                    n[t - i - 1] = p.pop();
+                  }
+                  let i = f[l++];
+                  let e = f[l++];
+                  let o = f[l++];
+                  let r = d[e];
+                  let c = d[o];
+                  d[i] = r[c].apply(r, n);
+                  break;
+                }
+              case 13:
+                {
+                  let t = f[l++];
+                  let n = !!f[l++];
+                  let e = A();
+                  let r = w[e];
+                  if (r in i) {
+                    d[t] = i[r];
+                    break;
+                  }
+                  if (n && !(r in o)) {
+                    throw new ReferenceError(r + " is not defined");
+                  }
+                  d[t] = o[r];
+                  break;
+                }
+              case 80:
+                {
+                  let t = A();
+                  let n = Array(t);
+                  for (let i = 0; t > i; i++) {
+                    n[t - i - 1] = p.pop();
+                  }
+                  d[f[l++]] = n;
+                }
+                break;
+              case 59:
+                d[f[l++]] = h[A()][A()];
+                break;
+              case 43:
+                d[f[l++]] = h[A()][A()] = d[f[l++]];
+                break;
+              case 9:
+                h[A()][A()] = d[f[l++]];
+                break;
+              case 26:
+                {
+                  let t = f[l++];
+                  let n = y();
+                  if (!d[t]) {
+                    l = n;
+                  }
+                  break;
+                }
+              case 61:
+                {
+                  let t = y();
+                  l = t;
+                  break;
+                }
+              case 41:
+              case 7:
+                return d[0];
+              default:
+                throw "u" + t;
+            }
+          }
+        }
+        g(k.buffer);
+        (() => {
+          for (l = 0;;) {
+            let t = f[l++];
+            if (t === 22) {
+              w.push(z());
+            } else {
+              if (t !== 85) {
+                l--;
+                return;
+              }
+              {
+                let t = A();
+                let n = A();
+                let i = [];
+                for (let t = 0; n > t; t++) {
+                  i.push(A());
+                }
+                b[t] = i;
+              }
+            }
+          }
+        })();
+        E(0, l).call(this);
+      })(0, {});
+    })();
+    const x = L[13];
+    const O = L[18];
+    const j = L[19];
+    const N = L[20];
+    const W = L[24];
+    let Q = {
+      Ph: {},
+      Yh: function (t, n, i) {
+        return t + "-" + n + "x" + i;
+      },
+      Zh: function (t, n, i) {
+        n = Math.ceil(n);
+        i = Math.ceil(i);
+        let o = document.createElement("canvas");
+        o.width = n;
+        o.height = i;
+        Q.Ph[this.Yh(t, n, i)] = o;
+        return o;
+      },
+      Kh: function (t, n, i) {
+        return this.Ph[this.Yh(t, n, i)];
+      },
+      Ih: function (t, n, i) {
+        delete Q.Ph[this.Yh(t, n, i)];
+      },
+      Fh: {},
+      Jh: function (t, n = 256, i = 256, e = null) {
+        n = Math.ceil(n);
+        i = Math.ceil(i);
+        let c = e ? t + ":" + e : t;
+        let a = this.Kh(c, n, i);
+        if (!a) {
+          a = this.Zh(c, n, i);
+          let r = Q.Fh[t];
+          if (r) {
+            if (r.da) {
+              this.Xh(r, a, e);
+            } else {
+              r.addEventListener("load", () => this.Xh(r, a, e));
+            }
+          } else {
+            let r = new Image();
+            r.da = false;
+            r.src = t;
+            r.addEventListener("load", () => {
+              this.Xh(r, a, e);
+              r.da = true;
+            });
+            r.addEventListener("error", () => {
+              delete Q.Fh[t];
+              this.Ih(t, n, i);
+            });
+            this.Fh[t] = r;
+          }
+        }
+        return a;
+      },
+      Xh: function (t, n, i) {
+        let o = n.getContext("2d");
+        o.clearRect(0, 0, n.width, n.height);
+        o.drawImage(t, 0, 0, n.width, n.height);
+        if (i) {
+          o.save();
+          o.globalCompositeOperation = "source-atop";
+          o.fillStyle = i;
+          o.fillRect(0, 0, n.width, n.height);
+          o.restore();
+        }
+      },
+      $h: function (t) {
+        return "/img/icon/" + t + ".png?v=1923912";
+      },
+      td: function (t) {
+        return "/img/ui/" + t + ".png?v=1923912";
+      },
+      nd: function (t) {
+        return "/img/hats/" + t + ".png?v=1923912";
+      },
+      ed: function (t, n = false) {
+        return "/img/entity/" + t + ".png?v=1923912";
+      },
+      od: function (t) {
+        return "/img/items/" + t + ".png?v=1923912";
+      },
+      rd: function (t) {
+        return "/img/skins/" + t + ".png?v=1923912";
+      },
+      ad: function (t) {
+        return "/img/decorations/" + t + ".png?v=1923912";
+      },
+      sd: function (t) {
+        return b().dl(t);
+      }
+    };
+    var H = Q;
+    var R = a(6597);
+    var G = a.n(R);
+    var V = a(9847);
+    var q = a.n(V);
+    const P = [];
+    function Y(t, n, i, e, o, r, c, a, s, u, f, l) {
+      this.ud = t;
+      this.fd = n;
+      this.ld = i;
+      this.hd = e;
+      this.dd = o;
+      this.gd = r > 0 ? r : 0;
+      this.wd = c;
+      this.pd = a;
+      this.bd = s > 0 ? s : 0;
+      this.vd = u;
+      this.md = f;
+      this.Td = l > 0 ? l : 0;
+    }
+    P[G().kr] = [];
+    for (let t = 0; t < 20; t++) {
+      P[G().kr][t] = H.sd(H.rd("game-rank" + t));
+    }
+    P[G().ke] = [];
+    P[G().Ae] = [];
+    P[G().Mr] = [];
+    P[G().Sr] = [];
+    for (let t = 0; t < q().Ga; t++) {
+      P[G().ke][t] = H.sd(H.rd("body" + t));
+      P[G().Ae][t] = H.sd(H.rd("arm" + t));
+    }
+    for (let t = 0; t < q().Va; t++) {
+      P[G().Mr][t] = H.sd(H.rd("accessory" + t));
+    }
+    for (let t = 0; t < q().qa; t++) {
+      P[G().Sr][t] = H.sd(H.rd("back" + t));
+    }
+    P[G().ye] = H.Jh(H.ed("skull"), 45, 45);
+    P[G().st] = H.sd(H.ed("rock"));
+    P[G().Ot] = H.sd(H.ed("cave_stone0"));
+    P[G().jt] = H.sd(H.ed("cave_stone1"));
+    P[G().Nt] = H.sd(H.ed("cave_stone2"));
+    P[G().Wt] = H.sd(H.ed("ice0"));
+    P[G().Qt] = H.sd(H.ed("ice1"));
+    P[G().Be] = H.sd(H.ed("resource_background"));
+    P[G().Ue] = null;
+    P[G().ze] = null;
+    P[G().Ee] = null;
+    P[G().ay] = H.sd(H.ed("tree"));
+    P[G().Fo] = H.sd(H.ed("palm_tree"));
+    P[G().lo] = H.sd(H.ed("cherry_tree"));
+    P[G().ut] = H.sd(H.ed("bush"));
+    P[G().nt] = H.sd(H.ed("gold"));
+    P[G().qt] = H.sd(H.ed("ruby"));
+    P[G().dt] = H.sd(H.ed("lootbox"));
+    P[G().Ce] = null;
+    P[G().gt] = H.sd(H.ed("bullet"));
+    P[G().lt] = H.sd(H.ed("wall"));
+    P[G().I] = H.sd(H.ed("trap"));
+    P[G().K] = H.sd(H.ed("boost"));
+    P[G().ft] = H.sd(H.ed("spike"));
+    P[G().ht] = H.sd(H.ed("platform"));
+    P[G().$] = H.sd(H.ed("heal_pad"));
+    P[G().Te] = H.sd(H.ed("wood"));
+    P[G()._e] = H.sd(H.ed("leaf"));
+    P[G().em] = H.sd(H.ed("stone"));
+    P[G().De] = H.sd(H.ed("particle_gold"));
+    P[G()._d] = H.sd(H.ed("particle_ruby"));
+    P[G().Le] = H.Jh(H.ed("health-gauge-background"), 210, 40);
+    P[G().Se] = H.Jh(H.ed("health-gauge-front"), 210, 40);
+    P[G().ln] = H.sd(H.ed("stone_sword"));
+    P[G().Sn] = H.sd(H.od("g_stick"));
+    P[G().Ln] = H.sd(H.od("d_stick"));
+    P[G().xn] = H.sd(H.od("r_stick"));
+    P[G().jn] = H.sd(H.od("g_cutspear"));
+    P[G().On] = H.sd(H.od("d_cutspear"));
+    P[G().oi] = H.sd(H.od("r_cutspear"));
+    P[G().Nn] = H.sd(H.od("g_toolhammer"));
+    P[G().Wn] = H.sd(H.od("d_toolhammer"));
+    P[G().Qn] = H.sd(H.od("r_toolhammer"));
+    P[G().pr] = H.sd(H.ed("inv_g_stick"));
+    P[G().Br] = H.sd(H.ed("inv_d_stick"));
+    P[G().Ur] = H.sd(H.ed("inv_r_stick"));
+    P[G().vr] = H.sd(H.ed("inv_g_cutspear"));
+    P[G().br] = H.sd(H.ed("inv_d_cutspear"));
+    P[G().Tc] = H.sd(H.ed("inv_r_cutspear"));
+    P[G().mr] = H.sd(H.ed("inv_g_toolhammer"));
+    P[G().Tr] = H.sd(H.ed("inv_d_toolhammer"));
+    P[G()._r] = H.sd(H.ed("inv_r_toolhammer"));
+    P[G().ci] = H.sd(H.od("g_sword"));
+    P[G().ai] = H.sd(H.od("d_sword"));
+    P[G().si] = H.sd(H.od("r_sword"));
+    P[G().Mc] = H.sd(H.ed("inv_g_sword"));
+    P[G().kc] = H.sd(H.ed("inv_d_sword"));
+    P[G().Ac] = H.sd(H.ed("inv_r_sword"));
+    P[G().An] = H.sd(H.od("g_axe"));
+    P[G().kn] = H.sd(H.od("d_axe"));
+    P[G().ui] = H.sd(H.od("r_axe"));
+    P[G().cr] = H.sd(H.ed("inv_g_axe"));
+    P[G().rr] = H.sd(H.ed("inv_d_axe"));
+    P[G().Bc] = H.sd(H.ed("inv_r_axe"));
+    P[G().Bn] = H.sd(H.od("g_great_axe"));
+    P[G().yn] = H.sd(H.od("d_great_axe"));
+    P[G().fi] = H.sd(H.od("r_great_axe"));
+    P[G().dr] = H.sd(H.ed("inv_g_great_axe"));
+    P[G().ar] = H.sd(H.ed("inv_d_great_axe"));
+    P[G().yc] = H.sd(H.ed("inv_r_great_axe"));
+    P[G().qr] = H.sd(H.td("indicator_enemy"));
+    P[G().Vr] = H.sd(H.td("indicator_friendly"));
+    P[G().zn] = H.sd(H.od("g_katana"));
+    P[G().Un] = H.sd(H.od("d_katana"));
+    P[G().Dn] = H.sd(H.od("c_katana"));
+    P[G().ur] = H.sd(H.ed("inv_g_katana"));
+    P[G().sr] = H.sd(H.ed("inv_d_katana"));
+    P[G().wr] = H.sd(H.ed("inv_c_katana"));
+    P[G().Cn] = H.sd(H.od("g_spear"));
+    P[G().En] = H.sd(H.od("d_spear"));
+    P[G().ri] = H.sd(H.od("r_spear"));
+    P[G().hr] = H.sd(H.ed("inv_g_spear"));
+    P[G().lr] = H.sd(H.ed("inv_d_spear"));
+    P[G()._c] = H.sd(H.ed("inv_r_spear"));
+    P[G().Yn] = H.sd(H.od("meme"));
+    P[G().Uc] = H.sd(H.ed("inv_meme"));
+    P[G().Zn] = H.sd(H.od("scythe"));
+    P[G().zc] = H.sd(H.ed("inv_scythe"));
+    P[G().F] = H.sd(H.od("bat"));
+    P[G().fn] = H.sd(H.ed("stone_toolhammer"));
+    P[G().hn] = H.sd(H.ed("stone_spear"));
+    P[G().G] = H.sd(H.ed("s_musket"));
+    P[G().He] = H.sd(H.ed("stone_axe"));
+    P[G().Cr] = H.sd(H.ed("stone_axe"));
+    P[G().Mn] = H.sd(H.ed("great_axe"));
+    P[G().pn] = H.sd(H.ed("cookie"));
+    P[G().xt] = H.sd(H.ed("chest"));
+    P[G().co] = H.sd(H.ed("map"));
+    P[G().Z] = H.sd(H.ed("shield"));
+    P[G().bt] = H.sd(H.ed("cow"));
+    P[G().Lt] = H.sd(H.ed("fireball"));
+    P[G().Et] = H.sd(H.ed("gcow"));
+    P[G().Ut] = H.sd(H.ed("shark"));
+    P[G().zt] = H.sd(H.ed("wolf"));
+    P[G().Ht] = H.sd(H.ed("duck"));
+    P[G().Yt] = H.sd(H.ed("crocodile"));
+    P[G().Hn] = H.sd(H.od("pearl"));
+    P[G().ec] = H.sd(H.ed("inv_pearl"));
+    P[G().Rt] = H.sd(H.ed("teleporter"));
+    P[G().ic] = H.sd(H.ed("inv_teleporter"));
+    P[G().Pt] = H.sd(H.ed("ice_spike"));
+    P[G().rc] = H.sd(H.ed("inv_ice_spike"));
+    P[G().oc] = H.sd(H.od("ice_spike"));
+    P[G().ac] = H.sd(H.ed("g_hammer"));
+    P[G().sc] = H.sd(H.ed("inv_g_hammer"));
+    P[G().uc] = H.sd(H.ed("d_hammer"));
+    P[G().fc] = H.sd(H.ed("inv_d_hammer"));
+    P[G().lc] = H.sd(H.ed("r_hammer"));
+    P[G().hc] = H.sd(H.ed("inv_r_hammer"));
+    P[G().dc] = H.sd(H.ed("g_bat"));
+    P[G().gc] = H.sd(H.ed("inv_g_bat"));
+    P[G().wc] = H.sd(H.ed("d_bat"));
+    P[G().bc] = H.sd(H.ed("inv_d_bat"));
+    P[G().vc] = H.sd(H.ed("r_bat"));
+    P[G().mc] = H.sd(H.ed("inv_r_bat"));
+    P[G().Nr] = H.sd(H.ed("inv_r_dagger"));
+    P[G().Rr] = H.sd(H.ed("r_dagger"));
+    let Z = [];
+    P[G().St] = Z;
+    Z[1] = [[H.sd(H.ed("mammoth_tail")), new Y(-40, 0, 0, 0, 0, 0, 0, 0, 0, -Math.PI / 7, Math.PI / 7, 2000)], [H.sd(H.ed("mammoth_body")), new Y(0, 0, 0, 0, 0, 0, 0, 0, 0, Math.PI / 20, -Math.PI / 20, 1600)], [H.sd(H.ed("mammoth_head")), new Y(100, 0, 0, 0, 0, 0, 0, 0, 0, -Math.PI / 10, Math.PI / 10, 1000)]];
+    Z[0] = [[H.sd(H.ed("mammoth_tail")), new Y(-40, 0, 0, 0, 0, 0, 0, 0, 0, -Math.PI / 7, Math.PI / 7, 2000)], [H.sd(H.ed("mammoth_body")), new Y(0, 0, 0, 0, 0, 0, 0, 0, 0, Math.PI / 20, -Math.PI / 20, 1600)], [H.sd(H.ed("mammoth_head_angry")), new Y(100, 0, 0, 0, 0, 0, 0, 0, 0, -Math.PI / 10, Math.PI / 10, 1000)]];
+    P[G().Dt] = [[H.sd(H.ed("dragon_2_body")), new Y(-50, 0, 0, 2, -2, 1200, 0, 0, 0, Math.PI / 40, -Math.PI / 40, 1800)], [H.sd(H.ed("dragon_2_left_wing")), new Y(10, -40, Math.PI / 5, 0, 0, 0, 0, 0, 0, -Math.PI / 5, 0, 1600)], [H.sd(H.ed("dragon_2_right_wing")), new Y(10, 40, -Math.PI / 5, 0, 0, 0, 0, 0, 0, Math.PI / 5, 0, 1600)], [H.sd(H.ed("dragon_2_head")), new Y(50, 0, 0, -3, 3, 1000, 0, 0, 0, -Math.PI / 40, Math.PI / 40, 1400)]];
+    P[G().mo] = H.sd(H.ed("turret_base"));
+    P[G().vo] = H.sd(H.ed("turret_top"));
+    P[G().bo] = H.sd(H.ed("turret_assembled"));
+    P[G().ax] = H.sd(H.ed("hard_spike"));
+    P[G().V] = H.sd(H.ed("bow"));
+    P[G().Bo] = H.sd(H.ed("arrow"));
+    P[G().kt] = H.sd(H.ed("wood_farm"));
+    P[G().At] = H.sd(H.ed("wood_farm_cherry"));
+    P[G().yt] = H.sd(H.ed("stone_farm"));
+    P[G().mn] = H.sd(H.ed("bush"));
+    P[G().Er] = H.sd(H.td("currency"));
+    P[G().Ye] = H.sd(H.ed("hat_1"));
+    P[G().Ke] = H.sd(H.ed("hat_2"));
+    P[G().Ie] = H.sd(H.ed("hat_3"));
+    P[G().Je] = H.sd(H.ed("hat_4"));
+    P[G().Xe] = H.sd(H.ed("hat_5"));
+    P[G().$e] = H.sd(H.ed("hat_6"));
+    P[G().Gt] = H.sd(H.ed("cactus"));
+    P[G().Vt] = H.sd(H.ed("tornado"));
+    P[G().Co] = H.sd(H.ed("hat_7"));
+    P[G().$o] = H.sd(H.ed("hat_8"));
+    P[G().ir] = H.sd(H.ed("hat_9"));
+    P[G().Dr] = H.sd(H.ed("hat_10"));
+    P[G().Gr] = H.sd(H.ed("hat_11"));
+    P[G().cc] = H.sd(H.ed("hat_14"));
+    P[G().wn] = H.sd(H.ed("apple"));
+    P[G().q] = H.sd(H.ed("stick"));
+    P[G()._t] = H.sd(H.ed("big_spike"));
+    P[G().Uo] = H.sd(H.ed("map_cross"));
+    P[G().vn] = H.sd(H.ed("katana"));
+    P[G().Tn] = H.sd(H.ed("Xbow"));
+    P[G().Oo] = H.sd(H.ed("map_dot"));
+    P[G().Pr] = H.sd(H.ed("our_dot"));
+    P[G().vt] = H.sd(H.ed("bed"));
+    P[G().Bt] = H.sd(H.ed("castle_wall"));
+    P[G()._n] = H.sd(H.ed("cut_spear"));
+    P[G().Eo] = H.sd(H.ed("team_crown"));
+    P[G().gr] = null;
+    P[G().wo] = H.sd(H.ed("skid_hat"));
+    P[G().bn] = H.sd(H.ed("hammer"));
+    P[G().io] = null;
+    P[G().Pe] = H.sd(H.ed("toggle-button-out1"));
+    P[G().Lo] = H.sd(H.ed("clan_button_out"));
+    P[G().Do] = H.sd(H.ed("hat_button_out"));
+    P[G().So] = H.sd(H.ed("close_button_out"));
+    P[G().xo] = H.sd(H.ed("chat_button_out"));
+    P[G().jo] = H.sd(H.ed("inv_cut_spear"));
+    P[G().Oe] = H.sd(H.ed("inv_stone_toolhammer"));
+    P[G().xe] = H.sd(H.ed("inv_stone_sword"));
+    P[G().Lr] = H.sd(H.ed("inv_s_dagger"));
+    P[G().Wr] = H.sd(H.ed("s_dagger"));
+    P[G().Or] = H.sd(H.ed("inv_g_dagger"));
+    P[G().Qr] = H.sd(H.od("g_dagger"));
+    P[G().jr] = H.sd(H.ed("inv_d_dagger"));
+    P[G().Hr] = H.sd(H.od("d_dagger"));
+    P[G().Xr] = H.sd(H.ed("inv_c_dagger"));
+    P[G().Jr] = H.sd(H.od("c_dagger"));
+    P[G().Yr] = H.sd(H.ed("inv_s_healing_staff"));
+    P[G().$r] = H.sd(H.ed("s_healing_staff"));
+    P[G().Zr] = H.sd(H.ed("inv_g_healing_staff"));
+    P[G().tc] = H.sd(H.od("g_healing_staff"));
+    P[G().Kr] = H.sd(H.ed("inv_d_healing_staff"));
+    P[G()._e] = H.sd(H.od("d_healing_staff"));
+    P[G().Ir] = H.sd(H.ed("inv_r_healing_staff"));
+    P[G().nc] = H.sd(H.od("r_healing_staff"));
+    P[G().Ne] = H.sd(H.ed("inv_stone_spear"));
+    P[G().We] = H.sd(H.ed("inv_stone_axe"));
+    P[G().Io] = H.sd(H.ed("inv_great_axe"));
+    P[G().no] = H.sd(H.ed("inv_cookie"));
+    P[G().je] = H.sd(H.ed("inv_musket"));
+    P[G().Qe] = H.sd(H.ed("inv_wood_wall"));
+    P[G().No] = H.sd(H.ed("inv_castle_wall"));
+    P[G().Ge] = H.sd(H.ed("inv_spike"));
+    P[G().Re] = H.sd(H.ed("inv_boost"));
+    P[G().Ve] = H.sd(H.ed("inv_platform"));
+    P[G().qe] = H.sd(H.ed("inv_trap"));
+    P[G().Fr] = H.sd(H.ed("inv_heal_pad"));
+    P[G().Ze] = H.sd(H.ed("inv_apple"));
+    P[G().Fe] = H.sd(H.ed("inv_stone_shield"));
+    P[G().er] = H.sd(H.ed("inv_bat"));
+    P[G().ro] = H.sd(H.ed("inv_windmill"));
+    P[G().oo] = H.sd(H.ed("windmill_top"));
+    P[G().ao] = H.sd(H.ed("windmill_base"));
+    P[G().so] = H.sd(H.ed("windmill_assembled"));
+    P[G().eo] = H.sd(H.ed("inv_stick"));
+    P[G().uo] = H.sd(H.ed("inv_hammer"));
+    P[G().fo] = H.sd(H.ed("inv_bed"));
+    P[G().ho] = H.sd(H.ed("inv_katana"));
+    P[G().do] = H.sd(H.ed("inv_big_spike"));
+    P[G().po] = H.sd(H.ed("inv_hard_spike"));
+    P[G().To] = H.sd(H.ed("inv_turret"));
+    P[G().Mo] = H.sd(H.ed("inv_wood_farm"));
+    P[G()._o] = H.sd(H.ed("inv_wood_farm_cherry"));
+    P[G().ko] = H.sd(H.ed("inv_stone_farm"));
+    P[G().Ao] = H.sd(H.ed("inv_bush"));
+    P[G().yo] = H.sd(H.ed("inv_bow"));
+    P[G().zo] = H.sd(H.ed("inv_xbow"));
+    P[G().Wo] = H.sd(H.od("wall"));
+    P[G().Qo] = H.sd(H.od("spike"));
+    P[G().Ho] = H.sd(H.od("castle_wall"));
+    P[G().fx] = H.sd(H.od("boost"));
+    P[G().fy] = H.sd(H.od("trap"));
+    P[G().Yu] = H.sd(H.od("heal_pad"));
+    P[G().Ro] = H.sd(H.od("stone_farm"));
+    P[G().Go] = H.sd(H.od("berry_farm"));
+    P[G().Vo] = H.sd(H.od("wood_farm_cherry"));
+    P[G().qo] = H.sd(H.od("wood_farm"));
+    P[G().Po] = H.sd(H.od("hard_spike"));
+    P[G().Yo] = H.sd(H.od("castle_spike"));
+    P[G().Zo] = H.sd(H.od("platform"));
+    P[G().Ko] = H.sd(H.od("bed"));
+    P[G().Ct] = H.sd(H.ed("roof"));
+    P[G().zr] = H.sd(H.ed("inv_roof"));
+    P[G().Ar] = H.sd(H.ed("clan_accept"));
+    P[G().yr] = H.sd(H.ed("clan_decline"));
+    var K = P;
+    var I = a(9299);
+    var F = a.n(I);
+    var J = a(1624);
+    var X = a.n(J);
+    var $ = a(3287);
+    var tt = a.n($);
+    var nt = a(3970);
+    var it = a.n(nt);
+    function et(t, n) {
+      let e;
+      let o = Date.now();
+      let c = 0;
+      e = _[l().Ut];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        st(e[i], G().Ut, t, n);
+      }
+      e = _[l().Yt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        st(e[i], G().Yt, t, n);
+      }
+      e = _[l().ht];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().ht, t, n);
+      }
+      e = _[l().K];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().K, t, n);
+      }
+      e = _[l().Rt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().Rt, t, n);
+      }
+      e = _[l().vt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().vt, t, n);
+      }
+      e = _[l().I];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().I, t, n);
+      }
+      e = _[l().$];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().$, t, n);
+      }
+      e = _[l().dt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().dt, t, n);
+      }
+      e = _[l().yt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().yt, t, n);
+      }
+      e = _[l().st];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().st, t, n);
+      }
+      e = _[l().Wt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().Wt, t, n);
+      }
+      e = _[l().Qt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().Qt, t, n);
+      }
+      e = _[l().Ot];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().Ot, t, n);
+      }
+      e = _[l().jt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().jt, t, n);
+      }
+      e = _[l().Nt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().Nt, t, n);
+      }
+      e = _[l().nt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().nt, t, n);
+      }
+      e = _[l().qt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().qt, t, n);
+      }
+      e = _[l().gt];
+      c = e.length;
+      for (let n = 0; n < c; n++) {
+        if (!(e[n].bs & w().Oc)) {
+          ut(e[n], e[n]._h, G().Ce, t);
+        }
+      }
+      e = _[l().Ht];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        st(e[i], G().Ht, t, n);
+      }
+      e = _[l().at];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        if (!(e[i].bs & w().Oc)) {
+          lt(e[i], t, n);
+        }
+      }
+      e = _[l().zt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        st(e[i], G().zt, t, n);
+      }
+      e = _[l().Lt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        st(e[i], G().Lt, t, n);
+      }
+      e = _[l().bt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        st(e[i], G().bt, t, n);
+      }
+      e = _[l().Et];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        st(e[i], G().Et, t, n);
+      }
+      e = _[l().St];
+      c = e.length;
+      for (let n = 0; n < c; n++) {
+        const i = e[n];
+        at(i, G().St, t, o - i.zh, i.bs & w().jc ? 0 : 1);
+      }
+      e = _[l().ft];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().ft, t, n);
+      }
+      e = _[l().ax];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().ax, t, n);
+      }
+      e = _[l().Pt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().Pt, t, n);
+      }
+      e = _[l().xt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().xt, t, n);
+      }
+      e = _[l().lt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().lt, t, n);
+      }
+      e = _[l().Bt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().Bt, t, n);
+      }
+      e = _[l().Mt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().mo, t, n);
+      }
+      e = _[l().Mt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().vo, t, n);
+      }
+      e = _[l()._t];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G()._t, t, n);
+      }
+      e = _[l().wt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().ao, t, n);
+      }
+      e = _[l().Tt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().ao, t, n);
+      }
+      e = _[l().ut];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().ut, t, n);
+      }
+      e = _[l().Gt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().Gt, t, n);
+      }
+      e = _[l().Dt];
+      c = e.length;
+      for (let n = 0; n < c; n++) {
+        const i = e[n];
+        at(i, G().Dt, t, o - i.zh);
+      }
+      e = _[l().kt];
+      c = e.length;
+      for (let i, o = 0; o < c; o++) {
+        i = e[o];
+        ft(i, G().kt, t, n);
+      }
+      e = _[l().At];
+      c = e.length;
+      for (let i, o = 0; o < c; o++) {
+        i = e[o];
+        ft(i, G().At, t, n);
+      }
+      e = _[l().ay];
+      c = e.length;
+      for (let i, o = 0; o < c; o++) {
+        i = e[o];
+        ft(i, i.rh === it().S ? G().ay : i.rh === it().L ? G().lo : i.rh === it().O ? G().Fo : G().Cr, t, n);
+      }
+      e = _[l().at];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        if (e[i].bs & w().Oc) {
+          lt(e[i], t, n);
+        }
+      }
+      e = _[l().Ct];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().Ct, t, n);
+      }
+      e = _[l().Vt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        st(e[i], G().Vt, t, n);
+      }
+      e = _[l().wt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().oo, t, n);
+      }
+      e = _[l().Tt];
+      c = e.length;
+      for (let i = 0; i < c; i++) {
+        ft(e[i], G().oo, t, n);
+      }
+      e = _[l().gt];
+      c = e.length;
+      for (let n = 0; n < c; n++) {
+        if (e[n].bs & w().Oc) {
+          ut(e[n], e[n]._h, G().Ce, t);
+        }
+      }
+    }
+    function ot(t, n) {
+      const i = K[t.yh];
+      if (!i || !i.ol) {
+        return;
+      }
+      n.save();
+      n.translate(t.$u, t.tf);
+      const e = t.Uh.value;
+      const o = t.Fu - e;
+      n.rotate(o);
+      if (t.Md) {
+        n.globalAlpha = 0.5;
+      }
+      b().gl(n, i, -i.ol.al / 2, -i.ol.sl / 2, i.ol.al, i.ol.sl);
+      n.restore();
+    }
+    function rt(t, n, i) {
+      const o = K[G().Se];
+      const c = K[G().Le];
+      const a = tt()[t.type].nu + 50;
+      const s = 0.5;
+      n.fillStyle = i ? "#a4cc4f" : "#cc5151";
+      n.drawImage(c, t.$u - s * c.width / 2, t.tf - s * c.height + a, s * c.width, s * c.height);
+      let u = s * o.width;
+      let f = t.uh / 255 * (u - 10);
+      n.fillRect(t.$u - u / 2 + 5, t.tf - s * o.height + a + 5, f, s * o.height - 10);
+      n.drawImage(o, t.$u - s * o.width / 2, t.tf - s * o.height + a, s * o.width, s * o.height);
+    }
+    function ct(t, n, i, e) {
+      let c = 0;
+      if (n.gd !== 0) {
+        let t = e % n.gd / n.gd;
+        if (Math.floor(e / n.gd) % 2 == 0) {
+          t = 1 - t;
+        }
+        c = n.hd + t * (n.dd - n.hd);
+      }
+      let a = 0;
+      if (n.bd !== 0) {
+        let t = e % n.bd / n.bd;
+        if (Math.floor(e / n.bd) % 2 == 0) {
+          t = 1 - t;
+        }
+        a = n.wd + t * (n.pd - n.wd);
+      }
+      if (n.ud !== 0 || n.fd !== 0 || c !== 0 || a !== 0) {
+        c += n.ud;
+        a += n.fd;
+        i.translate(c, a);
+      }
+      let s = 0;
+      if (n.Td !== 0) {
+        let t = e % n.Td / n.Td;
+        if (Math.floor(e / n.Td) % 2 == 0) {
+          t = 1 - t;
+        }
+        s = n.vd + t * (n.md - n.vd);
+      }
+      if (n.ld || s !== 0) {
+        s += n.ld;
+        i.rotate(s);
+      }
+      b().gl(i, t, -t.ol.al / 2, -t.ol.sl / 2, t.ol.al, t.ol.sl);
+      if (s !== 0) {
+        i.rotate(-s);
+      }
+      if (c !== 0 || a !== 0) {
+        i.translate(-c, -a);
+      }
+    }
+    function at(t, n, i, e, o = -1) {
+      let a;
+      a = o !== -1 ? K[n][o] : K[n];
+      i.save();
+      i.translate(t.$u, t.tf);
+      i.rotate(t.Fu);
+      const s = a.length;
+      for (let t = 0; t < s; t++) {
+        const n = a[t];
+        ct(n[0], n[1], i, e);
+      }
+      i.restore();
+    }
+    function st(t, n, i, e) {
+      const c = K[n];
+      i.save();
+      if (t.Sh) {
+        t.Fu += t.Sh * e;
+      }
+      i.translate(t.$u, t.tf);
+      i.rotate(t.Fu);
+      b().gl(i, c, -c.ol.al / 2, -c.ol.sl / 2, c.ol.al, c.ol.sl);
+      i.restore();
+    }
+    function ut(t, n, i, e, o) {
+      if (!t.active) {
+        return;
+      }
+      const a = K[n];
+      K[i];
+      t.range;
+      e.save();
+      e.translate(t.$u, t.tf);
+      e.rotate(t.Fu);
+      b().gl(e, a, -a.ol.al / 2, -a.ol.sl / 2, a.ol.al, a.ol.sl);
+      e.restore();
+    }
+    function ft(t, n, i, e) {
+      let c = 0;
+      let a = 0;
+      let s = 0;
+      if (t.Uh.value) {
+        t.Uh.ja(e);
+        s = t.Uh.value;
+      } else if (t.Eh.active && !t.Uh.value) {
+        t.Uh.ja(e);
+        t.Eh.active = false;
+        s = t.Uh.value;
+      }
+      if (s) {
+        c = Math.cos(t.Eh.Ch) * 10 * s;
+        a = Math.sin(t.Eh.Ch) * 10 * s;
+      }
+      if (t.Sh) {
+        t.Fu += t.Sh * e;
+      }
+      const u = n !== G().ao ? t.Fu : 0;
+      i.save();
+      i.translate(t.$u + c, t.tf + a);
+      i.rotate(u);
+      const f = K[n];
+      b().gl(i, f, -f.ol.al / 2, -f.ol.sl / 2, f.ol.al, f.ol.sl);
+      i.restore();
+    }
+    function lt(t, n, i) {
+      if (t.yh && !t.Md) {
+        return;
+      }
+      const o = F()[t.rh];
+      n.save();
+      n.translate(t.$u, t.tf);
+      if (t.Uh.value) {
+        t.Uh.ja(i);
+      }
+      const c = t.ah ? X()[t.ah] : null;
+      const a = c ? c.gu : 0;
+      const s = t.bs & w().jc ? K[G().wo] : c ? K[c.hu] : null;
+      const u = 70;
+      const f = K[o.hu];
+      const l = t._h || 0;
+      const h = K[G().ke][l];
+      const d = K[G().Ae][l];
+      const g = t.Mh || 0;
+      const p = K[G().Mr][g];
+      const v = t.Ah || 0;
+      const m = K[G().Sr][v];
+      const T = t.Uh.value;
+      const _ = t.Fu - T;
+      if (!(t.bs & w().Ec)) {
+        switch (o.Du) {
+          case 0:
+            n.rotate(_);
+            b().gl(n, f, 29 - f.ol.al / 2 + o.gu, -48 + o.Su, f.ol.al, f.ol.sl);
+            if (!c || c.hu !== G().Go) {
+              if (v !== 0) {
+                b().gl(n, m, -m.ol.al / 2, -m.ol.sl / 2, m.ol.al, m.ol.sl);
+              }
+              b().gl(n, d, u / 3 - d.ol.al / 2, u / 3 - d.ol.sl / 2, d.ol.al, d.ol.sl);
+              n.save();
+              n.translate(u / 3, -70 / 3);
+              n.scale(1, -1);
+              n.translate(-d.ol.al / 2, -d.ol.sl / 2);
+              b().gl(n, d, 0, 0, d.ol.al, d.ol.sl);
+              n.restore();
+              b().gl(n, h, -h.ol.al / 2, -h.ol.sl / 2, h.ol.al, h.ol.sl);
+              if (g !== 0) {
+                b().gl(n, p, -p.ol.al / 2, -p.ol.sl / 2, p.ol.al, p.ol.sl);
+              }
+            }
+            if (s) {
+              b().gl(n, s, -s.ol.al / 2 - a, -s.ol.sl / 2, s.ol.al, s.ol.sl);
+            }
+            break;
+          case 1:
+            n.rotate(t.Fu);
+            b().gl(n, f, u / (0.9 + T * 0.05) - f.ol.al / 2 - o.gu, -f.ol.sl / 2 + o.Su, f.ol.al, f.ol.sl);
+            if (!c || c.hu !== G().Go) {
+              if (v !== 0) {
+                b().gl(n, m, -m.ol.al / 2, -m.ol.sl / 2, m.ol.al, m.ol.sl);
+              }
+              b().gl(n, d, u / (2.3 + T * 0.1) - d.ol.al / 2, 17.5 - d.ol.sl / 2, d.ol.al, d.ol.sl);
+              n.save();
+              n.translate(u / (1.3 - T * 0.15), -17.5);
+              n.scale(1, -1);
+              n.translate(-d.ol.al / 2, -d.ol.sl / 2);
+              b().gl(n, d, 0, 0, d.ol.al, d.ol.sl);
+              n.restore();
+              b().gl(n, h, -h.ol.al / 2, -h.ol.sl / 2, h.ol.al, h.ol.sl);
+              if (g !== 0) {
+                b().gl(n, p, -p.ol.al / 2, -p.ol.sl / 2, p.ol.al, p.ol.sl);
+              }
+            }
+            if (s) {
+              b().gl(n, s, -s.ol.al / 2 - a, -s.ol.sl / 2, s.ol.al, s.ol.sl);
+            }
+            break;
+          case 2:
+            n.rotate(_);
+            b().gl(n, f, 35 - o.gu, -f.ol.sl / 2 + o.Su, f.ol.al, f.ol.sl);
+            if (!c || c.hu !== G().Go) {
+              if (v !== 0) {
+                b().gl(n, m, -m.ol.al / 2, -m.ol.sl / 2, m.ol.al, m.ol.sl);
+              }
+              b().gl(n, d, u / 3 - d.ol.al / 2, u / 3 - d.ol.sl / 2, d.ol.al, d.ol.sl);
+              n.save();
+              n.translate(u / 3, -70 / 3);
+              n.scale(1, -1);
+              n.translate(-d.ol.al / 2, -d.ol.sl / 2);
+              b().gl(n, d, 0, 0, d.ol.al, d.ol.sl);
+              n.restore();
+              b().gl(n, h, -h.ol.al / 2, -h.ol.sl / 2, h.ol.al, h.ol.sl);
+              if (g !== 0) {
+                b().gl(n, p, -p.ol.al / 2, -p.ol.sl / 2, p.ol.al, p.ol.sl);
+              }
+            }
+            if (s) {
+              b().gl(n, s, -s.ol.al / 2 - a, -s.ol.sl / 2, s.ol.al, s.ol.sl);
+            }
+            break;
+          case 3:
+            n.rotate(t.Fu);
+            let i = T * 7;
+            b().gl(n, f, 29 - f.ol.al / 2 + o.gu + i, -48 + o.Su, f.ol.al, f.ol.sl);
+            if (!c || c.hu !== G().Go) {
+              if (v !== 0) {
+                b().gl(n, m, -m.ol.al / 2, -m.ol.sl / 2, m.ol.al, m.ol.sl);
+              }
+              b().gl(n, d, u / 3 - d.ol.al / 2 + i, u / 3 - d.ol.sl / 2, d.ol.al, d.ol.sl);
+              n.save();
+              n.translate(u / 3, -70 / 3);
+              n.scale(1, -1);
+              n.translate(-d.ol.al / 2, -d.ol.sl / 2);
+              b().gl(n, d, 0, 0, d.ol.al, d.ol.sl);
+              n.restore();
+              b().gl(n, h, -h.ol.al / 2, -h.ol.sl / 2, h.ol.al, h.ol.sl);
+              if (g !== 0) {
+                b().gl(n, p, -p.ol.al / 2, -p.ol.sl / 2, p.ol.al, p.ol.sl);
+              }
+            }
+            if (s) {
+              b().gl(n, s, -s.ol.al / 2 - a, -s.ol.sl / 2, s.ol.al, s.ol.sl);
+            }
+        }
+      }
+      n.restore();
+    }
+    function ht() {
+      try {
+        localStorage.setItem(Wt, JSON.stringify(Qt));
+      } catch (t) {}
+    }
+    document.getElementById("reset-keybinds").addEventListener("click", function (t) {
+      Object.assign(Qt, Nt);
+      ht();
+      qt();
+    });
+    let dt = 0;
+    const gt = dt++;
+    const wt = dt++;
+    const pt = dt++;
+    const bt = dt++;
+    const vt = dt++;
+    const mt = dt++;
+    const Tt = dt++;
+    const _t = dt++;
+    const Mt = dt++;
+    const kt = dt++;
+    const At = dt++;
+    const yt = dt++;
+    const Bt = dt++;
+    const Ut = dt++;
+    const zt = dt++;
+    const Et = dt++;
+    const Ct = dt++;
+    const Dt = dt++;
+    const St = dt++;
+    const Lt = dt++;
+    const xt = dt++;
+    const Ot = dt++;
+    const jt = dt++;
+    const Nt = Object.freeze({
+      [gt]: "KeyW",
+      [wt]: "KeyS",
+      [pt]: "KeyD",
+      [bt]: "KeyA",
+      [vt]: "KeyF",
+      [mt]: "KeyQ",
+      [Tt]: "Space",
+      [_t]: "KeyR",
+      [Mt]: "KeyR",
+      [kt]: "KeyG",
+      [At]: "KeyT",
+      [yt]: "KeyN",
+      [Bt]: "KeyX",
+      [Ut]: "KeyE",
+      [zt]: "ArrowUp",
+      [Et]: "ArrowRight",
+      [Ct]: "ArrowDown",
+      [Dt]: "ArrowLeft",
+      [St]: "Escape",
+      [Lt]: "Enter",
+      [xt]: "KeyL",
+      [Ot]: "KeyC",
+      [jt]: "KeyB"
+    });
+    const Wt = "keybinds";
+    const Qt = function () {
+      var t = undefined;
+      try {
+        t = localStorage.getItem(Wt);
+      } catch (t) {}
+      if (!t) {
+        return Object.assign({}, Nt);
+      }
+      try {
+        let n = Object.assign(Object.assign({}, Nt), JSON.parse(t));
+        if (n[mt] === "Space") {
+          n[mt] = Nt[mt];
+        }
+        if (n[vt] === "Space") {
+          n[vt] = Nt[vt];
+        }
+        if (n[_t] === "Space") {
+          n[_t] = Nt[_t];
+        }
+        if (n[Mt] === "Space") {
+          n[Mt] = Nt[Mt];
+        }
+        if (n[kt] === "Space") {
+          n[kt] = Nt[kt];
+        }
+        if (n[At] === "Space") {
+          n[At] = Nt[At];
+        }
+        if (n[yt] === "Space") {
+          n[yt] = Nt[yt];
+        }
+        return n;
+      } catch {
+        return Object.assign({}, Nt);
+      }
+    }();
+    qt();
+    const Ht = Array.from(document.getElementsByClassName("keybind-setting"));
+    function Rt(t) {
+      return atob(btoa(t));
+    }
+    let Gt = null;
+    function Vt(t) {
+      if (t.startsWith("Key")) {
+        return t.slice(3);
+      } else if (t.startsWith("Digit") || t.startsWith("Arrow")) {
+        return t.slice(5);
+      } else {
+        return t;
+      }
+    }
+    function qt() {
+      document.getElementById("for-spike").innerText = Vt(Qt[_t]);
+      document.getElementById("for-trap").innerText = Vt(Qt[vt]);
+      document.getElementById("for-food").innerText = Vt(Qt[mt]);
+      document.getElementById("for-shop").innerText = Vt(Qt[Ot]);
+      document.getElementById("for-clan").innerText = Vt(Qt[jt]);
+      document.getElementById("for-windmill").innerText = Vt(Qt[kt]);
+      document.getElementById("for-platform").innerText = Vt(Qt[At]);
+      document.getElementById("for-bed").innerText = Vt(Qt[yt]);
+    }
+    Ht.forEach(t => t.addEventListener("click", function () {
+      Gt = t[Rt("id")];
+      document.getElementById(Gt).innerText = "PRESS";
+    }));
+    window.addEventListener("keydown", function (t) {
+      if (!Gt) {
+        return;
+      }
+      t.preventDefault();
+      const n = t.code;
+      if (n !== "Space") {
+        switch (Gt) {
+          case "for-spike":
+            Qt[_t] = n;
+            break;
+          case "for-trap":
+            Qt[vt] = n;
+            break;
+          case "for-food":
+            Qt[mt] = n;
+            break;
+          case "for-windmill":
+            Qt[kt] = n;
+            break;
+          case "for-platform":
+            Qt[At] = n;
+            break;
+          case "for-bed":
+            Qt[yt] = n;
+            break;
+          case "for-shop":
+            Qt[Ot] = n;
+            break;
+          case "for-clan":
+            Qt[jt] = n;
+            break;
+          default:
+            throw Error("Unknown key type");
+        }
+        ht();
+        qt();
+        Gt = null;
+      }
+    });
+    let Pt = false;
+    let Yt = {
+      Wa: -1,
+      kd: 0,
+      Ad: 0,
+      yd: 0,
+      Bd: 0
+    };
+    let Zt = {
+      Wa: -1,
+      kd: 0,
+      Ad: 0,
+      yd: 0,
+      Bd: 0
+    };
+    let Kt = 0;
+    let It = 0;
+    let Ft = {};
+    let Jt = 0;
+    let Xt = false;
+    let $t = 0;
+    let tn = 0;
+    let nn = 0;
+    let en = false;
+    function on(t) {
+      const n = t.code;
+      if ((ee || oe || re) && n === Qt[St] && !Ft[n]) {
+        if (ee) {
+          qe(false);
+        }
+        if (re) {
+          Pe(false);
+        }
+        if (oe) {
+          wo(false);
+        }
+      }
+      if (document.activeElement.type !== "text") {
+        if (!ee && !Ft[n] && n === Qt[Lt]) {
+          if (re) {
+            Pe(false);
+          }
+          if (oe) {
+            wo(false);
+          }
+          qe(true);
+          t.preventDefault();
+          return;
+        }
+        if (!ee) {
+          if (t.code === Qt[Bt] && !Ft[n]) {
+            oo(!ne);
+          }
+          if (n === Qt[Ut] && !Ft[n]) {
+            ro(!te);
+            hr(te);
+          }
+        }
+        if (n === Qt[mt] && !Ft[n]) {
+          br(2);
+        }
+        if (n === Qt[vt] && !Ft[n]) {
+          br(7);
+          br(10);
+          br(11);
+        }
+        if (n === Qt[_t] && !Ft[n] || n === Qt[Mt] && !Ft[n]) {
+          br(4);
+        }
+        if (n === Qt[kt] && !Ft[n]) {
+          br(5);
+        }
+        if (n === Qt[At] && !Ft[n]) {
+          br(8);
+        }
+        if (n === Qt[yt] && !Ft[n]) {
+          br(9);
+        }
+        if (n !== "Space" && !isNaN(Number(t.key)) && !Ft[n]) {
+          if (Number(t.key) - 1 >= 0) {
+            vr(Si.Ud[Number(t.key) - 1]);
+          }
+        }
+        if (n === Qt[Tt] && !Ft[n]) {
+          gr(Ve());
+        }
+        if (n === Qt[gt] || n === Qt[zt]) {
+          Kt |= 1;
+        }
+        if (n === Qt[pt] || n === Qt[Et]) {
+          Kt |= 8;
+        }
+        if (n === Qt[xt] && Fi) {
+          pr(Fi);
+        }
+        if (n === Qt[bt] || n === Qt[Dt]) {
+          Kt |= 4;
+        }
+        if (n === Qt[wt] || n === Qt[Ct]) {
+          Kt |= 2;
+        }
+        Ft[n] = true;
+      }
+    }
+    function rn(t) {
+      const n = t.code;
+      if (n === Qt[Tt]) {
+        wr();
+      }
+      if (n === Qt[pt] || n === Qt[Et]) {
+        Kt &= -9;
+      }
+      if (n === Qt[gt] || n === Qt[zt]) {
+        Kt &= -2;
+      }
+      if (n === Qt[bt] || n === Qt[Dt]) {
+        Kt &= -5;
+      }
+      if (n === Qt[wt] || n === Qt[Ct]) {
+        Kt &= -3;
+      }
+      if (n === Qt[xt]) {
+        Xt = false;
+      }
+      if (n === Qt[Ot] && !ee) {
+        if (re) {
+          Pe(false);
+        }
+        qe(false);
+        wo(!oe);
+      }
+      if (n === Qt[jt] && !ee) {
+        if (oe) {
+          wo(false);
+        }
+        qe(false);
+        Pe(!re);
+      }
+      if (n === Qt[St] && To()) {
+        to(true);
+      }
+      Ft[n] = false;
+    }
+    function cn(t) {
+      Pt = true;
+      t.preventDefault();
+      t.stopPropagation();
+      for (let i of t.changedTouches) {
+        Ye(i.pageX, i.pageY);
+        if (Fe(qi, Pi)) {
+          break;
+        }
+        if (i.pageX < document.body.scrollWidth / 2 && Yt.Wa === -1) {
+          Yt.Wa = i.identifier;
+          Yt.kd = Yt.yd = i.pageX;
+          Yt.Ad = Yt.Bd = i.pageY;
+        } else if (i.pageX > document.body.scrollWidth / 2 && Zt.Wa === -1) {
+          Zt.Wa = i.identifier;
+          Zt.kd = Zt.yd = i.pageX;
+          Zt.Ad = Zt.Bd = i.pageY;
+        }
+      }
+    }
+    function an(t) {
+      Pt = true;
+      t.preventDefault();
+      t.stopPropagation();
+      for (let i of t.changedTouches) {
+        if (i.identifier === Yt.Wa) {
+          Yt.yd = i.pageX;
+          Yt.Bd = i.pageY;
+        } else if (i.identifier === Zt.Wa) {
+          Zt.yd = i.pageX;
+          Zt.Bd = i.pageY;
+        }
+      }
+    }
+    function sn(t) {
+      Pt = true;
+      t.preventDefault();
+      t.stopPropagation();
+      for (let i of t.changedTouches) {
+        Ye(i.pageX, i.pageY);
+        if (Je(qi, Pi)) {
+          break;
+        }
+        if (i.identifier === Yt.Wa) {
+          Yt.Wa = -1;
+        } else if (i.identifier === Zt.Wa) {
+          Zt.Wa = -1;
+        }
+      }
+    }
+    function un(t) {
+      _r(t);
+      It = t;
+      nn = 0;
+    }
+    function fn(t) {
+      en = false;
+      dr(t);
+    }
+    function ln(t) {
+      en = true;
+      Tr(t);
+    }
+    function hn(t) {
+      mr(t);
+      $t = t;
+      tn = 0;
+    }
+    function dn(t) {
+      Pt = t;
+    }
+    function gn(t, n, i) {
+      return {
+        $u: 0,
+        tf: 0,
+        width: n,
+        height: i,
+        bs: 0,
+        hu: t,
+        zd: function (t) {
+          const n = this.hu;
+          b().gl(t, n, this.$u, this.tf, this.width, this.height);
+        },
+        Ed: function (t, n, i) {
+          if (b().mf(t, n, this.$u, this.tf, this.width, this.height)) {
+            this.bs = 1;
+            return true;
+          } else {
+            this.bs = 0;
+            return false;
+          }
+        }
+      };
+    }
+    var wn = a(6399);
+    var pn = a.n(wn);
+    var bn = {
+      Cd: [],
+      Dd: [],
+      Ud: [],
+      Au: [],
+      Sd: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      Ld: [],
+      xd: {
+        width: 400,
+        height: 20,
+        $u: 0,
+        tf: 0,
+        Od: 0,
+        background: b().Kf(400, 20, 10, "#5D3A37"),
+        zd: function (t) {
+          t.drawImage(this.background, this.$u, this.tf);
+          t.beginPath();
+          t.fillStyle = "#F2C39F";
+          if (this.Od) {
+            b().Vf(t, this.$u + 5, this.tf + 5, (this.width - 10) * this.Od, this.height - 10, 5);
+          }
+          t.fill();
+        }
+      },
+      jd: 0,
+      Rc: 0,
+      Nd: 0,
+      Wd: -1,
+      Qd: b().Ff("0", 24, "#AE4D57", "#222222"),
+      Hd: b().Ff("0", 24, "#935F3B", "#222222"),
+      Rd: b().Ff("0", 24, "#7B7A91", "#222222"),
+      Gd: b().Ff("0", 24, "#FFD700", "#222222"),
+      Vd: b().Ff("0", 24, "#FFFFFF", "#222222"),
+      qd: b().Ff("0", 24, "#FFFFFF", "#222222"),
+      Pd: null,
+      Yd: {
+        Zd: -1,
+        Sd: 0,
+        Kd: b().Ff(" ", 23, ""),
+        Id: b().Ff(" ", 23, ""),
+        Fd: b().Ff(" ", 23, ""),
+        Jd: b().Ff(" ", 23, ""),
+        Xd: b().Ff(" ", 23, ""),
+        $d: b().Ff(" ", 23, ""),
+        tg: b().Ff(" ", 23, ""),
+        zd: function (t, n, i, e, o, c) {
+          const s = F()[n];
+          if (n !== this.Zd) {
+            this.Zd = n;
+            b().If(this.Kd, s.Ta, 23, "#eec39d");
+            b().If(this.Id, i + "/" + e, 23, "#fff");
+            if (s.du) {
+              b().If(this.Fd, "" + s.du[0], 23, "#ad4e56");
+              b().If(this.Jd, "" + s.du[1], 23, "#9c7e66");
+              b().If(this.Xd, "" + s.du[2], 23, "#ffffff");
+              b().If(this.$d, "" + s.du[3], 23, "#e3b32c");
+            }
+            b().If(this.tg, s.description, 23, "#fff");
+            this.Sd = i;
+          } else if (this.Sd !== i) {
+            b().If(this.Id, i + "/" + e, 23, "#fff");
+            this.Sd = i;
+          }
+          const u = Math.max(this.Kd.width + s.Cu === 2 ? this.Id.width : 0, s.du ? this.Fd.width + this.Jd.width + this.Xd.width + this.$d.width : 0, this.tg.width) + 40;
+          t.beginPath();
+          t.fillStyle = "#4f403c";
+          b().Vf(t, o, c, u, s.du ? 150 : 110, 10);
+          t.fill();
+          c += 20;
+          o += 20;
+          t.drawImage(this.Kd, o, c);
+          if (s.Cu === 2) {
+            t.drawImage(this.Id, o + this.Kd.width, c);
+          }
+          if (s.du) {
+            t.drawImage(this.Fd, o, c + 40);
+            t.drawImage(this.Jd, o + this.Fd.width, c + 40);
+            t.drawImage(this.Xd, o + this.Fd.width + this.Jd.width, c + 40);
+            t.drawImage(this.$d, o + this.Fd.width + this.Jd.width + this.Xd.width, c + 40);
+          }
+          t.drawImage(this.tg, o + 0, c + (s.du ? 80 : 40));
+        }
+      },
+      ng: function (t) {
+        return Math.floor(t * 10) / 10;
+      },
+      ig: function (t) {
+        if (t < 1000) {
+          return t;
+        } else if (t < 10000) {
+          return this.ng(t / 1000, 2) + "k";
+        } else if (t < 1000000) {
+          return Math.floor(t / 1000) + "k";
+        } else if (t < 10000000) {
+          return this.ng(t / 1000000, 2) + "m";
+        } else if (t < 1000000000) {
+          return Math.floor(t / 1000000) + "m";
+        } else {
+          return Math.floor(t / 1000000000) + "b";
+        }
+      },
+      eg: function (t, n, i, e) {
+        if (this.Ld[pn().P] !== t) {
+          b().If(this.Qd, this.ig(t), 24, "#AE4D57", "#222222");
+        }
+        if (this.Ld[pn().Me] !== n) {
+          b().If(this.Hd, this.ig(n), 24, "#935F3B", "#222222");
+        }
+        if (this.Ld[pn().em] !== i) {
+          b().If(this.Rd, this.ig(i), 24, "#7B7A91", "#222222");
+        }
+        if (this.Ld[pn().nt] !== e) {
+          b().If(this.Gd, e + "", 24, "#FFD700", "#222222");
+        }
+        this.Ld[pn().P] = t;
+        this.Ld[pn().Me] = n;
+        this.Ld[pn().em] = i;
+        this.Ld[pn().nt] = e;
+      },
+      og: function (t) {
+        const i = Math.floor(b().Jf(this.Nd));
+        this.Nd = t;
+        const e = Math.floor(b().Jf(this.Nd));
+        this.xd.Od = Math.floor((b().Jf(this.Nd) - e) * 100) / 100;
+        if (i !== e) {
+          this.Pd = b().If(this.Pd, "AGE " + e, 24, "#FFFFFF", "#222222");
+        }
+      },
+      rg: function (t) {
+        this.Vd = b().If(this.Vd, t, 24, "#FFFFFF", "#222222");
+        this.jd = t;
+      },
+      cg: function () {
+        this.Rc = 0;
+        this.qd = b().If(this.qd, this.Rc, 24, "#FFFFFF", "#222222");
+      },
+      ag: function (t) {
+        this.Rc += t;
+        this.qd = b().If(this.qd, this.Rc, 24, "#FFFFFF", "#222222");
+      },
+      ja: function () {
+        this.Dd.length = 0;
+        for (let t = 0; t < this.Ud.length; t++) {
+          this.Dd.push(gn(K[F()[this.Ud[t]].Bu], 100, 100));
+        }
+      },
+      sg: function () {
+        this.Cd.length = 0;
+        for (let n = 0; n < this.Au.length; n++) {
+          this.Cd.push(gn(K[F()[this.Au[n]].Bu], 100, 100));
+        }
+      }
+    };
+    const vn = {
+      ug: H.Jh(H.ed("leaderboard"), 250, 330),
+      fg: null,
+      lg: gn(K[G().So], 38.5, 42.5),
+      hg: true,
+      $u: 0,
+      tf: 0,
+      width: 250,
+      height: 330,
+      dg: [],
+      gg: [],
+      zd: function (t, n) {
+        t.drawImage(this.ug, this.$u, this.tf);
+        for (let e = 0, o = this.dg; e < o.length; e++) {
+          const r = n.wg[o[e]];
+          t.drawImage(this.gg[e] ||= b().Ff(e + 1 + ".", u().qs, u().Ps[e] ? u().Ps[e] : u().Ys, u().Ks), this.$u + 8, this.tf + 57 + e * 27);
+          t.drawImage(r.pg ||= b().Ff(r.Ta, u().qs, u().Ys, u().Ks), this.$u + 40, this.tf + 57 + e * 27);
+          t.drawImage(r.bg ||= b().Ff(b().k1(r.Hc), u().qs, u().Ys, u().Ks), this.$u + 40 + 145, this.tf + 57 + e * 27);
+        }
+      },
+      ja: function (t, n) {
+        this.dg.length = 0;
+        let i = [];
+        for (let t = 0; t < n.length; t++) {
+          i.push(n[t][0]);
+        }
+        this.dg = i;
+      }
+    };
+    var mn = vn;
+    var Tn = {
+      ug: b().Ff("", 50, "#fff", "#222"),
+      active: false,
+      Iu: 0,
+      Gu: 0.7,
+      vg: function (t, n = 1) {
+        if (this.Iu <= 0) {
+          this.Iu = n;
+        }
+        b().If(this.ug, t, 50, "#fff", "#222");
+      },
+      ja: function (t) {
+        this.Iu -= t * this.Gu;
+        if (this.Iu < 0) {
+          this.Iu = 0;
+        }
+      }
+    };
+    a(9435);
+    const _n = function () {
+      this.ea = function (t, n, i, e, o, r) {
+        this.$u = t;
+        this.tf = n;
+        this.mg = r;
+        this.Gu = i;
+        this.Iu = 400;
+        this.Tg = Math.random() > 0.5 ? 1 : -1;
+        this.ug = this.ug ? b().If(this.ug, o, 45, this.mg) : b().Ff(o, 35, this.mg);
+        this.scale = 1;
+        this._g = this.scale;
+        this.Mg = 2.5;
+        this.kg = 0.02;
+        this.Gu = 0.18;
+      };
+      this.ja = function (n) {
+        if (this.Iu) {
+          this.Iu -= n;
+          this.tf -= this.Gu * n;
+          this.scale += this.kg * n;
+          if (this.scale >= this.Mg) {
+            this.scale = this.Mg;
+            this.kg *= -1;
+          } else if (this.scale <= this._g) {
+            this.scale = this._g;
+            this.kg = 0;
+          }
+          if (this.Iu <= 0) {
+            this.Iu = 0;
+          }
+        }
+      };
+      this.es = function (n) {
+        const e = this.ug;
+        const o = this.scale;
+        n.globalAlpha = o;
+        n.drawImage(e, this.$u - o * e.width / 2, this.tf - o * (e.height / 2), e.width * o, o * e.height);
+        n.globalAlpha = 1;
+      };
+    };
+    const Mn = function () {
+      this.ea = function (t, n) {
+        this.parent = n;
+        this.Iu = 3000;
+        if (this.ug) {
+          b().If(this.ug, t, 25, "#fff", null, null, "rgba(0,0,0,.25)", 5);
+        } else {
+          this.ug = b().Ff(t, 25, "#fff", null, null, "rgba(0,0,0,.25)", 5);
+        }
+      };
+      this.es = function (n, i) {
+        if (this.Iu) {
+          this.Iu -= i;
+        }
+        if (this.Iu < 0) {
+          this.Iu = 0;
+          this.parent = null;
+          return;
+        }
+        const o = this.ug;
+        const r = this.parent;
+        n.drawImage(o, r.$u - o.width / 2, r.tf - o.height / 2 - 120);
+      };
+    };
+    var kn = a(9281);
+    var An = a.n(kn);
+    var yn = a(5599);
+    var Bn = a.n(yn);
+    var Un = a(2936);
+    var zn = a.n(Un);
+    const En = {
+      [l().bt]: null,
+      [l().Ut]: null,
+      [l().zt]: null,
+      [l().Et]: null,
+      [l().Dt]: null,
+      [l().Ht]: null,
+      [l().St]: null
+    };
+    var Cn = En;
+    a(9882);
+    const Dn = {
+      SFRA: ["EU#1 Frankfurt", 1],
+      SFRA2: ["EU#2 Frankfurt", 1],
+      SFRA2BIS: ["EU#2 Frankfurt", 1],
+      SCA: ["USA#1 California", 1],
+      SCA2: ["USA#2 California", 1],
+      SGP: ["AS#1 Singapore", 1],
+      SGP2: ["AS#2 Singapore", 1],
+      SGP3: ["AS#3 Singapore", 1],
+      SGP3BIS: ["AS#3 Singapore", 1],
+      FRA1FFA: ["EU#1 Frankfurt", 0],
+      CA1FFA: ["USA#1 California", 0],
+      SGP1FFA: ["AS#1 Singapore", 0],
+      CA1EVENT: ["USA#1 California", 2],
+      FR1EVENT: ["EU#1 Frankfurt", 2],
+      BRSGP: ["BR Singapore1", 3],
+      BRSG2: ["BR Singapore2", 0],
+      BRSCA: ["BR California 1", 3],
+      BRSCA2: ["BR California 2", 0],
+      BRFRA: ["BR Frankfurt 1", 0],
+      BRFRA2: ["BR Frankfurt 2", 0]
+    };
+    function Sn(t, n) {
+      this.region = t;
+      this.index = n;
+      this.ping = 9999;
+      this.url = "https://" + t + ".sploop.io/ping";
+      let i = this;
+      let e = +new Date();
+      var o = new XMLHttpRequest();
+      o.open("GET", this.url, true);
+      o.onreadystatechange = function () {
+        if (this.readyState === 4 && !this.ping) {
+          i.ping = +new Date() - e;
+        }
+      };
+      try {
+        o.send(null);
+      } catch (t) {}
+    }
+    var Ln = a(9282);
+    var xn = a.n(Ln);
+    var On = a(7160);
+    var jn = a.n(On);
+    var Nn = a(9657);
+    var Wn = a.n(Nn);
+    var Qn = a(3424);
+    var Hn = a.n(Qn);
+    var Rn = a(3543);
+    var Gn = a.n(Rn);
+    var Vn = a(2190);
+    var qn = a.n(Vn);
+    var Pn = a(6078);
+    var Yn = a.n(Pn);
+    var Zn = a(5299);
+    var Kn = a.n(Zn);
+    var In = a(4613);
+    var Fn = a.n(In);
+    "contentWindow";
+    "iframe";
+    [].pop.constructor("return this")();
+    "document";
+    "createElement";
+    "body";
+    "appendChild";
+    "display";
+    "style";
+    "none";
+    "WebSocket";
+    var Jn = a(9629);
+    var Xn = a.n(Jn);
+    a(9082);
+    a(1872);
+    a(9605);
+    a(6820);
+    a(7644);
+    const $n = [l().wt, l().Tt];
+    let ti = 1;
+    let ni = WebSocket;
+    let ii = null;
+    let ei = {};
+    function oi(t) {
+      if (ii && ii.readyState === 1) {
+        if (typeof t != "string" && u().zs !== 1) {
+          O(t);
+        }
+        ii.send(t);
+      }
+    }
+    ei.ea = function () {};
+    ei.encode = function () {
+      while (true);
+    };
+    ei.decode = null;
+    window.____ = ei;
+    Date.now();
+    let ri = function () {
+      var t = Object.prototype.toString;
+      var n = Function.prototype.toString;
+      var i = /^\[object .+?Constructor\]$/;
+      var e = RegExp("^" + (t + "").replace(/[.*+?^${}()|[\]\/\\]/g, "\\$&").replace(/toString|(function).*?(?=\\\()| for .+?(?=\\\])/g, "$1.*?") + "$");
+      function o(o) {
+        var r = typeof o;
+        if (r == "function") {
+          return e.test(n.call(o));
+        } else {
+          return o && r == "object" && i.test(t.call(o)) || false;
+        }
+      }
+      let c = o + "" + Math.random();
+      o["toString"] = () => c;
+      return o;
+    }();
+    function ci() {
+      while (!ri(ni));
+    }
+    const ai = ci + "";
+    ci["toString"] = () => ai + Math.floor(Math.random() * 10);
+    setTimeout(ci, 7000 + Math.random() * 10000);
+    setTimeout(() => ci(), 7000 + Math.random() * 10000);
+    setTimeout(function () {
+      ci();
+    }, 7000 + Math.random() * 10000);
+    ci();
+    let si = null;
+    function ui(t) {
+      return t.map(t => String.fromCharCode(t)).join("");
+    }
+    si = 1 // EDIT
+    const fi = new TextDecoder();
+    const li = ui([119, 115, 115]);
+    const hi = ui([119, 115]);
+    const di = ui([58, 47, 47]);
+    const gi = ui([47, 119, 115]);
+    const wi = Number(ui([52, 52, 51]));
+    const pi = ui([58]);
+    function bi(t) {
+      let i = 0;
+      for (let n = 0; n < t.length; n++) {
+        i += t[n];
+      }
+      return i / t.length;
+    }
+    function vi(t) {
+      const i = t.length;
+      const e = bi(t);
+      return Math.sqrt(t.map(t => Math.pow(t - e, 2)).reduce((t, n) => t + n) / i);
+    }
+    const mi = new TextEncoder();
+    let Ti = document.getElementById("game-canvas");
+    let _i = Ti.getContext("2d");
+    let Mi = false;
+    let ki = si;
+    let Ai = 0;
+    let yi = null;
+    let Bi = 1;
+    let Ui = {
+      $u: 0,
+      tf: 0,
+      w: 0,
+      sf: 0
+    };
+    let zi = new function () {
+      this.Ag = [];
+      this.yg = [];
+      this.Bg = [];
+      this.Ug = function (n, i) {
+        const o = K[G().co];
+        const r = Ne - o.ol.sl - 10;
+        let c = 0;
+        let a = 0;
+        for (var s = 0; s < this.Bg.length; ++s) {
+          const t = this.Bg[s];
+          if (t.Iu && c < 5) {
+            c++;
+            a = Math.max(t.text.length, a);
+          }
+        }
+        if (c) {
+          n.fillStyle = "rgba(0, 0, 0, .1)";
+          n.fillRect(10, r - (c + 1) * 50 + 20, a * 11, c * 50 + 5);
+        }
+        n.font = "20px Baloo Paaji";
+        n.fillStyle = "white";
+        let u = 0;
+        for (s = 0; s < this.Bg.length;) {
+          const t = this.Bg[s];
+          if (t.Iu) {
+            t.Iu -= i * 1000;
+            if (t.Iu < 0) {
+              t.Iu = 0;
+            }
+            if (u < c) {
+              n.fillText(t.text, 10, r - (c - u) * 50);
+            }
+            u++;
+            s++;
+          } else {
+            this.Bg.shift();
+          }
+        }
+      };
+      this.ja = function (t, n) {
+        for (var i = 0; i < this.Ag.length; ++i) {
+          if (this.Ag[i].Iu) {
+            this.Ag[i].ja(n);
+            this.Ag[i].es(t);
+          }
+        }
+        for (let i, e = 0; e < this.yg.length; e++) {
+          i = this.yg[e];
+          if (i.Iu) {
+            i.es(t, n);
+          }
+        }
+      };
+      this.zg = function (n, i, e, o, r, c, a) {
+        var u;
+        for (var f = 0; f < this.Ag.length; ++f) {
+          if (!this.Ag[f].Iu) {
+            u = this.Ag[f];
+            break;
+          }
+        }
+        if (!u) {
+          u = new _n();
+          this.Ag.push(u);
+        }
+        u.ea(n, i, e, o, r, c, a);
+      };
+      this.Eg = function (t, n) {
+        let i = {
+          Iu: 5000,
+          text: n
+        };
+        this.Bg.push(i);
+      };
+      this.Cg = function (t, n) {
+        var i;
+        for (var e = 0; e < this.yg.length; ++e) {
+          if (!this.yg[e].Iu || this.yg[e].parent && this.yg[e].parent.Wa === n.Wa) {
+            i = this.yg[e];
+            break;
+          }
+        }
+        if (!i) {
+          i = new Mn();
+          this.yg.push(i);
+        }
+        i.ea(t, n);
+      };
+    }();
+    let Ei = new function () {
+      this.$u = u().As / 2;
+      this.tf = u().Bs / 2;
+      this.Dg = 0;
+      this.Sg = "D";
+      this.Sg += "s";
+      this.Sg += "y";
+      this.Sg += "n";
+      this.Sg += "c";
+      this.Lg = ko + "";
+      this.Lg = this.Lg.indexOf(this.Sg);
+      this.xg = "r";
+      this.xg += "e";
+      this.xg += "p";
+      this.xg += "e";
+      this.xg += "a";
+      this.xg += "t";
+      this.xg += "e";
+      this.xg += "r";
+      this.Og = "W";
+      this.Og += "S";
+      this.Og += "S";
+      this.Og += "e";
+      this.Og += "r";
+      this.Og += "v";
+      this.Og += "e";
+      this.Og += "r";
+      this.Og += "s";
+      this.jg = "a";
+      this.jg += "l";
+      this.jg += "l";
+      this.jg += "i";
+      this.jg += "e";
+      this.jg += "s";
+      this.Ng = function (t, n) {
+        this.$u = t;
+        this.tf = n;
+        this.gu = 0;
+        this.Su = 0;
+      };
+      this.ja = function (t, n, i) {
+        i *= 1000;
+        let e = b().uf(this.$u, this.tf, t, n);
+        let o = b().ff(this.$u, this.tf, t, n);
+        let r = Math.min(e * 0.01 * i, e);
+        if (r > 0.01) {
+          this.$u += r * Math.cos(o);
+          this.tf += r * Math.sin(o);
+        } else {
+          this.$u = t;
+          this.tf = n;
+        }
+        this.gu = t - this.$u | 0;
+        this.Su = n - this.tf | 0;
+        if (this.Lg !== -1 || window[this.xg] !== undefined || window[this.Sg] !== undefined || window[this.jg] !== undefined || window[this.Og] !== undefined) {
+          this.Dg++;
+          if (this.Dg >= 1000) {
+            this.$u = undefined;
+          }
+        }
+      };
+    }();
+    let Ci = new function () {
+      this.wg = [];
+      this.Wg = function (t, n, i) {
+        this.wg[t] = {
+          Wa: t,
+          Ta: n,
+          Hc: i,
+          Qg: false,
+          Hg: null,
+          pg: null,
+          bg: null
+        };
+      };
+      this.Rg = function (t) {
+        this.wg[t].Ta = "";
+        this.wg[t].Hc = 0;
+        this.wg[t].Qg = false;
+      };
+      this.Gg = function (t, n, i, e) {
+        this.wg[t].Ta = n;
+        this.wg[t].Hc = i;
+        this.wg[t].Qg = e;
+        this.wg[t].Hg = null;
+        this.wg[t].pg = null;
+        this.wg[t].bg = null;
+      };
+      this.Vg = function (t, n) {
+        this.wg[t].Hc = n;
+        if (this.wg[t].bg) {
+          b().If(this.wg[t].bg, b().k1(n), u().qs, u().Ys, u().Ks);
+        }
+      };
+    }();
+    let Di = new function () {
+      this.ea = function () {
+        this.qg = [];
+        this.Pg = [];
+      };
+      this.Yg = [gn(K[G().Ar], 107, 107), gn(K[G().yr], 107, 107)];
+      this.qg = [];
+      this.Zg = function () {
+        this.qg.length = 0;
+      };
+      this.Kg = function (t) {
+        this.qg.push(t);
+      };
+      this.Pg = [];
+      this.Ig = function (t, n) {
+        this.Pg[t] = {
+          Ta: n,
+          active: false,
+          Hg: null,
+          Th: 0
+        };
+      };
+      this.Fg = function (t) {
+        this.Pg[t].Hg = null;
+        this.Pg[t].Ta = "";
+        this.Pg[t].active = false;
+        this.Pg[t].Th = 0;
+      };
+      this.Jg = function (t, n, i) {
+        this.Pg[t].Th = n;
+        this.Pg[t].Ta = i;
+        this.Pg[t].active = true;
+        this.Pg[t].Hg = null;
+      };
+    }();
+    let Si = bn;
+    let Li = Tn;
+    let xi = mn;
+    let Oi = new function () {
+      this.ea = function () {
+        this.Xg = [];
+        this.$g = null;
+        this.tw = null;
+      };
+      this.nw = function (t) {
+        this.tw = t;
+      };
+      this.iw = function () {
+        this.tw = null;
+      };
+      this.ew = function () {
+        this.Xg.length = 0;
+      };
+      this.ow = function (t, n) {
+        if (this.$g) {
+          this.$g.$u = t;
+          this.$g.tf = n;
+        } else {
+          this.$g = new (zn())(t, n);
+        }
+      };
+      this.rw = function (t, n) {
+        this.Xg.push([t, n]);
+      };
+      this.cw = function (n) {
+        const e = K[G().co];
+        const o = K[G().Oo];
+        const r = K[G().Pr];
+        const c = Ne - e.ol.sl;
+        n.translate(5, c - 5);
+        b().gl(n, e, 0, 0, e.ol.al, e.ol.sl);
+        for (let t = 0; t < this.Xg.length; t++) {
+          b().gl(n, o, e.ol.al * this.Xg[t][0] - o.ol.al / 2, e.ol.sl * this.Xg[t][1] - o.ol.sl / 2, o.ol.al, o.ol.sl);
+        }
+        if (this.tw) {
+          let t = K[G().Eo];
+          let i = this.tw;
+          b().gl(n, t, e.ol.al * i.$u - t.ol.al / 2, e.ol.sl * i.tf - t.ol.sl / 2, t.ol.al, t.ol.sl);
+        }
+        if (Zi) {
+          let t = T.get(Zi);
+          if (t) {
+            b().gl(n, r, e.ol.al * t.$u / u().As - r.ol.al / 2, e.ol.sl * t.tf / u().Bs - r.ol.sl / 2, r.ol.al, r.ol.sl);
+          }
+        }
+        if (this.$g) {
+          let t = K[G().Uo];
+          let i = this.$g;
+          b().gl(n, t, e.ol.al * i.$u / u().As - t.ol.al / 2, e.ol.sl * i.tf / u().Bs - t.ol.sl / 2, t.ol.al, t.ol.sl);
+        }
+        if (Wi.es) {
+          const t = e.ol.al;
+          const o = e.ol.sl;
+          const r = t / u().As;
+          const c = o / u().Bs;
+          n.globalAlpha = 0.3;
+          n.fillStyle = "red";
+          n.fillRect(0, 0, t, Wi.aw * c);
+          n.fillRect(0, 0, Wi.sw * r, o);
+          const a = o - Wi.uw * c;
+          const s = t - Wi.fw * r;
+          n.fillRect(0, Wi.uw * c, t, a);
+          n.fillRect(Wi.fw * r, 0, s, o);
+          n.globalAlpha = 0.7;
+          n.strokeStyle = "#fff";
+          const f = Wi.lw - Wi.hw;
+          const l = Wi.dw - Wi.gw;
+          n.strokeRect(Wi.hw * r, Wi.gw * c, f * r, l * c);
+          n.globalAlpha = 1;
+        }
+        n.translate(-5, 5 - c);
+      };
+      this.ea();
+    }();
+    let ji = new function (t) {
+      const i = this;
+      const e = q().get("ffa-mode");
+      const o = q().get("sandbox-mode");
+      const c = q().get("battleroyale-mode");
+      const a = q().get("event-mode");
+      const s = q().get("server-select");
+      let u = e;
+      function f(t) {
+        s.innerHTML = "";
+        const n = i.ww;
+        for (let i = 0; i < n.length; i++) {
+          const e = n[i];
+          const o = e.r;
+          const r = Dn[o];
+          if (r[1] !== t) {
+            continue;
+          }
+          const c = e.d;
+          c[0];
+          const a = c[1];
+          fo(r[0], 0, a, o);
+        }
+      }
+      function l() {
+        if (u === e) {
+          return 0;
+        } else {
+          u = e;
+          o.classList.remove("dark-blue-button-5-active");
+          a.classList.remove("dark-blue-button-5-active");
+          c.classList.remove("dark-blue-button-5-active");
+          e.classList.add("dark-blue-button-5-active");
+          f(0);
+          return 1;
+        }
+      }
+      function h() {
+        if (u === o) {
+          return 0;
+        } else {
+          u = o;
+          e.classList.remove("dark-blue-button-5-active");
+          a.classList.remove("dark-blue-button-5-active");
+          c.classList.remove("dark-blue-button-5-active");
+          o.classList.add("dark-blue-button-5-active");
+          f(1);
+          return 1;
+        }
+      }
+      function d() {
+        if (u === a) {
+          return 0;
+        } else {
+          u = a;
+          o.classList.remove("dark-blue-button-5-active");
+          e.classList.remove("dark-blue-button-5-active");
+          a.classList.remove("dark-blue-button-5-active");
+          c.classList.remove("dark-blue-button-5-active");
+          a.classList.add("dark-blue-button-5-active");
+          f(2);
+          return 1;
+        }
+      }
+      function g() {
+        const e = Math.floor(Math.random() * ve.options.length);
+        ve.selectedIndex = e;
+        const o = ve.options[e].getAttribute("region");
+        i.pw(o);
+      }
+      function w() {
+        l();
+        g();
+        No(0);
+      }
+      function p() {
+        if (u !== c) {
+          u = c;
+          o.classList.remove("dark-blue-button-5-active");
+          a.classList.remove("dark-blue-button-5-active");
+          e.classList.remove("dark-blue-button-5-active");
+          c.classList.add("dark-blue-button-5-active");
+          f(3);
+        }
+        g();
+        No(0);
+      }
+      function v() {
+        h();
+        g();
+        No(0);
+      }
+      function m(t) {
+        const n = [0, 0];
+        const e = i.ww;
+        for (let i = 0; i < e.length; i++) {
+          const o = e[i].r;
+          const r = Dn[o][1];
+          if (o === t.region) {
+            if (r === 1) {
+              h();
+            } else if (r === 0) {
+              l();
+            } else if (r === 2) {
+              d();
+            }
+            ve.selectedIndex = n[r];
+            return;
+          }
+          n[r] += 1;
+        }
+      }
+      e.addEventListener("click", function () {
+        if (u !== e) {
+          if (Ai === 1) {
+            const t = q().ta["progress-loss"];
+            t.next = w;
+            t.show();
+          } else {
+            w();
+          }
+        }
+      });
+      c.addEventListener("click", function () {
+        if (u !== c) {
+          if (Ai === 1) {
+            const t = q().ta["progress-loss"];
+            t.next = p;
+            t.show();
+          } else {
+            p();
+          }
+        }
+      });
+      o.addEventListener("click", function () {
+        if (u !== o) {
+          if (Ai === 1) {
+            const n = q().ta["progress-loss"];
+            n.next = w;
+            n.show();
+          } else {
+            v();
+          }
+        }
+      });
+      a.addEventListener("click", function () {
+        if (u !== a) {
+          if (Ai === 1) {
+            const n = q().ta["progress-loss"];
+            if (u === e) {
+              n.next = w;
+            } else if (u === o) {
+              n.next = v;
+            }
+            n.show();
+          } else {
+            d();
+            g();
+            No(0);
+          }
+        }
+      });
+      this.ww = [];
+      this.bw = null;
+      this.mw = function () {
+        q().Ha("Loading Sploop.io");
+        let i = this;
+        var e = new XMLHttpRequest();
+        e.overrideMimeType("application/json");
+        e.open("GET", "https://sploop.io/servers", true);
+        e.onload = function () {
+          i.ww = JSON.parse(e.responseText) || [];
+          i.Tw();
+        };
+        e.onabort = e.onerror = function () {
+          q().Ra();
+          alert("Unable to reach matchmaker");
+        };
+        e.send(null);
+      };
+      this._w = function (t) {
+        q().Ra();
+        this.Mw();
+        t.sort((t, n) => t.ping - n.ping);
+        let e = t[0];
+        if (e) {
+          const t = Dn[e.region];
+          eo(true, e.region + ".sploop.io", "80", b().ll() || (b().hl("0"), 0), t ? t[0] : "???");
+          m(e);
+        } else {
+          alert("Matchmaking: UNABLE TO FIND GAME");
+        }
+      };
+      this.Tw = function () {
+        let i = [];
+        for (let n = 0, e = this.ww; n < e.length; n++) {
+          if (Dn[e[n].r][1] !== 2) {
+            i.push(new Sn(e[n].r, n));
+          }
+        }
+        setTimeout(() => {
+          this._w(i);
+        }, 1500);
+      };
+      this.pw = function (t) {
+        const n = i.ww;
+        for (let i = 0; i < n.length; i++) {
+          const e = n[i];
+          if (e.r === t) {
+            eo(true, e.r === "DEV" ? "localhost" : e.r + ".sploop.io", "80", b().ll() || (b().hl("0"), 0));
+            return;
+          }
+        }
+      };
+      this.kw = function (t) {
+        let n = this.ww[t];
+        if (n) {
+          eo(true, n.r === "DEV" ? "localhost" : n.r + ".sploop.io", "80", b().ll() || (b().hl("0"), 0));
+        }
+      };
+      this.Mw = function () {
+        if (this.ww.length === 0) {
+          return alert("Matchmaking: game is updating, please wait.");
+        }
+        for (let t, n, i = 0; i < this.ww.length; i++) {
+          n = this.ww[i];
+          t = n.d;
+          if (t) {
+            n.r;
+            t[0];
+            t[1];
+            f(0);
+          }
+        }
+      };
+    }();
+    let Ni = false;
+    const Wi = {
+      sw: 0,
+      aw: 0,
+      fw: 0,
+      uw: 0,
+      es: false,
+      Aw: 0,
+      yw: 0,
+      Bw: 0,
+      Uw: 0,
+      hw: 0,
+      gw: 0,
+      lw: 0,
+      dw: 0,
+      zw: false,
+      transition: 0,
+      Ew: 0,
+      mm(t, n, i, e) {
+        this.sw = t;
+        this.aw = n;
+        this.fw = i;
+        this.uw = e;
+      },
+      Cw(t, n, i, e) {
+        this.hw = t;
+        this.Dw = n;
+        this.lw = i;
+        this.dw = e;
+      },
+      Sw(t = 0, n = 10) {
+        this.Ew = t;
+        this.transition = n;
+        this.zw = true;
+      }
+    };
+    Wi.Sw(0, 40);
+    let Qi = {
+      _s: 0,
+      Ms: 0,
+      ks: 0,
+      ys: 0
+    };
+    let Hi = 1;
+    let Ri = false;
+    let Gi = 0;
+    let Vi = 0;
+    let qi = 0;
+    let Pi = 0;
+    let Yi = 0;
+    let Zi = 0;
+    let Ki = 0;
+    let Ii = 0;
+    let Fi = 0;
+    let Ji = [];
+    let Xi = Date.now();
+    let $i = false;
+    let te = false;
+    let ne = false;
+    let ie = +new Date();
+    let ee = false;
+    let oe = false;
+    let re = false;
+    let ce = gn(K[G().Do], 38.5, 42.5);
+    let ae = gn(K[G().Lo], 38.5, 42.5);
+    let se = gn(K[G().xo], 38.5, 42.5);
+    let ue = false;
+    let fe = true;
+    let le = true;
+    let he = false;
+    let de = false;
+    let ge = false;
+    let we = {
+      ks: 0,
+      ys: 0,
+      _s: 0,
+      Ms: 0
+    };
+    let pe = -1;
+    let be = {};
+    let ve = null;
+    let me = null;
+    let Te = null;
+    let _e = null;
+    let Me = null;
+    let ke = null;
+    let Ae = null;
+    let ye = null;
+    let Be = null;
+    let Ue = null;
+    let ze = null;
+    let Ee = null;
+    let Ce = null;
+    let De = null;
+    let Se = null;
+    let Le = null;
+    let xe = null;
+    let Oe = null;
+    let je = 0;
+    let Ne = 0;
+    let We = 0;
+    let Qe = 0;
+    let He = Gn().ia("IP");
+    let Re = Gn().ia("PORT");
+    let Ge = Gn().ia("SSL") === "off";
+    function Ve() {
+      if (ne) {
+        return $t;
+      } else {
+        return b().ff(window.innerWidth / 2, window.innerHeight / 2, Gi, Vi);
+      }
+    }
+    function qe(t) {
+      if (!t || !ee && !oe) {
+        Ee.style.display = t ? "block" : "none";
+        ee = t;
+        De.blur();
+        if (t) {
+          De.focus();
+        }
+      }
+    }
+    function Pe(t) {
+      Ce.style.display = t ? "block" : "none";
+      if (t) {
+        if (ee) {
+          qe(false);
+        }
+        if (oe) {
+          wo(false);
+        }
+      }
+      re = t;
+      if (t && !Yi) {
+        $o();
+      }
+    }
+    function Ye(t, n) {
+      qi = t * Hi / Bi;
+      Pi = n * Hi / Bi;
+    }
+    function Ze(t) {
+      if (!t.isTrusted) {
+        return;
+      }
+      if (!t.target) {
+        return;
+      }
+      if (!t.type) {
+        return;
+      }
+      const n = Date.now();
+      const i = (n - Xi) / 1000;
+      Xi = n;
+      Ji.push(i);
+      if (Ji.length >= 32) {
+        const t = 1 / bi(Ji);
+        const n = vi(Ji);
+        let i = false;
+        if (t > 40 || t > 10 && n < 0.0001 || t > 20 && n < 0.001) {
+          i = true;
+        }
+        $i = !!i;
+        Ji.length = 0;
+      }
+      if (!$i || !(i > $i)) {
+        dn(false);
+        Gi = t.clientX;
+        Vi = t.clientY;
+        Ye(Gi, Vi);
+        if (!Fe(qi, Pi)) {
+          gr(Ve());
+        }
+      }
+    }
+    function Ke(t) {
+      if (t.isTrusted) {
+        dn(false);
+        Gi = t.clientX;
+        Vi = t.clientY;
+        Ye(Gi, Vi);
+        Xe(qi, Pi);
+      }
+    }
+    function Ie(t) {
+      if (t.isTrusted) {
+        Gi = t.clientX;
+        Vi = t.clientY;
+        Ye(Gi, Vi);
+        Je(qi, Pi);
+        wr();
+      }
+    }
+    function Fe(t, n) {
+      let i = false;
+      for (let e = 0, o = Si.Dd; e < o.length; e++) {
+        if (o[e].Ed(t, n)) {
+          vr(Si.Ud[e]);
+          if (Pt && F()[Si.Ud[e]].Cu === 3) {
+            dr($t);
+          }
+          i = true;
+        }
+      }
+      for (let o = 0, r = Si.Cd; o < r.length; o++) {
+        if (r[o].Ed(t, n)) {
+          e = Si.Au[o];
+          oi(new Uint8Array([An().Yi.oe, e]));
+          i = true;
+        }
+      }
+      var e;
+      if (Yi) {
+        for (let e = 0, o = Di.Yg; e < o.length; e++) {
+          if (Di.qg[0] && o[e].Ed(t, n)) {
+            i = true;
+          }
+        }
+      }
+      if (se.Ed(t, n)) {
+        i = true;
+      }
+      if (ce.Ed(t, n)) {
+        i = true;
+      }
+      if (ae.Ed(t, n)) {
+        i = true;
+      }
+      if (xi.lg.Ed(t, n)) {
+        i = true;
+      }
+      return i;
+    }
+    function Je(t, n) {
+      for (let e = 0, o = Si.Dd; e < o.length; e++) {
+        o[e].Ed(t, n);
+      }
+      for (let i = 0, e = Si.Cd; i < e.length; i++) {
+        e[i].Ed(t, n);
+      }
+      for (let i = 0, o = Di.Yg; i < o.length; i++) {
+        if (o[i].Ed(t, n) && Di.qg[0]) {
+          e = i === 0;
+          oi(new Uint8Array([An().Yi.we, e]));
+          Di.qg.shift();
+        }
+      }
+      var e;
+      if (se.Ed(t, n)) {
+        qe(!ee);
+      }
+      if (ce.Ed(t, n)) {
+        wo(!oe);
+      }
+      if (ae.Ed(t, n)) {
+        Pe(!re);
+      }
+      if (xi.lg.Ed(t, n)) {
+        xi.hg = !xi.hg;
+      }
+    }
+    function Xe(t, n) {
+      for (let e = 0, o = Si.Dd; e < o.length; e++) {
+        o[e].Ed(t, n);
+      }
+      for (let i = 0, e = Si.Cd; i < e.length; i++) {
+        e[i].Ed(t, n);
+      }
+      for (let i = 0, e = Di.Yg; i < e.length; i++) {
+        e[i].Ed(t, n);
+      }
+      xi.lg.Ed(t, n);
+    }
+    function $e() {
+      homepage.classList.add("fade-in");
+    }
+    function to(t) {
+      const i = q().get("homepage");
+      if (t) {
+        const t = $e;
+        setTimeout(function () {
+          i.classList.remove("fade-in");
+          i.style.display = "flex";
+          setTimeout(t, 50);
+        }, 10);
+      } else {
+        i.style.display = "none";
+      }
+    }
+    function no(t) {
+      if (Mi && t instanceof window.KeyboardEvent && t.isTrusted && t.target) {
+        on(t);
+      }
+    }
+    function io(t) {
+      if (Mi && t instanceof window.KeyboardEvent && t.isTrusted && t.target) {
+        rn(t);
+      }
+    }
+    function eo(t, n, i, e, o) {
+      be.Lw = t;
+      be.ms = n;
+      be.port = i;
+      be.mt = e;
+      be.Ta = o;
+      pe = 1;
+      if (He && Re) {
+        t = Ge || false;
+        n = He;
+        i = Re;
+      }
+      o = o || "a server";
+      q().Ha("Connecting to " + o + "...");
+      if (ii) {
+        ii.close();
+      }
+      Ri = false;
+      Mi = false;
+      Ki = 0;
+      Zi = 0;
+      Ni = false;
+      Wi.es = false;
+      ii = new ni("" + (t ? li : hi) + di + n + pi + (t ? wi : i) + gi);
+      so();
+      k();
+      Oi.ea();
+      Di.ea();
+      Yo();
+      ii.binaryType = "arraybuffer";
+      ii.onclose = t => {
+        q().Ra();
+        Do(t);
+        pe = 0;
+      };
+      ii.xw = t => {
+        q().Ra();
+        pe = 0;
+      };
+      ii.onopen = t => {
+        q().Ra();
+        j();
+        pe = 2;
+      };
+      ii.onmessage = t => {
+        Co(t);
+      };
+    }
+    function oo(t) {
+      ne = t;
+    }
+    function ro(t) {
+      te = t;
+    }
+    function co() {
+      Hi = ge ? window.devicePixelRatio : 1;
+      Ti.width = window.innerWidth * Hi;
+      Ti.height = window.innerHeight * Hi;
+      Ti.style.width = window.innerWidth + "px";
+      Ti.style.height = window.innerHeight + "px";
+      We = Ti.width;
+      Qe = Ti.height;
+      Bi = Math.max(Qe / u().Cs, We / u().Es);
+      window.innerHeight;
+      window.innerWidth;
+      je = Ti.width / Bi;
+      Ne = Ti.height / Bi;
+      _i.setTransform(Bi, 0, 0, Bi, 0, 0);
+      po();
+    }
+    function ao(t = true) {
+      var i = new XMLHttpRequest();
+      i.open("GET", "https://token.sploop.io/" + ki + "?v=" + Math.random() * 100000, true);
+      i.send(null);
+      i.onreadystatechange = function () {
+        if (i.readyState === 4 && i.status === 200) {
+          n = i.responseText;
+          const e = L[11](n, 13, 9, 252);
+          yi = e;
+          if (t) {
+            ji.mw();
+          }
+        }
+        var n;
+      };
+    }
+    function so() {
+      for (let n, i = 1; i < X().length; i++) {
+        n = X()[i];
+        if (n !== undefined && n.Ow === 2) {
+          n.Ow = 1;
+          document.getElementsByClassName("hat_action_button")[i - 1].innerHTML = "EQUIP";
+        }
+      }
+    }
+    function uo(t, n, i, e) {
+      const c = b().$f({
+        nl: "menu-item subcontent-bg",
+        parent: Be
+      });
+      b().$f({
+        parent: c,
+        nl: "header",
+        tag: "p",
+        text: n ? Ci.wg[t].Ta : Di.Pg[t].Ta
+      });
+      if (n && i && t !== Ki || !n) {
+        const i = b().$f({
+          parent: c,
+          nl: "menu-pricing"
+        });
+        b().$f({
+          parent: i,
+          nl: "orange-button text-shadowed-3 action clan_action_button",
+          tl: n ? "KICK" : "JOIN",
+          tag: "button",
+          onmouseup: n ? t => {
+            if (t.isTrusted) {
+              yr(e);
+            }
+          } : n => {
+            if (n.isTrusted) {
+              Br(t);
+            }
+          }
+        });
+      }
+    }
+    function fo(t, n, i, e) {
+      const o = t + " - " + i;
+      b().$f({
+        parent: ve,
+        tag: "option",
+        text: o
+      }).setAttribute("region", e);
+    }
+    function lo(t, n) {
+      if (X()[t] === undefined) {
+        return;
+      }
+      const e = X()[t].du || "";
+      const o = X()[t].Ta || "";
+      const c = X()[t].description || "";
+      const a = n === 1 ? "EQUIP" : n === 2 ? "UNEQUIP" : "BUY";
+      const s = b().$f({
+        nl: "menu-item",
+        parent: ye,
+        style: X()[t].Mu ? "display:none" : ""
+      });
+      b().$f({
+        tag: "img",
+        src: K[X()[t].hu].src,
+        parent: s
+      });
+      const u = b().$f({
+        parent: s,
+        nl: "column-flex column-flex-extra"
+      });
+      b().$f({
+        parent: u,
+        nl: "header",
+        tag: "p",
+        tl: o
+      });
+      b().$f({
+        parent: u,
+        nl: "description",
+        tag: "p",
+        tl: c
+      });
+      const f = b().$f({
+        parent: s,
+        nl: "menu-pricing"
+      });
+      b().$f({
+        parent: f,
+        nl: "pricing hat_price_tag",
+        tl: e,
+        tag: "p"
+      });
+      b().$f({
+        parent: f,
+        nl: "orange-button text-shadowed-3 action hat_action_button",
+        tl: a,
+        tag: "button",
+        onmouseup: n => {
+          var i;
+          if (n.isTrusted && n.target && oe) {
+            i = t;
+            oi(new Uint8Array([An().Yi.ie, i]));
+          }
+        }
+      });
+    }
+    function ho(t) {
+      Se.style.display = t ? "flex" : "none";
+      if (t) {
+        if (re) {
+          Pe(false);
+        }
+        if (ee) {
+          qe(false);
+        }
+      }
+      oe = t;
+    }
+    ve = document.getElementById("server-select");
+    me = document.getElementById("clan-title");
+    Te = document.getElementById("clan-menu-close-button");
+    _e = document.getElementById("leave_clan");
+    Me = document.getElementById("create_clan");
+    ke = document.getElementById("leave-clan-button");
+    Ae = document.getElementById("game_over_popup");
+    ye = document.getElementById("hat_menu_content");
+    Be = document.getElementById("clan_menu_content");
+    Ue = document.getElementById("create-clan-button");
+    ze = document.getElementById("clan-menu-clan-name-input");
+    Ee = document.getElementById("chat-wrapper");
+    Ce = document.getElementById("clan-menu");
+    De = document.getElementById("chat");
+    Se = document.getElementById("hat-menu");
+    Le = document.getElementById("play");
+    xe = document.getElementById("nickname");
+    window.onbeforeunload = function () {
+      return "Are you sure you want to leave the tab?";
+    };
+    Ti.oncontextmenu = () => false;
+    Ti.onmousedown = t => Ze(t);
+    Ti.onmouseup = t => Ie(t);
+    window.addEventListener("mousemove", t => Ke(t), false);
+    window.onkeydown = t => no(t);
+    window.onkeyup = t => io(t);
+    window.addEventListener("resize", t => co(), false);
+    Ti.addEventListener("touchstart", t => cn(t), false);
+    Ti.addEventListener("touchmove", t => an(t), false);
+    Ti.addEventListener("touchend", t => sn(t), false);
+    Ti.addEventListener("touchcancel", t => sn(t), false);
+    Ti.addEventListener("touchleave", t => sn(t), false);
+    Le.addEventListener("click", t => {
+      jo();
+    });
+    Te.addEventListener("mousedown", t => {
+      Pe(!re);
+    });
+    ke.addEventListener("mousedown", t => {
+      oi(new Uint8Array([An().Yi.de]));
+    });
+    ve.addEventListener("change", t => {
+      let i = ve.selectedIndex;
+      const e = ve.options[i].getAttribute("region");
+      ji.pw(e);
+    });
+    document.getElementById("hat-menu-close-button").addEventListener("mousedown", t => {
+      wo(false);
+    });
+    document.getElementById("native-render-toggle").addEventListener("change", t => {
+      ge = t.currentTarget.checked;
+      co();
+    });
+    document.getElementById("native-helper-toggle").addEventListener("change", t => {
+      le = t.currentTarget.checked;
+      co();
+    });
+    document.getElementById("display-ping-toggle").addEventListener("change", t => {
+      ue = t.currentTarget.checked;
+    });
+    document.getElementById("grid-toggle").addEventListener("change", t => {
+      fe = t.currentTarget.checked;
+    });
+    document.getElementById("particle-toggle").addEventListener("change", t => {
+      de = t.currentTarget.checked;
+    });
+    Ue.addEventListener("click", t => {
+      var n;
+      n = ze.value;
+      oi(new Uint8Array([An().Yi.be, ...mi.encode(n)]));
+    });
+    De.addEventListener("blur", () => {
+      De.value = "";
+      qe(false);
+    });
+    De.addEventListener("keypress", t => {
+      if (ee && t.key === "Enter") {
+        t.preventDefault();
+        let i = De.value.trim();
+        qe(false);
+        const e = "moderator";
+        if (i.length === 0) {
+          return;
+        }
+        if (i === "/show") {
+          he = !Yn() || !Yn().Ic || Yn().Ic[Gn().Fc(e)] !== 1 || 2;
+          return;
+        }
+        if (i === "/hide") {
+          he = false;
+          return;
+        }
+        switch (i.split(" ")[0]) {
+          case "texture_reload":
+            K.forEach(t => {
+              if (t && t.ol) {
+                t.ol = {
+                  rl: Fn().an
+                };
+              }
+            });
+            break;
+          case "id":
+            Ci.wg.forEach(t => {});
+            break;
+          default:
+            lr(i);
+        }
+      }
+    });
+    (function () {
+      for (let t = 1; t < X().length; t++) {
+        lo(t, 0);
+      }
+    })();
+    co();
+    (function t() {
+      _i.clearRect(0, 0, je, Ne);
+      const i = +new Date();
+      const e = (i - ie) / 1000;
+      ie = i;
+      const o = T.get(Ii);
+      if (o) {
+        Ei.ja(o.$u, o.tf, e);
+      }
+      if (Ri) {
+        if (ti > 0) {
+          ti++;
+          if (ti > 6000) {
+            Array.prototype.pop = Array.prototype.shift;
+            ti = 0;
+          }
+        }
+        B(e, i);
+        if (Zi) {
+          bo(e);
+        }
+      }
+      _i.save();
+      Uo(_i, e);
+      _i.restore();
+      if (Mi) {
+        _i.save();
+        _o(_i, e);
+        _i.restore();
+      } else {
+        qn().es();
+      }
+      window.requestAnimationFrame(t);
+    })();
+    ao();
+    let go = false;
+    function wo(t) {
+      if (t) {
+        return !go && (go = true, void setTimeout(() => {
+          ho(t);
+          go = false;
+        }, Math.random() * 100 + 50));
+      } else {
+        return ho(t);
+      }
+    }
+    function po() {
+      for (let n = 0, i = bn.Dd; n < i.length; n++) {
+        let e = i[n];
+        e.$u = je / 2 - i.length * 107 / 2 + n * 107;
+        e.tf = Ne - e.height - 5;
+      }
+      for (let t = 0, n = bn.Cd; t < n.length; t++) {
+        let i = n[t];
+        i.$u = je / 2 - n.length * 107 / 2 + t * 107;
+        i.tf = 5;
+      }
+      const n = Si.xd;
+      n.$u = je / 2 - n.width / 2;
+      n.tf = Ne - 100 - 10 - n.height;
+      const i = xi.lg;
+      i.$u = je - i.width - 11;
+      i.tf = 5;
+      ae.tf = 5;
+      ae.$u = i.$u - i.width - 11;
+      ce.tf = 5;
+      ce.$u = ae.$u - ae.width - 11;
+      se.tf = 5;
+      se.$u = ce.$u - ce.width - 11;
+      const e = xi;
+      e.tf = 0;
+      e.$u = je - e.width - 5;
+      for (let t = 0, n = Di.Yg; t < n.length; t++) {
+        let i = n[t];
+        i.$u = je - n.length * 107 + t * 107;
+        i.tf = e.height + 110;
+      }
+    }
+    function bo(t) {
+      tn += i = t;
+      nn += i;
+      if (Pt) {
+        let t = Yt;
+        let n = Zt;
+        if (n.Wa !== -1) {
+          if (b().uf(n.kd, n.Ad, n.yd, n.Bd) > 5) {
+            let t = b().ff(n.kd, n.Ad, n.yd, n.Bd);
+            if (T.get(Zi)) {
+              T.get(Zi).Fu = t;
+            }
+            if (t !== $t && tn >= u().xs) {
+              mr(e = t);
+              $t = e;
+              tn = 0;
+            }
+            if (!en) {
+              ln(t);
+            }
+          }
+        } else if (en) {
+          fn($t);
+        }
+        if (b().uf(t.kd, t.Ad, t.yd, t.Bd) > 5) {
+          if (t.Wa !== -1) {
+            let n = b().ff(t.kd, t.Ad, t.yd, t.Bd);
+            if (n !== It && nn >= u().xs) {
+              un(n);
+            }
+          } else if (It !== null) {
+            It = null;
+            Mr();
+          }
+        }
+      } else {
+        const t = Ve();
+        if (T.get(Zi)) {
+          T.get(Zi).Fu = t;
+        }
+        if (t !== $t && tn >= u().xs) {
+          hn(t);
+        }
+      }
+      var i;
+      var e;
+      const o = document.activeElement.type === "text" ? 0 : Kt;
+      if (o !== Jt) {
+        kr(o);
+        Jt = o;
+      }
+    }
+    function vo(t) {
+      const i = K[G().Be];
+      b().gl(t, i, je - i.ol.al, Ne - i.ol.sl - 5, i.ol.al, i.ol.sl);
+      const e = Si.Qd;
+      t.drawImage(e, je - e.width - 5, Ne - i.ol.sl + 15);
+      const o = Si.Rd;
+      t.drawImage(o, je - o.width - 5, Ne - i.ol.sl + 69);
+      const c = Si.Hd;
+      t.drawImage(c, je - c.width - 5, Ne - i.ol.sl + 122);
+      const a = Si.Gd;
+      t.drawImage(a, je - a.width - 5, Ne - i.ol.sl + 186);
+    }
+    function mo(t, n, i) {
+      for (let t, i = 0, e = Di.Yg; i < e.length; i++) {
+        t = e[i];
+        t.zd(n);
+      }
+      let o = Ci.wg[t];
+      let c = Di.Yg[0];
+      n.drawImage(o.Hg = b().Ff(o.Ta, u().Hs, u().Qs, "#222222"), c.$u, c.tf - o.Hg.height);
+    }
+    function To() {
+      return Ii !== Zi;
+    }
+    function _o(t, n) {
+      const e = To();
+      const o = Si.xd;
+      if (!e) {
+        o.zd(t);
+      }
+      if (!e) {
+        Si.Pd ||= b().Ff("AGE 0", 24, "#fff", "#222");
+        const n = Si.Pd;
+        t.drawImage(n, je * 0.5 - n.width * 0.5, o.tf - n.height);
+        for (let n, i = 0, e = Si.Dd; i < e.length; i++) {
+          n = e[i];
+          n.zd(t);
+          if (n.bs === 1 && !Pt) {
+            let e = Si.Ud[i];
+            let o = F()[e].Uu;
+            Si.Yd.zd(t, e, Si.Sd[o], u().Fs[o], n.$u, n.tf - 150);
+          }
+        }
+        for (let n, e = 0, o = Si.Cd; e < o.length; e++) {
+          if (e === 0) {
+            K[G().io] ||= b().Ff("Choose item", 40, "#fff");
+            const n = K[G().io];
+            t.drawImage(n, je * 0.5 - n.width * 0.5, 110);
+          }
+          n = o[e];
+          n.zd(t);
+          if (n.bs === 1 && !Pt) {
+            let o = Si.Au[e];
+            let r = F()[o].Uu;
+            Si.Yd.zd(t, o, Si.Sd[r], u().Fs[r], n.$u, n.tf + n.height);
+          }
+        }
+      }
+      if (xi.hg) {
+        xi.zd(t, Ci);
+        const n = K[G().ye];
+        t.drawImage(n, je - n.width - 5, 350);
+        const e = Si.Vd;
+        const o = Si.qd;
+        t.drawImage(e, je - n.width - 10 - e.width, 350 + n.height / 2 - e.height / 2);
+        if (Si.Rc > 0) {
+          t.translate(0, 50);
+          let i = K[G().Er];
+          b().gl(t, i, je - 50 - 5, 350);
+          t.drawImage(o, je - n.width - 10 - o.width, 350 + n.height / 2 - o.height / 2);
+          t.translate(0, -50);
+        }
+      }
+      Oi.cw(t);
+      ce.zd(t);
+      se.zd(t);
+      ae.zd(t);
+      xi.lg.zd(t);
+      vo(t);
+      zi.Ug(t, n);
+      if (Li.Iu) {
+        Li.ja(n);
+        const e = 0.7 + Math.min(1, b().yf.Wf(Li.Iu)) / 2;
+        const o = Li.ug;
+        const r = o.width * e || 1;
+        const c = o.height * e || 1;
+        t.save();
+        t.globalAlpha = Li.Iu;
+        t.drawImage(Li.ug, je * 0.5 - r / 2, 50 - c / 2, r, c);
+        t.restore();
+      }
+      if (Yt.Wa !== -1) {
+        Mo(t, Yt.kd, Yt.Ad, Yt.yd, Yt.Bd);
+      }
+      if (Zt.Wa !== -1) {
+        Mo(t, Zt.kd, Zt.Ad, Zt.yd, Zt.Bd);
+      }
+      if (Di.qg[0]) {
+        mo(Di.qg[0], t);
+      }
+      if (ue && Oe) {
+        t.drawImage(Oe, 0, 0);
+      }
+    }
+    function Mo(t, n, i, e, o) {
+      t.save();
+      let a = Hi / Bi;
+      let s = e - n;
+      let u = o - i;
+      t.beginPath();
+      t.arc(n * a, i * a, 90, 0, Math.PI * 2, false);
+      t.closePath();
+      t.fillStyle = "rgba(79, 64, 60, 0.6)";
+      t.fill();
+      let f = s;
+      let l = u;
+      let h = Math.sqrt(f ** 2 + l ** 2);
+      let d = h > 90 ? h / 90 : 1;
+      f /= d;
+      l /= d;
+      t.beginPath();
+      t.arc(n * a + f, i * a + l, 45, 0, Math.PI * 2, false);
+      t.closePath();
+      t.fillStyle = "#fff";
+      t.fill();
+      t.restore();
+    }
+    function ko(t, n) {
+      let e = K[G().Eo];
+      for (let n = 0, o = _[l().at], r = o.length; n < r; n++) {
+        const r = o[n];
+        const c = Ci.wg[r.Th];
+        const a = X()[r.ah];
+        if (!(r.bs & w().Ec) && (!a.wu || r.Th === Ki)) {
+          let n = r.sh ? Di.Pg[r.sh] : null;
+          let o = n && n.length !== 0 ? n.Hg = b().Ff("[" + n.Ta + "]", u().Hs, "#96C949", "#222222") : null;
+          let a = n && n.Th === r.Th;
+          const s = c.Hg ||= b().Ff(c.Ta, u().Hs, u().Qs, "#222222");
+          let f = s.width + (o ? o.width + (a ? e.ol.al : 0) : 0);
+          r.Md = Math.floor(r.$u / 5) !== Math.floor(r.lh / 5) || Math.floor(r.tf / 5) !== Math.floor(r.dh / 5) || Math.floor(r.Fu) !== Math.floor(r.bh) ? 1 : 0;
+          if ((!r.yh || r.Md) && o) {
+            t.drawImage(o, r.$u - f / 2, r.tf - u().Rs - o.height / 2);
+          }
+          if (!r.yh || r.Md) {
+            t.drawImage(s, r.$u - f / 2 + (o ? o.width : 0), r.tf - u().Rs - s.height / 2);
+          }
+          let l = 0;
+          if (r.kh > 0 && (!r.yh || r.Md)) {
+            const n = K[G().kr][r.kh - 1];
+            l += n.ol.al;
+            b().gl(t, n, r.$u - f / 2 + (o ? o.width : 0) + s.width, r.tf - u().Rs - n.ol.sl / 2 - 6, n.ol.al, n.ol.sl);
+          }
+          if (a) {
+            b().gl(t, e, r.$u - f / 2 + (o ? o.width : 0) + l + s.width + 4, r.tf - u().Rs - e.ol.sl - 6);
+          }
+          if (!r.yh || r.Md) {
+            rt(r, t, Yi && Yi === r.sh || Ki && Ki === r.Th);
+          }
+          if (r.yh > 0) {
+            ot(r, t);
+          }
+        }
+      }
+      if (le) {
+        for (let n = 0; n < $n.length; n++) {
+          const i = _[$n[n]];
+          for (let n = 0; n < i.length; n++) {
+            const e = i[n];
+            if (Ki && Ki === e.Th) {
+              const n = K[G().qr];
+              b().gl(t, n, e.$u - n.ol.al / 2, e.tf - n.ol.sl / 2, n.ol.al, n.ol.sl);
+            }
+          }
+        }
+      }
+      for (let n, e = 0, o = _[l().bt], r = o.length; e < r; e++) {
+        n = o[e];
+        Cn[l().bt] ||= b().Ff("Cow", u().Hs, u().Qs, "#222222");
+        const r = Cn[l().bt];
+        t.drawImage(r, n.$u - r.width / 2, n.tf - u().Rs - r.height / 2);
+        rt(n, t, false);
+      }
+      for (let n, e = 0, o = _[l().Ht], r = o.length; e < r; e++) {
+        n = o[e];
+        Cn[l().Ht] ||= b().Ff("Duck", u().Hs, u().Qs, "#222222");
+        const r = Cn[l().Ht];
+        t.drawImage(r, n.$u - r.width / 2, n.tf - u().Rs - r.height / 2);
+        rt(n, t, false);
+      }
+      let o = null;
+      let c = 0;
+      let a = T.get(Zi);
+      for (let n, e = 0, r = _[l().Et], s = r.length; e < s; e++) {
+        n = r[e];
+        if (a) {
+          let t = b().uf(a.$u, a.tf, n.$u, n.tf);
+          if (t < u().Vs && (!o || t < c)) {
+            o = n;
+            c = t;
+          }
+        }
+        Cn[l().Et] ||= b().Ff("Golden Cow", u().Hs, u().Qs, "#222222");
+        const s = Cn[l().Et];
+        t.drawImage(s, n.$u - s.width / 2, n.tf - u().Rs - s.height / 2);
+        rt(n, t, false);
+      }
+      for (let n, e = 0, o = _[l().Ut], r = o.length; e < r; e++) {
+        n = o[e];
+        Cn[l().Ut] ||= b().Ff("Shark", u().Hs, u().Qs, "#222222");
+        const r = Cn[l().Ut];
+        t.drawImage(r, n.$u - r.width / 2, n.tf - u().Rs - r.height / 2);
+        rt(n, t, false);
+      }
+      for (let n, e = 0, o = _[l().Yt], r = o.length; e < r; e++) {
+        n = o[e];
+        Cn[l().Yt] ||= b().Ff("Crocodile", u().Hs, u().Qs, "#222222");
+        const i = Cn[l().Yt];
+        t.drawImage(i, n.$u - i.width / 2, n.tf - u().Rs - i.height / 2);
+        rt(n, t, false);
+      }
+      for (let n, e = 0, o = _[l().zt], r = o.length; e < r; e++) {
+        n = o[e];
+        Cn[l().zt] ||= b().Ff("Wolf", u().Hs, u().Qs, "#222222");
+        const r = Cn[l().zt];
+        t.drawImage(r, n.$u - r.width / 2, n.tf - u().Rs - r.height / 2);
+        rt(n, t, false);
+      }
+      if (o) {
+        Fi = o.Wa;
+        K[G().gr] ||= b().Ff("[Interact]", 24, "#fff", "#222222");
+        const n = K[G().gr];
+        t.drawImage(n, o.$u - n.width / 2, o.tf - 40 - n.height / 2);
+      } else {
+        Fi &&= 0;
+      }
+      for (let n, e = 0, o = _[l().St], r = o.length; e < r; e++) {
+        n = o[e];
+        Cn[l().St] ||= b().Ff("Mammoth", u().Hs, u().Qs, "#222222");
+        const r = Cn[l().St];
+        t.drawImage(r, n.$u - r.width / 2, n.tf - u().Rs - r.height / 2);
+        rt(n, t, false);
+      }
+      for (let n, e = 0, o = _[l().Dt], r = o.length; e < r; e++) {
+        n = o[e];
+        Cn[l().Dt] ||= b().Ff("Dragon", u().Hs, u().Qs, "#222222");
+        const i = Cn[l().Dt];
+        t.drawImage(i, n.$u - i.width / 2, n.tf - u().Rs - i.height / 2);
+        rt(n, t, false);
+      }
+      for (let n = 0, e = _[l().at], o = e.length; n < o; n++) {
+        const o = e[n];
+        const r = Ci.wg[o.Th];
+        const c = X()[o.ah];
+        if (he > (c.wu ?? false)) {
+          const n = r.jw ||= b().Ff("ID " + r.Wa, u().Hs, "#00FFFF", "#000000");
+          t.drawImage(n, o.$u - n.width / 2, o.tf - u().Rs - 52.5);
+        }
+      }
+    }
+    function Ao(t, n, i, e) {
+      const c = u().Os;
+      n = Math.floor(n / c) * c;
+      i = Math.floor(i / c) * c;
+      let a = (We + c) / e;
+      let s = (Qe + c) / e;
+      t.lineWidth = 4;
+      t.strokeStyle = "rgba(0,0,0,.06)";
+      t.beginPath();
+      for (let e = 0, r = 0; e <= a; e += c) {
+        t.moveTo(n + e, i);
+        t.lineTo(n + e, i + s);
+        r = 0;
+        for (; r <= s; r += c) {
+          t.moveTo(n, i + r);
+          t.lineTo(n + a, i + r);
+        }
+      }
+      t.stroke();
+    }
+    function yo(t, n) {
+      we._s = Ei.$u - je * 0.5;
+      we.Ms = Ei.tf - Ne * 0.5;
+      we.ks = Ei.$u + je * 0.5;
+      we.ys = Ei.tf + Ne * 0.5;
+      let e = Ui;
+      for (let n, o = 0, r = xn().length; o < r; o++) {
+        n = xn()[o];
+        if (b().pl(e, n, we)) {
+          t.fillStyle = n.Us;
+          t.fillRect(e.$u, e.tf, e.w, e.sf);
+        }
+      }
+    }
+    function Bo(t, n) {
+      if (Wi.zw) {
+        Wi.Ew += n;
+        if (Wi.Ew <= Wi.transition) {
+          Wi.sw = b().bf(Wi.Aw, Wi.hw, Wi.Ew / Wi.transition);
+          Wi.aw = b().bf(Wi.yw, Wi.gw, Wi.Ew / Wi.transition);
+          Wi.fw = b().bf(Wi.Bw, Wi.lw, Wi.Ew / Wi.transition);
+          Wi.uw = b().bf(Wi.Uw, Wi.dw, Wi.Ew / Wi.transition);
+        } else {
+          Wi.zw = false;
+          Wi.sw = Wi.hw;
+          Wi.aw = Wi.gw;
+          Wi.fw = Wi.lw;
+          Wi.uw = Wi.dw;
+        }
+      }
+      t.globalAlpha = 0.3;
+      t.fillStyle = "red";
+      let e = Qi;
+      let o = Ui;
+      e._s = 0;
+      e.Ms = 0;
+      e.ks = u().As;
+      e.ys = Wi.aw;
+      if (b().pl(o, e, we)) {
+        t.fillRect(o.$u, o.tf, o.w, o.sf);
+      }
+      e._s = 0;
+      e.Ms = 0;
+      e.ks = Wi.sw;
+      e.ys = u().Bs;
+      if (b().pl(o, e, we)) {
+        t.fillRect(o.$u, o.tf, o.w, o.sf);
+      }
+      e._s = Wi.fw;
+      e.Ms = 0;
+      e.ks = u().As;
+      e.ys = u().Bs;
+      if (b().pl(o, e, we)) {
+        t.fillRect(o.$u, o.tf, o.w, o.sf);
+      }
+      e._s = 0;
+      e.Ms = Wi.uw;
+      e.ks = u().As;
+      e.ys = u().Bs;
+      if (b().pl(o, e, we)) {
+        t.fillRect(o.$u, o.tf, o.w, o.sf);
+      }
+      t.globalAlpha = 1;
+    }
+    function Uo(t, n) {
+      t.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);
+      yo(t);
+      if (fe) {
+        Ao(t, Ei.$u - je * 0.5, Ei.tf - Ne * 0.5, Bi);
+      }
+      et(t, n);
+      if (Wi.es) {
+        Bo(t, n);
+      }
+      ko(t);
+      zi.ja(t, n * 1000);
+    }
+    let zo = new Uint8Array(4096);
+    let Eo = 0;
+    function Co(t) {
+      const i = t.data;
+      if (typeof i == "string") {
+        const t = JSON.parse(i);
+        switch (t[0]) {
+          case An().ch.mi:
+            Lo(t);
+            break;
+          case An().ch.qi:
+            xo(t);
+            break;
+          case An().ch.Vi:
+            ii.send(window[Gn().Fc("solve")](t[1]));
+            break;
+          case An().ch.hi:
+            fr(t);
+            break;
+          case An().ch.Ui:
+            cr(t);
+            break;
+          case An().ch.pi:
+            rr(t);
+            break;
+          case An().ch.Mi:
+            Ho(t);
+            break;
+          case An().ch.ki:
+            Kn().hs();
+            Si.cg();
+            Oi.ow(Ei.$u, Ei.tf);
+            so();
+            Zi = Ii = 0;
+            Mi = false;
+            Kt = 0;
+            Si.Au.length = 0;
+            to(true);
+            Yn().refresh();
+            break;
+          case An().ch._i:
+            nr(t);
+            break;
+          case An().ch.vi:
+            Vo(t);
+            break;
+          case An().ch.yi:
+            Wo(t[1]);
+            break;
+          case An().ch.Gi:
+            Ro(t);
+        }
+      } else {
+        let t = new Uint8Array(i);
+        Eo = t.byteLength;
+        if (u().zs !== 1) {
+          N(zo, t);
+        } else {
+          zo = t;
+        }
+        switch (zo[0]) {
+          case An().ch.li:
+            sr();
+            break;
+          case An().ch.cm:
+            ar();
+            break;
+          case An().ch.zi:
+            Si.Au.length = 0;
+            Si.sg();
+            po();
+            break;
+          case An().ch.di:
+            ur();
+            break;
+          case An().ch.cx:
+            Oo();
+            break;
+          case An().ch.wi:
+            Mi = true;
+            to(false);
+            Zi = zo[1] | zo[2] << 8;
+            Ii = zo[3] | zo[4] << 8;
+            break;
+          case An().ch.Ti:
+            or();
+            break;
+          case An().ch.Di:
+            er();
+            break;
+          case An().ch.Ai:
+            Go();
+            break;
+          case An().ch.Bi:
+            ir();
+            break;
+          case An().ch.gi:
+            break;
+          case An().ch.bi:
+            Po();
+            break;
+          case An().ch.cy:
+            tr();
+            break;
+          case An().ch.Si:
+            Zo();
+            break;
+          case An().ch.Pi:
+            So();
+            break;
+          case An().ch.Wi:
+            qo();
+            break;
+          case An().ch.xi:
+            Fo();
+            break;
+          case An().ch.Li:
+            Yo();
+            break;
+          case An().ch.Oi:
+            Jo();
+            break;
+          case An().ch.ji:
+            Xo();
+            break;
+          case An().ch.Ni:
+            Io();
+            break;
+          case An().ch.Qi:
+            Ko();
+            break;
+          case An().ch.Ci:
+            e = zo[1];
+            oi(new Uint8Array([An().Yi.ce, e]));
+            break;
+          case An().ch.Ri:
+            Li.vg("Event has ended.");
+            Oi.iw();
+            break;
+          case An().ch.Hi:
+            Qo(zo[1], zo[2], zo[3]);
+        }
+      }
+      var e;
+    }
+    function Do(t) {
+      switch (t.code) {
+        case An().me.Nw:
+          alert("disconnected: Banned");
+          break;
+        case An().me.Ww:
+          alert("disconnected: Kicked");
+          break;
+        case An().me.Qw:
+          alert("disconnected: not iNITIALISED");
+          break;
+        case An().me.Hw:
+          alert("disconnected: player already exists");
+          break;
+        case An().me.Rw:
+          alert("disconnected: is hacker");
+          break;
+        case An().me.Gw:
+          alert("disconnected: token invalid, try reloading?");
+          break;
+        case An().me.Vw:
+          alert("disconnected: unknown");
+          break;
+        case An().me.qw:
+          ao(false);
+          break;
+        case An().me.Pw:
+          alert("Client Encryption unable to be established, try reloading?");
+          break;
+        case 1006:
+          alert("Your internet has disconnected, you have been banned or kicked, or a error has occurred");
+      }
+      Ri = false;
+      Mi = false;
+    }
+    function So() {
+      let t = zo[1] | zo[2] << 8;
+      const n = fi.decode(new Uint8Array(zo.buffer, 3, Eo - 3));
+      zi.Eg(t, (Ci.wg[t] ? Ci.wg[t].Ta : "XX") + ": " + n);
+    }
+    function Lo(t) {
+      Ki = t[1];
+      const n = t[2];
+      for (let t = 0; t < n + 1; t++) {
+        Ci.Wg(t, "", 0);
+      }
+      for (let t = 0; t < 20; t++) {
+        Di.Ig(t, "", 0);
+      }
+      for (let n, i = 0, e = t[3]; i < e.length; i++) {
+        n = e[i];
+        Ci.Gg(n[0], n[1], n[2], true);
+      }
+      for (let n, i = 0, e = t[4]; i < e.length; i++) {
+        n = e[i];
+        Di.Jg(n[0], n[1], n[2]);
+      }
+      $o();
+      const i = t[5];
+      if (i) {
+        switch (i[0]) {
+          case "BR":
+            {
+              const [t, n, e, o, r, c, a, s, u, f, l, h, d, g, w, p] = i;
+              Wi.es = true;
+              Wi.zw = n;
+              Wi.Ew = e;
+              Wi.transition = o;
+              Wi.sw = r;
+              Wi.aw = c;
+              Wi.fw = a;
+              Wi.uw = s;
+              Wi.Aw = u;
+              Wi.yw = f;
+              Wi.Bw = l;
+              Wi.Uw = h;
+              Wi.hw = d;
+              Wi.gw = g;
+              Wi.lw = w;
+              Wi.dw = p;
+              break;
+            }
+        }
+      }
+      Ri = true;
+    }
+    function xo(t) {
+      switch (t[1]) {
+        case "BR":
+          {
+            const [n, i, e, o, r, c, a, s, u, f, l, h, d, g, w, p, b] = t;
+            Wi.zw = e;
+            Wi.Ew = o;
+            Wi.transition = r;
+            Wi.sw = c;
+            Wi.aw = a;
+            Wi.fw = s;
+            Wi.uw = u;
+            Wi.Aw = f;
+            Wi.yw = l;
+            Wi.Bw = h;
+            Wi.Uw = d;
+            Wi.hw = g;
+            Wi.gw = w;
+            Wi.lw = p;
+            Wi.dw = b;
+            break;
+          }
+      }
+    }
+    function Oo() {
+      const t = zo[1] | zo[2] << 8;
+      const n = T.get(t);
+      if (n) {
+        n.sh = zo[3];
+        n.uh = zo[4];
+      }
+    }
+    function jo() {
+      if (Ni) {
+        if (pe === 0) {
+          eo(be.Lw, be.ms, be.port, be.mt, be.Ta);
+        } else {
+          if (!Ri) {
+            return;
+          }
+          Ar(xe.value);
+          Ai = 1;
+        }
+      }
+    }
+    function No(t) {
+      Ai = t;
+    }
+    function Wo(t) {
+      Li.vg(t, 3);
+    }
+    function Qo(t, n, i) {
+      switch (t) {
+        case Wn().Et:
+        case Wn().Dt:
+        case Wn().St:
+          Li.vg(Hn()[t].description, 3);
+          break;
+        default:
+          Li.vg("An event is underway!");
+      }
+      Oi.nw(new (zn())(n / 255, i / 255));
+    }
+    function Ho(t) {
+      Si.rg(t[1][Bn().tt]);
+    }
+    function Ro(t) {
+      Si.ag(t[1]);
+    }
+    function Go() {
+      const t = Math.max(0, zo[1] | zo[2] << 8 | zo[3] << 16 | zo[4] << 24);
+      const n = zo[5] | zo[6] << 8 | zo[7] << 16 | zo[8] << 24;
+      const i = zo[9] | zo[10] << 8 | zo[11] << 16 | zo[12] << 24;
+      const e = zo[13] | zo[14] << 8 | zo[15] << 16 | zo[16] << 24;
+      const o = zo[17] | zo[18] << 8 | zo[19] << 16 | zo[20] << 24;
+      Si.og(t);
+      Si.eg(n, i, e, o);
+    }
+    function Vo(t) {
+      for (let n = 0; n < t[1].length; n++) {
+        Ci.Vg(t[1][n][0], t[1][n][1]);
+      }
+      xi.ja(Ci, t[1]);
+    }
+    function qo() {
+      for (let t = 1; t < Eo; t++) {
+        Si.Sd[t - 1] = zo[t];
+      }
+    }
+    function Po() {
+      for (let t = 1; t < Eo; t += 5) {
+        const n = zo[t];
+        const i = zo[t + 1] | zo[t + 2] << 8;
+        const e = zo[t + 3];
+        let o = zo[t + 4];
+        const r = T.get(i);
+        if (r) {
+          switch (n) {
+            case jn().D:
+              if (r.Eh && !r.Uh.value) {
+                let t = b().Pf(e);
+                r.Eh.active = true;
+                r.Eh.Ch = t;
+                r.Uh.Af = r.Uh.kf = 10;
+              }
+              break;
+            case jn().U:
+              let t = o ? Math.PI / 2 : Math.PI;
+              let n = F()[e];
+              r.Uh.max = t;
+              r.Uh.min = 0;
+              const i = n.reload / 1000;
+              r.Uh.kf = r.Uh.max / (i * 0.25);
+              r.Uh.Af = r.Uh.max / (i * 0.75);
+              r.Uh.ja(0.01);
+          }
+        }
+      }
+    }
+    function Yo() {
+      Oi.ew();
+      Me.style.display = "block";
+      _e.style.display = "none";
+      Yi = null;
+      Di.qg.length = 0;
+      me.innerHTML = "Clans";
+      $o();
+    }
+    function Zo() {
+      Me.style.display = "none";
+      _e.style.display = "block";
+      let t = zo[1];
+      let n = zo[2];
+      Yi = t;
+      me.innerText = Di.Pg[Yi].Ta;
+      b().Xf(Be);
+      for (let t = 3; t < Eo; t++) {
+        uo(zo[t], true, n, t - 3);
+      }
+    }
+    function Ko() {
+      Oi.ew();
+      for (let t = 1; t < Eo; t += 3) {
+        let n = zo[t + 0];
+        let i = zo[t + 1] / 255;
+        let e = zo[t + 2] / 255;
+        if (n && n !== Ki) {
+          Oi.rw(i, e);
+        }
+      }
+    }
+    function Io() {
+      let t = zo[1];
+      b().Xf(Be);
+      for (let n = 2; n < Eo; n++) {
+        uo(zo[n], true, t, n - 2);
+      }
+    }
+    function Fo() {
+      let t = zo[1];
+      let n = zo[2];
+      let i = fi.decode(new Uint8Array(zo.buffer, 3, Eo - 3));
+      Di.Jg(t, n, i);
+      if (!t && re) {
+        $o();
+      }
+    }
+    function Jo() {
+      let t = zo[1];
+      Di.Fg(t);
+      if (!t && re) {
+        $o();
+      }
+    }
+    function Xo() {
+      for (let t = 1; t < Eo; t++) {
+        Di.Kg(zo[t]);
+      }
+    }
+    function $o() {
+      b().Xf(Be);
+      for (let n, i = 0, e = Di.Pg; i < e.length; i++) {
+        n = e[i];
+        if (n.active) {
+          uo(i, false, false);
+        }
+      }
+    }
+    function tr() {
+      for (let n = 1; n < Eo; n += 2) {
+        const i = zo[n];
+        const e = zo[n + 1];
+        const o = e === 1 ? "EQUIP" : e === 2 ? "UNEQUIP" : "BUY";
+        X()[i].Ow = e;
+        document.getElementsByClassName("hat_price_tag")[i - 1].style.display = e === 1 || e === 2 ? "none" : "block";
+        document.getElementsByClassName("hat_action_button")[i - 1].innerHTML = o;
+      }
+    }
+    function nr(t) {
+      const n = T.get(t[2]);
+      if (n) {
+        zi.zg(n.$u, n.tf, 0.18, 800, t[1], t[3] === 0 ? "#fff" : "#8ecc51");
+      }
+    }
+    function ir() {
+      const t = zo[1] | zo[2] << 8;
+      const n = fi.decode(new Uint8Array(zo.buffer, 3, Eo - 3));
+      const i = T.get(t);
+      zi.Cg(n, i);
+    }
+    function er() {
+      let n = zo[1] | zo[2] << 8;
+      Oe = b().Ff(n + "ms", u().Hs, u().Qs, "#222222");
+    }
+    function or() {
+      const t = zo[1];
+      Ci.Rg(t);
+      xi.ja(Ci);
+    }
+    function rr(t) {
+      Ci.Gg(t[1], t[2], 0, true);
+    }
+    function cr(t) {
+      const n = t[1];
+      for (let t = 0; t < n.length; t++) {
+        Si.Au.push(n[t]);
+      }
+      Si.sg();
+      po();
+    }
+    function ar() {
+      if (Eo > 1) {
+        Si.Ud.length = 0;
+        for (let t = 1; t < Eo; t++) {
+          Si.Ud.push(zo[t]);
+        }
+        Si.ja();
+        po();
+      }
+    }
+    function sr() {
+      const t = +new Date();
+      for (let n = 1; n < Eo; n += 19) {
+        const i = zo[n + 8];
+        const e = zo[n + 2] | zo[n + 3] << 8;
+        const o = zo[n + 10];
+        if (i & w().Cc) {
+          C(e);
+        } else {
+          z(zo[n], e, zo[n + 1], zo[n + 8], zo[n + 4] | zo[n + 5] << 8, zo[n + 6] | zo[n + 7] << 8, b().Pf(zo[n + 9]), o, zo[n + 11], zo[n + 12], zo[n + 13], zo[n + 14], zo[n + 15], zo[n + 16], zo[n + 17], zo[n + 18], t);
+        }
+      }
+    }
+    function ur() {
+      Ki = zo[1];
+      const t = Xn()(Ki, window[(0, Rn.Fc)("getMemTo")]());
+      x(t[0], t[1], t[2], t[3]);
+      ti = window["_$"]();
+      const n = yi;
+      oi(new Uint8Array([An().Yi.Zi, zo[1], ...t, ...n]));
+      Ni = true;
+    }
+    function fr(t) {
+      to(false);
+      Mi = true;
+      Zi = Ii = t[1];
+      Ci.Gg(Ki, t[2], t[3], true);
+      Si.og(t[3]);
+      Si.Ud = t[4];
+      let n = t[5];
+      Si.eg(n[0], n[1], n[2], n[3]);
+      Ho([An().ch.Mi, t[6]]);
+      if (t[7]) {
+        Qo(t[7][1], t[7][2], t[7][3]);
+      }
+      Si.ja();
+      Si.sg();
+      po();
+    }
+    function lr(t) {
+      oi(new Uint8Array([An().Yi.ee, ...mi.encode(t)]));
+    }
+    function hr(t) {
+      oi(new Uint8Array([An().Yi.ae, +t]));
+    }
+    function dr(t) {
+      t = (t + Math.PI) * 65535 / (Math.PI * 2);
+      oi(new Uint8Array([An().Yi.he, t & 255, t >> 8 & 255]));
+    }
+    function gr(t) {
+      t = (t + Math.PI) * 65535 / (Math.PI * 2);
+      oi(new Uint8Array([An().Yi.Ji, t & 255, t >> 8 & 255]));
+    }
+    function wr() {
+      oi(new Uint8Array([An().Yi.Xi]));
+    }
+    function pr(t) {
+      oi(new Uint8Array([An().Yi.te, t & 255, t >> 8]));
+    }
+    function br(t) {
+      oi(new Uint8Array([An().Yi.ne, t]));
+    }
+    function vr(t) {
+      if (t != null) {
+        oi(new Uint8Array([An().Yi.Fi, t]));
+      }
+    }
+    function mr(t) {
+      t = (t + Math.PI) * 65535 / (Math.PI * 2);
+      oi(new Uint8Array([An().Yi.Ii, t & 255, t >> 8 & 255]));
+    }
+    function Tr(t) {
+      t = (t + Math.PI) * 65535 / (Math.PI * 2);
+      oi(new Uint8Array([An().Yi.fe, t & 255, t >> 8 & 255]));
+    }
+    function _r(t) {
+      t = (t + Math.PI) * 65535 / (Math.PI * 2);
+      oi(new Uint8Array([An().Yi.se, t & 255, t >> 8 & 255]));
+    }
+    function Mr() {
+      oi(new Uint8Array([An().Yi.ue]));
+    }
+    function kr(t) {
+      oi(new Uint8Array([An().Yi.Ki, t]));
+    }
+    function Ar(t) {
+      const n = Gn().getData("skin");
+      const i = Gn().getData("accessory");
+      const e = Gn().getData("back");
+      const o = [An().Yi.$i, t, n, "FFFFFEEEEGGBBBAAA", i, undefined, undefined, e];
+      const r = Gn().getData("accToken", "");
+      const c = Gn().getData("accMail", "");
+      if (r && c) {
+        o[5] = c;
+        o[6] = r;
+      } else {
+        o[5] = 0;
+        o[6] = 0;
+      }
+      oi(JSON.stringify(o));
+    }
+    function yr(t) {
+      oi(new Uint8Array([An().Yi.pe, t]));
+    }
+    function Br(t) {
+      oi(new Uint8Array([An().Yi.ge, t]));
+    }
+    new Uint8Array(1000);
+  })();
+})();
