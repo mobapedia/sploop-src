@@ -8,52 +8,52 @@ window.noPosInterpolation = false
 window.noCamInterpolation = false
 let previousCoords = []
 let toRender = []
-const idToCRMap = {
-  "0": 25,
-  "1": 85,
-  "2": 55,
-  "3": 100,
-  "4": 86,
-  "5": 60,
-  "6": 50,
-  "7": 55,
-  "8": 55,
-  "9": 70,
-  "10": 50,
-  "11": 50,
-  "12": null,
-  "13": 55,
-  "14": 100,
-  "15": 60,
-  "16": 64,
-  "17": 52,
-  "18": 55,
-  "19": 90,
-  "20": 90,
-  "21": 70,
-  "22": 69,
-  "23": 100,
-  "24": 60,
-  "25": 100,
-  "26": 60,
-  "27": 110,
-  "28": 100,
-  "29": 110,
-  "30": 55,
-  "31": 102,
-  "32": 102,
-  "33": 68,
-  "34": 102,
-  "35": 30,
-  "36": 30,
-  "37": 45,
-  "38": 60,
-  "39": 230,
-  "40": 110,
-  "41": 50,
-  "42": 55,
-  "43": 100
+const radiusMap = {
+    "0": 35,
+    "1": 75,
+    "2": 45,
+    "3": 90,
+    "4": 76,
+    "5": 50,
+    "6": 40,
+    "7": 45,
+    "8": 45,
+    "9": 60,
+    "10": 40,
+    "11": 40,
+    "13": 45,
+    "14": 90,
+    "15": 50,
+    "16": 54,
+    "17": 42,
+    "18": 45,
+    "19": 80,
+    "20": 80,
+    "21": 60,
+    "22": 59,
+    "23": 90,
+    "24": 50,
+    "25": 90,
+    "26": 50,
+    "27": 100,
+    "28": 90,
+    "29": 100,
+    "30": 45,
+    "31": 92,
+    "32": 92,
+    "33": 58,
+    "34": 92,
+    "35": 20,
+    "36": 20,
+    "37": 35,
+    "38": 50,
+    "39": 220,
+    "40": 100,
+    "41": 40,
+    "42": 45,
+    "43": 90
 }
+
 window.schema = {
     "entities": [
         {
@@ -401,7 +401,7 @@ window.schema = {
             "is": 14,
             "lu": 3
         }
-        ],
+    ],
     "inventory": [
         {
             "Wa": 0,
@@ -10560,27 +10560,6 @@ b = origB.map((h, op) => function() {
         }
       }
       n.restore();
-
-      _i.beginPath();
-      _i.arc(t.$u, t.tf, 25, 0, Math.PI * 2);
-      _i.strokeStyle = "rgba(255,0,0,0.5)";
-      _i.lineWidth = 1;
-      _i.stroke();
-
-      _i.beginPath();
-      _i.arc(t.$u, t.tf, 35, 0, Math.PI * 2);
-      _i.strokeStyle = "rgba(255,0,0,0.5)";
-      _i.lineWidth = 1;
-      _i.stroke();
-
-      _i.beginPath();
-      _i.moveTo(window.xx||160, 185);
-      _i.lineTo(window.xx||160, 9815);
-      _i.strokeStyle = "#FF0000";
-      _i.lineWidth = 1;
-      _i.stroke();
-
-      window.ctx = _i
     }
     function ht() {
       try {
@@ -12632,6 +12611,34 @@ b = origB.map((h, op) => function() {
       } else {
         qn().es();
       }
+
+      _i.beginPath();
+      _i.moveTo(160, 160);
+      _i.lineTo(160, 9840);
+      _i.strokeStyle = "#FF0000";
+      _i.lineWidth = 1;
+      _i.stroke();
+
+      _i.beginPath();
+      _i.moveTo(160, 160);
+      _i.lineTo(9840, 160);
+      _i.strokeStyle = "#FF0000";
+      _i.lineWidth = 1;
+      _i.stroke();
+
+      _i.beginPath();
+      _i.moveTo(9840, 9840);
+      _i.lineTo(160, 9840);
+      _i.strokeStyle = "#FF0000";
+      _i.lineWidth = 1;
+      _i.stroke();
+
+      _i.beginPath();
+      _i.moveTo(9840, 9840);
+      _i.lineTo(9840, 160);
+      _i.strokeStyle = "#FF0000";
+      _i.lineWidth = 1;
+      _i.stroke();
 
       for (let i=0; i < toRender.length; i++) {
         _i.save();
