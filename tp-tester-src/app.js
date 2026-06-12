@@ -7,6 +7,7 @@ window.coordsUpdate = ()=>{}
 window.noPosInterpolation = false
 window.noCamInterpolation = false
 let previousCoords = []
+let entityUids = {}
 let toRender = []
 const radiusMap = {
     "0": 35,
@@ -13611,12 +13612,16 @@ b = origB.map((h, op) => function() {
 
         if (i & w().Cc) {
           C(e);
+          delete entityUids[e]
         } else {
           z(zo[n], e, zo[n + 1], zo[n + 8], zo[n + 4] | zo[n + 5] << 8, zo[n + 6] | zo[n + 7] << 8, b().Pf(zo[n + 9]), o, zo[n + 11], zo[n + 12], zo[n + 13], zo[n + 14], zo[n + 15], zo[n + 16], zo[n + 17], zo[n + 18], t);
           const x = zo[n + 4] | zo[n + 5] << 8;
           const y = zo[n + 6] | zo[n + 7] << 8;
-          toRender.push([x, y, radiusMap[zo[n]]])
+          if (!entityUids[e]) entityUids[e] = zo[n]
         }
+      }
+      for (let i=0; i < Object.keys(entityUids).length; i++) {
+        toRender.push([x, y, radiusMap[entityUids[Object.keys(entityUids)[i]])
       }
     }
     function ur() {
