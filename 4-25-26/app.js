@@ -9034,7 +9034,7 @@ function i(t) {
       return t.map(t => String.fromCharCode(t)).join("");
     }
     if (typeof EXTERNAL == "function") {
-      si = W(EXTERNAL, 8319363456098398);
+      si = W(EXTERNAL, GLOB);
     }
     const fi = new TextDecoder();
     const li = ui([119, 115, 115]);
