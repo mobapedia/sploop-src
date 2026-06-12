@@ -1,6 +1,58 @@
 //ce24aad432e941d102c3.js
 //!! - bugs or potential bugs
 //EDIT n, END EDIT n - deviations from original source code
+//add n to all EDIT/ENDEDITs
+
+//EDIT
+let entityUids = {}
+let toRender = []
+const radiusMap = {
+    "0": 35,
+    "1": 75,
+    "2": 45,
+    "3": 90,
+    "4": 76,
+    "5": 50,
+    "6": 40,
+    "7": 45,
+    "8": 45,
+    "9": 60,
+    "10": 40,
+    "11": 40,
+    "13": 45,
+    "14": 90,
+    "15": 50,
+    "16": 54,
+    "17": 42,
+    "18": 45,
+    "19": 80,
+    "20": 80,
+    "21": 60,
+    "22": 59,
+    "23": 90,
+    "24": 50,
+    "25": 90,
+    "26": 50,
+    "27": 100,
+    "28": 90,
+    "29": 100,
+    "30": 45,
+    "31": 92,
+    "32": 92,
+    "33": 58,
+    "34": 92,
+    "35": 20,
+    "36": 20,
+    "37": 35,
+    "38": 50,
+    "39": 220,
+    "40": 100,
+    "41": 40,
+    "42": 45,
+    "43": 90
+}
+//ENDEDIT
+
 function i(t) {
   function n(t) {
     if (typeof t == "string") {
@@ -10275,6 +10327,18 @@ function i(t) {
       } else {
         qn().es();
       }
+      //EDIT
+      for (let i=0; i < toRender.length; i++) {
+        _i.save();
+        _i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);
+        _i.beginPath();
+        _i.arc(toRender[i][0], toRender[i][1], toRender[i][2], 0, Math.PI * 2);
+        _i.strokeStyle = "red";
+        _i.lineWidth = 1;
+        _i.stroke();
+        _i.restore();
+      }
+      //ENDEDIT
       window.requestAnimationFrame(t);
     })();
     ao();
@@ -11201,6 +11265,9 @@ function i(t) {
       }
     }
     function sr() {
+      //EDIT
+      toRender = []
+      //ENDEDIT
       const t = +new Date();
       for (let n = 1; n < Eo; n += 19) {
         const i = zo[n + 8];
@@ -11208,10 +11275,22 @@ function i(t) {
         const o = zo[n + 10];
         if (i & w().Cc) {
           C(e);
+          //EDIT
+          delete entityUids[e]
+          //ENDEDIT
         } else {
           z(zo[n], e, zo[n + 1], zo[n + 8], zo[n + 4] | zo[n + 5] << 8, zo[n + 6] | zo[n + 7] << 8, b().Pf(zo[n + 9]), o, zo[n + 11], zo[n + 12], zo[n + 13], zo[n + 14], zo[n + 15], zo[n + 16], zo[n + 17], zo[n + 18], t);
+          //EDIT
+          entityUids[e] = [zo[n + 4] | zo[n + 5] << 8, zo[n + 6] | zo[n + 7] << 8, radiusMap[zo[n]]]
+          //ENDEDIT
         }
       }
+      //EDIT
+      let keys = Object.keys(entityUids)
+      for (let i=0; i < keys.length; i++) {
+        toRender.push(entityUids[keys[i]])
+      }
+      //ENDEDIT
     }
     function ur() {
       Ki = zo[1];
