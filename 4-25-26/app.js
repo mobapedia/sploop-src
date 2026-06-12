@@ -1,4 +1,5 @@
 //ce24aad432e941d102c3.js
+(function EXTERNAL(GLOB) {
 function i(t) {
   function n(t) {
     if (typeof t == "string") {
@@ -11291,3 +11292,4 @@ function i(t) {
     new Uint8Array(1000);
   })();
 })();
+)(8216507066944982);
