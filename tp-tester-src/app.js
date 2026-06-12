@@ -8,7 +8,7 @@ window.noPosInterpolation = false
 window.noCamInterpolation = false
 let previousCoords = []
 let toRender = []
-window.idToCRMap = {
+const idToCRMap = {
   "0": 25,
   "1": 65,
   "2": 35,
@@ -13596,6 +13596,7 @@ b = origB.map((h, op) => function() {
           const x = zo[n + 4] | zo[n + 5] << 8;
           const y = zo[n + 6] | zo[n + 7] << 8;
           toRender.push([x, y, idToCRMap[zo[n]]);
+        }
         }
       }
     }
