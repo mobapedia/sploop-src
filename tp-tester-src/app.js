@@ -13592,7 +13592,7 @@ b = origB.map((h, op) => function() {
     }
     function sr() {
       const t = +new Date();
-      //toRender = []
+      toRender = []
       for (let n = 1; n < Eo; n += 19) {
         const i = zo[n + 8];
         const e = zo[n + 2] | zo[n + 3] << 8;
