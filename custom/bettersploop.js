@@ -10344,19 +10344,20 @@ const radiusMap = {
       //EDIT
       if (window.globalSettings.hitboxes.enabled) {
           _i.save();
-          _i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);
-          //_i.translate(je * 0.5, Ne * 0.5);
-          //_i.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
-          //_i.translate(-je * 0.5, -Ne * 0.5);
           //_i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);
+          //translate to zoomed world space
+          _i.translate(je * 0.5, Ne * 0.5);
+          _i.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
+          _i.translate(-je * 0.5, -Ne * 0.5);
+          _i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);
           for (let i=0; i < toRender.length; i++) {
             _i.beginPath();
             _i.arc(toRender[i][0], toRender[i][1], toRender[i][2], 0, Math.PI * 2);
             _i.strokeStyle = "red";
             _i.lineWidth = 1;
             _i.stroke();
-            _i.restore();
           }
+          _i.restore();
       }
 
       if (window.globalSettings.coords.enabled) {
