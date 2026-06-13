@@ -10858,8 +10858,7 @@ const radiusMap = {
             Ho(t);
             break;
           case An().ch.ki:
-                debugger;
-            Kn().hs();
+            //Kn().hs(); ADS EDIT ENDEDIT
             Si.cg();
             Oi.ow(Ei.$u, Ei.tf);
             so();
