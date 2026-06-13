@@ -53,7 +53,7 @@ const radiusMap = {
     "43": 90
 }
 //ENDEDIT
-(function () {
+;(function () {
   var r = {
     3950: function (t) {
       t.exports = {
