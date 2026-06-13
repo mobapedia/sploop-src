@@ -6,6 +6,7 @@
 //EDIT
 let entityUids = {}
 let toRender = []
+let coords = []
 const radiusMap = {
     "0": 35,
     "1": 75,
@@ -10362,6 +10363,20 @@ function i(t) {
             _i.restore();
           }
       }
+
+      if (window.globalSettings.coords.enabled) {
+        _i.font = "14px Baloo Paaji";
+        _i.textAlign = "center";
+        _i.textBaseline = "middle";
+        _i.lineWidth = 4;
+        _i.lineJoin = "round";
+        _i.strokeStyle = "#000";
+        _i.fillStyle = "#fff";
+        _i.strokeText(coords[0]+", "+coords[1], 300, 300);
+        _i.fillText(coords[0]+", "+coords[1], 300, 300);
+        
+        _i.restore();
+      }
       //ENDEDIT
       window.requestAnimationFrame(t);
     })();
@@ -11299,14 +11314,13 @@ function i(t) {
         const o = zo[n + 10];
  
         //EDIT
-        if (window.globalSettings.coords.callback) {
+        if (window.globalSettings.coords.enabled) {
             if (e === Zi) {
               const x = zo[n + 4] | zo[n + 5] << 8;
               const y = zo[n + 6] | zo[n + 7] << 8;
-              if (x !== window.globalSettings.coords.prevX || y !== window.globalSettings.coords.prevY) {
-                  window.globalSettings.coords.callback(x, y)
-                  window.globalSettings.coords.prevX = x
-                  window.globalSettings.coords.prevY = y
+              if (x !== coords[0] || y !== coords[1]) {
+                  coords[0] = x
+                  coords[1] = y
               }
             }
         }
