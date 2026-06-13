@@ -10347,7 +10347,7 @@ const radiusMap = {
             _i.save();
             _i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);
             _i.beginPath();
-            _i.arc(toRender[i][0], toRender[i][1], toRender[i][2], 0, Math.PI * 2);
+            _i.arc(toRender[i][0], toRender[i][1], toRender[i][2]*window.globalSettings.zoom.scale, 0, Math.PI * 2);
             _i.strokeStyle = "red";
             _i.lineWidth = 1;
             _i.stroke();
