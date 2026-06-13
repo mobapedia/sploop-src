@@ -11306,7 +11306,7 @@ function i(t) {
               if (x !== window.globalSettings.coords.prevX || y !== window.globalSettings.coords.prevY) {
                   window.globalSettings.coords.callback(x, y)
                   window.globalSettings.coords.prevX = x
-                  window.globalSettings.coords.prevX = y
+                  window.globalSettings.coords.prevY = y
               }
             }
         }
