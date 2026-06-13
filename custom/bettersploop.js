@@ -3,6 +3,7 @@
 //EDIT n, END EDIT n - deviations from original source code
 //add n to all EDIT/ENDEDITs
 // ADS EDIT removes ad loading
+// ZOOM EDIT shows where its modified to custom zoom not ui
 
 //EDIT
 let entityUids = {}
@@ -10346,6 +10347,7 @@ const radiusMap = {
           _i.save();
           //_i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);
           //translate to zoomed world space
+          //ZOOM EDIT
           _i.translate(je * 0.5, Ne * 0.5);
           _i.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
           _i.translate(-je * 0.5, -Ne * 0.5);
