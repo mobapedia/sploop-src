@@ -10009,6 +10009,7 @@ function i(t) {
         pe = 0;
         //EDIT
         entityUids = {}
+        toRender = []
         //ENDEDIT
       };
       ii.xw = t => {
