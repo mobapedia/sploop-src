@@ -10007,6 +10007,9 @@ function i(t) {
         q().Ra();
         Do(t);
         pe = 0;
+        //EDIT
+        entityUids = {}
+        //ENDEDIT
       };
       ii.xw = t => {
         q().Ra();
