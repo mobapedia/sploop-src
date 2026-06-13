@@ -11297,6 +11297,14 @@ function i(t) {
         const i = zo[n + 8];
         const e = zo[n + 2] | zo[n + 3] << 8;
         const o = zo[n + 10];
+ 
+        //EDIT
+        if (e === Zi) {
+          const x = zo[n + 4] | zo[n + 5] << 8;
+          const y = zo[n + 6] | zo[n + 7] << 8;
+          window.globalSettings.coords = [x, y]
+        }
+        //ENDEDIT
         if (i & w().Cc) {
           C(e);
           //EDIT
