@@ -10371,7 +10371,7 @@ function i(t) {
         const mapWidth = map.ol.al
         
         _i.save();
-        _i.font = "14px Baloo Paaji";
+        _i.font = "17px Baloo Paaji";
         _i.textAlign = "center";
         _i.textBaseline = "bottom";
         _i.lineWidth = 4;
