@@ -10060,8 +10060,8 @@ function i(t) {
     }
     
     window.globalSettings.zoom.reset = ()=>{
-      e.Es = 1824
-      e.Cs = 1026
+      u().Es = 1824
+      u().Cs = 1026
       co()
     }
     //ENDEDIT
