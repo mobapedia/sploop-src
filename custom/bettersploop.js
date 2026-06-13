@@ -2509,8 +2509,8 @@ const radiusMap = {
         t.style.display = "none";
       });
     },
-    /* ADS EDIT
     1174: function (n, i, e) {
+    /* ADS EDIT
       const o = function () {
         let n;
         let i;
@@ -2612,9 +2612,10 @@ const radiusMap = {
       }();
       try {
         n.exports = o;
-      } catch (t) {}
+      } catch (t) {} ENDEDIT*/
     },
     5299: function (n, i, e) {
+        /* ADS EDIT
       try {
         __MUTATEOoQ0O = e(6078);
         __MUTATEO = e(9847);
@@ -2680,9 +2681,10 @@ const radiusMap = {
         __MUTATEO.get("da-bottom").innerHTML = "<div id='lostworld-io_970x250'></div>";
         r.ea();
         r.cs();
-      })();
+      })(); ENDEDIT*/
     },
     5438: function (n, i, e) {
+        /* ADS EDIT
       const o = function () {
         let n;
         let i;
@@ -2825,9 +2827,10 @@ const radiusMap = {
       }();
       try {
         n.exports = o;
-      } catch (t) {}
+      } catch (t) {} ENDEDIT*/
     },
     3840: function (n, i, e) {
+        /* ADS EDIT
       const r = function () {
         let n;
         let i;
@@ -2922,9 +2925,10 @@ const radiusMap = {
       }();
       try {
         n.exports = r;
-      } catch (t) {}
+      } catch (t) {} ENDEDIT*/
     },
     8582: function (n, i, e) {
+        /* ADS EDIT
       const o = function () {
         let n;
         let i;
@@ -3018,9 +3022,10 @@ const radiusMap = {
       }();
       try {
         n.exports = o;
-      } catch (t) {}
+      } catch (t) {} ENDEDIT*/
     },
     9705: function (n, i, e) {
+        /* ADS EDIT
       const r = function () {
         let n;
         let i;
@@ -3104,9 +3109,8 @@ const radiusMap = {
       }();
       try {
         n.exports = r;
-      } catch (t) {}
+      } catch (t) {} ENDEDIT*/
     },
-    ENDEDIT */
     48: function (t, n, i) {
       const e = i(5397);
       t.exports = function () {
@@ -5913,7 +5917,7 @@ const radiusMap = {
     var i = c[t] = {
       exports: {}
     };
-    //r[t](i, i.exports, a); ADS EDIT ENDEDIT
+    r[t](i, i.exports, a);
     return i.exports;
   }
   a.n = function (t) {
