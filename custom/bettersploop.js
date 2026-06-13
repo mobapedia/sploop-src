@@ -10755,10 +10755,12 @@ const radiusMap = {
       t.stroke();
     }
     function yo(t, n) {
-      we._s = Ei.$u - je * 0.5;
-      we.Ms = Ei.tf - Ne * 0.5;
-      we.ks = Ei.$u + je * 0.5;
-      we.ys = Ei.tf + Ne * 0.5;
+      //ZOOM EDIT
+      we._s = Ei.$u - (je * 0.5)/window.globalSettings.zoom.scale;
+      we.Ms = Ei.tf - (Ne * 0.5)/window.globalSettings.zoom.scale;
+      we.ks = Ei.$u + (je * 0.5)/window.globalSettings.zoom.scale;
+      we.ys = Ei.tf + (Ne * 0.5)/window.globalSettings.zoom.scale;
+      //ENDEDIT
       let e = Ui;
       for (let n, o = 0, r = xn().length; o < r; o++) {
         n = xn()[o];
@@ -10819,7 +10821,7 @@ const radiusMap = {
       t.globalAlpha = 1;
     }
     function Uo(t, n) {
-      //EDIT
+      //ZOOM EDIT
       t.translate(je * 0.5, Ne * 0.5);
       t.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
       t.translate(-je * 0.5, -Ne * 0.5);
@@ -10828,7 +10830,7 @@ const radiusMap = {
       t.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);
       yo(t);
       if (fe) {
-        Ao(t, Ei.$u - je * 0.5, Ei.tf - Ne * 0.5, Bi);
+        Ao(t, Ei.$u - (je * 0.5)/window.globalSettings.zoom.scale, Ei.tf - (Ne * 0.5)/window.globalSettings.zoom.scale, Bi); //EDIT ENDEDIT
       }
       et(t, n);
       if (Wi.es) {
