@@ -10365,20 +10365,22 @@ function i(t) {
       }
 
       if (window.globalSettings.coords.enabled) {
-        const mapTop = Ne - K[G().co].ol.sl - 5;
+        //map margins are 5px
+        const map = K[G().co]
+        const mapTop = Ne - map.ol.sl - 5;
+        const mapWidth = map.ol.al
         
         _i.save();
         _i.font = "14px Baloo Paaji";
-        _i.textAlign = "left";
+        _i.textAlign = "center";
         _i.textBaseline = "bottom";
         _i.lineWidth = 4;
         _i.lineJoin = "round";
         _i.strokeStyle = "#000";
         _i.fillStyle = "#fff";
-    
-        const label = coords[0] + ", " + coords[1];
-        _i.strokeText(label, 5, mapTop - 6);  // x=5 matches map margin, 6px gap above
-        _i.fillText(label, 5, mapTop - 6);
+
+        _i.strokeText(coords[0]+", "+coords[1], mapWidth/2, mapTop - 5);
+        _i.fillText(coords[0]+", "+coords[1], mapWidth/2, mapTop - 5);
     
         _i.restore();
       }
