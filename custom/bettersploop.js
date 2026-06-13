@@ -3394,22 +3394,6 @@ function i(t) {
         As: 10000,
         Bs: 10000
       };
-      //EDIT
-      window.globalSettings.zoom.scale = (delta)=>{
-        if (delta < 0) {
-          e.Es *= 1.1
-          e.Cs *= 1.1
-        } else {
-          e.Es /= 1.1
-          e.Cs /= 1.1
-        }
-      }
-      console.log(co)
-      window.globalSettings.zoom.reset = ()=>{
-        e.Es = 1824
-        e.Cs = 1026
-      }
-      //ENDEDIT
       e.Ns = Math.PI / 2;
       e.Ws = 255;
       e.Qs = "#FFFFFF";
@@ -10063,6 +10047,24 @@ function i(t) {
       _i.setTransform(Bi, 0, 0, Bi, 0, 0);
       po();
     }
+    //EDIT
+    window.globalSettings.zoom.scale = (delta)=>{
+      if (delta < 0) {
+        u().Es *= 1.1
+        u().Cs *= 1.1
+      } else {
+        u().Es /= 1.1
+        u().Cs /= 1.1
+      }
+      co()
+    }
+    
+    window.globalSettings.zoom.reset = ()=>{
+      e.Es = 1824
+      e.Cs = 1026
+      co()
+    }
+    //ENDEDIT
     function ao(t = true) {
       var i = new XMLHttpRequest();
       i.open("GET", "https://token.sploop.io/" + ki + "?v=" + Math.random() * 100000, true);
