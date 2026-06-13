@@ -11299,10 +11299,16 @@ function i(t) {
         const o = zo[n + 10];
  
         //EDIT
-        if (e === Zi) {
-          const x = zo[n + 4] | zo[n + 5] << 8;
-          const y = zo[n + 6] | zo[n + 7] << 8;
-          window.globalSettings.coords = [x, y]
+        if (window.globalSettings.coords.callback) {
+            if (e === Zi) {
+              const x = zo[n + 4] | zo[n + 5] << 8;
+              const y = zo[n + 6] | zo[n + 7] << 8;
+              if (x !== window.globalSettings.coords.prevX && y !== window.globalSettings.coords.prevY) {
+                  window.globalSettings.coords.callback(x, y)
+                  window.globalSettings.coords.prevX = x
+                  window.globalSettings.coords.prevX = y
+              }
+            }
         }
         //ENDEDIT
         if (i & w().Cc) {
