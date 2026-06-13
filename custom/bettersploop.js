@@ -3395,8 +3395,8 @@ function i(t) {
         Bs: 10000
       };
       //EDIT
-      window.globalSettings.zoom.scale = (bool)=>{
-        if (bool) {
+      window.globalSettings.zoom.scale = (delta)=>{
+        if (delta < 0) {
           e.Es *= 1.1
           e.Cs *= 1.1
         } else {
@@ -3404,7 +3404,7 @@ function i(t) {
           e.Cs /= 1.1
         }
       }
-      
+      console.log(co)
       window.globalSettings.zoom.reset = ()=>{
         e.Es = 1824
         e.Cs = 1026
