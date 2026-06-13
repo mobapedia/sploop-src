@@ -10379,8 +10379,9 @@ function i(t) {
         _i.strokeStyle = "#000";
         _i.fillStyle = "#fff";
 
-        _i.strokeText(coords[0]+", "+coords[1], mapWidth/2, mapTop - 5);
-        _i.fillText(coords[0]+", "+coords[1], mapWidth/2, mapTop - 5);
+        const text = coords[0]+", "+coords[1]
+        _i.strokeText(text, mapWidth/2+5, mapTop-5);
+        _i.fillText(text, mapWidth/2+5, mapTop-5);
     
         _i.restore();
       }
