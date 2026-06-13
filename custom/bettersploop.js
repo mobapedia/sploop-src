@@ -7439,10 +7439,10 @@ const radiusMap = {
       },
       ad: function (t) {
         return "/img/decorations/" + t + ".png?v=1923912";
-      }/*, ADS EDIT
+      },
       sd: function (t) {
         return b().dl(t);
-      } ENDEDIT*/
+      }
     };
     var H = Q;
     var R = a(6597);
