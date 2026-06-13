@@ -3394,6 +3394,22 @@ function i(t) {
         As: 10000,
         Bs: 10000
       };
+      //EDIT
+      window.globalSettings.zoom.scale = (bool)=>{
+        if (bool) {
+          e.Es *= 1.1
+          e.Cs *= 1.1
+        } else {
+          e.Es /= 1.1
+          e.Cs /= 1.1
+        }
+      }
+      
+      window.globalSettings.zoom.reset = ()=>{
+        e.Es = 1824
+        e.Cs = 1026
+      }
+      //ENDEDIT
       e.Ns = Math.PI / 2;
       e.Ws = 255;
       e.Qs = "#FFFFFF";
@@ -10332,15 +10348,17 @@ function i(t) {
         qn().es();
       }
       //EDIT
-      for (let i=0; i < toRender.length; i++) {
-        _i.save();
-        _i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);
-        _i.beginPath();
-        _i.arc(toRender[i][0], toRender[i][1], toRender[i][2], 0, Math.PI * 2);
-        _i.strokeStyle = "red";
-        _i.lineWidth = 1;
-        _i.stroke();
-        _i.restore();
+      if (window.globalSettings.hitboxes.enabled) {
+          for (let i=0; i < toRender.length; i++) {
+            _i.save();
+            _i.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);
+            _i.beginPath();
+            _i.arc(toRender[i][0], toRender[i][1], toRender[i][2], 0, Math.PI * 2);
+            _i.strokeStyle = "red";
+            _i.lineWidth = 1;
+            _i.stroke();
+            _i.restore();
+          }
       }
       //ENDEDIT
       window.requestAnimationFrame(t);
