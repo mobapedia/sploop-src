@@ -2509,7 +2509,7 @@ const radiusMap = {
         t.style.display = "none";
       });
     },
-    /* EDIT
+    /* ADS EDIT
     1174: function (n, i, e) {
       const o = function () {
         let n;
@@ -5913,7 +5913,7 @@ const radiusMap = {
     var i = c[t] = {
       exports: {}
     };
-    //r[t](i, i.exports, a); EDIT ENDEDIT
+    //r[t](i, i.exports, a); ADS EDIT ENDEDIT
     return i.exports;
   }
   a.n = function (t) {
@@ -7439,10 +7439,10 @@ const radiusMap = {
       },
       ad: function (t) {
         return "/img/decorations/" + t + ".png?v=1923912";
-      },
+      }/*, ADS EDIT
       sd: function (t) {
         return b().dl(t);
-      }
+      } ENDEDIT*/
     };
     var H = Q;
     var R = a(6597);
