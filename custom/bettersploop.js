@@ -2,6 +2,7 @@
 //!! - bugs or potential bugs
 //EDIT n, END EDIT n - deviations from original source code
 //add n to all EDIT/ENDEDITs
+// ADS EDIT removes ad loading
 
 //EDIT
 let entityUids = {}
@@ -10038,7 +10039,7 @@ const radiusMap = {
       po();
     }
     //EDIT
-    window.globalSettings.zoom.scale = (delta)=>{
+    /*window.globalSettings.zoom.scale = (delta)=>{
       if (delta > 0) {
         u().Es *= 1.1
         u().Cs *= 1.1
@@ -10047,11 +10048,12 @@ const radiusMap = {
         u().Cs /= 1.1
       }
       co()
-    }
+    }*/
     
     window.globalSettings.zoom.reset = ()=>{
-      u().Es = 1824
-      u().Cs = 1026
+      //u().Es = 1824
+      //u().Cs = 1026
+      window.globalSettings.zoom.scale = 1
       co()
     }
     //ENDEDIT
@@ -10817,6 +10819,12 @@ const radiusMap = {
       t.globalAlpha = 1;
     }
     function Uo(t, n) {
+      //EDIT
+      t.translate(je * 0.5, Ne * 0.5);
+      t.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
+      t.translate(-je * 0.5, -Ne * 0.5);
+      //ENDEDIT
+        
       t.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);
       yo(t);
       if (fe) {
