@@ -10049,7 +10049,7 @@ function i(t) {
     }
     //EDIT
     window.globalSettings.zoom.scale = (delta)=>{
-      if (delta < 0) {
+      if (delta > 0) {
         u().Es *= 1.1
         u().Cs *= 1.1
       } else {
