@@ -53,23 +53,6 @@ const radiusMap = {
     "43": 90
 }
 //ENDEDIT
-
-function i(t) {
-  function n(t) {
-    if (typeof t == "string") {
-      return function () {
-        while (true);
-      }();
-    }
-    n(++t);
-  }
-  try {
-    if (t) {
-      return n;
-    }
-    n(0);
-  } catch (t) {}
-}
 (function () {
   var r = {
     3950: function (t) {
@@ -2526,6 +2509,7 @@ function i(t) {
         t.style.display = "none";
       });
     },
+    /* EDIT
     1174: function (n, i, e) {
       const o = function () {
         let n;
@@ -3122,6 +3106,7 @@ function i(t) {
         n.exports = r;
       } catch (t) {}
     },
+    ENDEDIT */
     48: function (t, n, i) {
       const e = i(5397);
       t.exports = function () {
