@@ -10751,23 +10751,48 @@ const radiusMap = {
       t.strokeStyle = "rgba(0,0,0,.06)";
       t.beginPath();
       if (window.globalSettings.grid.optimize) {
-          for (let e = 0; e <= a; e += c) {
-            t.moveTo(n + e, i);
-            t.lineTo(n + e, i + s);
-          }
-          for (let r = 0; r <= s; r += c) {
-            t.moveTo(n, i + r);
-            t.lineTo(n + a, i + r);
+          if (window.globalSettings.grid.limit) {
+              const limits = window.globalSettings.accurateWorldBoundaries?[150, 9850]:[160, 9840]
+              for (let e = 0; e <= a; e += c) {
+                t.moveTo(Math.min(Math.max(n+e, limits[0]), limits[1]), Math.min(Math.max(i, limits[0]), limits[1]));
+                t.lineTo(Math.min(Math.max(n+e, limits[0]), limits[1]), Math.min(Math.max(i+s, limits[0]), limits[1]));
+              }
+              for (let r = 0; r <= s; r += c) {
+                t.moveTo(n, i + r);
+                t.lineTo(n + a, i + r);
+              }
+          } else {
+              for (let e = 0; e <= a; e += c) {
+                t.moveTo(n + e, i);
+                t.lineTo(n + e, i + s);
+              }
+              for (let r = 0; r <= s; r += c) {
+                t.moveTo(n, i + r);
+                t.lineTo(n + a, i + r);
+              }
           }
       } else {
-          for (let e = 0, r = 0; e <= a; e += c) {
-            t.moveTo(n + e, i);
-            t.lineTo(n + e, i + s);
-            r = 0;
-            for (; r <= s; r += c) {
-              t.moveTo(n, i + r);
-              t.lineTo(n + a, i + r);
-            }
+          if (window.globalSettings.grid.limit) {
+              const limits = window.globalSettings.accurateWorldBoundaries?[150, 9850]:[160, 9840]
+              for (let e = 0, r = 0; e <= a; e += c) {
+                t.moveTo(Math.min(Math.max(n+e, limits[0]), limits[1]), Math.min(Math.max(i, limits[0]), limits[1]));
+                t.lineTo(Math.min(Math.max(n+e, limits[0]), limits[1]), Math.min(Math.max(i+s, limits[0]), limits[1]));
+                r = 0;
+                for (; r <= s; r += c) {
+                  t.moveTo(n, i + r);
+                  t.lineTo(n + a, i + r);
+                }
+              }
+          } else {
+              for (let e = 0, r = 0; e <= a; e += c) {
+                t.moveTo(n + e, i);
+                t.lineTo(n + e, i + s);
+                r = 0;
+                for (; r <= s; r += c) {
+                  t.moveTo(n, i + r);
+                  t.lineTo(n + a, i + r);
+                }
+              }
           }
       }
       t.stroke();
