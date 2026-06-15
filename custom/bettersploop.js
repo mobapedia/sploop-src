@@ -4,6 +4,7 @@
 //add n to all EDIT/ENDEDITs
 // ADS EDIT removes ad loading
 // ZOOM EDIT shows where its modified to custom zoom not ui
+// GRID EDIT shows where its modified to custom grid rendering
 
 //EDIT
 let entityUids = {}
@@ -10750,6 +10751,7 @@ const radiusMap = {
       t.lineWidth = 4;
       t.strokeStyle = "rgba(0,0,0,.06)";
       t.beginPath();
+      // GRID EDIT
       if (window.globalSettings.grid.limit) {
           const lo = window.globalSettings.accurateWorldBoundaries?150:160;
           const hi = window.globalSettings.accurateWorldBoundaries?9850:9840;
@@ -10805,6 +10807,7 @@ const radiusMap = {
             }
           }
       }
+      // ENDEDIT
       t.stroke();
     }
     function yo(t, n) {
