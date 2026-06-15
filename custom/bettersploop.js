@@ -10750,15 +10750,24 @@ const radiusMap = {
       t.lineWidth = 4;
       t.strokeStyle = "rgba(0,0,0,.06)";
       t.beginPath();
-      for (let e = 0, r = 0; e <= a; e += c) {
+      for (let e = 0; e <= a; e += c) {
         t.moveTo(n + e, i);
         t.lineTo(n + e, i + s);
-        //r = 0;
       }
-      for (; r <= s; r += c) {
+      for (let r = 0; r <= s; r += c) {
         t.moveTo(n, i + r);
         t.lineTo(n + a, i + r);
       }
+      /* EDIT
+      for (let e = 0, r = 0; e <= a; e += c) {
+        t.moveTo(n + e, i);
+        t.lineTo(n + e, i + s);
+        r = 0;
+        for (; r <= s; r += c) {
+          t.moveTo(n, i + r);
+          t.lineTo(n + a, i + r);
+        }
+      } ENDEDIT*/
       t.stroke();
     }
     function yo(t, n) {
