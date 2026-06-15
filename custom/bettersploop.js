@@ -10836,7 +10836,7 @@ const radiusMap = {
         
       t.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);
       yo(t);
-      if (fe) {
+      if (/*fe*/window.globalSettings.grid.enabled) { // EDIT ENDEDIT
         Ao(t, Ei.$u - (je * 0.5)/window.globalSettings.zoom.scale, Ei.tf - (Ne * 0.5)/window.globalSettings.zoom.scale, Bi*window.globalSettings.zoom.scale); //ZOOM EDIT ENDEDIT
       }
       et(t, n);
