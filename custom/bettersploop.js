@@ -10753,11 +10753,11 @@ const radiusMap = {
       for (let e = 0, r = 0; e <= a; e += c) {
         t.moveTo(n + e, i);
         t.lineTo(n + e, i + s);
-        r = 0;
-        for (; r <= s; r += c) {
-          t.moveTo(n, i + r);
-          t.lineTo(n + a, i + r);
-        }
+        //r = 0;
+      }
+      for (; r <= s; r += c) {
+        t.moveTo(n, i + r);
+        t.lineTo(n + a, i + r);
       }
       t.stroke();
     }
