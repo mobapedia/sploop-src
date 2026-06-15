@@ -5,6 +5,7 @@
 // ADS EDIT removes ad loading
 // ZOOM EDIT shows where its modified to custom zoom not ui
 // GRID EDIT shows where its modified to custom grid rendering
+// WORLD BOUND EDIT shows where its modified to accurate world boundaries
 
 //EDIT
 let entityUids = {}
@@ -10819,7 +10820,13 @@ const radiusMap = {
       //ENDEDIT
       let e = Ui;
       for (let n, o = 0, r = xn().length; o < r; o++) {
-        n = xn()[o];
+        // WORLD BOUND EDIT
+        if (window.globalSettings.accurateWorldBoundaries.enabled) {
+            n = window.globalSettings.accurateWorldBoundaries.boundaries;
+        } else if (window.globalSettings.accurateBiomeBoundaries.enabled) {
+            n = window.globalSettings.accurateBiomeBoundaries.boundaries;
+        } else n = xn()[o];
+        // ENDEDIT
         if (b().pl(e, n, we)) {
           t.fillStyle = n.Us;
           t.fillRect(e.$u, e.tf, e.w, e.sf);
