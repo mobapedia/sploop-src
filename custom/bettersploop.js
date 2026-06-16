@@ -10390,16 +10390,14 @@ const radiusMap = {
         _i.save();
         _i.font = "17px Baloo Paaji";
         _i.textAlign = "center";
-        _i.textBaseline = "bottom";
+        _i.textBaseline = "top";
         _i.lineWidth = 4;
         _i.lineJoin = "round";
         _i.strokeStyle = "#000";
         _i.fillStyle = "#fff";
-
-        const text = window.globalSettings.zoom.scale===1?"Default":window.globalSettings.zoom+"x"
-        _i.strokeText(text, 0, 0);
-        _i.fillText(text, 0, 0);
-    
+        const text = window.globalSettings.zoom.scale===1?"Default":window.globalSettings.zoom.scale+"x";
+        _i.strokeText(text, je / 2, 10);
+        _i.fillText(text, je / 2, 10);
         _i.restore();
       }
       //ENDEDIT
