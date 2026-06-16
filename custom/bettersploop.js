@@ -10754,8 +10754,8 @@ const radiusMap = {
       t.beginPath();
       // GRID EDIT
       if (window.globalSettings.grid.limit) {
-          const lo = window.globalSettings.accurateWorldBoundaries?150:160;
-          const hi = window.globalSettings.accurateWorldBoundaries?9850:9840;
+          const lo = window.globalSettings.accurateWorldBoundaries.enabled?150:160;
+          const hi = window.globalSettings.accurateWorldBoundaries.enabled?9850:9840;
           const clamp = v=>Math.min(Math.max(v, lo), hi);
           if (window.globalSettings.grid.optimize) {
               for (let e = 0; e <= a; e += c) {
