@@ -10366,9 +10366,9 @@ const radiusMap = {
 
       if (window.globalSettings.coords.enabled) {
         //map margins are 5px
-        const map = K[G().co]
-        const mapTop = Ne - map.ol.sl - 5;
-        const mapWidth = map.ol.al
+        const map = K[G().co];
+        const mapTop = Ne-map.ol.sl-5;
+        const mapWidth = map.ol.al;
         
         _i.save();
         _i.font = "17px Baloo Paaji";
@@ -10379,9 +10379,26 @@ const radiusMap = {
         _i.strokeStyle = "#000";
         _i.fillStyle = "#fff";
 
-        const text = coords[0]+", "+coords[1]
+        const text = coords[0]+", "+coords[1];
         _i.strokeText(text, mapWidth/2+5, mapTop-5);
         _i.fillText(text, mapWidth/2+5, mapTop-5);
+    
+        _i.restore();
+      }
+
+      if (window.globalSettings.zoom.showLabel) {
+        _i.save();
+        _i.font = "17px Baloo Paaji";
+        _i.textAlign = "center";
+        _i.textBaseline = "bottom";
+        _i.lineWidth = 4;
+        _i.lineJoin = "round";
+        _i.strokeStyle = "#000";
+        _i.fillStyle = "#fff";
+
+        const text = window.globalSettings.zoom.scale===1?"Default":window.globalSettings.zoom+"x"
+        _i.strokeText(text, 0, 0);
+        _i.fillText(text, 0, 0);
     
         _i.restore();
       }
