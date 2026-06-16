@@ -10822,9 +10822,9 @@ const radiusMap = {
       for (let n, o = 0, r = xn().length; o < r; o++) {
         // WORLD BOUND EDIT
         if (window.globalSettings.accurateWorldBoundaries.enabled) {
-            n = window.globalSettings.accurateWorldBoundaries.boundaries;
+            n = window.globalSettings.accurateWorldBoundaries.boundaries[o];
         } else if (window.globalSettings.accurateBiomeBoundaries.enabled) {
-            n = window.globalSettings.accurateBiomeBoundaries.boundaries;
+            n = window.globalSettings.accurateBiomeBoundaries.boundaries[o];
         } else n = xn()[o];
         // ENDEDIT
         if (b().pl(e, n, we)) {
