@@ -8628,6 +8628,8 @@ const accurateBoundaries = {
         } else {
             if (n === Qt[_t] && !Ft[n] || n === Qt[Mt] && !Ft[n]) {
               br(4);
+              Ft[n] = false; // set KeyR as released (keyup)
+              fakeKeyup = true; // dont set KeyR as down at the end of the function (!!might have side effects)
             }
         }
         //END EDIT 2
