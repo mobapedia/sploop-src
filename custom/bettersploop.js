@@ -8614,16 +8614,21 @@ const accurateBoundaries = {
           br(11);
         }
         //EDIT 2
-        //too complicated im lazy
-        if (n === Qt[_t] && n !== Qt[Mt] && !Ft[n]) { // custom key if custom key is not KeyR
-          br(4);
-        } else if (n === "KeyR" && !Ft[n]) { // KeyR and when custom key is KeyR
-          if (!t.ctrlKey && !t.metaKey) {
-            br(4);
-          } else {
-            Ft[n] = false; // set KeyR as released (keyup)
-            fakeKeyup = true; // dont set KeyR as down at the end of the function (!!might have side effects)
-          }
+        if (window.globalSettings.noSpikeOnReload.enabled) {
+            if (n === Qt[_t] && n !== Qt[Mt] && !Ft[n]) { // custom key if custom key is not KeyR
+              br(4);
+            } else if (n === "KeyR" && !Ft[n]) { // KeyR and when custom key is KeyR
+              if (!t.ctrlKey && !t.metaKey) {
+                br(4);
+              } else {
+                Ft[n] = false; // set KeyR as released (keyup)
+                fakeKeyup = true; // dont set KeyR as down at the end of the function (!!might have side effects)
+              }
+            }
+        } else {
+            if (n === Qt[_t] && !Ft[n]) {
+                br(4);
+            }
         }
         //END EDIT 2
         if (n === Qt[kt] && !Ft[n]) {
