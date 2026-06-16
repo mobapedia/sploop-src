@@ -10395,7 +10395,7 @@ const radiusMap = {
         _i.lineJoin = "round";
         _i.strokeStyle = "#000";
         _i.fillStyle = "#fff";
-        const text = window.globalSettings.zoom.scale===1?"Default":window.globalSettings.zoom.scale+"x";
+        const text = window.globalSettings.zoom.scale.toFixed(5)+"x";
         _i.strokeText(text, je / 2, 10);
         _i.fillText(text, je / 2, 10);
         _i.restore();
