@@ -8626,10 +8626,16 @@ const accurateBoundaries = {
               }
             }
         } else {
-            if (n === Qt[_t] && !Ft[n] || n === Qt[Mt] && !Ft[n]) {
+            if (n === Qt[_t] && n !== Qt[Mt] && !Ft[n]) { // custom key if custom key is not KeyR
               br(4);
-              Ft[n] = false; // set KeyR as released (keyup)
-              fakeKeyup = true; // dont set KeyR as down at the end of the function (!!might have side effects)
+            } else if (n === "KeyR" && !Ft[n]) { // KeyR and when custom key is KeyR
+              if (!t.ctrlKey && !t.metaKey) {
+                br(4);
+              } else {
+                br(4);
+                Ft[n] = false; // set KeyR as released (keyup)
+                fakeKeyup = true; // dont set KeyR as down at the end of the function (!!might have side effects)
+              }
             }
         }
         //END EDIT 2
