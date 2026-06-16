@@ -8626,8 +8626,8 @@ const accurateBoundaries = {
               }
             }
         } else {
-            if (n === Qt[_t] && !Ft[n]) {
-                br(4);
+            if (n === Qt[_t] && !Ft[n] || n === Qt[Mt] && !Ft[n]) {
+              br(4);
             }
         }
         //END EDIT 2
