@@ -56,6 +56,119 @@ const radiusMap = {
     "42": 45,
     "43": 90
 }
+const accurateBoundaries = {
+    world: [
+        {
+            "_s": 150,
+            "Ms": 2500,
+            "ks": 9850,
+            "ys": 7500,
+            "Us": "#788F57"
+        },
+        {
+            "_s": 150,
+            "Ms": 150,
+            "ks": 9850,
+            "ys": 2500,
+            "Us": "#ece5db"
+        },
+        {
+            "_s": 150,
+            "Ms": 7500,
+            "ks": 9850,
+            "ys": 8000,
+            "Us": "#fcefbb"
+        },
+        {
+            "_s": 150,
+            "Ms": 8000,
+            "ks": 9850,
+            "ys": 9000,
+            "Us": "#2a8b9b"
+        },
+        {
+            "_s": 150,
+            "Ms": 9000,
+            "ks": 9850,
+            "ys": 9850,
+            "Us": "#b38354"
+        }
+    ],
+    biome: [
+        {
+            "_s": 150,
+            "Ms": 2500,
+            "ks": 9850,
+            "ys": 7500,
+            "Us": "#788F57"
+        },
+        {
+            "_s": 150,
+            "Ms": 150,
+            "ks": 9850,
+            "ys": 2500,
+            "Us": "#ece5db"
+        },
+        {
+            "_s": 150,
+            "Ms": 7500,
+            "ks": 9850,
+            "ys": 8000,
+            "Us": "#fcefbb"
+        },
+        {
+            "_s": 150,
+            "Ms": 8000,
+            "ks": 9850,
+            "ys": 9000,
+            "Us": "#2a8b9b"
+        },
+        {
+            "_s": 150,
+            "Ms": 9000,
+            "ks": 9850,
+            "ys": 9850,
+            "Us": "#b38354"
+        }
+    ],
+    both: [
+        {
+            "_s": 150,
+            "Ms": 2500,
+            "ks": 9850,
+            "ys": 7500,
+            "Us": "#788F57"
+        },
+        {
+            "_s": 150,
+            "Ms": 150,
+            "ks": 9850,
+            "ys": 2500,
+            "Us": "#ece5db"
+        },
+        {
+            "_s": 150,
+            "Ms": 7500,
+            "ks": 9850,
+            "ys": 8000,
+            "Us": "#fcefbb"
+        },
+        {
+            "_s": 150,
+            "Ms": 8000,
+            "ks": 9850,
+            "ys": 9000,
+            "Us": "#2a8b9b"
+        },
+        {
+            "_s": 150,
+            "Ms": 9000,
+            "ks": 9850,
+            "ys": 9850,
+            "Us": "#b38354"
+        }
+    ]
+}
 //ENDEDIT
 ;(function () {
   var r = {
@@ -10836,13 +10949,9 @@ const radiusMap = {
       let e = Ui;
       for (let n, o = 0, r = xn().length; o < r; o++) {
         // WORLD BOUND EDIT
-        if (window.globalSettings.accurateWorldBoundaries.enabled && window.globalSettings.accurateBiomeBoundaries.enabled) {
-            n = window.globalSettings.accurateWorldBoundaries.with_biome[o];
-        } else if (window.globalSettings.accurateWorldBoundaries.enabled && !window.globalSettings.accurateBiomeBoundaries.enabled) {
-            n = window.globalSettings.accurateWorldBoundaries.without_biome[o];
-        } else if (!window.globalSettings.accurateWorldBoundaries.enabled && window.globalSettings.accurateBiomeBoundaries.enabled) {
-            n = window.globalSettings.accurateBiomeBoundaries.without_world[o];
-        } else n = xn()[o];
+        const world = window.globalSettings.accurateWorldBoundaries.enabled;
+        const biome = window.globalSettings.accurateBiomeBoundaries.enabled;
+        n = world ? (biome ? accurateBoundaries.both[o] : accurateBoundaries.world[o]) : (biome ? accurateBoundaries.biome[o] : xn()[o]);
         // ENDEDIT
         if (b().pl(e, n, we)) {
           t.fillStyle = n.Us;
