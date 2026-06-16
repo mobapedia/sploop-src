@@ -10395,7 +10395,7 @@ const radiusMap = {
         _i.lineJoin = "round";
         _i.strokeStyle = "#000";
         _i.fillStyle = "#fff";
-        const text = window.globalSettings.zoom.scale.toFixed(5)+"x";
+        const text = Number(window.globalSettings.zoom.scale.toFixed(5))+"x";
         _i.strokeText(text, je / 2, 10);
         _i.fillText(text, je / 2, 10);
         _i.restore();
@@ -10836,10 +10836,12 @@ const radiusMap = {
       let e = Ui;
       for (let n, o = 0, r = xn().length; o < r; o++) {
         // WORLD BOUND EDIT
-        if (window.globalSettings.accurateWorldBoundaries.enabled) {
-            n = window.globalSettings.accurateWorldBoundaries.boundaries[o];
-        } else if (window.globalSettings.accurateBiomeBoundaries.enabled) {
-            n = window.globalSettings.accurateBiomeBoundaries.boundaries[o];
+        if (window.globalSettings.accurateWorldBoundaries.enabled && window.globalSettings.accurateBiomeBoundaries.enabled) {
+            n = window.globalSettings.accurateWorldBoundaries.with_biome[o];
+        } else if (window.globalSettings.accurateWorldBoundaries.enabled && !window.globalSettings.accurateBiomeBoundaries.enabled) {
+            n = window.globalSettings.accurateWorldBoundaries.without_biome[o];
+        } else if (!window.globalSettings.accurateWorldBoundaries.enabled && window.globalSettings.accurateBiomeBoundaries.enabled) {
+            n = window.globalSettings.accurateBiomeBoundaries.without_world[o];
         } else n = xn()[o];
         // ENDEDIT
         if (b().pl(e, n, we)) {
