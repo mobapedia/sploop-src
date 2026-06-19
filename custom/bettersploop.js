@@ -8378,7 +8378,8 @@ const accurateBoundaries = {
       }
       n.restore();
     }
-    function ht() {
+    // KEYBINDS EDIT
+    /*function ht() {
       try {
         localStorage.setItem(Wt, JSON.stringify(Qt));
       } catch (t) {}
@@ -8542,7 +8543,8 @@ const accurateBoundaries = {
         qt();
         Gt = null;
       }
-    });
+    });*/
+    // ENDEDIT
     let Pt = false;
     let Yt = {
       Wa: -1,
