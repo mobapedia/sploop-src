@@ -8479,7 +8479,7 @@ const accurateBoundaries = {
         const map = window.globalSettings.keybinds.map
         const keys = Object.keys(map)
         for (let i=0; i < keys.length; i++) {
-            Qt[mapToId(keys[i])] = map[keys[i]]
+            Qt[mapToId(keys[i])] = "Key"+map[keys[i]] // !!!!!!! NEED TO FULLY REVERSE KEY TRANSFORM HERE, NOT ENOUGH TIME
         }
     };
 
