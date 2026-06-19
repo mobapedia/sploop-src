@@ -8388,7 +8388,8 @@ const accurateBoundaries = {
       Object.assign(Qt, Nt);
       ht();
       qt();
-    });
+    });*/
+    // ENDEDIT
     let dt = 0;
     const gt = dt++;
     const wt = dt++;
@@ -8438,8 +8439,8 @@ const accurateBoundaries = {
       [Ot]: "KeyC",
       [jt]: "KeyB"
     });
-    const Wt = "keybinds";
-    const Qt = function () {
+    //const Wt = "keybinds"; KEYBINDS EDIT ENDEDIT
+    const Qt = Nt;/*function () { KEYBINDS EDIT
       var t = undefined;
       try {
         t = localStorage.getItem(Wt);
