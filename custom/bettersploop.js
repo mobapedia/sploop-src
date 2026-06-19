@@ -6,6 +6,7 @@
 // ZOOM EDIT shows where its modified to custom zoom not ui
 // GRID EDIT shows where its modified to custom grid rendering
 // WORLD BOUND EDIT shows where its modified to accurate world boundaries
+// KEYBINDS EDIT shows where its modified to take keybinds from custom bettersploop settings instead of default keybinds localstorage
 
 //EDIT
 let entityUids = {}
@@ -8480,9 +8481,11 @@ const accurateBoundaries = {
         for (let i=0; i < keys.length; i++) {
             Qt[mapToId(keys[i])] = map[keys[i]]
         }
-    }
+    };
 
-    window.globalSettings.keybinds.update();
+    if (window.globalSettings.keybinds.map) {
+        window.globalSettings.keybinds.update()
+    };
     // ENDEDIT
     /*KEYBINDS EDIT
     const Wt = "keybinds";
