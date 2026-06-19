@@ -8415,7 +8415,7 @@ const accurateBoundaries = {
     const xt = dt++;
     const Ot = dt++;
     const jt = dt++;
-    const /*Nt*/Qt = Object.freeze({ // KEYBINDS EDIT ENDEDIT
+    const /*Nt*/Qt = /*Object.freeze(*/{ // KEYBINDS EDIT ENDEDIT
       [gt]: "KeyW",
       [wt]: "KeyS",
       [pt]: "KeyD",
@@ -8439,7 +8439,7 @@ const accurateBoundaries = {
       [xt]: "KeyL",
       [Ot]: "KeyC",
       [jt]: "KeyB"
-    });
+    };//);
     // KEYBINDS EDIT
     function mapToId(map) {
         switch (map) {
