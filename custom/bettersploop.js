@@ -8414,7 +8414,7 @@ const accurateBoundaries = {
     const xt = dt++;
     const Ot = dt++;
     const jt = dt++;
-    const Nt = Object.freeze({
+    const /*Nt*/Qt = Object.freeze({ // KEYBINDS EDIT ENDEDIT
       [gt]: "KeyW",
       [wt]: "KeyS",
       [pt]: "KeyD",
@@ -8423,7 +8423,7 @@ const accurateBoundaries = {
       [mt]: "KeyQ",
       [Tt]: "Space",
       [_t]: "KeyR",
-      [Mt]: "KeyR",
+      [Mt]: "KeyR", // ALWAYS KeyR
       [kt]: "KeyG",
       [At]: "KeyT",
       [yt]: "KeyN",
@@ -8439,8 +8439,54 @@ const accurateBoundaries = {
       [Ot]: "KeyC",
       [jt]: "KeyB"
     });
-    //const Wt = "keybinds"; KEYBINDS EDIT ENDEDIT
-    const Qt = Nt;/*function () { KEYBINDS EDIT
+    // KEYBINDS EDIT
+    function mapToId(map) {
+        switch (map) {
+            case "for-spike":
+                return _t
+                break
+            case "for-food":
+                return mt
+                break
+            case "for-trap":
+                return vt
+                break
+            case "for-windmill":
+                return kt
+                break
+            case "for-platform":
+                return At
+                break
+            case "for-bed":
+                return yt
+                break
+            case "for-shop":
+                return Ot
+                break
+            case "for-clan":
+                return jt
+                break
+            case "for-lock-angle":
+                return Bt
+                break
+            case "for-auto-hit":
+                return Ut
+        }
+    }
+
+    window.globalSettings.keybinds.update = ()=>{
+        const map = window.globalSettings.keybinds.map
+        const keys = Object.keys(map)
+        for (let i=0; i < keys.length; i++) {
+            Qt[mapToId(keys[i])] = map[keys[i]]
+        }
+    }
+
+    window.globalSettings.keybinds.update();
+    // ENDEDIT
+    /*KEYBINDS EDIT
+    const Wt = "keybinds";
+    const Qt = function () {
       var t = undefined;
       try {
         t = localStorage.getItem(Wt);
@@ -8572,7 +8618,6 @@ const accurateBoundaries = {
     let en = false;
     function on(t) {
       //EDIT 1
-      //
       let fakeKeyup = false;
       //END EDIT 1
       const n = t.code;
