@@ -8475,11 +8475,23 @@ const accurateBoundaries = {
         }
     }
 
+    const inverseKeyTransform = (t) => {
+        if (/^[A-Z]$/.test(t)) {
+            return `Key${t}`;
+        } else if (/^\d$/.test(t)) {
+            return `Digit${t}`;
+        } else if (["Up", "Down", "Left", "Right"].includes(t)) {
+            return `Arrow${t}`;
+        } else {
+            return t;
+        }
+    };
+
     window.globalSettings.keybinds.update = ()=>{
         const map = window.globalSettings.keybinds.map
         const keys = Object.keys(map)
         for (let i=0; i < keys.length; i++) {
-            Qt[mapToId(keys[i])] = "Key"+map[keys[i]] // !!!!!!! NEED TO FULLY REVERSE KEY TRANSFORM HERE, NOT ENOUGH TIME
+            Qt[mapToId(keys[i])] = inverseKeyTransform(map[keys[i]])
         }
     };
 
