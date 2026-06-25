@@ -10963,13 +10963,13 @@ const accurateBoundaries = {
           const clamp = v=>Math.min(Math.max(v, lo), hi);
           if (window.globalSettings.grid.optimize) {
               for (let e = 0; e <= a; e += c) {
-                const x = n+e
+                const x = n+e;
                 if (x<lo || x>hi) continue;
                 t.moveTo(x, clamp(i));
                 t.lineTo(x, clamp(i+s));
               }
               for (let r = 0; r <= s; r += c) {
-                const y = i+r
+                const y = i+r;
                 if (y<lo || y>hi) continue;
                 t.moveTo(clamp(n), y);
                 t.lineTo(clamp(n+a), y);
@@ -11091,7 +11091,7 @@ const accurateBoundaries = {
       t.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
       t.translate(-je * 0.5, -Ne * 0.5);
       //ENDEDIT
-        
+      
       t.translate(je * 0.5 - Ei.$u, Ne * 0.5 - Ei.tf);
       yo(t);
       if (/*fe*/window.globalSettings.grid.enabled) { // EDIT ENDEDIT
