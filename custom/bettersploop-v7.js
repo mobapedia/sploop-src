@@ -10088,7 +10088,7 @@ const accurateBoundaries = {
         Kr();
       }
       function Zr(n) {
-        le().xs();
+        //le().xs(); ADS EDIT ENDEDIT
         ro.tg();
         so.kw(eo.mh, eo.bh);
         gr();
