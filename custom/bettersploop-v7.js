@@ -2649,6 +2649,7 @@ const accurateBoundaries = {
       });
     },
     1174: function (n, e, o) {
+    /* ADS EDIT
       const i = function () {
         let n;
         let e;
@@ -2750,9 +2751,10 @@ const accurateBoundaries = {
       }();
       try {
         n.exports = i;
-      } catch (n) {}
+      } catch (n) {} ENDEDIT*/
     },
     5299: function (n, e, o) {
+    /* ADS EDIT
       try {
         __MUTATEoo = o(6078);
         __MUTATE0 = o(9847);
@@ -2818,9 +2820,10 @@ const accurateBoundaries = {
         __MUTATE0.get("da-bottom").innerHTML = "<div id='lostworld-io_970x250'></div>";
         r.wa();
         r.ys();
-      })();
+      })(); ENDEDIT*/
     },
     5438: function (n, e, o) {
+    /* ADS EDIT
       const i = function () {
         let n;
         let e;
@@ -2963,9 +2966,10 @@ const accurateBoundaries = {
       }();
       try {
         n.exports = i;
-      } catch (n) {}
+      } catch (n) {} ENDEDIT*/
     },
     3840: function (n, e, o) {
+    /* ADS EDIT
       const i = function () {
         let n;
         let e;
@@ -3060,9 +3064,10 @@ const accurateBoundaries = {
       }();
       try {
         n.exports = i;
-      } catch (n) {}
+      } catch (n) {} ENDEDIT*/
     },
     8582: function (n, e, o) {
+    /* ADS EDIT
       const i = function () {
         let n;
         let e;
@@ -3156,9 +3161,10 @@ const accurateBoundaries = {
       }();
       try {
         n.exports = i;
-      } catch (n) {}
+      } catch (n) {} ENDEDIT*/
     },
     9705: function (n, e, o) {
+    /* ADS EDIT
       const i = function () {
         let n;
         let e;
@@ -3242,7 +3248,7 @@ const accurateBoundaries = {
       }();
       try {
         n.exports = i;
-      } catch (n) {}
+      } catch (n) {} ENDEDIT*/
     },
     48: function (n, t, e) {
       const o = e(5397);
