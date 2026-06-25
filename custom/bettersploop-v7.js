@@ -9712,25 +9712,51 @@ const accurateBoundaries = {
         n.globalAlpha = f;
         n.strokeStyle = l;
         n.beginPath();
-        for (let t = 0; t <= k; t += a) {
-          n.moveTo(h + t, d);
-          n.lineTo(h + t, d + g);
+        // GRID EDIT
+        if (window.globalSettings.grid.limit) {
+            const lo = window.globalSettings.accurateWorldBoundaries.enabled?150:160;
+            const hi = window.globalSettings.accurateWorldBoundaries.enabled?9850:9840;
+            const clamp = v=>Math.min(Math.max(v, lo), hi);
+            for (let e = 0; e <= k; e += a) {
+              const x = h+e;
+              if (x<lo || x>hi) continue;
+              n.moveTo(x, clamp(d));
+              n.lineTo(x, clamp(d+g));
+            }
+            for (let r = 0; r <= g; r += s) {
+              const y = d+r;
+              if (y<lo || y>hi) continue;
+              n.moveTo(clamp(h), y);
+              n.lineTo(clamp(h+k), y);
+            }
+        } else {
+            for (let t = 0; t <= k; t += a) {
+              n.moveTo(h + t, d);
+              n.lineTo(h + t, d + g);
+            }
+            for (let t = 0; t <= g; t += s) {
+              n.moveTo(h, d + t);
+              n.lineTo(h + k, d + t);
+            }
         }
-        for (let t = 0; t <= g; t += s) {
-          n.moveTo(h, d + t);
-          n.lineTo(h + k, d + t);
-        }
+        // ENDEDIT
         n.stroke();
         n.restore();
       }
       function Dr(n, t) {
-        fi.Ww = eo.mh - Di * 0.5;
-        fi.Ow = eo.bh - zi * 0.5;
-        fi.Zw = eo.mh + Di * 0.5;
-        fi.Iw = eo.bh + zi * 0.5;
+        //ZOOM EDIT
+        fi.Ww = eo.mh - (Di * 0.5)/window.globalSettings.zoom.scale;
+        fi.Ow = eo.bh - (zi * 0.5)/window.globalSettings.zoom.scale;
+        fi.Zw = eo.mh + (Di * 0.5)/window.globalSettings.zoom.scale;
+        fi.Iw = eo.bh + (zi * 0.5)/window.globalSettings.zoom.scale;
+        //ENDEDIT
         let o = $e;
         for (let t, i = 0, r = Xt().length; i < r; i++) {
-          t = Xt()[i];
+          // WORLD BOUND EDIT
+          const world = window.globalSettings.accurateWorldBoundaries.enabled;
+          const biome = window.globalSettings.accurateBiomeBoundaries.enabled;
+          t = world ? (biome ? accurateBoundaries.both[i] : accurateBoundaries.world[i]) : (biome ? accurateBoundaries.biome[i] : Xt()[i]);
+          // ENDEDIT
           if (k().Gp(o, t, fi)) {
             let i = ke(t.Vp);
             let r = !i && Oo ? de(n, t.Vp) : null;
@@ -9796,10 +9822,16 @@ const accurateBoundaries = {
         n.globalAlpha = 1;
       }
       function Ur(n, t) {
+        //ZOOM EDIT
+        t.translate(je * 0.5, Ne * 0.5);
+        t.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
+        t.translate(-je * 0.5, -Ne * 0.5);
+        //ENDEDIT
+        
         n.translate(Di * 0.5 - eo.mh, zi * 0.5 - eo.bh);
         Dr(n);
-        if (Fo) {
-          Br(n, eo.mh - Di * 0.5, eo.bh - zi * 0.5, Qe);
+        if (/*Fo*/window.globalSettings.grid.enabled) { // EDIT ENDEDIT
+          Br(n, eo.mh - (Di * 0.5)/window.globalSettings.zoom.scale, eo.bh - (zi * 0.5)/window.globalSettings.zoom.scale, Qe*window.globalSettings.zoom.scale); //ZOOM EDIT ENDEDIT
         }
         wn(n, t);
         vn(n);
