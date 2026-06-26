@@ -1,9 +1,9 @@
 //7db18bbfc9756234a211.js
-//RAW NAME: app2.js
-//FIRST USED: unknown
-//LAST USED: unknown
+//RAW_NAME: app2.js
+//FIRST_USED: unknown
+//LAST_USED: unknown
 //GLOB: unknown
-//EV: 166071
+//EXTERNAL_CHECKSUM: 166071
 
 (function () {
 	var r = {
