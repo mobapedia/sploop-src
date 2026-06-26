@@ -1,10 +1,6 @@
  - in order from oldest to newest
- - EXTERNAL_CHECKSUM is the number fed into token.sploop.io; it was intended to be a source checksum/integrity check but was never implemented
- - the calculation is just EXTERNAL.toString().length (using the obfuscated EXTERNAL) and is simplified to the known value in non-raw sources
- - it is calculated in the source code here:<br>
-if (typeof EXTERNAL == "function") {<br>
-&emsp;x = vm(EXTERNAL, GLOB);<br>
-}
+ - this is NOT a complete list of all source codes used
+ - despite the name, these sources are not truly "raw"; see ./raw
 <br><br>
  - app1-4 are from around 2024; each is different, no recompiles
  - figure app5 and app6 out yourself
@@ -19,8 +15,12 @@ if (typeof EXTERNAL == "function") {<br>
  - app1, app2, app3, and app4 are missing GLOB, EXTERNAL_CHECKSUM, FIRST_USED, and LAST_USED
  - app5 is missing EXTERNAL_CHECKSUM and (accurate) FIRST_USED
 <br><br>
- - this is NOT a complete list of all source codes used
- - despite the name, these sources are not truly "raw"; see ./raw
+ - EXTERNAL_CHECKSUM is the number fed into token.sploop.io; it was intended to be a source checksum/integrity check but was never implemented
+ - the calculation is just EXTERNAL.toString().length (using the obfuscated EXTERNAL) and is simplified to the known value in non-raw sources
+ - it is calculated in the source code here:<br>
+if (typeof EXTERNAL == "function") {<br>
+&emsp;x = vm(EXTERNAL, GLOB);<br>
+}
 <br><br>
  - it is very possible that the bug fix of app7 (what i have labeled app8) came out >=15 mins before i saved app8, therefore app8 is technically a recompile
  - the same is (almost surely) true for the gap between app11 and app12
