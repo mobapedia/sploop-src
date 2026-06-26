@@ -1,7 +1,5 @@
 GENERAL INFO
  - in order from oldest to newest
- - this is NOT a complete list of all source codes used
- - despite the name, none of these sources are truly "raw" (besides ones labeled appx-RAW). they have all been partially deobfuscated and some slightly modified
  
  APP SPECIFIC INFO
  - app1-4 are from around 2024; each is different, no recompiles
@@ -14,5 +12,7 @@ GENERAL INFO
  - app12 is a very slight code change
 
 DISCLAIMER
+ - this is NOT a complete list of all source codes used
+ - despite the name, none of these sources are truly "raw" (besides ones labeled appx-RAW). they have all been partially deobfuscated and some slightly modified
  - it is very possible that the bug fix of app7 (what i have labeled app8) came out >=15 mins before i saved app8, therefore app8 is technically a recompile
  - the same is (almost surely) true for the gap between app11 and app12
