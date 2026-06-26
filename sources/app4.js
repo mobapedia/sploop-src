@@ -1,9 +1,9 @@
 //44e98be309a60f791126.js
-//RAW NAME: app4.js
-//FIRST USED: unknown
-//LAST USED: unknown
+//RAW_NAME: app4.js
+//FIRST_USED: unknown
+//LAST_USED: unknown
 //GLOB: unknown
-//EV: 167290
+//EXTERNAL_CHECKSUM: 167290
 //NOTE: this is slightly modified. uncomment the labeled anti debugging section for the original deobfuscated code
 
 (function () {
