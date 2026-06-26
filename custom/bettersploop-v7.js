@@ -60,113 +60,170 @@ const radiusMap = {
 const accurateBoundaries = {
     world: [
         {
-            "_s": 150,
-            "Ms": 2500,
-            "ks": 9850,
-            "ys": 7500,
-            "Us": "#788F57"
+            "Ww": 150,
+            "Ow": 2500,
+            "Zw": 9850,
+            "Iw": 7500,
+            "bk": "#788F57",
+            "Vp": "plains_background_texture"
         },
         {
-            "_s": 150,
-            "Ms": 150,
-            "ks": 9850,
-            "ys": 2500,
-            "Us": "#ece5db"
+            "Ww": 150,
+            "Ow": 150,
+            "Zw": 9850,
+            "Iw": 2500,
+            "bk": "#ece5db",
+            "Vp": "snow_background_texture"
         },
         {
-            "_s": 150,
-            "Ms": 7500,
-            "ks": 9850,
-            "ys": 8000,
-            "Us": "#fcefbb"
+            "Ww": 150,
+            "Ow": 7500,
+            "Zw": 9850,
+            "Iw": 8000,
+            "bk": "#fcefbb",
+            "Vp": "beach_background_texture"
         },
         {
-            "_s": 150,
-            "Ms": 8000,
-            "ks": 9850,
-            "ys": 9000,
-            "Us": "#2a8b9b"
+            "Ww": 150,
+            "Ow": 8000,
+            "Zw": 9850,
+            "Iw": 9000,
+            "bk": "#2a8b9b",
+            "Vp": "river_background_texture"
         },
         {
-            "_s": 150,
-            "Ms": 9000,
-            "ks": 9850,
-            "ys": 9850,
-            "Us": "#b38354"
+            "Ww": 150,
+            "Ow": 9000,
+            "Zw": 9850,
+            "Iw": 9850,
+            "bk": "#b38354",
+            "Vp": "desert_background_texture"
         }
     ],
     biome: [
         {
-            "_s": 150,
-            "Ms": 2500,
-            "ks": 9850,
-            "ys": 7500,
-            "Us": "#788F57"
+            "Ww": 160,
+            "Ow": 2500,
+            "Zw": 9840,
+            "Iw": 7499,
+            "bk": "#788F57",
+            "Vp": "plains_background_texture"
         },
         {
-            "_s": 150,
-            "Ms": 150,
-            "ks": 9850,
-            "ys": 2500,
-            "Us": "#ece5db"
+            "Ww": 160,
+            "Ow": 160,
+            "Zw": 9840,
+            "Iw": 2499,
+            "bk": "#ece5db",
+            "Vp": "snow_background_texture"
         },
         {
-            "_s": 150,
-            "Ms": 7500,
-            "ks": 9850,
-            "ys": 8000,
-            "Us": "#fcefbb"
+            "Ww": 160,
+            "Ow": 7500,
+            "Zw": 9840,
+            "Iw": 7999,
+            "bk": "#fcefbb",
+            "Vp": "beach_background_texture"
         },
         {
-            "_s": 150,
-            "Ms": 8000,
-            "ks": 9850,
-            "ys": 9000,
-            "Us": "#2a8b9b"
+            "Ww": 160,
+            "Ow": 8000,
+            "Zw": 9840,
+            "Iw": 8999,
+            "bk": "#2a8b9b",
+            "Vp": "river_background_texture"
         },
         {
-            "_s": 150,
-            "Ms": 9000,
-            "ks": 9850,
-            "ys": 9850,
-            "Us": "#b38354"
+            "Ww": 160,
+            "Ow": 9000,
+            "Zw": 9840,
+            "Iw": 9840,
+            "bk": "#b38354",
+            "Vp": "desert_background_texture"
         }
     ],
     both: [
         {
-            "_s": 150,
-            "Ms": 2500,
-            "ks": 9850,
-            "ys": 7500,
-            "Us": "#788F57"
+            "Ww": 150,
+            "Ow": 2500,
+            "Zw": 9850,
+            "Iw": 7499,
+            "bk": "#788F57",
+            "Vp": "plains_background_texture"
         },
         {
-            "_s": 150,
-            "Ms": 150,
-            "ks": 9850,
-            "ys": 2500,
-            "Us": "#ece5db"
+            "Ww": 150,
+            "Ow": 150,
+            "Zw": 9850,
+            "Iw": 2499,
+            "bk": "#ece5db",
+            "Vp": "snow_background_texture"
         },
         {
-            "_s": 150,
-            "Ms": 7500,
-            "ks": 9850,
-            "ys": 8000,
-            "Us": "#fcefbb"
+            "Ww": 150,
+            "Ow": 7500,
+            "Zw": 9850,
+            "Iw": 7999,
+            "bk": "#fcefbb",
+            "Vp": "beach_background_texture"
         },
         {
-            "_s": 150,
-            "Ms": 8000,
-            "ks": 9850,
-            "ys": 9000,
-            "Us": "#2a8b9b"
+            "Ww": 150,
+            "Ow": 8000,
+            "Zw": 9850,
+            "Iw": 8999,
+            "bk": "#2a8b9b",
+            "Vp": "river_background_texture"
         },
         {
-            "_s": 150,
-            "Ms": 9000,
-            "ks": 9850,
-            "ys": 9850,
-            "Us": "#b38354"
+            "Ww": 150,
+            "Ow": 9000,
+            "Zw": 9850,
+            "Iw": 9850,
+            "bk": "#b38354",
+            "Vp": "desert_background_texture"
+        }
+    ],
+    default: [
+        {
+            "Ww": 160,
+            "Ow": 2500,
+            "Zw": 9840,
+            "Iw": 7500,
+            "bk": "#788F57",
+            "Vp": "plains_background_texture"
+        },
+        {
+            "Ww": 160,
+            "Ow": 160,
+            "Zw": 9840,
+            "Iw": 2500,
+            "bk": "#ece5db",
+            "Vp": "snow_background_texture"
+        },
+        {
+            "Ww": 160,
+            "Ow": 7500,
+            "Zw": 9840,
+            "Iw": 8000,
+            "bk": "#fcefbb",
+            "Vp": "beach_background_texture"
+        },
+        {
+            "Ww": 160,
+            "Ow": 8000,
+            "Zw": 9840,
+            "Iw": 9000,
+            "bk": "#2a8b9b",
+            "Vp": "river_background_texture"
+        },
+        {
+            "Ww": 160,
+            "Ow": 9000,
+            "Zw": 9840,
+            "Iw": 9840,
+            "bk": "#b38354",
+            "Vp": "desert_background_texture"
         }
     ]
 }
