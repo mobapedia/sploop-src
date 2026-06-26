@@ -4,8 +4,7 @@
 if (typeof EXTERNAL == "function") {<br>
 &emsp;x = vm(EXTERNAL, GLOB);<br>
 }<br>
- - the calculation is just EXTERNAL.toString().length (using the obfuscated EXTERNAL)
- - the calculation is simplified to the known value in non-raw sources
+ - this calculation is just EXTERNAL.toString().length (using the obfuscated EXTERNAL) and is simplified to the known value in non-raw sources
 <br><br>
  - app1-4 are from around 2024; each is different, no recompiles
  - figure app5 and app6 out yourself
