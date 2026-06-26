@@ -1,7 +1,5 @@
-GENERAL INFO
+INFO
  - in order from oldest to newest
- 
- APP SPECIFIC INFO
  - app1-4 are from around 2024; each is different, no recompiles
  - figure app5 and app6 out yourself
  - app7 is update 0.5.1
