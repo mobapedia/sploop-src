@@ -16,8 +16,8 @@ if (typeof EXTERNAL == "function") {<br>
  - app12 is a very slight code change
 <br><br>
  - raw source codes for app1, app2, app3, app4, and app5 are missing
- - app1, app2, app3, and app4 are missing GLOB and EV
- - app5 is missing EV
+ - app1, app2, app3, and app4 are missing GLOB, EXTERNAL_CHECKSUM, FIRST_USED, and LAST_USED
+ - app5 is missing EXTERNAL_CHECKSUM and (accurate) FIRST_USED
 <br><br>
  - this is NOT a complete list of all source codes used
  - despite the name, these sources are not truly "raw"; see ./raw
