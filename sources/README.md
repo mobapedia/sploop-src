@@ -13,5 +13,7 @@ INFO
 DISCLAIMER
  - this is NOT a complete list of all source codes used
  - despite the name, these sources are not truly "raw"; see ./raw
+ - app1, app2, app3, and app4 are missing GLOB and EV
+ - app5 is missing EV
  - it is very possible that the bug fix of app7 (what i have labeled app8) came out >=15 mins before i saved app8, therefore app8 is technically a recompile
  - the same is (almost surely) true for the gap between app11 and app12
