@@ -4,22 +4,7 @@
 //LAST USED: 6/11/26
 //GLOB: 8319363456098398
 //EV: unknown
-function i(t) {
-  function n(t) {
-    if (typeof t == "string") {
-      return function () {
-        while (true);
-      }();
-    }
-    n(++t);
-  }
-  try {
-    if (t) {
-      return n;
-    }
-    n(0);
-  } catch (t) {}
-}
+
 (function () {
   var r = {
     3950: function (t) {
