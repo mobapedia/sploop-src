@@ -1,9 +1,10 @@
 //4617ffa828cb9c6f9252.js
-//RAW NAME: app7.js
-//FIRST USED: 6/25/26
-//LAST USED: 6/25/26
+//RAW_NAME: app7.js
+//FIRST_USED: 6/25/26
+//LAST_USED: 6/25/26
 //GLOB: 1842055392458269
-//EV: 227392
+//EXTERNAL_CHECKSUM: 227392
+
 (function () {
   var r = {
     3950: function (n) {
