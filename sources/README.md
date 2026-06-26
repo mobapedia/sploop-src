@@ -1,5 +1,11 @@
  - in order from oldest to newest
- - EV ("expected value") is EXTERNAL.toString().length; i need to change this to something that makes more sense
+ - SOURCE KEY is the number fed into token.sploop.io; it was intended to be a source checksum but was never implemented
+ - SOURCE KEY is calculated here:
+   if (typeof EXTERNAL == "function") {
+       x = vm(EXTERNAL, GLOB);
+   }
+ - the calculation is just EXTERNAL.toString().length (using the obfuscated EXTERNAL)
+ - the calculation is simplified to the known value in non-raw sources
 <br><br>
  - app1-4 are from around 2024; each is different, no recompiles
  - figure app5 and app6 out yourself
