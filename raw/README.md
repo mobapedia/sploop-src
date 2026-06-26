@@ -1,6 +1,6 @@
 INFO
  - in order from oldest to newest
- - EV ("expected value") is EXTERNAL.toString().length; i need to change EV to something that makes more sense
+ - EV ("expected value") is EXTERNAL.toString().length; i need to change this to something that makes more sense
  - app1-4 are from around 2024; each is different, no recompiles
  - figure app5 and app6 out yourself
  - app7 is update 0.5.1
