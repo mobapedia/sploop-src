@@ -1,9 +1,11 @@
 //afb515c462c6291b33a8.js
+//RAW NAME: app3.js
 //FIRST USED: unknown
 //LAST USED: unknown
 //GLOB: unknown
 //EV: 168773
-;(function () {
+
+(function () {
 	var r = {
 		3950: function (t) {
 			t.exports = {
