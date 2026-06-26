@@ -13,7 +13,7 @@
 <br><br>
  - it is very possible that the bug fix of app7 (what i have labeled app8) came out >=15 mins before i saved app8, therefore app8 is technically a recompile
  - the same is (almost surely) true for the gap between app11 and app12
-<br><br><br>
+<br><br>
  - raw source codes for app1, app2, app3, app4, and app5 are missing
  - app1, app2, app3, and app4 are missing GLOB, EXTERNAL_CHECKSUM, FIRST_USED, and LAST_USED
  - app5 is missing EXTERNAL_CHECKSUM and (accurate) FIRST_USED
