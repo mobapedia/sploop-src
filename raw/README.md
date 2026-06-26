@@ -4,7 +4,7 @@ GENERAL INFO
  - despite the name, none of these sources are truly "raw" (besides ones labeled appx-RAW). they have all been partially deobfuscated and some slightly modified
  
  APP SPECIFIC INFO
- - app1-4 are from around 2024
+ - app1-4 are from around 2024, not recompiles
  - app7 is update 0.5.1
  - app8 is a bug fix
  - from app8-app11, appjs is recompiled every 15 mins
