@@ -4,4 +4,4 @@
  - despite the name, none of these sources are truly "raw" (besides ones labeled appx-RAW). they have all been partially deobfuscated and some slightly modified
  - app7 is an update (built in asset manager)  
  - app8 is a bug fix
- - appjs is recompiled every 15 mins as of app8, 9,10,11 are all recompiles
+ - appjs is recompiled every 15 mins as of app8; 9,10,11 are all recompiles
