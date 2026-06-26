@@ -1,9 +1,9 @@
 //afb515c462c6291b33a8.js
-//RAW NAME: app3.js
-//FIRST USED: unknown
-//LAST USED: unknown
+//RAW_NAME: app3.js
+//FIRST_USED: unknown
+//LAST_USED: unknown
 //GLOB: unknown
-//EV: 168773
+//EXTERNAL_CHECKSUM: 168773
 
 (function () {
 	var r = {
