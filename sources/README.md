@@ -1,7 +1,7 @@
  - in order from oldest to newest
  - SOURCE KEY is the number fed into token.sploop.io; it was intended to be a source checksum but was never implemented
- - the SOURCE KEY calculation is just EXTERNAL.toString().length (using the obfuscated EXTERNAL) and is simplified to the known value in non-raw sources
- - SOURCE KEY is calculated here:<br>
+ - the calculation is just EXTERNAL.toString().length (using the obfuscated EXTERNAL) and is simplified to the known value in non-raw sources
+ - it is calculated in the source code here:<br>
 if (typeof EXTERNAL == "function") {<br>
 &emsp;x = vm(EXTERNAL, GLOB);<br>
 }
