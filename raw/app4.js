@@ -4,7 +4,7 @@
 //LAST USED: unknown
 //GLOB: unknown
 //EV: 167290
-// note: this is slightly modified. uncomment the labeled anti debugging section for the original deobfuscated code
+//NOTE: this is slightly modified. uncomment the labeled anti debugging section for the original deobfuscated code
 
 (function () {
 	var r = {
