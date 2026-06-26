@@ -1,9 +1,10 @@
 //238acf9e8afb1492b3a5.js
-//RAW NAME: app6.js
-//FIRST USED: 6/12/26
-//LAST USED: 6/24/26
+//RAW_NAME: app6.js
+//FIRST_USED: 6/12/26
+//LAST_USED: 6/24/26
 //GLOB: 8216507066944982
-//EV: 188876
+//EXTERNAL_CHECKSUM: 188876
+
 function n(t) {
   function n(t) {
     if (typeof t == "string") {
