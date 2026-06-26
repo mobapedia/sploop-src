@@ -9823,9 +9823,9 @@ const accurateBoundaries = {
       }
       function Ur(n, t) {
         //ZOOM EDIT
-        t.translate(je * 0.5, Ne * 0.5);
-        t.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
-        t.translate(-je * 0.5, -Ne * 0.5);
+        n.translate(Di * 0.5, zi * 0.5);
+        n.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
+        n.translate(-Di * 0.5, -zi * 0.5);
         //ENDEDIT
         
         n.translate(Di * 0.5 - eo.mh, zi * 0.5 - eo.bh);
