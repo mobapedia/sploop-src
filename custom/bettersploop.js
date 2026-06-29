@@ -8,7 +8,99 @@
 // WORLD BOUND EDIT shows where its modified to accurate world boundaries
 // KEYBINDS EDIT shows where its modified to take keybinds from custom bettersploop settings instead of default keybinds localstorage
 
-(function () {
+//EDIT
+let entityUids = {}
+let toRender = []
+let coords = []
+const radiusMap = {
+    "0": 35,
+    "1": 75,
+    "2": 45,
+    "3": 90,
+    "4": 76,
+    "5": 50,
+    "6": 40,
+    "7": 45,
+    "8": 45,
+    "9": 60,
+    "10": 40,
+    "11": 40,
+    "13": 45,
+    "14": 90,
+    "15": 50,
+    "16": 54,
+    "17": 42,
+    "18": 45,
+    "19": 80,
+    "20": 80,
+    "21": 60,
+    "22": 59,
+    "23": 90,
+    "24": 50,
+    "25": 90,
+    "26": 50,
+    "27": 100,
+    "28": 90,
+    "29": 100,
+    "30": 45,
+    "31": 92,
+    "32": 92,
+    "33": 58,
+    "34": 92,
+    "35": 20,
+    "36": 20,
+    "37": 35,
+    "38": 50,
+    "39": 220,
+    "40": 100,
+    "41": 40,
+    "42": 45,
+    "43": 90
+}
+const accurateWorldBoundaries = [
+    {
+        "Wv": 150,
+        "Xv": 2500,
+        "Fv": 9850,
+        "Qv": 7500,
+        "Bm": "#788F57",
+        "Sw": "plains_background_texture"
+    },
+    {
+        "Wv": 150,
+        "Xv": 150,
+        "Fv": 9850,
+        "Qv": 2500,
+        "Bm": "#ece5db",
+        "Sw": "snow_background_texture"
+    },
+    {
+        "Wv": 150,
+        "Xv": 7500,
+        "Fv": 9850,
+        "Qv": 8000,
+        "Bm": "#fcefbb",
+        "Sw": "beach_background_texture"
+    },
+    {
+        "Wv": 150,
+        "Xv": 8000,
+        "Fv": 9850,
+        "Qv": 9000,
+        "Bm": "#2a8b9b",
+        "Sw": "river_background_texture"
+    },
+    {
+        "Wv": 150,
+        "Xv": 9000,
+        "Fv": 9850,
+        "Qv": 9850,
+        "Bm": "#b38354",
+        "Sw": "desert_background_texture"
+    }
+]
+// ENDEDIT
+;(function () {
   var r = {
     3950: function (n) {
       n.exports = {
@@ -10257,13 +10349,13 @@
           const e = Jr[t + 8];
           const o = Jr[t + 2] | Jr[t + 3] << 8;
           const i = Jr[t + 10];
-
+//EDIT
             if (o === xo) {
               const x = Jr[t + 4] | Jr[t + 5] << 8;
               const y = Jr[t + 6] | Jr[t + 7] << 8;
               console.log(x,y)
             }
-          
+//ENDEDIT
           if (e & h().qc) {
             A(o);
           } else {
