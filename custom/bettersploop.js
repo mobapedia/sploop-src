@@ -10424,7 +10424,7 @@ const radiusMap = {
           if (e & h().qc) {
             A(o);
             //EDIT
-            delete entityUids[e]
+            delete entityUids[o]
             //ENDEDIT
           } else {
             L(Jr[t], o, Jr[t + 1], Jr[t + 8], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, m().Qw(Jr[t + 9]), i, Jr[t + 11], Jr[t + 12], Jr[t + 13], Jr[t + 14], Jr[t + 15], Jr[t + 16], Jr[t + 17], Jr[t + 18], n);
