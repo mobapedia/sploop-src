@@ -9232,8 +9232,8 @@ const radiusMap = {
         if (window.globalSettings.coords.enabled) {
           //map margins are 5px
           const map = Z[P().vi]
-          const mapTop = Si-map.ol.sl-5;
-          const mapWidth = map.ol.al;
+          const mapTop = 1//Si-map.ol.sl-5;
+          const mapWidth = 1//map.ol.al;
           
           $e.save();
           $e.font = "17px Baloo Paaji";
