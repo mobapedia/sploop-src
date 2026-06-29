@@ -9740,7 +9740,7 @@ const radiusMap = {
         let o = ro;
         for (let t, i = 0, r = ee().length; i < r; i++) {
           // WORLD BOUND EDIT
-          t = window.globalSettings.accurateWorldBoundaries.enabled?window.globalSettings.accurateWorldBoundaries.bounds:ee()[i];
+          t = window.globalSettings.accurateWorldBoundaries.enabled?window.globalSettings.accurateWorldBoundaries.bounds[i]:ee()[i];
           // ENDEDIT
           if (m().Pw(o, t, yi)) {
             let i = ye(t.Sw);
