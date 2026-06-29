@@ -9100,6 +9100,10 @@ const radiusMap = {
           q().iu();
           Wr(n);
           zi = 0;
+          //EDIT
+          entityUids = {}
+          toRender = []
+          //ENDEDIT
         };
         Ee.Dw = n => {
           q().iu();
