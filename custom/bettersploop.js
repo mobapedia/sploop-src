@@ -57,48 +57,6 @@ const radiusMap = {
     "42": 45,
     "43": 90
 }
-const accurateWorldBoundaries = [
-    {
-        "Wv": 150,
-        "Xv": 2500,
-        "Fv": 9850,
-        "Qv": 7500,
-        "Bm": "#788F57",
-        "Sw": "plains_background_texture"
-    },
-    {
-        "Wv": 150,
-        "Xv": 150,
-        "Fv": 9850,
-        "Qv": 2500,
-        "Bm": "#ece5db",
-        "Sw": "snow_background_texture"
-    },
-    {
-        "Wv": 150,
-        "Xv": 7500,
-        "Fv": 9850,
-        "Qv": 8000,
-        "Bm": "#fcefbb",
-        "Sw": "beach_background_texture"
-    },
-    {
-        "Wv": 150,
-        "Xv": 8000,
-        "Fv": 9850,
-        "Qv": 9000,
-        "Bm": "#2a8b9b",
-        "Sw": "river_background_texture"
-    },
-    {
-        "Wv": 150,
-        "Xv": 9000,
-        "Fv": 9850,
-        "Qv": 9850,
-        "Bm": "#b38354",
-        "Sw": "desert_background_texture"
-    }
-]
 // ENDEDIT
 ;(function () {
   var r = {
@@ -9782,7 +9740,7 @@ const accurateWorldBoundaries = [
         let o = ro;
         for (let t, i = 0, r = ee().length; i < r; i++) {
           // WORLD BOUND EDIT
-          t = window.globalSettings.accurateWorldBoundaries.enabled?accurateWorldBoundaries:ee()[i];
+          t = window.globalSettings.accurateWorldBoundaries.enabled?window.globalSettings.accurateWorldBoundaries.bounds:ee()[i];
           // ENDEDIT
           if (m().Pw(o, t, yi)) {
             let i = ye(t.Sw);
