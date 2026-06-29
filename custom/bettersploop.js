@@ -5,6 +5,7 @@
 // ADS EDIT removes ad loading
 // ZOOM EDIT shows where its modified to custom zoom not ui
 // GRID EDIT shows where its modified to custom grid rendering
+// RENDER EDIT shows where its modified to custom render shit
 // WORLD BOUND EDIT shows where its modified to accurate world boundaries
 // KEYBINDS EDIT shows where its modified to take keybinds from custom bettersploop settings instead of default keybinds localstorage
 
@@ -9207,6 +9208,64 @@ const radiusMap = {
         } else {
           he().yu();
         }
+
+        // RENDER EDIT
+        if (window.globalSettings.hitboxes.enabled) {
+            $e.save();
+            // orig translate: $e.translate(Pi * 0.5 - uo.zh, Si * 0.5 - uo.Mh);
+            //translate to zoomed world space
+            //ZOOM EDIT
+            $e.translate(Pi * 0.5, Si * 0.5);
+            $e.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
+            $e.translate(-Pi * 0.5, -Si * 0.5);
+            $e.translate(Pi * 0.5 - uo.zh, Si * 0.5 - uo.Mh);
+            for (let i=0; i < toRender.length; i++) {
+              $e.beginPath();
+              $e.arc(toRender[i][0], toRender[i][1], toRender[i][2], 0, Math.PI * 2);
+              $e.strokeStyle = "red";
+              $e.lineWidth = 1;
+              $e.stroke();
+            }
+            $e.restore();
+        }
+        
+        if (window.globalSettings.coords.enabled) {
+          //map margins are 5px
+          const map = Q[g().co];
+          const mapTop = Si-map.ol.sl-5;
+          const mapWidth = map.ol.al;
+          
+          $e.save();
+          $e.font = "17px Baloo Paaji";
+          $e.textAlign = "center";
+          $e.textBaseline = "bottom";
+          $e.lineWidth = 4;
+          $e.lineJoin = "round";
+          $e.strokeStyle = "#000";
+          $e.fillStyle = "#fff";
+          
+          const text = coords[0]+", "+coords[1];
+          $e.strokeText(text, mapWidth/2+5, mapTop-5);
+          $e.fillText(text, mapWidth/2+5, mapTop-5);
+          
+          $e.restore();
+        }
+        
+        if (window.globalSettings.zoom.showLabel) {
+          $e.save();
+          $e.font = "17px Baloo Paaji";
+          $e.textAlign = "center";
+          $e.textBaseline = "top";
+          $e.lineWidth = 4;
+          $e.lineJoin = "round";
+          $e.strokeStyle = "#000";
+          $e.fillStyle = "#fff";
+          const text = Number(window.globalSettings.zoom.scale.toFixed(5))+"x";
+          $e.strokeText(text, Pi / 2, 10);
+          $e.fillText(text, Pi / 2, 10);
+          $e.restore();
+        }
+        // ENDEDIT
         window.requestAnimationFrame(Mr);
       }
       function Dr() {
@@ -10338,24 +10397,44 @@ const radiusMap = {
         xo = Jr[3] | Jr[4] << 8;
       }
       function Gc() {
+        // EDIT
+        toRender = []
+        // ENDEDIT
         const n = +new Date();
         for (let t = 1; t < Ir; t += 19) {
           const e = Jr[t + 8];
           const o = Jr[t + 2] | Jr[t + 3] << 8;
           const i = Jr[t + 10];
-//EDIT
-            if (o === xo) {
-              const x = Jr[t + 4] | Jr[t + 5] << 8;
-              const y = Jr[t + 6] | Jr[t + 7] << 8;
-              console.log(x,y)
+            // EDIT
+            if (window.globalSettings.coords.enabled) {
+                if (o === xo) {
+                  const x = Jr[t + 4] | Jr[t + 5] << 8;
+                  const y = Jr[t + 6] | Jr[t + 7] << 8;
+                  if (x !== coords[0] || y !== coords[1]) {
+                    coords[0] = x
+                    coords[1] = y
+                  }
+                }
             }
-//ENDEDIT
+            // ENDEDIT
           if (e & h().qc) {
             A(o);
+            //EDIT
+            delete entityUids[e]
+            //ENDEDIT
           } else {
             L(Jr[t], o, Jr[t + 1], Jr[t + 8], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, m().Qw(Jr[t + 9]), i, Jr[t + 11], Jr[t + 12], Jr[t + 13], Jr[t + 14], Jr[t + 15], Jr[t + 16], Jr[t + 17], Jr[t + 18], n);
+            //EDIT
+            entityUids[e] = [Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]]]
+            //ENDEDIT
           }
         }
+        //EDIT
+        let keys = Object.keys(entityUids)
+        for (let i=0; i < keys.length; i++) {
+          toRender.push(entityUids[keys[i]])
+        }
+        //ENDEDIT
       }
       function Ec() {
         To = Jr[1];
