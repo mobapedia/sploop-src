@@ -9741,25 +9741,49 @@ const accurateWorldBoundaries = [
         n.globalAlpha = f;
         n.strokeStyle = l;
         n.beginPath();
-        for (let t = 0; t <= m; t += s) {
-          n.moveTo(h + t, d);
-          n.lineTo(h + t, d + g);
+        // GRID EDIT
+        if (window.globalSettings.grid.limit) {
+            const lo = window.globalSettings.accurateWorldBoundaries.enabled?150:160;
+            const hi = window.globalSettings.accurateWorldBoundaries.enabled?9850:9840;
+            const clamp = v=>Math.min(Math.max(v, lo), hi);
+            for (let t = 0; t <= m; t += s) {
+              const x = h+t;
+              if (x<lo || x>hi) continue;
+              n.moveTo(x, clamp(d));
+              n.lineTo(x, clamp(d+g));
+            }
+            for (let t = 0; t <= g; t += u) {
+              const y = d+t;
+              if (y<lo || y>hi) continue;
+              n.moveTo(clamp(h), y);
+              n.lineTo(clamp(h+m), y);
+            }
+        } else {
+            for (let t = 0; t <= m; t += s) {
+              n.moveTo(h + t, d);
+              n.lineTo(h + t, d + g);
+            }
+            for (let t = 0; t <= g; t += u) {
+              n.moveTo(h, d + t);
+              n.lineTo(h + m, d + t);
+            }
         }
-        for (let t = 0; t <= g; t += u) {
-          n.moveTo(h, d + t);
-          n.lineTo(h + m, d + t);
-        }
+        // ENDEDIT
         n.stroke();
         n.restore();
       }
       function Pr(n, t) {
-        yi.Wv = uo.zh - Pi * 0.5;
-        yi.Xv = uo.Mh - Si * 0.5;
-        yi.Fv = uo.zh + Pi * 0.5;
-        yi.Qv = uo.Mh + Si * 0.5;
+        // ZOOM EDIT
+        yi.Wv = uo.zh - (Pi * 0.5)/window.globalSettings.zoom.scale;
+        yi.Xv = uo.Mh - (Si * 0.5)/window.globalSettings.zoom.scale;
+        yi.Fv = uo.zh + (Pi * 0.5)/window.globalSettings.zoom.scale;
+        yi.Qv = uo.Mh + (Si * 0.5)/window.globalSettings.zoom.scale;
+        // ENDEDIT
         let o = ro;
         for (let t, i = 0, r = ee().length; i < r; i++) {
-          t = ee()[i];
+          // WORLD BOUND EDIT
+          t = window.globalSettings.accurateWorldBoundaries.enabled?accurateWorldBoundaries:ee()[i];
+          // ENDEDIT
           if (m().Pw(o, t, yi)) {
             let i = ye(t.Sw);
             let r = !i && $o ? be(t.Sw) : null;
@@ -9825,10 +9849,16 @@ const accurateWorldBoundaries = [
         n.globalAlpha = 1;
       }
       function qr(n, t) {
+        // ZOOM EDIT
+        n.translate(Pi * 0.5, Si * 0.5);
+        n.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
+        n.translate(-Pi * 0.5, -Si * 0.5);
+        // ENDEDIT
+        
         n.translate(Pi * 0.5 - uo.zh, Si * 0.5 - uo.Mh);
         Pr(n);
-        if (Zo) {
-          Or(n, uo.zh - Pi * 0.5, uo.Mh - Si * 0.5, io);
+        if (/*Zo*/window.globalSettings.grid.enabled) { // ZOOM EDIT ENDEDIT
+          Or(n, uo.zh - (Pi * 0.5)/window.globalSettings.zoom.scale, uo.Mh - (Si * 0.5)/window.globalSettings.zoom.scale, io*window.globalSettings.zoom.scale); //ZOOM EDIT ENDEDIT
         }
         zn(n, t);
         Dn(n);
