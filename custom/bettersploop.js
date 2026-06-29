@@ -10117,7 +10117,7 @@ const accurateWorldBoundaries = [
         nc();
       }
       function oc(n) {
-        ve().Au();
+        //ve().Au(); ADS EDIT ENDEDIT
         lo.ig();
         go.wv(uo.zh, uo.Mh);
         Br();
