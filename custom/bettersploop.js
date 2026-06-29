@@ -1,5 +1,12 @@
 //0c70c7f8bd770a23ed96.js
-//unmodified app12.js VV
+//!! - bugs or potential bugs
+//EDIT n, END EDIT n - deviations from original source code
+//add n to all EDIT/ENDEDITs
+// ADS EDIT removes ad loading
+// ZOOM EDIT shows where its modified to custom zoom not ui
+// GRID EDIT shows where its modified to custom grid rendering
+// WORLD BOUND EDIT shows where its modified to accurate world boundaries
+// KEYBINDS EDIT shows where its modified to take keybinds from custom bettersploop settings instead of default keybinds localstorage
 
 (function () {
   var r = {
@@ -2479,6 +2486,7 @@
       });
     },
     1174: function (n, e, o) {
+    /* ADS EDIT
       const i = function () {
         let n;
         let e;
@@ -2580,9 +2588,10 @@
       }();
       try {
         n.exports = i;
-      } catch (n) {}
+      } catch (n) {} ENDEDIT*/
     },
     5299: function (n, e, o) {
+    /* ADS EDIT
       try {
         __MUTATE000 = o(6078);
         __MUTATEOO = o(9847);
@@ -2648,9 +2657,10 @@
         __MUTATEOO.get("da-bottom").innerHTML = "<div id='lostworld-io_970x250'></div>";
         i.ys();
         i.Mu();
-      })();
+      })(); ENDEDIT*/
     },
     5438: function (n, e, o) {
+    /* ADS EDIT
       const i = function () {
         let n;
         let e;
@@ -2793,9 +2803,10 @@
       }();
       try {
         n.exports = i;
-      } catch (n) {}
+      } catch (n) {} ENDEDIT*/
     },
     3840: function (n, e, o) {
+    /* ADS EDIT
       const r = function () {
         let n;
         let e;
@@ -2890,9 +2901,10 @@
       }();
       try {
         n.exports = r;
-      } catch (n) {}
+      } catch (n) {} ENDEDIT*/
     },
     8582: function (n, e, o) {
+    /* ADS EDIT
       const i = function () {
         let n;
         let e;
@@ -2986,9 +2998,10 @@
       }();
       try {
         n.exports = i;
-      } catch (n) {}
+      } catch (n) {} ENDEDIT*/
     },
     9705: function (n, e, o) {
+    /* ADS EDIT
       const i = function () {
         let n;
         let e;
@@ -3072,7 +3085,7 @@
       }();
       try {
         n.exports = i;
-      } catch (n) {}
+      } catch (n) {} ENDEDIT*/
     },
     48: function (n, t, e) {
       const o = e(5397);
@@ -10244,6 +10257,13 @@
           const e = Jr[t + 8];
           const o = Jr[t + 2] | Jr[t + 3] << 8;
           const i = Jr[t + 10];
+
+            if (o === xo) {
+              const x = Jr[t + 4] | Jr[t + 5] << 8;
+              const y = Jr[t + 6] | Jr[t + 7] << 8;
+              console.log(x,y)
+            }
+          
           if (e & h().qc) {
             A(o);
           } else {
