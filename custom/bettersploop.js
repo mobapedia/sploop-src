@@ -8,7 +8,7 @@
 // WORLD BOUND EDIT shows where its modified to accurate world boundaries
 // KEYBINDS EDIT shows where its modified to take keybinds from custom bettersploop settings instead of default keybinds localstorage
 
-//EDIT
+// EDIT
 let entityUids = {}
 let toRender = []
 let coords = []
@@ -9143,6 +9143,12 @@ const radiusMap = {
         $e.setTransform(io, 0, 0, io, 0, 0);
         Hr();
       }
+      // ZOOM EDIT
+      window.globalSettings.zoom.reset = ()=>{
+        window.globalSettings.zoom.scale = 1
+        yr()
+      }
+      // ENDEDIT
       function zr(n = true) {
         var e = new XMLHttpRequest();
         e.open("GET", "https://token.sploop.io/" + to + "?v=" + Math.random() * 100000, true);
