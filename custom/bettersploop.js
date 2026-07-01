@@ -96,7 +96,7 @@ function findAllPairsWithinX(circles, x) {
 
     return pairs;
 }
-function getPerpendicularPoint(c1, c2, offset = 30) {
+function getPerpendicularPoint(c1, c2, offset) {
     const dx = c2.x - c1.x;
     const dy = c2.y - c1.y;
     
@@ -10561,9 +10561,9 @@ function getPerpendicularPoint(c1, c2, offset = 30) {
 
         const pairs = findAllPairsWithinX(reordered, 5) // find all buildings within 5 units
         for (let i=0; i < pairs.length; i++) {
-            const points = getPerpendicularPoint(pairs[i][0], pairs[i][1])
-            toRender.push([0, points.pointA.x, points.pointA.y, 10])
-            toRender.push([0, points.pointB.x, points.pointB.y, 10])
+            const points = getPerpendicularPoint(pairs[i][0], pairs[i][1], 35+pairs[i][0].r)
+            toRender.push([0, points.pointA.x, points.pointA.y, 35])
+            toRender.push([0, points.pointB.x, points.pointB.y, 35])
         }
         //ENDEDIT
       }
