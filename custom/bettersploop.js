@@ -6318,7 +6318,8 @@ function getPerpendicularPoint(c1, c2, offset) {
         }
         t.restore();
       }
-      function kn() {
+      // KEYBINDS EDIT
+      /*function kn() {
         try {
           localStorage.setItem(rt, JSON.stringify(ct));
         } catch (n) {}
@@ -6327,7 +6328,8 @@ function getPerpendicularPoint(c1, c2, offset) {
         Object.assign(ct, it);
         kn();
         lt();
-      });
+      });*/
+      // ENDEDIT
       let Gn = 0;
       const En = Gn++;
       const Un = Gn++;
@@ -6353,7 +6355,7 @@ function getPerpendicularPoint(c1, c2, offset) {
       const tt = Gn++;
       const et = Gn++;
       const ot = Gn++;
-      const it = Object.freeze({
+      const ct/*it*/ = /*Object.freeze(*/{ // KEYBINDS EDIT ENDEDIT
         [En]: "KeyW",
         [Un]: "KeyS",
         [Yn]: "KeyD",
@@ -6378,7 +6380,67 @@ function getPerpendicularPoint(c1, c2, offset) {
         [tt]: "KeyC",
         [et]: "KeyB",
         [ot]: "KeyP"
-      });
+      }//); // KEYBINDS EDIT ENDEDIT
+      // KEYBINDS EDIT
+      function mapToId(map) {
+        switch (map) {
+            case "for-spike":
+                return _t
+                break
+            case "for-food":
+                return mt
+                break
+            case "for-trap":
+                return vt
+                break
+            case "for-windmill":
+                return kt
+                break
+            case "for-platform":
+                return At
+                break
+            case "for-bed":
+                return yt
+                break
+            case "for-shop":
+                return Ot
+                break
+            case "for-clan":
+                return jt
+                break
+            case "for-lock-angle":
+                return Bt
+                break
+            case "for-auto-hit":
+                return Ut
+            }
+        }
+    
+        const inverseKeyTransform = (t) => {
+            if (/^[A-Z]$/.test(t)) {
+                return `Key${t}`;
+            } else if (/^\d$/.test(t)) {
+                return `Digit${t}`;
+            } else if (["Up", "Down", "Left", "Right"].includes(t)) {
+                return `Arrow${t}`;
+            } else {
+                return t;
+            }
+        };
+    
+        window.globalSettings.keybinds.update = ()=>{
+            const map = window.globalSettings.keybinds.map
+            const keys = Object.keys(map)
+            for (let i=0; i < keys.length; i++) {
+                Qt[mapToId(keys[i])] = inverseKeyTransform(map[keys[i]])
+            }
+        };
+    
+        if (window.globalSettings.keybinds.map) {
+            window.globalSettings.keybinds.update()
+        };
+        // ENDEDIT
+      /*KEYBINDS EDIT
       const rt = "keybinds";
       const ct = function () {
         var t = undefined;
@@ -6491,7 +6553,8 @@ function getPerpendicularPoint(c1, c2, offset) {
           lt();
           at = null;
         }
-      });
+      });*/
+      // ENDEDIT
       let ht = false;
       let dt = {
         tu: -1,
