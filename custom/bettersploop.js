@@ -10562,7 +10562,7 @@ function getPerpendicularPoint(c1, c2, offset) {
         const pairs = findAllPairsWithinX(reordered, 5) // find all buildings within 5 units
         for (let i=0; i < pairs.length; i++) {
             const smallestRadius = (pairs[i][0].r<pairs[i][1].r?pairs[i][0].r:pairs[i][1].r)
-            const points = getPerpendicularPoint(pairs[i][0], pairs[i][1], smallestRadius+35-15 /*15 is arbitrary to counter the fact that the player can go into gap between radii*/))//35+(pairs[i][0].r<pairs[i][1].r?pairs[i][0].r:pairs[i][1].r)/2)
+            const points = getPerpendicularPoint(pairs[i][0], pairs[i][1], smallestRadius+35-15 /*15 is arbitrary to counter the fact that the player can go into gap between radii*/) //35+(pairs[i][0].r<pairs[i][1].r?pairs[i][0].r:pairs[i][1].r)/2)
             toRender.push([0, points.pointA.x, points.pointA.y, 35])
             toRender.push([0, points.pointB.x, points.pointB.y, 35])
         }
