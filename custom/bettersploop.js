@@ -9280,16 +9280,16 @@ const radiusMap = {
                   $e.moveTo(toRender[i][1], toRender[i][2]);
                   switch (ii) {
                       case 0:
-                          $e.lineTo(toRender[i][1]+toRender[i][2], toRender[i][2]);
+                          $e.lineTo(toRender[i][1]+toRender[i][3], toRender[i][2]);
                           break;
                         case 0:
-                          $e.lineTo(toRender[i][1], toRender[i][2]+toRender[i][2]);
+                          $e.lineTo(toRender[i][1], toRender[i][2]+toRender[i][3]);
                           break;
                         case 0:
-                          $e.lineTo(toRender[i][1]-toRender[i][2], toRender[i][2]);
+                          $e.lineTo(toRender[i][1]-toRender[i][3], toRender[i][2]);
                           break;
                         case 0:
-                          $e.lineTo(toRender[i][1], toRender[i][2]-toRender[i][2]);
+                          $e.lineTo(toRender[i][1], toRender[i][2]-toRender[i][3]);
                   }
                   $e.strokeStyle = "red";
                   $e.lineWidth = 1;
