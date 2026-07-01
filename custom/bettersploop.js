@@ -6436,7 +6436,7 @@ function getPerpendicularPoint(c1, c2, offset) {
             const map = window.globalSettings.keybinds.map
             const keys = Object.keys(map)
             for (let i=0; i < keys.length; i++) {
-                Qt[mapToId(keys[i])] = inverseKeyTransform(map[keys[i]])
+                ct[mapToId(keys[i])] = inverseKeyTransform(map[keys[i]])
             }
         };
     
