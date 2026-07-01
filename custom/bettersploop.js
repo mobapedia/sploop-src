@@ -6364,7 +6364,7 @@ function getPerpendicularPoint(c1, c2, offset) {
         [On]: "KeyQ",
         [Pn]: "Space",
         [Sn]: "KeyR",
-        [qn]: "KeyR",
+        [qn]: "KeyR", // ALWAYS KeyR
         [Kn]: "KeyG",
         [Jn]: "KeyT",
         [In]: "KeyN",
@@ -6385,34 +6385,38 @@ function getPerpendicularPoint(c1, c2, offset) {
       function mapToId(map) {
         switch (map) {
             case "for-spike":
-                return _t
+                return Sn
                 break
             case "for-food":
-                return mt
+                return On
                 break
             case "for-trap":
-                return vt
+                return Nn
                 break
             case "for-windmill":
-                return kt
+                return Kn
                 break
             case "for-platform":
-                return At
+                return Jn
                 break
             case "for-bed":
-                return yt
+                return In
                 break
             case "for-shop":
-                return Ot
+                return tt
                 break
             case "for-clan":
-                return jt
+                return et
                 break
             case "for-lock-angle":
-                return Bt
+                return Zn
                 break
             case "for-auto-hit":
-                return Ut
+                return Vn
+                break
+            case "for-pack-builder":
+                return ot
+                break
             }
         }
     
