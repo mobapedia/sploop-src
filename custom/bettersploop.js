@@ -10561,7 +10561,7 @@ function getPerpendicularPoint(c1, c2, offset) {
 
         const pairs = findAllPairsWithinX(reordered, 5) // find all buildings within 5 units
         for (let i=0; i < pairs.length; i++) {
-            const points = getPerpendicularPoint(pairs[i][0], pairs[i][1], 35+pairs[i][0].r)
+            const points = getPerpendicularPoint(pairs[i][0], pairs[i][1], 35+(pairs[i][0].r<pairs[i][1].r?pairs[i][0].r:pairs[i][1].r))
             toRender.push([0, points.pointA.x, points.pointA.y, 35])
             toRender.push([0, points.pointB.x, points.pointB.y, 35])
         }
