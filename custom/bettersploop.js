@@ -9269,12 +9269,19 @@ const radiusMap = {
             }
             if (toRender[i][0] === 1 && window.globalSettings.hitboxes.enabled) { // dots (center hitbox dots)
               $e.beginPath();
-              $e.arc(toRender[i][1], toRender[i][2], 2, 0, Math.PI * 2);
+              $e.arc(toRender[i][1], toRender[i][2], 3, .5, Math.PI * 2);
+              $e.fillStyle = "red";
+              $e.lineWidth = 1;
+              $e.fill();
+
+              $e.beginPath();
+              $e.arc(toRender[i][1], toRender[i][2], 1, 0, Math.PI * 2);
               $e.fillStyle = "red";
               $e.lineWidth = 1;
               $e.fill();
             }
             if (toRender[i][0] === 3 && window.globalSettings.hitboxes.enabled) { // bounding lines (hitboxes)
+              $e.globalAlpha = 0.5
               for (let ii=0; ii<4; ii++) {
                   $e.beginPath();
                   $e.moveTo(toRender[i][1], toRender[i][2]);
@@ -9282,19 +9289,20 @@ const radiusMap = {
                       case 0:
                           $e.lineTo(toRender[i][1]+toRender[i][3], toRender[i][2]);
                           break;
-                        case 0:
+                      case 1:
                           $e.lineTo(toRender[i][1], toRender[i][2]+toRender[i][3]);
                           break;
-                        case 0:
+                      case 2:
                           $e.lineTo(toRender[i][1]-toRender[i][3], toRender[i][2]);
                           break;
-                        case 0:
+                      case 3:
                           $e.lineTo(toRender[i][1], toRender[i][2]-toRender[i][3]);
                   }
                   $e.strokeStyle = "red";
                   $e.lineWidth = 1;
                   $e.stroke();
               }
+              $e.globalAlpha = 1
             }
         }
         $e.restore();
