@@ -11,7 +11,7 @@
 
 // EDIT
 let entityUids = {}
-let toRender = [] // 0 is circle, 1 is dot, 2 is filled circle, 3 is 4 bounding lines [type, x, y, radius (if circle/filled circle)]
+let toRender = [] // 0 is circle, 1 is dot, 2 is filled circle, 3 is 4 bounding lines [type, x, y, radius (if circle/filled circle), entitytype]
 let coords = []
 const radiusMap = {
     "0": 35,
@@ -10506,7 +10506,7 @@ function findAllPairsWithinX(circles, x) {
           } else {
             L(Jr[t], o, Jr[t + 1], Jr[t + 8], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, m().Qw(Jr[t + 9]), i, Jr[t + 11], Jr[t + 12], Jr[t + 13], Jr[t + 14], Jr[t + 15], Jr[t + 16], Jr[t + 17], Jr[t + 18], n);
             //EDIT
-            entityUids[o] = [Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]]]
+            entityUids[o] = [Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]], Jr[t]]
             //ENDEDIT
           }
         }
@@ -10518,7 +10518,10 @@ function findAllPairsWithinX(circles, x) {
           toRender.push([1, ...entityUids[keys[i]]]) // center dot
           toRender.push([3, ...entityUids[keys[i]]]) // bounding lines
 
-          reordered.push({x:entityUids[keys[i]][0],y:entityUids[keys[i]][1],r:entityUids[keys[i]][2]})
+          // no mobs/fireball, maybe include walkable objects like roof/lootbox/tornado/platform
+          if (entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 14 && entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 23 && entityUids[keys[i]][3] !== 24 && entityUids[keys[i]][3] !== 25 && entityUids[keys[i]][3] !== 27 && entityUids[keys[i]][3] !== 28 && entityUids[keys[i]][3] !== 29 && entityUids[keys[i]][3] !== 36 && entityUids[keys[i]][3] !== 43) {
+              reordered.push({x:entityUids[keys[i]][0],y:entityUids[keys[i]][1],r:entityUids[keys[i]][2]})
+          }
         }
 
         console.log(findAllPairsWithinX(reordered, 5)) // find all buildings within 5 units
