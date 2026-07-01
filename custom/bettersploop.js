@@ -9275,7 +9275,7 @@ const radiusMap = {
               $e.fill();
             }
             if (toRender[i][0] === 3 && window.globalSettings.hitboxes.enabled) { // bounding lines (hitboxes)
-              for (let ii=0; ii>4; ii++) {
+              for (let ii=0; ii<4; ii++) {
                   $e.beginPath();
                   $e.moveTo(toRender[i][1], toRender[i][2]);
                   switch (ii) {
