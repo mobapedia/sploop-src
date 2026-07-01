@@ -11,7 +11,7 @@
 
 // EDIT
 let entityUids = {}
-let toRender = []
+let toRender = [] // 0 is dot, 1 is circle, 2 is filled circle
 let coords = []
 const radiusMap = {
     "0": 35,
@@ -9214,24 +9214,31 @@ const radiusMap = {
         }
 
         // RENDER EDIT
-        if (window.globalSettings.hitboxes.enabled) {
-            $e.save();
-            // orig translate: $e.translate(Pi * 0.5 - uo.zh, Si * 0.5 - uo.Mh);
-            //translate to zoomed world space
-            //ZOOM EDIT
-            $e.translate(Pi * 0.5, Si * 0.5);
-            $e.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
-            $e.translate(-Pi * 0.5, -Si * 0.5);
-            $e.translate(Pi * 0.5 - uo.zh, Si * 0.5 - uo.Mh);
-            for (let i=0; i < toRender.length; i++) {
+        $e.save();
+        // orig translate: $e.translate(Pi * 0.5 - uo.zh, Si * 0.5 - uo.Mh);
+        //translate to zoomed world space
+        //ZOOM EDIT
+        $e.translate(Pi * 0.5, Si * 0.5);
+        $e.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
+        $e.translate(-Pi * 0.5, -Si * 0.5);
+        $e.translate(Pi * 0.5 - uo.zh, Si * 0.5 - uo.Mh);
+        for (let i=0; i < toRender.length; i++) {
+            if (toRender[i][0] === 1 && window.globalSettings.hitboxes.enabled) { // circles (hitboxes)
               $e.beginPath();
-              $e.arc(toRender[i][0], toRender[i][1], toRender[i][2], 0, Math.PI * 2);
+              $e.arc(toRender[i][1], toRender[i][2], toRender[i][3], 0, Math.PI * 2);
               $e.strokeStyle = "red";
               $e.lineWidth = 1;
               $e.stroke();
             }
-            $e.restore();
+            if (toRender[i][0] === 0 && window.globalSettings.hitboxes.enabled) { // dots (center hitbox dots)
+              $e.beginPath();
+              $e.arc(toRender[i][1], toRender[i][2], 2, 0, Math.PI * 2);
+              $e.fillStyle = "red";
+              $e.lineWidth = 1;
+              $e.fill();
+            }
         }
+        $e.restore();
         
         if (window.globalSettings.coords.enabled) {
           //map margins are 5px
@@ -10436,7 +10443,8 @@ const radiusMap = {
         //EDIT
         let keys = Object.keys(entityUids)
         for (let i=0; i < keys.length; i++) {
-          toRender.push(entityUids[keys[i]])
+          toRender.push([0, ...entityUids[keys[i]]])
+          toRender.push([1, ...entityUids[keys[i]]])
         }
         //ENDEDIT
       }
