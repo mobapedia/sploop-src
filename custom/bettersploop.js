@@ -9268,11 +9268,13 @@ const radiusMap = {
               $e.stroke();
             }
             if (toRender[i][0] === 1 && window.globalSettings.hitboxes.enabled) { // dots (center hitbox dots)
+              $e.globalAlpha = 0.5
               $e.beginPath();
-              $e.arc(toRender[i][1], toRender[i][2], 3, .5, Math.PI * 2);
+              $e.arc(toRender[i][1], toRender[i][2], 3, 0, Math.PI * 2);
               $e.fillStyle = "red";
               $e.lineWidth = 1;
               $e.fill();
+              $e.globalAlpha = 1
 
               $e.beginPath();
               $e.arc(toRender[i][1], toRender[i][2], 1, 0, Math.PI * 2);
