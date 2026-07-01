@@ -11,7 +11,7 @@
 
 // EDIT
 let entityUids = {}
-let toRender = [] // 0 is circle, 1 is dot, 2 is filled circle, 3 is 4 bounding lines [type, x, y, radius (if circle/filled circle), entitytype]
+let toRender = [] // 0 is circle, 1 is dot, 2 is filled circle, 3 is 4 bounding lines , 5 is normal line [type, x, y, radius (if circle/filled circle), entitytype]
 let coords = []
 const radiusMap = {
     "0": 35,
@@ -95,6 +95,41 @@ function findAllPairsWithinX(circles, x) {
     }
 
     return pairs;
+}
+function getPerpendicularPoint(c1, c2, offset = 30) {
+    const dx = c2.x - c1.x;
+    const dy = c2.y - c1.y;
+    
+    // Distance between the centers
+    const dist = Math.sqrt(dx * dx + dy * dy);
+    
+    // If the circles are exactly on top of each other, we can't calculate a line direction
+    if (dist === 0) return null; 
+
+    // 1. Calculate the midpoint of the gap
+    // (This uses a simplified formula: distance from c1 to the gap midpoint is (dist + r1 - r2) / 2)
+    const midDist = (dist + c1.r - c2.r) / 2;
+    const midX = c1.x + (dx / dist) * midDist;
+    const midY = c1.y + (dy / dist) * midDist;
+
+    // 2. Calculate the perpendicular unit vector
+    // To rotate a vector (dx, dy) by 90 degrees, you swap them and negate one: (-dy, dx) or (dy, -dx)
+    // Dividing by 'dist' normalizes it to a length of 1
+    const perpX = -dy / dist; 
+    const perpY = dx / dist;
+
+    // 3. Offset from the midpoint by the desired amount
+    return {
+        midpoint: { x: midX, y: midY },
+        pointA: { 
+            x: midX + perpX * offset, 
+            y: midY + perpY * offset 
+        },
+        pointB: { 
+            x: midX - perpX * offset, 
+            y: midY - perpY * offset 
+        }
+    };
 }
 // ENDEDIT
 ;(function () {
@@ -10518,13 +10553,18 @@ function findAllPairsWithinX(circles, x) {
           toRender.push([1, ...entityUids[keys[i]]]) // center dot
           toRender.push([3, ...entityUids[keys[i]]]) // bounding lines
 
-          // no mobs/fireball, maybe include walkable objects like roof/lootbox/tornado/platform
+          // no players/mobs/fireball, maybe include walkable objects like roof/lootbox/tornado/platform
           if (entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 14 && entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 23 && entityUids[keys[i]][3] !== 24 && entityUids[keys[i]][3] !== 25 && entityUids[keys[i]][3] !== 27 && entityUids[keys[i]][3] !== 28 && entityUids[keys[i]][3] !== 29 && entityUids[keys[i]][3] !== 36 && entityUids[keys[i]][3] !== 43) {
               reordered.push({x:entityUids[keys[i]][0],y:entityUids[keys[i]][1],r:entityUids[keys[i]][2]})
           }
         }
 
-        console.log(findAllPairsWithinX(reordered, 5)) // find all buildings within 5 units
+        const pairs = findAllPairsWithinX(reordered, 5) // find all buildings within 5 units
+        for (let i=0; i < pairs.length; i++) {
+            const points = getPerpendicularPoint(pairs[i][0], pairs[i][1])
+            toRender.push([0, points.pointA.x, points.pointA.y, 10])
+            toRender.push([0, points.pointB.x, points.pointB.y, 10])
+        }
         //ENDEDIT
       }
       function Ec() {
