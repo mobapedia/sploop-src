@@ -58,6 +58,44 @@ const radiusMap = {
     "42": 45,
     "43": 90
 }
+function findAllPairsWithinX(circles, x) {
+    const len = circles.length;
+    if (len < 2) return [];
+
+    // Sort by X in-place
+    circles.sort((a, b) => a.x - b.x);
+
+    const pairs = [];
+
+    for (let i = 0; i < len; i++) {
+        const c1 = circles[i];
+        const c1Reach = c1.r + x; // How far c1's edge can reach plus the x buffer
+
+        for (let j = i + 1; j < len; j++) {
+            const c2 = circles[j];
+            const dx = c2.x - c1.x;
+
+            // The maximum possible distance on the X axis for a match
+            const maxDx = c1Reach + c2.r; 
+
+            // SWEEP AND PRUNE: If c2 is too far right, the rest are even further.
+            // Skip the rest of the inner loop for c1!
+            if (dx > maxDx) break; 
+
+            // Y-axis early exit
+            const dy = c2.y - c1.y;
+            if (dy > maxDx || dy < -maxDx) continue;
+
+            // Full squared distance check (no Math.sqrt)
+            if (dx * dx + dy * dy <= maxDx * maxDx) {
+                // Push the matching pair into our results
+                pairs.push([c1, c2]); 
+            }
+        }
+    }
+
+    return pairs;
+}
 // ENDEDIT
 ;(function () {
   var r = {
@@ -9282,7 +9320,7 @@ const radiusMap = {
               $e.lineWidth = 1;
               $e.fill();
             }
-            if (toRender[i][0] === 3 && window.globalSettings.hitboxes.enabled) { // bounding lines (hitboxes)
+            if (toRender[i][0] === 3 && window.globalSettings.hitboxes.enabled && false) { // bounding lines (hitboxes)
               $e.globalAlpha = 0.5
               for (let ii=0; ii<4; ii++) {
                   $e.beginPath();
@@ -10473,12 +10511,17 @@ const radiusMap = {
           }
         }
         //EDIT
+        let reordered = []
         let keys = Object.keys(entityUids)
         for (let i=0; i < keys.length; i++) {
           toRender.push([0, ...entityUids[keys[i]]]) // hitbox
           toRender.push([1, ...entityUids[keys[i]]]) // center dot
           toRender.push([3, ...entityUids[keys[i]]]) // bounding lines
+
+          reordered.push({x:entityUids[keys[i]][0],y:entityUids[keys[i]][1],r:entityUids[keys[i]][2]})
         }
+
+        console.log(findAllPairsWithinX(reordered, 5)) // find all buildings within 5 units
         //ENDEDIT
       }
       function Ec() {
