@@ -11,7 +11,7 @@
 
 // EDIT
 let entityUids = {}
-let toRender = [] // 0 is dot, 1 is circle, 2 is filled circle
+let toRender = [] // 0 is circle, 1 is dot, 2 is filled circle, 3 is 4 bounding lines [type, x, y, radius (if circle/filled circle)]
 let coords = []
 const radiusMap = {
     "0": 35,
@@ -9214,32 +9214,6 @@ const radiusMap = {
         }
 
         // RENDER EDIT
-        $e.save();
-        // orig translate: $e.translate(Pi * 0.5 - uo.zh, Si * 0.5 - uo.Mh);
-        //translate to zoomed world space
-        //ZOOM EDIT
-        $e.translate(Pi * 0.5, Si * 0.5);
-        $e.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
-        $e.translate(-Pi * 0.5, -Si * 0.5);
-        $e.translate(Pi * 0.5 - uo.zh, Si * 0.5 - uo.Mh);
-        for (let i=0; i < toRender.length; i++) {
-            if (toRender[i][0] === 1 && window.globalSettings.hitboxes.enabled) { // circles (hitboxes)
-              $e.beginPath();
-              $e.arc(toRender[i][1], toRender[i][2], toRender[i][3], 0, Math.PI * 2);
-              $e.strokeStyle = "red";
-              $e.lineWidth = 1;
-              $e.stroke();
-            }
-            if (toRender[i][0] === 0 && window.globalSettings.hitboxes.enabled) { // dots (center hitbox dots)
-              $e.beginPath();
-              $e.arc(toRender[i][1], toRender[i][2], 2, 0, Math.PI * 2);
-              $e.fillStyle = "red";
-              $e.lineWidth = 1;
-              $e.fill();
-            }
-        }
-        $e.restore();
-        
         if (window.globalSettings.coords.enabled) {
           //map margins are 5px
           const map = Z[P().vi]
@@ -9276,6 +9250,54 @@ const radiusMap = {
           $e.fillText(text, Pi / 2, 10);
           $e.restore();
         }
+
+        $e.save();
+        // orig translate: $e.translate(Pi * 0.5 - uo.zh, Si * 0.5 - uo.Mh);
+        //translate to zoomed world space
+        //ZOOM EDIT
+        $e.translate(Pi * 0.5, Si * 0.5);
+        $e.scale(window.globalSettings.zoom.scale, window.globalSettings.zoom.scale);
+        $e.translate(-Pi * 0.5, -Si * 0.5);
+        $e.translate(Pi * 0.5 - uo.zh, Si * 0.5 - uo.Mh);
+        for (let i=0; i < toRender.length; i++) {
+            if (toRender[i][0] === 0 && window.globalSettings.hitboxes.enabled) { // circles (hitboxes)
+              $e.beginPath();
+              $e.arc(toRender[i][1], toRender[i][2], toRender[i][3], 0, Math.PI * 2);
+              $e.strokeStyle = "red";
+              $e.lineWidth = 1;
+              $e.stroke();
+            }
+            if (toRender[i][0] === 1 && window.globalSettings.hitboxes.enabled) { // dots (center hitbox dots)
+              $e.beginPath();
+              $e.arc(toRender[i][1], toRender[i][2], 2, 0, Math.PI * 2);
+              $e.fillStyle = "red";
+              $e.lineWidth = 1;
+              $e.fill();
+            }
+            if (toRender[i][0] === 3 && window.globalSettings.hitboxes.enabled) { // bounding lines (hitboxes)
+              for (let ii=0; ii>4; ii++) {
+                  $e.beginPath();
+                  $e.moveTo(toRender[i][1], toRender[i][2]);
+                  switch (ii) {
+                      case 0:
+                          $e.lineTo(toRender[i][1]+toRender[i][2], toRender[i][2]);
+                          break;
+                        case 0:
+                          $e.lineTo(toRender[i][1], toRender[i][2]+toRender[i][2]);
+                          break;
+                        case 0:
+                          $e.lineTo(toRender[i][1]-toRender[i][2], toRender[i][2]);
+                          break;
+                        case 0:
+                          $e.lineTo(toRender[i][1], toRender[i][2]-toRender[i][2]);
+                  }
+                  $e.strokeStyle = "red";
+                  $e.lineWidth = 1;
+                  $e.stroke();
+              }
+            }
+        }
+        $e.restore();
         // ENDEDIT
         window.requestAnimationFrame(Mr);
       }
@@ -10443,8 +10465,9 @@ const radiusMap = {
         //EDIT
         let keys = Object.keys(entityUids)
         for (let i=0; i < keys.length; i++) {
-          toRender.push([0, ...entityUids[keys[i]]])
-          toRender.push([1, ...entityUids[keys[i]]])
+          toRender.push([0, ...entityUids[keys[i]]]) // hitbox
+          toRender.push([1, ...entityUids[keys[i]]]) // center dot
+          toRender.push([3, ...entityUids[keys[i]]]) // bounding lines
         }
         //ENDEDIT
       }
