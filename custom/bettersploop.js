@@ -2723,7 +2723,7 @@ function getPerpendicularPoint(c1, c2, offset) {
         __MUTATEoQO = o(3840);
         __MUTATEoo0o = o(8582);
         __MUTATEoo0 = o(9705);
-        CPMStarAds = o(5438);
+        //CPMStarAds = o(5438); ADS EDIT ENDEDIT
       } catch (n) {}
       /* ADS EDIT
       let i;
