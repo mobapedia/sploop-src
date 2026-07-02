@@ -9445,7 +9445,15 @@ function getFittedCircleCenter(c1, c2, rNew) {
               $e.stroke();
             }//Jr[t + 9] / 255 * (Math.PI*2) - Math.PI
             if (toRender[i][0] === 6 && window.globalSettings.hitboxes.enabled) { // ranges
-console.log(toRender[i])
+                $e.globalAlpha = 0.5
+                const angle = toRender[i][5] / 255 * (Math.PI*2) - Math.PI
+                $e.beginPath();
+                $e.arc(toRender[i][1], toRender[i][2], 165, angle-(Math.PI/2), angle+(Math.PI/2), false);
+                $e.closePath();
+                $e.fillStyle = "red";
+                $e.fill();
+                $e.stroke();
+                $e.globalAlpha = 1
             }
             if (toRender[i][0] === 1 && window.globalSettings.hitboxes.enabled) { // dots (center hitbox dots)
               $e.beginPath();
