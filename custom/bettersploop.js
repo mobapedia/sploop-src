@@ -10663,17 +10663,17 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         for (let i=0; i < pairs.length; i++) {
             const playerHolo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 35)
             toRender.push([0, playerHolo.pointA.x, playerHolo.pointA.y, 35, undefined, "blue"])
-            toRender.push([0, playerHolo.pointB.x, playerHolo.pointB.y, 35, undefined, "blue"])
+            //toRender.push([0, playerHolo.pointB.x, playerHolo.pointB.y, 35, undefined, "blue"])
             toRender.push([6, playerHolo.pointA.x, playerHolo.pointA.y, undefined, undefined, playerHolo.angle+Math.PI])
-            toRender.push([6, playerHolo.pointB.x, playerHolo.pointB.y, undefined, undefined, playerHolo.angle])
+            //toRender.push([6, playerHolo.pointB.x, playerHolo.pointB.y, undefined, undefined, playerHolo.angle])
         
             const _40Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 40)
             toRender.push([0, _40Holo.pointA.x, _40Holo.pointA.y, 40, undefined, "yellow"])
-            toRender.push([0, _40Holo.pointB.x, _40Holo.pointB.y, 40, undefined, "yellow"])
+            //toRender.push([0, _40Holo.pointB.x, _40Holo.pointB.y, 40, undefined, "yellow"])
         
             const _42Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 42)
             toRender.push([0, _42Holo.pointA.x, _42Holo.pointA.y, 42, undefined, "red"])
-            toRender.push([0, _42Holo.pointB.x, _42Holo.pointB.y, 42, undefined, "red"])
+            //toRender.push([0, _42Holo.pointB.x, _42Holo.pointB.y, 42, undefined, "red"])
         }
         //ENDEDIT
       }
