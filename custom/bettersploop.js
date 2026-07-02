@@ -10666,8 +10666,8 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
             const points = getFittedCircleCenter(pairs[i][0], pairs[i][1], 35)
             toRender.push([0, points.pointA.x, points.pointA.y, 35, undefined, "blue"])
             toRender.push([0, points.pointB.x, points.pointB.y, 35, undefined, "blue"])
-            toRender.push([6, points.pointA.x, points.pointA.y, undefined, undefined, points.angle])
-            toRender.push([6, points.pointB.x, points.pointB.y, undefined, undefined, -points.angle])
+            toRender.push([6, points.pointA.x, points.pointA.y, undefined, undefined, -points.angle])
+            toRender.push([6, points.pointB.x, points.pointB.y, undefined, undefined, points.angle])
         }
         //ENDEDIT
       }
