@@ -10654,8 +10654,10 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           //toRender.push([6, ...entityUids[keys[i]]]) // ranges
 
           // no players/animals/fireball/roof/platform/tornado/lootbox
-          if (entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 14 && entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 23 && entityUids[keys[i]][3] !== 24 && entityUids[keys[i]][3] !== 25 && entityUids[keys[i]][3] !== 27 && entityUids[keys[i]][3] !== 28 && entityUids[keys[i]][3] !== 29 && entityUids[keys[i]][3] !== 36 && entityUids[keys[i]][3] !== 43 && entityUids[keys[i]][3] !== 26 && entityUids[keys[i]][3] !== 9 && entityUids[keys[i]][3] !== 39 && entityUids[keys[i]][3] !== 11) {
-              reordered.push({x:entityUids[keys[i]][0],y:entityUids[keys[i]][1],r:entityUids[keys[i]][2]})
+          //if (entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 14 && entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 23 && entityUids[keys[i]][3] !== 24 && entityUids[keys[i]][3] !== 25 && entityUids[keys[i]][3] !== 27 && entityUids[keys[i]][3] !== 28 && entityUids[keys[i]][3] !== 29 && entityUids[keys[i]][3] !== 36 && entityUids[keys[i]][3] !== 43 && entityUids[keys[i]][3] !== 26 && entityUids[keys[i]][3] !== 9 && entityUids[keys[i]][3] !== 39 && entityUids[keys[i]][3] !== 11) {
+          // only tree/stone/bush
+          if (entityUids[keys[i]][3] === 19 || entityUids[keys[i]][3] === 20 || entityUids[keys[i]][3] === 21 || entityUids[keys[i]][3] === 5) {
+            reordered.push({x:entityUids[keys[i]][0],y:entityUids[keys[i]][1],r:entityUids[keys[i]][2]})
           }
         }
 
@@ -10663,7 +10665,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         for (let i=0; i < pairs.length; i++) {
             const playerHolo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 35)
             toRender.push([0, playerHolo.pointA.x, playerHolo.pointA.y, 35, undefined, "blue"])
-            //toRender.push([0, playerHolo.pointB.x, playerHolo.pointB.y, 35, undefined, "blue"])
+            toRender.push([0, playerHolo.pointB.x, playerHolo.pointB.y, 35, undefined, "blue"])
             toRender.push([6, playerHolo.pointA.x, playerHolo.pointA.y, undefined, undefined, playerHolo.angle+Math.PI])
             //toRender.push([6, playerHolo.pointB.x, playerHolo.pointB.y, undefined, undefined, playerHolo.angle])
         
