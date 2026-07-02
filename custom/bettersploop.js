@@ -2715,7 +2715,6 @@ function getPerpendicularPoint(c1, c2, offset) {
       } catch (n) {} ENDEDIT*/
     },
     5299: function (n, e, o) {
-    /* ADS EDIT
       try {
         __MUTATE000 = o(6078);
         __MUTATEOO = o(9847);
@@ -2726,6 +2725,7 @@ function getPerpendicularPoint(c1, c2, offset) {
         __MUTATEoo0 = o(9705);
         CPMStarAds = o(5438);
       } catch (n) {}
+      /* ADS EDIT
       let i;
       function r() {
         if (n.exports.Cu === 1) {
