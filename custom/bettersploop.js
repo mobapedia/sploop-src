@@ -8,10 +8,9 @@
 // KEYBINDS EDIT shows modifications to take keybinds from custom bettersploop settings instead of default keybinds localstorage
 // KEYR EDIT shows modifications that enable no spike on reload and fix spike reload bug
 
-
 // EDIT
 let entityUids = {}
-let toRender = [] // 0 is circle, 1 is dot, 2 is filled circle, 3 is 4 bounding lines , 5 is normal line [type, x, y, radius (if circle/filled circle), entitytype]
+let toRender = [] // 0 is circle, 1 is dot, 2 is filled circle, 3 is 4 bounding lines , 5 is normal line [type, x, y, radius (if circle/filled circle), entitytype, color]
 let coords = []
 const radiusMap = {
     "0": 35,
@@ -9441,7 +9440,7 @@ function getFittedCircleCenter(c1, c2, rNew) {
             if (toRender[i][0] === 0 && window.globalSettings.hitboxes.enabled) { // circles (hitboxes)
               $e.beginPath();
               $e.arc(toRender[i][1], toRender[i][2], toRender[i][3], 0, Math.PI * 2);
-              $e.strokeStyle = "red";
+              $e.strokeStyle = toRender[i][5] || "red";
               $e.lineWidth = 1;
               $e.stroke();
             }
@@ -10659,8 +10658,8 @@ function getFittedCircleCenter(c1, c2, rNew) {
         const pairs = findAllPairsWithinX(reordered, 10) // find all buildings within 10 units
         for (let i=0; i < pairs.length; i++) {
             const points = getFittedCircleCenter(pairs[i][0], pairs[i][1], 35)
-            toRender.push([0, points.pointA.x, points.pointA.y, 35])
-            toRender.push([0, points.pointB.x, points.pointB.y, 35])
+            toRender.push([0, points.pointA.x, points.pointA.y, 35, undefined, "blue"])
+            toRender.push([0, points.pointB.x, points.pointB.y, 35, undefined, "blue"])
         }
         //ENDEDIT
       }
