@@ -9474,7 +9474,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
             if (toRender[i][0] === 0 && window.globalSettings.hitboxes.enabled) { // circles (hitboxes)
               $e.beginPath();
               $e.arc(toRender[i][1], toRender[i][2], toRender[i][3], 0, Math.PI * 2);
-              $e.strokeStyle = typeof toRender[i][5]==="string"?toRender[i][5]:"red";
+              $e.strokeStyle = typeof toRender[i][5]==="string"?toRender[i][5]:"black";
               $e.lineWidth = 1;
               $e.stroke();
             }
