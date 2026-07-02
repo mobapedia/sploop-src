@@ -10689,7 +10689,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           const entity = entityUids[keys[i]]
           toRender.push([0, entity[1], entity[2], entity[3], "red"]) // hitbox
           toRender.push([1, entity[1], entity[2], "red"]) // center dot
-          toRender.push([4, entity[1], entity[2], entity[4], entity[5]) // ranges
+          toRender.push([4, entity[1], entity[2], entity[4], entity[5]]) // ranges
 
           if (window.globalSettings.basingReferenceLines.enabled) {
             // only tree/stone/bush
