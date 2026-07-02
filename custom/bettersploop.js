@@ -10650,13 +10650,13 @@ function getFittedCircleCenter(c1, c2, rNew) {
           toRender.push([1, ...entityUids[keys[i]]]) // center dot
           toRender.push([3, ...entityUids[keys[i]]]) // bounding lines
 
-          // no players/mobs/fireball, maybe include walkable objects like roof/lootbox/tornado/platform
-          if (entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 14 && entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 23 && entityUids[keys[i]][3] !== 24 && entityUids[keys[i]][3] !== 25 && entityUids[keys[i]][3] !== 27 && entityUids[keys[i]][3] !== 28 && entityUids[keys[i]][3] !== 29 && entityUids[keys[i]][3] !== 36 && entityUids[keys[i]][3] !== 43) {
+          // no players/animals/fireball/roof/platform/tornado/lootbox
+          if (entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 14 && entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 23 && entityUids[keys[i]][3] !== 24 && entityUids[keys[i]][3] !== 25 && entityUids[keys[i]][3] !== 27 && entityUids[keys[i]][3] !== 28 && entityUids[keys[i]][3] !== 29 && entityUids[keys[i]][3] !== 36 && entityUids[keys[i]][3] !== 43 && entityUids[keys[i]][3] !== 26 && entityUids[keys[i]][3] !== 9 && entityUids[keys[i]][3] !== 39 && entityUids[keys[i]][3] !== 11) {
               reordered.push({x:entityUids[keys[i]][0],y:entityUids[keys[i]][1],r:entityUids[keys[i]][2]})
           }
         }
 
-        const pairs = findAllPairsWithinX(reordered, 5) // find all buildings within 5 units
+        const pairs = findAllPairsWithinX(reordered, 10) // find all buildings within 10 units
         for (let i=0; i < pairs.length; i++) {
             const points = getFittedCircleCenter(pairs[i][0], pairs[i][1], 35)
             toRender.push([0, points.pointA.x, points.pointA.y, 35])
