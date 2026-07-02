@@ -9443,7 +9443,6 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                 const angle = toRender[i][5]
                 $e.beginPath();
                 $e.arc(toRender[i][1], toRender[i][2], 165, angle-(Math.PI/2), angle+(Math.PI/2), false);
-                $e.closePath();
                 $e.fillStyle = "red";
                 $e.fill();
                 $e.globalAlpha = 1
@@ -10665,7 +10664,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
             const points = getFittedCircleCenter(pairs[i][0], pairs[i][1], 35)
             toRender.push([0, points.pointA.x, points.pointA.y, 35, undefined, "blue"])
             toRender.push([0, points.pointB.x, points.pointB.y, 35, undefined, "blue"])
-            toRender.push([6, points.pointA.x, points.pointA.y, undefined, undefined, -points.angle])
+            toRender.push([6, points.pointA.x, points.pointA.y, undefined, undefined, points.angle+Math.PI])
             toRender.push([6, points.pointB.x, points.pointB.y, undefined, undefined, points.angle])
         }
         //ENDEDIT
