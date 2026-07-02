@@ -9507,6 +9507,14 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
               $e.lineWidth = 1;
               $e.fill();
             }
+            if (toRender[i][0] === 3 && window.globalSettings.placementAngles.enabled) { // lines
+              $e.beginPath();
+              $e.moveTo(toRender[i][1], toRender[i][2]);
+              $e.lineTo(toRender[i][3], toRender[i][4]);
+              $e.strokeStyle = toRender[i][5];
+              $e.lineWidth = 1;
+              $e.stroke();
+            }
             if (toRender[i][0] === 4 && window.globalSettings.basingReferenceLines.enabled) { // shaded semicircles
                 const angle = toRender[i][4]
                 $e.globalAlpha = .333
@@ -10687,9 +10695,13 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         let keys = Object.keys(entityUids)
         for (let i=0; i < keys.length; i++) {
           const entity = entityUids[keys[i]]
-          toRender.push([0, entity[1], entity[2], entity[3], "red"]) // hitbox
-          toRender.push([1, entity[1], entity[2], "red"]) // center dot
-          toRender.push([4, entity[1], entity[2], entity[4], entity[5]]) // ranges
+          if (window.globalSettings.hitboxes.enabled) toRender.push([0, entity[1], entity[2], entity[3], "red"]) // hitbox
+          if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]) // center dot
+          if (entity[0] === 0 && window.globalSettings.ranges.enabled) { // ranges
+              toRender.push([4, entity[1], entity[2], entity[4], entity[5], "red"])
+          if (entity[0] !== 0 && window.globalSettings.placementAngles.enabled) { // placement angles
+              toRender.push([3, entity[1], entity[2], entity[1]+50*Math.cos(entity[5]), entity[2]+50*Math.sin(entity[5]), "red"])
+          }
 
           if (window.globalSettings.basingReferenceLines.enabled) {
             // only tree/stone/bush
