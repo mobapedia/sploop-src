@@ -1,13 +1,13 @@
 //0c70c7f8bd770a23ed96.js
-//!! - bugs or potential bugs
-//EDIT n, END EDIT n - deviations from original source code
-//add n to all EDIT/ENDEDITs
+//!!!!!!! - shows locations with potential side effects
 // ADS EDIT removes ad loading
-// ZOOM EDIT shows where its modified to custom zoom not ui
-// GRID EDIT shows where its modified to custom grid rendering
-// RENDER EDIT shows where its modified to custom render shit
-// WORLD BOUND EDIT shows where its modified to accurate world boundaries
-// KEYBINDS EDIT shows where its modified to take keybinds from custom bettersploop settings instead of default keybinds localstorage
+// ZOOM EDIT shows modifications for custom zoom
+// GRID EDIT shows modifications for custom grid rendering
+// RENDER EDIT shows modifications for custom rendering
+// WORLD BOUND EDIT shows modifications for accurate world boundaries
+// KEYBINDS EDIT shows modifications to take keybinds from custom bettersploop settings instead of default keybinds localstorage
+// KEYR EDIT shows modifications that enable no spike on reload and fix spike reload bug
+
 
 // EDIT
 let entityUids = {}
@@ -96,39 +96,45 @@ function findAllPairsWithinX(circles, x) {
 
     return pairs;
 }
-function getPerpendicularPoint(c1, c2, offset) {
+function getFittedCircleCenter(c1, c2, rNew) {
     const dx = c2.x - c1.x;
     const dy = c2.y - c1.y;
     
-    // Distance between the centers
+    // Distance between the centers of the original circles
     const dist = Math.sqrt(dx * dx + dy * dy);
     
-    // If the circles are exactly on top of each other, we can't calculate a line direction
-    if (dist === 0) return null; 
+    // If the circles are on top of each other, we can't calculate a line
+    if (dist === 0) return null;
 
-    // 1. Calculate the midpoint of the gap
-    // (This uses a simplified formula: distance from c1 to the gap midpoint is (dist + r1 - r2) / 2)
-    const midDist = (dist + c1.r - c2.r) / 2;
-    const midX = c1.x + (dx / dist) * midDist;
-    const midY = c1.y + (dy / dist) * midDist;
+    // "Inflate" the original circles by the new radius
+    const R1 = c1.r + rNew;
+    const R2 = c2.r + rNew;
 
-    // 2. Calculate the perpendicular unit vector
-    // To rotate a vector (dx, dy) by 90 degrees, you swap them and negate one: (-dy, dx) or (dy, -dx)
-    // Dividing by 'dist' normalizes it to a length of 1
-    const perpX = -dy / dist; 
-    const perpY = dx / dist;
+    // Calculate the distance from c1 to the base point on the line between centers
+    // using the Law of Cosines / triangle geometry
+    const baseDist = (R1 * R1 - R2 * R2 + dist * dist) / (2 * dist);
 
-    // 3. Offset from the midpoint by the desired amount
+    // Calculate the height from that base line to the intersection point
+    const hSquared = R1 * R1 - baseDist * baseDist;
+    
+    // If hSquared is negative, the gap is either too big for the new circle to touch both at the same time, 
+    // or the circles overlap too much for the new circle to fit. 
+    if (hSquared < 0) return null; 
+
+    const h = Math.sqrt(hSquared);
+
+    // Find the base point on the line connecting c1 and c2
+    const baseX = c1.x + (dx * baseDist) / dist;
+    const baseY = c1.y + (dy * baseDist) / dist;
+
+    // Calculate the perpendicular offset (swapping dx and dy rotates 90 degrees)
+    const offsetX = (-dy * h) / dist;
+    const offsetY = (dx * h) / dist;
+
+    // The two possible center points for the new circle
     return {
-        midpoint: { x: midX, y: midY },
-        pointA: { 
-            x: midX + perpX * offset, 
-            y: midY + perpY * offset 
-        },
-        pointB: { 
-            x: midX - perpX * offset, 
-            y: midY - perpY * offset 
-        }
+        pointA: { x: baseX + offsetX, y: baseY + offsetY },
+        pointB: { x: baseX - offsetX, y: baseY - offsetY }
     };
 }
 // ENDEDIT
@@ -6587,6 +6593,9 @@ function getPerpendicularPoint(c1, c2, offset) {
       let Mt = 0;
       let Dt = false;
       function Bt(n) {
+        // KEYR EDIT
+        let fakeKeyup = false;
+        // ENDEDIT
         const e = n.code;
         if ((Oo || Po || So) && e === ct[Rn] && !wt[e]) {
           if (Oo) {
@@ -6628,9 +6637,35 @@ function getPerpendicularPoint(c1, c2, offset) {
             Ic(10);
             Ic(11);
           }
+          // KEYR EDIT
+          /*if (window.globalSettings.noSpikeOnReload.enabled) {
+              if (n === Qt[_t] && n !== Qt[Mt] && !Ft[n]) { // custom key if custom key is not KeyR
+                br(4);
+              } else if (n === "KeyR" && !Ft[n]) { // KeyR and when custom key is KeyR
+                if (!t.ctrlKey && !t.metaKey) {
+                  br(4);
+                } else {
+                  Ft[n] = false; // set KeyR as released (keyup)
+                  fakeKeyup = true; // dont set KeyR as down at the end of the function (!!!!!!!)
+                }
+              }
+          } else {
+              if (n === Qt[_t] && n !== Qt[Mt] && !Ft[n]) { // custom key if custom key is not KeyR
+                br(4);
+              } else if (n === "KeyR" && !Ft[n]) { // KeyR and when custom key is KeyR
+                if (!t.ctrlKey && !t.metaKey) {
+                  br(4);
+                } else {
+                  br(4);
+                  Ft[n] = false; // set KeyR as released (keyup)
+                  fakeKeyup = true; // dont set KeyR as down at the end of the function (!!!!!!!)
+                }
+              }
+          }*/
           if (e === ct[Sn] && !wt[e] || e === ct[qn] && !wt[e]) {
             Ic(4);
           }
+          // ENDEDIT
           if (e === ct[Kn] && !wt[e]) {
             Ic(5);
           }
@@ -10623,10 +10658,9 @@ function getPerpendicularPoint(c1, c2, offset) {
 
         const pairs = findAllPairsWithinX(reordered, 5) // find all buildings within 5 units
         for (let i=0; i < pairs.length; i++) {
-            const smallestRadius = (pairs[i][0].r<pairs[i][1].r?pairs[i][0].r:pairs[i][1].r)
-            const points = getPerpendicularPoint(pairs[i][0], pairs[i][1], smallestRadius+35-14 /*14 is arbitrary to counter the fact that the player can go into gap between radii but it seems to kinda work*/) //35+(pairs[i][0].r<pairs[i][1].r?pairs[i][0].r:pairs[i][1].r)/2)
-            //toRender.push([0, points.pointA.x, points.pointA.y, 35])
-            //toRender.push([0, points.pointB.x, points.pointB.y, 35])
+            const points = getFittedCircleCenter(pairs[i][0], pairs[i][1], 35)
+            toRender.push([0, points.pointA.x, points.pointA.y, 35])
+            toRender.push([0, points.pointB.x, points.pointB.y, 35])
         }
         //ENDEDIT
       }
