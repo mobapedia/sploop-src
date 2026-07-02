@@ -95,45 +95,39 @@ function findAllPairsWithinX(circles, x) {
 
     return pairs;
 }
-function getFittedCircleCenter(c1, c2, rNew) {
+function getFittedCircleCenter(c1, c2, rNew = 35) {
     const dx = c2.x - c1.x;
     const dy = c2.y - c1.y;
     
-    // Distance between the centers of the original circles
     const dist = Math.sqrt(dx * dx + dy * dy);
-    
-    // If the circles are on top of each other, we can't calculate a line
     if (dist === 0) return null;
 
-    // "Inflate" the original circles by the new radius
+    // "Inflate" the original circles
     const R1 = c1.r + rNew;
     const R2 = c2.r + rNew;
 
-    // Calculate the distance from c1 to the base point on the line between centers
-    // using the Law of Cosines / triangle geometry
     const baseDist = (R1 * R1 - R2 * R2 + dist * dist) / (2 * dist);
-
-    // Calculate the height from that base line to the intersection point
     const hSquared = R1 * R1 - baseDist * baseDist;
     
-    // If hSquared is negative, the gap is either too big for the new circle to touch both at the same time, 
-    // or the circles overlap too much for the new circle to fit. 
-    if (hSquared < 0) return null; 
+    if (hSquared < 0) return null; // Doesn't fit
 
     const h = Math.sqrt(hSquared);
 
-    // Find the base point on the line connecting c1 and c2
     const baseX = c1.x + (dx * baseDist) / dist;
     const baseY = c1.y + (dy * baseDist) / dist;
 
-    // Calculate the perpendicular offset (swapping dx and dy rotates 90 degrees)
     const offsetX = (-dy * h) / dist;
     const offsetY = (dx * h) / dist;
 
-    // The two possible center points for the new circle
+    // --- NEW: Calculate the angle of the perpendicular line ---
+    // Math.atan2 gives the angle in radians. 
+    // Because we use the offset values, this angle points exactly from the gap's center towards pointA.
+    const perpendicularAngle = Math.atan2(offsetY, offsetX); 
+
     return {
         pointA: { x: baseX + offsetX, y: baseY + offsetY },
-        pointB: { x: baseX - offsetX, y: baseY - offsetY }
+        pointB: { x: baseX - offsetX, y: baseY - offsetY },
+        angle: perpendicularAngle // In radians
     };
 }
 // ENDEDIT
@@ -9443,10 +9437,10 @@ function getFittedCircleCenter(c1, c2, rNew) {
               $e.strokeStyle = toRender[i][5] || "red";
               $e.lineWidth = 1;
               $e.stroke();
-            }//Jr[t + 9] / 255 * (Math.PI*2) - Math.PI
+            }
             if (toRender[i][0] === 6 && window.globalSettings.hitboxes.enabled) { // ranges
                 $e.globalAlpha = 0.5
-                const angle = toRender[i][5] / 255 * (Math.PI*2) - Math.PI
+                const angle = toRender[i][5]
                 $e.beginPath();
                 $e.arc(toRender[i][1], toRender[i][2], 165, angle-(Math.PI/2), angle+(Math.PI/2), false);
                 $e.closePath();
@@ -10648,7 +10642,7 @@ function getFittedCircleCenter(c1, c2, rNew) {
           } else {
             L(Jr[t], o, Jr[t + 1], Jr[t + 8], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, m().Qw(Jr[t + 9]), i, Jr[t + 11], Jr[t + 12], Jr[t + 13], Jr[t + 14], Jr[t + 15], Jr[t + 16], Jr[t + 17], Jr[t + 18], n);
             //EDIT
-            entityUids[o] = [Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]], Jr[t], Jr[t+9]]
+            entityUids[o] = [Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]], Jr[t], Jr[t + 9] / 255 * (Math.PI*2) - Math.PI]
             //ENDEDIT
           }
         }
@@ -10659,7 +10653,7 @@ function getFittedCircleCenter(c1, c2, rNew) {
           toRender.push([0, ...entityUids[keys[i]]]) // hitbox
           toRender.push([1, ...entityUids[keys[i]]]) // center dot
           toRender.push([3, ...entityUids[keys[i]]]) // bounding lines
-          toRender.push([6, ...entityUids[keys[i]]]) // ranges
+          //toRender.push([6, ...entityUids[keys[i]]]) // ranges
 
           // no players/animals/fireball/roof/platform/tornado/lootbox
           if (entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 14 && entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 23 && entityUids[keys[i]][3] !== 24 && entityUids[keys[i]][3] !== 25 && entityUids[keys[i]][3] !== 27 && entityUids[keys[i]][3] !== 28 && entityUids[keys[i]][3] !== 29 && entityUids[keys[i]][3] !== 36 && entityUids[keys[i]][3] !== 43 && entityUids[keys[i]][3] !== 26 && entityUids[keys[i]][3] !== 9 && entityUids[keys[i]][3] !== 39 && entityUids[keys[i]][3] !== 11) {
@@ -10672,6 +10666,8 @@ function getFittedCircleCenter(c1, c2, rNew) {
             const points = getFittedCircleCenter(pairs[i][0], pairs[i][1], 35)
             toRender.push([0, points.pointA.x, points.pointA.y, 35, undefined, "blue"])
             toRender.push([0, points.pointB.x, points.pointB.y, 35, undefined, "blue"])
+            toRender.push([6, points.pointA.x, points.pointA.y, undefined, undefined, points.angle])
+            toRender.push([6, points.pointB.x, points.pointB.y, undefined, undefined, -points.angle])
         }
         //ENDEDIT
       }
