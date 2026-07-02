@@ -16,7 +16,7 @@
 3: line [x1,y1,x2,y2,color]
 4: shaded semicircle [x,y,r,angle,color]
 */
-let entityUids = {} // [entityId, x, y, radius, angle]
+let entityUids = {} // [entityId, x, y, radius, toolRange, angle]
 let toRender = []
 let coords = []
 const radiusMap = {
@@ -63,6 +63,61 @@ const radiusMap = {
     "41": 40,
     "42": 45,
     "43": 90
+}
+const rangeMap = {
+    "0": 80,
+    "1": 135,
+    "2": 160,
+    "3": 90,
+    "11": 55,
+    "13": 100,
+    "15": 80,
+    "17": 140,
+    "28": 165,
+    "30": 94,
+    "31": 115,
+    "32": 90,
+    "33": 90,
+    "34": 94,
+    "35": 94,
+    "36": 140,
+    "37": 140,
+    "38": 160,
+    "39": 160,
+    "40": 140,
+    "41": 100,
+    "42": 100,
+    "43": 100,
+    "44": 165,
+    "45": 165,
+    "46": 80,
+    "47": 80,
+    "48": 80,
+    "52": 80,
+    "53": 80,
+    "54": 80,
+    "56": 80,
+    "57": 115,
+    "58": 160,
+    "59": 140,
+    "60": 140,
+    "61": 140,
+    "62": 140,
+    "63": 300,
+    "65": 80,
+    "66": 80,
+    "67": 80,
+    "68": 115,
+    "69": 115,
+    "70": 115,
+    "71": 80,
+    "72": 165,
+    "73": 160,
+    "74": 135,
+    "75": 135,
+    "76": 135,
+    "77": 90,
+    "78": 94
 }
 function findAllPairsWithinX(circles, x) {
     const len = circles.length;
@@ -10623,7 +10678,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           } else {
             L(Jr[t], o, Jr[t + 1], Jr[t + 8], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, m().Qw(Jr[t + 9]), i, Jr[t + 11], Jr[t + 12], Jr[t + 13], Jr[t + 14], Jr[t + 15], Jr[t + 16], Jr[t + 17], Jr[t + 18], n);
             //EDIT
-            entityUids[o] = [Jr[t], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]], Jr[t + 9] / 255 * (Math.PI*2) - Math.PI]
+            entityUids[o] = [Jr[t], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]], rangeMap[Jr[t+10]], Jr[t + 9] / 255 * (Math.PI*2) - Math.PI]
             //ENDEDIT
           }
         }
@@ -10634,7 +10689,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           const entity = entityUids[keys[i]]
           toRender.push([0, entity[1], entity[2], entity[3], "red"]) // hitbox
           toRender.push([1, entity[1], entity[2], "red"]) // center dot
-          //toRender.push([4, ...entityUids[keys[i]]]) // ranges
+          toRender.push([4, entity[1], entity[2], entity[4], entity[5]) // ranges
 
           if (window.globalSettings.basingReferenceLines.enabled) {
             // only tree/stone/bush
