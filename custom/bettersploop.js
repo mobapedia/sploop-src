@@ -10701,7 +10701,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
               toRender.push([4, entity[1], entity[2], entity[4], entity[5], "red"])
           }
           if (entity[0] !== 0 && window.globalSettings.placementAngles.enabled) { // placement angles
-              toRender.push([3, entity[1], entity[2], entity[1]+50*Math.cos(entity[5]), entity[2]+50*Math.sin(entity[5]), "red"])
+              toRender.push([3, entity[1], entity[2], entity[1]+entity[3]*Math.cos(entity[5]), entity[2]+entity[3]*Math.sin(entity[5]), "red"])
           }
 
           if (window.globalSettings.basingReferenceLines.enabled) {
