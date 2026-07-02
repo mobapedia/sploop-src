@@ -9446,7 +9446,6 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                 $e.closePath();
                 $e.fillStyle = "red";
                 $e.fill();
-                $e.stroke();
                 $e.globalAlpha = 1
             }
             if (toRender[i][0] === 1 && window.globalSettings.hitboxes.enabled) { // dots (center hitbox dots)
