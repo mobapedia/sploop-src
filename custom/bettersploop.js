@@ -6408,6 +6408,9 @@ function getPerpendicularPoint(c1, c2, offset) {
             case "for-clan":
                 return et
                 break
+            case "for-golden-cow-interact":
+                return nt
+                break
             case "for-lock-angle":
                 return Zn
                 break
@@ -9408,14 +9411,6 @@ function getPerpendicularPoint(c1, c2, offset) {
               $e.stroke();
             }
             if (toRender[i][0] === 1 && window.globalSettings.hitboxes.enabled) { // dots (center hitbox dots)
-              $e.globalAlpha = 0.5
-              $e.beginPath();
-              $e.arc(toRender[i][1], toRender[i][2], 3, 0, Math.PI * 2);
-              $e.fillStyle = "red";
-              $e.lineWidth = 1;
-              $e.fill();
-              $e.globalAlpha = 1
-
               $e.beginPath();
               $e.arc(toRender[i][1], toRender[i][2], 1, 0, Math.PI * 2);
               $e.fillStyle = "red";
@@ -10630,8 +10625,8 @@ function getPerpendicularPoint(c1, c2, offset) {
         for (let i=0; i < pairs.length; i++) {
             const smallestRadius = (pairs[i][0].r<pairs[i][1].r?pairs[i][0].r:pairs[i][1].r)
             const points = getPerpendicularPoint(pairs[i][0], pairs[i][1], smallestRadius+35-14 /*14 is arbitrary to counter the fact that the player can go into gap between radii but it seems to kinda work*/) //35+(pairs[i][0].r<pairs[i][1].r?pairs[i][0].r:pairs[i][1].r)/2)
-            toRender.push([0, points.pointA.x, points.pointA.y, 35])
-            toRender.push([0, points.pointB.x, points.pointB.y, 35])
+            //toRender.push([0, points.pointA.x, points.pointA.y, 35])
+            //toRender.push([0, points.pointB.x, points.pointB.y, 35])
         }
         //ENDEDIT
       }
