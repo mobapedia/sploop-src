@@ -9,8 +9,15 @@
 // KEYR EDIT shows modifications that enable no spike on reload and fix spike reload bug
 
 // EDIT
-let entityUids = {}
-let toRender = [] // 0 is circle, 1 is dot, 2 is filled circle, 3 is 4 bounding lines , 5 is normal line, 6 is shaded semicircle [type, x, y, radius (if circle/filled circle), entitytype, color]
+/* toRender format:
+0: circle [x,y,r,color]
+1: point [x,y,color]
+2: filled circle [x,y,r,color]
+3: line [x1,y1,x2,y2,color]
+4: shaded semicircle [x,y,r,angle,color]
+*/
+let entityUids = {} // [entityId, x, y, radius, angle]
+let toRender = []
 let coords = []
 const radiusMap = {
     "0": 35,
@@ -9431,52 +9438,28 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         $e.translate(-Pi * 0.5, -Si * 0.5);
         $e.translate(Pi * 0.5 - uo.zh, Si * 0.5 - uo.Mh);
         for (let i=0; i < toRender.length; i++) {
-            if (toRender[i][0] === 0 && window.globalSettings.hitboxes.enabled) { // circles (hitboxes)
+            if (toRender[i][0] === 0 && window.globalSettings.hitboxes.enabled) { // circles
               $e.beginPath();
               $e.arc(toRender[i][1], toRender[i][2], toRender[i][3], 0, Math.PI * 2);
-              $e.strokeStyle = typeof toRender[i][5]==="string"?toRender[i][5]:"red";
+              $e.strokeStyle = toRender[i][4];
               $e.lineWidth = 1;
               $e.stroke();
             }
-            if (toRender[i][0] === 6 && window.globalSettings.hitboxes.enabled) { // ranges
-                $e.globalAlpha = 0.5
-                const angle = toRender[i][5]
-                $e.beginPath();
-                $e.arc(toRender[i][1], toRender[i][2], 165, angle-(Math.PI/2), angle+(Math.PI/2), false);
-                $e.fillStyle = "red";
-                $e.fill();
-                $e.globalAlpha = 1
-            }
-            if (toRender[i][0] === 1 && window.globalSettings.hitboxes.enabled) { // dots (center hitbox dots)
+            if (toRender[i][0] === 1) { // points
               $e.beginPath();
               $e.arc(toRender[i][1], toRender[i][2], 1, 0, Math.PI * 2);
-              $e.fillStyle = "red";
+              $e.fillStyle = toRender[i][3];
               $e.lineWidth = 1;
               $e.fill();
             }
-            if (toRender[i][0] === 3 && window.globalSettings.hitboxes.enabled && false) { // bounding lines (hitboxes)
-              $e.globalAlpha = 0.5
-              for (let ii=0; ii<4; ii++) {
-                  $e.beginPath();
-                  $e.moveTo(toRender[i][1], toRender[i][2]);
-                  switch (ii) {
-                      case 0:
-                          $e.lineTo(toRender[i][1]+toRender[i][3], toRender[i][2]);
-                          break;
-                      case 1:
-                          $e.lineTo(toRender[i][1], toRender[i][2]+toRender[i][3]);
-                          break;
-                      case 2:
-                          $e.lineTo(toRender[i][1]-toRender[i][3], toRender[i][2]);
-                          break;
-                      case 3:
-                          $e.lineTo(toRender[i][1], toRender[i][2]-toRender[i][3]);
-                  }
-                  $e.strokeStyle = "red";
-                  $e.lineWidth = 1;
-                  $e.stroke();
-              }
-              $e.globalAlpha = 1
+            if (toRender[i][0] === 4) { // shaded semicircles
+                const angle = toRender[i][4]
+                $e.globalAlpha = .333
+                $e.beginPath();
+                $e.arc(toRender[i][1], toRender[i][2], toRender[i][3], angle-(Math.PI/2), angle+(Math.PI/2), false);
+                $e.fillStyle = toRender[i][5];
+                $e.fill();
+                $e.globalAlpha = 1
             }
         }
         $e.restore();
@@ -10640,7 +10623,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           } else {
             L(Jr[t], o, Jr[t + 1], Jr[t + 8], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, m().Qw(Jr[t + 9]), i, Jr[t + 11], Jr[t + 12], Jr[t + 13], Jr[t + 14], Jr[t + 15], Jr[t + 16], Jr[t + 17], Jr[t + 18], n);
             //EDIT
-            entityUids[o] = [Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]], Jr[t], Jr[t + 9] / 255 * (Math.PI*2) - Math.PI]
+            entityUids[o] = [Jr[t], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]], Jr[t + 9] / 255 * (Math.PI*2) - Math.PI]
             //ENDEDIT
           }
         }
@@ -10648,34 +10631,32 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         let reordered = []
         let keys = Object.keys(entityUids)
         for (let i=0; i < keys.length; i++) {
-          toRender.push([0, ...entityUids[keys[i]]]) // hitbox
-          toRender.push([1, ...entityUids[keys[i]]]) // center dot
-          toRender.push([3, ...entityUids[keys[i]]]) // bounding lines
-          //toRender.push([6, ...entityUids[keys[i]]]) // ranges
+          const entity = entityUids[keys[i]]
+          toRender.push([0, entity[1], entity[2], entity[3], "red"]) // hitbox
+          toRender.push([1, entity[1], entity[2], "red"]) // center dot
+          //toRender.push([4, ...entityUids[keys[i]]]) // ranges
 
-          // no players/animals/fireball/roof/platform/tornado/lootbox
-          //if (entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 14 && entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 23 && entityUids[keys[i]][3] !== 24 && entityUids[keys[i]][3] !== 25 && entityUids[keys[i]][3] !== 27 && entityUids[keys[i]][3] !== 28 && entityUids[keys[i]][3] !== 29 && entityUids[keys[i]][3] !== 36 && entityUids[keys[i]][3] !== 43 && entityUids[keys[i]][3] !== 26 && entityUids[keys[i]][3] !== 9 && entityUids[keys[i]][3] !== 39 && entityUids[keys[i]][3] !== 11) {
           // only tree/stone/bush
-          if (entityUids[keys[i]][3] === 19 || entityUids[keys[i]][3] === 20 || entityUids[keys[i]][3] === 21 || entityUids[keys[i]][3] === 5) {
-            reordered.push({x:entityUids[keys[i]][0],y:entityUids[keys[i]][1],r:entityUids[keys[i]][2]})
+          if (entity[0] === 19 || entity[0] === 20 || entity[0] === 21 || entity[0] === 5) {
+            reordered.push({x:entity[1],y:entity[2],r:entity[3]})
           }
         }
 
         const pairs = findAllPairsWithinX(reordered, 10) // find all buildings within 10 units
         for (let i=0; i < pairs.length; i++) {
             const playerHolo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 35)
-            toRender.push([0, playerHolo.pointA.x, playerHolo.pointA.y, 35, undefined, "blue"])
-            toRender.push([0, playerHolo.pointB.x, playerHolo.pointB.y, 35, undefined, "blue"])
-            toRender.push([6, playerHolo.pointA.x, playerHolo.pointA.y, undefined, undefined, playerHolo.angle+Math.PI])
-            //toRender.push([6, playerHolo.pointB.x, playerHolo.pointB.y, undefined, undefined, playerHolo.angle])
+            toRender.push([0, playerHolo.pointA.x, playerHolo.pointA.y, 35, "blue"])
+            toRender.push([0, playerHolo.pointB.x, playerHolo.pointB.y, 35, "blue"])
+            toRender.push([4, playerHolo.pointA.x, playerHolo.pointA.y, 165, playerHolo.angle+Math.PI])
+            toRender.push([4, playerHolo.pointB.x, playerHolo.pointB.y, 165, playerHolo.angle])
         
             const _40Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 40)
-            toRender.push([0, _40Holo.pointA.x, _40Holo.pointA.y, 40, undefined, "yellow"])
-            //toRender.push([0, _40Holo.pointB.x, _40Holo.pointB.y, 40, undefined, "yellow"])
+            toRender.push([0, _40Holo.pointA.x, _40Holo.pointA.y, 40, "yellow"])
+            toRender.push([0, _40Holo.pointB.x, _40Holo.pointB.y, 40, "yellow"])
         
             const _42Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 42)
-            toRender.push([0, _42Holo.pointA.x, _42Holo.pointA.y, 42, undefined, "red"])
-            //toRender.push([0, _42Holo.pointB.x, _42Holo.pointB.y, 42, undefined, "red"])
+            toRender.push([0, _42Holo.pointA.x, _42Holo.pointA.y, 42, "red"])
+            toRender.push([0, _42Holo.pointB.x, _42Holo.pointB.y, 42, "red"])
         }
         //ENDEDIT
       }
