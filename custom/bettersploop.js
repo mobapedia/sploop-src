@@ -9445,14 +9445,14 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
               $e.lineWidth = 1;
               $e.stroke();
             }
-            if (toRender[i][0] === 1) { // points
+            if (toRender[i][0] === 1 && window.globalSettings.centerPoint.enabled) { // points
               $e.beginPath();
               $e.arc(toRender[i][1], toRender[i][2], 1, 0, Math.PI * 2);
               $e.fillStyle = toRender[i][3];
               $e.lineWidth = 1;
               $e.fill();
             }
-            if (toRender[i][0] === 4) { // shaded semicircles
+            if (toRender[i][0] === 4 && window.globalSettings.basingReferenceLines.enabled) { // shaded semicircles
                 const angle = toRender[i][4]
                 $e.globalAlpha = .333
                 $e.beginPath();
@@ -10636,27 +10636,31 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           toRender.push([1, entity[1], entity[2], "red"]) // center dot
           //toRender.push([4, ...entityUids[keys[i]]]) // ranges
 
-          // only tree/stone/bush
-          if (entity[0] === 19 || entity[0] === 20 || entity[0] === 21 || entity[0] === 5) {
-            reordered.push({x:entity[1],y:entity[2],r:entity[3]})
+          if (window.globalSettings.basingReferenceLines.enabled) {
+            // only tree/stone/bush
+            if (entity[0] === 19 || entity[0] === 20 || entity[0] === 21 || entity[0] === 5) {
+              reordered.push({x:entity[1],y:entity[2],r:entity[3]})
+            }
           }
         }
 
-        const pairs = findAllPairsWithinX(reordered, 10) // find all buildings within 10 units
-        for (let i=0; i < pairs.length; i++) {
-            const playerHolo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 35)
-            toRender.push([0, playerHolo.pointA.x, playerHolo.pointA.y, 35, "blue"])
-            toRender.push([0, playerHolo.pointB.x, playerHolo.pointB.y, 35, "blue"])
-            toRender.push([4, playerHolo.pointA.x, playerHolo.pointA.y, 165, playerHolo.angle+Math.PI])
-            toRender.push([4, playerHolo.pointB.x, playerHolo.pointB.y, 165, playerHolo.angle])
-        
-            const _40Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 40)
-            toRender.push([0, _40Holo.pointA.x, _40Holo.pointA.y, 40, "yellow"])
-            toRender.push([0, _40Holo.pointB.x, _40Holo.pointB.y, 40, "yellow"])
-        
-            const _42Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 42)
-            toRender.push([0, _42Holo.pointA.x, _42Holo.pointA.y, 42, "red"])
-            toRender.push([0, _42Holo.pointB.x, _42Holo.pointB.y, 42, "red"])
+        if (window.globalSettings.basingReferenceLines.enabled) {
+            const pairs = findAllPairsWithinX(reordered, 10) // find all buildings within 10 units
+            for (let i=0; i < pairs.length; i++) {
+                const playerHolo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 35)
+                toRender.push([0, playerHolo.pointA.x, playerHolo.pointA.y, 35, "blue"])
+                toRender.push([0, playerHolo.pointB.x, playerHolo.pointB.y, 35, "blue"])
+                toRender.push([4, playerHolo.pointA.x, playerHolo.pointA.y, 165, playerHolo.angle+Math.PI])
+                toRender.push([4, playerHolo.pointB.x, playerHolo.pointB.y, 165, playerHolo.angle])
+            
+                const _40Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 40)
+                toRender.push([0, _40Holo.pointA.x, _40Holo.pointA.y, 40, "yellow"])
+                toRender.push([0, _40Holo.pointB.x, _40Holo.pointB.y, 40, "yellow"])
+            
+                const _42Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 42)
+                toRender.push([0, _42Holo.pointA.x, _42Holo.pointA.y, 42, "red"])
+                toRender.push([0, _42Holo.pointB.x, _42Holo.pointB.y, 42, "red"])
+            }
         }
         //ENDEDIT
       }
