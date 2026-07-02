@@ -10,7 +10,7 @@
 
 // EDIT
 let entityUids = {}
-let toRender = [] // 0 is circle, 1 is dot, 2 is filled circle, 3 is 4 bounding lines , 5 is normal line [type, x, y, radius (if circle/filled circle), entitytype, color]
+let toRender = [] // 0 is circle, 1 is dot, 2 is filled circle, 3 is 4 bounding lines , 5 is normal line, 6 is shaded semicircle [type, x, y, radius (if circle/filled circle), entitytype, color]
 let coords = []
 const radiusMap = {
     "0": 35,
@@ -9443,6 +9443,9 @@ function getFittedCircleCenter(c1, c2, rNew) {
               $e.strokeStyle = toRender[i][5] || "red";
               $e.lineWidth = 1;
               $e.stroke();
+            }//Jr[t + 9] / 255 * (Math.PI*2) - Math.PI
+            if (toRender[i][0] === 6 && window.globalSettings.hitboxes.enabled) { // ranges
+console.log(toRender[i])
             }
             if (toRender[i][0] === 1 && window.globalSettings.hitboxes.enabled) { // dots (center hitbox dots)
               $e.beginPath();
@@ -10637,7 +10640,7 @@ function getFittedCircleCenter(c1, c2, rNew) {
           } else {
             L(Jr[t], o, Jr[t + 1], Jr[t + 8], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, m().Qw(Jr[t + 9]), i, Jr[t + 11], Jr[t + 12], Jr[t + 13], Jr[t + 14], Jr[t + 15], Jr[t + 16], Jr[t + 17], Jr[t + 18], n);
             //EDIT
-            entityUids[o] = [Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]], Jr[t]]
+            entityUids[o] = [Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]], Jr[t], Jr[t+9]]
             //ENDEDIT
           }
         }
@@ -10648,6 +10651,7 @@ function getFittedCircleCenter(c1, c2, rNew) {
           toRender.push([0, ...entityUids[keys[i]]]) // hitbox
           toRender.push([1, ...entityUids[keys[i]]]) // center dot
           toRender.push([3, ...entityUids[keys[i]]]) // bounding lines
+          toRender.push([6, ...entityUids[keys[i]]]) // ranges
 
           // no players/animals/fireball/roof/platform/tornado/lootbox
           if (entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 14 && entityUids[keys[i]][3] !== 0 && entityUids[keys[i]][3] !== 23 && entityUids[keys[i]][3] !== 24 && entityUids[keys[i]][3] !== 25 && entityUids[keys[i]][3] !== 27 && entityUids[keys[i]][3] !== 28 && entityUids[keys[i]][3] !== 29 && entityUids[keys[i]][3] !== 36 && entityUids[keys[i]][3] !== 43 && entityUids[keys[i]][3] !== 26 && entityUids[keys[i]][3] !== 9 && entityUids[keys[i]][3] !== 39 && entityUids[keys[i]][3] !== 11) {
