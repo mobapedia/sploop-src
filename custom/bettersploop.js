@@ -9431,6 +9431,13 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         $e.translate(-Pi * 0.5, -Si * 0.5);
         $e.translate(Pi * 0.5 - uo.zh, Si * 0.5 - uo.Mh);
         for (let i=0; i < toRender.length; i++) {
+            if (toRender[i][0] === 0 && window.globalSettings.hitboxes.enabled) { // circles (hitboxes)
+              $e.beginPath();
+              $e.arc(toRender[i][1], toRender[i][2], toRender[i][3], 0, Math.PI * 2);
+              $e.strokeStyle = typeof toRender[i][5]==="string"?toRender[i][5]:"red";
+              $e.lineWidth = 1;
+              $e.stroke();
+            }
             if (toRender[i][0] === 6 && window.globalSettings.hitboxes.enabled) { // ranges
                 $e.globalAlpha = 0.5
                 const angle = toRender[i][5]
@@ -9470,13 +9477,6 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                   $e.stroke();
               }
               $e.globalAlpha = 1
-            }
-            if (toRender[i][0] === 0 && window.globalSettings.hitboxes.enabled) { // circles (hitboxes)
-              $e.beginPath();
-              $e.arc(toRender[i][1], toRender[i][2], toRender[i][3], 0, Math.PI * 2);
-              $e.strokeStyle = typeof toRender[i][5]==="string"?toRender[i][5]:"black";
-              $e.lineWidth = 1;
-              $e.stroke();
             }
         }
         $e.restore();
