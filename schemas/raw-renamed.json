@@ -1,3 +1,4 @@
+//diamond axe is missing
 {
     "inventory": [
         {
@@ -1630,7 +1631,7 @@
             "xu": 128,
             "Bu": 254,
             "hu": 253,
-            "Ta": "Diamond Axe",
+            "Ta": "Ruby Axe",
             "description": "Gathers materials faster",
             "range": 90,
             "Uu": 0,
