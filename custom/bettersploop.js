@@ -9515,7 +9515,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
               $e.lineWidth = 1;
               $e.stroke();
             }
-            if (toRender[i][0] === 4 && window.globalSettings.basingReferenceLines.enabled) { // shaded semicircles ///////////window.globalSettings.weaponRanges.enabled
+            if (toRender[i][0] === 4) { // shaded semicircles ///////////window.globalSettings.weaponRanges.enabled
                 const angle = toRender[i][4]
                 $e.globalAlpha = .333
                 $e.beginPath();
@@ -10699,6 +10699,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]) // center dot
           if (entity[0] === 0 && window.globalSettings.weaponRanges.enabled) { // ranges
               toRender.push([4, entity[1], entity[2], entity[4], entity[5], "red"])
+              console.log(entity[4])
           }
           if (entity[0] !== 0 && window.globalSettings.placementAngles.enabled) { // placement angles
               toRender.push([3, entity[1], entity[2], entity[1]+entity[3]*Math.cos(entity[5]), entity[2]+entity[3]*Math.sin(entity[5]), "red"])
