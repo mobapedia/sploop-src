@@ -11193,7 +11193,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
 
           // ranges and hitbox on held items
           if (entity[0] === 0) { // if player
-              if (rangeMap[entity[4]] && window.globalSettings.weaponRanges.enabled) { // if item held has a range
+              if (rangeMap[entity[4]]) { // if item held has a range
                   toRender.push([4, entity[1], entity[2], rangeMap[entity[4]], entity[5], "red"]);
               } else if (itemIdToEntityIdMap[entity[4]]) { // else if held item has a radius
                   const xOffset = itemIdToOffsetsMap[entity[4]].spriteXOffsetPx;
@@ -11201,12 +11201,13 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                   const spriteWidth = itemIdToOffsetsMap[entity[4]].spriteWidth/2;
                   const spriteHeight = itemIdToOffsetsMap[entity[4]].spriteHeight/2;
                   
-                  let xpos = 35 - xOffset + spriteWidth/2
-                  let ypos = -spriteHeight / 2 + yOffset + spriteHeight/2
-                  let rotatedX = xpos * Math.cos(entity[5]) - ypos * Math.sin(entity[5]);
-                  let rotatedY = xpos * Math.sin(entity[5]) + ypos * Math.cos(entity[5]);
-                  console.log(rotatedX, rotatedY);
+                  const calcOffsetX = 35 - xOffset + spriteWidth/2;
+                  const calcOffsetY = -spriteHeight / 2 + yOffset + spriteHeight/2;
+                  const rotatedX = calcOffsetX * Math.cos(entity[5]) - calcOffsetY * Math.sin(entity[5]);
+                  const rotatedY = calcOffsetX * Math.sin(entity[5]) + calcOffsetY * Math.cos(entity[5]);
                   toRender.push([0, entity[1]+rotatedX, entity[2]+rotatedY, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]);
+                  toRender.push([1, entity[1]+rotatedX, entity[2]+rotatedY, "red"]);
+                  toRender.push([3, entity[1]+rotatedX, entity[2]+rotatedY, entity[1]+rotatedX+entity[3]*Math.cos(entity[5]), entity[2]+rotatedY+entity[3]*Math.sin(entity[5]), "red"]);
               }
           }
 
