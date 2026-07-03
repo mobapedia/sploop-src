@@ -11206,8 +11206,10 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                   //const localY = -48 + yOffset;
                   let xpos = 35 - xOffset
                   let ypos = -spriteHeight / 2 + yOffset
-                  console.log(xpos, ypos)
-                  toRender.push([0, entity[1]+xpos, entity[2]+ypos, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]);
+                  rotatedX = xpos * cos(entity[5]) - rotatedY * sin(entity[5])
+                  rotatedY = xpos * sin(entity[5]) + rotatedY * cos(entity[5])
+                  console.log(rotatedX, rotatedY)
+                  toRender.push([0, entity[1]+rotatedX, entity[2]+rotatedY, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]);
                   //const worldX = localX * Math.cos(entity[5]) - localY * Math.sin(entity[5]);
                   //const worldY = localX * Math.sin(entity[5]) + localY * Math.cos(entity[5]);
               }
