@@ -11198,16 +11198,23 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
               } else if (itemIdToEntityIdMap[entity[4]]) { // else if held item has a radius
                   const xOffset = itemIdToOffsetsMap[entity[4]].spriteXOffsetPx
                   const yOffset = itemIdToOffsetsMap[entity[4]].spriteYOffsetPx
+                  const spriteWidth = itemIdToOffsetsMap[entity[4]].spriteWidth
+                  const spriteHeight = itemIdToOffsetsMap[entity[4]].spriteHeight
                   //const localX = 70 / (0.9 * 0.05) - itemIdToOffsetsMap[entity[4]].spriteWidth / 2 - xOffset;
                   //const localY = -itemIdToOffsetsMap[entity[4]].spriteHeight / 2 + yOffset;
                   //const localX = 29 - itemIdToOffsetsMap[entity[4]].spriteWidth / 2 + xOffset;
                   //const localY = -48 + yOffset;
-                  let xpos = entity[1] + xOffset*Math.cos(entity[5]) - yOffset*Math.sin(entity[5])
-                  let ypos = entity[2] + xOffset*Math.sin(entity[5]) + yOffset*Math.cos(entity[5])
+                  // Calculate the actual offset from the player center (pivot) to the item's center
+                  let dx = (spriteWidth / 2) - xOffset; // Replace 'width' with your sprite width variable
+                  let dy = (spriteHeight / 2) - yOffset; // Replace 'height' with your sprite height variable
+                  
+                  // Apply rotation using the correct center offsets
+                  let xpos = entity[1] + dx * Math.cos(entity[5]) - dy * Math.sin(entity[5]);
+                  let ypos = entity[2] + dx * Math.sin(entity[5]) + dy * Math.cos(entity[5]);
                   console.log(xpos, ypos)
+                  toRender.push([0, xpos, ypos, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]);
                   //const worldX = localX * Math.cos(entity[5]) - localY * Math.sin(entity[5]);
                   //const worldY = localX * Math.sin(entity[5]) + localY * Math.cos(entity[5]);
-                  toRender.push([0, xpos, ypos, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]);
               }
           }
 
