@@ -11198,8 +11198,8 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
               } else if (itemIdToEntityIdMap[entity[4]]) { // else if held item has a radius
                   const xOffset = itemIdToOffsetsMap[entity[4]].spriteXOffsetPx
                   const yOffset = itemIdToOffsetsMap[entity[4]].spriteYOffsetPx
-                  const spriteWidth = itemIdToOffsetsMap[entity[4]].spriteWidth
-                  const spriteHeight = itemIdToOffsetsMap[entity[4]].spriteHeight
+                  const spriteWidth = itemIdToOffsetsMap[entity[4]].spriteWidth/2
+                  const spriteHeight = itemIdToOffsetsMap[entity[4]].spriteHeight/2
                   //const localX = 70 / (0.9 * 0.05) - itemIdToOffsetsMap[entity[4]].spriteWidth / 2 - xOffset;
                   //const localY = -itemIdToOffsetsMap[entity[4]].spriteHeight / 2 + yOffset;
                   //const localX = 29 - itemIdToOffsetsMap[entity[4]].spriteWidth / 2 + xOffset;
