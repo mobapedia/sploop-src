@@ -11203,7 +11203,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
 
                   const worldX = localX * Math.cos(entity[5]) - localY * Math.sin(entity[5]);
                   const worldY = localX * Math.sin(entity[5]) + localY * Math.cos(entity[5]);
-                  toRender.push([0, entity[1]+worldX/5, entity[2]+worldY/5, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]);
+                  toRender.push([0, entity[1]+worldX/10, entity[2]+worldY/10, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]);
               }
           }
 
