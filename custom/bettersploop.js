@@ -11196,8 +11196,8 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
               if (rangeMap[entity[4]] && window.globalSettings.weaponRanges.enabled) { // if item held has a range
                   toRender.push([4, entity[1], entity[2], rangeMap[entity[4]], entity[5], "red"]);
               } else if (itemIdToEntityIdMap[entity[4]]) { // else if held item has a radius
-                  const localX = 29 - itemIdToOffsetsMap[entity[4]].spriteWidth / 2 + itemIdToOffsetsMap[entity[4]].spriteXOffset;
-                  const localY = -48 + itemIdToOffsetsMap[entity[4]].spriteYOffset;
+                  const localX = 29 - itemIdToOffsetsMap[entity[4]].spriteWidth / 2 + itemIdToOffsetsMap[entity[4]].spriteXOffsetPx;
+                  const localY = -48 + itemIdToOffsetsMap[entity[4]].spriteYOffsetPx;
                   const distance = Math.sqrt(localX * localX + localY * localY);
 
                   const worldX = localX * Math.cos(entity[5]) - localY * Math.sin(entity[5]);
