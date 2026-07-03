@@ -9985,21 +9985,21 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         $e.translate(-Pi * 0.5, -Si * 0.5);
         $e.translate(Pi * 0.5 - uo.zh, Si * 0.5 - uo.Mh);
         for (let i=0; i < toRender.length; i++) {
-            if (toRender[i][0] === 0 && window.globalSettings.hitboxes.enabled) { // circles
+            if (toRender[i][0] === 0) { // circles
               $e.beginPath();
               $e.arc(toRender[i][1], toRender[i][2], toRender[i][3], 0, Math.PI * 2);
               $e.strokeStyle = toRender[i][4];
               $e.lineWidth = 1;
               $e.stroke();
             }
-            if (toRender[i][0] === 1 && window.globalSettings.centerPoint.enabled) { // points
+            if (toRender[i][0] === 1) { // points
               $e.beginPath();
               $e.arc(toRender[i][1], toRender[i][2], 1, 0, Math.PI * 2);
               $e.fillStyle = toRender[i][3];
               $e.lineWidth = 1;
               $e.fill();
             }
-            if (toRender[i][0] === 3 && window.globalSettings.placementAngles.enabled) { // lines
+            if (toRender[i][0] === 3) { // lines
               $e.beginPath();
               $e.moveTo(toRender[i][1], toRender[i][2]);
               $e.lineTo(toRender[i][3], toRender[i][4]);
@@ -10007,7 +10007,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
               $e.lineWidth = 1;
               $e.stroke();
             }
-            if (toRender[i][0] === 4) { // shaded semicircles ///////////window.globalSettings.weaponRanges.enabled
+            if (toRender[i][0] === 4) { // shaded semicircles
                 const angle = toRender[i][4]
                 $e.globalAlpha = .333
                 $e.beginPath();
@@ -11188,7 +11188,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         for (let i=0; i < keys.length; i++) {
           const entity = entityUids[keys[i]];
           if (window.globalSettings.hitboxes.enabled) toRender.push([0, entity[1], entity[2], entity[3], "red"]); // hitboxes
-          if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]); // center dots
+          if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]); // center points
           if (window.globalSettings.placementAngles.enabled) toRender.push([3, entity[1], entity[2], entity[1]+entity[3]*Math.cos(entity[5]), entity[2]+entity[3]*Math.sin(entity[5]), "red"]); // angles
 
           // ranges and hitbox on held items
@@ -11205,9 +11205,9 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                   const calcOffsetY = -spriteHeight / 2 + yOffset + spriteHeight/2;
                   const rotatedX = calcOffsetX * Math.cos(entity[5]) - calcOffsetY * Math.sin(entity[5]);
                   const rotatedY = calcOffsetX * Math.sin(entity[5]) + calcOffsetY * Math.cos(entity[5]);
-                  toRender.push([0, entity[1]+rotatedX, entity[2]+rotatedY, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]);
-                  toRender.push([1, entity[1]+rotatedX, entity[2]+rotatedY, "red"]);
-                  toRender.push([3, entity[1]+rotatedX, entity[2]+rotatedY, entity[1]+rotatedX+entity[3]*Math.cos(entity[5]), entity[2]+rotatedY+entity[3]*Math.sin(entity[5]), "red"]);
+                  toRender.push([0, entity[1]+rotatedX, entity[2]+rotatedY, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]); // hitbox
+                  toRender.push([1, entity[1]+rotatedX, entity[2]+rotatedY, "red"]); // center point
+                  toRender.push([3, entity[1]+rotatedX, entity[2]+rotatedY, (entity[1]+rotatedX)+entity[3]*Math.cos(entity[5]), (entity[2]+rotatedY)+entity[3]*Math.sin(entity[5]), "red"]); // angle
               }
           }
 
@@ -11226,8 +11226,6 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                 const _35Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 35);
                 toRender.push([0, _35Holo.pointA.x, _35Holo.pointA.y, 35, "blue"]);
                 toRender.push([0, _35Holo.pointB.x, _35Holo.pointB.y, 35, "blue"]);
-                toRender.push([4, _35Holo.pointA.x, _35Holo.pointA.y, 165, _35Holo.angle+Math.PI]);
-                toRender.push([4, _35Holo.pointB.x, _35Holo.pointB.y, 165, _35Holo.angle]);
 
                 const _40Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 40);
                 toRender.push([0, _40Holo.pointA.x, _40Holo.pointA.y, 40, "yellow"]);
@@ -11236,6 +11234,10 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                 const _42Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 42);
                 toRender.push([0, _42Holo.pointA.x, _42Holo.pointA.y, 42, "red"]);
                 toRender.push([0, _42Holo.pointB.x, _42Holo.pointB.y, 42, "red"]);
+
+                // 165 ranges
+                toRender.push([4, _35Holo.pointA.x, _35Holo.pointA.y, 165, _35Holo.angle+Math.PI, "yellow"]);
+                toRender.push([4, _35Holo.pointB.x, _35Holo.pointB.y, 165, _35Holo.angle, "yellow"]);
             }
         }
         //ENDEDIT
