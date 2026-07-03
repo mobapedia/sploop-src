@@ -144,315 +144,471 @@ const itemIdToEntityIdMap = {
 const itemIdToOffsetsMap = {
     "0": {
         "spriteXOffsetPx": 1,
-        "spriteYOffsetPx": -3.5
+        "spriteYOffsetPx": -3.5,
+        "spriteWidth": 275,
+        "spriteHeight": 275
     },
     "1": {
         "spriteXOffsetPx": -4,
-        "spriteYOffsetPx": -8
+        "spriteYOffsetPx": -8,
+        "spriteWidth": 256,
+        "spriteHeight": 410
     },
     "2": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 256,
+        "spriteHeight": 435
     },
     "3": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": -2
+        "spriteYOffsetPx": -2,
+        "spriteWidth": 275,
+        "spriteHeight": 275
     },
     "4": {
         "spriteXOffsetPx": 0,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 400,
+        "spriteHeight": 400
     },
     "5": {
         "spriteXOffsetPx": 15,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 220,
+        "spriteHeight": 220
     },
     "6": {
         "spriteXOffsetPx": 3,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 192,
+        "spriteHeight": 192
     },
     "7": {
         "spriteXOffsetPx": 15,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 232,
+        "spriteHeight": 224
     },
     "8": {
         "spriteXOffsetPx": 8,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 280,
+        "spriteHeight": 280
     },
     "9": {
         "spriteXOffsetPx": 26,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "10": {
         "spriteXOffsetPx": 22,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 150,
+        "spriteHeight": 150
     },
     "11": {
         "spriteXOffsetPx": 10,
-        "spriteYOffsetPx": -15
+        "spriteYOffsetPx": -15,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "12": {
         "spriteXOffsetPx": 22,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 150,
+        "spriteHeight": 150
     },
     "13": {
         "spriteXOffsetPx": 0,
-        "spriteYOffsetPx": 4
+        "spriteYOffsetPx": 4,
+        "spriteWidth": 275,
+        "spriteHeight": 275
     },
     "14": {
         "spriteXOffsetPx": 38,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 350,
+        "spriteHeight": 350
     },
     "15": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 5
+        "spriteYOffsetPx": 5,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "16": {
         "spriteXOffsetPx": 25,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "17": {
         "spriteXOffsetPx": 3,
-        "spriteYOffsetPx": 1
+        "spriteYOffsetPx": 1,
+        "spriteWidth": 256,
+        "spriteHeight": 435
     },
     "18": {
         "spriteXOffsetPx": 14,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "19": {
         "spriteXOffsetPx": 38,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 350,
+        "spriteHeight": 350
     },
     "20": {
         "spriteXOffsetPx": 15,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 232,
+        "spriteHeight": 224
     },
     "21": {
         "spriteXOffsetPx": 25,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 257,
+        "spriteHeight": 257
     },
     "22": {
         "spriteXOffsetPx": 47,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 500,
+        "spriteHeight": 500
     },
     "23": {
         "spriteXOffsetPx": 47,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 500,
+        "spriteHeight": 500
     },
     "24": {
         "spriteXOffsetPx": 17,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "25": {
         "spriteXOffsetPx": 20,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 300,
+        "spriteHeight": 300
     },
     "26": {
         "spriteXOffsetPx": 35,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "27": {
         "spriteXOffsetPx": 30,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "28": {
         "spriteXOffsetPx": -4,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 276,
+        "spriteHeight": 420
     },
     "29": {
         "spriteXOffsetPx": 13,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "30": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 4
+        "spriteYOffsetPx": 4,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "31": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 10
+        "spriteYOffsetPx": 10,
+        "spriteWidth": 128,
+        "spriteHeight": 284
     },
     "32": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": -2
+        "spriteYOffsetPx": -2,
+        "spriteWidth": 275,
+        "spriteHeight": 275
     },
     "33": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": -2
+        "spriteYOffsetPx": -2,
+        "spriteWidth": 275,
+        "spriteHeight": 275
     },
     "34": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 4
+        "spriteYOffsetPx": 4,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "35": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 4
+        "spriteYOffsetPx": 4,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "36": {
         "spriteXOffsetPx": 3,
-        "spriteYOffsetPx": 1
+        "spriteYOffsetPx": 1,
+        "spriteWidth": 256,
+        "spriteHeight": 435
     },
     "37": {
         "spriteXOffsetPx": 3,
-        "spriteYOffsetPx": 1
+        "spriteYOffsetPx": 1,
+        "spriteWidth": 256,
+        "spriteHeight": 435
     },
     "38": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 256,
+        "spriteHeight": 435
     },
     "39": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 256,
+        "spriteHeight": 435
     },
     "40": {
         "spriteXOffsetPx": 3,
-        "spriteYOffsetPx": 1
+        "spriteYOffsetPx": 1,
+        "spriteWidth": 256,
+        "spriteHeight": 435
     },
     "41": {
         "spriteXOffsetPx": 0,
-        "spriteYOffsetPx": 4
+        "spriteYOffsetPx": 4,
+        "spriteWidth": 275,
+        "spriteHeight": 275
     },
     "42": {
         "spriteXOffsetPx": 0,
-        "spriteYOffsetPx": 4
+        "spriteYOffsetPx": 4,
+        "spriteWidth": 275,
+        "spriteHeight": 275
     },
     "43": {
         "spriteXOffsetPx": 0,
-        "spriteYOffsetPx": 4
+        "spriteYOffsetPx": 4,
+        "spriteWidth": 275,
+        "spriteHeight": 275
     },
     "44": {
         "spriteXOffsetPx": -4,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 276,
+        "spriteHeight": 420
     },
     "45": {
         "spriteXOffsetPx": -4,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 276,
+        "spriteHeight": 420
     },
     "46": {
         "spriteXOffsetPx": 1,
-        "spriteYOffsetPx": -3.5
+        "spriteYOffsetPx": -3.5,
+        "spriteWidth": 275,
+        "spriteHeight": 275
     },
     "47": {
         "spriteXOffsetPx": 1,
-        "spriteYOffsetPx": -3.5
+        "spriteYOffsetPx": -3.5,
+        "spriteWidth": 275,
+        "spriteHeight": 275
     },
     "48": {
         "spriteXOffsetPx": 1,
-        "spriteYOffsetPx": -3.5
+        "spriteYOffsetPx": -3.5,
+        "spriteWidth": 275,
+        "spriteHeight": 275
     },
     "49": {
         "spriteXOffsetPx": 15,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 257,
+        "spriteHeight": 257
     },
     "50": {
         "spriteXOffsetPx": 35,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 150,
+        "spriteHeight": 150
     },
     "51": {
         "spriteXOffsetPx": 15,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 140,
+        "spriteHeight": 140
     },
     "52": {
         "spriteXOffsetPx": 20,
-        "spriteYOffsetPx": 10
+        "spriteYOffsetPx": 10,
+        "spriteWidth": 214,
+        "spriteHeight": 156
     },
     "53": {
         "spriteXOffsetPx": 20,
-        "spriteYOffsetPx": 10
+        "spriteYOffsetPx": 10,
+        "spriteWidth": 215,
+        "spriteHeight": 157
     },
     "54": {
         "spriteXOffsetPx": 20,
-        "spriteYOffsetPx": 10
+        "spriteYOffsetPx": 10,
+        "spriteWidth": 215,
+        "spriteHeight": 157
     },
     "56": {
         "spriteXOffsetPx": 20,
-        "spriteYOffsetPx": 10
+        "spriteYOffsetPx": 10,
+        "spriteWidth": 215,
+        "spriteHeight": 167
     },
     "57": {
         "spriteXOffsetPx": 40,
-        "spriteYOffsetPx": 40
+        "spriteYOffsetPx": 40,
+        "spriteWidth": 225,
+        "spriteHeight": 122
     },
     "58": {
         "spriteXOffsetPx": 20,
-        "spriteYOffsetPx": -5
+        "spriteYOffsetPx": -5,
+        "spriteWidth": 274,
+        "spriteHeight": 361
     },
     "59": {
         "spriteXOffsetPx": 0,
-        "spriteYOffsetPx": -30
+        "spriteYOffsetPx": -30,
+        "spriteWidth": 256,
+        "spriteHeight": 440
     },
     "60": {
         "spriteXOffsetPx": 0,
-        "spriteYOffsetPx": -30
+        "spriteYOffsetPx": -30,
+        "spriteWidth": 256,
+        "spriteHeight": 440
     },
     "61": {
         "spriteXOffsetPx": 0,
-        "spriteYOffsetPx": -30
+        "spriteYOffsetPx": -30,
+        "spriteWidth": 256,
+        "spriteHeight": 435
     },
     "62": {
         "spriteXOffsetPx": 0,
-        "spriteYOffsetPx": -30
+        "spriteYOffsetPx": -30,
+        "spriteWidth": 256,
+        "spriteHeight": 436
     },
     "63": {
         "spriteXOffsetPx": 26,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 257,
+        "spriteHeight": 257
     },
     "64": {
         "spriteXOffsetPx": 15,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 246,
+        "spriteHeight": 238
     },
     "65": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 5
+        "spriteYOffsetPx": 5,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "66": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 5
+        "spriteYOffsetPx": 5,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "67": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 5
+        "spriteYOffsetPx": 5,
+        "spriteWidth": 256,
+        "spriteHeight": 256
     },
     "68": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 10
+        "spriteYOffsetPx": 10,
+        "spriteWidth": 128,
+        "spriteHeight": 284
     },
     "69": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 10
+        "spriteYOffsetPx": 10,
+        "spriteWidth": 128,
+        "spriteHeight": 284
     },
     "70": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 10
+        "spriteYOffsetPx": 10,
+        "spriteWidth": 128,
+        "spriteHeight": 309
     },
     "71": {
         "spriteXOffsetPx": 20,
-        "spriteYOffsetPx": 10
+        "spriteYOffsetPx": 10,
+        "spriteWidth": 214,
+        "spriteHeight": 166
     },
     "72": {
         "spriteXOffsetPx": -4,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 276,
+        "spriteHeight": 431
     },
     "73": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 0
+        "spriteYOffsetPx": 0,
+        "spriteWidth": 256,
+        "spriteHeight": 435
     },
     "74": {
         "spriteXOffsetPx": -4,
-        "spriteYOffsetPx": -8
+        "spriteYOffsetPx": -8,
+        "spriteWidth": 256,
+        "spriteHeight": 410
     },
     "75": {
         "spriteXOffsetPx": -4,
-        "spriteYOffsetPx": -8
+        "spriteYOffsetPx": -8,
+        "spriteWidth": 256,
+        "spriteHeight": 410
     },
     "76": {
         "spriteXOffsetPx": -4,
-        "spriteYOffsetPx": -8
+        "spriteYOffsetPx": -8,
+        "spriteWidth": 256,
+        "spriteHeight": 410
     },
     "77": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": -2
+        "spriteYOffsetPx": -2,
+        "spriteWidth": 288,
+        "spriteHeight": 288
     },
     "78": {
         "spriteXOffsetPx": 2,
-        "spriteYOffsetPx": 4
+        "spriteYOffsetPx": 4,
+        "spriteWidth": 238,
+        "spriteHeight": 280
     }
 }
 function findAllPairsWithinX(circles, x) {
@@ -11027,49 +11183,54 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           }
         }
         //EDIT
-        let reordered = []
-        let keys = Object.keys(entityUids)
+        let reordered = [];
+        let keys = Object.keys(entityUids);
         for (let i=0; i < keys.length; i++) {
-          const entity = entityUids[keys[i]]
-          if (window.globalSettings.hitboxes.enabled) toRender.push([0, entity[1], entity[2], entity[3], "red"]) // hitboxes
-          if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]) // center dots
-          if (window.globalSettings.placementAngles.enabled) toRender.push([3, entity[1], entity[2], entity[1]+entity[3]*Math.cos(entity[5]), entity[2]+entity[3]*Math.sin(entity[5]), "red"]) // angles
+          const entity = entityUids[keys[i]];
+          if (window.globalSettings.hitboxes.enabled) toRender.push([0, entity[1], entity[2], entity[3], "red"]); // hitboxes
+          if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]); // center dots
+          if (window.globalSettings.placementAngles.enabled) toRender.push([3, entity[1], entity[2], entity[1]+entity[3]*Math.cos(entity[5]), entity[2]+entity[3]*Math.sin(entity[5]), "red"]); // angles
 
           // ranges and hitbox on held items
           if (entity[0] === 0) { // if player
               if (rangeMap[entity[4]] && window.globalSettings.weaponRanges.enabled) { // if item held has a range
-                  toRender.push([4, entity[1], entity[2], rangeMap[entity[4]], entity[5], "red"])
-                  console.log(entity[4])
+                  toRender.push([4, entity[1], entity[2], rangeMap[entity[4]], entity[5], "red"]);
               } else if (itemIdToEntityIdMap[entity[4]]) { // else if held item has a radius
-                  toRender.push([0, entity[1], entity[2], radiusMap[itemIdToEntityIdMap[entity[4]]], "red"])
+                  const localX = 29 - itemIdToOffsetsMap[entity[4]].spriteWidth / 2 + itemIdToOffsetsMap[entity[4]].spriteXOffset;
+                  const localY = -48 + itemIdToOffsetsMap[entity[4]].spriteYOffset;
+                  const distance = Math.sqrt(localX * localX + localY * localY);
+
+                  const worldX = localX * Math.cos(entity[5]) - localY * Math.sin(entity[5]);
+                  const worldY = localX * Math.sin(entity[5]) + localY * Math.cos(entity[5]);
+                  toRender.push([0, entity[1]+worldX, entity[2]+worldY, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]);
               }
           }
 
           // basing reference lines
           if (window.globalSettings.basingReferenceLines.enabled) {
             if (entity[0] === 19 || entity[0] === 20 || entity[0] === 21 || entity[0] === 5) { // only tree/stone/bush
-              reordered.push({x:entity[1],y:entity[2],r:entity[3]})
+              reordered.push({x:entity[1],y:entity[2],r:entity[3]});
             }
           }
         }
 
         // basing reference lines
         if (window.globalSettings.basingReferenceLines.enabled) {
-            const pairs = findAllPairsWithinX(reordered, 10) // find all buildings within 10 units
+            const pairs = findAllPairsWithinX(reordered, 10); // find all buildings within 10 units
             for (let i=0; i < pairs.length; i++) {
-                const playerHolo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 35)
-                toRender.push([0, playerHolo.pointA.x, playerHolo.pointA.y, 35, "blue"])
-                toRender.push([0, playerHolo.pointB.x, playerHolo.pointB.y, 35, "blue"])
-                toRender.push([4, playerHolo.pointA.x, playerHolo.pointA.y, 165, playerHolo.angle+Math.PI])
-                toRender.push([4, playerHolo.pointB.x, playerHolo.pointB.y, 165, playerHolo.angle])
+                const _35Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 35);
+                toRender.push([0, _35Holo.pointA.x, _35Holo.pointA.y, 35, "blue"]);
+                toRender.push([0, _35Holo.pointB.x, _35Holo.pointB.y, 35, "blue"]);
+                toRender.push([4, _35Holo.pointA.x, _35Holo.pointA.y, 165, _35Holo.angle+Math.PI]);
+                toRender.push([4, _35Holo.pointB.x, _35Holo.pointB.y, 165, _35Holo.angle]);
+
+                const _40Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 40);
+                toRender.push([0, _40Holo.pointA.x, _40Holo.pointA.y, 40, "yellow"]);
+                toRender.push([0, _40Holo.pointB.x, _40Holo.pointB.y, 40, "yellow"]);
             
-                const _40Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 40)
-                toRender.push([0, _40Holo.pointA.x, _40Holo.pointA.y, 40, "yellow"])
-                toRender.push([0, _40Holo.pointB.x, _40Holo.pointB.y, 40, "yellow"])
-            
-                const _42Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 42)
-                toRender.push([0, _42Holo.pointA.x, _42Holo.pointA.y, 42, "red"])
-                toRender.push([0, _42Holo.pointB.x, _42Holo.pointB.y, 42, "red"])
+                const _42Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 42);
+                toRender.push([0, _42Holo.pointA.x, _42Holo.pointA.y, 42, "red"]);
+                toRender.push([0, _42Holo.pointB.x, _42Holo.pointB.y, 42, "red"]);
             }
         }
         //ENDEDIT
