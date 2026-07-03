@@ -11198,14 +11198,16 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
               } else if (itemIdToEntityIdMap[entity[4]]) { // else if held item has a radius
                   const xOffset = itemIdToOffsetsMap[entity[4]].spriteXOffsetPx
                   const yOffset = itemIdToOffsetsMap[entity[4]].spriteYOffsetPx
-                  const localX = 70 / (0.9 * 0.05) - itemIdToOffsetsMap[entity[4]].spriteWidth / 2 - xOffset;
-                  const localY = -itemIdToOffsetsMap[entity[4]].spriteHeight / 2 + yOffset;
+                  //const localX = 70 / (0.9 * 0.05) - itemIdToOffsetsMap[entity[4]].spriteWidth / 2 - xOffset;
+                  //const localY = -itemIdToOffsetsMap[entity[4]].spriteHeight / 2 + yOffset;
                   //const localX = 29 - itemIdToOffsetsMap[entity[4]].spriteWidth / 2 + xOffset;
                   //const localY = -48 + yOffset;
-                  console.log((entity[1] + xOffset*Math.cos(entity[5]) - yOffset*Math.sin(entity[5]), entity[2] + xOffset*Math.sin(entity[5]) + yOffset*Math.cos(entity[5])))
-                  const worldX = localX * Math.cos(entity[5]) - localY * Math.sin(entity[5]);
-                  const worldY = localX * Math.sin(entity[5]) + localY * Math.cos(entity[5]);
-                  toRender.push([0, entity[1]+worldX/10, entity[2]+worldY/10, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]);
+                  let xpos = entity[1] + xOffset*Math.cos(entity[5]) - yOffset*Math.sin(entity[5])
+                  let ypos = entity[2] + xOffset*Math.sin(entity[5]) + yOffset*Math.cos(entity[5])
+                  console.log(xpos, ypos)
+                  //const worldX = localX * Math.cos(entity[5]) - localY * Math.sin(entity[5]);
+                  //const worldY = localX * Math.sin(entity[5]) + localY * Math.cos(entity[5]);
+                  toRender.push([0, xpos, ypos, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]);
               }
           }
 
