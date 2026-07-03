@@ -16,7 +16,7 @@
 3: line [x1,y1,x2,y2,color]
 4: shaded semicircle [x,y,r,angle,color]
 */
-let entityUids = {} // [entityId, x, y, radius, toolRange, angle]
+let entityUids = {} // [entityId, x, y, radius, itemidofhelditem, angle]
 let toRender = []
 let coords = []
 const radiusMap = {
@@ -119,7 +119,28 @@ const rangeMap = {
     "77": 90,
     "78": 94
 }
-const itemIdToEntityIdMap = {}
+const itemIdToEntityIdMap = {
+    "5": 8,
+    "6": 10,
+    "7": 7,
+    "8": 9,
+    "9": 6,
+    "14": 13,
+    "16": 15,
+    "18": 17,
+    "19": 16,
+    "20": 2,
+    "21": 18,
+    "22": 20,
+    "23": 19,
+    "24": 5,
+    "25": 21,
+    "29": 22,
+    "49": 26,
+    "51": 37,
+    "63": 41,
+    "64": 42
+}
 function findAllPairsWithinX(circles, x) {
     const len = circles.length;
     if (len < 2) return [];
@@ -10696,17 +10717,16 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         let keys = Object.keys(entityUids)
         for (let i=0; i < keys.length; i++) {
           const entity = entityUids[keys[i]]
-          if (window.globalSettings.hitboxes.enabled) toRender.push([0, entity[1], entity[2], entity[3], "red"]) // hitbox
-          if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]) // center dot
+          if (window.globalSettings.hitboxes.enabled) toRender.push([0, entity[1], entity[2], entity[3], "red"]) // hitboxes
+          if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]) // center dots
           if (window.globalSettings.placementAngles.enabled) toRender.push([3, entity[1], entity[2], entity[1]+entity[3]*Math.cos(entity[5]), entity[2]+entity[3]*Math.sin(entity[5]), "red"]) // angles
 
-          // ranges and 
+          // ranges and hitbox on held items
           if (entity[0] === 0) { // if player
-              if (rangeMap[entity[4]] && window.globalSettings.weaponRanges.enabled) { // ranges (if item held has a range)
+              if (rangeMap[entity[4]] && window.globalSettings.weaponRanges.enabled) { // if item held has a range
                   toRender.push([4, entity[1], entity[2], rangeMap[entity[4]], entity[5], "red"])
-                  console.log(entity[4])
-              } else if (itemIdToEntityIdMap[entity[4]]) { // else if held item has a radius (then draw hitbox)
-                  
+              } else if (itemIdToEntityIdMap[entity[4]]) { // else if held item has a radius
+                  toRender.push([0, entity[1], entity[2], radiusMap[itemIdToEntityIdMap[entity[4]]], "red"])
               }
           }
 
