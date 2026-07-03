@@ -11194,7 +11194,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           // ranges and hitbox on held items
           if (entity[0] === 0) { // if player
               if (rangeMap[entity[4]]) { // if item held has a range
-                  if (window.globalSettings.weaponRanges) toRender.push([4, entity[1], entity[2], rangeMap[entity[4]], entity[5], "red", .333]);
+                  if (window.globalSettings.weaponRanges.enabled) toRender.push([4, entity[1], entity[2], rangeMap[entity[4]], entity[5], "red", .333]);
               } else if (itemIdToEntityIdMap[entity[4]]) { // else if held item has a radius
                   const xOffset = itemIdToOffsetsMap[entity[4]].spriteXOffsetPx;
                   const yOffset = itemIdToOffsetsMap[entity[4]].spriteYOffsetPx;
