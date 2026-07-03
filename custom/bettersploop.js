@@ -141,6 +141,320 @@ const itemIdToEntityIdMap = {
     "63": 41,
     "64": 42
 }
+const itemIdToOffsetsMap = {
+    "0": {
+        "spriteXOffsetPx": 1,
+        "spriteYOffsetPx": -3.5
+    },
+    "1": {
+        "spriteXOffsetPx": -4,
+        "spriteYOffsetPx": -8
+    },
+    "2": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 0
+    },
+    "3": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": -2
+    },
+    "4": {
+        "spriteXOffsetPx": 0,
+        "spriteYOffsetPx": 0
+    },
+    "5": {
+        "spriteXOffsetPx": 15,
+        "spriteYOffsetPx": 0
+    },
+    "6": {
+        "spriteXOffsetPx": 3,
+        "spriteYOffsetPx": 0
+    },
+    "7": {
+        "spriteXOffsetPx": 15,
+        "spriteYOffsetPx": 0
+    },
+    "8": {
+        "spriteXOffsetPx": 8,
+        "spriteYOffsetPx": 0
+    },
+    "9": {
+        "spriteXOffsetPx": 26,
+        "spriteYOffsetPx": 0
+    },
+    "10": {
+        "spriteXOffsetPx": 22,
+        "spriteYOffsetPx": 0
+    },
+    "11": {
+        "spriteXOffsetPx": 10,
+        "spriteYOffsetPx": -15
+    },
+    "12": {
+        "spriteXOffsetPx": 22,
+        "spriteYOffsetPx": 0
+    },
+    "13": {
+        "spriteXOffsetPx": 0,
+        "spriteYOffsetPx": 4
+    },
+    "14": {
+        "spriteXOffsetPx": 38,
+        "spriteYOffsetPx": 0
+    },
+    "15": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 5
+    },
+    "16": {
+        "spriteXOffsetPx": 25,
+        "spriteYOffsetPx": 0
+    },
+    "17": {
+        "spriteXOffsetPx": 3,
+        "spriteYOffsetPx": 1
+    },
+    "18": {
+        "spriteXOffsetPx": 14,
+        "spriteYOffsetPx": 0
+    },
+    "19": {
+        "spriteXOffsetPx": 38,
+        "spriteYOffsetPx": 0
+    },
+    "20": {
+        "spriteXOffsetPx": 15,
+        "spriteYOffsetPx": 0
+    },
+    "21": {
+        "spriteXOffsetPx": 25,
+        "spriteYOffsetPx": 0
+    },
+    "22": {
+        "spriteXOffsetPx": 47,
+        "spriteYOffsetPx": 0
+    },
+    "23": {
+        "spriteXOffsetPx": 47,
+        "spriteYOffsetPx": 0
+    },
+    "24": {
+        "spriteXOffsetPx": 17,
+        "spriteYOffsetPx": 0
+    },
+    "25": {
+        "spriteXOffsetPx": 20,
+        "spriteYOffsetPx": 0
+    },
+    "26": {
+        "spriteXOffsetPx": 35,
+        "spriteYOffsetPx": 0
+    },
+    "27": {
+        "spriteXOffsetPx": 30,
+        "spriteYOffsetPx": 0
+    },
+    "28": {
+        "spriteXOffsetPx": -4,
+        "spriteYOffsetPx": 0
+    },
+    "29": {
+        "spriteXOffsetPx": 13,
+        "spriteYOffsetPx": 0
+    },
+    "30": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 4
+    },
+    "31": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 10
+    },
+    "32": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": -2
+    },
+    "33": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": -2
+    },
+    "34": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 4
+    },
+    "35": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 4
+    },
+    "36": {
+        "spriteXOffsetPx": 3,
+        "spriteYOffsetPx": 1
+    },
+    "37": {
+        "spriteXOffsetPx": 3,
+        "spriteYOffsetPx": 1
+    },
+    "38": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 0
+    },
+    "39": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 0
+    },
+    "40": {
+        "spriteXOffsetPx": 3,
+        "spriteYOffsetPx": 1
+    },
+    "41": {
+        "spriteXOffsetPx": 0,
+        "spriteYOffsetPx": 4
+    },
+    "42": {
+        "spriteXOffsetPx": 0,
+        "spriteYOffsetPx": 4
+    },
+    "43": {
+        "spriteXOffsetPx": 0,
+        "spriteYOffsetPx": 4
+    },
+    "44": {
+        "spriteXOffsetPx": -4,
+        "spriteYOffsetPx": 0
+    },
+    "45": {
+        "spriteXOffsetPx": -4,
+        "spriteYOffsetPx": 0
+    },
+    "46": {
+        "spriteXOffsetPx": 1,
+        "spriteYOffsetPx": -3.5
+    },
+    "47": {
+        "spriteXOffsetPx": 1,
+        "spriteYOffsetPx": -3.5
+    },
+    "48": {
+        "spriteXOffsetPx": 1,
+        "spriteYOffsetPx": -3.5
+    },
+    "49": {
+        "spriteXOffsetPx": 15,
+        "spriteYOffsetPx": 0
+    },
+    "50": {
+        "spriteXOffsetPx": 35,
+        "spriteYOffsetPx": 0
+    },
+    "51": {
+        "spriteXOffsetPx": 15,
+        "spriteYOffsetPx": 0
+    },
+    "52": {
+        "spriteXOffsetPx": 20,
+        "spriteYOffsetPx": 10
+    },
+    "53": {
+        "spriteXOffsetPx": 20,
+        "spriteYOffsetPx": 10
+    },
+    "54": {
+        "spriteXOffsetPx": 20,
+        "spriteYOffsetPx": 10
+    },
+    "56": {
+        "spriteXOffsetPx": 20,
+        "spriteYOffsetPx": 10
+    },
+    "57": {
+        "spriteXOffsetPx": 40,
+        "spriteYOffsetPx": 40
+    },
+    "58": {
+        "spriteXOffsetPx": 20,
+        "spriteYOffsetPx": -5
+    },
+    "59": {
+        "spriteXOffsetPx": 0,
+        "spriteYOffsetPx": -30
+    },
+    "60": {
+        "spriteXOffsetPx": 0,
+        "spriteYOffsetPx": -30
+    },
+    "61": {
+        "spriteXOffsetPx": 0,
+        "spriteYOffsetPx": -30
+    },
+    "62": {
+        "spriteXOffsetPx": 0,
+        "spriteYOffsetPx": -30
+    },
+    "63": {
+        "spriteXOffsetPx": 26,
+        "spriteYOffsetPx": 0
+    },
+    "64": {
+        "spriteXOffsetPx": 15,
+        "spriteYOffsetPx": 0
+    },
+    "65": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 5
+    },
+    "66": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 5
+    },
+    "67": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 5
+    },
+    "68": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 10
+    },
+    "69": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 10
+    },
+    "70": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 10
+    },
+    "71": {
+        "spriteXOffsetPx": 20,
+        "spriteYOffsetPx": 10
+    },
+    "72": {
+        "spriteXOffsetPx": -4,
+        "spriteYOffsetPx": 0
+    },
+    "73": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 0
+    },
+    "74": {
+        "spriteXOffsetPx": -4,
+        "spriteYOffsetPx": -8
+    },
+    "75": {
+        "spriteXOffsetPx": -4,
+        "spriteYOffsetPx": -8
+    },
+    "76": {
+        "spriteXOffsetPx": -4,
+        "spriteYOffsetPx": -8
+    },
+    "77": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": -2
+    },
+    "78": {
+        "spriteXOffsetPx": 2,
+        "spriteYOffsetPx": 4
+    }
+}
 function findAllPairsWithinX(circles, x) {
     const len = circles.length;
     if (len < 2) return [];
@@ -10725,6 +11039,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           if (entity[0] === 0) { // if player
               if (rangeMap[entity[4]] && window.globalSettings.weaponRanges.enabled) { // if item held has a range
                   toRender.push([4, entity[1], entity[2], rangeMap[entity[4]], entity[5], "red"])
+                  console.log(entity[4])
               } else if (itemIdToEntityIdMap[entity[4]]) { // else if held item has a radius
                   toRender.push([0, entity[1], entity[2], radiusMap[itemIdToEntityIdMap[entity[4]]], "red"])
               }
