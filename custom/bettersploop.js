@@ -11204,13 +11204,8 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                   //const localY = -itemIdToOffsetsMap[entity[4]].spriteHeight / 2 + yOffset;
                   //const localX = 29 - itemIdToOffsetsMap[entity[4]].spriteWidth / 2 + xOffset;
                   //const localY = -48 + yOffset;
-                  // Calculate the actual offset from the player center (pivot) to the item's center
-                  let dx = (spriteWidth / 2) - xOffset; // Replace 'width' with your sprite width variable
-                  let dy = (spriteHeight / 2) - yOffset; // Replace 'height' with your sprite height variable
-                  
-                  // Apply rotation using the correct center offsets
-                  let xpos = entity[1] + dx * Math.cos(entity[5]) - dy * Math.sin(entity[5]);
-                  let ypos = entity[2] + dx * Math.sin(entity[5]) + dy * Math.cos(entity[5]);
+                  let xpos = entity[1] + xOffset*Math.cos(entity[5]) - yOffset*Math.sin(entity[5])
+                  let ypos = entity[2] + xOffset*Math.sin(entity[5]) + yOffset*Math.cos(entity[5])
                   console.log(xpos, ypos)
                   toRender.push([0, xpos, ypos, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]);
                   //const worldX = localX * Math.cos(entity[5]) - localY * Math.sin(entity[5]);
