@@ -11207,7 +11207,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                   const rotatedY = calcOffsetX * Math.sin(entity[5]) + calcOffsetY * Math.cos(entity[5]);
                   toRender.push([0, entity[1]+rotatedX, entity[2]+rotatedY, radiusMap[itemIdToEntityIdMap[entity[4]]], "orange"]); // hitbox
                   toRender.push([1, entity[1]+rotatedX, entity[2]+rotatedY, "orange"]); // center point
-                  toRender.push([3, entity[1]+rotatedX, entity[2]+rotatedY, (entity[1]+rotatedX)+entity[3]*Math.cos(entity[5]), (entity[2]+rotatedY)+entity[3]*Math.sin(entity[5]), "orange"]); // angle
+                  toRender.push([3, entity[1]+rotatedX, entity[2]+rotatedY, (entity[1]+rotatedX)+radiusMap[itemIdToEntityIdMap[entity[4]]]*Math.cos(entity[5]), (entity[2]+rotatedY)+radiusMap[itemIdToEntityIdMap[entity[4]]]*Math.sin(entity[5]), "orange"]); // angle
               }
           }
 
