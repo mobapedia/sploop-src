@@ -119,6 +119,7 @@ const rangeMap = {
     "77": 90,
     "78": 94
 }
+const itemIdToEntityIdMap = {}
 function findAllPairsWithinX(circles, x) {
     const len = circles.length;
     if (len < 2) return [];
@@ -10686,7 +10687,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           } else {
             L(Jr[t], o, Jr[t + 1], Jr[t + 8], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, m().Qw(Jr[t + 9]), i, Jr[t + 11], Jr[t + 12], Jr[t + 13], Jr[t + 14], Jr[t + 15], Jr[t + 16], Jr[t + 17], Jr[t + 18], n);
             //EDIT
-            entityUids[o] = [Jr[t], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]], rangeMap[Jr[t+10]], Jr[t + 9] / 255 * (Math.PI*2) - Math.PI]
+            entityUids[o] = [Jr[t], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]], Jr[t+10], Jr[t + 9] / 255 * (Math.PI*2) - Math.PI]
             //ENDEDIT
           }
         }
@@ -10697,22 +10698,27 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           const entity = entityUids[keys[i]]
           if (window.globalSettings.hitboxes.enabled) toRender.push([0, entity[1], entity[2], entity[3], "red"]) // hitbox
           if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]) // center dot
-          if (entity[0] === 0 && window.globalSettings.weaponRanges.enabled) { // ranges
-              toRender.push([4, entity[1], entity[2], entity[4], entity[5], "red"])
-              console.log(entity[4])
-          }
-          if (entity[0] !== 0 && window.globalSettings.placementAngles.enabled) { // placement angles
-              toRender.push([3, entity[1], entity[2], entity[1]+entity[3]*Math.cos(entity[5]), entity[2]+entity[3]*Math.sin(entity[5]), "red"])
+          if (window.globalSettings.placementAngles.enabled) toRender.push([3, entity[1], entity[2], entity[1]+entity[3]*Math.cos(entity[5]), entity[2]+entity[3]*Math.sin(entity[5]), "red"]) // angles
+
+          // ranges and 
+          if (entity[0] === 0) { // if player
+              if (rangeMap[entity[4]] && window.globalSettings.weaponRanges.enabled) { // ranges (if item held has a range)
+                  toRender.push([4, entity[1], entity[2], rangeMap[entity[4]], entity[5], "red"])
+                  console.log(entity[4])
+              } else if (itemIdToEntityIdMap[entity[4]]) { // else if held item has a radius (then draw hitbox)
+                  
+              }
           }
 
+          // basing reference lines
           if (window.globalSettings.basingReferenceLines.enabled) {
-            // only tree/stone/bush
-            if (entity[0] === 19 || entity[0] === 20 || entity[0] === 21 || entity[0] === 5) {
+            if (entity[0] === 19 || entity[0] === 20 || entity[0] === 21 || entity[0] === 5) { // only tree/stone/bush
               reordered.push({x:entity[1],y:entity[2],r:entity[3]})
             }
           }
         }
 
+        // basing reference lines
         if (window.globalSettings.basingReferenceLines.enabled) {
             const pairs = findAllPairsWithinX(reordered, 10) // find all buildings within 10 units
             for (let i=0; i < pairs.length; i++) {
