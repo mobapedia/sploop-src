@@ -14,7 +14,7 @@
 1: point [x,y,color]
 2: filled circle [x,y,r,color]
 3: line [x1,y1,x2,y2,color]
-4: shaded semicircle [x,y,r,angle,color]
+4: shaded semicircle [x,y,r,angle,color,opacity]
 */
 let entityUids = {} // [entityId, x, y, radius, itemidofhelditem, angle]
 let toRender = []
@@ -10009,7 +10009,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
             }
             if (toRender[i][0] === 4) { // shaded semicircles
                 const angle = toRender[i][4]
-                $e.globalAlpha = .333
+                $e.globalAlpha = toRender[i][6]
                 $e.beginPath();
                 $e.arc(toRender[i][1], toRender[i][2], toRender[i][3], angle-(Math.PI/2), angle+(Math.PI/2), false);
                 $e.fillStyle = toRender[i][5];
@@ -11194,7 +11194,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           // ranges and hitbox on held items
           if (entity[0] === 0) { // if player
               if (rangeMap[entity[4]]) { // if item held has a range
-                  toRender.push([4, entity[1], entity[2], rangeMap[entity[4]], entity[5], "red"]);
+                  toRender.push([4, entity[1], entity[2], rangeMap[entity[4]], entity[5], "red", .333]);
               } else if (itemIdToEntityIdMap[entity[4]]) { // else if held item has a radius
                   const xOffset = itemIdToOffsetsMap[entity[4]].spriteXOffsetPx;
                   const yOffset = itemIdToOffsetsMap[entity[4]].spriteYOffsetPx;
@@ -11205,9 +11205,9 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                   const calcOffsetY = -spriteHeight / 2 + yOffset + spriteHeight/2;
                   const rotatedX = calcOffsetX * Math.cos(entity[5]) - calcOffsetY * Math.sin(entity[5]);
                   const rotatedY = calcOffsetX * Math.sin(entity[5]) + calcOffsetY * Math.cos(entity[5]);
-                  toRender.push([0, entity[1]+rotatedX, entity[2]+rotatedY, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]); // hitbox
-                  toRender.push([1, entity[1]+rotatedX, entity[2]+rotatedY, "red"]); // center point
-                  toRender.push([3, entity[1]+rotatedX, entity[2]+rotatedY, (entity[1]+rotatedX)+entity[3]*Math.cos(entity[5]), (entity[2]+rotatedY)+entity[3]*Math.sin(entity[5]), "red"]); // angle
+                  toRender.push([0, entity[1]+rotatedX, entity[2]+rotatedY, radiusMap[itemIdToEntityIdMap[entity[4]]], "orange"]); // hitbox
+                  toRender.push([1, entity[1]+rotatedX, entity[2]+rotatedY, "orange"]); // center point
+                  toRender.push([3, entity[1]+rotatedX, entity[2]+rotatedY, (entity[1]+rotatedX+entity[3])*Math.cos(entity[5]), (entity[2]+rotatedY+entity[3])*Math.sin(entity[5]), "orange"]); // angle
               }
           }
 
@@ -11236,8 +11236,8 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                 toRender.push([0, _42Holo.pointB.x, _42Holo.pointB.y, 42, "red"]);
 
                 // 165 ranges
-                toRender.push([4, _35Holo.pointA.x, _35Holo.pointA.y, 165, _35Holo.angle+Math.PI, "yellow"]);
-                toRender.push([4, _35Holo.pointB.x, _35Holo.pointB.y, 165, _35Holo.angle, "yellow"]);
+                toRender.push([4, _35Holo.pointA.x, _35Holo.pointA.y, 165, _35Holo.angle+Math.PI, "purple", .2]);
+                toRender.push([4, _35Holo.pointB.x, _35Holo.pointB.y, 165, _35Holo.angle, "purple", .2]);
             }
         }
         //ENDEDIT
