@@ -11196,22 +11196,17 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
               if (rangeMap[entity[4]] && window.globalSettings.weaponRanges.enabled) { // if item held has a range
                   toRender.push([4, entity[1], entity[2], rangeMap[entity[4]], entity[5], "red"]);
               } else if (itemIdToEntityIdMap[entity[4]]) { // else if held item has a radius
-                  const xOffset = itemIdToOffsetsMap[entity[4]].spriteXOffsetPx
-                  const yOffset = itemIdToOffsetsMap[entity[4]].spriteYOffsetPx
-                  const spriteWidth = itemIdToOffsetsMap[entity[4]].spriteWidth/2
-                  const spriteHeight = itemIdToOffsetsMap[entity[4]].spriteHeight/2
-                  //const localX = 70 / (0.9 * 0.05) - itemIdToOffsetsMap[entity[4]].spriteWidth / 2 - xOffset;
-                  //const localY = -itemIdToOffsetsMap[entity[4]].spriteHeight / 2 + yOffset;
-                  //const localX = 29 - itemIdToOffsetsMap[entity[4]].spriteWidth / 2 + xOffset;
-                  //const localY = -48 + yOffset;
-                  let xpos = 35 - xOffset
-                  let ypos = -spriteHeight / 2 + yOffset
-                  let rotatedX = xpos * Math.cos(entity[5]) - ypos * Math.sin(entity[5])
-                  let rotatedY = xpos * Math.sin(entity[5]) + ypos * Math.cos(entity[5])
-                  console.log(rotatedX, rotatedY)
+                  const xOffset = itemIdToOffsetsMap[entity[4]].spriteXOffsetPx;
+                  const yOffset = itemIdToOffsetsMap[entity[4]].spriteYOffsetPx;
+                  const spriteWidth = itemIdToOffsetsMap[entity[4]].spriteWidth/2;
+                  const spriteHeight = itemIdToOffsetsMap[entity[4]].spriteHeight/2;
+                  
+                  let xpos = 35 - xOffset + spriteWidth/2
+                  let ypos = -spriteHeight / 2 + yOffset + spriteHeight/2
+                  let rotatedX = xpos * Math.cos(entity[5]) - ypos * Math.sin(entity[5]);
+                  let rotatedY = xpos * Math.sin(entity[5]) + ypos * Math.cos(entity[5]);
+                  console.log(rotatedX, rotatedY);
                   toRender.push([0, entity[1]+rotatedX, entity[2]+rotatedY, radiusMap[itemIdToEntityIdMap[entity[4]]], "red"]);
-                  //const worldX = localX * Math.cos(entity[5]) - localY * Math.sin(entity[5]);
-                  //const worldY = localX * Math.sin(entity[5]) + localY * Math.cos(entity[5]);
               }
           }
 
