@@ -11195,7 +11195,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           if (entity[0] === 0) { // if player
               if (rangeMap[entity[4]]) { // if item held has a range
                   if (window.globalSettings.weaponRanges) toRender.push([4, entity[1], entity[2], rangeMap[entity[4]], entity[5], "red", .333]);
-              } else if (itemIdToEntityIdMap[entity[4]] && window.globalSettings.hitboxesOnHeldItems) { // else if held item has a radius
+              } else if (itemIdToEntityIdMap[entity[4]]) { // else if held item has a radius
                   const xOffset = itemIdToOffsetsMap[entity[4]].spriteXOffsetPx;
                   const yOffset = itemIdToOffsetsMap[entity[4]].spriteYOffsetPx;
                   const spriteWidth = itemIdToOffsetsMap[entity[4]].spriteWidth/2;
@@ -11205,9 +11205,9 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                   const calcOffsetY = -spriteHeight / 2 + yOffset + spriteHeight/2;
                   const rotatedX = calcOffsetX * Math.cos(entity[5]) - calcOffsetY * Math.sin(entity[5]);
                   const rotatedY = calcOffsetX * Math.sin(entity[5]) + calcOffsetY * Math.cos(entity[5]);
-                  toRender.push([0, entity[1]+rotatedX, entity[2]+rotatedY, radiusMap[itemIdToEntityIdMap[entity[4]]], "orange"]); // hitbox
-                  if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1]+rotatedX, entity[2]+rotatedY, "orange"]); // center point
-                  if (window.globalSettings.placementAngles.enabled) toRender.push([3, entity[1]+rotatedX, entity[2]+rotatedY, (entity[1]+rotatedX)+radiusMap[itemIdToEntityIdMap[entity[4]]]*Math.cos(entity[5]), (entity[2]+rotatedY)+radiusMap[itemIdToEntityIdMap[entity[4]]]*Math.sin(entity[5]), "orange"]); // angle
+                  if (window.globalSettings.hitboxesOnHeldItems) toRender.push([0, entity[1]+rotatedX, entity[2]+rotatedY, radiusMap[itemIdToEntityIdMap[entity[4]]], "orange"]); // hitbox
+                  if (window.globalSettings.centerPointOnHeldItems.enabled) toRender.push([1, entity[1]+rotatedX, entity[2]+rotatedY, "orange"]); // center point
+                  if (window.globalSettings.placementAnglesOnHeldItems.enabled) toRender.push([3, entity[1]+rotatedX, entity[2]+rotatedY, (entity[1]+rotatedX)+radiusMap[itemIdToEntityIdMap[entity[4]]]*Math.cos(entity[5]), (entity[2]+rotatedY)+radiusMap[itemIdToEntityIdMap[entity[4]]]*Math.sin(entity[5]), "orange"]); // angle
               }
           }
 
