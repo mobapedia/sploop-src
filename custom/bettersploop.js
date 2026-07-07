@@ -10285,20 +10285,22 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
             const def = W()[lo.hm[e]];
             const resIndex = def.Hw;
             const have = lo.zm[resIndex];
-            const need = c().kw[resIndex];
-            const text = have + "/" + need;
-            n.save();
-            n.font = "17px Baloo Paaji";
-            n.textAlign = "right";
-            n.textBaseline = "bottom";
-            n.lineWidth = 4;
-            n.strokeStyle = "#000";
-            n.fillStyle = have >= need ? "red" : "#fff";
-            const x = t.zh + t.width - 4;
-            const y = t.Mh + t.height - 4;
-            n.strokeText(text, x, y);
-            n.fillText(text, x, y);
-            n.restore();
+            const max = c().kw[resIndex];
+            const text = have + "/" + max;
+            if (max > 0) {
+                n.save();
+                n.font = "17px Baloo Paaji";
+                n.textAlign = "right";
+                n.textBaseline = "bottom";
+                n.lineWidth = 4;
+                n.strokeStyle = "#000";
+                n.fillStyle = have >= max ? "red" : "#fff";
+                const x = t.zh + t.width - 4;
+                const y = t.Mh + t.height - 4;
+                n.strokeText(text, x, y);
+                n.fillText(text, x, y);
+                n.restore();
+            }
             // ENDEDIT
             if (t.ku === 1 && !ht) {
               let o = lo.hm[e];
