@@ -16,7 +16,7 @@
 3: line [x1,y1,x2,y2,color]
 4: shaded semicircle [x,y,r,angle,color,opacity]
 */
-let entityUids = {} // [entityId, x, y, radius, itemidofhelditem, angle]
+let entityUids = {} // [entityId, x, y, radius, itemidofhelditem, angle, health]
 let toRender = []
 let coords = []
 let inventoryCounts = []
@@ -11204,7 +11204,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           } else {
             L(Jr[t], o, Jr[t + 1], Jr[t + 8], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, m().Qw(Jr[t + 9]), i, Jr[t + 11], Jr[t + 12], Jr[t + 13], Jr[t + 14], Jr[t + 15], Jr[t + 16], Jr[t + 17], Jr[t + 18], n);
             //EDIT
-            entityUids[o] = [Jr[t], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]], Jr[t+10], Jr[t + 9] / 255 * (Math.PI*2) - Math.PI]
+            entityUids[o] = [Jr[t], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]], Jr[t+10], Jr[t + 9] / 255 * (Math.PI*2) - Math.PI, Jr[t+13]]
             //ENDEDIT
           }
         }
@@ -11213,6 +11213,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         let keys = Object.keys(entityUids);
         for (let i=0; i < keys.length; i++) {
           const entity = entityUids[keys[i]];
+          console.log(entity[6]) // health
           if (window.globalSettings.hitboxes.enabled) toRender.push([0, entity[1], entity[2], entity[3], "red"]); // hitboxes
           if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]); // center points
           if (window.globalSettings.placementAngles.enabled) toRender.push([3, entity[1], entity[2], entity[1]+entity[3]*Math.cos(entity[5]), entity[2]+entity[3]*Math.sin(entity[5]), "red"]); // angles
