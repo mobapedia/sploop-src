@@ -11213,7 +11213,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         let keys = Object.keys(entityUids);
         for (let i=0; i < keys.length; i++) {
           const entity = entityUids[keys[i]];
-          console.log(entity[6]) // health
+          console.log(entity[0], entity[6]/255)
           if (window.globalSettings.hitboxes.enabled) toRender.push([0, entity[1], entity[2], entity[3], "red"]); // hitboxes
           if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]); // center points
           if (window.globalSettings.placementAngles.enabled) toRender.push([3, entity[1], entity[2], entity[1]+entity[3]*Math.cos(entity[5]), entity[2]+entity[3]*Math.sin(entity[5]), "red"]); // angles
