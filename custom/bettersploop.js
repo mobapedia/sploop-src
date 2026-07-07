@@ -15,6 +15,7 @@
 2: filled circle [x,y,r,color]
 3: line [x1,y1,x2,y2,color]
 4: shaded semicircle [x,y,r,angle,color,opacity]
+5: text [x,y,text]
 */
 let entityUids = {} // [entityId, x, y, radius, itemidofhelditem, angle, health]
 let toRender = []
@@ -10062,6 +10063,17 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                 $e.fill();
                 $e.globalAlpha = 1
             }
+            if (toRender[i][0] === 5) { // text
+                $e.save();
+                $e.font = "17px Baloo Paaji";
+                $e.lineWidth = 4;
+                $e.lineJoin = "round";
+                $e.strokeStyle = "#000";
+                $e.fillStyle = "#fff";
+                $e.strokeText(toRender[i][2], toRender[i][0], toRender[i][1]);
+                $e.fillText(toRender[i][2], toRender[i][0], toRender[i][1]);
+                $e.restore();
+            }
         }
         $e.restore();
         // ENDEDIT
@@ -11258,7 +11270,8 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         let keys = Object.keys(entityUids);
         for (let i=0; i < keys.length; i++) {
           const entity = entityUids[keys[i]];
-          console.log(entity[0], (entity[6]/255)*entityIdToMaxHealthMap[entity[0]])
+          const health = (entity[6]/255)*entityIdToMaxHealthMap[entity[0]];
+          toRender.push([5, entity[1], entity[2], health+"/"+entityIdToMaxHealthMap[entity[0]]]);
           if (window.globalSettings.hitboxes.enabled) toRender.push([0, entity[1], entity[2], entity[3], "red"]); // hitboxes
           if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]); // center points
           if (window.globalSettings.placementAngles.enabled) toRender.push([3, entity[1], entity[2], entity[1]+entity[3]*Math.cos(entity[5]), entity[2]+entity[3]*Math.sin(entity[5]), "red"]); // angles
