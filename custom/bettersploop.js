@@ -10978,8 +10978,10 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         mo.$s(ao, n[1]);
       }
       function hc() {
-        //EDIT ENDEDIT
-        console.log(Jr)
+        // EDIT ENDEDIT
+        let x = Array.from(Jr)
+        x.shift()
+        console.log(x)
         for (let n = 1; n < Ir; n++) {
           lo.zm[n - 1] = Jr[n];
         }
