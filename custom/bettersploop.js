@@ -10287,7 +10287,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
             const have = lo.zm[resIndex];
             const max = c().kw[resIndex];
             const text = have + "/" + max;
-            if (max > 0) {
+            if (max > 0 && window.globalSettings.itemCounter.enabled) {
                 n.save();
                 n.font = "17px Baloo Paaji";
                 n.textAlign = "right";
