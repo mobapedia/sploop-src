@@ -10281,29 +10281,22 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           for (let t, e = 0, o = lo.bm; e < o.length; e++) {
             t = o[e];
             t.dm(n);
-              // ITEM COUNTER EDIT
-              const def = W()[lo.hm[e]];
-              //if (!def) return;
-              const resIndex = def.Hw;
-              //if (resIndex === undefined) return; // items with no resource cost (e.g. pure weapons)
-            
-              const have = lo.zm[resIndex];
-              const need = c().kw[resIndex];
-              const text = have + "/" + need;
-            
-              n.save();
-              n.font = "14px Arial";
-              n.textAlign = "right";
-              n.textBaseline = "bottom";
-              n.lineWidth = 3;
-              n.strokeStyle = "#000";
-              n.fillStyle = have >= need ? "#fff" : "#ff4d4d";
-              const x = t.zh + t.width - 4;
-              const y = t.Mh + t.height - 4;
-              n.strokeText(text, x, y);
-              n.fillText(text, x, y);
-              n.restore();
-
+            // ITEM COUNTER EDIT
+            const have = lo.zm[resIndex];
+            const need = c().kw[resIndex];
+            const text = have + "/" + need;
+            n.save();
+            n.font = "17px Baloo Paaji";
+            n.textAlign = "right";
+            n.textBaseline = "bottom";
+            n.lineWidth = 4;
+            n.strokeStyle = "#000";
+            n.fillStyle = have >= need ? "red" : "#fff";
+            const x = t.zh + t.width - 4;
+            const y = t.Mh + t.height - 4;
+            n.strokeText(text, x, y);
+            n.fillText(text, x, y);
+            n.restore();
             // ENDEDIT
             if (t.ku === 1 && !ht) {
               let o = lo.hm[e];
