@@ -10066,14 +10066,12 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
             if (toRender[i][0] === 5) { // text
                 $e.save();
                 $e.font = "17px Baloo Paaji";
-                $e.textAlign = "left";
-                $e.textBaseline = "top";
                 $e.lineWidth = 4;
                 $e.lineJoin = "round";
                 $e.strokeStyle = "#000";
                 $e.fillStyle = "#fff";
-                $e.strokeText(toRender[i][2], toRender[i][0], toRender[i][1]);
-                $e.fillText(toRender[i][2], toRender[i][0], toRender[i][1]);
+                $e.strokeText(toRender[i][3], toRender[i][1], toRender[i][2]);
+                $e.fillText(toRender[i][3], toRender[i][1], toRender[i][2]);
                 $e.restore();
             }
         }
