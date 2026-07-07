@@ -11271,7 +11271,8 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         for (let i=0; i < keys.length; i++) {
           const entity = entityUids[keys[i]];
           const health = (entity[6]/255)*entityIdToMaxHealthMap[entity[0]];
-          toRender.push([5, entity[1], entity[2], health+"/"+entityIdToMaxHealthMap[entity[0]]]);
+          const maxHealth = entityIdToMaxHealthMap[entity[0]]
+          if (health !== NaN && maxHealth !== Infinity) toRender.push([5, entity[1], entity[2], health+"/"+maxHealth]);
           if (window.globalSettings.hitboxes.enabled) toRender.push([0, entity[1], entity[2], entity[3], "red"]); // hitboxes
           if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]); // center points
           if (window.globalSettings.placementAngles.enabled) toRender.push([3, entity[1], entity[2], entity[1]+entity[3]*Math.cos(entity[5]), entity[2]+entity[3]*Math.sin(entity[5]), "red"]); // angles
