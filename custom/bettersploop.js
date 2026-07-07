@@ -120,6 +120,36 @@ const rangeMap = {
     "77": 90,
     "78": 94
 }
+const entityIdToMaxHealthMap = {
+    "0": 100,
+    "2": 500,
+    "6": 500,
+    "7": 380,
+    "8": 380,
+    "9": 300,
+    "10": 300,
+    "11": 4,
+    "13": 400,
+    "14": 380,
+    "15": 380,
+    "16": 400,
+    "17": 1200,
+    "18": 800,
+    "22": 1750,
+    "23": 380,
+    "24": 380,
+    "25": 1000,
+    "26": 300,
+    "27": 5000,
+    "28": 5000,
+    "29": 380,
+    "30": 380,
+    "36": 380,
+    "37": 150,
+    "41": 250,
+    "42": 500,
+    "43": 450
+}
 const itemIdToEntityIdMap = {
     "5": 8,
     "6": 10,
@@ -11213,7 +11243,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         let keys = Object.keys(entityUids);
         for (let i=0; i < keys.length; i++) {
           const entity = entityUids[keys[i]];
-          console.log(entity[0], entity[6]/255)
+          console.log(entity[0], (entity[6]/255)*entityIdToMaxHealthMap[entity[0]])
           if (window.globalSettings.hitboxes.enabled) toRender.push([0, entity[1], entity[2], entity[3], "red"]); // hitboxes
           if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]); // center points
           if (window.globalSettings.placementAngles.enabled) toRender.push([3, entity[1], entity[2], entity[1]+entity[3]*Math.cos(entity[5]), entity[2]+entity[3]*Math.sin(entity[5]), "red"]); // angles
