@@ -10282,8 +10282,8 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
             t = o[e];
             t.dm(n);
             // ITEM COUNTER EDIT
-            const have = lo.zm[resIndex];
-            const need = c().kw[resIndex];
+            const have = lo.zm[def.Hw];
+            const need = c().kw[def.Hw];
             const text = have + "/" + need;
             n.save();
             n.font = "17px Baloo Paaji";
