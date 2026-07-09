@@ -11322,8 +11322,8 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                 toRender.push([0, _42Holo.pointB.x, _42Holo.pointB.y, 42, "magenta"]);
 
                 const _60Holo = getFittedCircleCenter(pairs[i][0], pairs[i][1], 60);
-                toRender.push([0, _42Holo.pointA.x, _42Holo.pointA.y, 60, "#c5ff3d"]);
-                toRender.push([0, _42Holo.pointB.x, _42Holo.pointB.y, 60, "#c5ff3d"]);
+                toRender.push([0, _60Holo.pointA.x, _60Holo.pointA.y, 60, "#c5ff3d"]);
+                toRender.push([0, _60Holo.pointB.x, _60Holo.pointB.y, 60, "#c5ff3d"]);
 
                 // 165 ranges
                 toRender.push([4, _35Holo.pointA.x, _35Holo.pointA.y, 165, _35Holo.angle+Math.PI, "purple", .25]);
