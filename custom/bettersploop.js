@@ -10347,13 +10347,14 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
             if (max > 0 && window.globalSettings.itemCounter.enabled) {
                 n.save();
                 n.font = "17px Baloo Paaji";
-                n.textAlign = "center";
+                n.textAlign = "right";
                 n.textBaseline = "bottom";
                 n.lineWidth = 4;
                 n.strokeStyle = "#000";
                 n.fillStyle = have >= max ? "red" : "#fff";
                 const x = t.zh + t.width - 4;
                 const y = t.Mh + t.height - 4;
+                toRender.push([1, x, y, "pink"]);
                 n.strokeText(text, x, y);
                 n.fillText(text, x, y);
                 n.restore();
