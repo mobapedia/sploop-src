@@ -10352,8 +10352,8 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                 n.lineWidth = 4;
                 n.strokeStyle = "#000";
                 n.fillStyle = have >= max ? "red" : "#fff";
-                const x = t.zh/* + t.width - 4*/;
-                const y = t.Mh/* + t.height - 4*/;
+                const x = t.zh+t.width/2/* + t.width - 4*/;
+                const y = t.Mh+t.height-5/* + t.height - 4*/;
                 n.strokeText(text, x, y);
                 n.fillText(text, x, y);
 
