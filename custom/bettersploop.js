@@ -10357,11 +10357,11 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                 n.strokeText(text, x, y);
                 n.fillText(text, x, y);
 
-                $e.beginPath();
-                $e.arc(toRender[i][1], toRender[i][2], 1, 0, Math.PI * 2);
-                $e.fillStyle = toRender[i][3];
-                $e.lineWidth = 1;
-                $e.fill();
+                n.beginPath();
+                n.arc(x, y, 1, 0, Math.PI * 2);
+                n.fillStyle = "red"
+                n.lineWidth = 1;
+                n.fill();
                 n.restore();
             }
             // ENDEDIT
