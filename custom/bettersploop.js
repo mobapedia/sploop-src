@@ -10353,16 +10353,9 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                 n.strokeStyle = "#000";
                 n.fillStyle = have >= max ? "red" : "#fff";
                 const x = t.zh+(t.width/2)/* + t.width - 4*/;
-                const y = t.Mh+t.height-2/* + t.height - 4*/;
+                const y = t.Mh+t.height-3/* + t.height - 4*/;
                 n.strokeText(text, x, y);
                 n.fillText(text, x, y);
-
-                n.beginPath();
-                n.arc(t.zh+t.width/2, t.Mh+t.height-4, 1, 0, Math.PI * 2);
-                n.fillStyle = "red"
-                n.lineWidth = 1;
-                n.fill();
-                n.restore();
             }
             // ENDEDIT
             if (t.ku === 1 && !ht) {
