@@ -10358,7 +10358,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                 n.fillText(text, x, y);
 
                 n.beginPath();
-                n.arc(t.zh+t.width, t.Mh+t.height, 1, 0, Math.PI * 2);
+                n.arc(t.zh+t.width/2, t.Mh+t.height-4, 1, 0, Math.PI * 2);
                 n.fillStyle = "red"
                 n.lineWidth = 1;
                 n.fill();
