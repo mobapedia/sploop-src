@@ -11272,7 +11272,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           const health = Math.round((entity[6]/255)*entityIdToMaxHealthMap[entity[0]]);
           const maxHealth = entityIdToMaxHealthMap[entity[0]];
           // instead of doing + radius do + spriteHeight/2 but to do that i would need a table of entityid to spritedimensions which is a pain to create
-          if (health !== NaN && health !== 0 && maxHealth !== Infinity) toRender.push([5, entity[1], entity[2]+entity[3]+85, health+"/"+maxHealth]);
+          if (health !== NaN && health !== 0 && maxHealth !== Infinity) toRender.push([5, entity[1], entity[2]+entity[3]+50, health+"/"+maxHealth]);
           if (window.globalSettings.hitboxes.enabled) toRender.push([0, entity[1], entity[2], entity[3], "red"]); // hitboxes
           if (window.globalSettings.centerPoint.enabled) toRender.push([1, entity[1], entity[2], "red"]); // center points
           if (window.globalSettings.placementAngles.enabled) toRender.push([3, entity[1], entity[2], entity[1]+entity[3]*Math.cos(entity[5]), entity[2]+entity[3]*Math.sin(entity[5]), "red"]); // angles
