@@ -11273,7 +11273,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           const maxHealth = entityIdToMaxHealthMap[entity[0]];
           if (window.globalSettings.mobHealth.enabled) {
               if (health !== NaN && health !== 0 && maxHealth !== Infinity) { // if not building
-                  toRender.push([5, entity[1], entity[2]+entity[3]+50-3, health+"/"+maxHealth, undefined, undefined, "10px Baloo Paaji"]);
+                  toRender.push([5, entity[1], entity[2]+entity[3]+50-3, health+"/"+maxHealth, undefined, undefined, "11px Baloo Paaji"]);
               }
           }
           if (window.globalSettings.hitboxes.enabled) toRender.push([0, entity[1], entity[2], entity[3], "red"]); // hitboxes
