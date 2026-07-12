@@ -11258,6 +11258,9 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
             delete entityUids[o]
             //ENDEDIT
           } else {
+            if (Jr[t] === 4) {
+                console.log([Jr[t], Jr[t+1], Jr[t+2], Jr[t+3], Jr[t+4], Jr[t+5], Jr[t+6], Jr[t+7], Jr[t+8], Jr[t+9], Jr[t+10], Jr[t+11], Jr[t+12], Jr[t+13], Jr[t+14], Jr[t+15], Jr[t+16], Jr[t+17], Jr[t+18]])
+            }
             L(Jr[t], o, Jr[t + 1], Jr[t + 8], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, m().Qw(Jr[t + 9]), i, Jr[t + 11], Jr[t + 12], Jr[t + 13], Jr[t + 14], Jr[t + 15], Jr[t + 16], Jr[t + 17], Jr[t + 18], n);
             //EDIT
             entityUids[o] = [Jr[t], Jr[t + 4] | Jr[t + 5] << 8, Jr[t + 6] | Jr[t + 7] << 8, radiusMap[Jr[t]], Jr[t+10], Jr[t + 9] / 255 * (Math.PI*2) - Math.PI, Jr[t+13]]
