@@ -20,7 +20,7 @@
 
 //[Jr[t], Jr[t+1], Jr[t+2], Jr[t+3], Jr[t+4], Jr[t+5], Jr[t+6], Jr[t+7], Jr[t+8], Jr[t+9], Jr[t+10], Jr[t+11], Jr[t+12], Jr[t+13], Jr[t+14], Jr[t+15], Jr[t+16], Jr[t+17], Jr[t+18]]
 //[entityid, idk, entityuid, entityuid, x1, x2, y1, y2, idk, angle, itemidofhelditem, idk, idk, health, idk, idk, idk, idk, idk]
-let now = Date.now()
+
 let entityUids = {} // [entityId, x, y, radius, itemidofhelditem, angle, health]
 let toRender = []
 let coords = []
@@ -11045,8 +11045,6 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         lo.rg(n[1]);
       }
       function fc() {
-        console.log(now-Date.now())
-        now = Date.now()
         const n = Math.max(0, Jr[1] | Jr[2] << 8 | Jr[3] << 16 | Jr[4] << 24);
         const t = Jr[5] | Jr[6] << 8 | Jr[7] << 16 | Jr[8] << 24;
         const e = Jr[9] | Jr[10] << 8 | Jr[11] << 16 | Jr[12] << 24;
