@@ -11197,6 +11197,9 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
       function Cc() {
         let t = Jr[1] | Jr[2] << 8;
         Oi = m().Gm(t + "ms", c().xw, c().Rv, "#222222");
+        // EDIT
+        globalSettings.infoOverlay.ping = t;
+        // ENDEDIT
       }
       function Ac() {
         const n = Jr[1];
