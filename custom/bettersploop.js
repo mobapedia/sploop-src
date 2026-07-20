@@ -10080,6 +10080,8 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
             }
         }
         $e.restore();
+
+        window.globalSettings.infoOverlay.fpsEvents.push(performance.now());
         // ENDEDIT
         window.requestAnimationFrame(Mr);
       }
@@ -11241,6 +11243,7 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
       function Gc() {
         // EDIT
         toRender = []
+        window.globalSettings.infoOverlay.tpsEvents.push(performance.now());
         // ENDEDIT
         const n = +new Date();
         for (let t = 1; t < Ir; t += 19) {
