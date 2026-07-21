@@ -9876,16 +9876,19 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
           q().iu();
           Wr(n);
           zi = 0;
-          //EDIT
-          entityUids = {}
-          toRender = []
-          //ENDEDIT
+          // EDIT
+          entityUids = {};
+          toRender = [];
+          // ENDEDIT
         };
         Ee.Dw = n => {
           q().iu();
           zi = 0;
         };
         Ee.onopen = n => {
+          // EDIT
+          globalSettings.network.socket = Ee;
+          // ENDEDIT
           q().iu();
           Vr();
           zi = 2;
