@@ -9820,6 +9820,17 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
         homepage.classList.add("fade-in");
       }
       function hr(n) {
+        // EDIT
+        if (n && window.globalSettings.keystrokesOverlay.enabled) {
+            document.getElementById("ks-keys").style.display = "none"
+            document.getElementById("ks-stats").style.marginBottom = "0px"
+            if (document.getElementById("ks-stats").style.visibility === "hidden") document.getElementById("ks-overlay").style.display = "none"
+        } else if (!n && window.globalSettings.keystrokesOverlay.enabled) {
+            document.getElementById("ks-overlay").style.display = "block"
+            document.getElementById("ks-keys").style.display = "flex"
+            if (document.getElementById("ks-stats").style.visibility === "unset") document.getElementById("ks-stats").style.marginBottom = "8px"
+        }
+        // ENDEDIT
         const o = q().get("homepage");
         if (n) {
           const n = lr;
