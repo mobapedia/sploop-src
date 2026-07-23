@@ -9828,7 +9828,8 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                 document.getElementById("ks-stats").style.height = "0px"
                 document.getElementById("ks-stats").style.marginBottom = "0px"
                 if (document.getElementById("ks-keys").style.display === "none") document.getElementById("ks-overlay").style.display = "none"
-            } else if (window.globalSettings.keystrokesOverlay.enabled && !window.globalSettings.keystrokesOverlay.showInMainMenu) {
+            }
+            if (window.globalSettings.keystrokesOverlay.enabled && !window.globalSettings.keystrokesOverlay.showInMainMenu) {
                 //disable keystrokes overlay
                 document.getElementById("ks-keys").style.display = "none"
                 document.getElementById("ks-stats").style.marginBottom = "0px"
@@ -9843,7 +9844,8 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
                 if (document.getElementById("ks-keys")) {
                     if (document.getElementById("ks-keys").style.display === "flex") document.getElementById("ks-stats").style.marginBottom = "8px"
                 }
-            } else if (window.globalSettings.keystrokesOverlay.enabled && !window.globalSettings.keystrokesOverlay.showInMainMenu) {
+            }
+            if (window.globalSettings.keystrokesOverlay.enabled && !window.globalSettings.keystrokesOverlay.showInMainMenu) {
                 //enable keystrokes overlay
                 document.getElementById("ks-overlay").style.display = "block"
                 document.getElementById("ks-keys").style.display = "flex"
