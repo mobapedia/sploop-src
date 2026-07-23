@@ -9821,14 +9821,34 @@ function getFittedCircleCenter(c1, c2, rNew = 35) {
       }
       function hr(n) {
         // EDIT
-        if (n && window.globalSettings.keystrokesOverlay.enabled) {
-            document.getElementById("ks-keys").style.display = "none"
-            document.getElementById("ks-stats").style.marginBottom = "0px"
-            if (document.getElementById("ks-stats").style.visibility === "hidden") document.getElementById("ks-overlay").style.display = "none"
-        } else if (!n && window.globalSettings.keystrokesOverlay.enabled) {
-            document.getElementById("ks-overlay").style.display = "block"
-            document.getElementById("ks-keys").style.display = "flex"
-            if (document.getElementById("ks-stats").style.visibility === "unset") document.getElementById("ks-stats").style.marginBottom = "8px"
+        if (n) {
+            if (window.globalSettings.infoOverlay.enabled && !window.globalSettings.infoOverlay.showInMainMenu) {
+                //disable info overlay
+                document.getElementById("ks-stats").style.visibility = "hidden"
+                document.getElementById("ks-stats").style.height = "0px"
+                document.getElementById("ks-stats").style.marginBottom = "0px"
+                if (document.getElementById("ks-keys").style.display === "none") document.getElementById("ks-overlay").style.display = "none"
+            } else if (window.globalSettings.keystrokesOverlay.enabled && !window.globalSettings.keystrokesOverlay.showInMainMenu) {
+                //disable keystrokes overlay
+                document.getElementById("ks-keys").style.display = "none"
+                document.getElementById("ks-stats").style.marginBottom = "0px"
+                if (document.getElementById("ks-stats").style.visibility === "hidden") document.getElementById("ks-overlay").style.display = "none"
+            }
+        } else {
+            if (window.globalSettings.infoOverlay.enabled && !window.globalSettings.infoOverlay.showInMainMenu) {
+                //enable info overlay
+                document.getElementById("ks-overlay").style.display = "block"
+                document.getElementById("ks-stats").style.visibility = "unset"
+                document.getElementById("ks-stats").style.height = "unset"
+                if (document.getElementById("ks-keys")) {
+                    if (document.getElementById("ks-keys").style.display === "flex") document.getElementById("ks-stats").style.marginBottom = "8px"
+                }
+            } else if (window.globalSettings.keystrokesOverlay.enabled && !window.globalSettings.keystrokesOverlay.showInMainMenu) {
+                //enable keystrokes overlay
+                document.getElementById("ks-overlay").style.display = "block"
+                document.getElementById("ks-keys").style.display = "flex"
+                if (document.getElementById("ks-stats").style.visibility === "unset") document.getElementById("ks-stats").style.marginBottom = "8px"
+            }
         }
         // ENDEDIT
         const o = q().get("homepage");
